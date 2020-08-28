@@ -1,0 +1,998 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">ring homomorphism</keyword>
+      <keyword chapter="" slide="all">evaluation homomorphism</keyword>
+      <keyword chapter="" slide="all">isomorphism</keyword>
+      <keyword chapter="" slide="all">isomorphic</keyword>
+      <keyword chapter="" slide="all">kernel</keyword>
+      <keyword chapter="" slide="all">image</keyword>
+      <keyword chapter="" slide="all">ideal</keyword>
+      <keyword chapter="" slide="all">proper ideal</keyword>
+      <keyword chapter="" slide="all">Remark.</keyword>
+      <keyword chapter="" slide="all">ideal</keyword>
+      <keyword chapter="" slide="all">Remark.</keyword>
+      <keyword chapter="" slide="all">generated</keyword>
+      <keyword chapter="" slide="all">principal ideal</keyword>
+      <keyword chapter="" slide="all">Principal Ideal Domain</keyword>
+      <keyword chapter="" slide="all">PID</keyword>
+      <keyword chapter="" slide="all">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="9" title="" topic="Ring Homomorphisms, Ideals" course="Math 2070" serial="9">
+      <keywords slide="all" environ="chapter" chapter="9" course="Math 2070">
+        <keyword chapter="9" slide="all">ring homomorphism</keyword>
+        <keyword chapter="9" slide="all">evaluation homomorphism</keyword>
+        <keyword chapter="9" slide="all">isomorphism</keyword>
+        <keyword chapter="9" slide="all">isomorphic</keyword>
+        <keyword chapter="9" slide="all">kernel</keyword>
+        <keyword chapter="9" slide="all">image</keyword>
+        <keyword chapter="9" slide="all">ideal</keyword>
+        <keyword chapter="9" slide="all">proper ideal</keyword>
+        <keyword chapter="9" slide="all">Remark.</keyword>
+        <keyword chapter="9" slide="all">ideal</keyword>
+        <keyword chapter="9" slide="all">Remark.</keyword>
+        <keyword chapter="9" slide="all">generated</keyword>
+        <keyword chapter="9" slide="all">principal ideal</keyword>
+        <keyword chapter="9" slide="all">Principal Ideal Domain</keyword>
+        <keyword chapter="9" slide="all">PID</keyword>
+        <keyword chapter="9" slide="all">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="9" section="" subsection="" subsubsection="" serial="9" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="9" section="" subsection="" subsubsection="" serial="9" slide="">Ring Homomorphisms</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="9" section="" subsection="" subsubsection="" serial="9" slide="">Ideals</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="9" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Ring Homomorphisms</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Ideals</topic>
+          <keywords slide="2" environ="slide" chapter="9" course="Math 2070"/>
+          <newline course="Math 2070" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Homomorphisms" course="Math 2070" chapter="9" num="1" serial="9.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" serial="9.1" slide="">
+          <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Homomorphisms</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="3" environ="slide" chapter="9" course="Math 2070">
+              <keyword chapter="9" slide="3">ring homomorphism</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Homomorphisms</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="704fa25a13e0cdbd6887e64eb2063e6e" course="Math 2070" chapter="9" slide="3" item="9.1">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $(A, +_A, \cdot_A)$, $(B, +_B, \cdot_B)$ be rings.  A </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">ring homomorphism</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> from $A$ to $B$
+is a map $\phi: A \rightarrow B$ with the following properties: </paragraphs>
+              <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1_A) = 1_B$. </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(a_1 +_A a_2) = \phi(a_1) +_B \phi(a_2)$, for all $a_1, a_2 \in A$. </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(a_1\cdot_A a_2) = \phi(a_1)\cdot_B \phi(a_2)$, for all $a_1, a_2 \in A$. </paragraphs>
+                </col_li>
+              </col_ol>
+            </statement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note that if $\phi : A \rightarrow B$ is a homomorphism, then: </paragraphs>
+            <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+              <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
+1 = \phi(1) = \phi(1 + 0) = \phi(1) + \phi(0) = 1 + \phi(0),
+\]
+which implies that $\phi(0) = 0$. </paragraphs>
+              </col_li>
+              <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For all $a \in A$, $0 = \phi(0) = \phi(-a + a) = \phi(-a) + \phi(a)$,
+which implies that $\phi(-a) = -\phi(a)$. </paragraphs>
+              </col_li>
+              <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $u$ is a unit in $A$, then $1 = \phi(u\cdot u^{-1}) = \phi(u)\phi(u^{-1})$,
+and $1 = \phi(u^{-1}\cdot u) = \phi(u^{-1})\phi(u)$;
+which implies that $\phi(u)$ is a unit, with $\phi(u)^{-1} = \phi(u^{-1})$. </paragraphs>
+              </col_li>
+            </col_ol>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="4" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="52d07ae6b861a310748bece0bf8fcfd2" course="Math 2070" chapter="9" slide="4" item="9.2">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The map $\phi : \mathbb{Z}\rightarrow \mathbb{Q}$ defined by:
+\[
+\phi(n) = \frac{n}{1}, \quad n \in \mathbb{Z},
+\]
+is a homomorphism, since: </paragraphs>
+              <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1) = \frac{1}{1} = 1_{\mathbb{Q}}$, </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(n +_\mathbb{Z} m)  = \frac{m + n}{1}
+= \frac{n}{1} +_{\mathbb{Q}} \frac{m}{1}
+= \phi(n) +_{\mathbb{Q}} \phi(m)$. </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(n \cdot_\mathbb{Z} m)
+= \frac{mn}{1} = \frac{n}{1} \cdot_{\mathbb{Q}} \frac{m}{1}
+= \phi(n)\cdot_{\mathbb{Q}} \phi(m).
+$ </paragraphs>
+                </col_li>
+              </col_ol>
+            </statement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="5" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="c15b39900366612818ec82f4feca6081" course="Math 2070" chapter="9" slide="5" item="9.3">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Fix an integer $m$ which is larger than $1$.  For $n \in \mathbb{Z}$, let $\ol{n}$ denote the remainder of the division
+of $n$ by $m$.  That is:
+\[
+n = mq + \bar{n}, \quad 0 \leq \bar{n} &lt; m
+\]
+Recall that $\mathbb{Z}_m = \{0, 1, 2, \ldots, m - 1\}$ is a ring,
+with the addition law defined by:
+\[
+s +_m t = \ol{s + t},
+\]
+and the multiplication law defined by:
+\[
+s\times_m t = \ol{s\cdot t},
+\]
+for all $s, t \in \mathbb{Z}_m$.  Here, $+$ and $\cdot$ are the usual
+addition and multiplication for integers.</paragraphs>
+              <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : \mathbb{Z} \rightarrow \mathbb{Z}_m $ as follows:
+\[
+\phi(n) = \ol{n}, \quad \forall n \in \mathbb{Z}.
+\] </paragraphs>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Then, $\phi$ is a homomorphism. </paragraphs>
+                </collapse>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="43ab386bf5c750dfd327f1bb0e415205" course="Math 2070" chapter="9" slide="5" of="c15b39900366612818ec82f4feca6081">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1) = \ol{1} = 1$, </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(s + t) = \ol{s + t} = \ol{\ol{s} + \ol{t}} = \ol{s} +_m \ol{t} = \phi(s) +_m \phi(t)$. </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(s \cdot t) = \ol{s\cdot t} = \ol{\ol{s}\cdot\ol{t}} = \ol{s}\times_m\ol{t} = \phi(s)\times_m\phi(t)$. </paragraphs>
+                  </col_li>
+                </col_ol>
+                <qed course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="6" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="2152ce3be89ef2f21ec407344bdeffeb" course="Math 2070" chapter="9" slide="6" item="9.4">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any ring $R$, define a map $\phi : \mathbb{Z} \rightarrow R$ as follows:
+\[
+\phi(0) = 0;
+\] </paragraphs>
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $n \in \mathbb{N}$,
+\[
+\phi(n) =  n\cdot 1_R := \underbrace{1_R + 1_R + \cdots + 1_R}_{n\text{ times }};
+\] </paragraphs>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+\phi(-n) =  -n\cdot 1_R := n\cdot(-1_R) =  \underbrace{(-1_R) + (-1_R) + \cdots + (-1_R)}_{n\text{ times}}.
+\] </paragraphs>
+                  <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The map $\phi$ is a homomorphism. </paragraphs>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="9" slide="6" of="2152ce3be89ef2f21ec407344bdeffeb">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="7" environ="slide" chapter="9" course="Math 2070">
+              <keyword chapter="9" slide="7">evaluation homomorphism</keyword>
+            </keywords>
+            <hc_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">evaluation homomorphism</hc_keyword>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="3bca8a74c04e7763a3607fb2fcaadc80" course="Math 2070" chapter="9" slide="7" item="9.5">
+              <label course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="eg:evalhomom" type="Example"/>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.  For each element $r \in R$,
+we may define the </paragraphs>
+              <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">evaluation map</paragraphs>
+              </strong>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\phi_r : R[x] \rightarrow R$ as follows:
+\[
+\phi_r\left(\sum_{k = 0}^n a_k x^k\right) = \sum_{k = 0}^n a_k r^k
+\]
+The map $\phi_r$ is a ring homomorphism. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2070" chapter="9" slide="7" of="3bca8a74c04e7763a3607fb2fcaadc80">
+              <em xmlns="http://www.w3.org/1999/xhtml" environment="substatement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">Discussed in class.</paragraphs>
+              </em>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="8" environ="slide" chapter="9" course="Math 2070">
+              <keyword chapter="9" slide="8">isomorphism</keyword>
+              <keyword chapter="9" slide="8">isomorphic</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="6" md5="e0a2cd2e0446a5405cecb97b9facee7c" course="Math 2070" chapter="9" slide="8" item="9.6">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If a ring homomorphism $\phi: A \rightarrow B$ is a bijective map, we say that $\phi$ is an </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">isomorphism</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">,
+and that $A$ and $B$ are </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">isomorphic</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> as rings. </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Notation</paragraphs>
+            </strong>
+            <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $A$ and $B$ are isomorphic, we write $A \cong B$. </paragraphs>
+            </newcol>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="9" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="7" md5="c805c14632eb7e0540de3e7f1f0f3a32" course="Math 2070" chapter="9" slide="9" item="9.7">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $\phi:A \rightarrow B$ is an isomorphism, then $\phi^{-1} : B \rightarrow A$ is an isomorphism. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="21627d6d8f7cdde680f210a24da5438e" course="Math 2070" chapter="9" slide="9" of="c805c14632eb7e0540de3e7f1f0f3a32">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\phi$ is bijective, $\phi^{-1}$ is clearly bijective.  It remains to show that $\phi^{-1}$ is a homomorphism: </paragraphs>
+                <ol xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\phi(1_A) = 1_B$, we have $\phi^{-1}(1_B) = \phi^{-1}(\phi(1_A)) = 1_A$. </paragraphs>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $b_1, b_2 \in B$, we have
+\begin{multline*}
+\phi^{-1}(b_1 + b_2) = \phi^{-1}(\phi(\phi^{-1}(b_1)) + \phi(\phi^{-1}(b_2)))
+\\= \phi^{-1}(\phi(\phi^{-1}(b_1) + \phi^{-1}(b_2))) = \phi^{-1}(b_1) + \phi^{-1}(b_2)
+\end{multline*} </paragraphs>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $b_1, b_2 \in B$, we have
+\begin{multline*}
+\phi^{-1}(b_1 \cdot b_2) = \phi^{-1}(\phi(\phi^{-1}(b_1)) \cdot \phi(\phi^{-1}(b_2)))
+\\= \phi^{-1}(\phi(\phi^{-1}(b_1) \cdot \phi^{-1}(b_2))) = \phi^{-1}(b_1) \cdot \phi^{-1}(b_2)
+\end{multline*} </paragraphs>
+                  </li>
+                </ol>
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This shows that $\phi^{-1}$ is a bijective homomorphism. </paragraphs>
+                <qed course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="10" environ="slide" chapter="9" course="Math 2070"/>
+            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> An isomorphism is more than simply a bijective map,
+for it must preserve algebraic structure.</paragraphs>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For example, there is a bijective map
+$f : \mathbb{Z} \rightarrow \mathbb{Q}$ ( </paragraphs>
+              <i xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">shown in class</paragraphs>
+              </i>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ),
+but the two are clearly not isomorphic as rings:</paragraphs>
+              <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\phi : \mathbb{Z}\rightarrow \mathbb{Q}$
+is an isomorphism.
+Then, both $\phi$ and $\phi^{-1}$ must send units to units.</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider $2 \in \mathbb{Q}$.
+Since $\mathbb{Q}$ is a field, the nonzero element $2$ is a unit.
+So $\phi^{-1}(2)$ must be a unit of $\mathbb{Z}$.</paragraphs>
+                  <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> But the only units of $\mathbb{Z}$ are $\pm 1$.
+Since $\phi$ is an homomorphism, we have $\phi(1) = 1 \neq 2$.</paragraphs>
+                    <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, we are left with the case $\phi(-1) = 2$.  This cannot hold either,
+since:</paragraphs>
+                      <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+1 = \phi((-1)(-1)) = \phi(-1)\phi(-1)
+\]
+implies that $\phi(-1)$ could only be $\pm 1 \neq 2$.</paragraphs>
+                        <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $\mathbb{Z}$ and $\mathbb{Q}$ cannot be isomorphic. </paragraphs>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </collapse>
+            </newcol>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="11" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" md5="1b43d093634e2912e56e65d8107ef004" course="Math 2070" chapter="9" slide="11" item="9.8">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The fields $\mathbb{Q}$ and $\mathrm{Frac}(\mathbb{Z})$ are isomorphic. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6b7370562a5a82687bc0654c60c2f2c2" course="Math 2070" chapter="9" slide="11" of="1b43d093634e2912e56e65d8107ef004">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi: \mathbb{Q} \rightarrow \mathrm{Frac}(\mathbb{Z})$ as follows:
+\[
+\phi(a/b) = [(a, b)],\quad \forall\, a/b \in \mathbb{Q}, a, b \in \mathbb{Z}, b \neq 0.
+\] </paragraphs>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We first need to show that $\phi$ is well-defined.
+Namely, suppose $a/b = c/d$ in $\mathbb{Q}$,
+we need to show that $\phi(a/b) = [(a, b)]$ is equal to $\phi(c/d) = [(c, d)]$.</paragraphs>
+                  <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This is clear, since $a/b = c/d$ implies that $ad = bc$,
+which by definition of $\Frac(\mathbb{Z})$ implies that $[(a, b)] = [(c, d)]$.</paragraphs>
+                    <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We now show that $\phi$ is a homomorphism:</paragraphs>
+                      <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                          <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1) = \phi(1/1) = [(1, 1)]$, which is indeed the multiplicative identity of $\Frac(\mathbb{Z})$. </paragraphs>
+                          </col_li>
+                          <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
+\begin{multline*}
+\phi(a/b + c/d) = \phi((ad + bc)/(bd)) = [(ad + bc, bd)]\\
+= [(a, b)] + [(c, d)] = \phi(a/b) + \phi(c/d)
+\end{multline*} </paragraphs>
+                          </col_li>
+                          <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
+\begin{multline*}
+\phi((a/b)(c/d)) = \phi((ac)/(bd)) = [(ac, bd)]\\
+= [(a, b)]\cdot[(c, d)] = \phi(a/b)\phi(c/d)
+\end{multline*} </paragraphs>
+                          </col_li>
+                        </col_ol>
+                        <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Finally, we need to show that $\phi$ is one-to-one and onto.</paragraphs>
+                          <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose there are $a, b, c, d \in \mathbb{Z}$ such that $\phi(a/b) = \phi(c/d)$.
+Then, by definition of $\phi$ we have $[(a, b)] = [(c, d)]$,
+which implies that $ad = bc$,
+from which it follows that $a/b = c/d$ as elements of $\mathbb{Q}$.
+So, $\phi$ is one-to-one.</paragraphs>
+                            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                            <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given $[(a, b)] \in \Frac(\mathbb{Z})$, $a, b\in \mathbb{Z}$, $b \neq 0$,
+it is clear that
+$a/b$ belongs to $\mathbb{Q}$, and $\phi(a/b) = [(a, b)]$.
+So $\phi$ is onto.</paragraphs>
+                              <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                              <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\phi$ is a bijective homomorphism.  In other words, it is an isomorphism. </paragraphs>
+                                <qed course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                              </collapse>
+                            </collapse>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="12" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="b66381493e8a061cd9050a22e61d080a" course="Math 2070" chapter="9" slide="12" item="9.9">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $F$ is a field, then $\Frac(F) \cong F$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e69870d50b54ab77748ce22dbe251e0d" course="Math 2070" chapter="9" slide="12" of="b66381493e8a061cd9050a22e61d080a">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : F \rightarrow \Frac(F)$ as follows:
+\[
+\phi(s) = [(s, 1)],\quad \forall s \in F.
+\] </paragraphs>
+                <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise:</inline_keyword>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <ol xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that $\phi$ is a homomorphism. </paragraphs>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that $\phi$ is bijective. </paragraphs>
+                  </li>
+                </ol>
+                <qed course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="13" environ="slide" chapter="9" course="Math 2070">
+              <keyword chapter="9" slide="13">kernel</keyword>
+              <keyword chapter="9" slide="13">image</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="10" md5="54f9cd4469c14cab94b88043c76a0da1" course="Math 2070" chapter="9" slide="13" item="9.10">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">kernel</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of a ring homomorphism $\phi : A \rightarrow B$
+is the set:
+\[
+\ker \phi := \{a \in A : \phi(a) = 0\}
+\]
+The </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">image</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $\phi$ is the set:
+\[
+\im \phi := \{b \in B : b = \phi(a) \text{ for some } a \in A\}.
+\] </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="14" environ="slide" chapter="9" course="Math 2070"/>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="cbcc6c4aa6c59ea640e8408f178a2b39" course="Math 2070" chapter="9" slide="14" item="9.11">
+              <label course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="claim:onetooneker" type="Claim"/>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A ring homomorphism $\phi : A \rightarrow B$ is one-to-one if and only if $\ker \phi = \{0\}$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="fb467bda7c59ff2b1a37e19d08c2ed15" course="Math 2070" chapter="9" slide="14" of="cbcc6c4aa6c59ea640e8408f178a2b39">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\phi$ is one-to-one.  For any $a \in \ker \phi$, we have $\phi(0) = \phi(a) = 0$,
+which implies that $a = 0$ since $\phi$ is one-to-one.  Hence, $\ker \phi = \{0\}$.</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Suppose $\ker \phi = \{0\}$.  If $\phi(a) = \phi(a')$,
+then $0 = \phi(a) - \phi(a') = \phi(a - a')$, which implies that $a - a' \in \ker \phi = \{0\}$.
+So, $a - a' = 0$, which implies that $a = a'$.  Hence, $\phi$ is one-to-one. </paragraphs>
+                <qed course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="15" environ="slide" chapter="9" course="Math 2070">
+              <keyword chapter="9" slide="15">ideal</keyword>
+              <keyword chapter="9" slide="15">proper ideal</keyword>
+              <keyword chapter="9" slide="15">Remark.</keyword>
+              <keyword chapter="9" slide="15">ideal</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="12" md5="f29e3b23792ff505e360c6318c541e75" course="Math 2070" chapter="9" slide="15" item="9.12">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> An </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">ideal</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $I$ in a commutative ring $R$ is a subset of $R$ which satisfies
+the following properties: </paragraphs>
+              <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $0 \in I$; </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $a, b \in I$, then $a + b \in I$. </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For all $a \in I$, we have $ar \in I$ for all $r \in R$. </paragraphs>
+                </col_li>
+              </col_ol>
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If an ideal $I$ is a proper subset of $R$, we say it is a </paragraphs>
+                <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">proper ideal</inline_keyword>
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note.</paragraphs>
+            </strong>
+            <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If an ideal $I$ contains $1$, then $r = 1 \cdot r \in I$ for all $r \in R$,
+which implies that $I = R$. </paragraphs>
+            </newcol>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Remark.</paragraphs>
+            </h5>
+            <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> There is a definition of an </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">ideal</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> in the more general case where the ring is not necessarily commutative.
+It is similar to the definition above, except for one extra condition:
+$ra$ belongs to $I$ for all $a \in I$, $r\in R$.</paragraphs>
+              <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Clearly,
+this general definition coincides with the one above in the special case that
+the ring is commutative. </paragraphs>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In this introductory course, unless otherwise noted,
+we will always discuss ideals in the context of commutative rings. </paragraphs>
+            </newcol>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="16" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="709d743f618d8109acb9ff99e66a365c" course="Math 2070" chapter="9" slide="16" item="9.13">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any commutative ring $R$, the set $\{0\}$ is an ideal,
+since $0 + 0 = 0$, and $0\cdot r = 0$ for all $r \in R$. </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="59107f73004d4ded0f0c7339c4f11320" course="Math 2070" chapter="9" slide="16" item="9.14">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $m \in \mathbb{Z}$, the set $I = m\mathbb{Z}:=\{mn : n \in \mathbb{Z}\}$ is an ideal: </paragraphs>
+                <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $0 = m\cdot 0 \in I$; </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $mn_1 + mn_2 = m(n_1 + n_2) \in I$. </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Given $mn \in I$, for all $l \in \mathbb{Z}$, we have $mn\cdot l = m \cdot nl \in I$. </paragraphs>
+                  </col_li>
+                </col_ol>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="17" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="9ac8ebe3875b6fb30aa0bf6b319c1d9e" course="Math 2070" chapter="9" slide="17" item="9.15">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Recall the homomorphism $\phi : \mathbb{Z}\rightarrow \mathbb{Z}_m$ defined by $\phi(n) = \ol{n}$.
+We claim that the kernel of $\phi$ is:
+\[
+\ker \phi = m\mathbb{Z}.
+\] </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ce81022bcaed7a2e18c3efdcc5744cba" course="Math 2070" chapter="9" slide="17" of="9ac8ebe3875b6fb30aa0bf6b319c1d9e">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\phi(n) = \ol{n} = 0$, then $n = mq + 0 = mq$ for some $q \in \mathbb{Z}$.  So, $n \in m\mathbb{Z}$.
+Hence, $\ker \phi \subseteq m\mathbb{Z}$.</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Given $mn \in m\mathbb{Z}$, where $n \in \mathbb{Z}$, the remainder $\ol{mn}$ of the division of $mn$ by $m$
+is clearly $0$, so $\phi(mn) = 0$, which implies that $m \mathbb{Z}\subseteq \ker \phi$.</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Hence, $\ker \phi = m\mathbb{Z}$. </paragraphs>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="18" environ="slide" chapter="9" course="Math 2070">
+              <keyword chapter="9" slide="18">Remark.</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="16" md5="f6d45000345868000b92827305467cab" course="Math 2070" chapter="9" slide="18" item="9.16">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $A$ be a commutative ring.
+If $\phi : A \rightarrow B$ is a ring homomorphism, then $\ker \phi$ is an ideal of $A$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6a55595991263502c93cc2256df67d87" course="Math 2070" chapter="9" slide="18" of="f6d45000345868000b92827305467cab">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Since $\phi$ is a homomorphism, we have $\phi(0) = 0$.
+Hence, $0 \in \ker \phi$. </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $a, b \in \ker \phi$, then $\phi(a + b) = \phi(a) + \phi(b) = 0 + 0 = 0$.
+Hence, $a + b \in \ker \phi$. </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Given any $a \in \ker \phi$, for all $r \in R$
+we have $\phi(ar) = \phi(a)\phi(r) = 0\cdot \phi(r) = 0$.
+Hence, $ar \in \ker \phi$ for all $r \in R$. </paragraphs>
+                  </col_li>
+                </col_ol>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Remark.</paragraphs>
+            </h5>
+            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> The claim still holds if we remove the requirement that $A$ be commutative,
+and "ideal" is defined using the more general definition mentioned earlier.</paragraphs>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="19" id="s19" slide="19" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="19" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="17" md5="b5f8630108eb461ddd15d5d076725838" course="Math 2070" chapter="9" slide="19" item="9.17">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A nonzero commutative ring $R$ is a field if and only if its only ideals are
+$\{0\}$ and $R$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="052a4162fca39c51d68e9d88c328319f" course="Math 2070" chapter="9" slide="19" of="b5f8630108eb461ddd15d5d076725838">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose a nonzero commutative ring $R$ is a field.
+If an ideal $I$ of $R$ is nonzero, it contains at least one
+nonzero element $a$ of $R$.</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $R$ is a field, $a$ has a multiplicative inverse $a^{-1}$ in $R$.
+Since $I$ is an ideal, and $a \in I$, we have $1 = a^{-1} a \in I$.</paragraphs>
+                  <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $I$ is an ideal which contains $1$,
+hence it must be the whole field $R$.</paragraphs>
+                    <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Conversely, let $R$ be a nonzero commutative ring whose only ideals are $\{0\}$ and $R$.</paragraphs>
+                      <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given any nonzero element $a \in R$,
+the principal ideal $(a) := \{ar : r \in R\}$ generated by $a$ is nonzero because it contains $a \neq 0$.</paragraphs>
+                        <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by hypothesis the ideal $(a)$ is necessarily the whole ring $R$.
+In particular, the element $1$ lies in $(a)$, which means that there is an $r \in R$
+such that $ar = 1$.
+This shows that any nonzero element of $R$ is a unit.  Hence, $R$ is a field. </paragraphs>
+                          <qed course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="20" id="s20" slide="20" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="20" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="18" md5="e74c3178aa9c569c1a1de49d19a7d455" course="Math 2070" chapter="9" slide="20" item="9.18">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, and $R$ a nonzero ring.  Any ring homomorphism $\phi : k \rightarrow R$ is necessarily one-to-one. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="624300205118c2e9201a66faf5587173" course="Math 2070" chapter="9" slide="20" of="e74c3178aa9c569c1a1de49d19a7d455">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $R$ is not a zero ring, it contains $1 \neq 0$.  So, $\phi(1) = 1 \neq 0$, which implies that $\ker \phi$
+is a proper ideal of $k$.  Since $k$ is a field, we have $\ker \phi = \{0\}$.  It now follows from a previous claim that $\phi$ is one-to-one. </paragraphs>
+                <qed course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="19" md5="264c632e0d97858d6be04567e3b501c2" course="Math 2070" chapter="9" slide="20" item="9.19">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any natural number $m  &gt; 1$,
+there can be no ring homomorphisms from $\mathbb{Q}$ to $\mathbb{Z}_m$.</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">The reason is as follows:</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the previous claim, any ring homomorphism from the field $\mathbb{Q}$
+to $\mathbb{Z}_m$ must be one-to-one, but there can be no one-to-one
+map from the infinite set $\mathbb{Q}$ to the finite set $\mathbb{Z}_m$. </paragraphs>
+                </collapse>
+              </newcol>
+            </statement>
+          </slide>
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 2070" chapter="9" section="1" num="1" serial="9.1.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" serial="9.1.1" slide="">
+            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="21" scope="subsection" id="s21" slide="21" course="Math 2070" chapter="9" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Homomorphisms">
+              <keywords slide="21" environ="slide" chapter="9" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="9" section="1" subsection="1" subsubsection="" serial="" slide="21">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+              </title>
+              <enumerate course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <item course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms5.pg"/>
+                </item>
+                <item course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms7.pg"/>
+                </item>
+                <item course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="9" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg"/>
+                </item>
+              </enumerate>
+            </slide>
+          </slides>
+        </subsection>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Principal Ideal Domains" course="Math 2070" chapter="9" num="2" serial="9.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" serial="9.2" slide="">
+          <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Principal Ideal Domains</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="22" scope="section" id="s22" slide="22" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
+            <keywords slide="22" environ="slide" chapter="9" course="Math 2070">
+              <keyword chapter="9" slide="22">generated</keyword>
+              <keyword chapter="9" slide="22">principal ideal</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" serial="" slide="22">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Principal Ideal Domains</paragraphs>
+            </title>
+            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> For a fixed finite set of elements $a_1, a_2,\ldots, a_n$ in a commutative ring $R$,
+let $(a_1, a_2,\ldots, a_n)$ denote the subset:
+\[
+\{r_1 a_1 + r_2 a_2 + \cdots + r_n a_n : r_i \in R\}.
+\] </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="20" md5="a7b5b629c76180a2f2e9958644f1dde5" course="Math 2070" chapter="9" slide="22" item="9.20">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The set $I = (a_1, a_2, \ldots, a_n)$ is an ideal of $R$. </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6d221f1011813cdadacce02c9588a8e7" course="Math 2070" chapter="9" slide="22" of="a7b5b629c76180a2f2e9958644f1dde5">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <col_ol course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $0 = 0\cdot a_1 + 0 \cdot a_2 + \cdots + 0\cdot a_n \in I$. </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $\sum_{i} r_i a_i$ and $\sum_i r_i'a_i$ in $I$, we have
+$\sum_i r_i a_i + \sum_i r_i'a_i = \sum_i (r_i + r_i')a_i \in I$. </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Given any $\sum_i r_ia_i \in I$, for any $r \in R$ we have
+$r \sum_i r_i a_i = \sum_i (rr_i) a_i \in I$. </paragraphs>
+                    <qed course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol"/>
+                  </col_li>
+                </col_ol>
+              </newcol>
+            </substatement>
+            <newcol course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We call $(a_1, a_2,\ldots, a_n)$ the ideal </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">generated</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> by $a_1, a_2, \ldots, a_n$.
+An ideal $(a) = \{ar : r \in R\}$ generated by one element $a \in R$ is called a </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">principal ideal</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .</paragraphs>
+              <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Note that $R = (1)$ and $\{0\} = (0)$ are both principal ideals. </paragraphs>
+              </collapse>
+            </newcol>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="23" id="s23" slide="23" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
+            <keywords slide="23" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="21" md5="2b4012d8c411deb5b3e144c24272188a" course="Math 2070" chapter="9" slide="23" item="9.21">
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Given $a, b$ in a commutative ring $R$.  If $b = au$ for some unit $u \in R$,
+then $(a) = (b)$.</paragraphs>
+              <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">If $R$ is an integral domain and $(a) = (b)$, then $b = au$ for some unit $u \in R$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="07730df91687f0fb5bfb765f4cca3e69" course="Math 2070" chapter="9" slide="23" of="2b4012d8c411deb5b3e144c24272188a">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We leave the first part of the claim as an exercise.</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We now prove the second part.  Suppose $(a) = (b)$.  If $b = 0$,
+then $a$ is necessarily zero.  So, $b = 0 = 0\cdot 1 = a \cdot 1$, and we are done.</paragraphs>
+                  <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Now suppose $b \neq 0$.  The condition $(a) = (b)$
+implies that there exist $u, v \in R$ such that $b = au$ and $a = bv$.</paragraphs>
+                    <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Putting the two together, we have:
+\[
+b = buv,
+\] </paragraphs>
+                      <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that $b(1 - uv) = 0$.</paragraphs>
+                        <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $R$ is by assumption an integral domain,
+and $b \neq 0$, we have $1 - uv = 0$, which implies that $uv = 1$.
+This shows that $u$ is unit. </paragraphs>
+                          <qed course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="24" id="s24" slide="24" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
+            <keywords slide="24" environ="slide" chapter="9" course="Math 2070">
+              <keyword chapter="9" slide="24">Principal Ideal Domain</keyword>
+              <keyword chapter="9" slide="24">PID</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="22" md5="4ac60ad0846141cae22cdee387ec081b" course="Math 2070" chapter="9" slide="24" item="9.22">
+              <label course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="def:pid" type="Definition"/>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $R$ is an integral domain in which every ideal is principal,
+we say that $R$ is a </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">Principal Ideal Domain</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (</paragraphs>
+              <i xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">abbrev.</paragraphs>
+              </i>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> </paragraphs>
+              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">PID</inline_keyword>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">). </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="23" md5="d4992a68e2b3882226b0601e7b9d78c5" course="Math 2070" chapter="9" slide="24" item="9.23">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The ring $\mathbb{Z}$ is a principal ideal domain. </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="65cc9c027304f264c9abdeda091ca8af" course="Math 2070" chapter="9" slide="24" of="d4992a68e2b3882226b0601e7b9d78c5">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $I$ be an ideal of $\mathbb{Z}$.
+We already know that the zero ideal $\{0\} = (0)$ is principal.</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, we may assume that $I$ contains a nonzero element $a$.  Since $-1 \in \mathbb{Z}$ and $I$ is an ideal,
+we have $-a = (-1)\cdot a \in I$.  Hence, if $I$ is nonzero, it contains at least one positive integer.</paragraphs>
+                  <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the Least Integer Axiom, the ideal $I$ contains a positive integer $d$ which is smaller than all other
+positive elements of $I$.  We claim that $I = (d)$.</paragraphs>
+                    <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the division theorem, for every $a \in I$, we have $a = dq + r$ for some $q, r \in \mathbb{Z}$
+such that $0 \leq r &lt; d$.  But this implies that $r = a - dq$ lies in $I$,
+since $I$ is an ideal.</paragraphs>
+                      <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $0 \leq r &lt; d$ and $d$ is the minimal positive integer in $I$,
+$r$ must necessarily be zero.
+This implies that $a = dq$.  Hence, $I \subseteq (d)$.</paragraphs>
+                        <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Conversely, since $d \in I$ and $I$ is an ideal, we have $dr \in I$
+for all $r \in R$, which implies that $(d) \subseteq I$.</paragraphs>
+                          <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $I = (d)$.  In other words, $I$ is a principal ideal generated by $d$. </paragraphs>
+                            <qed course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="25" id="s25" slide="25" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
+            <keywords slide="25" environ="slide" chapter="9" course="Math 2070">
+              <keyword chapter="9" slide="25">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
+            </keywords>
+            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We claim that for any field $k$, the ring of polynomials
+$k[x]$ is also a PID.</paragraphs>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">To prove this we first establish the following theorem:</paragraphs>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="24" title="Division Theorem for Polynomials with Unit Leading Coefficients" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" course="Math 2070" chapter="9" slide="25" item="9.24">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" serial="" slide="25">Division Theorem for Polynomials with Unit Leading Coefficients</title>
+              <label course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:divalgpoly" type="Theorem"/>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.  For all $d, f \in R[x]$, such that the leading coefficient of $d$ is a unit in $R$,
+there exist $q , r \in R[x]$ such that:
+\[
+f = qd + r,
+\]
+with $\deg r &lt; \deg d$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="46cba4fb237d16241d49988aed460464" course="Math 2070" chapter="9" slide="25" of="4b69f068400a3bb3ab9ad76ed3d6a6e0">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The proof is essentially the same as that of the division theorem for $\mathbb{Q}[x]$.  We prove by induction:</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The base case corresponds to the case where $\deg f &lt; \deg d$; and the inductive step
+corresponds to showing that, for any fixed $d$, the claim holds for $f$ if it holds for all
+$f'$ with $\deg f' &lt; \deg f$.</paragraphs>
+                  <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Base case: If $\deg f &lt; \deg d$, we take $r = f$.  Then, indeed $f = 0\cdot d + r$, with $\deg r &lt; \deg d$.</paragraphs>
+                    <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Inductive step:
+Let $d =\sum_{i = 0}^n a_i x^i\in R[x]$ be fixed, where $a_n$ is a unit in $R$.
+For any given $f = \sum_{i = 0}^m b_ix^i \in R[x]$, $m \geq n$,
+suppose the claim holds for all $f'$ with $\deg f' &lt; \deg f$.</paragraphs>
+                      <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let:
+\[
+f' = f - a_n^{-1}b_m x^{m - n} d.
+\] </paragraphs>
+                        <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Then, $\deg f' &lt; \deg f$, hence by hypothesis there exist $q', r' \in R[x]$, with $\deg r' &lt; \deg d$,
+such that:
+\[
+f - a_n^{-1}b_m x^{m - n} d = f' = q' d + r',
+\] </paragraphs>
+                          <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that:
+\[
+f = (q' + a_n^{-1}b_m x^{m - n}) d + r'.
+\] </paragraphs>
+                            <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $f = qd + r'$, where $q = q' + a_n^{-1}b_m x^{m - n} \in R[x]$, and $\deg r' &lt; \deg d$. </paragraphs>
+                              <qed course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                            </collapse>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="26" id="s26" slide="26" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
+            <keywords slide="26" environ="slide" chapter="9" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="25" md5="cb147fcfae2b64a2477e6cd9c7fb2126" course="Math 2070" chapter="9" slide="26" item="9.25">
+              <label course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:pidpoly" type="Theorem"/>
+              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Then, $k[x]$ is a PID. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="19c29c16368d2f0619952c1519b4a600" course="Math 2070" chapter="9" slide="26" of="cb147fcfae2b64a2477e6cd9c7fb2126">
+              <newcol course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $k$ is a field, the previous claim holds for all $d, f \in k[x]$ such that $d \neq 0$.</paragraphs>
+                <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $I$ be an ideal of $k[x]$.</paragraphs>
+                  <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">If $I = \{0\}$ then, it is principal, since $\{0\} = (0)$.</paragraphs>
+                  <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Suppose $I$ is nonzero.
+Let $d$ be the polynomial in $I$ with the least degree among all nonzero polynomials
+in $I$.
+Since the degree of any nonzero polynomial is a nonnegative integer,
+such an element $d$ exists by the Least Integer Axiom.
+It is clear that $(d) \subseteq I$.  It remains to show that $I \subseteq (d)$.</paragraphs>
+                  <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $f \in I$, by the previous claim we have:
+\[
+f = qd + r,
+\]
+for some $q, r \in k[x]$ such that $\deg r &lt; \deg d$.</paragraphs>
+                    <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that $r = f - qd = f + (-1)qd$ lies in $I$.
+Since $d$ is a nonzero element of $I$ with the least degree, the element $r$ must necessarily be zero.</paragraphs>
+                      <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In order words $f = qd$, which implies that $f \in (d)$.
+Hence, $I \subseteq (d)$, and we may now conclude that $I = (d)$. </paragraphs>
+                        <qed course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

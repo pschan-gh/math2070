@@ -1,0 +1,1088 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">Greatest Common Divisor</keyword>
+      <keyword chapter="" slide="all">relatively prime</keyword>
+      <keyword chapter="" slide="all">Bézout's Lemma</keyword>
+      <keyword chapter="" slide="all">prime</keyword>
+      <keyword chapter="" slide="all">Unique Factorization</keyword>
+      <keyword chapter="" slide="all">Unique Factorization</keyword>
+      <keyword chapter="" slide="all">congruence</keyword>
+      <keyword chapter="" slide="all">congruent modulo $m$</keyword>
+      <keyword chapter="" slide="all">equivalence relation</keyword>
+      <keyword chapter="" slide="all">Reflexive</keyword>
+      <keyword chapter="" slide="all">Symmetric</keyword>
+      <keyword chapter="" slide="all">Transitive</keyword>
+      <keyword chapter="" slide="all">Bézout's Lemma</keyword>
+      <keyword chapter="" slide="all">Bézout's Lemma</keyword>
+      <keyword chapter="" slide="all">Euclid's Lemma</keyword>
+      <keyword chapter="" slide="all">The Fundamental Theorem of Arithmetic</keyword>
+      <keyword chapter="" slide="all">Chinese Remainder Theorem</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="6" title="" topic="Elementary Number Theory, Euclid's Lemma, Congruences, Chinese Remainder Theorem" course="Math 2070" serial="6">
+      <keywords slide="all" environ="chapter" chapter="6" course="Math 2070">
+        <keyword chapter="6" slide="all">Greatest Common Divisor</keyword>
+        <keyword chapter="6" slide="all">relatively prime</keyword>
+        <keyword chapter="6" slide="all">Bézout's Lemma</keyword>
+        <keyword chapter="6" slide="all">prime</keyword>
+        <keyword chapter="6" slide="all">Unique Factorization</keyword>
+        <keyword chapter="6" slide="all">Unique Factorization</keyword>
+        <keyword chapter="6" slide="all">congruence</keyword>
+        <keyword chapter="6" slide="all">congruent modulo $m$</keyword>
+        <keyword chapter="6" slide="all">equivalence relation</keyword>
+        <keyword chapter="6" slide="all">Reflexive</keyword>
+        <keyword chapter="6" slide="all">Symmetric</keyword>
+        <keyword chapter="6" slide="all">Transitive</keyword>
+        <keyword chapter="6" slide="all">Bézout's Lemma</keyword>
+        <keyword chapter="6" slide="all">Bézout's Lemma</keyword>
+        <keyword chapter="6" slide="all">Euclid's Lemma</keyword>
+        <keyword chapter="6" slide="all">The Fundamental Theorem of Arithmetic</keyword>
+        <keyword chapter="6" slide="all">Chinese Remainder Theorem</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="6" section="" subsection="" subsubsection="" serial="6" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="6" section="" subsection="" subsubsection="" serial="6" slide="">Elementary Number Theory</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="6" section="" subsection="" subsubsection="" serial="6" slide="">Euclid's Lemma</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="6" section="" subsection="" subsubsection="" serial="6" slide="">Congruences</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="6" section="" subsection="" subsubsection="" serial="6" slide="">Chinese Remainder Theorem</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="6" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Elementary Number Theory</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Euclid's Lemma</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Congruences</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Chinese Remainder Theorem</topic>
+          <keywords slide="2" environ="slide" chapter="6" course="Math 2070"/>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Further Results in Elementary Number Theory" course="Math 2070" chapter="6" num="1" serial="6.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="6" section="1" subsection="" subsubsection="" serial="6.1" slide="">
+          <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Further Results in Elementary Number Theory</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2070" chapter="6" section="1" subsection="" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+            <keywords slide="3" environ="slide" chapter="6" course="Math 2070">
+              <keyword chapter="6" slide="3">Greatest Common Divisor</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="6" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Further Results in Elementary Number Theory</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="87cca6808c169218e4e5678f4dc19ea2" course="Math 2070" chapter="6" slide="3" item="6.1">
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  The </paragraphs>
+              <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">Greatest Common Divisor</inline_keyword>
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $gcd(a, b)$ of $a, b \in \mathbb{Z}$ is the largest positive integer
+$d$ which divides both $a$ and $b$ (Notation: $d | a$ and $d | b$). </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note.</paragraphs>
+            </strong>
+            <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> </paragraphs>
+            <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
+$gcd(0, 0)$ is undefined. </paragraphs>
+            </newcol>
+            <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Euclidean Algorithm" course="Math 2070" chapter="6" section="1" num="1" serial="6.1.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="6" section="1" subsection="" subsubsection="" serial="6.1.1" slide="">
+            <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
+          </title>
+          <label course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="label" name="sec:euclidalg" type="Section"/>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="4" scope="subsection" id="s4" slide="4" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="4" environ="slide" chapter="6" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" serial="" slide="4">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
+              </title>
+              <statement environment="statement" chapter_type="" type="Lemma" wbtag="lemma" num="2" md5="887e4de79f26f195c5f15feb518dbea2" course="Math 2070" chapter="6" slide="4" item="6.2">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
+$gcd(b, a) = gcd (a, r)$. </paragraphs>
+                </newcol>
+              </statement>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="63475b8aa52063e05bea96092ef61a13" course="Math 2070" chapter="6" slide="4" of="887e4de79f26f195c5f15feb518dbea2">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  If $d | a$ and $d | b$, then $d | r = b - aq$.
+Conversely, if $d | a$ and $d | r$, then $d|a$ and $d|b = qa+r$.
+So, the set of common divisors of $a, b$ is the same as the set of the common divisors of $a, r$.
+If two finite sets of integers are the same, then their largest elements are clearly the same.
+In other words:
+\[
+gcd(b, a) = gcd(a, r).
+\] </paragraphs>
+                  <qed course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                </newcol>
+              </substatement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="5" environ="slide" chapter="6" course="Math 2070"/>
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> Suppose $\abs{b} \geq \abs{a}$.  Let $b_0 = b$, $a_0 = a$.
+Write $b_0 = a_0q_0 + r_0$, where $0 \leq r_0 &lt; \abs{a_0}$.</paragraphs>
+              <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment=""/>
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  For $n &gt; 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
+$r_n$ is the remainder of the division of $b_n$ by $a_n$.  That is,
+\[
+b_n = a_nq_n + r_n, \quad  0 \leq r_n &lt; \abs{a_n}.
+\] </paragraphs>
+                <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
+Now, suppose $r_0 &gt; 0$.
+Since $r_n$ is a non-negative integer and  $0 \leq r_n &lt; r_{n - 1}$,
+eventually, $r_n = 0$ for some $n \in \mathbb{N}$. </paragraphs>
+                </collapse>
+              </newcol>
+              <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment=""/>
+              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="3" md5="96bd55f3415684903f8186b9daa9d61f" course="Math 2070" chapter="6" slide="5" item="6.3">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  $gcd(b, a) = \abs{a_n}$. </paragraphs>
+                </newcol>
+              </statement>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="05f68b7f8885b17bcd4531483757564a" course="Math 2070" chapter="6" slide="5" of="96bd55f3415684903f8186b9daa9d61f">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  By the previous lemma, </paragraphs>
+                  <steps course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\[
+\begin{split}
+gcd(b, a) &amp;= gcd(b_0, a_0)\\
+ &amp;
+\class{steps}{\cssId{step0}{= gcd(a_0, r_0) = gcd(b_1, a_1)}}
+\\
+&amp;
+\class{steps}{\cssId{step1}{= gcd(a_1, r_1) = gcd(b_2, a_2)}}
+\\
+&amp;
+\class{steps}{\cssId{step2}{= \ldots}}
+\\
+&amp;
+\class{steps}{\cssId{step3}{= gcd(a_{n}, r_{n}) = gcd(a_n, 0) = \abs{a_n}.}}
+\end{split}
+\]
+
+</steps>
+                  <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                </newcol>
+              </substatement>
+              <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment=""/>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="6" environ="slide" chapter="6" course="Math 2070"/>
+              <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="4" md5="94c8703b764dcd10a22565a41554a300" course="Math 2070" chapter="6" slide="6" item="6.4">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">  Find $gcd(285,255)$.</paragraphs>
+                <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement"/>
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <steps course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+\[
+\begin{split}
+\underbrace{285}_{b_0} &amp;= \underbrace{255}_{a_0} \underbrace{1}_{q_0} + \underbrace{30}_{r_0}
+\\
+\class{steps}{\cssId{step0}{\underbrace{255}_{b_1 = a_0}}}
+&amp;
+\class{steps}{\cssId{step1}{=\underbrace{30}_{a_1 = r_0} \underbrace{8}_{q_1} + \underbrace{15}_{r_1}}}
+\\
+\class{steps}{\cssId{step2}{\underbrace{30}_{b_2}}}
+&amp;
+\class{steps}{\cssId{step3}{=\underbrace{15}_{a_2} \underbrace{2}_{q_2} + \underbrace{0}_{r_2}}}
+\end{split}
+\]
+
+</steps>
+                  <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  So, $gcd(285, 255) = r_1 = 15$. </paragraphs>
+                  </collapse>
+                </newcol>
+              </statement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="7" environ="slide" chapter="6" course="Math 2070">
+                <keyword chapter="6" slide="7">Bézout's Lemma</keyword>
+              </keywords>
+              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="5" title="B&#xE9;zout's Lemma" md5="78dcabe2aa157a7972614bccf4d63cc0" course="Math 2070" chapter="6" slide="7" item="6.5">
+                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" serial="" slide="7">Bézout's Lemma</title>
+                <label course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="label" name="bezoutslemma" type="Claim"/>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Let $a, b$ be nonzero integers.
+There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
+              </statement>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="73702ed2c86843ffd54481b11a5a6d7b" course="Math 2070" chapter="6" slide="7" of="78dcabe2aa157a7972614bccf4d63cc0">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">Sketch of Proof:</paragraphs>
+                  </strong>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">Approach 1.</paragraphs>
+                  </strong>
+                  <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Recall the notation used in </paragraphs>
+                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7">
+                      <title>UNDEFINED</title>
+                    </ref>
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">.
+We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$. </paragraphs>
+                    <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We may prove Bézout's Lemma via mathematical induction as follows: </paragraphs>
+                    <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> First, for integers $0 \leq l &lt; \min(n - 1, 2)$, show that there exist
+$x_l, y_l \in \mathbb{Z}$ such that $r_l = a x_l + b y_l$.
+This is the base step of the induction proof. </paragraphs>
+                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We now carry out the inductive step.
+Suppose $n - 1 \geq 2$. For any integer $2 \leq k \leq n - 1$,
+suppose $r_l = a x_l + b y_l$ for some $x_l, y_l \in \mathbb{Z}$, for all
+$0\leq l &lt; k$. </paragraphs>
+                        <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that:
+\[r_k = \underbrace{b_k}_{a_{k - 1} = r_{k - 2}} - q_{k} \underbrace{a_{k}}_{r_{k - 1}}\]
+also has the form $r_k = a x_k + b y_k$
+for some $x_k, y_k \in \mathbb{Z}$. </paragraphs>
+                        <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> The desired identity $gcd(a, b) = r_{n - 1} = ax_{n - 1} + by_{n - 1}$
+then follows by mathemtical induction. </paragraphs>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </newcol>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">Approach 2.</paragraphs>
+                  </strong>
+                  <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider the set:
+\[S = \{n \in \mathbb{Z}_{&gt; 0} | n = ax + by \text{ for some } x, y \in \mathbb{Z}\}.\]
+Show that the the minimum element $d \in S$ is the greatest common divisor of
+$a$ and $b$. </paragraphs>
+                  </newcol>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                </newcol>
+              </substatement>
+              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="6" md5="0f32dc57739b5c26d1683f997d1780a2" course="Math 2070" chapter="6" slide="7" item="6.6">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Find $x, y \in \mathbb{Z}$ such that:
+\[gcd(285, 255) = 285 x + 255 y.\] </paragraphs>
+                </newcol>
+              </statement>
+              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="7" md5="baa3c84c86354b44f1a08feb45c372ee" course="Math 2070" chapter="6" slide="7" item="6.7">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> For any nonzero $a, b$ in  the group $G = (\mathbb{Z}, +)$,
+we have:
+\[
+\langle a, b \rangle = \langle gcd(a, b) \rangle.
+\] </paragraphs>
+                </newcol>
+              </statement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="8" environ="slide" chapter="6" course="Math 2070">
+                <keyword chapter="6" slide="8">relatively prime</keyword>
+                <keyword chapter="6" slide="8">Bézout's Lemma</keyword>
+              </keywords>
+              <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="8" md5="86ce5082f22ca862a06fecd6993baf69" course="Math 2070" chapter="6" slide="8" item="6.8">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Two integers $a, b \in \mathbb{Z}$ are </paragraphs>
+                <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement">relatively prime</inline_keyword>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> if $gcd(a, b) = 1$. </paragraphs>
+              </statement>
+              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="9" md5="22c7d97218ccb225ee4ecae2e9b78916" course="Math 2070" chapter="6" slide="8" item="6.9">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Two integers $a, b \in \mathbb{Z}$ are relatively prime if and only if there exist $x, y \in \mathbb{Z}$
+such that $ax + by = 1$. </paragraphs>
+                </newcol>
+              </statement>
+              <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="">Bézout's Lemma</inline_keyword>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="5957330802d1e74f36567f3f2017c8d6" course="Math 2070" chapter="6" slide="8" of="22c7d97218ccb225ee4ecae2e9b78916">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
+So, by </paragraphs>
+                  <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="8" src-course="Math 2070" src-chapter="6" src-slide="7" type="Claim" item="6.5" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
+                    <title>Bézout's Lemma</title>
+                  </ref>
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
+\[ax + by = gcd(a, b) = 1.\]
+Conversely,
+suppose $ax + by = 1$ for some $x, y \in \mathbb{Z}$.
+Then, any common divisor of $a$ and $b$ must also be a divisor of $1$.
+Since $1$ is only divisible by $\pm 1$, we conclude that $gcd(a, b) = 1$. </paragraphs>
+                </newcol>
+              </substatement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="9" environ="slide" chapter="6" course="Math 2070">
+                <keyword chapter="6" slide="9">prime</keyword>
+                <keyword chapter="6" slide="9">Euclid's Lemma</keyword>
+              </keywords>
+              <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="10" md5="8bc74799521ba56c124f64d35545c9b6" course="Math 2070" chapter="6" slide="9" item="6.10">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> An integer $p \geq 2$ is </paragraphs>
+                <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement">prime</inline_keyword>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> if its only proper divisors (i.e. divisors different from $\pm p$)
+are $\pm 1$. </paragraphs>
+              </statement>
+              <statement environment="statement" chapter_type="" type="Lemma" wbtag="lemma" num="11" title="Euclid's Lemma" md5="fce9d6acc542327fa0763877a4905bf2" course="Math 2070" chapter="6" slide="9" item="6.11">
+                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" serial="" slide="9">Euclid's Lemma</title>
+                <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement"/>
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $a, b$ be integers.
+If $p$ is prime and $p | ab$, then $p$ divides at least one of $a$ and $b$. </paragraphs>
+                </newcol>
+              </statement>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="ae21dc754e9cd69bc4382b2f249027c1" course="Math 2070" chapter="6" slide="9" of="fce9d6acc542327fa0763877a4905bf2">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ does not divide $b$ (Notation: $p\nmid b$), then $gcd(p, b) = 1$,
+which implies that $1 = px + by$ for some $x, y \in \mathbb{Z}$.
+Since $p | apx$ and $p | aby$, we have $p | a = a\underbrace{(px + by)}_{= 1}$. </paragraphs>
+                  <qed course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                </newcol>
+              </substatement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="10" environ="slide" chapter="6" course="Math 2070"/>
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> More generally, </paragraphs>
+              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="12" md5="8d6c961f7fb13580b65c45ba76b8bead" course="Math 2070" chapter="6" slide="10" item="6.12">
+                <label course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="label" name="euclidslemmageneral" type="Claim"/>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> If $a, b$ are relatively prime and $a | bc$, then $a | c$. </paragraphs>
+              </statement>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="6" slide="10" of="8d6c961f7fb13580b65c45ba76b8bead">
+                <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="substatement">Exercise.</inline_keyword>
+              </substatement>
+              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="13" md5="acca1ea580cafe26b6aacc8623f1e2b3" course="Math 2070" chapter="6" slide="10" item="6.13">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a, b$ are relatively prime and:
+\[
+a | c, \quad b | c,
+\]
+then:
+\[
+ab | c.
+\] </paragraphs>
+                </newcol>
+              </statement>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="07b1348317362d9a46adb7ea3b85956c" course="Math 2070" chapter="6" slide="10" of="acca1ea580cafe26b6aacc8623f1e2b3">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> By assumption, there are $s, t \in \mathbb{Z}$ such that:
+\[
+c = as = bt.
+\] </paragraphs>
+                  <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $a | as = bt$,
+which by </paragraphs>
+                    <ref environment="newcol" chapter_type="" label="euclidslemmageneral" wbtag="ref" course="Math 2070" chapter="6" slide="10" src-course="Math 2070" src-chapter="6" src-slide="10" type="Claim" item="6.12" src-filename="week6.xml" md5="8d6c961f7fb13580b65c45ba76b8bead" class="lcref" serial="">
+                      <title>Claim 6.12</title>
+                    </ref>
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> implies that $a | t$, since $gcd(a, b) = 1$.</paragraphs>
+                    <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $t = au$ for some $u \in \mathbb{Z}$, and we have $c = bt = ab u$.
+It follows that $ab | c$. </paragraphs>
+                      <qed course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                    </collapse>
+                  </collapse>
+                </newcol>
+              </substatement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="11" environ="slide" chapter="6" course="Math 2070">
+                <keyword chapter="6" slide="11">Unique Factorization</keyword>
+                <keyword chapter="6" slide="11">Unique Factorization</keyword>
+                <keyword chapter="6" slide="11">The Fundamental Theorem of Arithmetic</keyword>
+              </keywords>
+              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="14" title="The Fundamental Theorem of Arithmetic" md5="d82a6d14efc507a18d8496d0b9cfe404" course="Math 2070" chapter="6" slide="11" item="6.14">
+                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" serial="" slide="11">The Fundamental Theorem of Arithmetic</title>
+                <label course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="label" name="thm:fta" type="Theorem"/>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Let $a$ be a positive integer $\geq 2$. Then, </paragraphs>
+                <col_ol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> The integer $a$ is either a prime or a product of primes. </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol">Unique Factorization</inline_keyword>
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> The integer $a$ may be written uniquely as
+\[
+a = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l},
+\]
+where $p_1, p_2, \cdots, p_l$ are distinct prime numbers, and $n_1, n_2, \ldots, n_l \in \mathbb{N}$. </paragraphs>
+                  </col_li>
+                </col_ol>
+              </statement>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="48a591e4ec028d946ba9bc9f4ee6dd8e" course="Math 2070" chapter="6" slide="11" of="d82a6d14efc507a18d8496d0b9cfe404">
+                <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove Part 1 of the theorem by contradiction.</paragraphs>
+                  <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose there exist positive integers $\geq 2$ which are neither primes
+nor products of primes.</paragraphs>
+                    <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $m$ be the smallest such integer. Since $m$ is not prime, there are
+positive integers $a, b \neq 1$ such that $m = ab$.</paragraphs>
+                      <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, $a, b &lt; m$.
+So, $a$ and $b$ must be either primes or products of primes, which implies that $m$ is itself a product of primes, a contradiction. </paragraphs>
+                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We now prove Part 2 (</paragraphs>
+                          <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol">Unique Factorization</inline_keyword>
+                          <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">) of the theorem by induction.</paragraphs>
+                          <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> The base step corresponds to the case $l = 1$.</paragraphs>
+                            <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                            <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose:
+\[
+a = p_1^{n_1} = q_1^{m_1}q_2^{m_2}\cdots q_k^{m_k},
+\]
+where $p_1$ is prime, and the $q_i$'s are distinct primes,
+and $n_1, m_i \in \mathbb{N}$.</paragraphs>
+                              <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                              <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Then, $p_1$ divides the right-hand side,
+so by Euclid's Lemma $p_1$ divides one of the $q_i$'s.</paragraphs>
+                                <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Since the $q_i$'s are prime, we may assume (reindexing if necessary) that $p_1 = q_1$.</paragraphs>
+                                  <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                  <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $k &gt; 1$. If $n_1 &gt; m_1$, then $p_1^{n_1 - m_1} = q_2^{m_2}\cdots q_k^{m_k}$,
+which implies that $p_1 = q_1$ is one of $q_2,\ldots, q_k$, a contradiction, since the $q_i$'s are distinct.</paragraphs>
+                                    <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                    <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $n_1 \leq m_1$, then $1 = p_1^{m_1 - n_1}q_2^{m_2}\cdots q_k^{m_k}$,
+which is impossible.
+We conclude that $k = 1$, and $p_1 = q_1$, $n_1 = m_1$.</paragraphs>
+                                      <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                      <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                        <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Now we establish the inductive step: Suppose unique factorization is true for all positive integers $a'$
+which may be written as $a' = p_1^{n_1}p_2^{n_2}\cdots p_{l'}^{n_{l'}}$,
+for any $l' &lt; l$.
+We want to show that it is also true for any integer $a$
+which may be written as $a = p_1^{n_1}p_2^{n_2}\cdots p_{l}^{n_{l}}$.</paragraphs>
+                                        <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                        <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                          <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> In other words, suppose
+\[
+a = p_1^{n_1}p_2^{n_2}\cdots p_{l}^{n_{l}} = q_1^{m_1}\cdots q_k^{m_k},
+\]
+where $p_i, q_i$ are prime and $n_i, m_i \in \mathbb{N}$. We want to show that $k = l$, and $p_i = q_i$,
+$n_i = m_i$, for $i = 1, 2, \ldots, l$.</paragraphs>
+                                          <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                          <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                            <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $k &lt; l$, then by the inductive hypothesis applied to $l' = k &lt; l$, we have $k = l$,
+a contradiction.
+So, we may assume that $k \geq l$.</paragraphs>
+                                            <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                            <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> By Euclid's Lemma, $p_l$ divides, and hence must be equal to, one of the
+$q_i$'s.</paragraphs>
+                                              <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                              <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Reindexing if necessary, we may assume that $p_l = q_k$. Cancelling $p_l$ and $q_{k}$
+from both sides of the equation, it is also clear that $n_l = m_{k}$.
+Hence, we have:
+\[
+p_1^{n_1}p_2^{n_2}\cdots p_{l-1}^{n_{l-1}} = q_1^{m_1}\cdots q_{k-1}^{m_{k -1}}.
+\]
+Since $l - 1 &lt; l$, we may now apply the inductive hypothesis to the integer
+which is equal to the left-hand side of the above equation,
+and conclude that $l - 1 = k -1$, $p_i = q_i$, $n_i = m_i$, for $1\leq i \leq l - 1$.</paragraphs>
+                                                <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                                <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Since we already know that $p_l^{n_l}$ matches $q_{k}^{m_{k}}$,
+we have $l = k$, and $p_i = q_i$, $n_i = m_i$, for $1 \leq i \leq l$.
+This establishes the inductive step, and completes the proof. </paragraphs>
+                                                  <qed course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
+                                                </collapse>
+                                              </collapse>
+                                            </collapse>
+                                          </collapse>
+                                        </collapse>
+                                      </collapse>
+                                    </collapse>
+                                  </collapse>
+                                </collapse>
+                              </collapse>
+                            </collapse>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </newcol>
+              </substatement>
+            </slide>
+          </slides>
+        </subsection>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 2070" chapter="6" section="1" num="2" serial="6.1.2">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="6" section="1" subsection="" subsubsection="" serial="6.1.2" slide="">
+            <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="12" scope="subsection" id="s12" slide="12" course="Math 2070" chapter="6" section="1" subsection="2" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="12" environ="slide" chapter="6" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="6" section="1" subsection="2" subsubsection="" serial="" slide="12">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="2" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+              </title>
+              <enumerate course="Math 2070" chapter="6" chapter_type="" section="1" subsection="2" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <item course="Math 2070" chapter="6" chapter_type="" section="1" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="1" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences3.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="1" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="1" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/NewHampshire/NECAP/grade11/gr11-2009/n11-2009-9s.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="1" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="1" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/SUNYSB/gcd.pg"/>
+                </item>
+              </enumerate>
+            </slide>
+          </slides>
+        </subsection>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Modular Arithmetic" course="Math 2070" chapter="6" num="2" serial="6.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" serial="6.2" slide="">
+          <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Modular Arithmetic</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="13" scope="section" id="s13" slide="13" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
+            <keywords slide="13" environ="slide" chapter="6" course="Math 2070">
+              <keyword chapter="6" slide="13">congruence</keyword>
+              <keyword chapter="6" slide="13">congruent modulo $m$</keyword>
+              <keyword chapter="6" slide="13">equivalence relation</keyword>
+              <keyword chapter="6" slide="13">Reflexive</keyword>
+              <keyword chapter="6" slide="13">Symmetric</keyword>
+              <keyword chapter="6" slide="13">Transitive</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" serial="" slide="13">
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Modular Arithmetic</paragraphs>
+            </title>
+            <hc_keyword course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">congruence</hc_keyword>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="15" md5="4a62c29bb2c92e3bb1826309cded2dcd" course="Math 2070" chapter="6" slide="13" item="6.15">
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $m$ be a positive integer, then $a, b \in \mathbb{Z}$ are said to be:</paragraphs>
+              <newline course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement"/>
+              <center xmlns="http://www.w3.org/1999/xhtml" environment="center">
+                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="center">congruent modulo $m$</inline_keyword>
+              </center>
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> \[
+a \equiv b \mod m,
+\]
+if $m | (a - b)$. </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="16" md5="e3714b182d4c54f790d0423c2fe7ba31" course="Math 2070" chapter="6" slide="13" item="6.16">
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The congruence relation $\equiv$ is an </paragraphs>
+                <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">equivalence relation</inline_keyword>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . In other words, it
+is: </paragraphs>
+                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <li environment="newcol">
+                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Reflexive</inline_keyword>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">:</paragraphs>
+                    <br environment="newcol"/>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a \equiv a \mod m$;</paragraphs>
+                    <newline xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> </paragraphs>
+                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Symmetric</inline_keyword>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">:</paragraphs>
+                    <br environment="newcol"/>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a \equiv b \mod m$ implies that $b \equiv a \mod m$;</paragraphs>
+                    <newline xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> </paragraphs>
+                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Transitive</inline_keyword>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">:</paragraphs>
+                    <br environment="newcol"/>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a \equiv b \mod m$, $b \equiv c \mod m$, imply that $a \equiv c \mod m$.</paragraphs>
+                    <newline xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  </li>
+                </ul>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b88872435df380a017f3e4208cd30a69" course="Math 2070" chapter="6" slide="13" of="e3714b182d4c54f790d0423c2fe7ba31">
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <li environment="newcol">
+                    <div style="width:5.4em;display:inline-block" environment="newcol">
+                      <b class="notkw" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Reflexivity</paragraphs>
+                      </b>
+                    </div>
+                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $m | 0 = (a - a)$, we have $a\equiv a \mod m$. </paragraphs>
+                    </newcol>
+                  </li>
+                  <li environment="newcol">
+                    <div style="width:5.4em;display:inline-block" environment="newcol">
+                      <b class="notkw" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Symmetry</paragraphs>
+                      </b>
+                    </div>
+                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a \equiv b \mod m$, then by definition $m$ divides $a - b$.
+But if $m$ divides $a - b$,
+it must also divide $-(a - b) = b - a$, which implies that $b \equiv a \mod m$. </paragraphs>
+                    </newcol>
+                  </li>
+                  <li environment="newcol">
+                    <div style="width:5.4em;display:inline-block" environment="newcol">
+                      <b class="notkw" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Transitivity</paragraphs>
+                      </b>
+                    </div>
+                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $m | (a - b)$ and $m | (b - c)$, then $m | ((a - b) + (b - c)) = (a - c)$, which implies
+that $a \equiv c \mod m$. </paragraphs>
+                    </newcol>
+                  </li>
+                </ul>
+                <qed course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note.</paragraphs>
+            </strong>
+            <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a \equiv 0 \mod m$ if and only if $m | a$. </paragraphs>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
+            <keywords slide="14" environ="slide" chapter="6" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="17" md5="d884acf7c8ea7ec4fb60499df8725ef2" course="Math 2070" chapter="6" slide="14" item="6.17">
+              <label course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="claim:congremainder" type="Claim"/>
+              <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <li environment="statement">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $a = qm + r$, then $a \equiv r \mod m$. </paragraphs>
+                </li>
+                <li environment="statement">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $0 \leq r &lt; r' &lt; m$, then $r \not\equiv r' \mod m$. </paragraphs>
+                </li>
+              </ol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="6" slide="14" of="d884acf7c8ea7ec4fb60499df8725ef2">
+              <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement">Exercise.</inline_keyword>
+            </substatement>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="a360e8a2dbb188f3a0742bcbe26bb2cf" course="Math 2070" chapter="6" slide="14" item="6.18">
+              <label course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="congremainder" type="Corollary"/>
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given integer $m \geq 2$, every $a \in \mathbb{Z}$ is congruent modulo $m$
+to exactly one of $\{0, 1, 2, \ldots, m - 1\}$. </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="aa7d32024fa015686f4306db8074b492" course="Math 2070" chapter="6" slide="14" of="a360e8a2dbb188f3a0742bcbe26bb2cf">
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By Part 1 of the claim, $a$ is congruent mod $m$ to the remainder $r$
+of the division of $a$ by $m$. </paragraphs>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By definition, the remainder $r$ lies in $\{0, 1, 2, \ldots, m - 1\}$.
+If $a \equiv r' \mod m$, for some $r' \in \{0, 1, 2, \ldots, m - 1\}$,
+then by transitivity, we have $r' \equiv r \mod m$. </paragraphs>
+                  <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By Part 2 of the claim, we have $r = r'$. </paragraphs>
+                    <qed course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
+            <keywords slide="15" environ="slide" chapter="6" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="19" md5="14a4a87fe292c8015bdeac65486af4b4" course="Math 2070" chapter="6" slide="15" item="6.19">
+              <label course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="congcompat" type="Theorem"/>
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Congruence is compatible with addition and multiplication in the following sense: </paragraphs>
+              <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <li environment="statement">
+                  <div style="width:6.5em;display:inline-block" environment="statement">
+                    <strong environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Addition</paragraphs>
+                    </strong>
+                  </div>
+                  <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a \equiv a' \mod m$, and $b \equiv b' \mod m$, then $a + b \equiv a'+ b'\mod m$. </paragraphs>
+                  </newcol>
+                </li>
+                <li environment="statement">
+                  <div style="width:6.5em;display:inline-block" environment="statement">
+                    <strong environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Multiplication</paragraphs>
+                    </strong>
+                  </div>
+                  <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a \equiv a' \mod m$ and $b \equiv b' \mod m$, then
+$ab \equiv a'b' \mod m$. </paragraphs>
+                  </newcol>
+                </li>
+              </ul>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1d0330a28ef17b30f9e588191ac57fb9" course="Math 2070" chapter="6" slide="15" of="14a4a87fe292c8015bdeac65486af4b4">
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <li environment="newcol">
+                    <div style="width:6.5em;display:inline-block" environment="newcol">
+                      <strong environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Addition</paragraphs>
+                      </strong>
+                    </div>
+                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $m | (a - a')$ and $m | (b - b')$, then:
+\[
+m | (a - a') + (b - b') = (a + b) - (a' + b').
+\]
+So, $a + b \equiv a' + b' \mod m$. </paragraphs>
+                    </newcol>
+                  </li>
+                  <li environment="newcol">
+                    <div style="width:6.5em;display:inline-block" environment="newcol">
+                      <strong environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Multiplication</paragraphs>
+                      </strong>
+                    </div>
+                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $m | (a - a')$ and $m | (b - b')$, then:
+\[
+m | (a - a')b + a'(b - b') = (ab - a'b').
+\]
+So, $ab \equiv a'b' \mod m$. </paragraphs>
+                    </newcol>
+                  </li>
+                </ul>
+                <qed course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
+            <keywords slide="16" environ="slide" chapter="6" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="20" md5="cf808375735a9ca3dd49918a6d0fdbe6" course="Math 2070" chapter="6" slide="16" item="6.20">
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For $a \in \mathbb{Z}$, $a^2 \equiv 0, 1$, or $4 \mod 8$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="cf60c58ff0203947c6445a0f92edc8ec" course="Math 2070" chapter="6" slide="16" of="cf808375735a9ca3dd49918a6d0fdbe6">
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By </paragraphs>
+                <ref environment="newcol" chapter_type="" label="congremainder" wbtag="ref" course="Math 2070" chapter="6" slide="16" src-course="Math 2070" src-chapter="6" src-slide="14" type="Corollary" item="6.18" src-filename="week6.xml" md5="a360e8a2dbb188f3a0742bcbe26bb2cf" class="lcref" serial="">
+                  <title>Corollary 6.18</title>
+                </ref>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
+any $a \in \mathbb{Z}$ is congruent modulo $8$ to exactly one
+element in $\{0, 1, 2, \ldots, 7\}$.
+So, by </paragraphs>
+                <ref environment="newcol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2070" chapter="6" slide="16" src-course="Math 2070" src-chapter="6" src-slide="15" type="Theorem" item="6.19" src-filename="week6.xml" md5="14a4a87fe292c8015bdeac65486af4b4" class="lcref" serial="">
+                  <title>Theorem 6.19</title>
+                </ref>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
+$a^2$ is congruent modulo 8 to one of:
+\[
+\{0^2, 1^2, 2^2, 3^2, 4^2, 5^2, 6^2, 7^2\} = \{0, 1, 4, 9, 16, 25, 36, 49\}.
+\]
+The numbers above a congruent modulo 8 to 0, 1, or 4. The claim follows. </paragraphs>
+                <qed course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
+            <keywords slide="17" environ="slide" chapter="6" course="Math 2070">
+              <keyword chapter="6" slide="17">Bézout's Lemma</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="21" md5="22345bc82e7768bc01872dcfa453331a" course="Math 2070" chapter="6" slide="17" item="6.21">
+              <label course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:inversemodm" type="Theorem"/>
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $a$ and $m$ are relatively prime, then there exists $x \in \mathbb{Z}$ such that
+$ax \equiv 1 \mod m$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="143f9b4933db1778470ce9d1132b62a2" course="Math 2070" chapter="6" slide="17" of="22345bc82e7768bc01872dcfa453331a">
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $a$ and $m$ are relatively prime, by </paragraphs>
+                <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Bézout's Lemma</inline_keyword>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ( </paragraphs>
+                <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="17" src-course="Math 2070" src-chapter="6" src-slide="7" type="Claim" item="6.5" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
+                  <title>Bézout's Lemma</title>
+                </ref>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> )
+there exist $x, y \in \mathbb{Z}$ such that:
+\[
+ax + my = 1.
+\] </paragraphs>
+                <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This implies that $m$ divides $my = 1 - ax$. So, by definition,
+we have $ax \equiv 1 \mod m$. </paragraphs>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
+            <keywords slide="18" environ="slide" chapter="6" course="Math 2070">
+              <keyword chapter="6" slide="18">Chinese Remainder Theorem</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="22" title="Chinese Remainder Theorem" md5="43bd36ddac0bd25723eed1c3291d6256" course="Math 2070" chapter="6" slide="18" item="6.22">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" serial="" slide="18">Chinese Remainder Theorem</title>
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $m_1$ and $m_2$ are relatively prime, then the system of congruence relations:
+\begin{equation*}
+\begin{split}
+x &amp;\equiv r_1 \mod m_1\\
+x &amp;\equiv r_2 \mod m_2
+\end{split}
+\end{equation*}
+has a solution $x_0 \in \mathbb{Z}$. Moreover, any two solutions are congruent modulo $m_1m_2$,
+and any integer which is congruent to $x_0$ modulo $m_1m_2$ is also a solution. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="bbfe21e23450815693c1d475f61629ed" course="Math 2070" chapter="6" slide="18">
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In other words, the system of two congruence relations is equivalent to
+a single congruence relation:
+\[
+x \equiv r \mod m_1 m_2
+\]
+for some $r \in \mathbb{Z}$.</paragraphs>
+                <newline course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Applying this process repeatedly, a system of congruence relations of the form:
+\begin{align*}
+x &amp;\equiv&amp; r_1 &amp;\mod m_1 \\
+x &amp;\equiv&amp; r_2 &amp;\mod m_2 \\
+&amp; &amp;  \vdots &amp;\\
+x &amp;\equiv&amp;  r_l &amp;\mod m_l
+\end{align*}
+where the $m_i$'s are pairwise coprime, is equivalent to a single relation of the
+form:
+\[
+x \equiv r \mod m_1m_2\cdots m_l
+\]
+for some $r \in \mathbb{Z}$. </paragraphs>
+                </collapse>
+              </newcol>
+            </substatement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4e477375d817abad208ca5b40199a0f5" course="Math 2070" chapter="6" slide="18" of="43bd36ddac0bd25723eed1c3291d6256">
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $m_1$ and $m_2$ are relatively prime, by </paragraphs>
+                <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2070" chapter="6" slide="18" src-course="Math 2070" src-chapter="6" src-slide="17" type="Theorem" item="6.21" src-filename="week6.xml" md5="22345bc82e7768bc01872dcfa453331a" class="lcref" serial="">
+                  <title>Theorem 6.21</title>
+                </ref>
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exists $n \in \mathbb{Z}$ such that $m_1n \equiv 1 \mod m_2$.
+Let $x = m_1n(r_2 - r_1) + r_1$. </paragraphs>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since:
+\[
+m_1 n (r_2 - r_1) \equiv 0 \mod m_1,
+\]
+we have:
+\[
+x \equiv r_1 \mod m_1.
+\] </paragraphs>
+                  <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Moreover, since $m_1n \equiv 1 \mod m_2$, we have:
+\[
+x = m_1n(r_2 - r_1) + r_1 \equiv r_2 - r_1 + r_1 \equiv r_2 \mod m_2.
+\]
+This shows that the system of congruence relations has at least one solution. </paragraphs>
+                    <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $x'$ is another solution to the system, then: </paragraphs>
+                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \begin{eqnarray*}
+x - x' &amp;\equiv r_1 - r_1 &amp;\equiv 0 \mod m_1,\\
+x - x' &amp;\equiv r_2 - r_2 &amp;\equiv 0 \mod m_2.
+\end{eqnarray*} </paragraphs>
+                        <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $m_1 | (x - x')$ and $m_2 | (x - x')$. Since, $m_1, m_2$ are relatively prime,
+by a previous result we conclude that $m_1m_2 | (x - x')$. In other words,
+$x \equiv x' \mod m_1m_2$.</paragraphs>
+                          <newline course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                          <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Conversely, for any integer $k$, it is clear $x' = x + m_1m_2k$  is also a solution provided that $x$ is a solution.</paragraphs>
+                          <newline course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                          <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Hence, the solution set to the system of congruence relations may be described by:
+\[
+x \equiv x_0 \mod m_1m_2,
+\]
+where $x_0$ is any particular solution to the system. </paragraphs>
+                          <qed course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="19" id="s19" slide="19" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
+            <keywords slide="19" environ="slide" chapter="6" course="Math 2070"/>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note.</paragraphs>
+            </strong>
+            <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> The proof of the Chinese Remainder Theorem as written above is complete.
+However, it is worthwhile to explain
+how we come up with the solution $x = m_1n(r_2 - r_1) + r_1$ in the first place. </paragraphs>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Heuristically, the solution may be arrived at as follows:
+For any $q \in \mathbb{Z}$, $x = m_1 q + r_1$ is a solution to the first congruence relation.
+We want to find $q$ such that $m_1 q + r_1$ is also a solution to the second congruence relation, that is:
+\[
+m_1 q + r_1 \equiv r_2 \mod m_2
+\] </paragraphs>
+              <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> or, equivalently,
+\[
+m_1 q \equiv r_2 - r_1 \mod m_2. \tag{$\ast$}
+\] </paragraphs>
+                <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Noting that there exists an $n \in \mathbb{Z}$ such that $m_1 n \equiv 1 \mod m_2$,
+the congruence relation $(\ast)$ is equivalent to:
+\[
+q \equiv n(r_2 - r_1) \mod m_2.
+\] </paragraphs>
+                  <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $x = m_1 q + r_1$ is a solution to the system of congruence relations
+if and only if $q$ is of the form $m_2l + n(r_2 - r_1)$, where $l \in \mathbb{Z}$.
+In particular, $l = 0$ gives $q = n(r_2 - r_1)$. Hence, $x = m_1n(r_2 - r_1) + r_1$
+is a solution. </paragraphs>
+                  </collapse>
+                </collapse>
+              </collapse>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="20" id="s20" slide="20" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
+            <keywords slide="20" environ="slide" chapter="6" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="23" md5="d0f53922aad30029e904b3286a4a4711" course="Math 2070" chapter="6" slide="20" item="6.23">
+              <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Solve the following system of congruence relations:
+\begin{align}
+x &amp;\equiv&amp;  3  &amp; \mod 34 \label{eq:crteg1}\\
+x &amp;\equiv&amp;  -1 &amp; \mod 27 \label{eq:crteg2}
+\end{align} </paragraphs>
+              <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The relation \eqref{eq:crteg1} holds if and only if:
+\[
+x = 34s + 3
+\]
+for some $s \in \mathbb{Z}$.</paragraphs>
+                <newline course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any such $x$, the relation \eqref{eq:crteg2} holds if and only if:
+\[
+34s + 3 \equiv -1 \mod 27,
+\]
+or equivalently:
+\begin{equation}
+\label{eq:crteg3}
+34s \equiv -4 \mod 27.
+\end{equation} </paragraphs>
+                  <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $gcd(34, 27) = 1$, by </paragraphs>
+                    <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2070" chapter="6" slide="20" src-course="Math 2070" src-chapter="6" src-slide="17" type="Theorem" item="6.21" src-filename="week6.xml" md5="22345bc82e7768bc01872dcfa453331a" class="lcref" serial="">
+                      <title>Theorem 6.21</title>
+                    </ref>
+                    <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exists $a \in \mathbb{Z}$ such that $a\cdot 34 \equiv 1 \mod 27$.
+To find $a$, we perform the Euclidean Algorithm on $34$ and $27$:
+\[
+\begin{split}
+34 &amp;= 27 \cdot 1 + 7\\
+27 &amp;= 7 \cdot 3 + 6\\
+7 &amp;= 6 \cdot 1 + 1\\
+6 &amp;= 1\cdot 6 + 0
+\end{split}
+\] </paragraphs>
+                    <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Working backwards from the last equation, we see that:
+\[
+1 = 34(4) + 27(-5)
+\]
+Hence:
+\[
+27 | (1 - 34\cdot 4 )
+\]
+That is, $34 \cdot 4 \equiv 1 \mod 27$.
+So, we may take $a = 4$.</paragraphs>
+                      <newline course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Multiplying both sides of \eqref{eq:crteg3} by $a = 4$, we see that \eqref{eq:crteg3} holds if and only if:
+\[
+s \equiv -16 \mod 27,
+\]
+which is equivalent to:
+\[
+s \equiv 11 \mod 27.
+\]
+Since the relation above holds if and only if $s = 27t + 11$
+for some $t \in \mathbb{Z}$,
+we conclude that $x \in \mathbb{Z}$ is a solution to our system of congruence relations if and only if:
+\[
+x = 34s + 3 = 34(27t + 11) + 3 = (34)(27)t + 377
+\]
+for some $t \in \mathbb{Z}$.
+More concisely, the solution set to the system of congruence relations is represented by the single relation:
+\[
+x \equiv 377 \mod 34\cdot 27
+\] </paragraphs>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="21" id="s21" slide="21" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
+            <keywords slide="21" environ="slide" chapter="6" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="24" course="Math 2070" chapter="6" slide="21" item="6.24">
+              <enumerate course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences1.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences2.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences5.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setDiscrete6Integers/ur_dis_6_9.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_1.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_2.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_3.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_4.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/SDSU/Discrete/IntegersAndRationals/pL11.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_6.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences10.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences11.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences12.pg"/>
+                </item>
+                <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences13.pg"/>
+                </item>
+              </enumerate>
+            </statement>
+          </slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

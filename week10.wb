@@ -1,0 +1,684 @@
+@course{Math 2070}
+@week{10}
+@topic{Quotient Rings}
+@topic{Polynomials over a Field}
+@section{Quotient Rings}
+Let $R$ be a commutative ring.  Let $I$ be an ideal of $R$.
+We define a relation $\sim$ on $R$ as follows:
+\[
+a \sim b, \quad \text{ if } a - b \in I.
+\]
+
+<strong>Notation/Terminology:</strong>
+If $a \sim b$, we say that $a$ is @keyword{congruent modulo $I$} to $b$,
+and write:
+\[
+a \equiv b \mod I.
+\]
+
+@claim
+@newcol
+Congruence modulo $I$ is an 
+@keyword{equivalence relation}
+. 
+@endcol
+@end
+@proof
+@newcol
+<ul>
+<li>
+@keyword{Reflexivity}
+@newcol
+$a - a = 0 \in I$, since $I$ is an ideal; hence, $a \equiv a \mod I$. 
+@endcol</li>
+<li>
+@keyword{Symmetry}
+@newcol
+If $a - b \in I$, then $b - a = -1(a  - b) \in I$, since $I$
+is an ideal and $-1 \in R$.  Hence, $a \equiv b \mod I$ implies that $b \equiv a \mod I$. 
+@endcol</li>
+<li>
+@keyword{Transitivity}
+@newcol
+If $a - b \in I$ and $b - c \in I$, then
+$a - c = a + (- b + b) - c = (a - b) + (b - c) \in I$,
+since $I$, being an ideal, is closed under addition.
+Hence, $a \equiv b, b \equiv c \mod I$ implies that $a \equiv c \mod I$. 
+@qed
+@endcol</li></ul>
+@endcol
+@end
+
+@slide
+Let $R/ I$ be the set of equivalence classes of $R$ with respect to the relation $\sim$.
+Each element of $R/ I$ has the form:
+\[
+\ol{r} = r + I = \{r + a : a \in I\}, \quad r \in R.
+\]
+
+<h5>Terminology.</h5>
+We call $\ol{r}$ the @keyword{residue} of $r$ in $R/I$.
+
+Note that if $r \in I$, then $\bar{r} = \bar{0}$, since $r - 0 = r \in I$.
+
+@newcol
+Observe that: for all $r, r' \in R$, and $a, a' \in I$,
+\[
+(r + a) + (r' + a') = (r + r') + (a + a') \in (r + r') + I = \ol{r + r'},
+\]
+\[
+(r + a)\cdot(r'+ a') = rr' + ra' + r'a + aa' \in rr' + I = \ol{rr'}.
+\] 
+@col
+Hence, we may define binary operations $+, \cdot$ on $R/I$ as follows:
+\[
+\begin{split}
+\ol{r} + \ol{r'}  &= \ol{r + r'},\\
+\ol{r}\cdot\ol{r'} &= \ol{rr'},
+\end{split}
+\]
+for all $\ol{r},\ol{r'} \in R/ I$. 
+@endcol
+
+@slide
+@claim
+The set $R/I$, equipped with the addition $+$ and multiplication $\cdot$ defined above,
+is a commutative ring. 
+@end
+@proof
+@newcol
+We note here only that the additive identity element of $R/I$ is $\ol{0} = 0 + I$,
+the multiplicative identity element of $R/I$ is $\ol{1} = 1 + I$,
+and that $-\ol{r} = \ol{-r}$ for all $r \in R$.
+
+We leave the rest of the proof (additive and multiplicative associativity, commutativity, distributativity)
+as an 
+<strong>Exercise.</strong>
+@endcol
+@end
+
+@claim
+@newcol
+The map $\pi : R \rightarrow R/I$, defined by
+\[
+\pi(r) = \ol{r},\quad \forall r \in R.
+\]
+is a surjective ring homomorphism with kernel $\ker \pi = I$. 
+@endcol
+@end
+@proof
+@newcol
+<strong>Exercise.</strong>
+@endcol
+@end
+
+@slide
+Let $m$ be a natural number.  The set:
+\[
+m\mathbb{Z} = \{mn : n \in \mathbb{Z}\}
+\]
+is an ideal of $\mathbb{Z}$. 
+@claim
+@newcol
+The quotient ring $\mathbb{Z}/m\mathbb{Z}$ is isomorphic to $\mathbb{Z}_m$. 
+@endcol
+@end
+@proof
+@newcol
+For $r \in \mathbb{Z}$, let $r_m$ denote the remainder of the division of $r$ by $m$.
+
+@col
+<strong>Exercise:</strong>
+We have $\ol{r} = \ol{r_m}$ in $\ZZ/m\ZZ$,
+where $\bar{r}$ is the residue of $r$ in $\ZZ/m\ZZ$.
+
+@col
+Define a map $\phi : \mathbb{Z}_m \ra \ZZ/m\ZZ$ as follows:
+\[
+\phi(r) = \bar{r},\quad \forall\, r \in \ZZ_m.
+\] 
+@col
+We claim that $\phi$ is a homomorphism: 
+@ul
+@li
+$\phi(1) = \bar{1} = 1_{\ZZ/m\ZZ}$. 
+@li
+\begin{multline*}
+\phi(r +_{\ZZ_m} r') = \ol{r +_{\ZZ_m} r'} = \ol{(r +_{\ZZ} r')_m} \\
+= \ol{r +_{\ZZ} r'} = \ol{r} + \ol{r'} = \phi(r) + \phi(r')
+\end{multline*} 
+@li
+\begin{multline*}
+\phi(r \cdot_{\ZZ_m} r') = \ol{r \cdot_{\ZZ_m} r'} = \ol{(r \cdot_{\ZZ} r')_m}\\
+= \ol{r \cdot_{\ZZ} r'} = \ol{r} \cdot \ol{r'} = \phi(r) \cdot \phi(r')
+\end{multline*} 
+@endul
+@col
+Hence, $\phi$ is a homomorphism.
+
+@col
+Next, we show that $\phi$ is bijective:
+
+@col
+For all $\bar{r} \in \ZZ/m\ZZ$, we have $\phi(r_m) = \ol{r_m} = \ol{r}$.
+Hence, $\phi$ is onto.
+
+@col
+Suppose $r$ is an element in $\ZZ_m$
+such that $\phi(r) = \ol{r} = 0$ in $\ZZ/m\ZZ$.  By definition, this means that $r \in m\ZZ$,
+or equivalently, that $m | r$.  Since $0 \leq r < m$, we must have $r = 0$.
+Hence, $\ker \phi = \{0\}$.
+It now follows from 
+@ref{claim:onetooneker}
+that $\phi$ is one-to one.
+
+@col
+We conclude that $\phi : \ZZ_m \ra \ZZ/m\ZZ$ is an isomorphism. 
+@qed
+@endcol
+@end
+
+@slide
+@claim
+Let $\phi : R \longrightarrow R'$ be a ring homomorphism.  Then, the image of $\phi$:
+\[
+\im \phi = \{r' \in R' : r' = \phi(r) \text{ for some } r \in R\}
+\]
+is a ring under the addition and multiplication operations of $R'$.
+(In fact, it is a subring of $R'$.) 
+@end
+@proof
+<strong>Exercise.</strong>
+@end
+
+@slide
+@thm
+@title{First Isomorphism Theorem}
+Let $R$ be a commutative ring.
+Let $\phi : R \ra R'$ be a ring homomorphism.
+Then:
+\[
+R/\ker\phi \cong \im \phi,
+\]
+(i.e. $R/\ker \phi$ is isomorphic to $\im \phi$.) 
+@end
+@proof
+@newcol
+We define a map $\ol{\phi} : R/\ker\phi \ra \im \phi$ as follows:
+\[
+\ol{\phi}(\ol{r}) = \phi(r), \quad \forall\, r \in R,
+\]
+where $\ol{r}$ is the residue of $r$ in $R/\ker \phi$.
+
+@col
+We first need to check that $\phi$ is well-defined.
+Suppose $\ol{r} = \ol{r'}$, then $r' - r \in \ker\phi$.
+We have:
+\[
+\phi(r') - \phi(r) = \phi(r' - r) = 0.
+\] 
+@col
+Hence, $\phi(r') = \phi(r)$.
+So, $\phib(\ol{r})$ is well-defined.
+
+@col
+Next, we show that $\phib$ is a homomorphism: 
+@ul
+@li
+$\phib(\ol{1}) = \phi(1) = 1$; 
+@li
+$
+\phib(\ol{a} + \ol{b}) = \phib(\ol{a + b}) = \phi(a + b) = \phi(a) + \phi(b)
+= \phib(\ol{a}) + \phib(\ol{b});
+$ 
+@li
+$
+\phib(\ol{a} \cdot \ol{b})
+= \phib(\ol{ab}) = \phi(ab) = \phi(a)\phi(b) = \phib(\ol{a})\phib(\ol{b}).
+$ 
+@endul
+
+@col
+Finally, we show that $\phib$ is a bijection, i.e. one-to-one and onto.
+
+@col
+For any $r' \in\im \phi$, there exists $r \in R$ such that $\phi(r) = r'$.
+Since $\phib(\ol{r}) = \phi(r) = r'$, $\phib$ is onto.
+
+@col
+Let $r$ be an element in $R$ such that
+$\phib(\ol{r}) = \phi(r) = 0$.
+We have $r \in \ker \phi$, which implies that $\ol{r} = 0$ in $R/\ker\phi$.
+Hence, $\ker \phib = \{0\}$, and it follows from 
+@ref{claim:onetooneker}
+that $\phib$ is one-to-one. 
+@qed
+@endcol
+@end
+
+@slide
+@cor
+If a ring homomorphism $\phi : R \ra R'$ is surjective, then:
+\[
+R' \cong R/\ker \phi
+\] 
+@end
+
+@slide
+@eg
+Let $m$ be a natural number.
+Consider the map $\phi : \mathbb{Z} \ra \ZZ_m$ defined by:
+\[
+\phi(n) = {n}_m, \quad \forall\, n \in \mathbb{Z},
+\]
+where ${n}_m$ is the remainder of the division of $n$ by $m$.
+
+<strong>Exercise:</strong> $\phi$ is a homomorphism.
+
+It is clear that $\phi$ is surjective, and that $\ker \phi = m\ZZ$.
+So, it follows from the First Isomorphism Theorem that:
+\[
+\ZZ_m \cong \ZZ/m\ZZ.
+\] 
+@end
+@slide
+@defn
+@title{Gaussian Integers}
+Let:
+\[
+\mathbb{Z}[i] = \{z \in \mathbb{C}: z = a + bi \text{ for some } a, b \in \mathbb{Z}\},
+\]
+where $i = \sqrt{-1}$. 
+@end
+@ex
+@newcol
+Show that the set $\mathbb{Z}[i]$ is a ring under the usual addition $+$
+and multiplication $\times$ operations on $\mathbb{C}$.
+
+Moreover, we have $0_{\mathbb{Z}[i]} = 0$, $1_{\mathbb{Z}[i]} = 1$,
+and:
+\[
+-(a + bi) = (-a) + (-b) i
+\]
+for any $a, b \in \mathbb{Z}$. 
+@endcol
+@end
+
+@slide
+@eg
+The ring $\mathbb{Z}[i]/(1 + 3i)$ is isomorphic to $\mathbb{Z}/10\ZZ$. 
+@end
+@proof
+@newcol
+Define a map $\phi: \ZZ \ra \ZZ[i]/(1 + 3i)$ as follows:
+\[
+\phi(n) = \ol{n},\quad \forall\, n \in \ZZ,
+\]
+where $\ol{n}$ is the residue of $n \in \ZZ[i]$ modulo $(1 + 3i)$.
+
+@col
+It is clear that $\phi$ is a homomorphism (
+<strong>Exercise</strong>
+).
+
+Observe that in $\mathbb{Z}[i]$, we have:
+\[
+1 + 3i \equiv 0 \mod (1 + 3i),
+\] 
+@col
+which implies that: 
+@steps
+\begin{align*}
+@nstep{1} & @nstep{\equiv -3i \mod (1 + 3i)}
+\\
+@nstep{i\cdot 1} & @nstep{\equiv i \cdot (-3i) \mod (1 + 3i)}
+\\
+@nstep{i} & @nstep{\equiv 3 \mod (1 + 3i).}
+\end{align*}
+@endsteps
+@col
+Hence, for all $a, b \in \ZZ$,
+\[
+\ol{a + bi} = \ol{a + 3b} = \phi(a + 3b)
+\]
+in $\ZZ[i]/(1 + 3i)$.  Hence, $\phi$ is surjective.
+
+@col
+Suppose $n$ is an element of $\ZZ$ such that $\phi(n) = \ol{n} = 0$.
+Then, by the definition of the quotient ring we have:
+\[
+n \in (1 + 3i).
+\] 
+@col
+This means that there exist $a, b \in \ZZ$ such that:
+\[
+n = (a + bi)(1 + 3i) = (a - 3b) + (3a + b)i,
+\] 
+@col
+which implies that $3a + b = 0$, or equivalently, $b = -3a$.  Hence:
+\[
+n = a - 3b = a - 3(-3a) = 10 a,
+\] 
+@col
+which implies that $\ker \phi \subseteq 10\ZZ$.  Conversely, for all $m \in \ZZ$,
+we have:
+\[
+\phi(10 m) = \ol{10 m} = \ol{(1 + 3i)(1 - 3i)m} = 0
+\]
+in $\ZZ[i]/(1 + 3i)$.
+
+@col
+This shows that $10\ZZ \subseteq \ker \phi$.  Hence, $\ker \phi = 10\ZZ$.
+
+@col
+It now follows from the First Isomorphism Theorem that:
+\[
+\ZZ/10\ZZ \cong \ZZ[i]/(1 + 3i).
+\] 
+@qed
+@endcol
+@end
+
+@section{Polynomials over a Field}
+Let $k$ be a field.
+For $f \in k[x]$ and $a \in k$, let:
+\[
+f(a) = \phi_a(f),
+\]
+where $\phi_a$ is the @keyword{evaluation homomorphism} defined in @ref{eg:evalhomom}.
+That is:
+\[
+\phi_a\left(\sum_{i = 0}^nc_ix^i \right) = \sum_{i = 0}^nc_ia^i .
+\]
+
+@defn
+Let $f = \sum_{i = 0}^nc_ix^i$ be a polynomial in $k[x]$.
+An element $a \in k$ is a @keyword{root} of $f$ if:
+\[
+f(a) = 0
+\]
+in $k$. 
+@end
+
+@slide
+
+@lemma
+For all $f \in k[x]$, $a \in k$, there exists $q \in k[x]$ such that:
+\[
+f = q(x - a) + f(a)
+\] 
+@end
+@proof
+By the @ref{thm:divalgpoly},
+there exist $q, r \in k[x]$ such that:
+\[
+f = q(x - a) + r,\quad \deg r < \deg (x - a) = 1.
+\]
+This implies that $r$ is a constant polynomial.
+
+@newcol
+Applying the evaluation homomorphism $\phi_a$ to both sides of the above equation,
+we have: 
+@steps
+\[
+\begin{split}
+f(a) &= \phi_a(q(x - a) + r)
+\\&
+@nstep{= \phi_a(q)\cdot\phi_a(x - a) + \phi_a(r)}
+\\&
+@nstep{= q(a)(a - a) + r}
+\\&
+@nstep{= r.}
+\end{split}
+\]
+@endsteps
+@endcol
+@end
+@slide
+
+@claim
+@title{Root Theorem}
+Let $k$ be a field, $f$ a polynomial in $k[x]$.  Then, $a \in k$
+is a root of $f$ if and only if $(x - a)$ divides $f$ in $k[x]$. 
+@end
+@proof
+If $a \in k$ is a root of $f$, then by the previous lemma there exists $q \in k[x]$
+such that:
+\[
+f = q(x - a) + \underbrace{f(a)}_{= 0} = q(x - a),
+\]
+so $(x - a)$ divides $f$ in $k[x]$.
+
+@newcol
+Conversely, if $f = q(x - a)$ for some $q \in k[x]$, then $f(a) = q(a)(a - a) = 0$.
+Hence, $a$ is a root of $f$. 
+@endcol
+@end
+
+@slide
+@thm
+Let $k$ be a field, $f$ a nonzero polynomial in $k[x]$. <ol>
+<li> If $f$ has degree $n$, then it has at most $n$ roots in $k$. </li>
+<li> If $f$ has degree $n > 0$ and $a_1, a_2,\ldots, a_n \in k$ are distinct
+roots of $f$, then:
+\[
+f = c\cdot \Pi_{i = 1}^n(x - a_i) := c(x - a_1)(x - a_2)\cdots (x - a_n)
+\]
+for some $c \in k$. </li></ol>
+@end
+@proof
+@newcol
+<ol>
+<li>
+@newcol
+We prove Part 1 of the claim by induction.
+If $f$ has degree 0, then $f$ is a nonzero constant, which implies that it has no roots.
+So, in this case the claim holds. 
+<br/>
+@col
+Let $f$ be a polynomial with degree $n > 0$.
+Suppose the claim holds for all nonzero polynomials with degrees strictly less than $n$.
+We want to show that the claim also holds for $f$.
+If $f$ has no roots in $k$, then the claim holds for $f$ since $0 < n$.
+If $f$ has a root $a \in k$, then by the previous claim there exists $q \in k[x]$
+such that:
+\[
+f  = q(x - a).
+\] 
+@col
+For any other root $b \in k$ of $f$ which is different from $a$, we have:
+\[
+0 = f(b) = q(b)(b - a).
+\] 
+@col
+Since $k$ is a field, it has no zero divisors; so, it follows from $b - a \neq 0$ that $q(b) = 0$.
+In other words, $b$ is a root of $q$.  Since $\deg q < n$,
+by the induction hypothesis $q$ has at most $n - 1$ roots.
+So, $f$ has at most $n - 1$ roots different from $a$.  This shows that $f$ has at most $n$ roots. 
+@endcol
+<hr/></li>
+<li>
+@newcol
+Let $f$ be a polynomial in $k[x]$ which has $n = \deg f$ distinct roots $a_1, a_2, \ldots, a_n \in k$.
+
+@col
+If $n = 1$, then $f = c_0 + c_1 x$ for some $c_i \in k$, with $c_1 \neq 0$.
+We have:
+\[
+0 = f(a_1) = c_0 + c_1a_1,
+\] 
+@col
+which implies that: $c_0 = - c_1a_1$.  Hence,
+\[
+f = -c_1a_1 + c_1 x = c_1(x - a_1).
+\] 
+@col
+Suppose $n > 1$.
+Suppose for all $n' \in \mathbb{N}$, such that $1 \leq n' < n$,
+the claim holds for any polynomial of degree $n'$ which has $n'$ distinct roots in $k$.
+By the previous claim, there exists $q \in k[x]$ such that:
+\[
+f = q(x - a_n).
+\]
+Note that $\deg q = n - 1$.
+
+@col
+For $1 \leq i < n$, we have
+\[
+0 = f(a_i) = q(a_i)\underbrace{(a_i - a_n)}_{\neq 0}.
+\] 
+@col
+Since $k$ is a field, this implies that $q(a_i) = 0$ for $1 \leq i < n$.
+So, $a_1, a_2,\ldots, a_{n - 1}$ are $n - 1$ distinct roots of $q$.
+By the induction hypothesis there exists $c \in k$ such that:
+\[
+q = c(x - a_1)(x - a_2)\cdots(x - a_{n - 1}).
+\]
+Hence, $f = q(x - a_n) = c(x - a_1)(x - a_2)\cdots(x - a_{n - 1})(x - a_n)$. 
+@qed
+@endcol</li></ol>
+@endcol
+
+@end
+@slide
+@cor
+Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.
+Let $n = {\rm max}\{\deg f, \deg g\}$.
+If $f(a) = g(a)$ for $n + 1$ distinct $a \in k$.  Then, $f = g$. 
+@end
+@proof
+@newcol
+Let $h = f - g$, then $\deg h \leq n$.  By hypothesis, there are $n + 1$ distinct elements $a \in k$
+such that $h(a) = f(a) - g(a) = 0$.  If $h \neq 0$,
+then it is a nonzero polynomial with degree $\leq n$ which has $n + 1$ distinct roots,
+which contradicts the previous theorem.
+Hence, $h$ must necessarily be the zero polynomial, which implies that $f = g$. 
+@qed
+@endcol
+@end
+
+@slide
+
+@defn
+A polynomial in $k[x]$ is called a @keyword{monic polynomial} if its leading coefficient is $1$. 
+@end
+
+@slide
+
+@cor
+@label{bezoutsforpolynomials}
+Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.  There exists a unique monic polynomial
+$d \in k[x]$ with the following property: <ol>
+<li> $(f, g) = (d)$ <br/>
+Moreover, this $d$ also satisfies the following properties: </li>
+<li>
+@newcol
+$d$ divides both $f$ and $g$, i.e., there exists $a, b \in k[x]$ such that $f = ad$, $g = bd$. 
+@endcol</li>
+<li>
+@newcol
+There are polynomials $p, q \in k[x]$ such that $d = pf + qg$. 
+@endcol</li>
+<li>
+@newcol
+If $h \in k[x]$ is a divisor of $f$ and $g$, then $h$ divides $d$. 
+@endcol</li></ol>
+@end
+
+<strong>Terminology.</strong>
+@newcol
+<ul>
+<li> The unique monic $d \in k[x]$ which satisfies property 1
+is called the @keyword{Greatest Common Divisor} (<i>abbrev.</i> @keyword{GCD}) of $f$ and $g$. </li>
+<li> We say that $f$ and $g$ are @keyword{relatively prime} if their GCD is $1$. </li></ul>
+@endcol
+
+<br/>
+@proof
+@newcol
+@ol
+@li
+By 
+@ref{thm:pidpoly}
+, there exists $d = \sum_{i = 0}^n a_i x^i \in k[x]$ such that
+$(d) = (f, g)$.  Replacing $d$ by $a_n^{-1} d$ if necessary, we may assume that $d$ is a monic polynomial.
+It remains to show that $d$ is unique.
+
+@newcol
+Suppose $(d) = (d')$, where both $d$ and $d'$ are monic polynomials.
+Then, there exist nonzero $p, q \in k[x]$
+such that:
+\[
+d' = pd,\quad d= qd'.
+\] 
+@col
+Examining the degrees of the polynomials, we have:
+\[
+\deg d' = \deg d + \deg p,
+\]
+and:
+\[
+\deg d = \deg q + \deg d' = \deg p + \deg q + \deg d.
+\] 
+@col
+This implies that $\deg p + \deg q = 0$.  Hence, $p$ and $q$ must both have degree $0$; in other words, they are
+constant polynomials.  Moreover, we have $\deg d = \deg d'$.
+Comparing the leading coefficients of $d'$ and $pd$, we have $p = 1$.
+Hence, $d = d'$. 
+@endcol
+@li
+Clear. 
+@li
+Clear. 
+@li
+By Part 3 of the corollary, there are $p, q \in k[x]$ such that $d = pf + qg$.
+It is then clear that if $h$ divides both $f$ and $g$, then $h$ must divide $d$. 
+@qed
+@endol
+@endcol
+@end
+
+@slide
+
+@defn
+Let $R$ be a commutative ring.
+A nonzero element $p \in R$ which is not a unit is said to be @keyword{irreducible} if $p = ab$ implies that either $a$ or $b$ is a unit. 
+@end
+
+@eg
+The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$. 
+@end
+
+@slide
+
+Let $k$ be a field. 
+@lemma
+A polynomial $f \in k[x]$ is a unit if and only if it is a
+nonzero constant polynomial. 
+@end
+@proof
+<strong>Exercise.</strong>
+@end
+
+@slide
+
+@claim
+A nonzero nonconstant polynomial $p \in k[x]$ is irreducible if and only if there is no $f, g \in k[x]$,
+with $\deg f, \deg g < \deg p$, such that $fg = p$. 
+@end
+@proof
+@newcol
+Suppose $p$ is irreducible, and $p = fg$ for some $f, g \in k[x]$ such that $\deg f, \deg g < \deg p$.  Then $p = fg$ implies that $\deg f$ and $\deg g$ are both positive.
+By the previous lemma, both $f$ and $g$ are non-units, which is a contradiction,
+since the irreducibility of $p$ implies that either $f$ or $g$ must be a unit.
+
+@col
+Conversely, suppose $p$ is a nonzero non-unit in $k[x]$,
+which is not equal to $fg$ for any $f, g \in k[x]$ with $\deg f, \deg g < \deg p$.
+Then, $p = ab$, $a$, $b \in k[x]$,
+implies that either $a$ or $b$ must have the same degree as $p$,
+and the other factor must be a nonzero constant, in other words a unit in $k[x]$.
+Hence, $p$ is irreducible. 
+@qed
+@endcol
+@end

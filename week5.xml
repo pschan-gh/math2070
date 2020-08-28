@@ -1,0 +1,631 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">isomorphic</keyword>
+      <keyword chapter="" slide="all">isomorphic</keyword>
+      <keyword chapter="" slide="all">remainder</keyword>
+      <keyword chapter="" slide="all">cyclic</keyword>
+      <keyword chapter="" slide="all">Division Theorem</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="5" title="" topic="Group Homomorphisms, Rings" course="Math 2070" serial="5">
+      <keywords slide="all" environ="chapter" chapter="5" course="Math 2070">
+        <keyword chapter="5" slide="all">isomorphic</keyword>
+        <keyword chapter="5" slide="all">isomorphic</keyword>
+        <keyword chapter="5" slide="all">remainder</keyword>
+        <keyword chapter="5" slide="all">cyclic</keyword>
+        <keyword chapter="5" slide="all">Division Theorem</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" serial="5" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" serial="5" slide="">Group Homomorphisms</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" serial="5" slide="">Rings</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Group Homomorphisms</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Rings</topic>
+          <keywords slide="2" environ="slide" chapter="5" course="Math 2070"/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="3" id="s3" slide="3" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="3" environ="slide" chapter="5" course="Math 2070">
+            <keyword chapter="5" slide="3">isomorphic</keyword>
+          </keywords>
+          <hc_keyword course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">isomorphic</hc_keyword>
+          <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="1" md5="224ec41686eb81f448eb4424cb858088" course="Math 2070" chapter="5" slide="3" item="5.1">
+            <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Any cyclic group of finite order $n$ is isomorphic to $\mathbb{Z}_n$. </paragraphs>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e97772519646fa9e27646048ea2e57de" course="Math 2070" chapter="5" slide="3" of="224ec41686eb81f448eb4424cb858088">
+            <newcol course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Sketch of Proof:</paragraphs>
+              <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">By definition, a cyclic group $G$ is equal to $\langle g\rangle$ for some $g \in G$.
+Moreover, $\ord g = \ord G$.</paragraphs>
+              <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Define a map $\phi : G \longrightarrow \mathbb{Z}_n$ as follows:
+\[
+\phi(g^k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
+\]
+Show that $\phi$ is a group isomorphism.</paragraphs>
+              <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">(For reference, see the discussion of </paragraphs>
+              <ref environment="newcol" chapter_type="" label="eg:cycliczn" wbtag="ref" course="Math 2070" chapter="5" slide="3" src-course="Math 2070" src-chapter="4" src-slide="14" type="Example" item="4.15" src-filename="week4.xml" md5="ad58fb7dd7baadc4df44a7450c55af00" class="lcref" serial="">
+                <title>Example 4.15</title>
+              </ref>
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.) </paragraphs>
+            </newcol>
+          </substatement>
+          <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+          <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="2" md5="ff3ef66891040a4056d5746b5624786d" course="Math 2070" chapter="5" slide="3" item="5.2">
+            <newcol course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  If $G$ and $G'$ are two finite cyclic groups of the same order, then $G$ is isomorphic to $G'$. </paragraphs>
+            </newcol>
+          </statement>
+          <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="76673133d25458f8733b416471fbd3d5" course="Math 2070" chapter="5" slide="3" item="5.3">
+            <newcol course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  An infinite cyclic group is isomorphic to $(\mathbb{Z}, +)$. </paragraphs>
+            </newcol>
+          </statement>
+          <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" md5="c958591f35ad613fa483cd322ceffd18" course="Math 2070" chapter="5" slide="3" item="5.4">
+            <newcol course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Let $G$ be a cyclic group, then any group which is isomorphic to $G$ is also cyclic. </paragraphs>
+            </newcol>
+          </statement>
+          <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Product Group" course="Math 2070" chapter="5" num="1" serial="5.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" serial="5.1" slide="">
+          <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Product Group</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="4" scope="section" id="s4" slide="4" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+            <keywords slide="4" environ="slide" chapter="5" course="Math 2070"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" serial="" slide="4">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Product Group</paragraphs>
+            </title>
+            <b xmlns="http://www.w3.org/1999/xhtml" style="display:none" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Product Group</paragraphs>
+            </b>
+            <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Let $(A, \ast_A), (B, \ast_B)$ be groups.  The direct product:
+\[
+A \times B := \{(a, b)\;|\; a\in A, b \in B\}
+\]
+has a natural group structure
+where the group operation $\ast$ is defined as follows:
+\[
+(a, b)\ast(a', b') = (a\ast_A a', b\ast_B b'), \quad (a, b), (a', b') \in A\times B.
+\] </paragraphs>
+            <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The identity element of $A \times B$ is $e = (e_A, e_B)$, where $e_A, e_B$
+are the identity elements of $A$ and $B$, respectively.</paragraphs>
+              <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  For any $(a, b) \in A \times B$, we have $(a, b)^{-1} = (a^{-1}, b^{-1})$,
+where $a^{-1}$, $b^{-1}$ are the inverses of $a$, $b$ in the groups $A$, $B$,
+respectively.</paragraphs>
+                <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  For any collection of groups $A_1, A_2, \ldots, A_n$,
+we may similarly define a group operation $\ast$ on:
+\[
+A_1 \times A_2 \times \cdots \times A_n
+:= \{(a_1, a_2, \ldots, a_n)\;|\;a_i \in A_i, i = 1, 2, \ldots n\}.
+\]
+That is:
+\[
+(a_1, a_2, \ldots, a_n)\ast (a_1', a_2', \ldots, a_n')
+=
+(a_1\ast_{A_1} a_1', a_2\ast_{A_2} a_2', \ldots, a_n \ast_{A_n} a_n')
+\]
+The identity element of $A_1 \times A_2 \times \cdots \times A_n$ is:
+\[
+e = (e_{A_1}, e_{A_2}, \ldots, e_{A_n}).
+\]
+For any $(a_1, a_2, \ldots, a_n) \in A_1 \times A_2 \times \cdots \times A_n$,
+its inverse is:
+\[
+(a_1, a_2, \ldots, a_n)^{-1} = (a_1^{-1}, a_2^{-1}, \ldots, a_n^{-1}).
+\] </paragraphs>
+                </collapse>
+              </collapse>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+            <keywords slide="5" environ="slide" chapter="5" course="Math 2070">
+              <keyword chapter="5" slide="5">isomorphic</keyword>
+            </keywords>
+            <hc_keyword course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">isomorphic</hc_keyword>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="5" md5="28b7caeaa658281f2213fca1d9e8dd59" course="Math 2070" chapter="5" slide="5" item="5.5">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  $\mathbb{Z}_6$ is isomorphic to $\mathbb{Z}_2\times\mathbb{Z}_3$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="34cb6e03c272f66e6adec049748a1d59" course="Math 2070" chapter="5" slide="5" of="28b7caeaa658281f2213fca1d9e8dd59">
+              <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Hint:</paragraphs>
+                </strong>
+                <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Show that $\mathbb{Z}_2\times\mathbb{Z}_3$ is a cyclic group generated by $(1, 1)$. </paragraphs>
+              </newcol>
+            </substatement>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="098c417f4cb5297f8ea505fb51cfb1de" course="Math 2070" chapter="5" slide="5" item="5.6">
+              <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The cyclic group $\mathbb{Z}_4$ is not isomorphic to $\mathbb{Z}_2 \times \mathbb{Z}_2$. </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="57b96aa2ec328868339bffa1f4b9aa60" course="Math 2070" chapter="5" slide="5" of="098c417f4cb5297f8ea505fb51cfb1de">
+              <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Each element of $G = \mathbb{Z}_2\times\mathbb{Z}_2$ is of order at most $2$.
+Since $\abs{G} = 4$, $G$ cannot be generated by a single element.
+Hence, $G$ is not cyclic,
+so it cannot be isomorphic to the cyclic group $\mathbb{Z}_4$. </paragraphs>
+                <qed course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+            <keywords slide="6" environ="slide" chapter="5" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="7" md5="8bc50a21b96cf105cd6ea4c5aa9c06c0" course="Math 2070" chapter="5" slide="6" item="5.7">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G$ be an abelian group, then any group which is isomorphic to $G$ is abelian. </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="5e221127a6ce6e70c99a2a01d78050e2" course="Math 2070" chapter="5" slide="6" item="5.8">
+              <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The group $D_6$ has $12$ elements.  We have seen that $D_6 = \langle r_1, s\rangle$, where $r_1$ is a rotation of order $6$,
+and $s$ is a reflection, which has order $2$.  So, it is reasonable to ask if $D_6$ is isomorphic to $\mathbb{Z}_6 \times \mathbb{Z}_2$.  The answer is no.
+For $\mathbb{Z}_6 \times \mathbb{Z}_2$ is abelian, but $D_6$ is not. </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+            <keywords slide="7" environ="slide" chapter="5" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="5fea1767dbc70eac51394f4d00e15c74" course="Math 2070" chapter="5" slide="7" item="5.9">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  The dihedral group $D_3$ is isomorphic to the symmetric group $S_3$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3be728b9f89cfc148597e21a557c4d7e" course="Math 2070" chapter="5" slide="7" of="5fea1767dbc70eac51394f4d00e15c74">
+              <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We have seen that $D_3 = \langle r, s\rangle$, where $r = r_1$ and
+$s$ is any fixed reflection,
+with:
+\[
+\ord r = 3,\quad \ord s = 2,\quad srs = r^{-1}.
+\]
+In particular , any element in $D_3$ may be expressed as $r^is^j$,
+with $i \in \{0, 1, 2\}$, $j \in \{0, 1\}$.</paragraphs>
+                <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We have also seen that $S_3 = \langle a, b \rangle$,
+where:
+\[
+a = (123),\quad b = (12),\quad \ord a = 3,\quad \ord b = 2, \quad bab = a^{-1}.
+\]
+Hence, any element in $S_3$ may be expressed as $a^ib^j$,
+with $i \in \{0, 1, 2\}$, $j \in \{0, 1\}$.</paragraphs>
+                  <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Define map $\phi: D_3 \longrightarrow S_3$ as follows:
+\[
+\phi(r^is^j) = a^ib^j, \quad i, j \in \mathbb{Z}
+\]</paragraphs>
+                    <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We first show that $\phi$ is well-defined:
+That is, whenever $r^i s^j = r^{i'}s^{j'}$,
+we want to show that:
+\[
+\phi(r^i s^j) = \phi(r^{i'}s^{j'}).
+\] </paragraphs>
+                      <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The condition $r^i s^j = r^{i'}s^{j'}$ implies that:
+\[
+r^{i - i'} = s^{j' - j}
+\] </paragraphs>
+                        <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  This holds only if  $r^{i - i'} = s^{j' - j} = e$,
+since no rotation is a reflection.</paragraphs>
+                          <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Since $\ord r = 3$ and $\ord s = 2$, we have:
+\[
+3 | (i - i'), \quad 2 | (j' - j),
+\]
+by </paragraphs>
+                            <ref environment="newcol" chapter_type="" label="thm:orderdividesn" wbtag="ref" course="Math 2070" chapter="5" slide="7" src-course="Math 2070" src-chapter="2" src-slide="3" type="Theorem" item="2.2" src-filename="week2.xml" md5="682fc761ecf19d9c07d8b7b1a587af06" class="lcref" serial="">
+                              <title>Theorem 2.2</title>
+                            </ref>
+                            <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.</paragraphs>
+                            <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                            <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Hence, </paragraphs>
+                              <steps course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\begin{align*}
+\phi(r^is^j) \phi(r^{i'}s^{j'})^{-1}
+&amp;= (a^ib^j)(a^{i'}b^{j'})^{-1}
+&amp;
+\\
+&amp;
+\class{steps}{\cssId{step0}{= a^i b^jb^{-j'} a^{-i'}}}
+&amp;
+\\
+&amp;
+\class{steps}{\cssId{step1}{= a^i b^{j - j'} a^{-i'}}}
+&amp;
+\\
+&amp;
+\class{steps}{\cssId{step2}{= a^{i - i'}}}
+&amp;
+\class{steps}{\cssId{step3}{\text{ since } \ord b = 2.}}
+\\
+&amp;
+\class{steps}{\cssId{step4}{= e}}
+&amp;
+\class{steps}{\cssId{step5}{\text{ since } \ord a = 3.}}
+\end{align*}
+
+</steps>
+                              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  This implies that
+$\phi(r^is^j) = \phi(r^{i'}s^{j'})$.
+We conclude that $\phi$ is well-defined.</paragraphs>
+                              <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                              <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We now show that $\phi$ is a group homomorphism:</paragraphs>
+                                <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                                <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Given $\mu, \mu' \in \{0, 1, 2\}$, $\nu, \nu' \in \{0, 1\}$, we have:
+\[
+\phi(r^\mu s^\nu \cdot r^{\mu'}s^{\nu'}) =
+\begin{cases}
+\phi(r^{\mu + \mu'}s^{\nu'}),&amp;\text{if } \nu = 0;\\
+\phi(r^{\mu - \mu'}s^{\nu + \nu'}),&amp;\text{if } \nu = 1.
+\end{cases}
+\] </paragraphs>
+                                  <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                                    <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  \[
+=
+\begin{cases}
+a^{\mu + \mu'}b^{\nu'},&amp;\text{if } \nu = 0;\\
+a^{\mu - \mu'}b^{\nu + \nu'} = a^{\mu}b^{\nu}a^{\mu'}b^{\nu'},&amp;\text{if } \nu = 1.
+\end{cases}
+\] </paragraphs>
+                                    <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                                      <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  \[
+=\phi(r^\mu s^\nu)\phi(r^{\mu'}s^{\nu'}).
+\]
+This shows that $\phi$ is a group homomorphism.</paragraphs>
+                                      <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                                      <collapse course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                                        <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  To show that $\phi$ is a group isomorphism,
+it remains to show that it is surjective and one-to-one.</paragraphs>
+                                        <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                                        <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">It is clear that $\phi$ is surjective.  We leave it as an exercise
+to show that $\phi$ is one-to-one. </paragraphs>
+                                        <qed course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                                      </collapse>
+                                    </collapse>
+                                  </collapse>
+                                </collapse>
+                              </collapse>
+                            </collapse>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+            <keywords slide="8" environ="slide" chapter="5" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="88897c4e46dbb05c5c9e87d8678deeb6" course="Math 2070" chapter="5" slide="8" item="5.10">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  The group:
+\[
+G = \left\{g \in \mathrm{GL}(2, \mathbb{R}) \,\left|\,
+g = \left(
+\begin{matrix}
+\cos \theta &amp; -\sin \theta\\
+\sin \theta &amp; \cos \theta
+\end{matrix}
+\right) \text{ for some } \theta \in \mathbb{R}
+\right.
+\right\}
+\]
+is isomorphic to
+\[
+G' = \{z \in \mathbb{C} : \abs{z} = 1\}.
+\]
+Here, the group operation on $G$ is matrix multiplication, and the group operation on $G'$ is the multiplication of complex numbers. </paragraphs>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Each element in $G'$ is equal to $e^{i\theta}$ for some $\theta \in \mathbb{R}$.
+Define a map $\phi : G \ra G'$ as follows:
+\[
+\phi\left(\left(
+\begin{matrix}
+\cos \theta &amp; -\sin \theta\\
+\sin \theta &amp; \cos \theta
+\end{matrix}
+\right)\right) = e^{i\theta}.
+\] </paragraphs>
+                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise:</paragraphs>
+                </strong>
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that $\phi$ is a well-defined map.
+Then, show that it is a bijective group homomorphism. </paragraphs>
+              </newcol>
+            </statement>
+          </slide>
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 2070" chapter="5" section="1" num="1" serial="5.1.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" serial="5.1.1" slide="">
+            <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="9" scope="subsection" id="s9" slide="9" course="Math 2070" chapter="5" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Product Group">
+              <keywords slide="9" environ="slide" chapter="5" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="5" section="1" subsection="1" subsubsection="" serial="" slide="9">
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+              </title>
+              <enumerate course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <item course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms1.pg"/>
+                </item>
+                <item course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms4.pg"/>
+                </item>
+                <item course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms3.pg"/>
+                </item>
+                <item course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms6.pg"/>
+                </item>
+                <item course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms2.pg"/>
+                </item>
+                <item course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms8.pg"/>
+                </item>
+              </enumerate>
+            </slide>
+          </slides>
+        </subsection>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Rings" course="Math 2070" chapter="5" num="2" serial="5.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="5" section="2" subsection="" subsubsection="" serial="5.2" slide="">
+          <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rings</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="10" scope="section" id="s10" slide="10" course="Math 2070" chapter="5" section="2" subsection="" subsubsection="" chapter_title="" section_title="Rings">
+            <keywords slide="10" environ="slide" chapter="5" course="Math 2070"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="5" section="2" subsection="" subsubsection="" serial="" slide="10">
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rings</paragraphs>
+            </title>
+          </slide>
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Basic Results in Elementary Number Theory" course="Math 2070" chapter="5" section="2" num="1" serial="5.2.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="5" section="2" subsection="" subsubsection="" serial="5.2.1" slide="">
+            <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Basic Results in Elementary Number Theory</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="11" scope="subsection" id="s11" slide="11" course="Math 2070" chapter="5" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
+              <keywords slide="11" environ="slide" chapter="5" course="Math 2070">
+                <keyword chapter="5" slide="11">remainder</keyword>
+                <keyword chapter="5" slide="11">Division Theorem</keyword>
+              </keywords>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="11">
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Basic Results in Elementary Number Theory</paragraphs>
+              </title>
+              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="11" title="Division Theorem" md5="e5d1712cf6968618cdae2a8007d5ffb6" course="Math 2070" chapter="5" slide="11" item="5.11">
+                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="11">Division Theorem</title>
+                <label course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="label" name="thm:divalg" type="Theorem"/>
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">  Let $a, b \in \mathbb{Z}$, $a \neq 0$,
+then there exist unique $q$ (called the quotient), and $r$ (</paragraphs>
+                <inline_keyword course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement">remainder</inline_keyword>
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">) in $\mathbb{Z}$, satisfying
+$0 \leq r &lt; \abs{a}$, such that $b = aq + r$. </paragraphs>
+              </statement>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="3c55019134a6b77f2e6b756b4cd95e17" course="Math 2070" chapter="5" slide="11" of="e5d1712cf6968618cdae2a8007d5ffb6">
+                <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  We will prove the case $a &gt; 0$, $b \geq 0$.  The other cases are left as exercises.</paragraphs>
+                  <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  Fix $a &gt; 0$.
+First, we prove the existence of the quotient $q$ and remainder $r$ for any $b \geq 0$,
+using mathematical induction.</paragraphs>
+                    <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                      <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">The base step</paragraphs>
+                      </strong>
+                      <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  corresponds to the case $0 \leq b &lt; a$.
+In this case, if we let $q = 0$ and $r = b$, then indeed $b = qa + r$,
+where $0 \leq r  = b &lt; a$.  Hence, $q$ and $r$ exist.</paragraphs>
+                      <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                        <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                          <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">The inductive step</paragraphs>
+                        </strong>
+                        <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  of the proof of the existence of $q$ and $r$ is as follows:
+Suppose the existence of the quotient and remainder holds for all non-negative $b' &lt; b$,
+we want to show that it must also hold for $b$.</paragraphs>
+                        <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  First, we may assume that
+$b \geq a$, since the case $b &lt; a$ has already been proved.  Let $b' = b - a$.
+Then, $0 \leq b' &lt; b$,
+so by the inductive hypothesis we have $b' = q'a + r'$
+for some $q', r' \in \mathbb{Z}$ such that $0 \leq r' &lt; a$.</paragraphs>
+                          <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  This implies that $b = b' + a = (q' + 1)a + r'$.</paragraphs>
+                            <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                            <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  So, if we let $q = q'+ 1$
+and $r = r'$, then $b = qa + r$, where $0 \leq r &lt; a$.
+This establishes the existence of $q, r$ for $b$.
+Hence, by mathematical induction, the existence of $q, r$ holds for all $b \geq 0$.</paragraphs>
+                              <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                              <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  Now we prove the uniqueness of $q$ and $r$.
+Suppose $b = qa + r = q'a + r'$, where $q, q', r, r' \in \mathbb{Z}$,
+with $0 \leq r, r' &lt; a$.</paragraphs>
+                                <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                                <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  Then, $qa+ r = q'a+r'$ implies that $r - r' = (q' - q)a$.
+Since $0 \leq r, r' &lt; a$, we have:</paragraphs>
+                                  <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                                  <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                    <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  \[
+a &gt; \abs{r - r'} = \abs{q' - q} a.
+\]</paragraphs>
+                                    <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                                    <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                                      <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  Since $q' - q$ is an integer, the above inequality implies that $q'  - q = 0$,
+i.e. $q' = q$, which then also implies that $r' = r$.
+We have therefore established the uniqueness of $q$ and $r$.</paragraphs>
+                                      <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                                      <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">The proof of the theorem, for the case $a &gt; 0, b \geq 0$, is now complete. </paragraphs>
+                                      <qed course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                                    </collapse>
+                                  </collapse>
+                                </collapse>
+                              </collapse>
+                            </collapse>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </newcol>
+              </substatement>
+              <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
+              <h5 xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">Another Proof of the </paragraphs>
+                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" label="thm:divalg" wbtag="ref" course="Math 2070" chapter="5" slide="11" src-course="Math 2070" src-chapter="5" src-slide="11" type="Theorem" item="5.11" src-filename="week5.xml" md5="e5d1712cf6968618cdae2a8007d5ffb6" class="lcref" serial="">
+                  <title>Division Theorem</title>
+                </ref>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">.</paragraphs>
+              </h5>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" of="thm:divalg" md5="a1b6d9dac7b5465af27bb92534938056" course="Math 2070" chapter="5" slide="11">
+                <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We consider here the special case $b \geq 0$.
+Consider the set:
+\[
+S = \{s \in \mathbb{Z}_{\geq 0 }\;:\; s = b - aq \text{ for some } q \in \mathbb{Z}.\}
+\]
+Since $b = b - a\cdot 0 \geq 0$, we have $b \in S$.
+So, $S$ is a nonempty subset of $\mathbb{Z}$ bounded below by $0$.
+By the Least Integer Axiom, there exists a minimum element $r \in S$.
+We claim that $r &lt; \abs{a}$:</paragraphs>
+                  <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose not, that is, $r \geq \abs{a}$.  By assumption:
+$r = b - aq$
+for some $q \in \mathbb{Z}$.</paragraphs>
+                    <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider the element $r' = r - \abs{a}$.  Then, $0 \leq r'$ and moreover:
+\[
+r' = (b - aq) - \abs{a} = b - (q \pm 1)a,
+\]
+depending on whether $a &gt; 0$ or $a &lt; 0$.
+So, $r' \in S$.  On the other hand, by construction we have $r' &lt; r$,
+which contradicts the minimality of $r$.  We conclude that $r &lt; \abs{a}$.
+This establishes the existence of the remainder $r$.</paragraphs>
+                      <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> The existence of $q$ in the theorem is now also clear.  We leave the proof of the uniqueness of $r$ and $q$ as an exercise. </paragraphs>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </newcol>
+              </substatement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="5" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
+              <keywords slide="12" environ="slide" chapter="5" course="Math 2070">
+                <keyword chapter="5" slide="12">cyclic</keyword>
+              </keywords>
+              <hc_keyword course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">cyclic</hc_keyword>
+              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="12" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2070" chapter="5" slide="12" item="5.12">
+                <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Every subgroup of $\mathbb{Z}$ is cyclic. </paragraphs>
+              </statement>
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="90afc19c6980d7d52536841192056305" course="Math 2070" chapter="5" slide="12" of="3fc92e570f8a20bea99cbdc36d3c5bb8">
+                <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we note that the group operation $\ast$ on $\mathbb{Z}$
+is integer addition, with $e_{\mathbb{Z}} = 0$,
+and $z^{\ast -1} = -z$ for any $z \in \mathbb{Z}$.</paragraphs>
+                  <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $H$ be a nontrivial (i.e. contains more than one element)
+subgroup of $\mathbb{Z}$.
+Since for any $h \in H$ we also have $-h \in H$,
+$H$ contains at least one positive element.</paragraphs>
+                    <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $d$ be the least positive integer in $H$.
+It exists because of the Least Integer Axiom.</paragraphs>
+                      <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                      <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">We claim that $H = \langle d \rangle$:</paragraphs>
+                      <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> For any $h \in H$,
+by the Division Theorem for Integers we have $h = dq + r$
+for some $r, q \in \mathbb{Z}$, such that $0 \leq r &lt; d$.  Then,
+\[
+r = h - dq = h - (\underbrace{d + d + \ldots + d}_{q \text{ times}})
+\]
+if $q \geq 0$, or
+\[
+r = h - dq = h - (\underbrace{(-d) + (-d) + \ldots + (-d)}_{q \text{ times}})
+\]
+if $q &lt; 0$.</paragraphs>
+                        <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> In either case, since $H$ is a subgroup we have $r \in H$.  If $r &gt; 0$, then we have
+a positive element in $H$ which is strictly less than $d$, which contradicts
+the minimality of $d$.  Hence, $r = 0$, from which it follows that any $h \in H$
+is equal to $dq = d^{\ast q}$ for some $q \in \mathbb{Z}$.
+This shows that $H = \langle d \rangle$. </paragraphs>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </newcol>
+              </substatement>
+              <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
+              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="13" md5="a0a8c8bc7f02df4b0dfeb2744e20a198" course="Math 2070" chapter="5" slide="12" item="5.13">
+                <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $n$ be a positive integer.
+Every subgroup of $\mathbb{Z}_n$ is cyclic. </paragraphs>
+                </newcol>
+              </statement>
+              <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
+              <statement environment="statement" chapter_type="" type="Corollary" wbtag="cor" num="14" md5="bae6cbdabbc658ffccad4c0fd780453c" course="Math 2070" chapter="5" slide="12" item="5.14">
+                <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Every subgroup of a cyclic group is cyclic. </paragraphs>
+                </newcol>
+              </statement>
+            </slide>
+          </slides>
+        </subsection>
+      </section>
+    </chapter>
+  </course>
+</document>

@@ -1,0 +1,99 @@
+@sep
+@course{Math 2070}
+@week{13}
+<h2>Review</h2>
+@sep
+<h3>Groups</h3>
+<hr/>
+@ol
+@li
+<b>Definition</b>
+@li
+<b>Examples</b>
+@newcol
+\[
+S_n, A_n, D_n, \GL(n), \SL(n), \mathbb{Z}_n
+\]
+@endcol
+@li
+\[
+g^n = e_G \Leftrightarrow \ord g | n
+\]
+@li
+<b>Subgroups</b>, <b>Cosets</b>
+@li
+<b>Lagrange's Theorem</b>
+@li
+\[
+\ord g\;|\;\abs{G}
+\]
+@li
+<b>Generators</b>
+\[
+D_n = \langle r, s\rangle,\quad srs = r^{-1}
+\]
+<b>Cyclic groups</b>
+\[
+\abs{\langle g \rangle} = \ord g \text{ if } \ord g < \infty.
+\]
+@li
+A group of prime order is necessarily cyclic.
+@li
+<b>Group homomorphism</b>, <b>Kernel</b>, <b>Isomorphism</b>
+<br>
+<b>Example</b>
+@newcol
+Fix $h \in G$.
+\[
+\phi_h : G \longrightarrow G
+\]
+\[
+\phi_h(g) = h^{-1}gh, \quad g \in G.
+\]
+@endcol
+@li
+Any cyclic group is isomorphic to either $\mathbb{Z}_n$ or $\mathbb{Z}$.
+@endol
+@sep
+<h3>Rings</h3>
+<hr/>
+@ol
+@li
+<b>Definition</b>
+@li
+<b>Division Theorem</b> for $\mathbb{Z}$ and $k[x]$ ($k$ a field).
+@li
+<b>GCD</b>, <b>Euclidean Algorithm</b>, <b>B&eacute;zout's Identity</b>
+@li
+<b>Chinese Remainder Theorem</b>
+@li
+<b>Integral Domains</b>, <b>Fields</b>, <b>Field of Fractions</b>
+@li
+<b>Ring homomorphism</b>, <b>Isomorphism</b>, <b>Kernel</b>
+@li
+<b>Ideals</b>
+@li
+<b>Quotient Rings</b>
+@li
+<b>First Isomorphism Theorem</b>
+@li
+<b>Example</b>
+@newcol
+$a, b \in \mathbb{Z}$, $gcd(a, b) = 1$.  Then:
+\[
+\mathbb{Z}/(ab) \cong \mathbb{Z}/(a) \times \mathbb{Z}/(b)
+\]
+@endcol
+@li
+<b>Example</b>
+@newcol
+Let $I, J$ be ideals of a commutative ring $R$, such that:
+\[
+R = I + J := \{i + j : i\in I, j \in J\} 
+\]
+Then,
+\[
+R/(I \cap J) \cong R/I \times R/J.
+\]
+@endcol
+@endol

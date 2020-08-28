@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">cyclic</keyword>
+      <keyword chapter="" slide="all">subgroup</keyword>
+      <keyword chapter="" slide="all">Closure</keyword>
+      <keyword chapter="" slide="all">Identity</keyword>
+      <keyword chapter="" slide="all">Inverses</keyword>
+      <keyword chapter="" slide="all">even permutation</keyword>
+      <keyword chapter="" slide="all">alternating group</keyword>
+      <keyword chapter="" slide="all">Identity</keyword>
+      <keyword chapter="" slide="all">Inverses</keyword>
+      <keyword chapter="" slide="all">Closure</keyword>
+      <keyword chapter="" slide="all">equivalence relation</keyword>
+      <keyword chapter="" slide="all">left cosets</keyword>
+      <keyword chapter="" slide="all">index</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="3" title="" topic="$\mathbb{Z}_n$, Subgroups, Left Cosets, Index" course="Math 2070" serial="3">
+      <keywords slide="all" environ="chapter" chapter="3" course="Math 2070">
+        <keyword chapter="3" slide="all">cyclic</keyword>
+        <keyword chapter="3" slide="all">subgroup</keyword>
+        <keyword chapter="3" slide="all">Closure</keyword>
+        <keyword chapter="3" slide="all">Identity</keyword>
+        <keyword chapter="3" slide="all">Inverses</keyword>
+        <keyword chapter="3" slide="all">even permutation</keyword>
+        <keyword chapter="3" slide="all">alternating group</keyword>
+        <keyword chapter="3" slide="all">Identity</keyword>
+        <keyword chapter="3" slide="all">Inverses</keyword>
+        <keyword chapter="3" slide="all">Closure</keyword>
+        <keyword chapter="3" slide="all">equivalence relation</keyword>
+        <keyword chapter="3" slide="all">left cosets</keyword>
+        <keyword chapter="3" slide="all">index</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">$\mathbb{Z}_n$</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Subgroups</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Left Cosets</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Index</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">$\mathbb{Z}_n$</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Subgroups</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Left Cosets</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Index</topic>
+          <keywords slide="2" environ="slide" chapter="3" course="Math 2070"/>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="The Cyclic Group mathbbZn" course="Math 2070" chapter="3" num="1" serial="3.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="1" subsection="" subsubsection="" serial="3.1" slide="">
+          <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">The Cyclic Group $\mathbb{Z}_n$</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2070" chapter="3" section="1" subsection="" subsubsection="" chapter_title="" section_title="The Cyclic Group mathbbZn">
+            <keywords slide="3" environ="slide" chapter="3" course="Math 2070">
+              <keyword chapter="3" slide="3">cyclic</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">The Cyclic Group $\mathbb{Z}_n$</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="e13b4e54d682feb07aa9b2173056116a" course="Math 2070" chapter="3" slide="3" item="3.1">
+              <label course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="def:cycliczn" type="Definition"/>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Fix an integer $n &gt; 0$.</paragraphs>
+              <newline course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">For any $k \in \mathbb{Z}$, let $\ol{k}$ denote the remainder of the division of $k$
+by $n$.</paragraphs>
+              <newline course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Let $\mathbb{Z}_n = \{0, 1, 2, \ldots, n - 1\}$.
+We define a binary operation $+_{\mathbb{Z}_n}$
+on $\mathbb{Z}_n$ as follows:
+\[k +_{\mathbb{Z}_n} l = \ol{k + l}.\] </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="2" md5="c0050bb16a664a6b583ede5a1b606b69" course="Math 2070" chapter="3" slide="3" item="3.2">
+              <label course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="ex:cycliczn" type="Exercise"/>
+              <newcol course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  $\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$
+is a </paragraphs>
+                <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">cyclic</inline_keyword>
+                <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> group, with identity element $0$, and $j^{-1} = n - j$ for any $j \in \mathbb{Z}_n$. </paragraphs>
+              </newcol>
+            </statement>
+          </slide>
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 2070" chapter="3" section="1" num="1" serial="3.1.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="3" section="1" subsection="" subsubsection="" serial="3.1.1" slide="">
+            <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="4" scope="subsection" id="s4" slide="4" course="Math 2070" chapter="3" section="1" subsection="1" subsubsection="" chapter_title="" section_title="The Cyclic Group mathbbZn">
+              <keywords slide="4" environ="slide" chapter="3" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="3" section="1" subsection="1" subsubsection="" serial="" slide="4">
+                <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+              </title>
+              <enumerate course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups9.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups8.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups1.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups2.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups3.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups4.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups5.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups6.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups7.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups8.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups9.pg"/>
+                </item>
+                <item course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-CyclicGroups/CyclicGroups10.pg"/>
+                </item>
+              </enumerate>
+            </slide>
+          </slides>
+        </subsection>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Subgroups" course="Math 2070" chapter="3" num="2" serial="3.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="2" subsection="" subsubsection="" serial="3.2" slide="">
+          <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Subgroups</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="5" scope="section" id="s5" slide="5" course="Math 2070" chapter="3" section="2" subsection="" subsubsection="" chapter_title="" section_title="Subgroups">
+            <keywords slide="5" environ="slide" chapter="3" course="Math 2070">
+              <keyword chapter="3" slide="5">subgroup</keyword>
+              <keyword chapter="3" slide="5">Closure</keyword>
+              <keyword chapter="3" slide="5">Identity</keyword>
+              <keyword chapter="3" slide="5">Inverses</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="2" subsection="" subsubsection="" serial="" slide="5">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Subgroups</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="3" md5="f7871d71a465e6ab71644abdcc14318d" course="Math 2070" chapter="3" slide="5" item="3.3">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G$ be a group.
+A subset $H$ of $G$ is a </paragraphs>
+              <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">subgroup</inline_keyword>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $G$ if it satisfies the following properties:</paragraphs>
+              <newline course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement"/>
+              <newcol course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <col_ul course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                  <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul">Closure</inline_keyword>
+                    <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> If $a, b \in H$, then $ab \in H$. </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul">Identity</inline_keyword>
+                    <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> The identity element of $G$ lies in $H$. </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul">Inverses</inline_keyword>
+                    <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> If $a \in H$, then $a^{-1} \in H$. </paragraphs>
+                  </col_li>
+                </col_ul>
+              </newcol>
+            </statement>
+            <newcol course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  In particular, a subgroup $H$ is a group with respect to the group operation on $G$,
+and the identity element of $H$ is the identity element of $G$. </paragraphs>
+            </newcol>
+            <newline course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="3" section="2" subsection="" subsubsection="" chapter_title="" section_title="Subgroups">
+            <keywords slide="6" environ="slide" chapter="3" course="Math 2070">
+              <keyword chapter="3" slide="6">even permutation</keyword>
+              <keyword chapter="3" slide="6">alternating group</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="3a8632057ec5b902b8a4bb5c67ae0717" course="Math 2070" chapter="3" slide="6" item="3.4">
+              <label course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="eg:subgroups" type="Example"/>
+              <col_ul course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">  For any $n \in \mathbb{Z}$,
+$n\mathbb{Z}$ is a subgroup of $(\mathbb{Z}, +)$. </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">  $\mathbb{Q}\bs\{0\}$ is a subgroup of $(\mathbb{R}\bs\{0\}, \cdot)$. </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">  ${\rm SL}(2, \mathbb{R})$ is a subgroup of ${\rm GL}(2, \mathbb{R})$. </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">  The set of all rotations (including the trivial rotation) in a dihedral group $D_n$
+is a subgroup of $D_n$. </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">  Let $n \in \mathbb{N}$, $n \geq 2$.
+We say that $\sigma \in S_n$ is an </paragraphs>
+                  <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul">even permutation</inline_keyword>
+                  <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> if it is equal to the product of an even number of transpositions.
+The subset $A_n$ of $S_n$ consisting of even permutations is a subgroup of $S_n$.
+$A_n$ is called an </paragraphs>
+                  <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul">alternating group</inline_keyword>
+                  <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">. </paragraphs>
+                </col_li>
+              </col_ul>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="3" section="2" subsection="" subsubsection="" chapter_title="" section_title="Subgroups">
+            <keywords slide="7" environ="slide" chapter="3" course="Math 2070">
+              <keyword chapter="3" slide="7">Identity</keyword>
+              <keyword chapter="3" slide="7">Inverses</keyword>
+              <keyword chapter="3" slide="7">Closure</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="6576c0e809919bd40a259f9cd2d16a01" course="Math 2070" chapter="3" slide="7" item="3.5">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  A subset $H$ of a group $G$ is a subgroup of $G$ if and only if $H$ is nonempty
+and, for all $x, y \in H$, we have $xy^{-1} \in H$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e005ec30f2bf0f9d4d12c09a270b9051" course="Math 2070" chapter="3" slide="7" of="6576c0e809919bd40a259f9cd2d16a01">
+              <newcol course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Suppose $H \subseteq G$ is a subgroup.
+Then, $H$ is nonempty since $e_G \in H$.
+For all $x, y \in H$, we have $y^{-1} \in H$;
+hence, $xy^{-1} \in H$.</paragraphs>
+                <newline course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Conversely, suppose $H$ is a nonempty subset of $G$,
+and $xy^{-1} \in H$ for all $x, y \in H$.</paragraphs>
+                <newline course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <col_ul course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                    <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                      <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul">Identity</inline_keyword>
+                      <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> Let $e$ be the identity element of $G$.
+Since $H$ is nonempty, it contains at least one element $h$.
+Since $e = h \cdot h^{-1}$, and by hypothesis $h\cdot h^{-1} \in H$, the set $H$ contains $e$. </paragraphs>
+                    </col_li>
+                    <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                      <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul">Inverses</inline_keyword>
+                      <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> Since $e \in H$, for all $a \in H$ we have $a^{-1} = e\cdot a^{-1} \in H$. </paragraphs>
+                    </col_li>
+                    <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                      <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul">Closure</inline_keyword>
+                      <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> For all $a, b \in H$, we know that $b^{-1} \in H$.  Hence,
+$ab = a\cdot(b^{-1})^{-1} \in H$. </paragraphs>
+                    </col_li>
+                  </col_ul>
+                  <collapse course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Hence, $H$ is a subgroup of $G$. </paragraphs>
+                    <qed course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="3" section="2" subsection="" subsubsection="" chapter_title="" section_title="Subgroups">
+            <keywords slide="8" environ="slide" chapter="3" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="6" md5="57b80347e2d3ec6941833fd034627a81" course="Math 2070" chapter="3" slide="8" item="3.6">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  The intersection of two subgroups of a group $G$ is a subgroup of $G$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="3" slide="8" of="57b80347e2d3ec6941833fd034627a81">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">  Exercise. </paragraphs>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="3" section="2" subsection="" subsubsection="" chapter_title="" section_title="Subgroups">
+            <keywords slide="9" environ="slide" chapter="3" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2070" chapter="3" slide="9" item="3.7">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Every subgroup of $(\mathbb{Z}, +)$ is cyclic. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f2f281c9503d1f3c8f264f7cae1c4043" course="Math 2070" chapter="3" slide="9" of="3fc92e570f8a20bea99cbdc36d3c5bb8">
+              <newcol course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Let $H$ be a subgroup of $G = (\mathbb{Z}, +)$.
+If $H = \{0\}$, then it is clearly cyclic.</paragraphs>
+                <newline course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Suppose $\abs{H} &gt; 1$.  Consider the subset:
+\[
+S = \{h \in H \,:\, h &gt; 0\} \subseteq H
+\]
+Since a subgroup is closed under inverse,
+and the inverse of any $z \in \mathbb{Z}$
+with respect to $+$ is $-z$, the subgroup $H$ must contain at least one positive
+element.  Hence, $S$ is a non-empty subset of $\mathbb{Z}$ bounded from below.</paragraphs>
+                  <newline course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  It then follows from the </paragraphs>
+                    <a xmlns="http://www.w3.org/1999/xhtml" target="_blank" href="https://planetmath.org/wellorderingprinciplefornaturalnumbers" environment="newcol">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Least Integer Axiom</paragraphs>
+                    </a>
+                    <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  that exists a minimum element $h_0$ in $S$.
+That is $h_0 \leq h$ for any $h \in S$.</paragraphs>
+                    <newline course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
+                      </strong>
+                      <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Show that $H = \langle h_0 \rangle$.</paragraphs>
+                      <newline course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">(</paragraphs>
+                      <em xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Hint</paragraphs>
+                      </em>
+                      <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> : The </paragraphs>
+                      <a xmlns="http://www.w3.org/1999/xhtml" target="_blank" href="https://planetmath.org/divisionalgorithmforintegers" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Division Theorem for Integers</paragraphs>
+                      </a>
+                      <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  could be useful here.) </paragraphs>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="8" md5="bae6cbdabbc658ffccad4c0fd780453c" course="Math 2070" chapter="3" slide="9" item="3.8">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Every subgroup of a cyclic group is cyclic. </paragraphs>
+            </statement>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Lagrange's Theorem" course="Math 2070" chapter="3" num="3" serial="3.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="3" subsection="" subsubsection="" serial="3.3" slide="">
+          <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Lagrange's Theorem</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="10" scope="section" id="s10" slide="10" course="Math 2070" chapter="3" section="3" subsection="" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
+            <keywords slide="10" environ="slide" chapter="3" course="Math 2070">
+              <keyword chapter="3" slide="10">equivalence relation</keyword>
+              <keyword chapter="3" slide="10">left cosets</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="3" subsection="" subsubsection="" serial="" slide="10">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Lagrange's Theorem</paragraphs>
+            </title>
+            <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">  Let $G$ be a group, $H$ a subgroup of $G$.
+We are interested in knowing how large $H$ is relative to $G$.</paragraphs>
+            <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">We define a relation $\equiv$ on $G$ as follows:
+\[
+a \equiv b \text{ if } b = ah \text{ for some } h \in H,
+\]
+or equivalently:
+\[
+a \equiv b \text{ if } a^{-1}b \in H.
+\] </paragraphs>
+            <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="">Exercise:</inline_keyword>
+            <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\equiv$ is an </paragraphs>
+            <a xmlns="http://www.w3.org/1999/xhtml" target="_blank" href="https://planetmath.org/equivalencerelation" environment="">
+              <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="">equivalence relation</inline_keyword>
+            </a>
+            <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">.</paragraphs>
+            <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">We may therefore partition $G$
+into disjoint equivalence classes with respect to $\equiv$.
+We call these equivalence classes the </paragraphs>
+            <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="">left cosets</inline_keyword>
+            <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $H$.</paragraphs>
+            <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">Each left coset of $H$ has the form $aH = \{ah \,|\, h \in H\}$.</paragraphs>
+            <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <newcol course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We could likewise define </paragraphs>
+              <i xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> right</paragraphs>
+              </i>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  cosets.  These sets are of the form $Hb$, $b \in G$.
+In general,
+the number of left cosets and right cosets, if finite, are equal to each other </paragraphs>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="3" section="3" subsection="" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
+            <keywords slide="11" environ="slide" chapter="3" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="b77f0c6d9223307e7c03607e4a2f71ba" course="Math 2070" chapter="3" slide="11" item="3.9">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G = (\mathbb{Z}, +)$.
+Let:
+\[
+H = 3\mathbb{Z} =
+\{\ldots, -9, -6, -3, 0, 3, 6, 9, \ldots\}
+\]
+The set $H$ is a subgroup of $G$.
+The left cosets of $H$ in $G$ are as follows:
+\[
+3\mathbb{Z}, 1 + 3\mathbb{Z}, 2 + 3\mathbb{Z},
+\]
+where $i + 3\mathbb{Z} := \{i + 3k : k \in \mathbb{Z}\}$.</paragraphs>
+              <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">In general, for $n \in \mathbb{Z}$,
+the left cosets of $n\mathbb{Z}$ in $\mathbb{Z}$ are:
+\[
+i + n\mathbb{Z}, \quad i = 0, 1, 2, \ldots, n - 1.
+\] </paragraphs>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="3" section="3" subsection="" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
+            <keywords slide="12" environ="slide" chapter="3" course="Math 2070">
+              <keyword chapter="3" slide="12">index</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="10" md5="8f8a96dfa5832f87f8613f6639e6262b" course="Math 2070" chapter="3" slide="12" item="3.10">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  The number of left cosets of a subgroup $H$ of $G$ is called the </paragraphs>
+              <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">index</inline_keyword>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $H$ in $G$.
+It is denoted by:
+\[
+[G : H]
+\] </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="e2d60e37880b1ae4a5c22a8d6e6b0a01" course="Math 2070" chapter="3" slide="12" item="3.11">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $n \in \mathbb{N}$,
+$G = (\mathbb{Z}, +)$, $H = (n\mathbb{Z}, +)$.
+Then,
+\[
+[G:H] = n.
+\] </paragraphs>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="3" section="3" subsection="" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
+            <keywords slide="13" environ="slide" chapter="3" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="1ad8b28f2761b0e740cc596c0c98e480" course="Math 2070" chapter="3" slide="13" item="3.12">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G = {\rm GL}(n, \mathbb{R})$.  Let:
+\[
+H = {\rm GL}^+(n, \mathbb{R}) := \left\{ h \in G : \det h &gt; 0\right\}.
+\]
+(</paragraphs>
+              <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">Exercise:</inline_keyword>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $H$ is a subgroup of $G$.)</paragraphs>
+              <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Let:
+\[
+s = \left(
+\begin{matrix}
+-1 &amp; 0 &amp; 0&amp; 0 &amp; 0\\
+0&amp;1 &amp;0 &amp;0 &amp;0\\
+0&amp;0 &amp;1 &amp;0 &amp;0\\
+0&amp;0 &amp;0 &amp;\ddots&amp;0\\
+0&amp; 0 &amp;0 &amp;0 &amp;1
+\end{matrix}
+\right) \in G
+\]
+Note that $\det s = \det s^{-1} = -1$.</paragraphs>
+              <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">For any $g \in G$, either $\det g &gt; 0$ or $\det g &lt; 0$.
+If $\det g &gt; 0$, then $g \in H$.
+If $\det g &lt; 0$, we write:
+\[
+g = (ss^{-1}) g = s(s^{-1} g).
+\]
+Since $\det s^{-1}g = (\det s^{-1})(\det g) &gt; 0$, we have $s^{-1}g \in H$.
+So, $G = H \sqcup s H$, and $[G : H] = 2$.
+Notice that both $G$ and $H$ are infinite groups, but the index of $H$ in $G$ is finite. </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="912af72c3d5172a3749363703f8f653c" course="Math 2070" chapter="3" slide="13" item="3.13">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G = {\rm GL}(n, \mathbb{R})$, $H = {\rm SL}(n, \mathbb{R})$.
+For each $x \in \mathbb{R}^\times$, let:
+\[
+s_x = \left(
+\begin{matrix}
+x &amp; 0 &amp; 0&amp; 0 &amp; 0\\
+0&amp;1 &amp;0 &amp;0 &amp;0\\
+0&amp;0 &amp;1 &amp;0 &amp;0\\
+0&amp;0 &amp;0 &amp;\ddots&amp;0\\
+0&amp; 0 &amp;0 &amp;0 &amp;1
+\end{matrix}
+\right) \in G
+\]
+Note that $\det s_x = x$.</paragraphs>
+              <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">For each $g \in G$, we have:
+\[
+g = s_{\det g}{(s_{\det g}^{-1} g)} \in s_{\det g}H
+%% g = s_{\det g}\underbrace{(s_{\det g}^{-1} g)}_{\in H}
+\]
+Moreover, for distinct $x, y \in \mathbb{R}^\times$, we have:
+\[
+\det (s_x^{-1}s_y) = y/x \neq 1.
+\]
+This implies that $s_x^{-1} s_y \notin H$, hence $s_yH$ and $s_xH$ are disjoint cosets.
+We have therefore:
+\[
+G = \bigsqcup_{x \in \mathbb{R}^\times} s_x H.
+\]
+The index $[G: H]$ in this case is infinite. </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <paragraphs>
+              <!--@slide@thm@title{Lagrange's Theorem}
+Let $G$ be a finite group.  Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
+More precisely, $\abs{G} = [G : H]\cdot\abs{H}$.
+@end
+
+We already know that the left cosets of $H$ partition $G$.
+That is:
+\[
+G = a_1 H \sqcup a_2 H \sqcup \ldots \sqcup a_{[G:H]}H,
+\]
+where $a_i H \cap a_j H = \emptyset$ if $i \neq j$.
+Hence, $\abs{G} = \sum_{i = 1}^{[G:H]} \abs{a_i H}$.
+The theorem follows if we show that the size of each left coset of $H$ is equal to $\abs{H}$.
+
+For each left coset $S$ of $H$, pick an element $a \in S$, and  define a map $\psi : H \ra S$ as follows:
+\[
+\psi(h) = ah.
+\]
+We want to show that $\psi$ is bijective.
+
+For any $s \in S$,
+by definition of a left coset (as an equivalence class) we have $s = ah$ for some $h \in H$.
+Hence, $\psi$ is surjective.
+If $\psi(h') = ah' = ah = \psi(h)$ for some $h', h \in H$,
+then $h' = a^{&#45;1}ah' = a^{&#45;1}ah = h$.  Hence, $\psi$ is one&#45;to&#45;one.
+
+So we have a bijection between two finite sets.  Hence, $\abs{S} = \abs{H}$.
+
+@slide@cor
+ Let $G$ be a finite group.
+The order of every element of $G$  divides the order of $G$.
+@end
+
+Since $G$ is finite, any element of $g \in G$ has finite order $\ord g$.
+Since the order of the subgroup:
+\[
+H = \langle g \rangle
+= \{e, g, g^2, \ldots, g^{(\ord g) &#45; 1}\}
+\]
+is equal to $\ord g$,
+it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$.
+
+@cor
+ If the order of a group $G$ is prime, then $G$ is a cyclic group.
+@end@subsection@title
+WeBWorK
+@endtitle@enumerate@item @webwork{Library/UMass&#45;Amherst/Abstract&#45;Algebra/PS&#45;Cosets/Cosets4.pg}@item @webwork{Library/UMass&#45;Amherst/Abstract&#45;Algebra/PS&#45;Cosets/Cosets1.pg}@item @webwork{Library/UMass&#45;Amherst/Abstract&#45;Algebra/PS&#45;Cosets/Cosets5.pg}@item @webwork{Library/UMass&#45;Amherst/Abstract&#45;Algebra/PS&#45;Cosets/Cosets13.pg}@item @webwork{Library/UMass&#45;Amherst/Abstract&#45;Algebra/PS&#45;Cosets/Cosets14.pg}@endenumerate-->
+            </paragraphs>
+          </slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

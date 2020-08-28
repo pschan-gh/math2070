@@ -1,0 +1,950 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">commutative</keyword>
+      <keyword chapter="" slide="all">integral domain</keyword>
+      <keyword chapter="" slide="all">zero divisor</keyword>
+      <keyword chapter="" slide="all">cancellation law</keyword>
+      <keyword chapter="" slide="all">Note.</keyword>
+      <keyword chapter="" slide="all">unit</keyword>
+      <keyword chapter="" slide="all">field</keyword>
+      <keyword chapter="" slide="all">partition</keyword>
+      <keyword chapter="" slide="all">quotient set</keyword>
+      <keyword chapter="" slide="all">Fraction Field</keyword>
+      <keyword chapter="" slide="all">Note.</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="8" title="" topic="Rings, Integral Domains, Fields" course="Math 2070" serial="8">
+      <keywords slide="all" environ="chapter" chapter="8" course="Math 2070">
+        <keyword chapter="8" slide="all">commutative</keyword>
+        <keyword chapter="8" slide="all">integral domain</keyword>
+        <keyword chapter="8" slide="all">zero divisor</keyword>
+        <keyword chapter="8" slide="all">cancellation law</keyword>
+        <keyword chapter="8" slide="all">Note.</keyword>
+        <keyword chapter="8" slide="all">unit</keyword>
+        <keyword chapter="8" slide="all">field</keyword>
+        <keyword chapter="8" slide="all">partition</keyword>
+        <keyword chapter="8" slide="all">quotient set</keyword>
+        <keyword chapter="8" slide="all">Fraction Field</keyword>
+        <keyword chapter="8" slide="all">Note.</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="8" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="8" slide="">Rings</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="8" slide="">Integral Domains</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="8" slide="">Fields</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Rings</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Integral Domains</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Fields</topic>
+          <keywords slide="2" environ="slide" chapter="8" course="Math 2070"/>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Integral Domains Units" course="Math 2070" chapter="8" num="1" serial="8.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" serial="8.1" slide="">
+          <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Integral Domains, Units</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="3" environ="slide" chapter="8" course="Math 2070">
+              <keyword chapter="8" slide="3">commutative</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Integral Domains, Units</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="e2b45b5995de9020648747a9c530a1cf" course="Math 2070" chapter="8" slide="3" item="8.1">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A ring $R$ is said to be </paragraphs>
+              <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">commutative</inline_keyword>
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if $ab = ba$ for all $a, b \in R$.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="e9c67b59bbfe2c362f4accedb415cf6e" course="Math 2070" chapter="8" slide="3" item="8.2">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For a fixed natural number $n &gt; 1$,
+the ring of $n\times n$ matrices with integer coefficients,
+under the usual operations of addition and multiplication, is not commutative.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="4" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="02a5df09d11e33d35e620f8d1ba2830d" course="Math 2070" chapter="8" slide="4" item="8.3">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $m$ be a natural number greater than 1.  Let $\mathbb{Z}_m = \{0, 1, 2, \ldots, m - 1\}$.
+Recall that for any integer $n \in \mathbb{Z}$, there exists a unique $\ol{n} \in \mathbb{Z}_m$,
+such that $n \equiv \ol{n} \mod m$.  More precisely, $\ol{n}$ is the remainder of the division of of $n$ by $m$:
+$n = mq + r$.
+We equip $\mathbb{Z}_m$ with addition $+_m$ and multiplication $\times_m$ defined as follows:
+For $a, b \in \mathbb{Z}_m$, let:
+\[
+\begin{split}
+a +_m b &amp;= \overline{a + b},\\
+a \times_m b &amp;= \overline{a\cdot b},
+\end{split}
+\]
+where the addition and multiplication on the right are the usual addition and multiplication for integers.  </paragraphs>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="5" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" md5="819ae89e5a5c75d0f88a5cbffbeb4735" course="Math 2070" chapter="8" slide="5" item="8.4">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> With addition and multiplication thus defined, $\mathbb{Z}_m$ is a commutative ring.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3836b8945ad743702d04f76f86ebfcb3" course="Math 2070" chapter="8" slide="5" of="819ae89e5a5c75d0f88a5cbffbeb4735">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <col_ol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $a, b \in \mathbb{Z}_m$, we have $a +_m b = \overline{a + b} = \overline{b + a} = b +_m a$,
+since addition for integers is commutative.  So, $+_m$ is commutative.  </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For any $r_1, r_2 \in \mathbb{Z}$,
+by  </paragraphs>
+                    <ref environment="col_ol" chapter_type="" label="claim:congremainder" wbtag="ref" course="Math 2070" chapter="8" slide="5" src-course="Math 2070" src-chapter="6" src-slide="14" type="Claim" item="6.17" src-filename="week6.xml" md5="d884acf7c8ea7ec4fb60499df8725ef2" class="lcref" serial="">
+                      <title>Claim 6.17</title>
+                    </ref>
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> and  </paragraphs>
+                    <ref environment="col_ol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2070" chapter="8" slide="5" src-course="Math 2070" src-chapter="6" src-slide="15" type="Theorem" item="6.19" src-filename="week6.xml" md5="14a4a87fe292c8015bdeac65486af4b4" class="lcref" serial="">
+                      <title>Theorem 6.19</title>
+                    </ref>
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> ,
+we have
+\[
+r_1 \equiv \overline{r_1} \mod m, \quad r_2 \equiv \overline{r_2} \mod m,
+\]
+and:
+\[
+\overline{r_1 + r_2} \equiv r_1 + r_2 \equiv \overline{r_1} + \overline{r_2} \equiv \overline{\overline{r_1} + \overline{r_2}} \mod m.
+\]  </paragraphs>
+                    <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $a, b, c \in \mathbb{Z}_m$, we have:  </paragraphs>
+                      <steps course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\[
+\begin{split}
+a +_m (b +_m c) &amp;= a +_m \overline{b + c}
+\\&amp;
+\class{steps}{\cssId{step0}{= \overline{a + \overline{b + c}}}}
+\\&amp;
+\class{steps}{\cssId{step1}{= \overline{\overline{a} + \overline{b + c}}}}
+\\&amp;
+\class{steps}{\cssId{step2}{= \overline{a + (b + c)}}}
+\end{split}
+\]
+</steps>
+                      <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> But $a + (b + c)$ is equal to $(a + b) + c$, since addition for integers is associative.  Hence, the above expression
+is equal to:  </paragraphs>
+                        <steps course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+\[
+\begin{split}
+\overline{(a + b) + c} &amp;= \overline{\overline{(a + b)} + \overline{c}}
+\\&amp;
+\class{steps}{\cssId{step0}{= \overline{\overline{a + b} + {c}}}}
+\\&amp;
+\class{steps}{\cssId{step1}{= \overline{(a +_m b) + c}}}
+\\&amp;
+\class{steps}{\cssId{step2}{= (a +_m b) +_m c.}}
+\end{split}
+\]
+</steps>
+                        <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We conclude that $+_m$ is associative.  </paragraphs>
+                        </collapse>
+                      </collapse>
+                    </newcol>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol">Exercise:</inline_keyword>
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> We can take 0 to be the additive identity element.  </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For each nonzero element $a \in \mathbb{Z}_m$, we can take the additive inverse of $a$ to be $m - a$.
+Indeed, $a +_m (-a)  = \overline{a + (m - a)} = \overline{m} = 0$.  </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> By the same reasoning used in the case of addition,
+for $r_1, r_2 \in \mathbb{Z}$, we have
+\[
+\ol{r_1 r_2} \equiv r_1r_2 \equiv \ol{r_1}\cdot\ol{r_2}
+\equiv \ol{\ol{r_1}\cdot\ol{r_2}} \mod m.
+\]</paragraphs>
+                    <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol"/>
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">For $a, b, c \in \mathbb{Z}_m$, we have:
+\[
+a\times_m(b\times_mc) = a\times_m\overline{bc} = \ol{\ol{a}\cdot\ol{bc}} = \ol{a(bc)},
+\]
+which by the associativity of multiplication for integers is equal to:
+\[
+\ol{(ab) c} = \ol{\ol{ab}\cdot\ol{c}} = \ol{ab}\times_m c = (a\times_m b)\times_m c.
+\]
+So, $\times_m$ is associative.  </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol">Exercise:</inline_keyword>
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> We can take $1$ to be the multiplicative identity.  </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $a, b \in \mathbb{Z}_m$, $a\times_m b =\ol{a\cdot b} = \ol{b\cdot a} = b\times_ma$.  So $\times_m$ is commutative.  </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Lastly, we need to prove distributativity.
+For $a, b, c \in \mathbb{Z}_m$, we have:  </paragraphs>
+                    <steps course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="steps" stepsid="steps3">
+\[
+\begin{split}
+a \times_m (b +_m c) &amp;= \ol{\ol{a} \cdot \ol{b + c}}
+\\&amp;
+\class{steps}{\cssId{step0}{= \ol{a \cdot (b + c)}}}
+\\&amp;
+\class{steps}{\cssId{step1}{= \ol{ab + ac}}}
+\\&amp;
+\class{steps}{\cssId{step2}{= \ol{\ol{ab} + \ol{ac}}}}
+\\&amp;
+\class{steps}{\cssId{step3}{= a\times_m b +_m a\times_m c.}}
+\end{split}
+\]
+</steps>
+                    <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from the distributativity from the left, proven above,
+and the commutativity of $\times_m$,
+that distributativity from the right also holds:
+\[
+(a +_m b) \times_m c = a\times_m c + b\times_m c.
+\]  </paragraphs>
+                    </newcol>
+                  </col_li>
+                </col_ol>
+                <qed course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="6" environ="slide" chapter="8" course="Math 2070">
+              <keyword chapter="8" slide="6">integral domain</keyword>
+              <keyword chapter="8" slide="6">zero divisor</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="5" md5="ca2c78b1e839b0b1216f7b371c0d0101" course="Math 2070" chapter="8" slide="6" item="8.5">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A nonzero commutative ring $R$ is an </paragraphs>
+              <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">integral domain</inline_keyword>
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if
+the product of two nonzero elements is always nonzero.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="6" md5="da7a7e4c031abd43a163939020949ad8" course="Math 2070" chapter="8" slide="6" item="8.6">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A nonzero element $r$ in a ring $R$ is called a  </paragraphs>
+                <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">zero divisor</inline_keyword>
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> if
+there exists nonzero $s \in R$ such that $rs = 0$ or $sr = 0$.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note.</paragraphs>
+            </strong>
+            <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A nonzero commutative ring $R$ is an integral domain if and only if
+it has no zero divisors.  </paragraphs>
+            </newcol>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="a22eb69ef2468563bea21968f7b3a81c" course="Math 2070" chapter="8" slide="6" item="8.7">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $2, 3 \neq 0$ in $\mathbb{Z}_6$, but
+$2 \times_6 3 = \bar{6} = 0$,
+the ring $\mathbb{Z}_6$ is not an integral domain.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="7" environ="slide" chapter="8" course="Math 2070">
+              <keyword chapter="8" slide="7">cancellation law</keyword>
+              <keyword chapter="8" slide="7">Note.</keyword>
+            </keywords>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="8" md5="cd5d13765e4cbae70f4b39fc2e55ff0e" course="Math 2070" chapter="8" slide="7" item="8.8">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A commutative ring $R$ is an integral domain if and only if
+the </paragraphs>
+              <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">cancellation law</inline_keyword>
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> holds for multiplication.  That is:
+Whenever $ca = cb$ and $c\neq 0$, we have $a = b$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="76baeaa9b9841a22bffe170005089be3" course="Math 2070" chapter="8" slide="7" of="cd5d13765e4cbae70f4b39fc2e55ff0e">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $R$ is an integral domain.</paragraphs>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $ca = cb$, then by distributativity $c(a - b) = c(a + -b) = 0$.</paragraphs>
+                  <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $R$ is an integral domain,
+we have either $c = 0$ or $a - b = 0$.</paragraphs>
+                    <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, if $c \neq 0$, we must have
+$a = b$.</paragraphs>
+                      <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Conversely, suppose cancellation law holds.
+It suffices to show that whenever we have $a, b \in R$ such that $ab = 0$ and $a \neq 0$, 
+then we must have $b = 0$.</paragraphs>
+                        <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By a previous result we know that $0 = a0$.
+So, $ab = a0$, which by the cancellation law implies that $b = 0$.  </paragraphs>
+                          <qed course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note.</paragraphs>
+            </h5>
+            <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If every nonzero element of a commutative ring has a multiplicative inverse,
+then that ring is an integral domain:
+\[
+ca = cb \implies c^{-1} ca = c^{-1}cb\implies a = b.
+\]
+However, a nonzero element of an integral domain does not
+necessarily have a multiplicative inverse.  </paragraphs>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="8" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="6ed18979100a1d1c44164c9d14a4ab28" course="Math 2070" chapter="8" slide="8" item="8.9">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The ring $\mathbb{Z}$ is an integral domain, for the product of two nonzero integers is nonzero.
+So, the cancellation law holds for $\mathbb{Z}$, but the only nonzero elements in $\mathbb{Z}$
+which have multiplicative inverses are $\pm 1$.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="f35312c6d46d6b2802468dc2c5674238" course="Math 2070" chapter="8" slide="8" item="8.10">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The ring $\mathbb{Q}[x]$ is an integral domain.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="11" md5="4f62ea99a34581084495ad126b1d7ed0" course="Math 2070" chapter="8" slide="8" item="8.11">
+              <label course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="ex:zmintdom" type="Exercise"/>
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that:
+For $m &gt; 1$,
+$\mathbb{Z}_m$ is an integral domain if and only if $m$ is a prime.  </paragraphs>
+              </newcol>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="9" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="2e507920b08d8516b51cb09541773f56" course="Math 2070" chapter="8" slide="9" item="8.12">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Consider $R = C[-1, 1]$, the ring of all continuous functions on $[-1, 1]$, equipped with
+the usual operations of addition and multiplication for functions.</paragraphs>
+              <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let:
+\[
+f(x) = \begin{cases}
+-x, &amp; -1 \leq x \leq 0,\\
+0, &amp; 0 &lt; x \leq 1.
+\end{cases}
+\quad,\quad
+g(x) = \begin{cases}
+0, &amp; -1 \leq x \leq 0,\\
+x, &amp; 0 &lt; x \leq 1.
+\end{cases}
+\]  </paragraphs>
+                <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Then $f$ and $g$ are nonzero elements of $R$, but $fg = 0$.</paragraphs>
+                  <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So $R$ is not an integral domain.  </paragraphs>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="10" environ="slide" chapter="8" course="Math 2070">
+              <keyword chapter="8" slide="10">unit</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="13" md5="90f0a05e96bc96f7ef96386638e91546" course="Math 2070" chapter="8" slide="10" item="8.13">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> We say that an element $r \in R$ is a </paragraphs>
+              <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">unit</inline_keyword>
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if it has a multiplicative inverse; i.e.
+there is an element $r^{-1} \in R$ such that $rr^{-1} = r^{-1} r = 1$.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="fcac3e62d0b76770eb93f4891338cb09" course="Math 2070" chapter="8" slide="10" item="8.14">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider $4 \in \mathbb{Z}_{25}$.  Since $4\cdot 19 = 76 \equiv 1 \mod 25$,
+we have $4^{-1} = 19$ in $\mathbb{Z}_{25}$.  So, $4$ is a unit in $\mathbb{Z}_{25}$.</paragraphs>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> On the other hand, consider $10 \in \mathbb{Z}_{25}$.  Since $10 \cdot 5 = 50 \equiv 0 \mod 25$,
+we have $10 \cdot 5 = 0$ in $\mathbb{Z}_{25}$.  If $10^{-1}$ exists, then by the associativity
+of multiplication, we would have:
+\[
+5 = (10^{-1}\cdot 10)\cdot 5 = 10^{-1} \cdot (10 \cdot 5) = 10^{-1} \cdot 0 = 0,
+\]
+a contradiction.  So, $10$ is not a unit in $\mathbb{Z}_{25}$.  </paragraphs>
+                </collapse>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="11" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="15" md5="0e0111cd0ed7b5ce2130f804227cafe1" course="Math 2070" chapter="8" slide="11" item="8.15">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $m \in \mathbb{N}$ be greater than one.  Then, $r \in \mathbb{Z}_m$ is a unit
+if and only if $r$ and $m$ are relatively prime; i.e. $gcd(r, m) = 1$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0d43976f409bcbbdadc972ae9819ec1b" course="Math 2070" chapter="8" slide="11" of="0e0111cd0ed7b5ce2130f804227cafe1">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $r \in \{0, 1, 2,\ldots, m - 1\}$ is a unit in $\mathbb{Z}_m$, then
+there exists $r^{-1} \in \mathbb{Z}_m$ such that $r\cdot r^{-1} \equiv 1 \mod m$.</paragraphs>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In other words,
+there exists $x \in \mathbb{Z}$ such that $r\cdot r^{-1} - 1 = mx$, or $r\cdot r^{-1} - mx = 1$.
+This implies that if there is an integer $d$ such that  $d | r$ and $d | m$,
+then $d$ must also divide $1$.  Hence, the GCD of $r$ and $m$ is $1$.</paragraphs>
+                  <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Conversely, if $gcd(r, m) = 1$, then there exists $x, y \in \mathbb{Z}$ such that $rx + my = 1$.</paragraphs>
+                    <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It follows that $r^{-1} = \ol{x}$ is a multiplicative inverse of $r$.
+Here, $\ol{x} \in \mathbb{Z}_m$ is the remainder of the division of $x$ by $m$.  </paragraphs>
+                      <qed course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="16" md5="faff551b28a29dea037337edd00bb258" course="Math 2070" chapter="8" slide="11" item="8.16">
+              <label course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="cor:zpfield" type="Corollary"/>
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $p$ prime, every nonzero element of $\mathbb{Z}_p$ is a unit.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="12" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="17" md5="5df841381594f13ce17b644d46ae0c79" course="Math 2070" chapter="8" slide="12" item="8.17">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The only units of $\mathbb{Z}$ are $\pm 1$.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="18" md5="be7d0b0bc01221a5ad8eea6a3b8fdad2" course="Math 2070" chapter="8" slide="12" item="8.18">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $R$ be the ring of all real-valued functions on $\mathbb{R}$.
+Then, any function $f \in R$  satisfying $f(x) \neq 0$, $\forall x$, is a unit.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="19" md5="c380c45e48a8ba15b1262dab961344c7" course="Math 2070" chapter="8" slide="12" item="8.19">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $R$ be the ring of all continuous real-valued functions on $\mathbb{R}$,
+then $f \in R$ is a unit if and only if it is either strictly positive or strictly negative.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+            <keywords slide="13" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="20" md5="6d231a348d60a74ccb5a6a7bd787da4c" course="Math 2070" chapter="8" slide="13" item="8.20">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The only units of $\mathbb{Q}[x]$ are nonzero constants.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="599600c3a054ab08194724000efa8433" course="Math 2070" chapter="8" slide="13" of="6d231a348d60a74ccb5a6a7bd787da4c">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given any $f \in \mathbb{Q}[x]$ such that $\deg f &gt; 0$, for all nonzero $g \in \mathbb{Q}[x]$ we have
+\[
+\deg fg \geq \deg f &gt; 0 = \deg 1;
+\]
+hence, $fg \neq 1$.  If $g = 0$, then $fg = 0 \neq 1$.
+So, $f$ has no multiplicative inverse.</paragraphs>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f$ is a nonzero constant, then $f^{-1} = \frac{1}{f}$ is a constant polynomial in $\mathbb{Q}[x]$, and
+$f\cdot \frac{1}{f} = \frac{1}{f}\cdot f = 1$.  So, $f$ is a unit.</paragraphs>
+                  <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Finally, if $f = 0$, then $fg = 0 \neq 1$ for all $g \in \mathbb{Q}[x]$, so the zero polynomial
+has no multiplicative inverse.  </paragraphs>
+                    <qed course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 2070" chapter="8" section="1" num="1" serial="8.1.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" serial="8.1.1" slide="">
+            <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="14" scope="subsection" id="s14" slide="14" course="Math 2070" chapter="8" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Integral Domains Units">
+              <keywords slide="14" environ="slide" chapter="8" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="8" section="1" subsection="1" subsubsection="" serial="" slide="14">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+              </title>
+              <enumerate course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <item course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition10.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition3.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition7.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition9.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition8.pg"/>
+                </item>
+              </enumerate>
+            </slide>
+          </slides>
+        </subsection>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Fields" course="Math 2070" chapter="8" num="2" serial="8.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" serial="8.2" slide="">
+          <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Fields</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="15" scope="section" id="s15" slide="15" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title="Fields">
+            <keywords slide="15" environ="slide" chapter="8" course="Math 2070">
+              <keyword chapter="8" slide="15">field</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" serial="" slide="15">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Fields</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="21" md5="e8acd23e633190b73d66d71793f3a974" course="Math 2070" chapter="8" slide="15" item="8.21">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A </paragraphs>
+              <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">field</inline_keyword>
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> is a commutative ring, with $1 \neq 0$, in which every nonzero element is a unit.  </paragraphs>
+            </statement>
+            <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In other words, a nonzero commutative ring $F$ is a field if and only if every nonzero element $r \in F$
+has a multiplicative inverse $r^{-1}$, i.e. $r r^{-1} = r^{-1} r = 1$.</paragraphs>
+              <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since every nonzero element of a field is a unit, a field is necessarily an integral domain,
+but an integral domain is not necessarily a field.  For example $\mathbb{Z}$ is an integral domain
+which is not a field.</paragraphs>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              </collapse>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title="Fields">
+            <keywords slide="16" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="22" md5="2622cb49ee23b4bd35ad594c75f19616" course="Math 2070" chapter="8" slide="16" item="8.22">
+              <col_ol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\mathbb{Q}$, $\mathbb{R}$ are fields.  </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $m \in \mathbb{N}$,
+it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if $m$ is prime.  </paragraphs>
+                  <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+                  <strong xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Notation</paragraphs>
+                  </strong>
+                  <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $p$ prime, we often denote the field $\mathbb{Z}_p$ by $\mathbb{F}_p$.  </paragraphs>
+                  </newcol>
+                </col_li>
+              </col_ol>
+            </statement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title="Fields">
+            <keywords slide="17" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="23" md5="cc936e1ed3ca39c8479a3b2338105bdf" course="Math 2070" chapter="8" slide="17" item="8.23">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Equipped with the usual operations of addition and multiplications for real numbers,
+$F = \mathbb{Q}[\sqrt{2}] := \{a + b\sqrt{2}|a, b \in \mathbb{Q}\}$ is a field.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f0a53667913977f5ca6664749872a2bd" course="Math 2070" chapter="8" slide="17" of="cc936e1ed3ca39c8479a3b2338105bdf">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that:
+$(a + b\sqrt{2}) + (c + d\sqrt{2}) = (a + c) + (b + d)\sqrt{2}$ lies in $F$,
+and $(a + b\sqrt{2})(c + d\sqrt{2}) = (ac + 2bd) + (ad + bc)\sqrt{2} \in F$.
+Hence, addition and multiplication for real numbers are well-defined operations on
+$F$.
+As operations on $\mathbb{R}$,
+they are commutative, associative, and satisfy distributativity;
+therefore, as $F$ is a subset of $\mathbb{R}$,
+they also satisfy these properties as operations on $F$.</paragraphs>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It is clear that $0$ and $1$
+are the additive and multiplicative identities of $F$.
+Given $a + b\sqrt{2} \in F$, where $a, b \in \mathbb{Q}$, it is clear that
+its additive inverse $-a - b\sqrt{2}$ also lies in $F$.
+Hence, $F$ is a commutative ring.</paragraphs>
+                  <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> To show that $F$ is a field, for every nonzero $a + b \sqrt{2}$ in $F$, we need to find its multiplicative inverse.  As an element of the field $\mathbb{R}$, the multiplicative inverse of $a + b\sqrt{2}$ is:
+\[
+(a + b\sqrt{2})^{-1} = \frac{1}{a + b\sqrt{2}}.
+\]  </paragraphs>
+                    <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It remains to show that this number lies in $F$.
+Observe that:
+\[
+(a + b\sqrt{2})(a - b\sqrt{2}) = a^2 - 2b^2.
+\]
+We claim that $a^2 - 2b^2 \neq 0$.</paragraphs>
+                      <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $a^2 - 2b^2 = 0$, then either (i) $a = b = 0$, or (ii) $b\neq 0$, $\sqrt{2} = \abs{a/b}$.</paragraphs>
+                        <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since we have assumed that $a + b\sqrt{2}$ is nonzero, case (i) cannot hold.</paragraphs>
+                          <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> But case (ii) also cannot hold because $\sqrt{2}$ is known to be irrational.
+Hence $a^2 - 2b^2 \neq 0$, and:
+\[
+\frac{1}{a + b\sqrt{2}} = \frac{a}{a^2 - 2b^2} - \frac{b}{a^2 - 2b^2}\sqrt{2},
+\]
+which lies in $F$.  </paragraphs>
+                            <qed course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title="Fields">
+            <keywords slide="18" environ="slide" chapter="8" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="24" md5="6a657d0bc28f21508fd741fb2382fa18" course="Math 2070" chapter="8" slide="18" item="8.24">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> All finite integral domains are fields.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="22771a1dd20e60a22b777380bdf5d002" course="Math 2070" chapter="8" slide="18" of="6a657d0bc28f21508fd741fb2382fa18">
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $R$ be an integral domain with $n$ elements, where $n$ is finite.
+Write $R = \{a_1, a_2, \ldots, a_{n}\}$.</paragraphs>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We want to show that for any nonzero element $a \neq 0$ in $R$,
+there exists $i$, $1 \leq i \leq n$,
+such that $a_i$ is the multiplicative inverse of $a$.</paragraphs>
+                  <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider the set $S = \{aa_1, aa_2,\ldots, aa_{n}\}$.
+Since $R$ is an integral domain, the cancellation law holds.
+In particular, since $a \neq 0$, we have $aa_i = aa_j$ if and only if $i = j$.</paragraphs>
+                    <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The set $S$ is therefore a subset of $R$ with $n$ distinct elements, which implies that $S = R$.</paragraphs>
+                      <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, $1 = aa_i$ for some $i$.  This $a_i$ is the multiplicative inverse of $a$.  </paragraphs>
+                        <qed course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Field of Fractions" course="Math 2070" chapter="8" section="2" num="1" serial="8.2.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" serial="8.2.1" slide="">
+            <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Field of Fractions</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="19" scope="subsection" id="s19" slide="19" course="Math 2070" chapter="8" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Fields">
+              <keywords slide="19" environ="slide" chapter="8" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="8" section="2" subsection="1" subsubsection="" serial="" slide="19">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Field of Fractions</paragraphs>
+              </title>
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> An integral domain fails to be a field precisely when there is a nonzero element
+with no multiplicative inverse.
+The ring $\mathbb{Z}$ is such an example, for $2 \in \mathbb{Z}$ has no
+multiplicative inverse.</paragraphs>
+              <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
+              <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> But any nonzero $n \in \mathbb{Z}$
+has a multiplicative inverse $\frac{1}{n}$ in $\mathbb{Q}$, which is a field.</paragraphs>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> So, a question one could ask is, can we "enlarge" a given integral domain to a field,
+by formally adding multiplicative inverses to the ring?  </paragraphs>
+                </collapse>
+              </newcol>
+            </slide>
+          </slides>
+          <subsubsection environment="" chapter_type="" type="Section" wbtag="subsubsection" title="An Equivalence Relation" course="Math 2070" chapter="8" serial="8.2.1.1">
+            <title environment="title" chapter_type="Week" wbtag="title" scope="subsubsection" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" serial="8.2.1.1" slide="">
+              <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">An Equivalence Relation</paragraphs>
+            </title>
+            <slides environment="" chapter_type="">
+              <slide environment="" chapter_type="Week" canon_num="20" scope="subsubsection" id="s20" slide="20" course="Math 2070" chapter="8" section="2" subsection="1" subsubsection="1" chapter_title="" section_title="Fields">
+                <keywords slide="20" environ="slide" chapter="8" course="Math 2070"/>
+                <title environment="title" chapter_type="Week" wbtag="title" scope="subsubsection" course="Math 2070" chapter="8" section="2" subsection="1" subsubsection="1" serial="" slide="20">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="title" wbtag="paragraphs">An Equivalence Relation</paragraphs>
+                </title>
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="" wbtag="paragraphs"> Given an integral domain $R$ (commutative, with $1 \neq 0$).  We consider the set:
+$R \times R_{\neq 0} := \{(a, b) : a, b \in R, b\neq 0\}$.
+We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:
+\[
+(a, b) \equiv (c, d) \text{ if } ad = bc.
+\]  </paragraphs>
+                <statement environment="statement" chapter_type="" type="Lemma" wbtag="lemma" num="25" md5="45777aaa95215986561c973de5594246" course="Math 2070" chapter="8" slide="20" item="8.25">
+                  <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> The relation $\equiv$ is an equivalence relation.</paragraphs>
+                    <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> In other words, the relation $\equiv$ is:  </paragraphs>
+                      <ol xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                        <li environment="newcol">
+                          <strong environment="newcol">
+                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs">Reflexive:</paragraphs>
+                          </strong>
+                          <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> $(a, b) \equiv (a, b)$ for all $(a, b) \in R\times R_{\neq 0}$ </paragraphs>
+                        </li>
+                        <li environment="newcol">
+                          <strong environment="newcol">
+                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs">Symmetric:</paragraphs>
+                          </strong>
+                          <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> If $(a, b) \equiv (c, d)$, then $(c, d) \equiv (a, b)$. </paragraphs>
+                        </li>
+                        <li environment="newcol">
+                          <strong environment="newcol">
+                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs">Transitive:</paragraphs>
+                          </strong>
+                          <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> If $(a, b) \equiv (c, d)$ and $(c, d) \equiv (e, f)$,
+then $(a, b) \equiv (e, f)$. </paragraphs>
+                        </li>
+                      </ol>
+                    </collapse>
+                  </newcol>
+                </statement>
+                <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="8" slide="20" of="45777aaa95215986561c973de5594246">
+                  <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
+                    <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol">Exercise.</inline_keyword>
+                  </newcol>
+                </substatement>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
+              </slide>
+              <slide environment="" chapter_type="Week" wbtag="slide" canon_num="21" id="s21" slide="21" course="Math 2070" chapter="8" section="2" subsection="1" subsubsection="1" chapter_title="" section_title="Fields">
+                <keywords slide="21" environ="slide" chapter="8" course="Math 2070">
+                  <keyword chapter="8" slide="21">partition</keyword>
+                  <keyword chapter="8" slide="21">quotient set</keyword>
+                </keywords>
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="" wbtag="paragraphs"> Due to the properties (reflexive, symmetric, transitive),
+of an equivalence relation, the equivalent classes form a </paragraphs>
+                <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="">partition</inline_keyword>
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="" wbtag="paragraphs"> of
+$S$.  Namely, equivalent classes of non-equivalent elements are disjoint:
+\[
+[s] \cap [t] = \varnothing
+\]
+if $s \not\sim t$;
+and the union of all equivalent classes is equal to $S$:
+\[
+\bigcup_{s \in S} [s] = S.
+\]</paragraphs>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
+                <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="26" md5="c598f4cc029609fe67a39fbdc250c69a" course="Math 2070" chapter="8" slide="21" item="8.26">
+                  <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> Given an equivalence relation $\sim$ on a set $S$,
+the  </paragraphs>
+                    <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol">quotient set</inline_keyword>
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> $S/\sim$ is the set of all equivalence classes
+of $S$, with respect to $\sim$.  </paragraphs>
+                  </newcol>
+                </statement>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
+              </slide>
+              <slide environment="" chapter_type="Week" wbtag="slide" canon_num="22" id="s22" slide="22" course="Math 2070" chapter="8" section="2" subsection="1" subsubsection="1" chapter_title="" section_title="Fields">
+                <keywords slide="22" environ="slide" chapter="8" course="Math 2070"/>
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="" wbtag="paragraphs"> We now return to our specific situation of $R \times R_{\neq 0}$, with $\equiv$ defined as above.
+We define addition $+$ and multiplication $\cdot$ on $R\times R_{\neq 0}$ as follows:
+\[
+\begin{split}
+(a, b) + (c, d) &amp;:= (ad + bc, bd)\\
+(a, b)\cdot(c, d) &amp;:= (ac, bd)
+\end{split}
+\]  </paragraphs>
+                <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="27" md5="a1ba9f7a1b4e17cfb72946389adb743c" course="Math 2070" chapter="8" slide="22" item="8.27">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement" wbtag="paragraphs"> Suppose $(a, b) \equiv (a', b')$ and $(c, d) \equiv (c', d')$, then:  </paragraphs>
+                  <col_ol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="col_ol" wbtag="col_ol">
+                    <col_li course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="col_ol" wbtag="col_li">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="col_ol" wbtag="paragraphs"> $(a, b) + (c, d) \equiv (a', b') + (c', d')$.  </paragraphs>
+                    </col_li>
+                    <col_li course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="col_ol" wbtag="col_li">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="col_ol" wbtag="paragraphs"> $(a, b)\cdot(c, d) \equiv (a', b') \cdot (c', d')$.  </paragraphs>
+                    </col_li>
+                  </col_ol>
+                </statement>
+                <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="64f53bff3b177c0d76791a084bdd4530" course="Math 2070" chapter="8" slide="22" of="a1ba9f7a1b4e17cfb72946389adb743c">
+                  <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> By definition, $(a, b) + (c, d) = (ad + bc, bd)$,
+and $(a', b') + (c', d') = (a'd' + b'c', b'd')$.
+Since by assumption $ab' = a'b$ and $cd' = c'd$,</paragraphs>
+                    <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> we have:
+\[
+(ad + bc)b'd' = adb'd' + bcb'd' = a'b dd' + c'd bb' = (a'd' + b'c')bd;
+\]
+hence, $(a, b) + (c, d) \equiv (a', b') + (c', d')$.</paragraphs>
+                      <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> For multiplication, by definition we have $(a, b)\cdot(c, d) = (ac, bd)$
+and $(a', b')\cdot(c', d') = (a'c', b'd')$.</paragraphs>
+                        <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> Since
+\[
+acb'd' = ab'cd' = a'bc'd = a'c'bd,
+\]
+we have $(a, b)\cdot(c, d) \equiv (a', b')\cdot(c', d')$.  </paragraphs>
+                          <qed course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </newcol>
+                </substatement>
+              </slide>
+              <slide environment="" chapter_type="Week" wbtag="slide" canon_num="23" id="s23" slide="23" course="Math 2070" chapter="8" section="2" subsection="1" subsubsection="1" chapter_title="" section_title="Fields">
+                <keywords slide="23" environ="slide" chapter="8" course="Math 2070"/>
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="" wbtag="paragraphs"> Let:
+\[
+\mathrm{Frac}(R) := (R \times R_{\neq 0})/\equiv,
+\]
+and define $+$ and $\cdot$ on $\mathrm{Frac}(R)$ as follows:
+\[
+\begin{split}
+[(a, b)] + [(c, d)] &amp;= [(ad + bc, bd)]\\
+[(a, b)]\cdot[(c, d)] &amp;= [(ac, bd)]
+\end{split}
+\]  </paragraphs>
+                <statement environment="statement" chapter_type="" type="Corollary" wbtag="cor" num="28" md5="99ca4a856c3b3f5cdf3fbf4574ae7ab7" course="Math 2070" chapter="8" slide="23" item="8.28">
+                  <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> $+$ and $\cdot$ thus defined are well-defined binary operations on $\mathrm{Frac}(R)$.</paragraphs>
+                    <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> In other words, we get the same output in $\mathrm{Frac}(R)$
+regardless of the choice of representatives of the equivalence classes.  </paragraphs>
+                    </collapse>
+                  </newcol>
+                </statement>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
+                <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="29" md5="01abcef5efc49dc54237d2ef63d6bd0b" course="Math 2070" chapter="8" slide="23" item="8.29">
+                  <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> The set $\mathrm{Frac}(R)$, equipped with $+$ and $\cdot$ defined as above,
+forms a field, with additive identity $0 = [(0, 1)]$
+and multiplicative identity $1 = [(1, 1)]$.
+The multiplicative inverse of a nonzero element
+$[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$.  </paragraphs>
+                  </newcol>
+                </statement>
+                <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="8" slide="23" of="01abcef5efc49dc54237d2ef63d6bd0b">
+                  <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
+                    <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol">Exercise.</inline_keyword>
+                  </newcol>
+                </substatement>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
+              </slide>
+              <slide environment="" chapter_type="Week" wbtag="slide" canon_num="24" id="s24" slide="24" course="Math 2070" chapter="8" section="2" subsection="1" subsubsection="1" chapter_title="" section_title="Fields">
+                <keywords slide="24" environ="slide" chapter="8" course="Math 2070">
+                  <keyword chapter="8" slide="24">Fraction Field</keyword>
+                  <keyword chapter="8" slide="24">Note.</keyword>
+                </keywords>
+                <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="30" md5="aa3c851fa19495b6e6fd3dff39db5847" course="Math 2070" chapter="8" slide="24" item="8.30">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement" wbtag="paragraphs"> $\mathrm{Frac}(R)$ is called the </paragraphs>
+                  <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement">Fraction Field</inline_keyword>
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement" wbtag="paragraphs"> of $R$.  </paragraphs>
+                </statement>
+                <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
+                <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="" wbtag="paragraphs">Note.</paragraphs>
+                </h5>
+                <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> $\mathrm{Frac}(\mathbb{Z}) = \mathbb{Q}$,
+if we identify $a/b \in \mathbb{Q}$, $a, b \in \mathbb{Z}$,
+with $[(a, b)] \in \mathrm{Frac}(\mathbb{Z})$.  </paragraphs>
+                </newcol>
+              </slide>
+            </slides>
+          </subsubsection>
+        </subsection>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 2070" chapter="8" section="2" num="2" serial="8.2.2">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" serial="8.2.2" slide="">
+            <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="25" scope="subsection" id="s25" slide="25" course="Math 2070" chapter="8" section="2" subsection="2" subsubsection="" chapter_title="" section_title="Fields">
+              <keywords slide="25" environ="slide" chapter="8" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="8" section="2" subsection="2" subsubsection="" serial="" slide="25">
+                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+              </title>
+              <enumerate course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition9.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition8.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition5.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition6.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms1.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition7.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition10.pg"/>
+                </item>
+                <item course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="8" chapter_type="" section="2" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition12.pg"/>
+                </item>
+              </enumerate>
+            </slide>
+          </slides>
+        </subsection>
+      </section>
+    </chapter>
+  </course>
+</document>

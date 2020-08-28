@@ -1,0 +1,772 @@
+@course{Math 2070}
+@week{6}
+@topic{Elementary Number Theory}
+@topic{Euclid's Lemma}
+@topic{Congruences}
+@topic{Chinese Remainder Theorem}
+@section{Further Results in Elementary Number Theory}
+@defn
+ The @keyword{Greatest Common Divisor} $gcd(a, b)$ of $a, b \in \mathbb{Z}$ is the largest positive integer
+$d$ which divides both $a$ and $b$ (Notation: $d | a$ and $d | b$).
+@end
+
+<strong>Note.</strong> @newcol
+ If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
+$gcd(0, 0)$ is undefined.
+@endcol
+
+@subsection{Euclidean Algorithm}
+@lemma
+@newcol
+ If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
+$gcd(b, a) = gcd (a, r)$.
+@endcol
+@end
+@proof
+@newcol
+ If $d | a$ and $d | b$, then $d | r = b - aq$.
+Conversely, if $d | a$ and $d | r$, then $d|a$ and $d|b = qa+r$.
+So, the set of common divisors of $a, b$ is the same as the set of the common divisors of $a, r$.
+If two finite sets of integers are the same, then their largest elements are clearly the same.
+In other words:
+\[
+gcd(b, a) = gcd(a, r).
+\]
+@qed
+@endcol
+@end
+@slide
+@label{sec:euclidalg}
+Suppose $\abs{b} \geq \abs{a}$.  Let $b_0 = b$, $a_0 = a$.
+Write $b_0 = a_0q_0 + r_0$, where $0 \leq r_0 < \abs{a_0}$.
+
+@newcol
+ For $n > 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
+$r_n$ is the remainder of the division of $b_n$ by $a_n$.  That is,
+\[
+b_n = a_nq_n + r_n, \quad  0 \leq r_n < \abs{a_n}.
+\]
+@col
+ If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
+Now, suppose $r_0 > 0$.
+Since $r_n$ is a non-negative integer and  $0 \leq r_n < r_{n - 1}$,
+eventually, $r_n = 0$ for some $n \in \mathbb{N}$.
+@endcol
+
+@claim
+@newcol
+ $gcd(b, a) = \abs{a_n}$.
+@endcol
+@end
+@proof
+@newcol
+ By the previous lemma,
+@steps
+\[
+\begin{split}
+gcd(b, a) &= gcd(b_0, a_0)\\
+ &
+@nstep{= gcd(a_0, r_0) = gcd(b_1, a_1)}
+\\
+&
+@nstep{= gcd(a_1, r_1) = gcd(b_2, a_2)}
+\\
+&
+@nstep{= \ldots}
+\\
+&
+@nstep{= gcd(a_{n}, r_{n}) = gcd(a_n, 0) = \abs{a_n}.}
+\end{split}
+\]
+
+@endsteps
+
+@endcol
+@end
+
+@slide
+@eg
+ Find $gcd(285,255)$.
+
+@newcol
+@steps
+\[
+\begin{split}
+\underbrace{285}_{b_0} &= \underbrace{255}_{a_0} \underbrace{1}_{q_0} + \underbrace{30}_{r_0}
+\\
+@nstep{\underbrace{255}_{b_1 = a_0}}
+&
+@nstep{=\underbrace{30}_{a_1 = r_0} \underbrace{8}_{q_1} + \underbrace{15}_{r_1}}
+\\
+@nstep{\underbrace{30}_{b_2}}
+&
+@nstep{=\underbrace{15}_{a_2} \underbrace{2}_{q_2} + \underbrace{0}_{r_2}}
+\end{split}
+\]
+
+@endsteps
+@col
+ So, $gcd(285, 255) = r_1 = 15$.
+@endcol
+@end
+@slide
+@claim
+@title{Bézout's Lemma}
+@label{bezoutslemma}
+Let $a, b$ be nonzero integers.
+There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$.
+@end
+@proof
+@newcol
+<strong>Sketch of Proof:</strong>
+<hr/>
+<strong>Approach 1.</strong>
+@newcol
+Recall the notation used in @ref{sec:euclidalg}.
+We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$.
+<br/>
+We may prove Bézout's Lemma via mathematical induction as follows:
+<br/>
+@col
+First, for integers $0 \leq l < \min(n - 1, 2)$, show that there exist
+$x_l, y_l \in \mathbb{Z}$ such that $r_l = a x_l + b y_l$.
+This is the base step of the induction proof.
+<br/>
+@col
+We now carry out the inductive step.
+Suppose $n - 1 \geq 2$. For any integer $2 \leq k \leq n - 1$,
+suppose $r_l = a x_l + b y_l$ for some $x_l, y_l \in \mathbb{Z}$, for all
+$0\leq l < k$.
+<br/>
+Show that:
+\[r_k = \underbrace{b_k}_{a_{k - 1} = r_{k - 2}} - q_{k} \underbrace{a_{k}}_{r_{k - 1}}\]
+also has the form $r_k = a x_k + b y_k$
+for some $x_k, y_k \in \mathbb{Z}$.
+<br/>
+@col
+The desired identity $gcd(a, b) = r_{n - 1} = ax_{n - 1} + by_{n - 1}$
+then follows by mathemtical induction.
+@endcol
+<hr/>
+<strong>Approach 2.</strong>
+@newcol
+Consider the set:
+\[S = \{n \in \mathbb{Z}_{> 0} | n = ax + by \text{ for some } x, y \in \mathbb{Z}\}.\]
+Show that the the minimum element $d \in S$ is the greatest common divisor of
+$a$ and $b$.
+@endcol
+<hr/>
+@endcol
+@end
+@ex
+@newcol
+Find $x, y \in \mathbb{Z}$ such that:
+\[gcd(285, 255) = 285 x + 255 y.\]
+@endcol
+@end
+@ex
+@newcol
+For any nonzero $a, b$ in  the group $G = (\mathbb{Z}, +)$,
+we have:
+\[
+\langle a, b \rangle = \langle gcd(a, b) \rangle.
+\]
+@endcol
+@end
+@slide
+@defn
+Two integers $a, b \in \mathbb{Z}$ are @keyword{relatively prime} if $gcd(a, b) = 1$.
+@end
+@claim
+@newcol
+Two integers $a, b \in \mathbb{Z}$ are relatively prime if and only if there exist $x, y \in \mathbb{Z}$
+such that $ax + by = 1$.
+@endcol
+@end
+@keyword{Bézout's Lemma}
+@proof
+@newcol
+If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
+So, by
+@ref{bezoutslemma}
+there exist $x, y \in \mathbb{Z}$ such that:
+\[ax + by = gcd(a, b) = 1.\]
+Conversely,
+suppose $ax + by = 1$ for some $x, y \in \mathbb{Z}$.
+Then, any common divisor of $a$ and $b$ must also be a divisor of $1$.
+Since $1$ is only divisible by $\pm 1$, we conclude that $gcd(a, b) = 1$.
+@endcol
+@end
+@slide
+@defn
+An integer $p \geq 2$ is @keyword{prime} if its only proper divisors (i.e. divisors different from $\pm p$)
+are $\pm 1$.
+@end
+@lemma
+@title{Euclid's Lemma}
+
+@newcol
+Let $a, b$ be integers.
+If $p$ is prime and $p | ab$, then $p$ divides at least one of $a$ and $b$.
+@endcol
+@end
+@proof
+@newcol
+Suppose $p$ does not divide $b$ (Notation: $p\nmid b$), then $gcd(p, b) = 1$,
+which implies that $1 = px + by$ for some $x, y \in \mathbb{Z}$.
+Since $p | apx$ and $p | aby$, we have $p | a = a\underbrace{(px + by)}_{= 1}$.
+@qed
+@endcol
+@end
+@slide
+More generally,
+@claim
+@label{euclidslemmageneral}
+If $a, b$ are relatively prime and $a | bc$, then $a | c$.
+@end
+@proof
+@keyword{Exercise.}
+@end
+@claim
+@newcol
+If $a, b$ are relatively prime and:
+\[
+a | c, \quad b | c,
+\]
+then:
+\[
+ab | c.
+\]
+@endcol
+@end
+@proof
+@newcol
+By assumption, there are $s, t \in \mathbb{Z}$ such that:
+\[
+c = as = bt.
+\]
+@col
+So, $a | as = bt$,
+which by
+@ref{euclidslemmageneral}
+implies that $a | t$, since $gcd(a, b) = 1$.
+
+@col
+Hence, $t = au$ for some $u \in \mathbb{Z}$, and we have $c = bt = ab u$.
+It follows that $ab | c$.
+@qed
+@end
+@slide
+@thm
+@title{The Fundamental Theorem of Arithmetic}
+@label{thm:fta}
+Let $a$ be a positive integer $\geq 2$. Then,
+@ol
+@li
+The integer $a$ is either a prime or a product of primes.
+@li
+@keyword{Unique Factorization}
+The integer $a$ may be written uniquely as
+\[
+a = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l},
+\]
+where $p_1, p_2, \cdots, p_l$ are distinct prime numbers, and $n_1, n_2, \ldots, n_l \in \mathbb{N}$.
+@endol
+@end
+@proof
+@col
+We prove Part 1 of the theorem by contradiction.
+
+@col
+Suppose there exist positive integers $\geq 2$ which are neither primes
+nor products of primes.
+
+@col
+Let $m$ be the smallest such integer. Since $m$ is not prime, there are
+positive integers $a, b \neq 1$ such that $m = ab$.
+
+@col
+In particular, $a, b < m$.
+So, $a$ and $b$ must be either primes or products of primes, which implies that $m$ is itself a product of primes, a contradiction.
+<hr/>
+@col
+We now prove Part 2 (@keyword{Unique Factorization}) of the theorem by induction.
+
+@col
+The base step corresponds to the case $l = 1$.
+
+@col
+Suppose:
+\[
+a = p_1^{n_1} = q_1^{m_1}q_2^{m_2}\cdots q_k^{m_k},
+\]
+where $p_1$ is prime, and the $q_i$'s are distinct primes,
+and $n_1, m_i \in \mathbb{N}$.
+
+@col
+Then, $p_1$ divides the right-hand side,
+so by Euclid's Lemma $p_1$ divides one of the $q_i$'s.
+
+@col
+Since the $q_i$'s are prime, we may assume (reindexing if necessary) that $p_1 = q_1$.
+
+@col
+Suppose $k > 1$. If $n_1 > m_1$, then $p_1^{n_1 - m_1} = q_2^{m_2}\cdots q_k^{m_k}$,
+which implies that $p_1 = q_1$ is one of $q_2,\ldots, q_k$, a contradiction, since the $q_i$'s are distinct.
+
+@col
+If $n_1 \leq m_1$, then $1 = p_1^{m_1 - n_1}q_2^{m_2}\cdots q_k^{m_k}$,
+which is impossible.
+We conclude that $k = 1$, and $p_1 = q_1$, $n_1 = m_1$.
+
+@col
+Now we establish the inductive step: Suppose unique factorization is true for all positive integers $a'$
+which may be written as $a' = p_1^{n_1}p_2^{n_2}\cdots p_{l'}^{n_{l'}}$,
+for any $l' < l$.
+We want to show that it is also true for any integer $a$
+which may be written as $a = p_1^{n_1}p_2^{n_2}\cdots p_{l}^{n_{l}}$.
+
+@col
+In other words, suppose
+\[
+a = p_1^{n_1}p_2^{n_2}\cdots p_{l}^{n_{l}} = q_1^{m_1}\cdots q_k^{m_k},
+\]
+where $p_i, q_i$ are prime and $n_i, m_i \in \mathbb{N}$. We want to show that $k = l$, and $p_i = q_i$,
+$n_i = m_i$, for $i = 1, 2, \ldots, l$.
+
+@col
+If $k < l$, then by the inductive hypothesis applied to $l' = k < l$, we have $k = l$,
+a contradiction.
+So, we may assume that $k \geq l$.
+
+@col
+By Euclid's Lemma, $p_l$ divides, and hence must be equal to, one of the
+$q_i$'s.
+
+@col
+Reindexing if necessary, we may assume that $p_l = q_k$. Cancelling $p_l$ and $q_{k}$
+from both sides of the equation, it is also clear that $n_l = m_{k}$.
+Hence, we have:
+\[
+p_1^{n_1}p_2^{n_2}\cdots p_{l-1}^{n_{l-1}} = q_1^{m_1}\cdots q_{k-1}^{m_{k -1}}.
+\]
+Since $l - 1 < l$, we may now apply the inductive hypothesis to the integer
+which is equal to the left-hand side of the above equation,
+and conclude that $l - 1 = k -1$, $p_i = q_i$, $n_i = m_i$, for $1\leq i \leq l - 1$.
+
+@col
+Since we already know that $p_l^{n_l}$ matches $q_{k}^{m_{k}}$,
+we have $l = k$, and $p_i = q_i$, $n_i = m_i$, for $1 \leq i \leq l$.
+This establishes the inductive step, and completes the proof.
+@qed
+@endcol
+@end
+@subsection{WeBWorK}
+@enumerate
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences3.pg}
+@item
+@webwork{Library/NewHampshire/NECAP/grade11/gr11-2009/n11-2009-9s.pg}
+@item
+@webwork{Library/SUNYSB/gcd.pg}
+@endenumerate
+@section{Modular Arithmetic}
+@defn
+Let $m$ be a positive integer, then $a, b \in \mathbb{Z}$ are said to be:
+
+<center>
+@keyword*{congruence}
+@keyword{congruent modulo $m$}
+</center>
+\[
+a \equiv b \mod m,
+\]
+if $m | (a - b)$.
+@end
+@claim
+@newcol
+The congruence relation $\equiv$ is an
+@keyword{equivalence relation}
+. In other words, it
+is:
+<p/>
+<ul>
+<li>
+@keyword{Reflexive}:<br/> $a \equiv a \mod m$;
+
+</li>
+<li> @keyword{Symmetric}:<br/> $a \equiv b \mod m$ implies that $b \equiv a \mod m$;
+
+</li>
+<li> @keyword{Transitive}:<br/> $a \equiv b \mod m$, $b \equiv c \mod m$, imply that $a \equiv c \mod m$.
+
+</li></ul>
+@endcol
+@end
+@proof
+@newcol
+<ul>
+<li>
+<div style="width:5.4em;display:inline-block">
+<b class="notkw">Reflexivity</b></div>
+@newcol
+Since $m | 0 = (a - a)$, we have $a\equiv a \mod m$.
+@endcol</li>
+<li>
+<div style="width:5.4em;display:inline-block">
+<b class="notkw">Symmetry</b></div>
+@newcol
+If $a \equiv b \mod m$, then by definition $m$ divides $a - b$.
+But if $m$ divides $a - b$,
+it must also divide $-(a - b) = b - a$, which implies that $b \equiv a \mod m$.
+@endcol</li>
+<li>
+<div style="width:5.4em;display:inline-block">
+<b class="notkw">Transitivity</b></div>
+@newcol
+If $m | (a - b)$ and $m | (b - c)$, then $m | ((a - b) + (b - c)) = (a - c)$, which implies
+that $a \equiv c \mod m$.
+@endcol</li></ul>
+@qed
+@endcol
+@end
+<strong>Note.</strong>
+@newcol
+$a \equiv 0 \mod m$ if and only if $m | a$.
+@endcol
+@slide
+@claim
+@label{claim:congremainder}
+<ol>
+<li> If $a = qm + r$, then $a \equiv r \mod m$. </li>
+<li> If $0 \leq r < r' < m$, then $r \not\equiv r' \mod m$. </li></ol>
+@end
+@proof
+@keyword{Exercise.}
+@end
+@cor
+@label{congremainder}
+@newcol
+Given integer $m \geq 2$, every $a \in \mathbb{Z}$ is congruent modulo $m$
+to exactly one of $\{0, 1, 2, \ldots, m - 1\}$.
+@endcol
+@end
+@proof
+@newcol
+By Part 1 of the claim, $a$ is congruent mod $m$ to the remainder $r$
+of the division of $a$ by $m$.
+<br/>
+@col
+By definition, the remainder $r$ lies in $\{0, 1, 2, \ldots, m - 1\}$.
+If $a \equiv r' \mod m$, for some $r' \in \{0, 1, 2, \ldots, m - 1\}$,
+then by transitivity, we have $r' \equiv r \mod m$.
+<br/>
+@col
+By Part 2 of the claim, we have $r = r'$.
+@qed
+@endcol
+@end
+@slide
+@thm
+@label{congcompat}
+Congruence is compatible with addition and multiplication in the following sense: <ul>
+<li>
+<div style="width:6.5em;display:inline-block">
+<strong>Addition</strong></div>
+@newcol
+If $a \equiv a' \mod m$, and $b \equiv b' \mod m$, then $a + b \equiv a'+ b'\mod m$.
+@endcol</li>
+<li>
+<div style="width:6.5em;display:inline-block">
+<strong>Multiplication</strong></div>
+@newcol
+If $a \equiv a' \mod m$ and $b \equiv b' \mod m$, then
+$ab \equiv a'b' \mod m$.
+@endcol</li></ul>
+@end
+@proof
+@newcol
+<ul>
+<li>
+<div style="width:6.5em;display:inline-block">
+<strong>Addition</strong></div>
+@newcol
+If $m | (a - a')$ and $m | (b - b')$, then:
+\[
+m | (a - a') + (b - b') = (a + b) - (a' + b').
+\]
+So, $a + b \equiv a' + b' \mod m$.
+@endcol</li>
+<li>
+<div style="width:6.5em;display:inline-block">
+<strong>Multiplication</strong></div>
+@newcol
+If $m | (a - a')$ and $m | (b - b')$, then:
+\[
+m | (a - a')b + a'(b - b') = (ab - a'b').
+\]
+So, $ab \equiv a'b' \mod m$.
+@endcol</li></ul>
+@qed
+@endcol
+@end
+@slide
+@eg
+For $a \in \mathbb{Z}$, $a^2 \equiv 0, 1$, or $4 \mod 8$.
+@end
+@proof
+@newcol
+By
+@ref{congremainder}
+,
+any $a \in \mathbb{Z}$ is congruent modulo $8$ to exactly one
+element in $\{0, 1, 2, \ldots, 7\}$.
+So, by
+@ref{congcompat}
+,
+$a^2$ is congruent modulo 8 to one of:
+\[
+\{0^2, 1^2, 2^2, 3^2, 4^2, 5^2, 6^2, 7^2\} = \{0, 1, 4, 9, 16, 25, 36, 49\}.
+\]
+The numbers above a congruent modulo 8 to 0, 1, or 4. The claim follows.
+@qed
+@endcol
+@end
+@slide
+@thm
+@label{thm:inversemodm}
+If $a$ and $m$ are relatively prime, then there exists $x \in \mathbb{Z}$ such that
+$ax \equiv 1 \mod m$.
+@end
+@proof
+@newcol
+Since $a$ and $m$ are relatively prime, by
+@keyword{Bézout's Lemma}
+(
+@ref{bezoutslemma}
+)
+there exist $x, y \in \mathbb{Z}$ such that:
+\[
+ax + my = 1.
+\]
+@col
+This implies that $m$ divides $my = 1 - ax$. So, by definition,
+we have $ax \equiv 1 \mod m$.
+@endcol
+@end
+@slide
+@thm
+@title{Chinese Remainder Theorem}
+If $m_1$ and $m_2$ are relatively prime, then the system of congruence relations:
+\begin{equation*}
+\begin{split}
+x &\equiv r_1 \mod m_1\\
+x &\equiv r_2 \mod m_2
+\end{split}
+\end{equation*}
+has a solution $x_0 \in \mathbb{Z}$. Moreover, any two solutions are congruent modulo $m_1m_2$,
+and any integer which is congruent to $x_0$ modulo $m_1m_2$ is also a solution.
+@end
+@remark
+@newcol
+In other words, the system of two congruence relations is equivalent to
+a single congruence relation:
+\[
+x \equiv r \mod m_1 m_2
+\]
+for some $r \in \mathbb{Z}$.
+
+@col
+Applying this process repeatedly, a system of congruence relations of the form:
+\begin{align*}
+x &\equiv& r_1 &\mod m_1 \\
+x &\equiv& r_2 &\mod m_2 \\
+& &  \vdots &\\
+x &\equiv&  r_l &\mod m_l
+\end{align*}
+where the $m_i$'s are pairwise coprime, is equivalent to a single relation of the
+form:
+\[
+x \equiv r \mod m_1m_2\cdots m_l
+\]
+for some $r \in \mathbb{Z}$.
+@endcol
+@end
+@proof
+@newcol
+Since $m_1$ and $m_2$ are relatively prime, by
+@ref{thm:inversemodm}
+there exists $n \in \mathbb{Z}$ such that $m_1n \equiv 1 \mod m_2$.
+Let $x = m_1n(r_2 - r_1) + r_1$.
+<br/>
+@col
+Since:
+\[
+m_1 n (r_2 - r_1) \equiv 0 \mod m_1,
+\]
+we have:
+\[
+x \equiv r_1 \mod m_1.
+\]
+@col
+Moreover, since $m_1n \equiv 1 \mod m_2$, we have:
+\[
+x = m_1n(r_2 - r_1) + r_1 \equiv r_2 - r_1 + r_1 \equiv r_2 \mod m_2.
+\]
+This shows that the system of congruence relations has at least one solution.
+<br/>
+@col
+If $x'$ is another solution to the system, then:
+<br/>
+@col
+\begin{eqnarray*}
+x - x' &\equiv r_1 - r_1 &\equiv 0 \mod m_1,\\
+x - x' &\equiv r_2 - r_2 &\equiv 0 \mod m_2.
+\end{eqnarray*}
+@col
+So, $m_1 | (x - x')$ and $m_2 | (x - x')$. Since, $m_1, m_2$ are relatively prime,
+by a previous result we conclude that $m_1m_2 | (x - x')$. In other words,
+$x \equiv x' \mod m_1m_2$.
+
+Conversely, for any integer $k$, it is clear $x' = x + m_1m_2k$  is also a solution provided that $x$ is a solution.
+
+Hence, the solution set to the system of congruence relations may be described by:
+\[
+x \equiv x_0 \mod m_1m_2,
+\]
+where $x_0$ is any particular solution to the system.
+@qed
+@endcol
+@end
+@slide
+<strong>Note.</strong> The proof of the Chinese Remainder Theorem as written above is complete.
+However, it is worthwhile to explain
+how we come up with the solution $x = m_1n(r_2 - r_1) + r_1$ in the first place. <br/>
+@newcol
+Heuristically, the solution may be arrived at as follows:
+For any $q \in \mathbb{Z}$, $x = m_1 q + r_1$ is a solution to the first congruence relation.
+We want to find $q$ such that $m_1 q + r_1$ is also a solution to the second congruence relation, that is:
+\[
+m_1 q + r_1 \equiv r_2 \mod m_2
+\]
+@col
+or, equivalently,
+\[
+m_1 q \equiv r_2 - r_1 \mod m_2. \tag{$\ast$}
+\]
+@col
+Noting that there exists an $n \in \mathbb{Z}$ such that $m_1 n \equiv 1 \mod m_2$,
+the congruence relation $(\ast)$ is equivalent to:
+\[
+q \equiv n(r_2 - r_1) \mod m_2.
+\]
+@col
+Hence, $x = m_1 q + r_1$ is a solution to the system of congruence relations
+if and only if $q$ is of the form $m_2l + n(r_2 - r_1)$, where $l \in \mathbb{Z}$.
+In particular, $l = 0$ gives $q = n(r_2 - r_1)$. Hence, $x = m_1n(r_2 - r_1) + r_1$
+is a solution.
+@endcol
+@slide
+@eg
+Solve the following system of congruence relations:
+\begin{align}
+x &\equiv&  3  & \mod 34 \label{eq:crteg1}\\
+x &\equiv&  -1 & \mod 27 \label{eq:crteg2}
+\end{align}
+@newcol
+The relation \eqref{eq:crteg1} holds if and only if:
+\[
+x = 34s + 3
+\]
+for some $s \in \mathbb{Z}$.
+
+@col
+For any such $x$, the relation \eqref{eq:crteg2} holds if and only if:
+\[
+34s + 3 \equiv -1 \mod 27,
+\]
+or equivalently:
+\begin{equation}
+\label{eq:crteg3}
+34s \equiv -4 \mod 27.
+\end{equation}
+@col
+Since $gcd(34, 27) = 1$, by
+@ref{thm:inversemodm}
+there exists $a \in \mathbb{Z}$ such that $a\cdot 34 \equiv 1 \mod 27$.
+To find $a$, we perform the Euclidean Algorithm on $34$ and $27$:
+\[
+\begin{split}
+34 &= 27 \cdot 1 + 7\\
+27 &= 7 \cdot 3 + 6\\
+7 &= 6 \cdot 1 + 1\\
+6 &= 1\cdot 6 + 0
+\end{split}
+\]
+@col
+Working backwards from the last equation, we see that:
+\[
+1 = 34(4) + 27(-5)
+\]
+Hence:
+\[
+27 | (1 - 34\cdot 4 )
+\]
+That is, $34 \cdot 4 \equiv 1 \mod 27$.
+So, we may take $a = 4$.
+
+@col
+Multiplying both sides of \eqref{eq:crteg3} by $a = 4$, we see that \eqref{eq:crteg3} holds if and only if:
+\[
+s \equiv -16 \mod 27,
+\]
+which is equivalent to:
+\[
+s \equiv 11 \mod 27.
+\]
+Since the relation above holds if and only if $s = 27t + 11$
+for some $t \in \mathbb{Z}$,
+we conclude that $x \in \mathbb{Z}$ is a solution to our system of congruence relations if and only if:
+\[
+x = 34s + 3 = 34(27t + 11) + 3 = (34)(27)t + 377
+\]
+for some $t \in \mathbb{Z}$.
+More concisely, the solution set to the system of congruence relations is represented by the single relation:
+\[
+x \equiv 377 \mod 34\cdot 27
+\]
+@endcol
+@end
+@slide
+@ex
+@enumerate
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences1.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences2.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences5.pg}
+@item
+@webwork{Library/Rochester/setDiscrete6Integers/ur_dis_6_9.pg}
+@item
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_1.pg}
+@item
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_2.pg}
+@item
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_3.pg}
+@item
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_4.pg}
+@item
+@webwork{Library/SDSU/Discrete/IntegersAndRationals/pL11.pg}
+@item
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_6.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences10.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences11.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences12.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences13.pg}
+@endenumerate
+@end

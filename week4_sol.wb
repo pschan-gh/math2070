@@ -1,0 +1,83 @@
+@slide
+@proof
+@label{pf:primecyclic}
+Since $\abs{G}$ is prime, $G$ contains at least one non-identity element $g$.
+
+@col
+Let $H = \langle g \rangle$.
+
+@col
+Then $\abs{H}$ must divide $\abs{G}$.
+
+@col
+Since $\abs{H} > 1$, we must have $\abs{H} = \abs{G}$,
+which implies that $G = H = \langle g \rangle$.
+@end
+@slide
+@proof
+@label{pf:ghatordGeqe}
+Since $\ord{g} | \abs{G}$, we have $\abs{G} = q\cdot \ord{g}$ for some $q \in \mathbb{Z}$.
+
+@col
+Hence,
+@steps
+\begin{align*}
+g^\abs{G} &= g^{q\cdot \ord g} 
+\\& @nstep{=\left(g^{\ord g}\right)^q }
+\\& @nstep{= e^q}
+\\& @nstep{= e.}
+\end{align*}
+@endsteps
+@end
+@slide
+@proof
+@label{pf:kernelonetoone}
+Suppose $\phi$ is one-to-one.
+
+@col
+Given any $g \in \ker \phi$, 
+by definition we have $\phi(g) = e_{G'}$.
+
+@col
+On the other hand, we also know that $e_{G'} = \phi(e_G)$.
+
+@col
+Hence, $\phi(g) = \phi(e_G)$.  It now follows from $\phi$ being one-to-one
+that $g = e_G$.  We conclude that $\ker \phi = \{e_G\}$.
+
+@col
+Conversely, suppose $\ker \phi = \{e_G\}$.
+
+@col
+Given any $a, b \in G$ such that $\phi(a) = \phi(b)$, we want to show that
+$a = b$.
+
+@col
+If $\phi(a) = \phi(b)$, then:
+\[
+e_G' = \phi(a)\phi(b)^{-1} = \phi(ab^{-1}),
+\]
+@col
+which implies that $ab^{-1} \in \ker \phi = \{e_G\}$.
+
+@col
+Hence, $ab^{-1} = e_G$, and it follows that $a = b$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@end

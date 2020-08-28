@@ -1,0 +1,7814 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{amscd,amssymb,stmaryrd}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{fancybox}
+\usepackage{amstext}
+\usepackage{color}
+\usepackage{mathtools}
+\usepackage{pdflscape}
+\usepackage{listings}
+\usepackage{epic,eepic}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage[capitalise]{cleveref}
+
+
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\ol}[1]{\overline{#1}}
+\newcommand{\oll}[1]{\overline{\overline{#1}}}
+\newcommand{\bs}{\backslash}
+\newcommand{\Frac}{\mathrm{Frac}}
+\newcommand{\im}{\mathrm{im}\,}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\ra}{\longrightarrow}
+\newcommand{\ord}{\mathrm{ord}\,}
+\newcommand{\GL}{{\rm GL}}
+\newcommand{\SL}{{\rm SL}}
+\newcommand{\SO}{{\rm SO}}
+\newcommand{\colvec}[1]{\begin{pmatrix}#1\end{pmatrix}}
+\newcommand{\Span}{{\rm Span}\,}
+\newcommand{\Rank}{{\rm Rank}\,}
+\newcommand{\nullity}{{\rm nullity}\,}
+\newcommand{\adj}{{\rm adj}\,}
+\newcommand{\Proj}{{\rm Proj}}
+\newcommand{\ora}{\overrightarrow}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\phib}{\ol{\phi}}
+
+\newcommand{\class}[2]{#2}
+
+\renewcommand{\ord}{\mathrm{ord}\,}
+
+\newcounter{statement}
+\numberwithin{statement}{chapter}
+
+\newtheorem{thm}[statement]{Theorem}
+\newtheorem{prop}[statement]{Proposition}
+\newtheorem{defn}[statement]{Definition}
+\newtheorem{lemma}[statement]{Lemma}
+\newtheorem{claim}[statement]{Claim}
+\newtheorem{cor}[statement]{Corollary}
+\newtheorem{fact}[statement]{Fact}
+\newtheorem{example}[statement]{\bf Example}
+\newtheorem{eg}[statement]{\bf Example}
+\newtheorem{ex}[statement]{\bf Exercise}
+\newtheorem*{notation}{\bf Notation}
+\newtheorem*{sol}{\bf Solution}
+\newtheorem*{remark}{\bf Remark}
+\numberwithin{equation}{chapter}
+\numberwithin{section}{chapter}
+\numberwithin{subsection}{section}
+
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+
+\begin{document}
+\title{Math 2070}
+\setcounter{chapter}{1}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 1}
+{\bf Topics: }Groups
+\hrule
+
+
+
+\section{Motivation}
+
+
+\quad\\\hrule
+\quad\\
+
+\begin{itemize}
+\item 
+How many ways are there to color a cube, such that each face is either red or green?
+
+
+
+
+ {\bf Answer:} 
+10. Why?
+
+
+
+
+\item 
+How many ways are there to form a triangle with three sticks of equal lengths, colored
+red, green and blue, respectively?
+
+
+
+
+\item 
+What are the symmetries of an equilateral triangle?
+
+
+
+
+\textbf{Dihedral Group $D_3$}
+
+
+
+
+
+
+
+
+
+
+\end{itemize}
+
+
+
+
+\section{Cayley Table}
+
+
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+*&$a$&$b$&$c$ \\
+\hline
+$a$&$a^2$&$ab$&$ac$ \\
+\hline
+$b$&$ba$&$b^2$&$bc$ \\
+\hline
+$c$&$ca$&$cb$&$c^2$\\\hline
+\end{tabular}
+\end{center}
+
+
+
+\quad\\\hrule
+\quad\\
+
+
+
+
+
+\textbf{Cayley Table for $D_3$}
+
+
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+
+*
+&$r_0$&$r_1$&$r_2$&$s_0$&$s_1$&$s_2$ \\
+\hline
+$r_0$&$r_0$&$r_1$&$r_2$&$s_0$&$s_1$&$s_2$ \\
+\hline
+$r_1$&$r_1$&$r_2$&$r_0$&$s_1$&$s_2$&$s_0$ \\
+\hline
+$r_2$&$r_2$&$r_0$&$r_1$&$s_2$&$s_0$&$s_1$ \\
+\hline
+$s_0$&$s_0$&$s_2$&$s_1$&$r_0$&$r_2$&$r_1$ \\
+\hline
+$s_1$&$s_1$&$s_0$&$s_2$&$r_1$&$r_0$&$r_2$ \\
+\hline
+$s_2$&$s_2$&$s_1$&$s_0$&$r_2$&$r_1$&$r_0$\\\hline
+\end{tabular}
+\end{center}
+
+
+
+\quad\\\hrule
+\quad\\
+\section*{Groups}
+
+\begin{defn}
+A group $G$ is a set equipped with a binary operation $*: G \times G \ra G$ (typically called  {\bf  group operation}  or " {\bf multiplication} "), such that:
+\begin{itemize}
+\item 
+ \underline{  {\bf Associativity} } 
+\[(a* b)* c = a * (b * c),\]
+for all $a, b, c \in G$. In other words, the group operation is  {\bf associative} .
+
+\item 
+ \underline{  {\bf Existence of an Identity Element} } 
+
+
+
+There is an element $e \in G$, called an  {\bf identity element} , such that:
+\[g* e = e * g = g,\]
+for all $g \in G$.
+
+\item 
+ \underline{  {\bf Invertibility} } 
+
+
+
+Each element $g \in G$ has an  {\bf inverse}  $g^{-1} \in G$, such that:
+\[g^{-1}* g = g* g^{-1} = e.\]
+\end{itemize}
+\end{defn}
+
+\begin{itemize}
+\item 
+Note that we do not require that $a* b = b * a$.
+  
+\item 
+We often write $ab$ to denote $a* b$.
+  \end{itemize}
+
+\begin{defn}
+If $ab = ba$ for all $a, b \in G$. We say that the group operation is
+ {\bf commutative} , and that $G$ is an  {\bf abelian group} .
+\end{defn}
+
+\begin{eg}
+The following sets are groups, with respect to the specified group operations:
+\begin{itemize}
+\item 
+$G = \mathbb{Q} \backslash \{0\}$, where the group operation is the usual multiplication for rational numbers.
+The identity is $e = 1$, and the inverse of $a \in \mathbb{Q}\backslash\{0\}$ is $a^{-1} = \frac{1}{a}$.
+The group $G$ is abelian.
+  
+\item 
+$G = \mathbb{Q}$, where the group operation is the usual addition $+$ for rational numbers. The identity is $e = 0$.
+The inverse of $a \in \mathbb{Q}$ with respect to $+$ is $-a$.
+Note that $\mathbb{Q}$ is  {\it NOT}  a group with respect to multiplication. For in that case, we have $e = 1$, but $0 \in \mathbb{Q}$ has no inverse
+$0^{-1} \in \mathbb{Q}$ such that $0\cdot 0^{-1} = 1$.
+  \end{itemize}
+
+
+
+
+
+\quad\\\hrule
+\quad\\
+
+\end{eg}
+
+\begin{ex}
+Verify that the following sets are groups under the specified binary operation:
+\begin{itemize}
+\item 
+$(\mathbb{Z}, +)$
+  
+\item 
+$(\mathbb{R}, +)$
+  
+\item 
+$(\mathbb{R}^\times, \cdot)$
+  
+\item 
+$(U_m, \cdot)$, where $m \in \mathbb{N}$,
+\[U_m = \{1, \xi_m, \xi_m^2, \ldots, \xi_m^{m - 1}\},\]
+and
+$\xi_m = e^{2\pi i/m} = \cos(2\pi/m) + i\sin(2\pi/m) \in \mathbb{C}$.
+
+
+  
+\item 
+The set of bijective functions $f: \mathbb{R} \ra \mathbb{R}$,
+where $f * g:= f \circ g$ (i.e. composition of functions).
+  \end{itemize}
+
+
+
+
+
+\quad\\\hrule
+\quad\\
+
+
+\end{ex}
+
+\begin{ex}
+\begin{enumerate}
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+\end{enumerate}
+\end{ex}
+
+\begin{eg}
+The set $G = {\rm GL}(2, \mathbb{R})$
+of real $2 \times 2$ matrices with nonzero determinants is a group
+under matrix multiplication, with identity element:
+\[e = \left(\begin{matrix} 1 &amp; 0\\0&amp; 1\end{matrix}\right).\]
+In the group $G$, we have:
+\[\left(\begin{matrix} a &amp; b \\ c &amp; d\end{matrix}\right)^{-1}
+=
+\frac{1}{ad - bc}\left(\begin{matrix}d &amp; -b \\-c &amp; a\end{matrix}\right)\]
+
+Note that there are matrices $A, B \in {\rm GL}(2, \mathbb{R})$
+such that $AB \neq BA$. Hence ${\rm GL}(2, \mathbb{R})$ is not abelian.
+
+
+
+
+
+\quad\\\hrule
+\quad\\
+
+
+\end{eg}
+\begin{ex}
+
+The set ${\rm SL}(2, \mathbb{R})$ ( {\bf Special Linear Group} )
+of real $2 \times 2$ matrices with determinant $1$ is a group under matrix multiplication.
+\end{ex}
+
+
+\begin{claim}
+The identity element $e$ of a group $G$ is unique.
+\end{claim}
+\begin{proof}
+
+Suppose there is an element $e' \in G$ such that $e' g = ge' = g$ for all $g \in G$.
+Then, in particular, we have:
+\[e'e = e\]
+But since $e$ is an identity element, we also have $e'e = e'$. Hence, $e' = e$.
+\end{proof}
+\begin{claim}
+Let $G$ be a group.
+For all $g \in G$, its inverse $g^{-1}$ is unique.
+\end{claim}
+\begin{proof}
+
+Suppose there exists $g' \in G$ such that $g'g = gg' = e$.
+By the associativity of the group operation, we have:
+\[g' = g'e = g'(g g^{-1}) = (g'g)g^{-1} = e g^{-1} = g^{-1}.\]
+Hence, $g^{-1}$ is unique.
+\end{proof}
+
+Let $G$ be a group with identity element $e$.
+For $g \in G$, $n \in \mathbb{N}$,
+let:
+\[\begin{split}
+g^n &amp;:= \underbrace{g \cdot g \cdots g}_{n\text{ times}}.\\
+g^{-n} &amp;:= \underbrace{g^{-1} \cdot g^{-1} \cdots g^{-1}}_{n\text{ times}}\\
+g^0 &amp;:= e.
+\end{split}\]
+\begin{claim}
+
+Let $G$ be a group.
+\begin{enumerate}
+\item 
+For all $g \in G$,
+we have:
+\[(g^{-1})^{-1} = g.\]
+  
+\item 
+For all $a, b \in G$,
+we have:
+\[(ab)^{-1} = b^{-1}a^{-1}.\]
+  
+\item 
+For all $g \in G$, $n, m \in \mathbb{Z}$, we have:
+\[g^n\cdot g^m = g^{n + m}.\]
+  \end{enumerate}
+\end{claim}
+\begin{proof}
+
+ {\bf Exercise.} 
+\end{proof}
+
+\begin{defn}
+Let $G$ be a group, with identity element $e$.
+The  {\bf order}  of $G$ is the number of elements in $G$.
+The  {\bf order}  $\ord g$ of an  $g \in G$
+is the smallest $n \in \mathbb{N}$ such that $g^n = e$.
+If no such $n$ exists, we say that $g$ has  {\bf infinite order} .
+\end{defn}
+\begin{thm}
+
+Let $G$ be a group with identity element $e$.
+Let $g$ be an element of $G$. If $g^n = e$ for some $n \in \mathbb{N}$,
+then $\ord g$ divides $n$.
+\end{thm}
+\begin{proof}
+
+Shown in class.
+\end{proof}
+\setcounter{chapter}{2}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 2}
+{\bf Topics: }Groups
+\hrule
+
+
+
+\begin{defn}
+Let $G$ be a group, with identity element $e$.
+
+
+
+The  {\bf order}  of $G$ is the number of elements in $G$.
+
+
+
+The  {\bf order}  $\ord g$ of an  element $g \in G$
+is the smallest $n \in \mathbb{N}$ such that $g^n = e$.
+If no such $n$ exists, we say that $g$ has  {\bf infinite order} .
+\end{defn}
+
+
+
+
+\quad\\\hrule
+\quad\\
+
+\begin{thm}
+\label{thm:orderdividesn}
+
+
+
+Let $G$ be a group with identity element $e$.
+Let $g$ be an element of $G$.  If $g^n = e$ for some $n \in \mathbb{N}$,
+then $\ord g$ is finite, and moreover $\ord g$ divides $n$.
+\end{thm}
+\begin{proof}
+Shown in class.
+\end{proof}
+
+\quad\\\hrule
+\quad\\
+
+
+
+
+\begin{ex}
+
+If $G$ has finite order, then every element of $G$ has finite order.
+
+\end{ex}
+
+
+
+
+\begin{defn}
+A group $G$ is  {\bf cyclic}  if there exists $g \in G$ such that every element of $G$ is equal to $g^n$
+for some integer $n$.
+In which case, we write: $G = \langle g \rangle$, and say that $g$ is a  {\bf generator}  of $G$.
+
+
+Note: The generator of of a cyclic group might not be unique.
+
+\end{defn}
+\begin{eg}
+
+
+$(U_m, \cdot)$ is cyclic.
+
+\end{eg}
+\begin{ex}
+
+A finite cyclic group $G$ has order (i.e. size) $n$
+if and only if each of its generators has order $n$.
+
+\end{ex}
+\begin{ex}
+
+$(\mathbb{Q}, +)$ is not cyclic.
+
+\end{ex}
+
+
+\section{Permutations}
+
+\begin{defn}
+Let $X$ be a set.  A  {\bf permutation}  of $X$ is a bijective map $\sigma : X \ra X$.
+\end{defn}
+\begin{claim}
+
+The set $S_X$ of permutations of a set $X$
+is a group with respect to $\circ$, the composition of maps.
+
+\end{claim}
+\begin{proof}
+
+\begin{itemize}
+\item 
+Let $\sigma, \gamma$ be permutations of $X$.
+By definition, they are bijective maps from $X$ to itself.
+It is clear that $\sigma\circ\gamma$ is a bijective map from $X$ to itself,
+hence $\sigma\circ\gamma$ is a permutation of $X$.  So $\circ$ is a well-defined
+binary operation on $S_X$.
+
+\item 
+For $\alpha, \beta, \gamma \in S_X$, it is clear that
+$\alpha\circ(\beta\circ \gamma) = (\alpha\circ\beta)\circ\gamma$.
+
+\item 
+Define a map $e : X \ra X$ as follows:
+\[
+e(x) = x,\quad \text{ for all } x \in X.
+\]
+It is clear that $e \in S_X$, and that $e \circ \sigma = \sigma\circ e = \sigma$
+for all $\sigma \in S_X$.  Hence, $e$ is an identity element in $S_X$.
+
+\item 
+Let $\sigma$ be any element of $S_X$.  Since $\sigma : X \ra X$ is by assumption bijective,
+there exists a bijective map $\sigma^{-1} : X \ra X$
+such that $\sigma\circ\sigma^{-1} = \sigma^{-1}\circ \sigma = e$.
+So $\sigma^{-1}$
+is an inverse of $\sigma$ with respect to the operation $\circ$.
+\end{itemize}
+
+
+\end{proof}
+
+
+
+
+ {\bf Terminology:} 
+We call $S_X$ the  {\bf Symmetric Group}  on $X$.
+
+
+
+ {\bf Notation:} 
+If $X = \{1, 2, \ldots, n\}$, where $n \in \mathbb{N}$,
+we denote $S_X$ by $S_n$.
+
+
+
+For $n \in \mathbb{N}$, the group $S_n$ has $n!$ elements.
+
+
+
+For $n \in \mathbb{N}$,
+by definition an element of $S_n$ is a bijective map $\sigma : X \ra X$,
+where $X = \{1, 2, \ldots, n\}$.
+We often describe $\sigma$ using the following notation:
+\[
+\sigma = \left(\begin{matrix}
+1 & 2 & \cdots & n\\
+\sigma(1) & \sigma(2) & \ldots & \sigma(n)
+\end{matrix}
+\right)
+\]
+
+\begin{eg}
+In $S_3$,
+\[
+\sigma = \left(
+\begin{matrix}
+1 & 2 & 3\\
+3 & 2 & 1
+\end{matrix}
+\right)
+\]
+is the permutation on $\{1, 2, 3\}$
+which sends $1$ to $3$, $2$ to itself, and $3$ to $1$,
+i.e. $\sigma(1) = 3, \sigma(2) = 2, \sigma(3) = 1$.
+
+
+
+
+For $\alpha, \beta \in S_3$ given by:
+\[
+\alpha =
+\left(
+\begin{matrix}
+1 & 2 & 3\\
+2 & 3 & 1
+\end{matrix}\right),
+\quad
+\beta =
+\left(\begin{matrix}
+1 & 2 & 3\\
+2 & 1 & 3
+\end{matrix}\right),
+\]
+we have:
+
+
+
+
+\[
+\alpha\beta = \alpha\circ\beta
+=
+\left(\begin{matrix}
+1 & 2 & 3\\
+2 & 3 & 1
+\end{matrix}\right) \circ
+\left(\begin{matrix}
+1 & 2 & 3\\
+2 & 1 & 3
+\end{matrix}\right)
+=\left(\begin{matrix}
+1 & 2 & 3\\
+3 & 2 & 1
+\end{matrix}\right)
+\]
+(since, for example, $\alpha\circ\beta: 1 \xmapsto{\beta} 2 \xmapsto{\alpha} 3$.).
+
+
+
+We also have:
+
+
+
+
+\[
+\beta\alpha = \beta\circ\alpha
+= \left(\begin{matrix}
+1 & 2 & 3\\
+2 & 1 & 3
+\end{matrix}\right) \circ
+\left(\begin{matrix}
+1 & 2 & 3\\
+2 & 3 & 1
+\end{matrix}\right)
+=
+\left(\begin{matrix}
+1 & 2 & 3\\
+1 & 3 & 2
+\end{matrix}\right)
+\]
+
+Since $\alpha\beta \neq \beta\alpha$, the group $S_3$ is non-abelian.
+
+
+
+
+In general, for $n > 2$, the group $S_n$ is non-abelian ( {\bf Exercise:}  Why?).
+
+
+
+
+For the same $\alpha \in S_3$ defined above, we have:
+\[
+\alpha^2 = \alpha\circ\alpha =
+\left(\begin{matrix}
+1 & 2 & 3\\
+2 & 3 & 1
+\end{matrix}\right)\circ
+\left(\begin{matrix}
+1 & 2 & 3\\
+2 & 3 & 1
+\end{matrix}\right) =
+\left(\begin{matrix}
+1 & 2 & 3\\
+3 & 1 & 2
+\end{matrix}\right)
+\]
+and:
+
+
+
+
+\[
+\alpha^3 = \alpha\cdot\alpha^2
+= \left(\begin{matrix}
+1 & 2 & 3\\
+2 & 3 & 1
+\end{matrix}\right)
+\circ
+\left(\begin{matrix}
+1 & 2 & 3\\
+3 & 1 & 2
+\end{matrix}\right)
+=
+\left(\begin{matrix}
+1 & 2 & 3\\
+1 & 2 & 3
+\end{matrix}\right) = e
+\]
+
+Hence, the order of $\alpha$ is $3$.
+
+\end{eg}
+
+\section{Dihedral Group}
+
+Consider the subset $\mathcal{T}$ of transformations of $\mathbb{R}^2$,
+consisting of all rotations by fixed angles about the origin, and all reflections over lines through the origin.
+
+
+
+
+Consider a regular polygon $P$ with $n$ sides in $\mathbb{R}^2$, centered at the origin.
+Identify the polygon with its $n$ vertices, which form a subset $P = \{x_1, x_2, \ldots, x_n\}$
+of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say that $P$ is  {\bf symmetric} 
+with respect to $\tau$.
+
+
+
+
+Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
+and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$.
+
+
+
+
+
+
+
+
+
+By Jim.belk - Own work, Public Domain, Link
+
+
+
+
+
+
+
+\begin{thm}
+
+The set $D_n := \{r_0, r_1,\ldots, r_{n - 1}, s_1, s_2,\ldots, s_n\}$ is a group,
+with respect to the group operation defined by $\tau*\gamma = \tau\circ\gamma$
+(composition of transformations).
+
+\end{thm}
+ {\bf Terminology:} 
+
+$D_n$ is called a  {\bf dihedral group} .
+
+
+
+
+
+\subsection{More on $S_n$}
+
+
+
+
+Consider the following element in $S_6$:
+\[
+\sigma = \left(
+\begin{matrix}
+1&2&3&4&5&6\\
+5&4&3&6&1&2
+\end{matrix}
+\right)
+\]
+
+We may describe the action of $\sigma : \{1, 2, \ldots, 6\} \ra \{1, 2, \ldots, 6\}$
+using the notation:
+\[
+\sigma = (15)(246),
+\]
+
+where $(n_1 n_2\cdots n_k)$ represents the permutation:
+\[
+n_1 \mapsto n_2 \dots n_i \mapsto n_{i + 1} \dots \mapsto n_k \mapsto n_1
+\]
+
+Viewing permutations as bijective maps,
+the "multiplication" $(15)(246)$ is by definition the composition $(15)\circ(246)$.
+
+
+
+
+We call $(n_1n_2\cdots n_k)$ a  {\bf $k$-cycle} .
+Note that $3$ is missing from $(15)(246)$.
+This corresponds to the fact that $3$ is fixed by $\sigma$.
+
+
+
+
+
+
+
+\begin{claim}
+Every non-identity permutation in $S_n$ is either a cycle or a product of disjoint cycles.
+\end{claim}
+\begin{proof}
+Discussed in class.
+\end{proof}
+
+
+
+
+\quad\\\hrule
+\quad\\
+
+\begin{ex}
+
+Disjoint cycles commute with each other.
+
+\end{ex}
+
+
+
+
+A 2-cycle is often called a  {\bf transposition} ,
+for it switches two elements with each other.
+
+
+
+\begin{claim}
+Each element of $S_n$ is a product of (not necessarily disjoint) transpositions.
+\end{claim}
+
+
+
+Sketch of proof:
+
+
+Show that each permutation not equal to the identity is a product of cycles,
+and that each cycle is a product of transpositions:
+\[
+(a_1a_2\ldots a_k) = (a_1 a_k) (a_1 a_{k - 1})\cdots(a_1 a_3)(a_1 a_2)
+\]
+
+\begin{eg}
+
+
+\[
+\begin{split}
+\left(
+\begin{matrix}
+1&2&3&4&5&6\\
+5&4&3&6&1&2
+\end{matrix}
+\right) &=
+\class{steps1 steps}{(15)(246)}
+\\&
+\class{steps1 steps}{= (15)(26)(24)}
+\\&
+\class{steps1 steps}{ = (15)(46)(26)}
+\end{split}
+\]
+
+
+\end{eg}
+
+
+
+
+Note that a given element $\sigma$ of $S_n$
+may be expressed as a product of transpositions in different ways,
+but:
+\begin{claim}
+In every factorization of $\sigma$ as a product of transpositions,
+the number of factors is either always even or always odd.
+\end{claim}
+
+
+
+\begin{proof}
+
+ {\bf Exercise.} 
+One approach: Show that there is a unique $n \times n$ matrix, with either $0$ or $1$ as its coefficients,
+which sends each standard basis vector $\vec{e}_i$ in $\mathbb{R}^n$ to $\vec{e}_{\sigma(i)}$.
+Then, use the fact that the determinant of the matrix corresponding to a transposition is $-1$,
+and that the determinant function of matrices is multiplicative.
+\end{proof}
+
+\begin{ex}
+\begin{enumerate}
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+\end{enumerate}\end{ex}\setcounter{chapter}{3}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 3}
+{\bf Topics: }Subgroups, Left Cosets, Index
+\hrule
+
+
+
+
+
+\quad\\\hrule
+\quad\\
+\section*{Subgroups}
+
+\begin{defn}
+Let $G$ be a group.
+A subset $H$ of $G$ is a  {\bf subgroup}  of $G$ if it satisfies the following properties:
+
+
+
+
+\begin{itemize}
+\item 
+ {\bf Closure}  If $a, b \in H$, then $ab \in H$.
+
+\item 
+ {\bf Identity}  The identity element of $G$ lies in $H$.
+
+\item 
+ {\bf Inverses}  If $a \in H$, then $a^{-1} \in H$.
+\end{itemize}
+
+\end{defn}
+
+In particular, a subgroup $H$ is a group with respect to the group operation on $G$,
+and the identity element of $H$ is the identity element of $G$.
+
+
+
+
+
+\begin{eg}
+\label{eg:subgroups}
+
+
+\begin{itemize}
+\item 
+For any $n \in \mathbb{Z}$,
+$n\mathbb{Z}$ is a subgroup of $(\mathbb{Z}, +)$.
+
+\item 
+$\mathbb{Q}\bs\{0\}$ is a subgroup of $(\mathbb{R}\bs\{0\}, \cdot)$.
+
+\item 
+${\rm SL}(2, \mathbb{R})$ is a subgroup of ${\rm GL}(2, \mathbb{R})$.
+
+\item 
+The set of all rotations (including the trivial rotation) in a dihedral group $D_n$
+is a subgroup of $D_n$.
+
+\item 
+Let $n \in \mathbb{N}$, $n \geq 2$.
+We say that $\sigma \in S_n$ is an  {\bf even permutation} 
+if it is equal to the product of an even number of transpositions.
+The subset $A_n$ of $S_n$ consisting of even permutations is a subgroup of $S_n$.
+$A_n$ is called an  {\bf alternating group} .
+\end{itemize}
+\end{eg}
+
+\begin{claim}
+A subset $H$ of a group $G$ is a subgroup of $G$ if and only if $H$ is nonempty
+and, for all $x, y \in H$, we have $xy^{-1} \in H$.
+\end{claim}
+\begin{proof}
+
+Suppose $H \subseteq G$ is a subgroup.
+Then, $H$ is nonempty since $e_G \in H$.
+For all $x, y \in H$, we have $y^{-1} \in H$;
+hence, $xy^{-1} \in H$.
+
+
+
+Conversely, suppose $H$ is a nonempty subset of $G$,
+and $xy^{-1} \in H$ for all $x, y \in H$.
+
+
+
+
+\begin{itemize}
+\item 
+ {\bf Identity}  Let $e$ be the identity element of $G$.
+Since $H$ is nonempty, it contains at least one element $h$.
+Since $e = h \cdot h^{-1}$, and by hypothesis $h\cdot h^{-1} \in H$, the set $H$ contains $e$.
+
+\item 
+ {\bf Inverses} 
+Since $e \in H$, for all $a \in H$ we have $a^{-1} = e\cdot a^{-1} \in H$.
+
+\item 
+ {\bf Closure} 
+For all $a, b \in H$, we know that $b^{-1} \in H$.  Hence,
+$ab = a\cdot(b^{-1})^{-1} \in H$.
+\end{itemize}
+
+Hence, $H$ is a subgroup of $G$.
+
+
+\end{proof}
+
+\begin{claim}
+The intersection of two subgroups of a group $G$ is a subgroup of $G$.
+\end{claim}
+\begin{proof}
+Exercise.
+\end{proof}
+
+\begin{thm}
+Every subgroup of $(\mathbb{Z}, +)$ is cyclic.
+\end{thm}
+\begin{proof}
+
+Let $H$ be a subgroup of $G = (\mathbb{Z}, +)$.
+If $H = \{0\}$, then it is clearly cyclic.
+
+
+
+
+Suppose $\abs{H} > 1$.  Consider the subset:
+\[
+S = \{h \in H \,:\, h > 0\} \subseteq H
+\]
+Since a subgroup is closed under inverse,
+and the inverse of any $z \in \mathbb{Z}$
+with respect to $+$ is $-z$, the subgroup $H$ must contain at least one positive
+element.  Hence, $S$ is a non-empty subset of $\mathbb{Z}$ bounded from below.
+
+
+
+
+It then follows from the Least Integer Axiom that exists a minimum element $h_0$ in $S$.
+That is $h_0 \leq h$ for any $h \in S$.
+
+
+
+
+ {\bf Exercise.}  Show that $H = \langle h_0 \rangle$.
+
+
+
+( {\it Hint} : The Division Theorem for Integers could be useful here.)
+\end{proof}
+\begin{ex}
+Every subgroup of a cyclic group is cyclic.
+\end{ex}
+
+\quad\\\hrule
+\quad\\
+\section*{Lagrange's Theorem}
+
+Let $G$ be a group, $H$ a subgroup of $G$.
+We are interested in knowing how large $H$ is relative to $G$.
+
+
+
+We define a relation $\equiv$ on $G$ as follows:
+\[
+a \equiv b \text{ if } b = ah \text{ for some } h \in H,
+\]
+or equivalently:
+\[
+a \equiv b \text{ if } a^{-1}b \in H.
+\]
+ {\bf Exercise:}  $\equiv$ is an  {\bf equivalence relation} .
+
+
+
+We may therefore partition $G$
+into disjoint equivalence classes with respect to $\equiv$.
+We call these equivalence classes the  {\bf left cosets}  of $H$.
+
+
+
+Each left coset of $H$ has the form $aH = \{ah \,|\, h \in H\}$.
+
+
+
+
+We could likewise define  right cosets.  These sets are of the form $Hb$, $b \in G$.
+In general,
+the number of left cosets and right cosets, if finite, are equal to each other
+
+
+\begin{eg}
+Let $G = (\mathbb{Z}, +)$.
+Let:
+\[
+H = 3\mathbb{Z} =
+\{\ldots, -9, -6, -3, 0, 3, 6, 9, \ldots\}
+\]
+The set $H$ is a subgroup of $G$.
+The left cosets of $H$ in $G$ are as follows:
+\[
+3\mathbb{Z}, 1 + 3\mathbb{Z}, 2 + 3\mathbb{Z},
+\]
+where $i + 3\mathbb{Z} := \{i + 3k : k \in \mathbb{Z}\}$.
+
+
+
+In general, for $n \in \mathbb{Z}$,
+the left cosets of $n\mathbb{Z}$ in $\mathbb{Z}$ are:
+\[
+i + n\mathbb{Z}, \quad i = 0, 1, 2, \ldots, n - 1.
+\]
+\end{eg}
+
+\begin{defn}
+The number of left cosets of a subgroup $H$ of $G$ is called the  {\bf index}  of $H$ in $G$.
+It is denoted by:
+\[
+[G : H]
+\]
+\end{defn}
+\begin{eg}
+Let $n \in \mathbb{N}$,
+$G = (\mathbb{Z}, +)$, $H = (n\mathbb{Z}, +)$.
+Then,
+\[
+[G:H] = n.
+\]
+\end{eg}
+
+\begin{eg}
+Let $G = {\rm GL}(n, \mathbb{R})$.  Let:
+\[
+H = {\rm GL}^+(n, \mathbb{R}) := \left\{ h \in G : \det h > 0\right\}.
+\]
+( {\bf Exercise:}  $H$ is a subgroup of $G$.)
+
+
+
+Let:
+\[
+s = \left(
+\begin{matrix}
+-1 & 0 & 0& 0 & 0\\
+0&1 &0 &0 &0\\
+0&0 &1 &0 &0\\
+0&0 &0 &\ddots&0\\
+0& 0 &0 &0 &1
+\end{matrix}
+\right) \in G
+\]
+Note that $\det s = \det s^{-1} = -1$.
+
+
+
+For any $g \in G$, either $\det g > 0$ or $\det g < 0$.
+If $\det g > 0$, then $g \in H$.
+If $\det g < 0$, we write:
+\[
+g = (ss^{-1}) g = s(s^{-1} g).
+\]
+Since $\det s^{-1}g = (\det s^{-1})(\det g) > 0$, we have $s^{-1}g \in H$.
+So, $G = H \sqcup s H$, and $[G : H] = 2$.
+Notice that both $G$ and $H$ are infinite groups, but the index of $H$ in $G$ is finite.
+\end{eg}
+
+
+
+\begin{eg}
+Let $G = {\rm GL}(n, \mathbb{R})$, $H = {\rm SL}(n, \mathbb{R})$.
+For each $x \in \mathbb{R}^\times$, let:
+\[
+s_x = \left(
+\begin{matrix}
+x & 0 & 0& 0 & 0\\
+0&1 &0 &0 &0\\
+0&0 &1 &0 &0\\
+0&0 &0 &\ddots&0\\
+0& 0 &0 &0 &1
+\end{matrix}
+\right) \in G
+\]
+Note that $\det s_x = x$.
+
+
+
+For each $g \in G$, we have:
+\[
+g = s_{\det g}{(s_{\det g}^{-1} g)} \in s_{\det g}H
+%% g = s_{\det g}\underbrace{(s_{\det g}^{-1} g)}_{\in H}
+\]
+Moreover, for distinct $x, y \in \mathbb{R}^\times$, we have:
+\[
+\det (s_x^{-1}s_y) = y/x \neq 1.
+\]
+This implies that $s_x^{-1} s_y \notin H$, hence $s_yH$ and $s_xH$ are disjoint cosets.
+We have therefore:
+\[
+G = \bigsqcup_{x \in \mathbb{R}^\times} s_x H.
+\]
+The index $[G: H]$ in this case is infinite.
+\end{eg}
+
+
+
+
+
+
+
+
+\begin{thm}
+( {\bf Lagrange's Theorem} )
+Let $G$ be a finite group.  Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
+More precisely, $\abs{G} = [G : H]\cdot\abs{H}$.
+\end{thm}
+
+
+
+We already know that the left cosets of $H$ partition $G$.
+That is:
+\[
+G = a_1 H \sqcup a_2 H \sqcup \ldots \sqcup a_{[G:H]}H,
+\]
+where $a_i H \cap a_j H = \emptyset$ if $i \neq j$.
+Hence, $\abs{G} = \sum_{i = 1}^{[G:H]} \abs{a_i H}$.
+
+The theorem follows if we show that the size of each left coset of $H$ is equal to $\abs{H}$.
+
+
+
+For each left coset $S$ of $H$, pick an element $a \in S$, and  define a map $\psi : H \ra S$ as follows:
+\[
+\psi(h) = ah.
+\]
+We want to show that $\psi$ is bijective.
+
+
+
+For any $s \in S$,
+by definition of a left coset (as an equivalence class) we have $s = ah$ for some $h \in H$.
+Hence, $\psi$ is surjective.
+If $\psi(h') = ah' = ah = \psi(h)$ for some $h', h \in H$,
+then $h' = a^{-1}ah' = a^{-1}ah = h$.  Hence, $\psi$ is one-to-one.
+
+
+
+So we have a bijection between two finite sets.  Hence, $\abs{S} = \abs{H}$.
+
+
+
+
+\begin{cor}
+Let $G$ be a finite group.
+The order of every element of $G$  divides the order of $G$.
+\end{cor}
+
+
+
+Since $G$ is finite, any element of $g \in G$ has finite order $\ord g$.
+Since the order of the subgroup:
+\[
+H = \langle g \rangle
+= \{e, g, g^2, \ldots, g^{(\ord g) - 1}\}
+\]
+is equal to $\ord g$,
+it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$.
+
+
+
+\begin{cor}
+If the order of a group $G$ is prime, then $G$ is a cyclic group.
+\end{cor}
+
+
+
+\setcounter{chapter}{4}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 4}
+{\bf Topics: }Generators, Group Homomorphisms
+\hrule
+
+
+
+
+\begin{thm}[Lagrange's Theorem]
+
+\label{lagrangethm}
+
+
+
+Let $G$ be a finite group. Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
+More precisely, $\abs{G} = [G: H]\cdot\abs{H}$.
+\end{thm}
+\begin{proof}
+
+We already know that the left cosets of $H$ partition $G$.
+That is:
+\[G = a_1 H \sqcup a_2 H \sqcup \ldots \sqcup a_{[G:H]}H,\]
+where $a_i H \cap a_j H = \emptyset$ if $i \neq j$.
+Hence, $\abs{G} = \sum_{i = 1}^{[G:H]} \abs{a_i H}$.
+
+
+
+
+
+The theorem follows if we show that the size of each left coset of $H$ is equal to $\abs{H}$.
+
+
+
+
+For each left coset $S$ of $H$, pick an element $a \in S$, and define a map
+$\psi: H \ra S$ as follows:
+\[\psi(h) = ah.\]
+
+We want to show that $\psi$ is bijective.
+
+
+
+
+For any $s \in S$,
+by definition of a left coset (as an equivalence class) we have $s = ah$ for some $h \in H$.
+Hence, $\psi$ is surjective.
+
+
+
+
+If $\psi(h') = ah' = ah = \psi(h)$ for some $h', h \in H$,
+then $h' = a^{-1}ah' = a^{-1}ah = h$. Hence, $\psi$ is one-to-one.
+
+
+
+
+So we have a bijection between two finite sets. Hence, $\abs{S} = \abs{H}$.
+
+\end{proof}
+
+\begin{cor}
+Let $G$ be a finite group.
+The order of every element of $G$ divides the order of $G$.
+\end{cor}
+Since $G$ is finite, any element of $g \in G$ has finite order $\ord g$.
+Since the order of the subgroup:
+\[H = \langle g \rangle
+= \{e, g, g^2, \ldots, g^{(\ord g) - 1}\}\]
+is equal to $\ord g$,
+it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$.
+\begin{cor}
+
+If the order of a group $G$ is prime, then $G$ is a cyclic group.
+\end{cor}
+\begin{cor}
+
+If a group $G$ is finite, then for all $g \in G$ we have:
+\[
+g^{\abs{G}} = e.
+\]
+\end{cor}
+
+\begin{cor}
+Let $G$ be a  finite group. Then a nonempty subset $H$ of $G$
+is a subgroup of $G$ if and only if it is closed under the group operation of $G$
+(i.e. $ab \in H$ for all $a, b \in H$).
+\end{cor}
+\begin{proof}
+
+It is easy to see that if $H$ is a subgroup,
+then it is closed under the group operation.
+The other direction is left as an  {\bf Exercise} .
+\end{proof}
+
+\begin{eg}
+Let $n$ be an integer greater than $1$. The group $A_n$ of even permutations
+on a set of $n$ elements (see \cref{eg:subgroups}) has order $\displaystyle \frac{n!}{2}$.
+\end{eg}
+\begin{proof}
+
+View $A_n$ as a subgroup of $S_n$, which has order $n!$.
+
+
+
+ {\bf Exercise} : Show that $S_n = A_n\, \sqcup\, (12)A_n$.
+
+
+
+
+Hence, we have $[S_n: A_n] = 2$.
+
+
+
+
+It now follows from Lagrange's Theorem (\cref{lagrangethm}) that:
+\[\abs{A_n} = \frac{\abs{S_n}}{[S_n: A_n]} = \frac{n!}{2}.\]
+\end{proof}
+
+\quad\\\hrule
+\quad\\
+\section*{Generators}
+
+Let $G$ be a group, $X$ a nonempty subset of $G$.
+The subset of $G$ consisting of elements of the form:
+\[g_1^{m_1}g_2^{m_2}\cdots g_n^{m_n},
+\quad\text{where}\quad
+n \in \mathbb{N}, g_i \in X, m_i \in \mathbb{Z},\]
+is a subgroup of $G$.
+We say that it is the subgroup of $G$  {\bf generated}  by $X$.
+If $X = \{x_1, x_2, \ldots, x_l\}$, $l \in \mathbb{N}$.
+We often write:
+\[\langle x_1, x_2, \ldots, x_l\rangle\]
+to denote the subgroup generated by $X$.
+\begin{eg}
+
+In $D_n$, $\{ r_0, r_1, \ldots, r_{n - 1}\} = \langle r_1 \rangle$.
+\end{eg}
+
+If there exists a finite number of elements $x_1, x_2, \ldots, x_l \in G$
+such that $G = \langle x_1, x_2, \ldots, x_l\rangle$,
+we say that $G$ is  {\bf finitely generated} .
+
+
+
+
+For example, every cyclic group is finitely generated, for it is generated by one
+element.
+
+
+
+
+Every finite group is finitely generated, since we may take the finite generating set
+$X$ to be $G$ itself.
+
+\begin{eg}
+Consider $G = D_3$, and its subgroup $H = \{r_0, r_1, r_2\}$ consisting of its rotations.
+(We use the convention that $r_k$ is the anticlockwise rotation by an angle of $2\pi k/3$).
+
+
+
+
+By Lagrange's Theorem, the index of $H$ in $G$ is $[G: H] = \abs{G}/\abs{H} = 2$.
+This implies that $G = H \sqcup gH$ for some $g \in G$.
+Since $gH = H$ if $g \in H$, we may conclude that $g \notin H$. So, $g$ is a reflection.
+
+
+
+
+Conversely, for any reflection $s \in D_3$, the left coset $sH$ is disjoint from $H$.
+We have therefore $G = H {\sqcup} s_1H = H {\sqcup} s_2H = H {\sqcup} s_3H$,
+which implies that $s_1 H = s_2 H = s_3 H$.
+
+
+
+
+In particular, for a fixed $s = s_i$,
+any element in $G$ is either a rotation or equal to $s r_i$ for some rotation $r_i$.
+Since $H$ is a cyclic group, generated by the rotation $r_1$, we have $D_3 = \langle r_1, s \rangle$,
+where $s$ is any reflection in $D_3$.
+\end{eg}
+
+\begin{ex}
+\begin{enumerate}
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+\end{enumerate}
+\end{ex}
+\quad\\\hrule
+\quad\\
+\section*{Group Homomorphisms}
+
+\begin{defn}
+Let $G = (G, *)$, $G' = (G', *')$ be groups.
+A  {\bf group homomorphism}  $\phi$ from $G$ to $G'$
+is a map $\phi: G \ra G'$ which satisfies:
+\[\phi(a * b) = \phi(a)*'\phi(b),\]
+for all $a, b \in G$.
+\end{defn}
+\begin{claim}
+
+If $\phi: G \ra G'$ is a group homomorphism, then:
+\begin{enumerate}
+\item 
+$\phi(e_G) = e_{G'}$.
+
+\item 
+$\phi(g^{-1}) = \phi(g)^{-1}$, for all $g \in G$.
+
+\item 
+$\phi(g^n) = \phi(g)^n$, for all $g \in G$, $n \in \mathbb{Z}$.
+\end{enumerate}
+\end{claim}
+\begin{proof}
+
+We prove the first claim, and leave the rest as an exercise.
+Since $e_G$ is the identity element of $G$, we have $e_G*e_G = e_G$.
+On the other hand, since $\phi$ is a group homomorphism, we have:
+\[\phi(e_G) =
+\phi(e_G*e_G) = \phi(e_G)*'\phi(e_G).\]
+Since $G'$ is a group, $\phi(e_G)^{-1}$ exists in $G'$, hence:
+\[\phi(e_G)^{-1}*'\phi(e_G) = \phi(e_G)^{-1}*'(\phi(e_G)*'\phi(e_G))\]
+The left-hand side is equal to $e_{G'}$, while by the associativity of $*'$
+the right-hand side is equal to $\phi(e_G)$.
+
+\end{proof}
+
+Let $\phi: G \ra G'$ be a homomorphism of groups.
+The image of $\phi$ is defined as:
+\[\im \phi:= \phi(G):= \{\phi(g): g \in G\} \subseteq G'\]
+The kernel of $\phi$ is defined as:
+\[\ker \phi = \{g \in G: \phi(g) = e_{G'}\} \subseteq G.\]
+\begin{claim}
+
+The image of $\phi$ is a subgroup of $G'$.
+The kernel of $\phi$ is a subgroup of $G$.
+\end{claim}
+\begin{claim}
+
+A group homomorphism $\phi: G \ra G'$ is one-to-one if and only if $\ker \phi = \{e_G\}$.
+\end{claim}
+
+\begin{eg}[Examples of Group Homomorphisms]
+
+\label{eg:grouphomomorphisms}
+
+
+
+\begin{itemize}
+\item 
+$\phi: S_n \longrightarrow (\{\pm 1\}, \cdot)$,
+\[\phi(\sigma) = \begin{cases} 1, & \sigma \text{ is an even permutation.}\\
+-1, & \sigma \text{ is an odd permutation.}
+\end{cases}\]
+
+$\ker \phi = A_n$.
+
+
+\item 
+$\det: \GL(n, \mathbb{R}) \longrightarrow (\mathbb{R}^\times, \cdot)$
+
+
+
+
+$\ker \det = \SL(n, \mathbb{R})$.
+
+
+\item 
+Let $G$ be the (additive) group of all real-valued continuous functions on $[0, 1]$.
+\[\phi: G \longrightarrow (\mathbb{R}, +)\]
+\[\phi(f) = \int_0^1 f(x)\,dx.\]
+
+\item 
+$\phi: (\mathbb{R}, +) \longrightarrow (\mathbb{R}^\times, \cdot)$.
+\[\phi(x) = e^x.\]
+\end{itemize}
+\end{eg}
+
+\begin{defn}
+Let $G$, $G'$ be groups. A map $\phi: G \ra G'$ is a group  {\bf isomorphism}  if it is a bijective
+group homomorphism.
+\end{defn}
+
+Note that if a homomorphism $\phi$ is bijective, then $\phi^{-1}: G' \ra G$ is also a homomorphism,
+and consequently, $\phi^{-1}$ is an isomorphism.
+If there exists an isomorphism between two groups $G$ and $G'$,
+we say that the groups $G$ and $G'$ are  {\bf isomorphic} .
+
+\begin{defn}
+Fix an integer $n > 0$.
+
+
+
+For any $k \in \mathbb{Z}$, let $\ol{k}$ denote the remainder of the division of $k$
+by $n$.
+
+
+
+Let $\mathbb{Z}_n = \{0, 1, 2, \ldots, n - 1\}$.
+We define a binary operation $+_{\mathbb{Z}_n}$
+on $\mathbb{Z}_n$ as follows:
+\[k +_{\mathbb{Z}_n} l = \ol{k + l}.\]
+\end{defn}
+\begin{ex}
+
+$\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$
+is a group, with identity element $0$, and $j^{-1} = n - j$ for any $j \in \mathbb{Z}_n$.
+
+\end{ex}
+
+\begin{eg}
+\label{eg:cycliczn}
+
+
+Let $n > 2$.
+Let $H = \{r_0, r_1, r_2, \ldots, r_{n - 1}\}$
+be the subgroup of $D_n$ consisting of all rotations,
+where $r_1$ denotes the anticlockwise rotation by the angle $2\pi/n$,
+and $r_k = r_1^k$.
+Then, $H$ is isomorphic to $\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$.
+\end{eg}
+\begin{proof}
+
+Define $\phi: H \ra \mathbb{Z}_n$ as follows:
+\[\phi(r_k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.\]
+
+
+
+
+For any $k \in \mathbb{Z}$,
+let $\ol{k} \in \{0, 1, 2, \ldots, n - 1\}$
+denote the remainder of the division of $k$ by $n$.
+By the Division Theorem for Integers, we have:
+\[
+k = nq + \ol{k}
+\]
+for some integer $q \in \mathbb{Z}$.
+
+
+
+
+It now follows from $\ord r_1 = n$ that,
+for all $r_i, r_j \in H$, we have:
+
+\[\begin{split}
+r_i r_j &= r_1^i r_1^j = r_1^{i + j}
+\\&
+\class{steps2 steps}{= r_1^{nq + \ol{i + j}}}
+\\
+&
+\class{steps2 steps}{= \left(r_1^n\right)^q r_1^{\ol{i + j}}}
+\\
+&
+\class{steps2 steps}{= r_{\ol{i + j}}.}
+\end{split}\]
+
+
+
+
+
+Hence,
+
+\[\begin{split}
+\phi(r_i r_j) &= \phi(r_{\ol{i + j}})
+\\&
+\class{steps3 steps}{= \ol{i + j}}
+\\&
+\class{steps3 steps}{= i +_{\mathbb{Z}_n} j}
+\\&
+\class{steps3 steps}{=\phi(r_i) +_{\mathbb{Z}_n} \phi(r_j).}
+\end{split}\]
+
+
+This shows that $\phi$ is a homomorphism.
+It is clear that $\phi$ is surjective, which then implies that
+$\phi$ is one-to-one, for the two groups have the same size.
+Hence, $\phi$ is a bijective homomorphism, i.e. an isomorphism.
+
+
+\end{proof}
+
+$\newcommand{\ord}{\mathrm{ord}\,}$
+\title{Math 2070}
+\setcounter{chapter}{5}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 5}
+{\bf Topics: }Group Homomorphisms, Rings
+\hrule
+
+
+
+
+
+\begin{claim}
+Any cyclic group of finite order $n$ is isomorphic to $\mathbb{Z}_n$.
+\end{claim}
+\begin{proof}
+
+Sketch of Proof:
+
+
+
+By definition, a cyclic group $G$ is equal to $\langle g\rangle$ for some $g \in G$.
+Moreover, $\ord g = \ord G$.
+
+
+
+Define a map $\phi : G \longrightarrow \mathbb{Z}_n$ as follows:
+\[
+\phi(g^k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
+\]
+Show that $\phi$ is a group isomorphism.
+
+
+
+(For reference, see the discussion of \cref{eg:cycliczn}.)
+\end{proof}
+
+
+
+\begin{cor}
+
+If $G$ and $G'$ are two finite cyclic groups of the same order, then $G$ is isomorphic to $G'$.
+
+\end{cor}
+
+
+
+\begin{ex}
+
+An infinite cyclic group is isomorphic to $(\mathbb{Z}, +)$.
+\end{ex}
+
+
+
+\begin{ex}
+
+Let $G$ be a cyclic group, then any group which is isomorphic to $G$ is also cyclic.
+\end{ex}
+
+
+
+
+\section{Product Group}
+
+
+
+
+
+Let $(A, \ast_A), (B, \ast_B)$ be groups.  The direct product:
+\[
+A \times B := \{(a, b)\;|\; a\in A, b \in B\}
+\]
+has a natural group structure
+where the group operation $\ast$ is defined as follows:
+\[
+(a, b)\ast(a', b') = (a\ast_A a', b\ast_B b'), \quad (a, b), (a', b') \in A\times B.
+\]
+
+The identity element of $A \times B$ is $e = (e_A, e_B)$, where $e_A, e_B$
+are the identity elements of $A$ and $B$, respectively.
+
+
+
+
+For any $(a, b) \in A \times B$, we have $(a, b)^{-1} = (a^{-1}, b^{-1})$,
+where $a^{-1}$, $b^{-1}$ are the inverses of $a$, $b$ in the groups $A$, $B$,
+respectively.
+
+
+
+
+For any collection of groups $A_1, A_2, \ldots, A_n$,
+we may similarly define a group operation $\ast$ on:
+\[
+A_1 \times A_2 \times \cdots \times A_n
+:= \{(a_1, a_2, \ldots, a_n)\;|\;a_i \in A_i, i = 1, 2, \ldots n\}.
+\]
+That is:
+\[
+(a_1, a_2, \ldots, a_n)\ast (a_1', a_2', \ldots, a_n')
+=
+(a_1\ast_{A_1} a_1', a_2\ast_{A_2} a_2', \ldots, a_n \ast_{A_n} a_n')
+\]
+The identity element of $A_1 \times A_2 \times \cdots \times A_n$ is:
+\[
+e = (e_{A_1}, e_{A_2}, \ldots, e_{A_n}).
+\]
+For any $(a_1, a_2, \ldots, a_n) \in A_1 \times A_2 \times \cdots \times A_n$,
+its inverse is:
+\[
+(a_1, a_2, \ldots, a_n)^{-1} = (a_1^{-1}, a_2^{-1}, \ldots, a_n^{-1}).
+\]
+
+
+\begin{ex}
+$\mathbb{Z}_6$ is isomorphic to $\mathbb{Z}_2\times\mathbb{Z}_3$.
+\end{ex}
+\begin{proof}
+
+ {\bf Hint:} 
+
+
+
+Show that $\mathbb{Z}_2\times\mathbb{Z}_3$ is a cyclic group generated by $(1, 1)$.
+\end{proof}
+\begin{eg}
+
+The cyclic group $\mathbb{Z}_4$ is not isomorphic to $\mathbb{Z}_2 \times \mathbb{Z}_2$.
+\end{eg}
+\begin{proof}
+
+Each element of $G = \mathbb{Z}_2\times\mathbb{Z}_2$ is of order at most $2$.
+Since $\abs{G} = 4$, $G$ cannot be generated by a single element.
+Hence, $G$ is not cyclic,
+so it cannot be isomorphic to the cyclic group $\mathbb{Z}_4$.
+
+
+\end{proof}
+
+
+
+
+\begin{ex}
+Let $G$ be an abelian group, then any group which is isomorphic to $G$ is abelian.
+\end{ex}
+\begin{eg}
+
+The group $D_6$ has $12$ elements.  We have seen that $D_6 = \langle r_1, s\rangle$, where $r_1$ is a rotation of order $6$,
+and $s$ is a reflection, which has order $2$.  So, it is reasonable to ask if $D_6$ is isomorphic to $\mathbb{Z}_6 \times \mathbb{Z}_2$.  The answer is no.
+For $\mathbb{Z}_6 \times \mathbb{Z}_2$ is abelian, but $D_6$ is not.
+
+\end{eg}
+
+
+
+
+\begin{claim}
+The dihedral group $D_3$ is isomorphic to the symmetric group $S_3$.
+\end{claim}
+\begin{proof}
+
+We have seen that $D_3 = \langle r, s\rangle$, where $r = r_1$ and
+$s$ is any fixed reflection,
+with:
+\[
+\ord r = 3,\quad \ord s = 2,\quad srs = r^{-1}.
+\]
+In particular , any element in $D_3$ may be expressed as $r^is^j$,
+with $i \in \{0, 1, 2\}$, $j \in \{0, 1\}$.
+
+
+
+
+We have also seen that $S_3 = \langle a, b \rangle$,
+where:
+\[
+a = (123),\quad b = (12),\quad \ord a = 3,\quad \ord b = 2, \quad bab = a^{-1}.
+\]
+Hence, any element in $S_3$ may be expressed as $a^ib^j$,
+with $i \in \{0, 1, 2\}$, $j \in \{0, 1\}$.
+
+
+
+
+Define map $\phi: D_3 \longrightarrow S_3$ as follows:
+\[
+\phi(r^is^j) = a^ib^j, \quad i, j \in \mathbb{Z}
+\]
+
+
+
+
+We first show that $\phi$ is well-defined:
+That is, whenever $r^i s^j = r^{i'}s^{j'}$,
+we want to show that:
+\[
+\phi(r^i s^j) = \phi(r^{i'}s^{j'}).
+\]
+
+The condition $r^i s^j = r^{i'}s^{j'}$ implies that:
+\[
+r^{i - i'} = s^{j' - j}
+\]
+
+This holds only if  $r^{i - i'} = s^{j' - j} = e$,
+since no rotation is a reflection.
+
+
+
+
+Since $\ord r = 3$ and $\ord s = 2$, we have:
+\[
+3 | (i - i'), \quad 2 | (j' - j),
+\]
+by \cref{thm:orderdividesn}.
+
+
+
+
+Hence,
+
+\begin{align*}
+\phi(r^is^j) \phi(r^{i'}s^{j'})^{-1}
+&= (a^ib^j)(a^{i'}b^{j'})^{-1}
+&
+\\
+&
+\class{steps4 steps}{= a^i b^jb^{-j'} a^{-i'}}
+&
+\\
+&
+\class{steps4 steps}{= a^i b^{j - j'} a^{-i'}}
+&
+\\
+&
+\class{steps4 steps}{= a^{i - i'}}
+&
+\class{steps4 steps}{\text{ since } \ord b = 2.}
+\\
+&
+\class{steps4 steps}{ = e}
+&
+\class{steps4 steps}{\text{ since } \ord a = 3.}
+\end{align*}
+
+This implies that
+$\phi(r^is^j) = \phi(r^{i'}s^{j'})$.
+We conclude that $\phi$ is well-defined.
+
+
+
+
+We now show that $\phi$ is a group homomorphism:
+
+
+
+
+Given $\mu, \mu' \in \{0, 1, 2\}$, $\nu, \nu' \in \{0, 1\}$, we have:
+\[
+\phi(r^\mu s^\nu \cdot r^{\mu'}s^{\nu'}) =
+\begin{cases}
+\phi(r^{\mu + \mu'}s^{\nu'}),&\text{if } \nu = 0;\\
+\phi(r^{\mu - \mu'}s^{\nu + \nu'}),&\text{if } \nu = 1.
+\end{cases}
+\]
+
+\[
+=
+\begin{cases}
+a^{\mu + \mu'}b^{\nu'},&\text{if } \nu = 0;\\
+a^{\mu - \mu'}b^{\nu + \nu'} = a^{\mu}b^{\nu}a^{\mu'}b^{\nu'},&\text{if } \nu = 1.
+\end{cases}
+\]
+
+\[
+=\phi(r^\mu s^\nu)\phi(r^{\mu'}s^{\nu'}).
+\]
+This shows that $\phi$ is a group homomorphism.
+
+
+
+
+To show that $\phi$ is a group isomorphism,
+it remains to show that it is surjective and one-to-one.
+
+
+
+It is clear that $\phi$ is surjective.  We leave it as an exercise
+to show that $\phi$ is one-to-one.
+
+
+\end{proof}
+
+
+
+
+\begin{eg}
+The group:
+\[
+G = \left\{g \in \mathrm{GL}(2, \mathbb{R}) \,\left|\,
+g = \left(
+\begin{matrix}
+\cos \theta & -\sin \theta\\
+\sin \theta & \cos \theta
+\end{matrix}
+\right) \text{ for some } \theta \in \mathbb{R}
+\right.
+\right\}
+\]
+is isomorphic to
+\[
+G' = \{z \in \mathbb{C} : \abs{z} = 1\}.
+\]
+Here, the group operation on $G$ is matrix multiplication, and the group operation on $G'$ is the multiplication of complex numbers.
+
+\quad\\\hrule
+\quad\\
+
+
+Each element in $G'$ is equal to $e^{i\theta}$ for some $\theta \in \mathbb{R}$.
+Define a map $\phi : G \ra G'$ as follows:
+\[
+\phi\left(\left(
+\begin{matrix}
+\cos \theta & -\sin \theta\\
+\sin \theta & \cos \theta
+\end{matrix}
+\right)\right) = e^{i\theta}.
+\]
+
+ {\bf Exercise:} 
+Show that $\phi$ is a well-defined map.
+Then, show that it is a bijective group homomorphism.
+\end{eg}
+
+
+
+
+
+
+
+
+
+\quad\\\hrule
+\quad\\
+\section*{Rings}
+
+
+\section{Some Results in Elementary Number Theory}
+
+
+
+
+\begin{thm}[Division Theorem]
+
+\label{thm:divalg}
+
+
+
+Let $a, b \in \mathbb{Z}$, $a \neq 0$,
+then there exist unique $q$ (called the quotient), and $r$ ( {\bf remainder} ) in $\mathbb{Z}$, satisfying
+$0 \leq r < \abs{a}$, such that $b = aq + r$.
+\end{thm}
+\begin{proof}
+
+We will prove the case $a > 0$, $b \geq 0$.  The other cases are left as exercises.
+
+
+Fix $a > 0$.
+First, we prove the existence of the quotient $q$ and remainder $r$ for any $b \geq 0$,
+using mathematical induction.
+
+
+ {\bf The base step}  corresponds to the case $0 \leq b < a$.
+In this case, if we let $q = 0$ and $r = b$, then indeed $b = qa + r$,
+where $0 \leq r  = b < a$.  Hence, $q$ and $r$ exist.
+
+
+ {\bf The inductive step}  of the proof of the existence of $q$ and $r$ is as follows:
+Suppose the existence of the quotient and remainder holds for all non-negative $b' < b$,
+we want to show that it must also hold for $b$.
+
+
+First, we may assume that
+$b \geq a$, since the case $b < a$ has already been proved.  Let $b' = b - a$.
+Then, $0 \leq b' < b$,
+so by the inductive hypothesis we have $b' = q'a + r'$
+for some $q', r' \in \mathbb{Z}$ such that $0 \leq r' < a$.
+
+
+This implies that $b = b' + a = (q' + 1)a + r'$.
+
+
+So, if we let $q = q'+ 1$
+and $r = r'$, then $b = qa + r$, where $0 \leq r < a$.
+This establishes the existence of $q, r$ for $b$.
+Hence, by mathematical induction, the existence of $q, r$ holds for all $b \geq 0$.
+
+
+Now we prove the uniqueness of $q$ and $r$.
+Suppose $b = qa + r = q'a + r'$, where $q, q', r, r' \in \mathbb{Z}$,
+with $0 \leq r, r' < a$.
+
+
+Then, $qa+ r = q'a+r'$ implies that $r - r' = (q' - q)a$.
+Since $0 \leq r, r' < a$, we have:
+
+
+\[
+a > \abs{r - r'} = \abs{q' - q} a.
+\]
+
+
+Since $q' - q$ is an integer, the above inequality implies that $q'  - q = 0$,
+i.e. $q' = q$, which then also implies that $r' = r$.
+We have therefore established the uniqueness of $q$ and $r$.
+
+
+
+The proof of the theorem, for the case $a > 0, b \geq 0$, is now complete.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{defn}
+The  {\bf Greatest Common Divisor}  $gcd(a, b)$ of $a, b \in \mathbb{Z}$ is the largest positive integer
+$d$ which divides both $a$ and $b$ (Notation: $d | a$ and $d | b$).
+\end{defn}
+
+
+
+ {\bf Note.} 
+
+If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
+$gcd(0, 0)$ is undefined.
+
+
+
+
+\begin{lemma}
+
+If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
+$gcd(b, a) = gcd (a, r)$.
+\end{lemma}
+\begin{proof}
+
+If $d | a$ and $d | b$, then $d | r = b - aq$.
+Conversely, if $d | a$ and $d | r$, then $d|a$ and $d|b = qa+r$.
+So, the set of common divisors of $a, b$ is the same as the set of the common divisors of $a, r$.
+If two finite sets of integers are the same, then their largest elements are clearly the same.
+In other words:
+\[
+gcd(b, a) = gcd(a, r).
+\]
+
+
+\end{proof}
+
+
+
+
+\quad\\\hrule
+\quad\\
+\subsection*{The Euclidean Algorithm}
+
+
+Suppose $\abs{b} \geq \abs{a}$.  Let $b_0 = b$, $a_0 = a$.
+Write $b_0 = a_0q_0 + r_0$, where $0 \leq r_0 < \abs{a_0}$.
+
+
+For $n > 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
+$r_n$ is the remainder of the division of $b_n$ by $a_n$.  That is,
+\[
+b_n = a_nq_n + r_n, \quad  0 \leq r_n < \abs{a_n}.
+\]
+
+If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
+Now, suppose $r_0 > 0$.
+Since $r_n$ is a non-negative integer and  $0 \leq r_n < r_{n - 1}$,
+eventually, $r_n = 0$ for some $n \in \mathbb{N}$.
+
+
+
+
+\begin{claim}
+
+$gcd(b, a) = \abs{a_n}$.
+
+\end{claim}
+\begin{proof}
+
+By the previous lemma,
+
+\[
+\begin{split}
+gcd(b, a) &= gcd(b_0, a_0)\\
+ &
+\class{steps5 steps}{= gcd(a_0, r_0) = gcd(b_1, a_1)}
+\\
+&
+\class{steps5 steps}{= gcd(a_1, r_1) = gcd(b_2, a_2)}
+\\
+&
+\class{steps5 steps}{= \ldots}
+\\
+&
+\class{steps5 steps}{
+= gcd(a_{n}, r_{n}) = gcd(a_n, 0) = \abs{a_n}.
+}
+\end{split}
+\]
+
+
+
+\end{proof}
+
+
+
+
+\begin{eg}
+Find $gcd(285,255)$.
+
+
+
+
+
+\[
+\begin{split}
+\underbrace{285}_{b_0} &= \underbrace{255}_{a_0} \underbrace{1}_{q_0} + \underbrace{30}_{r_0}
+\\
+\class{steps6 steps}{
+\underbrace{255}_{b_1 = a_0}
+}
+&
+\class{steps6 steps}{=\underbrace{30}_{a_1 = r_0} \underbrace{8}_{q_1} + \underbrace{15}_{r_1}}
+\\
+\class{steps6 steps}{\underbrace{30}_{b_2}}
+&
+\class{steps6 steps}{=\underbrace{15}_{a_2} \underbrace{2}_{q_2} + \underbrace{0}_{r_2}}
+\end{split}
+\]
+
+
+So, $gcd(285, 255) = r_1 = 15$.
+
+\end{eg}
+
+
+
+
+\setcounter{chapter}{6}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 6}
+{\bf Topics: }Elementary Number Theory, Euclid's Lemma, Congruences, Chinese Remainder Theorem
+\hrule
+
+
+
+
+
+
+\textbf{Alternative Proof of the \cref{thm:divalg}.}
+
+\begin{proof}
+
+We consider here the special case $b \geq 0$.
+Consider the set:
+\[
+S = \{s \in \mathbb{Z}_{\geq 0 } : s = b - aq \text{ for some } q \in \mathbb{Z}.\}
+\]
+Since $b = b - a\cdot 0 \geq 0$, we have $b \in S$.
+So, $S$ is a nonempty subset of $\mathbb{Z}$ bounded below by $0$.
+By the Least Integer Axiom, there exists a minimum element $r \in S$.
+We claim that $r < \abs{a}$:
+
+
+
+
+Suppose not, that is, $r \geq \abs{a}$.  By assumption:
+$r = b - aq$
+for some $q \in \mathbb{Z}$.
+
+
+
+
+Consider the element $r' = r - \abs{a}$.  Then, $0 \leq r'$ and moreover:
+\[
+r' = (b - aq) - \abs{a} = b - (q \pm 1)a,
+\]
+depending on whether $a > 0$ or $a < 0$.
+So, $r' \in S$.  On the other hand, by construction we have $r' < r$,
+which contradicts the minimality of $r$.  We conclude that $r < \abs{a}$.
+This establishes the existence of the remainder $r$.
+
+
+
+
+The existence of $q$ in the theorem is now also clear.  We leave the proof of the uniqueness of $r$ and $q$ as an exercise.
+\end{proof}
+
+\begin{thm}
+
+Every subgroup of $\mathbb{Z}$ is cyclic.
+\end{thm}
+\begin{proof}
+
+First, we note that the group operation $\ast$ on $\mathbb{Z}$
+is integer addition, with $e_{\mathbb{Z}} = 0$,
+and $z^{\ast -1} = -z$ for any $z \in \mathbb{Z}$.
+
+
+
+
+Let $H$ be a nontrivial (i.e. contains more than one element)
+subgroup of $\mathbb{Z}$.
+Since for any $h \in H$ we also have $-h \in H$,
+$H$ contains at least one positive element.
+
+
+
+
+Let $d$ be the least positive integer in $H$.
+It exists because of the Least Integer Axiom.
+
+
+
+We claim that $H = \langle d \rangle$:
+
+
+
+
+For any $h \in H$,
+by the Division Theorem for Integers we have $h = dq + r$
+for some $r, q \in \mathbb{Z}$, such that $0 \leq r < d$.  Then,
+\[
+r = h - dq = h - (\underbrace{d + d + \ldots + d}_{q \text{ times}})
+\]
+if $q \geq 0$, or
+\[
+r = h - dq = h - (\underbrace{(-d) + (-d) + \ldots + (-d)}_{q \text{ times}})
+\]
+if $q < 0$.
+
+
+
+
+In either case, since $H$ is a subgroup we have $r \in H$.  If $r > 0$, then we have
+a positive element in $H$ which is strictly less than $d$, which contradicts
+the minimality of $d$.  Hence, $r = 0$, from which it follows that any $h \in H$
+is equal to $dq = d^{\ast q}$ for some $q \in \mathbb{Z}$.
+This shows that $H = \langle d \rangle$.
+\end{proof}
+
+
+
+\begin{ex}
+
+Let $n$ be a positive integer.
+Every subgroup of $\mathbb{Z}_n$ is cyclic.
+\end{ex}
+
+
+
+\begin{cor}
+
+Every subgroup of a cyclic group is cyclic.
+\end{cor}
+
+
+
+
+\begin{claim}[Bézout's Lemma]
+
+\label{bezoutslemma}
+
+
+
+Let $a, b$ be nonzero integers.
+There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$.
+\end{claim}
+\begin{proof}
+
+ {\bf Sketch of Proof:} 
+
+\quad\\\hrule
+\quad\\
+
+ {\bf Approach 1.} 
+
+Recall the notation used in the  {\bf Euclidean Algorithm} 
+in Week 5 Slide 10.
+We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$.
+
+
+
+We may prove Bézout's Lemma via mathematical induction as follows:
+
+
+
+
+First, for integers $0 \leq l < \min(n - 1, 2)$, show that there exist
+$x_l, y_l \in \mathbb{Z}$ such that $r_l = a x_l + b y_l$.
+This is the base step of the induction proof.
+
+
+
+
+We now carry out the inductive step.
+Suppose $n - 1 \geq 2$. For any integer $2 \leq k \leq n - 1$,
+suppose $r_l = a x_l + b y_l$ for some $x_l, y_l \in \mathbb{Z}$, for all
+$0\leq l < k$.
+
+
+
+Show that:
+\[r_k = \underbrace{b_k}_{a_{k - 1} = r_{k - 2}} - q_{k} \underbrace{a_{k}}_{r_{k - 1}}\]
+also has the form $r_k = a x_k + b y_k$
+for some $x_k, y_k \in \mathbb{Z}$.
+
+
+
+
+The desired identity $gcd(a, b) = r_{n - 1} = ax_{n - 1} + by_{n - 1}$
+then follows by mathemtical induction.
+
+
+\quad\\\hrule
+\quad\\
+
+ {\bf Approach 2.} 
+
+Consider the set:
+\[S = \{n \in \mathbb{Z}_{> 0} | n = ax + by \text{ for some } x, y \in \mathbb{Z}\}.\]
+Show that the the minimum element $d \in S$ is the greatest common divisor of
+$a$ and $b$.
+
+
+\quad\\\hrule
+\quad\\
+
+
+\end{proof}
+\begin{ex}
+
+Find $x, y \in \mathbb{Z}$ such that:
+\[gcd(285, 255) = 285 x + 255 y.\]
+\end{ex}
+\begin{ex}
+
+For any nonzero $a, b$ in  the group $G = (\mathbb{Z}, +)$,
+we have:
+\[
+\langle a, b \rangle = \langle gcd(a, b) \rangle.
+\]
+\end{ex}
+
+\begin{defn}
+Two integers $a, b \in \mathbb{Z}$ are  {\bf relatively prime}  if $gcd(a, b) = 1$.
+\end{defn}
+\begin{claim}
+
+Two integers $a, b \in \mathbb{Z}$ are relatively prime if and only if there exist $x, y \in \mathbb{Z}$
+such that $ax + by = 1$.
+
+\end{claim}
+\begin{proof}
+
+If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
+So, by \cref{bezoutslemma}  there exist $x, y \in \mathbb{Z}$ such that:
+\[ax + by = gcd(a, b) = 1.\]
+Conversely,
+suppose $ax + by = 1$ for some $x, y \in \mathbb{Z}$.
+Then, any common divisor of $a$ and $b$ must also be a divisor of $1$.
+Since $1$ is only divisible by $\pm 1$, we concldue that $gcd(a, b) = 1$.
+\end{proof}
+
+\begin{defn}
+An integer $p \geq 2$ is  {\bf  prime} 
+if its only proper divisors (i.e. divisors different from $\pm p$)
+are $\pm 1$.
+\end{defn}
+\begin{lemma}[Euclid's Lemma]
+
+
+
+
+
+
+Let $a, b$ be integers.
+If $p$ is prime and $p | ab$, then $p|a$ and/or $p|b$.
+
+\end{lemma}
+\begin{proof}
+
+Suppose $p$ does not divide $b$ (Notation: $p\nmid b$), then $gcd(p, b) = 1$,
+which implies that $1 = px + by$ for some $x, y \in \mathbb{Z}$.
+Since $p | apx$ and $p | aby$, we have $p | a = a\underbrace{(px + by)}_{= 1}$.
+
+
+\end{proof}
+
+More generally,
+\begin{claim}
+\label{euclidslemmageneral}
+
+
+If $a, b$ are relatively prime and $a | bc$, then $a | c$.
+\end{claim}
+\begin{proof}
+ {\bf Exercise.} 
+\end{proof}
+\begin{claim}
+
+If $a, b$ are relatively prime and:
+\[
+a | c, \quad b | c,
+\]
+then:
+\[
+ab | c.
+\]
+\end{claim}
+\begin{proof}
+
+By assumption, there are $s, t \in \mathbb{Z}$ such that:
+\[
+c = as = bt.
+\]
+
+So, $a | as = bt$,
+which by
+\cref{euclidslemmageneral}
+implies that $a | t$, since $gcd(a, b) = 1$.
+
+
+
+
+Hence, $t = au$ for some $u \in \mathbb{Z}$, and we have $c = bt = ab u$.
+It follows that $ab | c$.
+
+
+\end{proof}
+
+\begin{thm}[The Fundamental Theorem of Arithmetic]
+
+\label{thm:fta}
+
+
+
+Let $a$ be a positive integer $\geq 2$. Then,
+\begin{enumerate}
+\item 
+The integer $a$ is either a prime or a product of primes.
+
+\item 
+ {\bf Unique Factorization} 
+The integer $a$ may be written uniquely as
+\[
+a = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l},
+\]
+where $p_1, p_2, \cdots, p_l$ are distinct prime numbers, and $n_1, n_2, \ldots, n_l \in \mathbb{N}$.
+\end{enumerate}
+\end{thm}
+\begin{proof}
+
+We prove Part 1 of the theorem by contradiction.
+
+
+
+
+Suppose there exist positive integers $\geq 2$ which are neither primes
+nor products of primes.
+
+
+
+
+Let $m$ be the smallest such integer. Since $m$ is not prime, there are
+positive integers $a, b \neq 1$ such that $m = ab$.
+
+
+
+
+In particular, $a, b < m$.
+So, $a$ and $b$ must be either primes or products of primes, which implies that $m$ is itself a product of primes, a contradiction.
+
+\quad\\\hrule
+\quad\\
+
+
+We now prove Part 2 ( {\bf Unique Factorization} ) of the theorem by induction.
+
+
+
+
+The base step corresponds to the case $l = 1$.
+
+
+
+
+Suppose:
+\[
+a = p_1^{n_1} = q_1^{m_1}q_2^{m_2}\cdots q_k^{m_k},
+\]
+where $p_1$ is prime, and the $q_i$'s are distinct primes,
+and $n_1, m_i \in \mathbb{N}$.
+
+
+
+
+Then, $p_1$ divides the right-hand side,
+so by Euclid's Lemma $p_1$ divides one of the $q_i$'s.
+
+
+
+
+Since the $q_i$'s are prime, we may assume (reindexing if necessary) that $p_1 = q_1$.
+
+
+
+
+Suppose $k > 1$. If $n_1 > m_1$, then $p_1^{n_1 - m_1} = q_2^{m_2}\cdots q_k^{m_k}$,
+which implies that $p_1 = q_1$ is one of $q_2,\ldots, q_k$, a contradiction, since the $q_i$'s are distinct.
+
+
+
+
+If $n_1 \leq m_1$, then $1 = p_1^{m_1 - n_1}q_2^{m_2}\cdots q_k^{m_k}$,
+which is impossible.
+We conclude that $k = 1$, and $p_1 = q_1$, $n_1 = m_1$.
+
+
+
+
+Now we establish the inductive step: Suppose unique factorization is true for all positive integers $a'$
+which may be written as $a' = p_1^{n_1}p_2^{n_2}\cdots p_{l'}^{n_{l'}}$,
+for any $l' < l$.
+We want to show that it is also true for any integer $a$
+which may be written as $a = p_1^{n_1}p_2^{n_2}\cdots p_{l}^{n_{l}}$.
+
+
+
+
+In other words, suppose
+\[
+a = p_1^{n_1}p_2^{n_2}\cdots p_{l}^{n_{l}} = q_1^{m_1}\cdots q_k^{m_k},
+\]
+where $p_i, q_i$ are prime and $n_i, m_i \in \mathbb{N}$. We want to show that $k = l$, and $p_i = q_i$,
+$n_i = m_i$, for $i = 1, 2, \ldots, l$.
+
+
+
+
+If $k < l$, then by the inductive hypothesis applied to $l' = k < l$, we have $k = l$,
+a contradiction.
+So, we may assume that $k \geq l$.
+
+
+
+
+By Euclid's Lemma, $p_l$ divides, and hence must be equal to, one of the
+$q_i$'s.
+
+
+
+
+Reindexing if necessary, we may assume that $p_l = q_k$. Cancelling $p_l$ and $q_{k}$
+from both sides of the equation, it is also clear that $n_l = m_{k}$.
+Hence, we have:
+\[
+p_1^{n_1}p_2^{n_2}\cdots p_{l-1}^{n_{l-1}} = q_1^{m_1}\cdots q_{k-1}^{m_{k -1}}.
+\]
+Since $l - 1 < l$, we may now apply the inductive hypothesis to the integer
+which is equal to the left-hand side of the above equation,
+and conclude that $l - 1 = k -1$, $p_i = q_i$, $n_i = m_i$, for $1\leq i \leq l - 1$.
+
+
+
+
+Since we already know that $p_l^{n_l}$ matches $q_{k}^{m_{k}}$,
+we have $l = k$, and $p_i = q_i$, $n_i = m_i$, for $1 \leq i \leq l$.
+This establishes the inductive step, and completes the proof.
+
+
+\end{proof}
+
+\begin{ex}
+\begin{enumerate}
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+\end{enumerate}
+\end{ex}
+
+\section{Congruences}
+
+\begin{defn}
+Let $m$ be a positive integer, then $a, b \in \mathbb{Z}$ are said to be:
+
+ {\bf congruent modulo $m$} 
+
+\[
+a \equiv b \mod m,
+\]
+if $m | (a - b)$.
+\end{defn}
+\begin{claim}
+
+The congruence relation $\equiv$ is an  {\bf  equivalence relation} . In other words, it
+is:
+
+\begin{itemize}
+\item 
+ {\bf Reflexive} :
+
+
+$a \equiv a \mod m$;
+
+\item   {\bf Symmetric} :
+
+
+$a \equiv b \mod m$ implies that $b \equiv a \mod m$;
+
+\item   {\bf Transitive} :
+
+
+$a \equiv b \mod m$, $b \equiv c \mod m$, imply that $a \equiv c \mod m$.
+\end{itemize}
+
+\end{claim}
+\begin{proof}
+
+\begin{itemize}
+\item 
+ {\bf Reflexivity} 
+
+Since $m | 0 = (a - a)$, we have $a\equiv a \mod m$.
+
+
+\item 
+ {\bf Symmetry} 
+
+If $a \equiv b \mod m$, then by definition $m$ divides $a - b$.
+But if $m$ divides $a - b$,
+it must also divide $-(a - b) = b - a$, which implies that $b \equiv a \mod m$.
+
+
+\item 
+ {\bf Transitivity} 
+
+If $m | (a - b)$ and $m | (b - c)$, then $m | ((a - b) + (b - c)) = (a - c)$, which implies
+that $a \equiv c \mod m$.
+
+\end{itemize}
+
+
+\end{proof}
+ {\bf Note.} 
+
+$a \equiv 0 \mod m$ if and only if $m | a$.
+
+
+\begin{claim}
+\label{claim:congremainder}
+
+
+\begin{enumerate}
+\item 
+If $a = qm + r$, then $a \equiv r \mod m$.
+
+\item 
+If $0 \leq r < r' < m$, then $r \not\equiv r' \mod m$.
+\end{enumerate}
+\end{claim}
+\begin{proof}
+ {\bf 
+Exercise.
+} 
+\end{proof}
+\begin{cor}
+\label{congremainder}
+
+
+
+Given integer $m \geq 2$, every $a \in \mathbb{Z}$ is congruent modulo $m$
+to exactly one of $\{0, 1, 2, \ldots, m - 1\}$.
+\end{cor}
+\begin{proof}
+
+By Part 1 of the claim, $a$ is congruent mod $m$ to the remainder $r$
+of the division of $a$ by $m$.
+
+
+
+
+By definition, the remainder $r$ lies in $\{0, 1, 2, \ldots, m - 1\}$.
+If $a \equiv r' \mod m$, for some $r' \in \{0, 1, 2, \ldots, m - 1\}$,
+then by transitivity, we have $r' \equiv r \mod m$.
+
+
+
+
+By Part 2 of the claim, we have $r = r'$.
+
+
+\end{proof}
+
+\begin{thm}
+\label{congcompat}
+
+
+Congruence is compatible with addition and multiplication in the following sense:
+\begin{itemize}
+\item 
+
+ {\bf Addition} 
+
+
+If $a \equiv a' \mod m$, and $b \equiv b' \mod m$, then $a + b \equiv a'+ b'\mod m$.
+
+
+\item 
+
+ {\bf Multiplication} 
+
+
+If $a \equiv a' \mod m$ and $b \equiv b' \mod m$, then
+$ab \equiv a'b' \mod m$.
+
+\end{itemize}
+\end{thm}
+\begin{proof}
+
+\begin{itemize}
+\item 
+
+ {\bf Addition} 
+
+
+If $m | (a - a')$ and $m | (b - b')$, then:
+\[
+m | (a - a') + (b - b') = (a + b) - (a' + b').
+\]
+So, $a + b \equiv a' + b' \mod m$.
+
+
+\item 
+
+ {\bf Multiplication} 
+
+
+If $m | (a - a')$ and $m | (b - b')$, then:
+\[
+m | (a - a')b + a'(b - b') = (ab - a'b').
+\]
+So, $ab \equiv a'b' \mod m$.
+
+\end{itemize}
+
+
+\end{proof}
+
+\begin{eg}
+For $a \in \mathbb{Z}$, $a^2 \equiv 0, 1$, or $4 \mod 8$.
+\end{eg}
+\begin{proof}
+
+By
+\cref{congremainder},
+any $a \in \mathbb{Z}$ is congruent modulo $8$ to exactly one
+element in $\{0, 1, 2, \ldots, 7\}$.
+So, by
+\cref{congcompat},
+$a^2$ is congruent modulo 8 to one of:
+\[
+\{0^2, 1^2, 2^2, 3^2, 4^2, 5^2, 6^2, 7^2\} = \{0, 1, 4, 9, 16, 25, 36, 49\}.
+\]
+The numbers above a congruent modulo 8 to 0, 1, or 4. The claim follows.
+
+
+\end{proof}
+
+\begin{thm}
+\label{thm:inversemodm}
+
+
+If $a$ and $m$ are relatively prime, then there exists $x \in \mathbb{Z}$ such that
+$ax \equiv 1 \mod m$.
+\end{thm}
+\begin{proof}
+
+Since $a$ and $m$ are relatively prime, by  {\bf Bézout's Lemma} 
+(\cref{bezoutslemma})
+there exist $x, y \in \mathbb{Z}$ such that:
+\[
+ax + my = 1.
+\]
+
+This implies that $m$ divides $my = 1 - ax$. So, by definition,
+we have $ax \equiv 1 \mod m$.
+
+\end{proof}
+
+\begin{thm}[Chinese Remainder Theorem]
+
+
+If $m_1$ and $m_2$ are relatively prime, then the system of congruence relations:
+\begin{equation*}
+\begin{split}
+x &\equiv r_1 \mod m_1\\
+x &\equiv r_2 \mod m_2
+\end{split}
+\end{equation*}
+has a solution. Moreover, any two solutions are congruent modulo $m_1m_2$.
+\end{thm}
+\begin{remark}
+
+In other words, the system of two congruence relations is equivalent to
+a single congruence relation:
+\[
+x \equiv r \mod m_1 m_2
+\]
+for some $r \in \mathbb{Z}$.
+
+
+
+
+Applying this process repeatedly, a system of congruence relations of the form:
+\begin{align*}
+x &\equiv& r_1 &\mod m_1 \\
+x &\equiv& r_2 &\mod m_2 \\
+& &  \vdots &\\
+x &\equiv&  r_l &\mod m_l
+\end{align*}
+where the $m_i$'s are pairwise coprime, is equivalent to a single relation of the
+form:
+\[
+x \equiv r \mod m_1m_2\cdots m_l
+\]
+for some $r \in \mathbb{Z}$.
+\end{remark}
+\begin{proof}
+
+Since $m_1$ and $m_2$ are relatively prime, by \cref{thm:inversemodm} there exists $n \in \mathbb{Z}$ such that $m_1n \equiv 1 \mod m_2$.
+Let $x = m_1n(r_2 - r_1) + r_1$.
+
+
+
+
+Since:
+\[
+m_1 n (r_2 - r_1) \equiv 0 \mod m_1,
+\]
+we have:
+\[
+x \equiv r_1 \mod m_1.
+\]
+
+Moreover, since $m_1n \equiv 1 \mod m_2$, we have:
+\[
+x = m_1n(r_2 - r_1) + r_1 \equiv r_2 - r_1 + r_1 \equiv r_2 \mod m_2.
+\]
+This shows that the system of congruence relations has at least one solution.
+
+
+
+
+If $x'$ is another solution to the system, then:
+
+
+
+
+\begin{eqnarray*}
+x - x' &\equiv r_1 - r_1 &\equiv 0 \mod m_1,\\
+x - x' &\equiv r_2 - r_2 &\equiv 0 \mod m_2.
+\end{eqnarray*}
+
+So, $m_1 | (x - x')$ and $m_2 | (x - x')$. Since, $m_1, m_2$ are relatively prime,
+by a previous result we conclude that $m_1m_2 | (x - x')$. In other words,
+$x \equiv x' \mod m_1m_2$.
+
+
+\end{proof}
+
+ {\bf Note.} 
+The proof of the Chinese Remainder Theorem as written above is complete.
+However, it is worthwhile to explain
+how we come up with the solution $x = m_1n(r_2 - r_1) + r_1$ in the first place.
+
+
+
+
+Heuristically, the solution may be arrived at as follows:
+For any $q \in \mathbb{Z}$, $x = m_1 q + r_1$ is a solution to the first congruence relation.
+We want to find $q$ such that $m_1 q + r_1$ is also a solution to the second congruence relation, that is:
+\[
+m_1 q + r_1 \equiv r_2 \mod m_2
+\]
+
+or, equivalently,
+\[
+m_1 q \equiv r_2 - r_1 \mod m_2. \tag{$\ast$}
+\]
+
+Noting that there exists an $n \in \mathbb{Z}$ such that $m_1 n \equiv 1 \mod m_2$,
+the congruence relation $(\ast)$ is equivalent to:
+\[
+q \equiv n(r_2 - r_1) \mod m_2.
+\]
+
+Hence, $x = m_1 q + r_1$ is a solution to the system of congruence relations
+if and only if $q$ is of the form $m_2l + n(r_2 - r_1)$, where $l \in \mathbb{Z}$.
+In particular, $l = 0$ gives $q = n(r_2 - r_1)$. Hence, $x = m_1n(r_2 - r_1) + r_1$
+is a solution.
+
+
+\begin{eg}
+Solve the following system of congruence relations:
+\begin{align}
+x &\equiv&  3  & \mod 34 \label{eq:crteg1}\\
+x &\equiv&  -1 & \mod 27 \label{eq:crteg2}
+\end{align}
+
+The relation \eqref{eq:crteg1} holds if and only if:
+\[
+x = 34s + 3
+\]
+for some $s \in \mathbb{Z}$.
+
+
+
+
+For any such $x$, the relation \eqref{eq:crteg2} holds if and only if:
+\[
+34s + 3 \equiv -1 \mod 27,
+\]
+or equivalently:
+\begin{equation}
+\label{eq:crteg3}
+34s \equiv -4 \mod 27.
+\end{equation}
+
+Since $gcd(34, 27) = 1$, by \cref{thm:inversemodm} there exists $a \in \mathbb{Z}$ such that $a\cdot 34 \equiv 1 \mod 27$.
+To find $a$, we perform the Euclidean Algorithm on $34$ and $27$:
+\[
+\begin{split}
+34 &= 27 \cdot 1 + 7\\
+27 &= 7 \cdot 3 + 6\\
+7 &= 6 \cdot 1 + 1\\
+6 &= 1\cdot 6 + 0
+\end{split}
+\]
+
+Working backwards from the last equation, we see that:
+\[
+1 = 34(4) + 27(-5)
+\]
+Hence:
+\[
+27 | (1 - 34\cdot 4 )
+\]
+That is, $34 \cdot 4 \equiv 1 \mod 27$.
+So, we may take $a = 4$.
+
+
+
+
+Multiplying both sides of \eqref{eq:crteg3} by $a = 4$, we see that \eqref{eq:crteg3} holds if and only if:
+\[
+s \equiv -16 \mod 27,
+\]
+which is equivalent to:
+\[
+s \equiv 11 \mod 27.
+\]
+Since the relation above holds if and only if $s = 27t + 11$
+for some $t \in \mathbb{Z}$,
+we conclude that $x \in \mathbb{Z}$ is a solution to our system of congruence relations if and only if:
+\[
+x = 34s + 3 = 34(27t + 11) + 3 = (34)(27)t + 377
+\]
+for some $t \in \mathbb{Z}$.
+More concisely, the solution set to the system of congruence relations is represented by the single relation:
+\[
+x \equiv 377 \mod 34\cdot 27
+\]
+\end{eg}
+
+\begin{ex}
+\begin{enumerate}
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+\end{enumerate}
+\end{ex}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\setcounter{chapter}{7}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 7}
+{\bf Topics: }Polynomials, Rings
+\hrule
+
+
+
+
+\section{Polynomials with Rational Coefficients}
+
+ {\bf Notation:} 
+\[
+\mathbb{Q} = \text{Set of rational numbers}
+\]
+\[
+\begin{split}
+\mathbb{Q}[x] &= \text{Set of polynomials with rational coefficients}\\
+&= \left\{a_0 + a_1 x + \cdots + a_n x^n | n \in \mathbb{Z}_{\geq 0}, a_i \in \mathbb{Q}\right\}
+\end{split}
+\]
+
+\begin{thm}[Division Theorem for Polynomials with Rational Coefficients]
+
+
+For all $f, g \in \mathbb{Q}[x]$, such that $f \neq 0$, there exist unique $q, r \in \mathbb{Q}[x]$,
+satisfying $\deg r < \deg f$, such that $g = fq + r$.
+\end{thm}
+\begin{proof}
+
+We first prove the existence of $q$ and $r$, via induction on the degree of $g$.
+The base step corresponds to the case $\deg g < \deg f$. In this case,
+the choice $q = 0$, $r = g$ works, since $g = f\cdot 0 + g$,
+and $\deg r = \deg g < \deg f$.
+
+
+
+
+Now, we establish the inductive step.
+Let $f$ be fixed.
+Given $g$, suppose for all $g'$ with $\deg g' < \deg g$,
+there exist $q', r' \in \mathbb{Q}[x]$ such that $g' = fq' + r'$,
+with $\deg r' < \deg f$.
+We want to show that there exist $q, r$ such that $g = fq + r$, with $\deg r < \deg f$.
+
+
+
+
+Suppose $g = a_0 + a_1 x + \cdots + a_m x^m$ and $f = b_0 + b_1 x + \cdots + b_n x^n$,
+where $a_m, b_n \neq 0$.
+We may assume that $m \geq n$, since the case $m < n$ (i.e. $\deg g < \deg f$)
+has already been proved.
+
+
+
+
+Consider the polynomial:
+\[
+g' = g - \frac{a_m}{b_n}x^{m - n}f.
+\]
+Then, $\deg g' < \deg g$,
+and by the induction hypothesis we have:
+\[
+g' = fq' + r'
+\]
+for some $q', r' \in \mathbb{Q}[x]$ such that $\deg r' < \deg f$.
+
+
+
+
+Hence,
+\[
+g - \frac{a_m}{b_n}x^{m - n}f = g' = fq' + r',
+\]
+which implies that:
+
+
+
+
+\[
+g = f\left(q' + \frac{a_m}{b_n}x^{m - n}\right) + r'
+\]
+This establishes the existence of the quotient $q = q' + \frac{a_m}{b_n}x^{m - n}$ and the remainder $r = r'$.
+
+
+
+
+Now, we prove the uniqueness of $q$ and $r$.
+Suppose $g = fq + r = fq' + r'$, where $q, q', r, r' \in \mathbb{Q}[x]$,
+with $\deg r, \deg r' < \deg f$. We have:
+\[
+fq + r = fq' + r',
+\]
+which implies that:
+
+
+
+
+\[
+\deg f(q - q') = \deg (r' - r) < \deg f.
+\]
+The above inequality can hold only if $q = q'$, which in turn implies that $r' = r$.
+It follows that the quotient $q$ and the remainder $r$ are unique.
+
+
+\end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{defn}
+Given $f, g \in \mathbb{Q}[x]$, a  {\bf  Greatest Common Divisor}  $d$ of $f$ and $g$
+is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties:
+\begin{enumerate}
+\item 
+$d$ divides both $f$ and $g$.
+
+\item 
+For any $e \in \mathbb{Q}[x]$ which divides both $f$ and $g$, we have $\deg e \leq \deg d$.
+\end{enumerate}
+\end{defn}
+
+
+
+\begin{claim}
+
+If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r$.
+\end{claim}
+\begin{proof}
+
+See the proof of Lemma 5.13.
+
+\end{proof}
+
+\begin{cor}
+The Euclidean Algorithm applies to $\mathbb{Q}[x]$.
+
+
+
+
+Namely:  Suppose $\deg g \geq \deg f$.
+let $g_0 = g$, $f_0 = f$, and let $r_0$ be the unique polynomial in $\mathbb{Q}[x]$
+such that:
+\[
+g_0 = f_0q_0 + r_0,\quad \deg r_0 < \deg f_0,
+\]
+for some $q_0 \in \mathbb{Q}[x]$.
+
+
+
+
+For $k > 0$,
+let:
+\[
+g_k = f_{k-1}, \quad f_k = r_{k - 1}.
+\]
+Let $r_k$ be the remainder such that:
+\[
+g_k = f_k q_k + r_k,
+\]
+for some $q_k \in \mathbb{Q}[x]$.
+
+
+
+
+Since $\deg r_k < \deg f_k = \deg r_{k - 1}$,
+we have:
+\[
+\deg r_0 > \deg r_1 > \deg r_2 > \cdots \geq -\infty
+\]
+(where by convention we let $\deg 0 = -\infty$).
+
+
+
+
+Eventually, $r_n = 0$ for some $n$,
+and it follows from the previous claim
+and arguments similar to those used in the case of $\mathbb{Z}$
+that $r_{n-1}$ is a GCD of $f$ and $g$.
+
+\end{cor}
+\begin{eg}
+
+\begin{enumerate}
+\item 
+Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
+
+\item 
+Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
+\end{enumerate}
+\end{eg}
+
+\begin{cor}
+\label{bezoutpolynomial}
+
+
+( {\bf Bézout's Identity for Polynomials} )
+
+
+
+For any $f, g \in \mathbb{Q}[x]$ which are not both zero,
+and $d$ a GCD of $f$ and $g$,
+there exist $u, v \in \mathbb{Q}[x]$ such that:
+\[
+d = fu + gv.
+\]
+\end{cor}
+
+\section{Factorization of Polynomials}
+
+\begin{defn}
+A polynomial $p$ in $\mathbb{Q}[x]$ is  {\bf irreducible} 
+if it satisfies the following conditions:
+\begin{enumerate}
+\item  $\deg p > 0$,
+
+\item  if $p = ab$ for some $a, b \in \mathbb{Q}[x]$, then either $a$ or $b$
+is a constant.
+\end{enumerate}
+\end{defn}
+
+\quad\\\hrule
+\quad\\
+
+\begin{claim}
+
+If $p \in \mathbb{Q}[x]$ is irreducible and $p | f_1f_2$, where $f_1, f_2 \in \mathbb{Q}[x]$,
+then $p | f_1$ or $p | f_2$.
+\end{claim}
+\begin{proof}
+
+Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
+constant polynomials.
+In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by \cref{bezoutpolynomial},
+there exist $u, v, \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
+\[
+f_1 = puf_1 + f_1f_2v.
+\]
+Since $p$ divides the right-hand side of the above equation, it must divide $f_1$.
+
+
+\end{proof}
+
+
+
+
+\begin{thm}
+A polynomial in $\mathbb{Q}[x]$ of degree greater than zero is either irreducible or a product of irreducibles.
+\end{thm}
+\begin{proof}
+
+Suppose there is a nonempty set of polynomials of degree $> 0$
+which are neither irreducible nor products of irreducibles.  Let
+$p$ be an element of this set which has the least degree.  Since $p$ is not irreducible,
+there are $a, b \in \mathbb{Q}[x]$ of degrees $> 0$ such that $p = ab$. But, $a, b$, having degrees strictly
+less than $\deg p$, must be either irreducible or products of irreducibles.  This implies that $p$ is a product
+of irreducibles, a contradiction.
+
+
+\end{proof}
+ {\bf Remark:} 
+Compare this proof with that of Part 1 of the
+Fundamental Theorem of Arithmetic (\cref{thm:fta}).
+
+
+
+
+\begin{thm}
+[ {\bf Unique Factorization for Polynomials} ]
+
+
+
+For any $p \in \mathbb{Q}[x]$ of degree $> 0$, if:
+\[
+p = f_1f_2\cdots f_n = g_1g_2\cdots g_m,
+\]
+where $f_i, g_j$ are irreducible polynomials in $\mathbb{Q}[x]$, then
+$n = m$, and the $g_j$'s may be reindexed so that
+$f_i = \lambda_i g_i$ for some $\lambda_i \in \mathbb{Q}$,
+for $i = 1, 2, \ldots, n$.
+\end{thm}
+\begin{proof}
+
+ {\bf Exercise} . See the proof of Part 2 of \cref{thm:fta}).
+\end{proof}
+
+
+
+
+\quad\\\hrule
+\quad\\
+\section*{Rings}
+
+
+\section{Definition of a Ring}
+
+\begin{defn}
+A  {\bf  ring}  $R$ (or $(R, +, \times)$) is a set equipped with two operations:
+\[
+\times, + : R\times R \rightarrow R
+\]
+which satisfy the following properties:
+\begin{enumerate}
+\item  Properties of $+$:
+  \begin{enumerate}
+\item 
+  Commutativity: $a + b = b + a$, $\forall a, b \in R$.
+  
+\item 
+  Associativity: $a + (b + c) = (a + b) + c$.
+  
+\item 
+  There is an element $0 \in R$ (called the  {\bf additive identity element} ),
+  such that $a + 0 = a$ for all $a \in R$.
+  
+\item 
+  Every element of $R$ has an additive inverse; namely:
+  For all $a \in R$, there exists an element of $R$, usually denoted $-a$,
+  such that $a + (-a) = 0$.
+  \end{enumerate}
+
+\item  Properties of $\times$:
+  \begin{enumerate}
+\item 
+  Associativity: $a(bc) = (ab)c$.
+  
+\item 
+  There is an element $1 \in R$ (called the  {\bf multiplicative identity element} ),
+  such that $1\times a = a\times 1 = a$ for all $a \in R$.
+  \end{enumerate}
+
+\item  Distributativity:
+\begin{enumerate}
+\item 
+$a\times(b + c) = a\times b + a\times c$, for all $a, b, c \in R$.
+
+\item 
+$(a + b) \times c = a \times c + b\times c$, for all $a, b, c \in R$.
+\end{enumerate}
+\end{enumerate}
+\end{defn}
+
+
+
+ {\bf Note:} 
+
+\begin{enumerate}
+\item 
+For convenience's sake, we often write $ab$ for $a\times b$.
+
+\item 
+In the definition, commutativity is required of addition, but not of multiplication.
+
+\item 
+Every element has an additive inverse, but  not necessarily a multiplicative inverse.
+That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in R$.
+\end{enumerate}
+
+
+
+
+
+\begin{claim}
+In a ring $R$, there is a unique additive identity element
+and a unique multiplicative identity element.
+\end{claim}
+\begin{proof}
+
+Suppose there is an element $0' \in R$ such that $0' + r = r$ for all $r \in R$, then
+in particular $0' + 0 = 0$.
+
+
+
+
+Since $0$ is an additive identity, we have $0' + 0 = 0'$.
+So, $0' = 0$.
+
+
+
+
+Suppose there is an element $1' \in R$ such that $1'r = r$ or all $r \in R$,
+
+
+
+
+then in particular $1' \cdot 1 = 1$.
+
+
+
+
+But $1' \cdot 1 = 1'$ since $1$ is a multiplicative identity element, so $1' = 1$.
+
+
+\end{proof}
+
+
+
+\begin{ex}
+
+Prove that:
+For any $r$ in a ring $R$, its additive inverse $-r$ is unique.
+That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
+
+\end{ex}
+
+
+
+
+
+
+
+\begin{eg}
+The following sets, equipped with the usual operations of addition and multiplication,
+are rings:
+\begin{enumerate}
+\item 
+$\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$
+
+\item 
+$\mathbb{Z}[x]$, $\mathbb{Q}[x]$, $\mathbb{R}[x]$
+(Polynomials with integer, rational, real coefficients, respectively.)
+
+\item 
+\[
+\begin{split}
+\mathbb{Q}[\sqrt{2}] &=
+\{\sum_{k = 0}^n a_k(\sqrt{2})^k | a_k \in \mathbb{Q}, n \in \mathbb{N}\}\\
+&= \{a + b\sqrt{2} | a, b \in \mathbb{Q}\}.
+\end{split}
+\]
+
+\item 
+For a fixed $n$, the set of $n\times n$ matrices with integer coefficients.
+
+\item 
+$C[0, 1] = \{f : [0, 1]\rightarrow \mathbb{R}\; |\; f \text{ is continuous.}\}$
+
+\item 
+$M_n(\mathbb{R})$,
+the set of $n \times n$ real matrices, $n \in \mathbb{N}$.
+\end{enumerate}
+
+
+
+The following sets, under the usual operations of addition and multiplication, are not rings:
+\begin{enumerate}
+\item 
+$\mathbb{N}$, no additive identity element, i.e. no 0.
+
+\item 
+$\mathbb{N}\cup\{0\}$, nonzero elements have no additive inverses.
+
+\item 
+$\GL(n, \mathbb{R})$,
+the set of $n \times n$ invertible real matrices, $n \in \mathbb{N}$.
+\end{enumerate}
+\end{eg}
+
+
+
+
+
+
+
+\begin{claim}
+For all elements $r$ in a ring $R$, we have $0r = r0 = 0$.
+\end{claim}
+\begin{proof}
+
+By distributativity,
+\[
+0r = (0 + 0)r = 0r + 0r.
+\]
+
+Adding $-0r$ (additive inverse of $0r$) to both sides, we have:
+\[
+0 = (0r + 0r) + (-0r) = 0r + (0r + (-0r)) = 0r + 0 = 0r.
+\]
+
+
+
+
+The proof of $r0 = 0$ is similar and we leave it as an  {\bf exercise} .
+
+
+\end{proof}
+
+
+
+\begin{claim}
+
+For all elements $r$ in a ring, we have $(-1)(-r) = (-r)(-1)= r$.
+\end{claim}
+\begin{proof}
+
+We have:
+\[
+0 = 0(-r) = (1 + (-1))(-r) = -r + (-1)(-r).
+\]
+
+Adding $r$ to both sides, we obtain
+\[
+r = r + (-r + (-1)(-r)) = (r + -r) + (-1)(-r) = (-1)(-r).
+\]
+
+We leave it as an  {\bf exercise}  to show that $(-r)(-1) = r$.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{ex}
+Show that:
+For all $r$ in a ring $R$, we have:
+\[
+(-1) r = r(-1) = -r.
+\]
+\end{ex}
+
+
+
+\begin{ex}
+
+Show that:
+If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one element.
+
+(We call such an $R$ the  {\bf zero ring} .)
+
+\end{ex}
+\setcounter{chapter}{8}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 8}
+{\bf Topics: }Rings, Integral Domains, Fields
+\hrule
+
+
+
+
+
+
+
+
+\begin{defn}
+A ring $R$ is said to be  {\bf commutative}  if $ab = ba$ for all $a, b \in R$.
+\end{defn}
+
+
+
+\begin{eg}
+
+For a fixed natural number $n > 1$,
+the ring of $n\times n$ matrices with integer coefficients,
+under the usual operations of addition and multiplication, is not commutative.
+
+\end{eg}
+
+
+
+
+
+
+
+\begin{eg}
+Let $m$ be a natural number greater than 1.  Let $\mathbb{Z}_m = \{0, 1, 2, \ldots, m - 1\}$.
+Recall that for any integer $n \in \mathbb{Z}$, there exists a unique $\ol{n} \in \mathbb{Z}_m$,
+such that $n \equiv \ol{n} \mod m$.  More precisely, $\ol{n}$ is the remainder of the division of of $n$ by $m$:
+$n = mq + r$.
+We equip $\mathbb{Z}_m$ with addition $+_m$ and multiplication $\times_m$ defined as follows:
+For $a, b \in \mathbb{Z}_m$, let:
+\[
+\begin{split}
+a +_m b &= \overline{a + b},\\
+a \times_m b &= \overline{a\cdot b},
+\end{split}
+\]
+where the addition and multiplication on the right are the usual addition and multiplication for integers.
+\end{eg}
+
+\begin{claim}
+With addition and multiplication thus defined, $\mathbb{Z}_m$ is a commutative ring.
+\end{claim}
+\begin{proof}
+
+\begin{enumerate}
+\item 
+For $a, b \in \mathbb{Z}_m$, we have $a +_m b = \overline{a + b} = \overline{b + a} = b +_m a$,
+since addition for integers is commutative.  So, $+_m$ is commutative.
+
+\item 
+For any $r_1, r_2 \in \mathbb{Z}$,
+by \cref{claim:congremainder} and \cref{congcompat},
+we have
+\[
+r_1 \equiv \overline{r_1} \mod m, \quad r_2 \equiv \overline{r_2} \mod m,
+\]
+and:
+\[
+\overline{r_1 + r_2} \equiv r_1 + r_2 \equiv \overline{r_1} + \overline{r_2} \equiv \overline{\overline{r_1} + \overline{r_2}} \mod m.
+\]
+
+
+For $a, b, c \in \mathbb{Z}_m$, we have:
+
+\[
+\begin{split}
+a +_m (b +_m c) &= a +_m \overline{b + c}
+\\&
+\class{steps7 steps}{= \overline{a + \overline{b + c}}}
+\\&
+\class{steps7 steps}{= \overline{\overline{a} + \overline{b + c}}}
+\\&
+\class{steps7 steps}{ = \overline{a + (b + c)}}
+\end{split}
+\]
+
+
+But $a + (b + c)$ is equal to $(a + b) + c$, since addition for integers is associative.  Hence, the above expression
+is equal to:
+
+\[
+\begin{split}
+\overline{(a + b) + c} &= \overline{\overline{(a + b)} + \overline{c}}
+\\&
+\class{steps8 steps}{= \overline{\overline{a + b} + {c}}}
+\\&
+\class{steps8 steps}{ = \overline{(a +_m b) + c}}
+\\&
+\class{steps8 steps}{ = (a +_m b) +_m c.}
+\end{split}
+\]
+
+
+We conclude that $+_m$ is associative.
+
+
+\quad\\\hrule
+\quad\\
+
+
+\item 
+ {\bf  Exercise:}  We can take 0 to be the additive identity element.
+
+\item 
+For each nonzero element $a \in \mathbb{Z}_m$, we can take the additive inverse of $a$ to be $m - a$.
+Indeed, $a +_m (-a)  = \overline{a + (m - a)} = \overline{m} = 0$.
+
+\item 
+By the same reasoning used in the case of addition,
+for $r_1, r_2 \in \mathbb{Z}_m$, we have
+\[
+\ol{r_1 r_2} \equiv r_1r_2 \equiv \ol{r_1}\cdot\ol{r_2}
+\equiv \ol{\ol{r_1}\cdot\ol{r_2}} \mod m.
+\]
+
+
+
+For $a, b, c \in \mathbb{Z}_m$, we have:
+\[
+a\times_m(b\times_mc) = a\times_m\overline{bc} = \ol{\ol{a}\cdot\ol{bc}} = \ol{a(bc)},
+\]
+which by the associativity of multiplication for integers is equal to:
+\[
+\ol{(ab) c} = \ol{\ol{ab}\cdot\ol{c}} = \ol{ab}\times_m c = (a\times_m b)\times_m c.
+\]
+So, $\times_m$ is associative.
+
+\item 
+ {\bf  Exercise:}  We can take $1$ to be the multiplicative identity.
+
+\item 
+For $a, b \in \mathbb{Z}_m$, $a\times_m b =\ol{a\cdot b} = \ol{b\cdot a} = b\times_ma$.  So $\times_m$ is commutative.
+
+\item 
+Lastly, we need to prove distributativity.
+For $a, b, c \in \mathbb{Z}_m$, we have:
+
+\[
+\begin{split}
+a \times_m (b +_m c) &= \ol{\ol{a} \cdot \ol{b + c}}
+\\&
+\class{steps9 steps}{= \ol{a \cdot (b + c)}}
+\\&
+\class{steps9 steps}{ = \ol{ab + ac}}
+\\&
+\class{steps9 steps}{ = \ol{\ol{ab} + \ol{ac}}}
+\\&
+\class{steps9 steps}{= a\times_m b +_m a\times_m c.}
+\end{split}
+\]
+
+
+It now follows from the distributativity from the left, proven above,
+and the commutativity of $\times_m$,
+that distributativity from the right also holds:
+\[
+(a +_m b) \times_m c = a\times_m c + b\times_m c.
+\]
+
+\end{enumerate}
+
+
+\end{proof}
+
+
+
+
+\begin{defn}
+A nonzero commutative ring $R$ is an  {\bf integral domain}  if
+the product of two nonzero elements is always nonzero.
+\end{defn}
+
+
+
+\begin{defn}
+
+A nonzero element $r$ in a ring $R$ is called a  {\bf  zero divisor}  if
+there exists nonzero $s \in R$ such that $rs = 0$ or $sr = 0$.
+
+\end{defn}
+
+
+
+ {\bf Note.} 
+
+A nonzero commutative ring $R$ is an integral domain if and only if
+it has no zero divisors.
+
+
+
+
+\begin{eg}
+
+Since $2, 3 \neq 0$ in $\mathbb{Z}_6$, but
+$2 \times_6 3 = \bar{6} = 0$,
+the ring $\mathbb{Z}_6$ is not an integral domain.
+
+\end{eg}
+
+
+
+
+
+
+
+\begin{claim}
+A commutative ring $R$ is an integral domain if and only if
+the  {\bf cancellation law}  holds for multiplication.  That is:
+Whenever $ca = cb$ and $c\neq 0$, we have $a = b$.
+\end{claim}
+\begin{proof}
+
+Suppose $R$ is an integral domain.
+
+
+
+
+If $ca = cb$, then by distributativity $c(a - b) = c(a + -b) = 0$.
+
+
+
+
+Since $R$ is an integral domain,
+we have either $c = 0$ or $a - b = 0$.
+
+
+
+
+So, if $c \neq 0$, we must have
+$a = b$.
+
+
+
+
+Conversely, suppose cancellation law holds.  Suppose there are nonzero $a, b \in R$
+such that $ab = 0$.
+
+
+
+
+By a previous result we know that $0 = a0$.
+So, $ab = a0$, which by the cancellation law implies that $b = 0$, a contradiction.
+
+
+\end{proof}
+
+
+
+ {\bf Note.} 
+
+If every nonzero element of a commutative ring has a multiplicative inverse,
+then that ring is an integral domain:
+\[
+ca = cb \implies c^{-1} ca = c^{-1}cb\implies a = b.
+\]
+However, a nonzero element of an integral domain does not
+necessarily have a multiplicative inverse.
+
+
+\begin{eg}
+The ring $\mathbb{Z}$ is an integral domain, for the product of two nonzero integers is nonzero.
+So, the cancellation law holds for $\mathbb{Z}$, but the only nonzero elements in $\mathbb{Z}$
+which have multiplicative inverses are $\pm 1$.
+\end{eg}
+
+
+
+\begin{eg}
+
+The ring $\mathbb{Q}[x]$ is an integral domain.
+
+\end{eg}
+
+
+
+\begin{ex}
+\label{ex:zmintdom}
+
+
+
+Show that:
+For $m > 1$,
+$\mathbb{Z}_m$ is an integral domain if and only if $m$ is a prime.
+\end{ex}
+
+\begin{eg}
+Consider $R = C[-1, 1]$, the ring of all continuous functions on $[-1, 1]$, equipped with
+the usual operations of addition and multiplication for functions.
+
+
+Let:
+\[
+f(x) = \begin{cases}
+-x, & -1 \leq x \leq 0,\\
+0, & 0 < x \leq 1.
+\end{cases}
+\quad,\quad
+g(x) = \begin{cases}
+0, & -1 \leq x \leq 0,\\
+x, & 0 < x \leq 1.
+\end{cases}
+\]
+
+Then $f$ and $g$ are nonzero elements of $R$, but $fg = 0$.
+
+
+So $R$ is not an integral domain.
+
+\end{eg}
+
+
+
+
+\begin{defn}
+We say that an element $r \in R$ is a  {\bf unit} 
+if it has a multiplicative inverse; i.e.
+there is an element $r^{-1} \in R$ such that $rr^{-1} = r^{-1} r = 1$.
+\end{defn}
+
+
+
+\begin{eg}
+
+Consider $4 \in \mathbb{Z}_{25}$.  Since $4\cdot 19 = 76 \equiv 1 \mod 25$,
+we have $4^{-1} = 19$ in $\mathbb{Z}_{25}$.  So, $4$ is a unit in $\mathbb{Z}_{25}$.
+
+
+
+
+On the other hand, consider $10 \in \mathbb{Z}_{25}$.  Since $10 \cdot 5 = 50 \equiv 0 \mod 25$,
+we have $10 \cdot 5 = 0$ in $\mathbb{Z}_{25}$.  If $10^{-1}$ exists, then by the associativity
+of multiplication, we would have:
+\[
+5 = (10^{-1}\cdot 10)\cdot 5 = 10^{-1} \cdot (10 \cdot 5) = 10^{-1} \cdot 0 = 0,
+\]
+a contradiction.  So, $10$ is not a unit in $\mathbb{Z}_{25}$.
+
+\end{eg}
+
+
+
+
+\begin{claim}
+Let $m \in \mathbb{N}$ be greater than one.  Then, $r \in \mathbb{Z}_m$ is a unit
+if and only if $r$ and $m$ are relatively prime; i.e. $gcd(r, m) = 1$.
+\end{claim}
+\begin{proof}
+
+Suppose $r \in \{0, 1, 2,\ldots, m - 1\}$ is a unit in $\mathbb{Z}_m$, then
+there exists $r^{-1} \in \mathbb{Z}_m$ such that $r\cdot r^{-1} \equiv 1 \mod m$.
+
+
+In other words,
+there exists $x \in \mathbb{Z}$ such that $r\cdot r^{-1} - 1 = mx$, or $r\cdot r^{-1} - mx = 1$.
+This implies that if there is an integer $d$ such that  $d | r$ and $d | m$,
+then $d$ must also divide $1$.  Hence, the GCD of $r$ and $m$ is $1$.
+
+
+Conversely, if $gcd(r, m) = 1$, then there exists $x, y \in \mathbb{Z}$ such that $rx + my = 1$.
+
+
+It follows that $r^{-1} = \ol{x}$ is a multiplicative inverse of $r$.
+Here, $\ol{x} \in \mathbb{Z}_m$ is the remainder of the division of $x$ by $m$.
+
+
+\end{proof}
+
+
+
+\begin{cor}
+\label{cor:zpfield}
+
+
+
+For $p$ prime, every nonzero element of $\mathbb{Z}_p$ is a unit.
+
+\end{cor}
+
+
+
+
+\begin{eg}
+The only units of $\mathbb{Z}$ are $\pm 1$.
+\end{eg}
+
+
+
+\begin{eg}
+
+Let $R$ be the ring of all real-valued functions on $\mathbb{R}$.
+Then, any function $f \in R$  satisfying $f(x) \neq 0$, $\forall x$, is a unit.
+
+\end{eg}
+
+
+
+\begin{eg}
+
+Let $R$ be the ring of all continuous real-valued functions on $\mathbb{R}$,
+then $f \in R$ is a unit if and only if it is either strictly positive or strictly negative.
+
+\end{eg}
+
+
+
+
+\begin{claim}
+The only units of $\mathbb{Q}[x]$ are nonzero constants.
+\end{claim}
+\begin{proof}
+
+Given any $f \in \mathbb{Q}[x]$ such that $\deg f > 0$, for all nonzero $g \in \mathbb{Q}[x]$ we have
+\[
+\deg fg \geq \deg f > 0 = \deg 1;
+\]
+hence, $fg \neq 1$.  If $g = 0$, then $fg = 0 \neq 1$.
+So, $f$ has no multiplicative inverse.
+
+
+If $f$ is a nonzero constant, then $f^{-1} = \frac{1}{f}$ is a constant polynomial in $\mathbb{Q}[x]$, and
+$f\cdot \frac{1}{f} = \frac{1}{f}\cdot f = 1$.  So, $f$ is a unit.
+
+
+Finally, if $f = 0$, then $fg = 0 \neq 1$ for all $g \in \mathbb{Q}[x]$, so the zero polynomial
+has no multiplicative inverse.
+
+
+\end{proof}
+
+
+
+
+\section{Fields}
+
+\begin{defn}
+a  {\bf field}  is a commutative ring, with $1 \neq 0$, in which every nonzero element is a unit.
+\end{defn}
+
+In other words, a nonzero commutative ring $F$ is a field if and only if every nonzero element $r \in F$
+has a multiplicative inverse $r^{-1}$, i.e. $r r^{-1} = r^{-1} r = 1$.
+
+
+
+
+Since every nonzero element of a field is a unit, a field is necessarily an integral domain,
+but an integral domain is not necessarily a field.  For example $\mathbb{Z}$ is an integral domain
+which is not a field.
+
+
+
+
+\begin{eg}
+\begin{enumerate}
+\item 
+$\mathbb{Q}$, $\mathbb{R}$ are fields.
+
+\item 
+For $m \in \mathbb{N}$,
+it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if $m$ is prime.
+
+
+
+ {\bf Notation.} 
+
+For $p$ prime, we often denote the field $\mathbb{Z}_p$ by $\mathbb{F}_p$.
+
+\end{enumerate}
+\end{eg}
+
+
+
+
+\begin{claim}
+Equipped with the usual operations of addition and multiplications for real numbers,
+$F = \mathbb{Q}[\sqrt{2}] := \{a + b\sqrt{2}|a, b \in \mathbb{Q}\}$ is a field.
+\end{claim}
+\begin{proof}
+
+Observe that:
+$(a + b\sqrt{2}) + (c + d\sqrt{2}) = (a + c) + (b + d)\sqrt{2}$ lies in $F$,
+and $(a + b\sqrt{2})(c + d\sqrt{2}) = (ac + 2bd) + (ad + bc)\sqrt{2} \in F$.
+Hence, addition and multiplication for real numbers are well-defined operations on
+$F$.
+As operations on $\mathbb{R}$,
+they are commutative, associative, and satisfy distributativity;
+therefore, as $F$ is a subset of $\mathbb{R}$,
+they also satisfy these properties as operations on $F$.
+
+
+
+
+
+It is clear that $0$ and $1$
+are the additive and multiplicative identities of $F$.
+Given $a + b\sqrt{2} \in F$, where $a, b \in \mathbb{Q}$, it is clear that
+its additive inverse $-a - b\sqrt{2}$ also lies in $F$.
+Hence, $F$ is a commutative ring.
+
+
+
+
+
+To show that $F$ is a field, for every nonzero $a + b \sqrt{2}$ in $F$, we need to find its multiplicative inverse.  As an element of the field $\mathbb{R}$, the multiplicative inverse of $a + b\sqrt{2}$ is:
+\[
+(a + b\sqrt{2})^{-1} = \frac{1}{a + b\sqrt{2}}.
+\]
+
+It remains to show that this number lies in $F$.
+Observe that:
+\[
+(a + b\sqrt{2})(a - b\sqrt{2}) = a^2 - 2b^2.
+\]
+We claim that $a^2 - 2b^2 \neq 0$.
+
+
+Suppose $a^2 - 2b^2 = 0$, then either (i) $a = b = 0$, or (ii) $b\neq 0$, $\sqrt{2} = \abs{a/b}$.
+
+
+Since we have assumed that $a + b\sqrt{2}$ is nonzero, case (i) cannot hold.
+
+
+But case (ii) also cannot hold because $\sqrt{2}$ is known to be irrational.
+Hence $a^2 - 2b^2 \neq 0$, and:
+\[
+\frac{1}{a + b\sqrt{2}} = \frac{a}{a^2 - 2b^2} - \frac{b}{a^2 - 2b^2}\sqrt{2},
+\]
+which lies in $F$.
+
+
+\end{proof}
+
+
+
+
+\begin{claim}
+All finite integral domains are fields.
+\end{claim}
+\begin{proof}
+
+Let $R$ be an integral domain with $n$ elements, where $n$ is finite.
+Write $R = \{a_1, a_2, \ldots, a_{n}\}$.
+
+
+We want to show that for any nonzero element $a \neq 0$ in $R$,
+there exists $i$, $1 \leq i \leq n$,
+such that $a_i$ is the multiplicative inverse of $a$.
+
+
+Consider the set $S = \{aa_1, aa_2,\ldots, aa_{n}\}$.
+Since $R$ is an integral domain, the cancellation law holds.
+In particular, since $a \neq 0$, we have $aa_i = aa_j$ if and only if $i = j$.
+
+
+The set $S$ is therefore a subset of $R$ with $n$ distinct elements, which implies that $S = R$.
+
+
+In particular, $1 = aa_i$ for some $i$.  This $a_i$ is the multiplicative inverse of $a$.
+
+
+\end{proof}
+
+
+
+
+\subsection{Field of Fractions}
+
+An integral domain fails to be a field precisely when there is a nonzero element
+with no multiplicative inverse.
+The ring $\mathbb{Z}$ is such an example, for $2 \in \mathbb{Z}$ has no
+multiplicative inverse.
+
+
+But any nonzero $n \in \mathbb{Z}$
+has a multiplicative inverse $\frac{1}{n}$ in $\mathbb{Q}$, which is a field.
+
+
+So, a question one could ask is, can we "enlarge" a given integral domain to a field,
+by formally adding multiplicative inverses to the ring?
+
+
+\subsection{An Equivalence Relation}
+
+Given an integral domain $R$ (commutative, with $1 \neq 0$).  We consider the set:
+$R \times R_{\neq 0} := \{(a, b) : a, b \in R, b\neq 0\}$.
+We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:
+\[
+(a, b) \equiv (c, d) \text{ if } ad = bc.
+\]
+\begin{lemma}
+
+The relation $\equiv$ is an equivalence relation.
+
+
+
+
+In other words, the relation $\equiv$ is:
+\begin{enumerate}
+\item  {\bf Reflexive:} 
+$(a, b) \equiv (a, b)$ for all $(a, b) \in R\times R_{\neq 0}$
+
+\item  {\bf Symmetric:} 
+If $(a, b) \equiv (c, d)$, then $(c, d) \equiv (a, b)$.
+
+\item  {\bf Transitive:} 
+If $(a, b) \equiv (c, d)$ and $(c, d) \equiv (e, f)$,
+then $(a, b) \equiv (e, f)$.
+\end{enumerate}
+
+\end{lemma}
+\begin{proof}
+
+ {\bf Exercise.} 
+
+\end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Due to the properties (reflexive, symmetric, transitive),
+of an equivalence relation, the equivalent classes form a  {\bf partition}  of
+$S$.  Namely, equivalent classes of non-equivalent elements are disjoint:
+\[
+[s] \cap [t] = \varnothing
+\]
+if $s \not\sim t$;
+and the union of all equivalent classes is equal to $S$:
+\[
+\bigcup_{s \in S} [s] = S.
+\]
+
+
+
+\begin{defn}
+
+Given an equivalence relation $\sim$ on a set $S$,
+the  {\bf quotient set}  $S/\sim$ is the set of all equivalence classes
+of $S$, with respect to $\sim$.
+
+\end{defn}
+
+
+
+
+We now return to our specific situation of $R \times R_{\neq 0}$, with $\equiv$ defined as above.
+We define addition $+$ and multiplication $\cdot$ on $R\times R_{\neq 0}$ as follows:
+\[
+\begin{split}
+(a, b) + (c, d) &:= (ad + bc, bd)\\
+(a, b)\cdot(c, d) &:= (ac, bd)
+\end{split}
+\]
+\begin{claim}
+Suppose $(a, b) \equiv (a', b')$ and $(c, d) \equiv (c', d')$, then:
+\begin{enumerate}
+\item 
+$(a, b) + (c, d) \equiv (a', b') + (c', d')$.
+
+\item 
+$(a, b)\cdot(c, d) \equiv (a', b') \cdot (c', d')$.
+\end{enumerate}
+\end{claim}
+\begin{proof}
+
+By definition, $(a, b) + (c, d) = (ad + bc, bd)$,
+and $(a', b') + (c', d') = (a'd' + b'c', b'd')$.
+Since by assumption $ab' = a'b$ and $cd' = c'd$,
+
+
+we have:
+\[
+(ad + bc)b'd' = adb'd' + bcb'd' = a'b dd' + c'd bb' = (a'd' + b'c')bd;
+\]
+hence, $(a, b) + (c, d) \equiv (a', b') + (c', d')$.
+
+
+For multiplication, by definition we have $(a, b)\cdot(c, d) = (ac, bd)$
+and $(a', b')\cdot(c', d') = (a'c', b'd')$.
+
+
+Since
+\[
+acb'd' = ab'cd' = a'bc'd = a'c'bd,
+\]
+we have $(a, b)\cdot(c, d) \equiv (a', b')\cdot(c', d')$.
+
+
+\end{proof}
+
+Let:
+\[
+\mathrm{Frac}(R) := (R \times R_{\neq 0})/\equiv,
+\]
+and define $+$ and $\cdot$ on $\mathrm{Frac}(R)$ as follows:
+\[
+\begin{split}
+[(a, b)] + [(c, d)] &= [(ad + bc, bd)]\\
+[(a, b)]\cdot[(c, d)] &= [(ac, bd)]
+\end{split}
+\]
+\begin{cor}
+
+$+$ and $\cdot$ thus defined are well-defined binary operations on $\mathrm{Frac}(R)$.
+
+
+
+
+In other words, we get the same output in $\mathrm{Frac}(R)$
+regardless of the choice of representatives of the equivalence classes.
+
+\end{cor}
+
+
+
+\begin{claim}
+
+The set $\mathrm{Frac}(R)$, equipped with $+$ and $\cdot$ defined as above,
+forms a field, with additive identity $0 = [(0, 1)]$
+and multiplicative identity $1 = [(1, 1)]$.
+The multiplicative inverse of a nonzero element
+$[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$.
+
+\end{claim}
+\begin{proof}
+
+ {\bf Exercise.} 
+
+\end{proof}
+
+
+
+
+\begin{defn}
+$\mathrm{Frac}(R)$ is called the  {\bf Fraction Field}  of $R$.
+\end{defn}
+
+
+
+ {\bf Note.} 
+
+$\mathrm{Frac}(\mathbb{Z}) = \mathbb{Q}$,
+if we identify $a/b \in \mathbb{Q}$, $a, b \in \mathbb{Z}$,
+with $[(a, b)] \in \mathrm{Frac}(\mathbb{Z})$.
+
+
+\begin{ex}
+\begin{enumerate}
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+\end{enumerate}
+\end{ex}
+\setcounter{chapter}{9}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 9}
+{\bf Topics: }Ring Homomorphisms, Ideals
+\hrule
+
+
+
+
+
+
+
+\section{Homomorphisms}
+
+\begin{defn}
+Let $(A, +_A, \cdot_A)$, $(B, +_B, \cdot_B)$ be rings.  A  {\bf ring homomorphism}  from $A$ to $B$
+is a map $\phi: A \rightarrow B$ with the following properties:
+\begin{enumerate}
+\item 
+$\phi(1_A) = 1_B$.
+
+\item 
+$\phi(a_1 +_A a_2) = \phi(a_1) +_B \phi(a_2)$, for all $a_1, a_2 \in A$.
+
+\item 
+$\phi(a_1\cdot_A a_2) = \phi(a_1)\cdot_B \phi(a_2)$, for all $a_1, a_2 \in A$.
+\end{enumerate}
+\end{defn}
+
+
+
+Note that if $\phi : A \rightarrow B$ is a homomorphism, then:
+\begin{enumerate}
+\item 
+\[
+1 = \phi(1) = \phi(1 + 0) = \phi(1) + \phi(0) = 1 + \phi(0),
+\]
+which implies that $\phi(0) = 0$.
+
+\item 
+For all $a \in A$, $0 = \phi(0) = \phi(-a + a) = \phi(-a) + \phi(a)$,
+which implies that $\phi(-a) = -\phi(a)$.
+
+\item 
+If $u$ is a unit in $A$, then $1 = \phi(u\cdot u^{-1}) = \phi(u)\phi(u^{-1})$,
+and $1 = \phi(u^{-1}\cdot u) = \phi(u^{-1})\phi(u)$;
+which implies that $\phi(u)$ is a unit, with $\phi(u)^{-1} = \phi(u^{-1})$.
+
+\end{enumerate}
+
+
+
+
+\begin{eg}
+The map $\phi : \mathbb{Z}\rightarrow \mathbb{Q}$ defined by:
+\[
+\phi(n) = \frac{n}{1}, \quad n \in \mathbb{Z},
+\]
+is a homomorphism, since:
+\begin{enumerate}
+\item 
+$\phi(1) = \frac{1}{1} = 1_{\mathbb{Q}}$,
+
+\item 
+$\phi(n +_\mathbb{Z} m)  = \frac{m + n}{1}
+= \frac{n}{1} +_{\mathbb{Q}} \frac{m}{1}
+= \phi(n) +_{\mathbb{Q}} \phi(m)$.
+
+\item 
+$\phi(n \cdot_\mathbb{Z} m)
+= \frac{mn}{1} = \frac{n}{1} \cdot_{\mathbb{Q}} \frac{m}{1}
+= \phi(n)\cdot_{\mathbb{Q}} \phi(m).
+$
+\end{enumerate}
+\end{eg}
+
+
+
+
+\begin{eg}
+Fix an integer $m$ which is larger than $1$.  For $n \in \mathbb{Z}$, let $\ol{n}$ denote the remainder of the division
+of $n$ by $m$.  That is:
+\[
+n = mq + \bar{n}, \quad 0 \leq \bar{n} < m
+\]
+Recall that $\mathbb{Z}_m = \{0, 1, 2, \ldots, m - 1\}$ is a ring,
+with the addition law defined by:
+\[
+s +_m t = \ol{s + t},
+\]
+and the multiplication law defined by:
+\[
+s\times_m t = \ol{s\cdot t},
+\]
+for all $s, t \in \mathbb{Z}_m$.  Here, $+$ and $\cdot$ are the usual
+addition and multiplication for integers.
+
+
+Define a map $\phi : \mathbb{Z} \rightarrow \mathbb{Z}_m $ as follows:
+\[
+\phi(n) = \ol{n}, \quad \forall n \in \mathbb{Z}.
+\]
+
+Then, $\phi$ is a homomorphism.
+
+\end{eg}
+\begin{proof}
+
+\begin{enumerate}
+\item 
+$\phi(1) = \ol{1} = 1$,
+
+\item 
+$\phi(s + t) = \ol{s + t} = \ol{\ol{s} + \ol{t}} = \ol{s} +_m \ol{t} = \phi(s) +_m \phi(t)$.
+
+\item 
+$\phi(s \cdot t) = \ol{s\cdot t} = \ol{\ol{s}\cdot\ol{t}} = \ol{s}\times_m\ol{t} = \phi(s)\times_m\phi(t)$.
+\end{enumerate}
+
+
+\end{proof}
+
+
+
+
+\begin{eg}
+For any ring $R$, define a map $\phi : \mathbb{Z} \rightarrow R$ as follows:
+\[
+\phi(0) = 0;
+\]
+
+For $n \in \mathbb{N}$,
+\[
+\phi(n) =  n\cdot 1_R := \underbrace{1_R + 1_R + \cdots + 1_R}_{n\text{ times }};
+\]
+
+\[
+\phi(-n) =  -n\cdot 1_R := n\cdot(-1_R) =  \underbrace{(-1_R) + (-1_R) + \cdots + (-1_R)}_{n\text{ times}}.
+\]
+
+The map $\phi$ is a homomorphism.
+
+\end{eg}
+\begin{proof}
+
+ {\bf Exercise.} 
+
+\end{proof}
+
+
+
+
+\begin{eg}
+\label{eg:evalhomom}
+
+
+
+Let $R$ be a commutative ring.  For each element $r \in R$,
+we may define the  {\bf evaluation map} 
+$\phi_r : R[x] \rightarrow R$ as follows:
+\[
+\phi_r\left(\sum_{k = 0}^n a_k x^k\right) = \sum_{k = 0}^n a_k r^k
+\]
+The map $\phi_r$ is a ring homomorphism.
+\end{eg}
+\begin{proof}
+ {\it Discussed in class.} 
+\end{proof}
+
+
+
+
+\begin{defn}
+If a ring homomorphism $\phi: A \rightarrow B$ is a bijective map, we say that $\phi$ is an  {\bf isomorphism} ,
+and that $A$ and $B$ are  {\bf isomorphic}  as rings.
+\end{defn}
+
+
+\subsection{}
+
+              
+              
+            
+\subsubsection{Notation}
+
+
+If $A$ and $B$ are isomorphic, we write $A \cong B$.
+
+
+
+
+
+\begin{claim}
+If $\phi:A \rightarrow B$ is an isomorphism, then $\phi^{-1} : B \rightarrow A$ is an isomorphism.
+\end{claim}
+\begin{proof}
+
+Since $\phi$ is bijective, $\phi^{-1}$ is clearly bijective.  It remains to show that $\phi^{-1}$ is a homomorphism:
+\begin{enumerate}
+\item 
+Since $\phi(1_A) = 1_B$, we have $\phi^{-1}(1_B) = \phi^{-1}(\phi(1_A)) = 1_A$.
+
+\item 
+For all $b_1, b_2 \in B$, we have
+\begin{multline*}
+\phi^{-1}(b_1 + b_2) = \phi^{-1}(\phi(\phi^{-1}(b_1)) + \phi(\phi^{-1}(b_2)))
+\\= \phi^{-1}(\phi(\phi^{-1}(b_1) + \phi^{-1}(b_2))) = \phi^{-1}(b_1) + \phi^{-1}(b_2)
+\end{multline*}
+
+\item 
+For all $b_1, b_2 \in B$, we have
+\begin{multline*}
+\phi^{-1}(b_1 \cdot b_2) = \phi^{-1}(\phi(\phi^{-1}(b_1)) \cdot \phi(\phi^{-1}(b_2)))
+\\= \phi^{-1}(\phi(\phi^{-1}(b_1) \cdot \phi^{-1}(b_2))) = \phi^{-1}(b_1) \cdot \phi^{-1}(b_2)
+\end{multline*}
+\end{enumerate}
+This shows that $\phi^{-1}$ is a bijective homomorphism.
+
+
+\end{proof}
+
+
+
+
+An isomorphism is more than simply a bijective map,
+for it must preserve algebraic structure.
+
+
+For example, there is a bijective map
+$f : \mathbb{Z} \rightarrow \mathbb{Q}$ (shown in class),
+but the two are clearly not isomorphic as rings:
+
+
+Suppose $\phi : \mathbb{Z}\rightarrow \mathbb{Q}$
+is an isomorphism.
+Then, both $\phi$ and $\phi^{-1}$ must send units to units.
+
+
+Consider $2 \in \mathbb{Q}$.
+Since $\mathbb{Q}$ is a field, the nonzero element $2$ is a unit.
+So $\phi^{-1}(2)$ must be a unit of $\mathbb{Z}$.
+
+
+But the only units of $\mathbb{Z}$ are $\pm 1$.
+Since $\phi$ is an homomorphism, we have $\phi(1) = 1 \neq 2$.
+
+
+So, we are left with the case $\phi(-1) = 2$.  This cannot hold either,
+since:
+
+
+
+
+\[
+1 = \phi((-1)(-1)) = \phi(-1)\phi(-1)
+\]
+implies that $\phi(-1)$ could only be $\pm 1 \neq 2$.
+
+
+So, $\mathbb{Z}$ and $\mathbb{Q}$ cannot be isomorphic.
+
+
+
+
+
+\begin{thm}
+The fields $\mathbb{Q}$ and $\mathrm{Frac}(\mathbb{Z})$ are isomorphic.
+\end{thm}
+\begin{proof}
+
+Define a map $\phi: \mathbb{Q} \rightarrow \mathrm{Frac}(\mathbb{Z})$ as follows:
+\[
+\phi(a/b) = [(a, b)],\quad \forall\, a/b \in \mathbb{Q}, a, b \in \mathbb{Z}, b \neq 0.
+\]
+
+We first need to show that $\phi$ is well-defined.
+Namely, suppose $a/b = c/d$ in $\mathbb{Q}$,
+we need to show that $\phi(a/b) = [(a, b)]$ is equal to $\phi(c/d) = [(c, d)]$.
+
+
+This is clear, since $a/b = c/d$ implies that $ad = bc$,
+which by definition of $\Frac(\mathbb{Z})$ implies that $[(a, b)] = [(c, d)]$.
+
+
+We now show that $\phi$ is a homomorphism:
+
+
+\begin{enumerate}
+\item 
+$\phi(1) = \phi(1/1) = [(1, 1)]$, which is indeed the multiplicative identity of $\Frac(\mathbb{Z})$.
+
+\item 
+For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
+\begin{multline*}
+\phi(a/b + c/d) = \phi((ad + bc)/(bd)) = [(ad + bc, bd)]\\
+= [(a, b)] + [(c, d)] = \phi(a/b) + \phi(c/d)
+\end{multline*}
+
+\item 
+For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
+\begin{multline*}
+\phi((a/b)(c/d)) = \phi((ac)/(bd)) = [(ac, bd)]\\
+= [(a, b)]\cdot[(c, d)] = \phi(a/b)\phi(c/d)
+\end{multline*}
+\end{enumerate}
+
+Finally, we need to show that $\phi$ is one-to-one and onto.
+
+
+Suppose there are $a, b, c, d \in \mathbb{Z}$ such that $\phi(a/b) = \phi(c/d)$.
+Then, by definition of $\phi$ we have $[(a, b)] = [(c, d)]$,
+which implies that $ad = bc$,
+from which it follows that $a/b = c/d$ as elements of $\mathbb{Q}$.
+So, $\phi$ is one-to-one.
+
+
+Given $[(a, b)] \in \Frac(\mathbb{Z})$, $a, b\in \mathbb{Z}$, $b \neq 0$,
+it is clear that
+$a/b$ belongs to $\mathbb{Q}$, and $\phi(a/b) = [(a, b)]$.
+So $\phi$ is onto.
+
+
+Hence, $\phi$ is a bijective homomorphism.  In other words, it is an isomorphism.
+
+
+\end{proof}
+
+
+
+
+\begin{thm}
+If $F$ is a field, then $\Frac(F) \cong F$.
+\end{thm}
+\begin{proof}
+
+Define a map $\phi : F \rightarrow \Frac(F)$ as follows:
+\[
+\phi(s) = [(s, 1)],\quad \forall s \in F.
+\]
+ {\bf Exercise:} 
+
+\begin{enumerate}
+\item 
+Show that $\phi$ is a homomorphism.
+
+\item 
+Show that $\phi$ is bijective.
+\end{enumerate}
+
+
+\end{proof}
+
+
+
+
+\begin{defn}
+The  {\bf kernel}  of a ring homomorphism $\phi : A \rightarrow B$
+is the set:
+\[
+\ker \phi := \{a \in A : \phi(a) = 0\}
+\]
+The  {\bf image}  of $\phi$ is the set:
+\[
+\im \phi := \{b \in B : b = \phi(a) \text{ for some } a \in A\}.
+\]
+\end{defn}
+
+
+
+
+
+
+
+\begin{claim}
+\label{claim:onetooneker}
+
+
+A ring homomorphism $\phi : A \rightarrow B$ is one-to-one if and only if $\ker \phi = \{0\}$.
+\end{claim}
+\begin{proof}
+
+Suppose $\phi$ is one-to-one.  For any $a \in \ker \phi$, we have $\phi(0) = \phi(a) = 0$,
+which implies that $a = 0$ since $\phi$ is one-to-one.  Hence, $\ker \phi = \{0\}$.
+
+
+
+Suppose $\ker \phi = \{0\}$.  If $\phi(a) = \phi(a')$,
+then $0 = \phi(a) - \phi(a') = \phi(a - a')$, which implies that $a - a' \in \ker \phi = \{0\}$.
+So, $a - a' = 0$, which implies that $a = a'$.  Hence, $\phi$ is one-to-one.
+
+
+\end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{defn}
+An  {\bf ideal}  $I$ in a commutative ring $R$ is a subset of $R$ which satisfies
+the following properties:
+\begin{enumerate}
+\item 
+$0 \in I$;
+
+\item 
+If $a, b \in I$, then $a + b \in I$.
+
+\item 
+For all $a \in I$, we have $ar \in I$ for all $r \in R$.
+\end{enumerate}
+
+If an ideal $I$ is a proper subset of $R$, we say it is a  {\bf proper ideal} .
+
+\end{defn}
+
+
+
+
+ {\bf Note.} 
+
+If an ideal $I$ contains $1$, then $r = 1 \cdot r \in I$ for all $r \in R$,
+which implies that $I = R$.
+
+
+
+
+
+
+\subsubsection{Remark.}
+
+
+There is a definition of an  {\bf ideal} 
+in the more general case where the ring is not necessarily commutative.
+It is similar to the definition above, except for one extra condition:
+$ra$ belongs to $I$ for all $a \in I$, $r\in R$.
+
+Clearly,
+this general definition coincides with the one above in the special case that
+the ring is commutative.
+In this introductory course, unless otherwise noted,
+we will always discuss ideals in the context of commutative rings.
+
+
+
+
+
+\begin{eg}
+For any commutative ring $R$, the set $\{0\}$ is an ideal,
+since $0 + 0 = 0$, and $0\cdot r = 0$ for all $r \in R$.
+\end{eg}
+
+
+
+\begin{eg}
+
+For all $m \in \mathbb{Z}$, the set $I = m\mathbb{Z}:=\{mn : n \in \mathbb{Z}\}$ is an ideal:
+\begin{enumerate}
+\item 
+$0 = m\cdot 0 \in I$;
+
+\item 
+$mn_1 + mn_2 = m(n_1 + n_2) \in I$.
+
+\item 
+Given $mn \in I$, for all $l \in \mathbb{Z}$, we have $mn\cdot l = m \cdot nl \in I$.
+\end{enumerate}
+
+\end{eg}
+
+
+
+
+\begin{eg}
+Recall the homomorphism $\phi : \mathbb{Z}\rightarrow \mathbb{Z}_m$ defined by $\phi(n) = \ol{n}$.
+We claim that the kernel of $\phi$ is:
+\[
+\ker \phi = m\mathbb{Z}.
+\]
+\end{eg}
+\begin{proof}
+
+If $\phi(n) = \ol{n} = 0$, then $n = mq + 0 = mq$ for some $q \in \mathbb{Z}$.  So, $n \in m\mathbb{Z}$.
+Hence, $\ker \phi \subseteq m\mathbb{Z}$.
+
+
+
+Given $mn \in m\mathbb{Z}$, where $n \in \mathbb{Z}$, the remainder $\ol{mn}$ of the division of $mn$ by $m$
+is clearly $0$, so $\phi(mn) = 0$, which implies that $m \mathbb{Z}\subseteq \ker \phi$.
+
+
+
+Hence, $\ker \phi = m\mathbb{Z}$.
+
+\end{proof}
+
+
+
+
+\begin{claim}
+Let $A$ be a commutative ring.
+If $\phi : A \rightarrow B$ is a ring homomorphism, then $\ker \phi$ is an ideal of $A$.
+\end{claim}
+\begin{proof}
+
+\begin{enumerate}
+\item 
+Since $\phi$ is a homomorphism, we have $\phi(0) = 0$.
+Hence, $0 \in \ker \phi$.
+
+\item 
+If $a, b \in \ker \phi$, then $\phi(a + b) = \phi(a) + \phi(b) = 0 + 0 = 0$.
+Hence, $a + b \in \ker \phi$.
+
+\item 
+Given any $a \in \ker \phi$, for all $r \in R$
+we have $\phi(ar) = \phi(a)\phi(r) = 0\cdot \phi(r) = 0$.
+Hence, $ar \in \ker \phi$ for all $r \in R$.
+\end{enumerate}
+
+\end{proof}
+
+
+
+
+\subsubsection{Remark.}
+
+The claim still holds if we remove the requirement that $A$ be commutative,
+and "ideal" is defined using the more general definition mentioned earlier.
+
+
+
+
+\begin{claim}
+A nonzero commutative ring $R$ is a field if and only if its only ideals are
+$\{0\}$ and $R$.
+\end{claim}
+\begin{proof}
+
+Suppose a nonzero commutative ring $R$ is a field.
+If an ideal $I$ of $R$ is nonzero, it contains at least one
+nonzero element $a$ of $R$.
+
+
+Since $R$ is a field, $a$ has a multiplicative inverse $a^{-1}$ in $R$.
+Since $I$ is an ideal, and $a \in I$, we have $1 = a^{-1} a \in I$.
+
+
+So, $I$ is an ideal which contains $1$,
+hence it must be the whole field $R$.
+
+
+
+
+
+Conversely, let $R$ be a nonzero commutative ring whose only ideals are $\{0\}$ and $R$.
+
+
+Given any nonzero element $a \in R$,
+the principal ideal $(a) := \{ar : r \in R\}$ generated by $a$ is nonzero because it contains $a \neq 0$.
+
+
+Hence, by hypothesis the ideal $(a)$ is necessarily the whole ring $R$.
+In particular, the element $1$ lies in $(a)$, which means that there is an $r \in R$
+such that $ar = 1$.
+This shows that any nonzero element of $R$ is a unit.  Hence, $R$ is a field.
+
+
+\end{proof}
+
+\begin{claim}
+Let $k$ be a field, and $R$ a nonzero ring.  Any ring homomorphism $\phi : k \rightarrow R$ is necessarily one-to-one.
+\end{claim}
+\begin{proof}
+
+Since $R$ is not a zero ring, it contains $1 \neq 0$.  So, $\phi(1) = 1 \neq 0$, which implies that $\ker \phi$
+is a proper ideal of $k$.  Since $k$ is a field, we have $\ker \phi = \{0\}$.  It now follows from a previous claim that $\phi$ is one-to-one.
+
+
+\end{proof}
+
+
+
+\begin{eg}
+
+For any natural number $m  > 1$,
+there can be no ring homomorphisms from $\mathbb{Q}$ to $\mathbb{Z}_m$.
+
+
+
+The reason is as follows:
+
+
+
+
+By the previous claim, any ring homomorphism from the field $\mathbb{Q}$
+to $\mathbb{Z}_m$ must be one-to-one, but there can be no one-to-one
+map from the infinite set $\mathbb{Q}$ to the finite set $\mathbb{Z}_m$.
+
+\end{eg}
+
+
+
+
+\section{Principal Ideal Domains}
+
+For a fixed finite set of elements $a_1, a_2,\ldots, a_n$ in a commutative ring $R$,
+let $(a_1, a_2,\ldots, a_n)$ denote the subset:
+\[
+\{r_1 a_1 + r_2 a_2 + \cdots + r_n a_n : r_i \in R\}.
+\]
+\begin{claim}
+
+The set $I = (a_1, a_2, \ldots, a_n)$ is an ideal of $R$.
+\end{claim}
+\begin{proof}
+
+\begin{enumerate}
+\item 
+$0 = 0\cdot a_1 + 0 \cdot a_2 + \cdots + 0\cdot a_n \in I$.
+
+\item 
+For $\sum_{i} r_i a_i$ and $\sum_i r_i'a_i$ in $I$, we have
+$\sum_i r_i a_i + \sum_i r_i'a_i = \sum_i (r_i + r_i')a_i \in I$.
+
+\item 
+Given any $\sum_i r_ia_i \in I$, for any $r \in R$ we have
+$r \sum_i r_i a_i = \sum_i (rr_i) a_i \in I$.
+
+\end{enumerate}
+
+\end{proof}
+
+We call $(a_1, a_2,\ldots, a_n)$ the ideal  {\bf generated}  by $a_1, a_2, \ldots, a_n$.
+An ideal $(a) = \{ar : r \in R\}$ generated by one element $a \in R$ is called a  {\bf principal ideal} .
+
+
+Note that $R = (1)$ and $\{0\} = (0)$ are both principal ideals.
+
+
+
+
+
+\begin{claim}
+Given $a, b$ in a commutative ring $R$.  If $b = au$ for some unit $u \in R$,
+then $(a) = (b)$.
+
+
+
+If $R$ is an integral domain and $(a) = (b)$, then $b = au$ for some unit $u \in R$.
+\end{claim}
+\begin{proof}
+
+We leave the first part of the claim as an exercise.
+
+
+
+
+
+We now prove the second part.  Suppose $(a) = (b)$.  If $b = 0$,
+then $a$ is necessarily zero.  So, $b = 0 = 0\cdot 1 = a \cdot 1$, and we are done.
+
+
+Now suppose $b \neq 0$.  The condition $(a) = (b)$
+implies that there exist $u, v \in R$ such that $b = au$ and $a = bv$.
+
+
+Putting the two together, we have:
+\[
+b = buv,
+\]
+
+which implies that $b(1 - uv) = 0$.
+
+
+Since $R$ is by assumption an integral domain,
+and $b \neq 0$, we have $1 - uv = 0$, which implies that $uv = 1$.
+This shows that $u$ is unit.
+
+
+\end{proof}
+
+
+
+
+\begin{defn}
+\label{def:pid}
+
+
+If $R$ is an integral domain in which every ideal is principal,
+we say that $R$ is a  {\bf Principal Ideal Domain} 
+(abbrev.  {\bf PID} ).
+\end{defn}
+
+
+
+\begin{thm}
+
+The ring $\mathbb{Z}$ is a principal ideal domain.
+\end{thm}
+\begin{proof}
+
+Let $I$ be an ideal of $\mathbb{Z}$.
+We already know that the zero ideal $\{0\} = (0)$ is principal.
+
+
+
+
+
+So, we may assume that $I$ contains a nonzero element $a$.  Since $-1 \in \mathbb{Z}$ and $I$ is an ideal,
+we have $-a = (-1)\cdot a \in I$.  Hence, if $I$ is nonzero, it contains at least one positive integer.
+
+
+
+
+
+By the Least Integer Axiom, the ideal $I$ contains a positive integer $d$ which is smaller than all other
+positive elements of $I$.  We claim that $I = (d)$.
+
+
+
+
+
+By the division theorem, for every $a \in I$, we have $a = dq + r$ for some $q, r \in \mathbb{Z}$
+such that $0 \leq r < d$.  But this implies that $r = a - dq$ lies in $I$,
+since $I$ is an ideal.
+
+
+Since $0 \leq r < d$ and $d$ is the minimal positive integer in $I$,
+$r$ must necessarily be zero.
+This implies that $a = dq$.  Hence, $I \subseteq (d)$.
+
+
+
+
+
+Conversely, since $d \in I$ and $I$ is an ideal, we have $dr \in I$
+for all $r \in R$, which implies that $(d) \subseteq I$.
+
+
+
+
+
+Hence, $I = (d)$.  In other words, $I$ is a principal ideal generated by $d$.
+
+
+\end{proof}
+
+
+
+
+We claim that for any field $k$, the ring of polynomials
+$k[x]$ is also a PID.
+
+
+
+To prove this we first establish the following theorem:
+
+
+
+\begin{thm}[Division Theorem for Polynomials with Unit Leading Coefficients]
+
+\label{thm:divalgpoly}
+
+
+
+Let $R$ be a commutative ring.  For all $d, f \in R[x]$, such that the leading coefficient of $d$ is a unit in $R$,
+there exist $q , r \in R[x]$ such that:
+\[
+f = qd + r,
+\]
+with $\deg r < \deg d$.
+\end{thm}
+\begin{proof}
+
+The proof is essentially the same as that of the division theorem for $\mathbb{Q}[x]$.  We prove by induction:
+
+
+The base case corresponds to the case where $\deg f < \deg d$; and the inductive step
+corresponds to showing that, for any fixed $d$, the claim holds for $f$ if it holds for all
+$f'$ with $\deg f' < \deg f$.
+
+
+Base case: If $\deg f < \deg d$, we take $r = f$.  Then, indeed $f = 0\cdot d + r$, with $\deg r < \deg d$.
+
+
+Inductive step:
+Let $d =\sum_{i = 0}^n a_i x^i\in R[x]$ be fixed, where $a_n$ is a unit in $R$.
+For any given $f = \sum_{i = 0}^m b_ix^i \in R[x]$, $m \geq n$,
+suppose the claim holds for all $f'$ with $\deg f' < \deg f$.
+
+
+Let:
+\[
+f' = f - a_n^{-1}b_m x^{m - n} d.
+\]
+
+Then, $\deg f' < \deg f$, hence by hypothesis there exist $q', r' \in R[x]$, with $\deg r' < \deg d$,
+such that:
+\[
+f - a_n^{-1}b_m x^{m - n} d = f' = q' d + r',
+\]
+
+which implies that:
+\[
+f = (q' + a_n^{-1}b_m x^{m - n}) d + r'.
+\]
+
+So, $f = qd + r'$, where $q = q' + a_n^{-1}b_m x^{m - n} \in R[x]$, and $\deg r' < \deg d$.
+
+
+\end{proof}
+
+
+
+
+\begin{thm}
+\label{thm:pidpoly}
+
+
+Let $k$ be a field.  Then, $k[x]$ is a PID.
+\end{thm}
+\begin{proof}
+
+Since $k$ is a field, the previous claim holds for all $d, f \in k[x]$ such that $d \neq 0$.
+
+
+
+
+
+Let $I$ be an ideal of $k[x]$.
+
+
+
+If $I = \{0\}$ then, it is principal, since $\{0\} = (0)$.
+
+
+
+Suppose $I$ is nonzero.
+Let $d$ be the polynomial in $I$ with the least degree among all nonzero polynomials
+in $I$.
+Since the degree of any nonzero polynomial is a nonnegative integer,
+such an element $d$ exists by the Least Integer Axiom.
+It is clear that $(d) \subseteq I$.  It remains to show that $I \subseteq (d)$.
+
+
+
+
+
+For all $f \in I$, by the previous claim we have:
+\[
+f = qd + r,
+\]
+for some $q, r \in k[x]$ such that $\deg r < \deg d$.
+
+
+
+
+
+Observe that $r = f - qd = f + (-1)qd$ lies in $I$.
+Since $d$ is a nonzero element of $I$ with the least degree, the element $r$ must necessarily be zero.
+
+
+In order words $f = qd$, which implies that $f \in (d)$.
+Hence, $I \subseteq (d)$, and we may now conclude that $I = (d)$.
+
+
+\end{proof}
+
+
+
+\setcounter{chapter}{10}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 10}
+{\bf Topics: }Quotient Rings, Polynomials over a Field
+\hrule
+
+
+
+
+\quad\\\hrule
+\quad\\
+\section*{Quotient Rings}
+
+Let $R$ be a commutative ring.  Let $I$ be an ideal of $R$.
+We define a relation $\sim$ on $R$ as follows:
+\[
+a \sim b, \quad \text{ if } a - b \in I.
+\]
+
+
+
+ {\bf Notation/Terminology:} 
+If $a \sim b$, we say that $a$ is  {\bf congruent modulo $I$}  to $b$,
+and write:
+\[
+a \equiv b \mod I.
+\]
+
+
+
+\begin{claim}
+
+Congruence modulo $I$ is an  {\bf equivalence relation} .
+\end{claim}
+\begin{proof}
+
+\begin{itemize}
+\item 
+ {\bf Reflexivity} 
+
+$a - a = 0 \in I$, since $I$ is an ideal; hence, $a \equiv a \mod I$.
+
+
+\item 
+ {\bf Symmetry} 
+
+If $a - b \in I$, then $b - a = -1(a  - b) \in I$, since $I$
+is an ideal and $-1 \in R$.  Hence, $a \equiv b \mod I$ implies that $b \equiv a \mod I$.
+
+
+\item 
+ {\bf Transitivity} 
+
+If $a - b \in I$ and $b - c \in I$, then
+$a - c = a + (- b + b) - c = (a - b) + (b - c) \in I$,
+since $I$, being an ideal, is closed under addition.
+Hence, $a \equiv b, b \equiv c \mod I$ implies that $a \equiv c \mod I$.
+
+
+\end{itemize}
+
+\end{proof}
+
+
+
+
+Let $R/ I$ be the set of equivalence classes of $R$ with respect to the relation $\sim$.
+Each element of $R/ I$ has the form:
+\[
+\ol{r} = r + I = \{r + a : a \in I\}, \quad r \in R.
+\]
+
+ {\bf Terminology.} 
+We call $\ol{r}$ the  {\bf residue}  of $r$ in $R/I$.
+
+
+
+Note that if $r \in I$, then $\bar{r} = \bar{0}$, since $r - 0 = r \in I$.
+
+
+Observe that: for all $r, r' \in R$, and $a, a' \in I$,
+\[
+(r + a) + (r' + a') = (r + r') + (a + a') \in (r + r') + I = \ol{r + r'},
+\]
+\[
+(r + a)\cdot(r'+ a') = rr' + ra' + r'a + aa' \in rr' + I = \ol{rr'}.
+\]
+
+Hence, we may define binary operations $+, \cdot$ on $R/I$ as follows:
+\[
+\begin{split}
+\ol{r} + \ol{r'}  &= \ol{r + r'},\\
+\ol{r}\cdot\ol{r'} &= \ol{rr'},
+\end{split}
+\]
+for all $\ol{r},\ol{r'} \in R/ I$.
+
+
+
+
+
+\begin{claim}
+The set $R/I$, equipped with the addition $+$ and multiplication $\cdot$ defined above,
+is a commutative ring.
+\end{claim}
+\begin{proof}
+
+We note here only that the additive identity element of $R/I$ is $\ol{0} = 0 + I$,
+the multiplicative identity element of $R/I$ is $\ol{1} = 1 + I$,
+and that $-\ol{r} = \ol{-r}$ for all $r \in R$.
+
+
+
+We leave the rest of the proof (additive and multiplicative associativity, commutativity, distributativity)
+as an  {\bf Exercise.} 
+
+\end{proof}
+
+
+
+\begin{claim}
+
+The map $\pi : R \rightarrow R/I$, defined by
+\[
+\pi(r) = \ol{r},\quad \forall r \in R.
+\]
+is a surjective ring homomorphism with kernel $\ker \pi = I$.
+\end{claim}
+\begin{proof}
+
+ {\bf Exercise.} 
+
+\end{proof}
+
+
+
+
+Let $m$ be a natural number.  The set:
+\[
+m\mathbb{Z} = \{mn : n \in \mathbb{Z}\}
+\]
+is an ideal of $\mathbb{Z}$.
+\begin{claim}
+
+The quotient ring $\mathbb{Z}/m\mathbb{Z}$ is isomorphic to $\mathbb{Z}_m$.
+
+\end{claim}
+\begin{proof}
+
+For $r \in \mathbb{Z}$, let $r_m$ denote the remainder of the division of $r$ by $m$.
+
+
+
+
+
+ {\bf Exercise:}  We have $\ol{r} = \ol{r_m}$ in $\ZZ/m\ZZ$,
+where $\bar{r}$ is the residue of $r$ in $\ZZ/m\ZZ$.
+
+
+
+
+
+Define a map $\phi : \mathbb{Z}_m \ra \ZZ/m\ZZ$ as follows:
+\[
+\phi(r) = \bar{r},\quad \forall\, r \in \ZZ_m.
+\]
+
+We claim that $\phi$ is a homomorphism:
+\begin{itemize}
+\item 
+$\phi(1) = \bar{1} = 1_{\ZZ/m\ZZ}$.
+
+\item 
+\begin{multline*}
+\phi(r +_{\ZZ_m} r') = \ol{r +_{\ZZ_m} r'} = \ol{(r +_{\ZZ} r')_m} \\
+= \ol{r +_{\ZZ} r'} = \ol{r} + \ol{r'} = \phi(r) + \phi(r')
+\end{multline*}
+
+\item 
+\begin{multline*}
+\phi(r \cdot_{\ZZ_m} r') = \ol{r \cdot_{\ZZ_m} r'} = \ol{(r \cdot_{\ZZ} r')_m}\\
+= \ol{r \cdot_{\ZZ} r'} = \ol{r} \cdot \ol{r'} = \phi(r) \cdot \phi(r')
+\end{multline*}
+\end{itemize}
+
+Hence, $\phi$ is a homomorphism.
+
+
+
+
+Next, we show that $\phi$ is bijective:
+
+
+For all $\bar{r} \in \ZZ/m\ZZ$, we have $\phi(r_m) = \ol{r_m} = \ol{r}$.
+Hence, $\phi$ is onto.
+
+
+
+
+
+Suppose $r$ is an element in $\ZZ_m$
+such that $\phi(r) = \ol{r} = 0$ in $\ZZ/m\ZZ$.  By definition, this means that $r \in m\ZZ$,
+or equivalently, that $m | r$.  Since $0 \leq r < m$, we must have $r = 0$.
+Hence, $\ker \phi = \{0\}$.
+It now follows from \cref{claim:onetooneker} that $\phi$ is one-to one.
+
+
+We conclude that $\phi : \ZZ_m \ra \ZZ/m\ZZ$ is an isomorphism.
+
+
+\end{proof}
+
+
+
+
+\begin{claim}
+Let $\phi : R \longrightarrow R'$ be a ring homomorphism.  Then, the image of $\phi$:
+\[
+\im \phi = \{r' \in R' : r' = \phi(r) \text{ for some } r \in R\}
+\]
+is a ring under the addition and multiplication operations of $R'$.
+(In fact, it is a subring of $R'$.)
+\end{claim}
+\begin{proof}
+ {\bf Exercise.} 
+\end{proof}
+
+
+
+
+\begin{thm}[First Isomorphism Theorem]
+
+
+Let $R$ be a commutative ring.
+Let $\phi : R \ra R'$ be a ring homomorphism.
+Then:
+\[
+R/\ker\phi \cong \im \phi,
+\]
+(i.e. $R/\ker \phi$ is isomorphic to $\im \phi$.)
+\end{thm}
+\begin{proof}
+
+We define a map $\ol{\phi} : R/\ker\phi \ra \im \phi$ as follows:
+\[
+\ol{\phi}(\ol{r}) = \phi(r), \quad \forall\, r \in R,
+\]
+where $\ol{r}$ is the residue of $r$ in $R/\ker \phi$.
+
+
+
+
+
+We first need to check that $\phi$ is well-defined.
+Suppose $\ol{r} = \ol{r'}$, then $r' - r \in \ker\phi$.
+We have:
+\[
+\phi(r') - \phi(r) = \phi(r' - r) = 0.
+\]
+
+Hence, $\phi(r') = \phi(r)$.
+So, $\phib(\ol{r})$ is well-defined.
+
+
+
+
+Next, we show that $\phib$ is a homomorphism:
+\begin{itemize}
+\item 
+$\phib(\ol{1}) = \phi(1) = 1$;
+
+\item 
+$
+\phib(\ol{a} + \ol{b}) = \phib(\ol{a + b}) = \phi(a + b) = \phi(a) + \phi(b)
+= \phib(\ol{a}) + \phib(\ol{b});
+$
+
+\item 
+$
+\phib(\ol{a} \cdot \ol{b})
+= \phib(\ol{ab}) = \phi(ab) = \phi(a)\phi(b) = \phib(\ol{a})\phib(\ol{b}).
+$
+\end{itemize}
+
+
+
+
+
+Finally, we show that $\phib$ is a bijection, i.e. one-to-one and onto.
+
+
+
+
+
+For any $r' \in\im \phi$, there exists $r \in R$ such that $\phi(r) = r'$.
+Since $\phib(\ol{r}) = \phi(r) = r'$, $\phib$ is onto.
+
+
+
+
+
+Let $r$ be an element in $R$ such that
+$\phib(\ol{r}) = \phi(r) = 0$.
+We have $r \in \ker \phi$, which implies that $\ol{r} = 0$ in $R/\ker\phi$.
+Hence, $\ker \phib = \{0\}$, and it follows from \cref{claim:onetooneker} that $\phib$ is one-to-one.
+
+
+\end{proof}
+
+
+
+
+\begin{cor}
+If a ring homomorphism $\phi : R \ra R'$ is surjective, then:
+\[
+R' \cong R/\ker \phi
+\]
+\end{cor}
+
+
+
+
+\begin{eg}
+Let $m$ be a natural number.
+Consider the map $\phi : \mathbb{Z} \ra \ZZ_m$ defined by:
+\[
+\phi(n) = {n}_m, \quad \forall\, n \in \mathbb{Z},
+\]
+where ${n}_m$ is the remainder of the division of $n$ by $m$.
+
+
+
+
+ {\bf Exercise:}  $\phi$ is a homomorphism.
+
+
+
+
+It is clear that $\phi$ is surjective, and that $\ker \phi = m\ZZ$.
+So, it follows from the First Isomorphism Theorem that:
+\[
+\ZZ_m \cong \ZZ/m\ZZ.
+\]
+\end{eg}
+
+\begin{defn}[Gaussian Integers]
+
+
+Let:
+\[
+\mathbb{Z}[i] = \{z \in \mathbb{C}: z = a + bi \text{ for some } a, b \in \mathbb{Z}\},
+\]
+where $i = \sqrt{-1}$.
+\end{defn}
+\begin{ex}
+
+Show that the set $\mathbb{Z}[i]$ is a ring under the usual addition $+$
+and multiplication $\times$ operations on $\mathbb{C}$.
+
+
+
+Moreover, we have $0_{\mathbb{Z}[i]} = 0$, $1_{\mathbb{Z}[i]} = 1$,
+and:
+\[
+-(a + bi) = (-a) + (-b) i
+\]
+for any $a, b \in \mathbb{Z}$.
+\end{ex}
+
+
+
+
+
+\begin{eg}
+The ring $\mathbb{Z}[i]/(1 + 3i)$ is isomorphic to $\mathbb{Z}/10\ZZ$.
+\end{eg}
+\begin{proof}
+
+Define a map $\phi: \ZZ \ra \ZZ[i]/(1 + 3i)$ as follows:
+\[
+\phi(n) = \ol{n},\quad \forall\, n \in \ZZ,
+\]
+where $\ol{n}$ is the residue of $n \in \ZZ[i]$ modulo $(1 + 3i)$.
+
+
+
+
+
+It is clear that $\phi$ is a homomorphism ( {\bf Exercise} ).
+
+
+
+Observe that in $\mathbb{Z}[i]$, we have:
+\[
+1 + 3i \equiv 0 \mod (1 + 3i),
+\]
+
+which implies that:
+
+\begin{align*}
+\class{steps10 steps}{1} & \class{steps10 steps}{\equiv -3i \mod (1 + 3i)}
+\\
+\class{steps10 steps}{ i\cdot 1} & \class{steps10 steps}{\equiv i \cdot (-3i) \mod (1 + 3i)}
+\\
+\class{steps10 steps}{i} & \class{steps10 steps}{\equiv 3 \mod (1 + 3i).}
+\end{align*}
+
+
+Hence, for all $a, b \in \ZZ$,
+\[
+\ol{a + bi} = \ol{a + 3b} = \phi(a + 3b)
+\]
+in $\ZZ[i]/(1 + 3i)$.  Hence, $\phi$ is surjective.
+
+
+
+
+
+Suppose $n$ is an element of $\ZZ$ such that $\phi(n) = \ol{n} = 0$.
+Then, by the definition of the quotient ring we have:
+\[
+n \in (1 + 3i).
+\]
+
+This means that there exist $a, b \in \ZZ$ such that:
+\[
+n = (a + bi)(1 + 3i) = (a - 3b) + (3a + b)i,
+\]
+
+which implies that $3a + b = 0$, or equivalently, $b = -3a$.  Hence:
+\[
+n = a - 3b = a - 3(-3a) = 10 a,
+\]
+
+which implies that $\ker \phi \subseteq 10\ZZ$.  Conversely, for all $m \in \ZZ$,
+we have:
+\[
+\phi(10 m) = \ol{10 m} = \ol{(1 + 3i)(1 - 3i)m} = 0
+\]
+in $\ZZ[i]/(1 + 3i)$.
+
+
+This shows that $10\ZZ \subseteq \ker \phi$.  Hence, $\ker \phi = 10\ZZ$.
+
+
+
+
+
+It now follows from the First Isomorphism Theorem that:
+\[
+\ZZ/10\ZZ \cong \ZZ[i]/(1 + 3i).
+\]
+
+
+\end{proof}
+
+
+
+
+\section{Polynomials over a Field}
+
+Let $k$ be a field.
+For $f \in k[x]$ and $a \in k$, let:
+\[
+f(a) = \phi_a(f),
+\]
+where $\phi_a$ is the  {\bf evaluation homomorphism}  defined in \cref{eg:evalhomom}.
+That is:
+\[
+\phi_a\left(\sum_{i = 0}^nc_ix^i \right) = \sum_{i = 0}^nc_ia^i .
+\]
+
+
+
+\begin{defn}
+Let $f = \sum_{i = 0}^nc_ix^i$ be a polynomial in $k[x]$.
+An element $a \in k$ is a  {\bf root}  of $f$ if:
+\[
+f(a) = 0
+\]
+in $k$.
+\end{defn}
+
+
+
+
+
+
+
+\begin{lemma}
+For all $f \in k[x]$, $a \in k$, there exists $q \in k[x]$ such that:
+\[
+f = q(x - a) + f(a)
+\]
+\end{lemma}
+\begin{proof}
+By the \cref{thm:divalgpoly},
+there exist $q, r \in k[x]$ such that:
+\[
+f = q(x - a) + r,\quad \deg r < \deg (x - a) = 1.
+\]
+This implies that $r$ is a constant polynomial.
+
+
+
+
+Applying the evaluation homomorphism $\phi_a$ to both sides of the above equation,
+we have:
+
+\[
+\begin{split}
+f(a) &= \phi_a(q(x - a) + r)
+\\&
+\class{steps11 steps}{= \phi_a(q)\cdot\phi_a(x - a) + \phi_a(r)}
+\\&
+\class{steps11 steps}{ = q(a)(a - a) + r}
+\\&
+\class{steps11 steps}{= r.}
+\end{split}
+\]
+
+\end{proof}
+
+
+
+
+\begin{claim}[Root Theorem]
+
+
+Let $k$ be a field, $f$ a polynomial in $k[x]$.  Then, $a \in k$
+is a root of $f$ if and only if $(x - a)$ divides $f$ in $k[x]$.
+\end{claim}
+\begin{proof}
+If $a \in k$ is a root of $f$, then by the previous lemma there exists $q \in k[x]$
+such that:
+\[
+f = q(x - a) + \underbrace{f(a)}_{= 0} = q(x - a),
+\]
+so $(x - a)$ divides $f$ in $k[x]$.
+
+
+
+
+Conversely, if $f = q(x - a)$ for some $q \in k[x]$, then $f(a) = q(a)(a - a) = 0$.
+Hence, $a$ is a root of $f$.
+\end{proof}
+
+
+
+
+\begin{thm}
+Let $k$ be a field, $f$ a nonzero polynomial in $k[x]$.
+\begin{enumerate}
+\item 
+If $f$ has degree $n$, then it has at most $n$ roots in $k$.
+
+\item 
+If $f$ has degree $n > 0$ and $a_1, a_2,\ldots, a_n \in k$ are distinct
+roots of $f$, then:
+\[
+f = c\cdot \Pi_{i = 1}^n(x - a_i) := c(x - a_1)(x - a_2)\cdots (x - a_n)
+\]
+for some $c \in k$.
+\end{enumerate}
+\end{thm}
+\begin{proof}
+
+\begin{enumerate}
+\item 
+
+We prove Part 1 of the claim by induction.
+If $f$ has degree 0, then $f$ is a nonzero constant, which implies that it has no roots.
+So, in this case the claim holds.
+
+
+
+
+Let $f$ be a polynomial with degree $n > 0$.
+Suppose the claim holds for all nonzero polynomials with degrees strictly less than $n$.
+We want to show that the claim also holds for $f$.
+If $f$ has no roots in $k$, then the claim holds for $f$ since $0 < n$.
+If $f$ has a root $a \in k$, then by the previous claim there exists $q \in k[x]$
+such that:
+\[
+f  = q(x - a).
+\]
+
+For any other root $b \in k$ of $f$ which is different from $a$, we have:
+\[
+0 = f(b) = q(b)(b - a).
+\]
+
+Since $k$ is a field, it has no zero divisors; so, it follows from $b - a \neq 0$ that $q(b) = 0$.
+In other words, $b$ is a root of $q$.  Since $\deg q < n$,
+by the induction hypothesis $q$ has at most $n - 1$ roots.
+So, $f$ has at most $n - 1$ roots different from $a$.  This shows that $f$ has at most $n$ roots.
+
+
+\quad\\\hrule
+\quad\\
+
+
+\item 
+
+Let $f$ be a polynomial in $k[x]$ which has $n = \deg f$ distinct roots $a_1, a_2, \ldots, a_n \in k$.
+
+
+
+
+If $n = 1$, then $f = c_0 + c_1 x$ for some $c_i \in k$, with $c_1 \neq 0$.
+We have:
+\[
+0 = f(a_1) = c_0 + c_1a_1,
+\]
+
+which implies that: $c_0 = - c_1a_1$.  Hence,
+\[
+f = -c_1a_1 + c_1 x = c_1(x - a_1).
+\]
+
+Suppose $n > 1$.
+Suppose for all $n' \in \mathbb{N}$, such that $1 \leq n' < n$,
+the claim holds for any polynomial of degree $n'$ which has $n'$ distinct roots in $k$.
+By the previous claim, there exists $q \in k[x]$ such that:
+\[
+f = q(x - a_n).
+\]
+Note that $\deg q = n - 1$.
+
+
+
+
+For $1 \leq i < n$, we have
+\[
+0 = f(a_i) = q(a_i)\underbrace{(a_i - a_n)}_{\neq 0}.
+\]
+
+Since $k$ is a field, this implies that $q(a_i) = 0$ for $1 \leq i < n$.
+So, $a_1, a_2,\ldots, a_{n - 1}$ are $n - 1$ distinct roots of $q$.
+By the induction hypothesis there exists $c \in k$ such that:
+\[
+q = c(x - a_1)(x - a_2)\cdots(x - a_{n - 1}).
+\]
+Hence, $f = q(x - a_n) = c(x - a_1)(x - a_2)\cdots(x - a_{n - 1})(x - a_n)$.
+
+
+\end{enumerate}
+
+
+
+
+\end{proof}
+
+\begin{cor}
+Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.
+Let $n = {\rm max}\{\deg f, \deg g\}$.
+If $f(a) = g(a)$ for $n + 1$ distinct $a \in k$.  Then, $f = g$.
+\end{cor}
+\begin{proof}
+
+Let $h = f - g$, then $\deg h \leq n$.  By hypothesis, there are $n + 1$ distinct elements $a \in k$
+such that $h(a) = f(a) - g(a) = 0$.  If $h \neq 0$,
+then it is a nonzero polynomial with degree $\leq n$ which has $n + 1$ distinct roots,
+which contradicts the previous theorem.
+Hence, $h$ must necessarily be the zero polynomial, which implies that $f = g$.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{defn}
+A polynomial in $k[x]$ is called a  {\bf monic polynomial}  if its leading coefficient is $1$.
+\end{defn}
+
+
+
+
+
+
+
+\begin{cor}
+\label{bezoutsforpolynomials}
+
+
+Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.  There exists a unique monic polynomial
+$d \in k[x]$ with the following property:
+\begin{enumerate}
+\item 
+$(f, g) = (d)$
+
+
+
+Moreover, this $d$ also satisfies the following properties:
+
+\item 
+
+$d$ divides both $f$ and $g$, i.e., there exists $a, b \in k[x]$ such that $f = ad$, $g = bd$.
+
+
+\item 
+
+There are polynomials $p, q \in k[x]$ such that $d = pf + qg$.
+
+
+\item 
+
+If $h \in k[x]$ is a divisor of $f$ and $g$, then $h$ divides $d$.
+
+\end{enumerate}
+\end{cor}
+
+
+
+ {\bf Terminology.} 
+
+\begin{itemize}
+\item 
+The unique monic $d \in k[x]$ which satisfies property 1
+is called the  {\bf Greatest Common Divisor}  (abbrev.  {\bf GCD} ) of $f$ and $g$.
+
+\item 
+We say that $f$ and $g$ are  {\bf relatively prime}  if their GCD is $1$.
+\end{itemize}
+
+
+
+
+
+
+
+\begin{proof}
+
+\begin{enumerate}
+\item 
+By \cref{thm:pidpoly}, there exists $d = \sum_{i = 0}^n a_i x^i \in k[x]$ such that
+$(d) = (f, g)$.  Replacing $d$ by $a_n^{-1} d$ if necessary, we may assume that $d$ is a monic polynomial.
+It remains to show that $d$ is unique.
+
+
+
+
+Suppose $(d) = (d')$, where both $d$ and $d'$ are monic polynomials.
+Then, there exist nonzero $p, q \in k[x]$
+such that:
+\[
+d' = pd,\quad d= qd'.
+\]
+
+Examining the degrees of the polynomials, we have:
+\[
+\deg d' = \deg d + \deg p,
+\]
+and:
+\[
+\deg d = \deg q + \deg d' = \deg p + \deg q + \deg d.
+\]
+
+This implies that $\deg p + \deg q = 0$.  Hence, $p$ and $q$ must both have degree $0$; in other words, they are
+constant polynomials.  Moreover, we have $\deg d = \deg d'$.
+Comparing the leading coefficients of $d'$ and $pd$, we have $p = 1$.
+Hence, $d = d'$.
+
+
+\item 
+Clear.
+
+\item 
+Clear.
+
+\item 
+By Part 3 of the corollary, there are $p, q \in k[x]$ such that $d = pf + qg$.
+It is then clear that if $h$ divides both $f$ and $g$, then $h$ must divide $d$.
+
+\end{enumerate}
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{defn}
+Let $R$ be a commutative ring.
+A nonzero element $p \in R$ which is not a unit is said to be  {\bf irreducible} 
+if $p = ab$ implies that either $a$ or $b$ is a unit.
+\end{defn}
+
+
+
+\begin{eg}
+The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
+\end{eg}
+
+
+
+
+
+
+
+Let $k$ be a field.
+\begin{lemma}
+A polynomial $f \in k[x]$ is a unit if and only if it is a
+nonzero constant polynomial.
+\end{lemma}
+\begin{proof}
+ {\bf Exercise.} 
+\end{proof}
+
+
+
+
+
+
+
+\begin{claim}
+A nonzero nonconstant polynomial $p \in k[x]$ is irreducible if and only if there is no $f, g \in k[x]$,
+with $\deg f, \deg g < \deg p$, such that $fg = p$.
+\end{claim}
+\begin{proof}
+
+Suppose $p$ is irreducible, and $p = fg$ for some $f, g \in k[x]$ such that $\deg f, \deg g < \deg p$.  Then $p = fg$ implies that $\deg f$ and $\deg g$ are both positive.
+By the previous lemma, both $f$ and $g$ are non-units, which is a contradiction,
+since the irreducibility of $p$ implies that either $f$ or $g$ must be a unit.
+
+
+Conversely, suppose $p$ is a nonzero non-unit in $k[x]$,
+which is not equal to $fg$ for any $f, g \in k[x]$ with $\deg f, \deg g < \deg p$.
+Then, $p = ab$, $a$, $b \in k[x]$,
+implies that either $a$ or $b$ must have the same degree as $p$,
+and the other factor must be a nonzero constant, in other words a unit in $k[x]$.
+Hence, $p$ is irreducible.
+
+
+\end{proof}
+\setcounter{chapter}{11}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 11}
+{\bf Topics: }Polynomial Rings, Rational Root Theorem, Gauss's Theorem, Eisenstein's Criterion
+\hrule
+
+
+
+
+
+
+\begin{lemma}[Euclid's Lemma]
+
+
+Let $k$ be a field.
+Let $f, g$ be polynomials in $k[x]$.
+Let $p$ be an irreducible polynomial in $k[x]$.
+If $p | fg$ in $k[x]$, then $p | f$ or $p | g$.
+\end{lemma}
+
+
+
+\begin{proof}
+
+Suppose $p \nmid f$.
+Then, any common divisor of $p$ and $f$ must have degree strictly less than $\deg p$.
+Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
+Hence, the GCD of $p$ and $f$ is $1$.
+By \cref{bezoutsforpolynomials}, there exist $a, b \in k[x]$ such that:
+\[
+ap + bf = 1.
+\]
+
+Multiplying both sides of the above equation by $g$, we have:
+\[
+apg + bfg = g.
+\]
+Since $p$ divides the left-hand side of the above equation, it must
+also divide the right-hand side, which is the polynomial $g$.
+
+
+\end{proof}
+
+
+
+\begin{claim}
+
+If $f, g \in k[x]$ are relatively prime, and both divide $h \in k[x]$,
+then $fg | h$.
+\end{claim}
+\begin{proof}
+
+ {\bf Exercise.} 
+
+\end{proof}
+
+
+\begin{thm}[Unique Factorization]
+
+
+Let $k$ be a field.
+Every nonconstant polynomial $f \in k[x]$ may be written as:
+\[
+f = c p_1\cdots p_n,
+\]
+where $c$ is a nonzero constant,
+and each $p_i$ is a monic irreducible polynomial in $k[x]$.
+The factorization is unique up to the ordering of the factors.
+\end{thm}
+\begin{proof}
+
+ {\bf Exercise.} 
+One possible approach is very similar to the proof of unique factorization
+for $\mathbb{Z}$. See: \cref{thm:fta}.
+\end{proof}
+
+
+
+
+\begin{ex}
+\begin{enumerate}
+\item  
+{\bf WeBWork}
+\end{enumerate}
+\end{ex}
+
+
+
+
+\begin{thm}
+\label{thm:pirredfield}
+
+
+Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
+The following statements are equivalent:
+\begin{enumerate}
+\item 
+$k[x]/(p)$ is a field.
+
+\item 
+$k[x]/(p)$ is an integral domain.
+
+\item 
+$p$ is irreducible in $k[x]$.
+\end{enumerate}
+\end{thm}
+\begin{remark}
+
+Compare this result with \cref{ex:zmintdom} and \cref{cor:zpfield}.
+\end{remark}
+\begin{proof}
+
+\begin{enumerate}
+\item 
+$1 \Rightarrow 2$: Clear, since every field is an integral domain.
+
+\item 
+$2 \Rightarrow 3$: If $p$ is not irreducible, there exist $f, g \in k[x]$,
+with degrees strictly less than that of $p$, such that $p = fg$.
+Since $\deg f, \deg g < \deg p$, the polynomial $p$ does not divide $f$ or $g$
+in $k[x]$.  Consequently, the congruence classes $\ol{f}$ and $\ol{g}$
+of $f$ and $g$, respectively, modulo $(p)$ is not equal to zero in $k[x]/(p)$.
+On the other hand, $\ol{f}\cdot \ol{g} = \ol{fg} = \ol{p} = 0$ in $k[x]/(p)$.
+This implies that $k[x]/(p)$ is not an integral domain, a contradiction.
+Hence, $p$ is irreducible if $k[x]/(p)$ is an integral domain.
+
+\item 
+$3 \Rightarrow 1$:
+By definition, the multiplicative identity element $1$ of a field is different from the
+additive identity element $0$.  So we need to check that the congruence class of $1 \in k[x]$
+in $k[x]/(p)$ is not $0$.  Since $p$ is irreducible, by definition we have $\deg p > 0$.
+Hence, $1 \notin (p)$, for a polynomial of degree $> 0$ cannot divide a polynomial of degree $0$
+in $k[x]$.  We conclude that $1 + (p)\neq 0 + (p)$ in $k[x]/(p)$.
+
+
+
+
+
+Next, we need to prove the existence of the multiplicative inverse of any nonzero element in
+$k[x]/(p)$.
+Given any $f \in k[x]$ whose congruence class $\ol{f}$ modulo $(p)$ is nonzero in $k[x]/(p)$,
+we want to find its multiplicative inverse $\ol{f}^{-1}$.
+If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
+that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
+$GCD(p, f) = 1$.  By \cref{bezoutsforpolynomials} there exist
+$g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,
+since $fg - 1 = -hp$ implies that $fg - 1 \in (p)$,
+which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$.
+
+
+\end{enumerate}
+
+\end{proof}
+
+
+
+
+\begin{eg}
+The rings $\mathbb{R}[x]/(x^2 + 1)$ and $\mathbb{C}$ are isomorphic.
+\end{eg}
+\begin{proof}
+
+Define a map $\phi : \mathbb{R}[x] \ra \mathbb{C}$ as follows:
+\[
+\phi(\sum_{k = 0}^na_kx^k) = \sum_{k = 0}^n a_k i^k.
+\]
+
+
+
+
+ {\bf Exercise:}  $\phi$ is a homomorphism.
+
+
+
+
+
+For all $a + bi$ ($a, b \in \mathbb{R}$) in $\mathbb{C}$, we have:
+\[
+\phi(a + bx) = a + bi.
+\]
+Hence, $\phi$ is surjective.
+
+
+
+
+
+We now find $\ker \phi$.
+Since $\mathbb{R}[x]$ is a PID (see \cref{def:pid}).  There exists $p \in \mathbb{R}[x]$
+such that $\ker \phi = (p)$.
+
+
+
+
+
+Observe that $\phi(x^2 + 1) = 0$.  So, $x^2 + 1 \in \ker \phi$,
+which implies that there exists $q \in \mathbb{R}[x]$ such that $x^2 + 1 = pq$.
+Since $x^2 + 1$ has no real roots, neither $p$ or $q$ can be of degree $1$.
+
+
+
+
+
+So, one of $p$ or $q$ must be a nonzero constant polynomial.
+$p$ cannot be a nonzero constant polynomial, for that would imply that
+$\ker \phi = \mathbb{R}[x]$.  So, $q$ is a constant,
+which implies that $p = q^{-1} (x^2 + 1)$.  We conclude that $\ker \phi = (x^2 + 1)$.
+
+
+
+
+
+It now follows from the First Isomorphism Theorem that
+$\mathbb{R}[x]/(x^2 + 1)\cong \mathbb{C}$.
+
+
+\end{proof}
+
+
+
+
+\section{Polynomials over $\mathbb{Z}$ and $\mathbb{Q}$}
+
+\begin{thm}[Rational Root Theorem]
+
+
+Let $f = a_0 + a_1x + \cdots + a_nx^n$, be a polynomial
+in $\mathbb{Q}[x]$, with $a_i \in \mathbb{Z}$, $a_n \neq 0$.
+Every rational root $r$ of $f$ in $\mathbb{Q}$ has the form
+$r = b/c$ $(b, c \in \mathbb{Z})$ where $b | a_0$ and $c | a_n$.
+\end{thm}
+
+
+
+\begin{proof}
+
+Let $r = b/c$ be a rational root of $f$, where $b, c$ are relatively prime integers.
+We have:
+\[
+0 = \sum_{i = 0}^n a_i (b/c)^i
+\]
+
+Multiplying both sides of the above equation by $c^n$, we have:
+\[
+0 = a_0c^n + a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_n b^n,
+\]
+or equivalently:
+\[
+a_0 c^n = -(a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_n b^n).
+\]
+
+Since $b$ divides the right-hand side, and $b$ and $c$ are relatively prime,
+$b$ must divide $a_0$.
+
+
+
+
+Similarly, we have:
+\[
+a_n b^n = - (a_0c^n + a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_{n - 1}cb^{n - 1}).
+\]
+
+Since $c$ divides the right-hand side, and $b$ and $c$ are relatively prime, $c$ must divide $a_n$.
+
+
+\end{proof}
+
+
+
+
+\begin{defn}
+A polynomial $f \in \mathbb{Z}[x]$ is said to be  {\bf primitive} 
+if the gcd of its coefficients is $1$.
+\end{defn}
+\begin{remark}
+
+Note that if $f$ is monic, i.e. its leading coefficient is $1$,
+then it is primitive.
+
+
+
+If $d$ is the gcd of the coefficients of $f$, then $\frac{1}{d}f$ is a primitive polynomial
+in $\mathbb{Z}[x]$.
+\end{remark}
+
+
+
+
+
+
+
+\begin{lemma}[Gauss's Lemma]
+
+
+If $f, g \in \mathbb{Z}[x]$ are both primitive, then $fg$ is primitive.
+\end{lemma}
+
+
+
+\begin{proof}
+
+Write $f = \sum_{k = 0}^m a_k x^k$, $g = \sum_{k = 0}^n b_k x^k$.
+Then, $fg = \sum_{k = 0}^{m+n}c_kx^k$, where:
+\[
+c_k = \sum_{i + j = k}a_ib_j.
+\]
+
+Suppose $fg$ is not primitive.  Then, there exists a prime $p$ such that $p$ divides $c_k$
+for $k = 0, 1, 2,\ldots, m + n$.
+
+
+Since $f$ is primitive, there exists a least
+$u \in \{0, 1, 2, \ldots, m\}$ such that $a_u$ is not divisible by $p$.
+
+
+Similarly, since $g$ is primitive, there is a least $v \in \{0, 1, 2, \ldots, n\}$
+such that $b_v$ is not divisible by $p$.
+We have:
+\[
+c_{u + v} = \sum_{\substack{i + j = u+v\\(i, j)\neq (u, v)}}a_ib_j + a_ub_v,
+\]
+
+hence:
+\[
+a_ub_v %% = c_{u + v} - \sum_{\substack{i + j = k\\(i, j)\neq (u, v)}}a_ib_j
+= c_{u + v} - \sum_{\substack{i + j = u + v\\i < u}}a_ib_j
+- \sum_{\substack{i + j = u + v\\j < v}}a_ib_j.
+\]
+
+By the minimality conditions on $u$ and $v$, each term on the right-hand side of the above equation
+is divisible by $p$.
+
+
+Hence, $p$ divides $a_ub_v$, which by Euclid's Lemma implies that
+$p$ divides either $a_u$ or $b_v$, a contradiction.
+
+
+\end{proof}
+
+\begin{lemma}
+Every nonzero $f \in \mathbb{Q}[x]$ has a unique factorization:
+\[
+f = c(f) f_0,
+\]
+where $c(f)$ is a positive rational number, and $f_0$ is a primitive polynomial in $\mathbb{Z}[x]$.
+\end{lemma}
+\begin{defn}
+
+The rational number $c(f)$ is called the  {\bf content}  of $f$.
+
+\end{defn}
+\begin{proof}
+
+ {\bf Existence:} 
+
+Write $f = \sum_{k = 0}^n (a_k/b_k)x^k$,
+where $a_k, b_k \in \mathbb{Z}$.
+Let $B = b_0b_1\cdots b_n$.
+Then, $g := Bf$ is a polynomial in $\mathbb{Z}[x]$.
+Let $d$ be the gcd of the coefficients of $g$.
+Let $D = \pm d$, with the sign chosen such that $D/B > 0$.
+Observe that $f = c(f)f_0$, where
+\[
+c(f) = D/B,
+\]
+and
+\[
+f_0 := \frac{B}{D} f = \frac{1}{D}g
+\]
+is a primitive polynomial in $\mathbb{Z}[x]$.
+
+
+ {\bf Uniqueness:} 
+
+Suppose $f = ef_1$ for some positive $e \in \mathbb{Q}$ and primitive $f_1 \in \mathbb{Z}[x]$.
+We have:
+\[
+ef_1 = c(f) f_0.
+\]
+Writing $e/c(f) = u/v$ where $u, v$ are relatively prime positive integers, we have:
+\[
+uf_1 = vf_0.
+\]
+Since $gcd(u, v) = 1$, by Euclid's Lemma the above equation implies that $v$ divides each
+coefficient of $f_1$, and $u$ divides each coefficient of $f_0$.
+Since $f_0$ and $f_1$ are primitive, we conclude that $u = v = 1$.
+Hence, $e = c(f)$, and $f_1 = f_0$.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{cor}
+For $f \in \mathbb{Z}[x] \subseteq \mathbb{Q}[x]$, we have $c(f) \in \mathbb{Z}$.
+\end{cor}
+\begin{proof}
+
+Let $d$ be the gcd of the coefficients of $f$.  Then, $(1/d)f$
+is a primitive polynomial, and
+\[
+f = d\left(\frac{1}{d} f \right)
+\]
+is a factorization of $f$ into a product of a positive rational number and a primitive polynomial
+in $\mathbb{Z}[x]$.
+Hence, by uniqueness of $c(f)$ and $f_0$, we have $c(f) = d \in \mathbb{Z}$.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{cor}
+Let $f, g, h$ be nonzero polynomials in $\mathbb{Q}[x]$ such that $f = gh$.
+Then, $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$.
+\end{cor}
+\begin{proof}
+
+The condition $f = gh$ implies that:
+\[
+c(f)f_0 = {c(g)}{c(h)} g_0h_0,
+\]
+where $f_0, g_0, h_0$ are primitive polynomials and $c(f), c(g), c(h)$ are positive rational numbers.
+By a previous result $g_0h_0$ is primitive.  It now follows from the uniqueness of $c(f)$ and $f_0$
+that $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{thm}[Gauss's Theorem]
+
+
+Let $f$ be a nonzero polynomial in $\mathbb{Z}[x]$.
+If $f = GH$ for some $G, H \in \mathbb{Q}[x]$, then
+$f = gh$ for some $g, h \in \mathbb{Z}[x]$, where
+$\deg g = \deg G$, $\deg h = \deg H$.
+
+
+
+Consequently, if $f$ cannot be factored into a product of polynomials of smaller degrees in $\mathbb{Z}[x]$,
+then it is irreducible as a polynomial in $\mathbb{Q}[x]$.
+\end{thm}
+\begin{proof}
+
+Suppose $f = GH$ for some $G, H$ in $\mathbb{Q}[x]$.
+Then $f = c(f) f_0 = c(G)c(H) G_0 H_0$,
+where $G_0$, $H_0$ are primitive polynomials in $\mathbb{Z}[x]$,
+and $c(G)c(H) = c(f)$ by the uniqueness of the content of a polynomial.
+
+
+
+
+Moreover, since $f \in \mathbb{Z}[x]$, its content $c(f)$ lies in $\mathbb{Z}$.
+Hence, $g = c(f) G_0$ and $h = H_0$ are polynomials in $\mathbb{Z}[x]$,
+with $\deg g = \deg G$, $\deg h = \deg H$, such that $f = gh$.
+
+
+\end{proof}
+
+
+
+
+
+
+
+Let $p$ be a prime.
+Let $\mathbb{F}_p = \mathbb{Z}/p\mathbb{Z} \cong \mathbb{Z}_p$.  It is a field, since $p$ is prime.
+For $a \in \mathbb{Z}$, let $\ol{a}$ denote the residue of $a$ in $\mathbb{F}_p$.
+
+
+
+
+
+
+ {\bf Exercise:}  We have $\ol{a} = \ol{a_p}$, where $a_p$ is the remainder of the division of $a$ by $p$.
+
+
+
+\begin{thm}
+Let $f = \sum_{k = 0}^na_k x^k$ be a polynomial in $\mathbb{Z}[x]$
+such that $p \nmid a_n$ (in particular, $a_n \neq 0$).
+If $\ol{f} := \sum_{k = 0}^n \ol{a_k}x^k$ is irreducible in $\mathbb{F}_p[x]$,
+then $f$ is irreducible in $\mathbb{Q}[x]$.
+\end{thm}
+\begin{proof}
+
+Suppose $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$,
+but $f$ is not irreducible in $\mathbb{Q}[x]$.
+By Gauss's theorem, there exist $g, h \in \mathbb{Z}[x]$ such that
+$\deg g, \deg h  < \deg f$ and $f = gh$.
+
+
+Since by assumption $p \nmid a_n$, we have $\deg \ol{f} = \deg f$.
+
+
+Moreover, $\ol{gh} = \ol{g}\cdot\ol{h}$ ( {\bf Exercise} ).
+
+
+Hence, $\ol{f} = \ol{gh} = \ol{g}\cdot \ol{h}$, where $\deg \ol{g}, \deg\ol{h} < \deg \ol{f}$.
+This contradicts the irreducibility of $\ol{f}$ in $\mathbb{F}_p[x]$.
+
+
+Hence, $f$ is irreducible in $\mathbb{Q}[x]$ if $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{eg}
+The polynomial $f(x) = x^4 - 5x^3 + 2x + 3 \in \mathbb{Q}[x]$ is irreducible.
+\end{eg}
+\begin{proof}
+
+Consider $\ol{f} = x^4 -\ol{5}x^3 + \ol{2}x + \ol{3} = x^4 + x^3 + 1$ in $\mathbb{F}_2[x]$.
+If we can show that $\ol{f}$ is irreducible, then by the previous theorem we can
+conclude that $f$ is irreducible.
+
+
+
+
+
+Since $\mathbb{F}_2 = \{0, 1\}$ and
+$\ol{f}(0) = \ol{f}(1) = 1 \neq 0$, we know right away that $\ol{f}$
+has no linear factors.  So, if $\ol{f}$ is not irreducible, it must be a product of two quadratic factors:
+\[
+\ol{f} = (ax^2 + bx + c)(dx^2 + ex + g),\quad a, b, c, d, e, g \in \mathbb{F}_2.
+\]
+
+Note that by assumption $a, d$ are nonzero elements of $\mathbb{F}_2$, so $a = d = 1$.
+This implies that, in particular:
+\[
+\begin{split}
+1 &= \ol{f}(0) = cg\\
+1 &= \ol{f}(1) = (1 + b + c)(1 + e + g)
+\end{split}
+\]
+
+The first equation implies that $c = g = 1$.
+The second equation then implies that $1 = (2 + b)(2 + e) = be$.
+Hence, $b = e = 1$.
+
+
+We have:
+\begin{multline*}
+x^4 + x^3 +  1 = (x^2 + x + 1)(x^2 + x + 1)\\
+ = x^4 + 2x^3 + 3x^2 + 2x + 1 = x^4 + x^2 + 1,
+\end{multline*}
+a contradiction.
+
+
+Hence, $\ol{f}$ is irreducible in $\mathbb{F}_2[x]$, which implies
+that $f$ is irreducible in $\mathbb{Q}[x]$.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{thm}[Eisenstein's Criterion]
+
+
+Let $f = a_0 + a_1 x + \cdots + a_n x^n$ be a polynomial in $\mathbb{Z}[x]$.
+If there exists a prime $p$ such that $p | a_i$ for $0 \leq i < n$, but $p \nmid a_n$ and
+$p^2 \nmid a_0$, then $f$ is irreducible in $\mathbb{Q}[x]$.
+\end{thm}
+\begin{proof}
+
+We prove by contradiction.  Suppose $f$ is not irreducible in $\mathbb{Q}[x]$.
+Then, by Gauss's Theorem, there exists $g = \sum_{k = 0}^l b_kx^k$,
+$h = \sum_{k = 0}^{n - l} c_k x^k \in \mathbb{Z}[x]$, with $\deg g, \deg h < \deg f$,
+such that $f = gh$.
+
+
+Consider the image of these polynomials in $\mathbb{F}_p[x]$.
+By assumption, we have:
+\[
+\ol{a_n}x^n = \ol{f} = \ol{g}\ol{h}.
+\]
+
+This implies that $\ol{g}$ and $\ol{h}$ are divisors of $\ol{a_n}x^n$.
+Since $\mathbb{F}_p$ is a field, unique factorization holds for $\mathbb{F}_p[x]$.
+Hence, we must have:
+\[
+\ol{g} = \ol{b_u}x^u,\quad
+\ol{h} = \ol{c_{n - u}}x^{n - u},
+\]
+for some $u \in \{0, 1, 2,\ldots, l\}$.
+
+
+If $u < l$, then $n - u > n - l \geq \deg \ol{h}$, which cannot hold.
+
+
+So, we conclude that $\ol{g} = \ol{b_l}x^l$, $\ol{h} = \ol{c_{n - l}} x^{n - l}$.
+
+
+In particular, $\ol{b_0} = \ol{c_0} = 0$ in $\mathbb{F}_p$, which implies
+that $p$ divides both $b_0$ and $c_0$.  Since $a_0 = b_0c_0$, we have $p^2 | a_0$,
+a contradiction.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{eg}
+The polynomial $x^5 + 3x^4 - 6x^3 +12x + 3$ is irreducible in $\mathbb{Q}[x]$.
+\end{eg}
+\setcounter{chapter}{12}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 12}
+{\bf Topics: }Field Extensions
+\hrule
+
+
+
+\begin{defn}
+Let $R$ be a ring.
+A subset $S$ of $R$ is said to be a  {\bf subring}  of $R$ if it is a ring under the addition $+_R$ and multiplication $\times_R$ associated with $R$,
+and its additive and multiplicative identity elements $0$, $1$ are those of $R$.
+\end{defn}
+\begin{remark}
+
+To show that a subset $S$ of a ring $R$ is a subring,
+it suffices to show that:
+\begin{itemize}
+\item 
+$S$ contains the additive and multiplicative identity elements of $R$.
+
+\item 
+$S$ is "closed under addition": $a +_R b \in S$ for all $a,b \in S$.
+
+\item 
+$S$ is "closed under multiplication": $a \times_R b \in S$ for all $a, b\in S$.
+
+\item 
+$S$ is closed under additive inverse: For all $a \in S$, the additive inverse $-a$ of $a$
+in $R$ belongs to $S$.
+\end{itemize}
+\end{remark}
+\begin{defn}
+
+A  {\bf subfield}  $k$ of a field $K$ is a subring of $K$ which is a field.
+\end{defn}
+
+In particular, for each nonzero element $r \in k \subseteq K$.  The multiplicative inverse of $r$ in $K$
+lies $k$.
+
+\begin{defn}
+
+Let $K$ be a field and $k$ a subfield.  Let $\alpha$ be an element of $K$.
+We define $k(\alpha)$ to be the smallest subfield of $K$ containing $k$ and $\alpha$.
+In other words, if $F$ is a subfield of $K$ which contains $k$ and $\alpha$, then $F \supseteq k(\alpha)$.
+
+We say that $k(\alpha)$ is obtained from $k$ by  {\bf adjoining}  $\alpha$.
+
+\end{defn}
+
+
+
+
+\begin{thm}
+\label{thm:simpleextthm}
+
+
+Let $k$ be a subfield of a field $K$.  Let $\alpha$ be an element of $K$.
+\begin{enumerate}
+\item 
+If $\alpha$ is a root of a nonzero polynomial $f \in k[x]$
+(viewed as a polynomial in $K[x]$ with coefficients in $k$),
+then $\alpha$ is a root of an irreducible polynomial $p \in k[x]$,
+such that $p | f$ in $k[x]$.
+
+\item 
+Let $p$ be an irreducible polynomial in $k[x]$ of which $\alpha$ is a root.
+Then, the map $\phi : k[x]/(p) \ra K$,
+defined by:
+\[
+\phi\left(\sum_{j = 0}^nc_jx^j + (p)\right) = \sum_{j = 0}^n c_j\alpha^j,
+\]
+is a well-defined one-to-one ring homomorphism with $\im \phi = k(\alpha)$.
+(Here, $\sum_{j = 0}^nc_jx^j + (p)$ is the congruence class of $\sum_{j = 0}^nc_jx^j \in k[x]$
+modulo $(p)$.)
+
+
+
+Hence,
+\[
+k[x]/(p) \cong k(\alpha).
+\]
+
+\item 
+If $\alpha, \beta \in K$ are both roots of an irreducible polynomial $p$ in $k[x]$,
+then there exists a ring isomorphism $\sigma : k(\alpha) \ra k(\beta)$,
+with $\sigma(\alpha) = \beta$ and $\sigma(s) = s$, for all $s \in k$.
+
+\item 
+Let $p$ be an irreducible polynomial in $k[x]$ of which $\alpha$ is a root.
+Then, each element in $k(\alpha)$ has a unique expression of the form:
+\[
+c_0 + c_1\alpha + \cdots + c_{n - 1}\alpha^{n - 1},
+\]
+where $c_i \in k$, and $n = \deg p$.
+\end{enumerate}
+\end{thm}
+
+
+
+\begin{remark}
+
+Suppose $p$ is an irreducible polynomial in $k[x]$ of which $\alpha \in K$ is a root.
+Part 4 of the theorem essentially says that $k(\alpha)$ is a vectors space of dimension $\deg p$
+over $k$, with basis:
+\[
+\{1, \alpha, \alpha^2,\ldots, \alpha^{n - 1}\}.
+\]
+
+\end{remark}
+
+
+
+
+
+
+
+\begin{eg}
+Consider $k = \mathbb{Q}$ as a subfield of $K = \mathbb{R}$.
+The element $\alpha \in \sqrt[3]{2} \in \mathbb{R}$
+is a root of the the polynomial $p = x^3 - 2 \in \mathbb{Q}[x]$,
+which is irreducible in $\mathbb{Q}[x]$ by the Eisenstein's Criterion for the prime $2$.
+
+
+The theorem applied to this case says that $\mathbb{Q}(\alpha)$,
+i.e. the smallest subfield of $\mathbb{R}$ containing $\mathbb{Q}$ and $\alpha$,
+is equal to the set:
+\[
+\{c_0 + c_1 \alpha + c_2 \alpha^2 : c_i \in \mathbb{Q}\}
+\]
+
+The addition and multiplication operations in $\mathbb{Q}(\alpha)$
+are those associated with $\mathbb{R}$, in other words:
+\begin{multline*}
+(c_0 + c_1 \alpha + c_2 \alpha^2) + (b_0 + b_1 \alpha + b_2 \alpha^2)\\
+= (c_0 + b_0) + (c_1 + b_1)\alpha + (c_2 + b_2)\alpha^2,
+\end{multline*}
+
+\begin{multline*}
+(c_0 + c_1 \alpha + c_2 \alpha^2) \cdot (b_0 + b_1 \alpha + b_2 \alpha^2)\\
+= c_0b_0 + c_0b_1\alpha + c_0 b_2\alpha^2 + c_1 b_0\alpha + c_1b_1 \alpha^2\\ +
+c_1b_2\alpha^3 + c_2b_0\alpha^2 + c_2b_1\alpha^3 + c_2b_2\alpha^4\\
+= (c_0 b_0 + 2c_1b_2 + 2c_2b_1) + (c_0b_1 + c_1 b_0 + 2c_2b_2)\alpha \\
++ (c_0 b_2 + c_1 b_1 + c_2 b_0)\alpha^2
+\end{multline*}
+
+\end{eg}
+
+
+
+
+
+
+
+\begin{ex}
+
+Given  a nonzero $\gamma = c_0 + c_1\alpha + c_2 \alpha^2 \in \mathbb{Q}(\alpha)$,
+$c_i \in \mathbb{Q}$, find $b_0, b_1, b_2 \in \mathbb{Q}$ such that
+$b_0 + b_1 \alpha + b_2\alpha^2$ is the multiplicative inverse of $\gamma$ in $\mathbb{Q}(\alpha)$.
+
+\end{ex}
+
+
+
+
+\begin{proof}
+(of \cref{thm:simpleextthm})
+\begin{enumerate}
+\item 
+Define a map $\psi : k[x] \ra K$ as follows:
+\[
+\psi\left(\sum c_j x^j\right) = \sum c_j\alpha^j.
+\]
+
+
+
+ {\bf Exercise:}  $\psi$ is a ring homomorphism.
+
+
+By assumption, $f$ lies in $\ker \psi$.
+Since $k$ is a field, the ring $k[x]$ is a PID.
+So, there exists $p \in k[x]$ such that $\ker \psi = (p)$.
+Hence, $p | f$ in $k[x]$.
+
+
+
+
+By the First Isomorphism Theorem, $\im \psi$ is a subring of $K$
+which is isomorphic to $k[x]/(p)$.  In particular, $\im \psi$ is an integral domain
+because $K$ has no zero divisors.
+Hence, by \cref{thm:pirredfield}, the polynomial $p$ is an irreducible in $k[x]$.
+
+
+
+
+Since $p \in (p) = \ker \psi$, we have $0 = \psi(p) = p(\alpha)$.  Hence,
+$\alpha$ is a root of $p$.
+
+
+\item 
+If $f + (p) = g + (p)$ in $k[x]/(p)$, then $g - f \in (p)$, or equivalently:
+$g =  f + pq$ for some $q \in k[x]$.
+
+
+
+
+Hence, $\phi(g + (p)) = f(\alpha) + p(\alpha)q(\alpha) = f(\alpha) = \phi(f + (p))$.
+
+
+
+
+This shows that $\phi$ is a well-defined map.  We leave it as an exercise to show
+that $\phi$ is a one-to-one ring homomorphism.
+
+
+
+
+We now show that $\im \phi = k(\alpha)$.
+By the First Isomorphism Theorem, $\im \phi$ is isomorphic to $k[x]/(p)$,
+which is a field since $p$ is irreducible.
+Moreover, $\alpha = \phi(x + (p))$ lies in $\im \phi$.  Hence, $\im \phi$ is a subfield
+of $K$ containing $\alpha$.
+
+
+Since each element in $\im \phi$ has the form
+$\sum_{j = 0}^n c_j \alpha^j$, where $c_j \in k$, and fields are closed under addition and multiplication,
+any subfield of $K$ which contains $k$ and $\alpha$ must contain $\im \phi$.
+This shows that $\im \phi$ is the smallest subfield of $K$ containing $k$ and $\alpha$.
+Hence, $k[x]/(p) \cong \im \phi = k(\alpha)$.
+
+
+\item 
+Define $\phi' : k[x]/(p) \ra k(\beta)$ as follows:
+\[
+\phi'\left(\sum c_j x^j + (p)\right) = \sum c_j \beta^j.
+\]
+
+By the same reasoning applied to $\phi$ before, the map $\phi'$
+is a well-defined ring isomorphism, with:
+\[
+\phi'(x + (p)) = \beta,\quad \phi'(s + (p)) = s \text{ for all } s \in k.
+\]
+It is then easy to see that the map
+$\sigma := \phi'\circ\phi^{-1} : k(\alpha) \ra k(\beta)$
+is the desired isomorphism between $k(\alpha)$ and $k(\beta)$.
+
+
+\item 
+Since $\phi$ in Part 2 is an isomorphism,
+we know that each element $\gamma \in k(\alpha)$
+is equal to $\phi(f + (p)) = f(\alpha) := \sum c_j \alpha^j$
+for some $f = \sum c_j x^j \in k[x]$.
+
+
+By the division theorem for $k[x]$.  There exist $m, r \in k[x]$ such that $f = mp + r$,
+with $\deg r < \deg p = n$.  In particular, $f + (p) = r + (p)$ in $k[x]/(p)$.
+
+
+
+
+Write $r = \sum_{j = 0}^{n - 1} b_j x^j$, with $b_j = 0$ if $j > \deg r$.
+
+
+We have:
+\[
+\gamma = \phi(f + (p)) = \phi(r + (p)) = \sum_{j = 0}^{n -1} b_j \alpha^j.
+\]
+
+It remains to show that this expression for $\gamma$ is unique.
+Suppose $\gamma = g(\alpha) = \sum_{j = 0}^{n - 1} b_j' \alpha^j$ for some
+$g = \sum_{j = 0}^{n - 1}b_j'x^j \in k[x]$.
+
+
+Then, $g(\alpha) = r(\alpha) = \gamma$ implies that $\phi(g + (p)) = \phi(r + (p))$,
+hence:
+\[
+(g - r) + (p) \in \ker \phi.
+\]
+
+Since $\phi$ is one-to-one, we have $(g - r) \equiv 0$ modulo $(p)$,
+which implies that $p | (g - r)$ in $k[x]$.
+
+
+Since $\deg g, \deg r < p$, this implies that $g - r = 0$.
+So, the expression $\gamma = b_0 + b_1\alpha + \cdots + b_{n - 1}\alpha^{n - 1}$
+is unique.
+
+
+\end{enumerate}
+\end{proof}
+
+
+
+
+ {\bf Terminology:} 
+\begin{itemize}
+\item 
+If $k$ is a subfield of $K$, we say that $K$ is a  {\bf field extension}  of $k$.
+
+\item 
+Let $\alpha$ be an element in a field extension $K$ of a field $k$.
+If there exists a polynomial $p \in k[x]$ of which $\alpha$
+is a root, then $\alpha$ is said to be  {\bf algebraic}   {\bf over $k$} .
+
+\item 
+If $\alpha \in K$ is algebraic over $k$, then there exists a unique
+ {\it monic irreducible}  polynomial $p \in k[x]$ of which $\alpha$ is a root ( {\bf Exercise} ).
+This polynomial $p$ is called the  {\bf minimal polynomial}  of $\alpha$ over $k$.
+\end{itemize}
+
+For example, $\sqrt[3]{2} \in \mathbb{R}$ is algebraic over $\mathbb{Q}$.
+Its minimal polynomial over $\mathbb{Q}$ is $x^3 - 2$.
+
+
+
+
+\begin{ex}
+
+Find the minimal polynomial of $2 - \sqrt[3]{6} \in \mathbb{R}$ over $\mathbb{Q}$, if it exists.
+\end{ex}
+
+
+
+
+\begin{ex}
+Find the minimal polynomial of $\sqrt[3]{5}$ over $\mathbb{Q}$.
+\end{ex}
+\begin{ex}
+
+Express the multiplicative inverse of $\gamma = 2 + \sqrt[3]{5}$
+in $\mathbb{Q}(\sqrt[3]{5})$ in the form:
+\[
+\gamma^{-1} = c_0 + c_1\sqrt[3]{5} + c_2\left(\sqrt[3]{5}\right),
+\]
+where $c_i \in \mathbb{Q}$, if possible.
+\end{ex}
+
+
+
+
+\section{Splitting Field}
+
+
+\quad\\\hrule
+\quad\\
+
+\begin{eg}
+Since $\sqrt[3]{2} \in \mathbb{Q}(\sqrt[3]{2})$ is a root of $x^3 - 2$,
+the polynomial $p = x^3 - 2$ has a linear factor in
+$\mathbb{Q}(\sqrt[3]{2})[x]$.  More precisely,
+\[
+x^3 - 2 = (x - \sqrt[3]{2})(x^2 + \sqrt[3]{2}x + (\sqrt[3]{2})^2)
+\]
+in $\mathbb{Q}(\sqrt[3]{2})[x]$.
+
+ {\bf Exercise} : Is $x^2 + \sqrt[3]{2}x + (\sqrt[3]{2})^2$
+irreducible in $\mathbb{Q}(\sqrt[3]{2})[x]$?
+\end{eg}
+
+We could repeat this process and adjoin roots of
+$x^2 + \sqrt[3]{2}x + (\sqrt[3]{2})^2$ to $\mathbb{Q}(\sqrt[3]{2})[x]$
+to further "split" the polynomial $x^3 - 2$ into a product of linear factors.
+That is the main idea behind the following theorem:
+
+\begin{thm}
+
+
+If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
+then there exists a field extension $K$ of $k$, such that $f \in k[x] \subseteq K[x]$
+is a product of linear factors in $K[x]$.
+
+
+
+
+In other words, there exists a field extension $K$ of $k$, such that:
+\[
+f = c(x - \alpha_1)\cdots (x - \alpha_n),
+\]
+for some $c, \alpha_i \in K$.
+
+\end{thm}
+
+
+
+
+\begin{ex}
+\begin{enumerate}
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+
+\item  
+{\bf WeBWork}
+\end{enumerate}
+\end{ex}
+\setcounter{chapter}{13}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 13}
+{\bf Topics: }Finite Fields
+\hrule
+
+
+\begin{thm}
+If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
+then there exists a field extension $K$ of $k$, such that $f \in k[x] \subseteq K[x]$
+is a product of linear factors in $K[x]$.
+
+
+
+
+In other words, there exists a field extension $K$ of $k$, such that:
+\[
+f = c(x - \alpha_1)\cdots (x - \alpha_n),
+\]
+for some $c, \alpha_i \in K$.
+
+\end{thm}
+\begin{proof}
+
+We prove by induction on $\deg f$.
+
+
+If $\deg f = 1$, we are done.
+
+
+ {\bf Inductive Step:} 
+Suppose $\deg f > 1$.  Suppose, for any field extension $k'$ of $k$,
+and any polynomial $g \in k'[x]$ with $\deg g < \deg f$,
+there exists a field extension $K$ of $k'$ such that $g$ splits into a product
+of linear factors in $K[x]$.
+
+
+Suppose $f$ is irreducible.  Let $f(t)$ be the polynomial in $k[t]$
+obtained from $f$ by replacing the variable $x$ with the variable $t$.
+Consider $k' := k[t]/(f(t))$.
+Then, $k'$ is a field extension of $k$ if we identify $k$ with the subset
+$\{c + (f(t)) : c \in k\} \subseteq k'$,
+where $c$ is considered as a constant polynomial in $k[t]$.
+
+
+
+
+Observe that $k'$ contains a root $\alpha$ of $f$,
+namely $\alpha = t + (f(t)) \in k[t]/(f(t))$ ( {\bf explained in lecture} ).
+Hence, $f = (x - \alpha)q$ in $k'[x]$ for some polynomial $q \in k'[x]$ with $\deg q < \deg f$.
+
+
+Now, by the induction hypothesis,
+there is an extension field $K$ of $k'$ such that $q$ splits into a product of linear factors in $K[x]$.
+Consequently, $f$ splits into a product of linear factors in $K[x]$.
+
+
+If $f$ is not irreducible, then $f = gh$ for some $g, h \in k[x]$,
+with $\deg g, \deg h < \deg f$.
+So, by the induction hypothesis, there is a field extension $k'$ of $k$
+such that $g$ is a product of linear factors in $k'[x]$.
+
+
+Hence,
+$f = (x - \alpha_1)\cdots(x - \alpha_n) h$ in $k'[x]$.  Since $\deg h < \deg f$,
+by the inductive hypothesis there exists a field extension $K$ of $k'$ such that $h$
+splits into linear factors in $K[x]$.
+
+
+Hence, $f$ is a product of linear factors in $K[x]$.
+
+
+\end{proof}
+
+\section{Finite Fields}
+
+
+
+
+Recall:
+\begin{defn}
+Let $R$ be a ring with additive and multiplicative identity elements $0$, $1$,
+respectively.
+The  {\bf characteristic}  ${\rm char}\, R$ of $R$ is the smallest positive integer $n$
+such that:
+\[
+\underbrace{1 + 1 + \cdots + 1}_{n \text{ times}} = 0.
+\]
+If such an integer does not exist, we say that the ring has  {\bf characteristic zero} .
+\end{defn}
+
+
+
+
+
+
+
+\begin{eg}
+\begin{itemize}
+\item 
+The ring $\mathbb{Q}$ has characteristic zero.
+
+\item 
+${\rm char}\, \mathbb{Z}_6 = 6$.
+\end{itemize}
+\end{eg}
+
+
+
+\begin{ex}
+
+If a ring $R$ as finitely many elements, then it has positive (i.e. nonzero) characteristic.
+
+\end{ex}
+
+
+
+\begin{claim}
+
+If a field $F$ has positive characteristic ${\rm char}\, F$,
+then ${\rm char}\, F$ is a prime number.
+\end{claim}
+
+
+
+\begin{eg}
+
+${\rm char}\,\mathbb{F}_5 = 5$,
+which is prime.
+
+\end{eg}
+
+
+
+\begin{remark}
+
+Note that all finite rings have positive characteristics,
+but there are rings with positive characteristics which have infinitely many elements,
+e.g. the polynomial ring $\mathbb{F}_5[x]$.
+
+\end{remark}
+
+
+
+
+
+
+
+\begin{claim}
+Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
+for some prime $p$ and $n \in \mathbb{N}$.
+\end{claim}
+\begin{proof}
+
+Since $F$ is finite, it has finite characteristic.  Since it is a field,
+$\mathrm{char}\, F$ is a prime $p$.
+
+
+
+
+
+ {\bf Exercise:}  $\mathbb{F}_p$ is isomorphic to a subfield of $F$.
+
+
+
+
+
+Viewing $\mathbb{F}_p$ as a subfield of $F$,
+we see that $F$ is a vector space over $\mathbb{F}_p$.
+Since the cardinality of $F$ is finite, the dimension $n$ of $F$ over $\mathbb{F}_p$
+must necessarily be finite.
+
+
+Hence, there exist $n$ basis elements
+$\alpha_1, \alpha_2,\ldots, \alpha_{n }$ in $F$,
+such that each element of $F$ may be expressed uniquely as:
+\[
+c_1\alpha_1  + c_2\alpha_2 + \cdots + c_{n}\alpha_{n},
+\]
+where $c_i \in \mathbb{F}_p$.
+
+
+Since $\mathbb{F}_p$ has $p$ elements,
+it follows that $F$ has $p^n$ elements.
+
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{claim}
+Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
+then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
+\end{claim}
+\begin{proof}
+
+Let $K = k[t]/(f(t))$,
+then $K$ is a field extension of $k$ which contains a root $\alpha$ of $f$,
+namely, $\alpha = t + (f(t))$.
+
+
+By \cref{thm:simpleextthm},
+$K = k(\alpha)$, and every element in $K$ may be expressed uniquely in the form:
+\[
+c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f.
+\]
+This shows that $K$ is a vector space of dimension $\deg f$ over $k$.
+
+
+\end{proof}
+
+
+
+\begin{cor}
+
+If $k$ is a finite field with $\abs{k}$ elements,
+and $f$ is an irreducible polynomial of degree $n$ in $k[x]$,
+then the field $k[x]/(f)$ has $\abs{k}^n$ elements.
+
+\end{cor}
+
+
+
+
+\begin{eg}
+Let $p = 2$, $n = 2$.  To construct a finite field with $p^n = 4$ elements.
+We first start with the finite field $\mathbb{F}_2$,
+then try to find an irreducible polynomial $f \in \mathbb{F}_2[x]$ such that
+$\mathbb{F}_2[x]/(f)$ has 4 elements.
+
+
+Based on our discussion so far,
+the degree of $f$ should be equal to $n = 2$,
+since $n$ is precisely the dimension of the desired finite field over $\mathbb{F}_2$.
+
+
+Consider $f = x^2 + x + 1$.
+Since $p$ is of degree $2$ and has no root in $\mathbb{F}_2$,
+it is irreducible in $\mathbb{F}_2[x]$.  Hence, $\mathbb{F}_2[x]/(x^2 + x + 1)$
+is a field with $4$ elements.
+
+\end{eg}
+
+
+
+
+
+
+
+\begin{thm}
+( {\bf Galois} )
+Given any prime $p$ and $n \in \mathbb{N}$,
+there exists a finite field $F$ with $p^n$ elements.
+\end{thm}
+\begin{proof}
+(Not within the scope of the course.)
+
+
+Consider the polynomial:
+\[
+f = x^{p^n} - x \in \mathbb{F}_p[x]
+\]
+By Kronecker's theorem, there exists a field extension $K$ of $\mathbb{F}_p$
+such that $f$ splits into a product of linear factors in $K[x]$.
+Let:
+\[
+F = \{\alpha \in K : f(\alpha) = 0\}.
+\]
+
+
+
+\begin{ex}
+Let $g = (x - a_1)(x - a_2)\cdots(x - a_n)$ be a polynomial in $k[x]$,
+where $k$ is a field.  Show that the roots $a_1, a_2, \ldots, a_n$ are distinct
+if and only if $gcd(g, g') = 1$, where $g'$ is the derivative of $g$.
+\end{ex}
+
+In this case, we have $f' = p^n x^{p^n - 1} - 1 = -1$ in $\mathbb{F}_p[x]$.
+Hence, $gcd(f, f') = 1$, which implies by the exercise that the roots of $f$
+are all distinct.  So, $f$ has $p^n$ distinct roots in $K$, hence $F$ has exactly $p^n$ elements.
+
+It remains to show that $F$ is a field.
+Let $q = p^n$.  By definition, an element $a \in K$ belongs to $F$ if and only if
+$f(a) = a^q - a = 0$, which holds if and only if $a^q = a$.
+For $a, b \in F$, we have:
+\[
+(ab)^q = a^qb^a = ab,
+\]
+which implies that $F$ is closed under multiplication.
+Since $K$, being a extension of $\mathbb{F}_p$, has characteristic $p$.
+we have $(a + b)^p = a^p + b^p$.  Hence,
+\begin{multline*}
+(a + b)^q = (a + b)^{p^n} = ((a + b)^p)^{p^{n - 1}} = (a^p  + b^p)^{p^{n - 1}}\\
+= (a^p + b^p)^p)^{p^{n - 2}} = (a^{p^2} + b^{p^2})^{p^{n - 2}}\\
+ = \cdots = a^{p^n} + b^{p^n} = a + b,
+\end{multline*}
+which implies that  $F$ is closed under addition.
+
+Let $0, 1$ be the additive and multiplicative identity elements, respectively, of $K$.
+Since $0^q = 0$ and $1^q = 1$, they are also the additive and multiplicative identity elements of $F$.
+
+For nonzero $a \in F$, we need to prove the existence of
+the additive and multiplicative inverses of $a$ in $F$.
+
+Let $-a$ be the additive inverse of $a$ in $K$.
+Since $(-1)^q = -1$ (even if $p = 2$, since $1 = -1$ in $\mathbb{F}_2$),
+we have:
+\[
+(-a)^q = (-1)^q a^q = -a,
+\]
+so $-a \in F$.  Hence, $a \in F$ has an additive inverse in $F$.
+
+Since $a^q = a$ in $K$, we have:
+\[
+a^{q - 2} a = a^{q - 1} = 1
+\]
+in $K$.  Since $a \in F$ and $F$ is closed under multiplication,
+$a^{q - 2} = \underbrace{a\cdots a}_{q-2 \text{ times}}$ lies in $F$.
+So, $a^{q -2}$ is a multiplicative inverse of $a$ in $F$.
+
+
+\end{proof}
+
+\end{document}

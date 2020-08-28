@@ -1,0 +1,1127 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <slides environment="" chapter_type="">
+    <slide environment="" chapter_type="" id="s1" slide="1" course="" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="1" environ="slide" chapter="" course=""/>#course{Math 2070}
+#week{5}
+#topic{Group Homomorphisms}
+#topic{Rings}
+</slide>
+    <slide environment="" chapter_type="" wbtag="slide" id="s2" slide="2" course="" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="2" environ="slide" chapter="" course=""/>
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" style="display:none" environment="">$\newcommand{\ord}{\mathrm{ord}\,}$</xh:div>
+</slide>
+  </slides>
+  <course environment="" chapter_type="" title="Math 2070" wbtag="course">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">isomorphic</keyword>
+      <keyword chapter="" slide="all">Product Group</keyword>
+      <keyword chapter="" slide="all">Product Group</keyword>
+      <keyword chapter="" slide="all">isomorphic</keyword>
+      <keyword chapter="" slide="all">Rings</keyword>
+      <keyword chapter="" slide="all">Some Results in Elementary Number Theory</keyword>
+      <keyword chapter="" slide="all">remainder</keyword>
+      <keyword chapter="" slide="all">Greatest Common Divisor</keyword>
+      <keyword chapter="" slide="all">Euclidean Algorithm</keyword>
+      <keyword chapter="" slide="all">Division Theorem</keyword>
+      <keyword chapter="" slide="all">Math 2070</keyword>
+    </keywords>
+    <title environment="" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 2070" title="Math 2070" id="s3" slide="3" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" slide="3">Math 2070</title><keywords slide="3" environ="slide" chapter="" course="Math 2070"><keyword chapter="" slide="3">Math 2070</keyword></keywords>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" wbtag="week" num="5" topic="Group Homomorphisms, Rings" course="Math 2070">
+      <keywords slide="all" environ="chapter" chapter="5" course="Math 2070">
+        <keyword chapter="5" slide="all">isomorphic</keyword>
+        <keyword chapter="5" slide="all">Product Group</keyword>
+        <keyword chapter="5" slide="all">Product Group</keyword>
+        <keyword chapter="5" slide="all">isomorphic</keyword>
+        <keyword chapter="5" slide="all">Rings</keyword>
+        <keyword chapter="5" slide="all">Some Results in Elementary Number Theory</keyword>
+        <keyword chapter="5" slide="all">remainder</keyword>
+        <keyword chapter="5" slide="all">Greatest Common Divisor</keyword>
+        <keyword chapter="5" slide="all">Euclidean Algorithm</keyword>
+        <keyword chapter="5" slide="all">Division Theorem</keyword>
+      </keywords>
+      <title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" slide="">Group Homomorphisms</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" slide="">Rings</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s4" slide="4" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="4"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="4">Group Homomorphisms</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="4">Rings</topic><keywords slide="4" environ="slide" chapter="5" course="Math 2070"/>
+
+
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s5" slide="5" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="5" environ="slide" chapter="5" course="Math 2070"><keyword chapter="5" slide="5">isomorphic</keyword></keywords><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">isomorphic</hc_keyword>
+
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="1" md5="224ec41686eb81f448eb4424cb858088" course="Math 2070" chapter="5" slide="5" item="5.1">
+Any cyclic group of finite order $n$ is isomorphic to $\mathbb{Z}_n$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e97772519646fa9e27646048ea2e57de" course="Math 2070" chapter="5" slide="5" of="224ec41686eb81f448eb4424cb858088">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Sketch of Proof:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+By definition, a cyclic group $G$ is equal to $\langle g\rangle$ for some $g \in G$.
+Moreover, $\ord g = \ord G$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+Define a map $\phi : G \longrightarrow \mathbb{Z}_n$ as follows:
+\[
+\phi(g^k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
+\]
+Show that $\phi$ is a group isomorphism.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+(For reference, see the discussion of <ref environment="newcol" chapter_type="" label="eg:cycliczn" wbtag="ref" course="Math 2070" chapter="5" slide="5" src-course="Math 2070" src-chapter="4" src-slide="16" type="Example" item="4.18" title="" src-filename="week4.xml" md5="97262e8e7e50157ce4cd91b14e006c5a" class="knowl" name=""/>.)
+</newcol></substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="2" md5="ff3ef66891040a4056d5746b5624786d" course="Math 2070" chapter="5" slide="5" item="5.2">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+If $G$ and $G'$ are two finite cyclic groups of the same order, then $G$ is isomorphic to $G'$.
+</newcol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="76673133d25458f8733b416471fbd3d5" course="Math 2070" chapter="5" slide="5" item="5.3">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+An infinite cyclic group is isomorphic to $(\mathbb{Z}, +)$.
+</newcol></statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" md5="c958591f35ad613fa483cd322ceffd18" course="Math 2070" chapter="5" slide="5" item="5.4">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Let $G$ be a cyclic group, then any group which is isomorphic to $G$ is also cyclic.
+</newcol></statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s6" slide="6" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="6" environ="slide" chapter="5" course="Math 2070"><keyword chapter="5" slide="6">Product Group</keyword><keyword chapter="5" slide="6">Product Group</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Product Group</xh:h3>
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" style="display:none" environment="">Product Group</xh:b>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+Let $(A, \ast_A), (B, \ast_B)$ be groups.  The direct product:
+\[
+A \times B := \{(a, b)\;|\; a\in A, b \in B\}
+\]
+has a natural group structure 
+where the group operation $\ast$ is defined as follows:
+\[
+(a, b)\ast(a', b') = (a\ast_A a', b\ast_B b'), \quad (a, b), (a', b') \in A\times B. 
+\]
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+The identity element of $A \times B$ is $e = (e_A, e_B)$, where $e_A, e_B$ 
+are the identity elements of $A$ and $B$, respectively.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+For any $(a, b) \in A \times B$, we have $(a, b)^{-1} = (a^{-1}, b^{-1})$,
+where $a^{-1}$, $b^{-1}$ are the inverses of $a$, $b$ in the groups $A$, $B$, 
+respectively.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+For any collection of groups $A_1, A_2, \ldots, A_n$,
+we may similarly define a group operation $\ast$ on:
+\[
+A_1 \times A_2 \times \cdots \times A_n
+:= \{(a_1, a_2, \ldots, a_n)\;|\;a_i \in A_i, i = 1, 2, \ldots n\}.
+\]
+That is:
+\[
+(a_1, a_2, \ldots, a_n)\ast (a_1', a_2', \ldots, a_n')
+=
+(a_1\ast_{A_1} a_1', a_2\ast_{A_2} a_2', \ldots, a_n \ast_{A_n} a_n')
+\]
+The identity element of $A_1 \times A_2 \times \cdots \times A_n$ is:
+\[
+e = (e_{A_1}, e_{A_2}, \ldots, e_{A_n}).
+\]
+For any $(a_1, a_2, \ldots, a_n) \in A_1 \times A_2 \times \cdots \times A_n$, 
+its inverse is:
+\[
+(a_1, a_2, \ldots, a_n)^{-1} = (a_1^{-1}, a_2^{-1}, \ldots, a_n^{-1}).
+\]
+</collapse></collapse></newcol></slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s7" slide="7" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="7" environ="slide" chapter="5" course="Math 2070"><keyword chapter="5" slide="7">isomorphic</keyword></keywords><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">isomorphic</hc_keyword>
+
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="5" md5="28b7caeaa658281f2213fca1d9e8dd59" course="Math 2070" chapter="5" slide="7" item="5.5">
+$\mathbb{Z}_6$ is isomorphic to $\mathbb{Z}_2\times\mathbb{Z}_3$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="34cb6e03c272f66e6adec049748a1d59" course="Math 2070" chapter="5" slide="7" of="28b7caeaa658281f2213fca1d9e8dd59">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Hint:</xh:strong>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+Show that $\mathbb{Z}_2\times\mathbb{Z}_3$ is a cyclic group generated by $(1, 1)$.
+</newcol></substatement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="098c417f4cb5297f8ea505fb51cfb1de" course="Math 2070" chapter="5" slide="7" item="5.6">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+The cyclic group $\mathbb{Z}_4$ is not isomorphic to $\mathbb{Z}_2 \times \mathbb{Z}_2$.
+</newcol></statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="57b96aa2ec328868339bffa1f4b9aa60" course="Math 2070" chapter="5" slide="7" of="098c417f4cb5297f8ea505fb51cfb1de">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Each element of $G = \mathbb{Z}_2\times\mathbb{Z}_2$ is of order at most $2$.
+Since $\abs{G} = 4$, $G$ cannot be generated by a single element.  
+Hence, $G$ is not cyclic,
+so it cannot be isomorphic to the cyclic group $\mathbb{Z}_4$.
+<qed environment="newcol" chapter_type=""/>
+</newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s8" slide="8" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="8" environ="slide" chapter="5" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="7" md5="8bc50a21b96cf105cd6ea4c5aa9c06c0" course="Math 2070" chapter="5" slide="8" item="5.7">
+Let $G$ be an abelian group, then any group which is isomorphic to $G$ is abelian.
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="5e221127a6ce6e70c99a2a01d78050e2" course="Math 2070" chapter="5" slide="8" item="5.8">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+The group $D_6$ has $12$ elements.  We have seen that $D_6 = \langle r_1, s\rangle$, where $r_1$ is a rotation of order $6$,
+and $s$ is a reflection, which has order $2$.  So, it is reasonable to ask if $D_6$ is isomorphic to $\mathbb{Z}_6 \times \mathbb{Z}_2$.  The answer is no.
+For $\mathbb{Z}_6 \times \mathbb{Z}_2$ is abelian, but $D_6$ is not.
+</newcol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s9" slide="9" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="9" environ="slide" chapter="5" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="5fea1767dbc70eac51394f4d00e15c74" course="Math 2070" chapter="5" slide="9" item="5.9">
+The dihedral group $D_3$ is isomorphic to the symmetric group $S_3$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="57a57301f3edcf9965592e366ba0cbbd" course="Math 2070" chapter="5" slide="9" of="5fea1767dbc70eac51394f4d00e15c74">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+We have seen that $D_3 = \langle r, s\rangle$, where $r = r_1$ and 
+$s$ is any fixed reflection,
+with:
+\[
+\ord r = 3,\quad \ord s = 2,\quad srs = r^{-1}.
+\]
+In particular , any element in $D_3$ may be expressed as $r^is^j$,
+with $i \in \{0, 1, 2\}$, $j \in \{0, 1\}$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+We have also seen that $S_3 = \langle a, b \rangle$, 
+where:
+\[
+a = (123),\quad b = (12),\quad \ord a = 3,\quad \ord b = 2, \quad bab = a^{-1}.
+\]
+Hence, any element in $S_3$ may be expressed as $a^ib^j$,
+with $i \in \{0, 1, 2\}$, $j \in \{0, 1\}$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Define map $\phi: D_3 \longrightarrow S_3$ as follows:
+\[
+\phi(r^is^j) = a^ib^j, \quad i, j \in \mathbb{Z}
+\]
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+We first show that $\phi$ is well-defined:
+That is, whenever $r^i s^j = r^{i'}s^{j'}$,
+we want to show that:
+\[
+\phi(r^i s^j) = \phi(r^{i'}s^{j'}).
+\]
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+The condition $r^i s^j = r^{i'}s^{j'}$ implies that:
+\[
+r^{i - i'} = s^{j' - j}
+\]
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+This holds only if  $r^{i - i'} = s^{j' - j} = e$,
+since no rotation is a reflection.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Since $\ord r = 3$ and $\ord s = 2$, we have:
+\[
+3 | (i - i'), \quad 2 | (j' - j),
+\]
+by <ref environment="newcol" chapter_type="" label="thm:orderdividesn" wbtag="ref" course="Math 2070" chapter="5" slide="9" src-course="Math 2070" src-chapter="2" src-slide="4" type="Theorem" item="2.2" title="" src-filename="week2.xml" md5="682fc761ecf19d9c07d8b7b1a587af06" class="knowl" name=""/>.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Hence,
+<steps environment="newcol" chapter_type="" stepsid="steps1">
+\begin{align*}
+\phi(r^is^j) \phi(r^{i'}s^{j'})^{-1} 
+&amp;= (a^ib^j)(a^{i'}b^{j'})^{-1}
+&amp;
+\\
+&amp;
+\class{steps1 steps}{= a^i b^jb^{-j'} a^{-i'}} 
+&amp;
+\\
+&amp;
+\class{steps1 steps}{= a^i b^{j - j'} a^{-i'}} 
+&amp;
+\\
+&amp;
+\class{steps1 steps}{= a^{i - i'}} 
+&amp;
+\class{steps1 steps}{\text{ since } \ord b = 2.}
+\\
+&amp;
+\class{steps1 steps}{ = e} 
+&amp;
+\class{steps1 steps}{\text{ since } \ord a = 3.}
+\end{align*}
+</steps>
+This implies that 
+$\phi(r^is^j) = \phi(r^{i'}s^{j'})$.
+We conclude that $\phi$ is well-defined.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+We now show that $\phi$ is a group homomorphism:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Given $\mu, \mu' \in \{0, 1, 2\}$, $\nu, \nu' \in \{0, 1\}$, we have:
+\[
+\phi(r^\mu s^\nu \cdot r^{\mu'}s^{\nu'}) = 
+\begin{cases}
+\phi(r^{\mu + \mu'}s^{\nu'}),&amp;\text{if } \nu = 0;\\
+\phi(r^{\mu - \mu'}s^{\nu + \nu'}),&amp;\text{if } \nu = 1.
+\end{cases}
+\]
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+\[
+=
+\begin{cases}
+a^{\mu + \mu'}b^{\nu'},&amp;\text{if } \nu = 0;\\
+a^{\mu - \mu'}b^{\nu + \nu'} = a^{\mu}b^{\nu}a^{\mu'}b^{\nu'},&amp;\text{if } \nu = 1.
+\end{cases}
+\]
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+\[
+=\phi(r^\mu s^\nu)\phi(r^{\mu'}s^{\nu'}).
+\]
+This shows that $\phi$ is a group homomorphism.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+To show that $\phi$ is a group isomorphism,
+it remains to show that it is surjective and one-to-one.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+It is clear that $\phi$ is surjective.  We leave it as an exercise
+to show that $\phi$ is one-to-one.
+<qed environment="newcol" chapter_type=""/>
+</collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s10" slide="10" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="10" environ="slide" chapter="5" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="88897c4e46dbb05c5c9e87d8678deeb6" course="Math 2070" chapter="5" slide="10" item="5.10">
+The group:
+\[
+G = \left\{g \in \mathrm{GL}(2, \mathbb{R}) \,\left|\,
+g = \left(
+\begin{matrix}
+\cos \theta &amp; -\sin \theta\\
+\sin \theta &amp; \cos \theta
+\end{matrix}
+\right) \text{ for some } \theta \in \mathbb{R}
+\right.
+\right\}
+\]
+is isomorphic to
+\[
+G' = \{z \in \mathbb{C} : \abs{z} = 1\}.
+\]
+Here, the group operation on $G$ is matrix multiplication, and the group operation on $G'$ is the multiplication of complex numbers.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Each element in $G'$ is equal to $e^{i\theta}$ for some $\theta \in \mathbb{R}$.
+Define a map $\phi : G \ra G'$ as follows:
+\[
+\phi\left(\left(
+\begin{matrix}
+\cos \theta &amp; -\sin \theta\\
+\sin \theta &amp; \cos \theta
+\end{matrix}
+\right)\right) = e^{i\theta}.
+\]
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Exercise:</xh:b> 
+Show that $\phi$ is a well-defined map.
+Then, show that it is a bijective group homomorphism.
+</newcol></statement>
+<!--
+@slide
+@eg
+The group $G = \GL(2, \mathbb{F}_2)$ is isomorphic to $S_3$.
+@end
+<hr/>
+The group $G$ has  $6$ elements.  They are as follows:
+\[
+g_1 = \left(
+\begin{matrix}
+1& 0\\
+0& 1
+\end{matrix}
+\right),
+g_2 = \left(
+\begin{matrix}
+0& 1\\
+1& 0
+\end{matrix}
+\right),
+g_3 = \left(
+\begin{matrix}
+1& 1\\
+0& 1
+\end{matrix}
+\right),
+\]
+\[
+g_4 = \left(
+\begin{matrix}
+1& 0\\
+1& 1
+\end{matrix}
+\right),
+g_5 = \left(
+\begin{matrix}
+1& 1\\
+1& 0
+\end{matrix}
+\right),
+g_6 = \left(
+\begin{matrix}
+0& 1\\
+1& 1
+\end{matrix}
+\right)
+\]
+<br wbtag="newline"/>
+Observe that matrix multiplication on the left by each of these matrices
+determines a unique permutation of the following three vectors.
+\[
+v_1 = \left(\begin{matrix}
+1\\0
+\end{matrix}
+\right),
+v_2 = \left(\begin{matrix}
+0\\1
+\end{matrix}
+\right),
+v_3 = \left(\begin{matrix}
+1\\1
+\end{matrix}
+\right).
+\]
+<br wbtag="newline"/>
+Hence, each element may be identify with an element in $S_3$.
+In other words, there exists a map $\psi : G \ra S_3$.
+For example, the left multiplication by $g_2$ permutes switches $v_1$ and $v_2$, and leaves $v_3$ fixed.
+So, $\psi(g_2) = (12)$.
+<p/>
+<b>Exercise:</b> Show that $\psi$ is a group isomorphism.
+-->
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<!-- 
+<h2>Normal Subgroups</h2>
+<br wbtag="newline"/>
+Let $G$ be a group.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Definition.</h5>
+Two elements $g, h \in G$ are said to be <b>conjugate</b> if there exists $x \in G$
+such that $x g x^{&#45;1} = h$.
+<p/></blockquote><hr>Note that conjugacy is an equivalence relation.
+<br wbtag="newline"/>
+For each $h \in G$, the set:
+\[
+h^G := \{xhx^{&#45;1} : x \in G\}
+\]
+is call the <b>conjugacy class</b> of $h$.
+Note that $h_1, h_2 \in G$ are conjugate if and only if $h_1^G = h_2^G$.
+<br wbtag="newline"/>
+Since conjugacy is an equivalence relation, $G$ is a disjoint union of conjugacy classes.
+<br wbtag="newline"/>
+Given a subgroup $H$ of $G$, and a fixed element $x \in G$,
+the set:
+\[
+xHx^{&#45;1} := \{xhx^{&#45;1} : h \in G\}
+\]
+is also a subgroup of $G$.
+We say that the subgroups $xHx^{&#45;1}$ and $H$ are conjugate.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Definition.</h5>
+If $H = xHx^{&#45;1}$ for all $x \in G$, we say that $H$ is a <b>normal subgroup.</b>
+<p/></blockquote><hr>If other words, $H$ is a normal subgroup of $G$ if for all $h \in H$ and $x \in G$,
+we have $xhx^{&#45;1} \in H$.
+<br wbtag="newline"/>
+\quad\\
+<b>Note.</b> $H$ is a normal subgroup if and only if for all $g \in G$, we have $gHg^{&#45;1} \subseteq H$.
+<br wbtag="newline"/>
+\quad\\
+<b>Note.</b> If $G$ is abelian, then every subgroup of $H$ is normal.
+<br wbtag="newline"/>
+<h2>Quotient Groups</h2>
+An interesting fact is that if $H$ is a normal subgroup of a group $G$, then the collection of left cosets of $H$ in $G$
+has a natural group structure.
+<br wbtag="newline"/>
+\quad\\
+<b>Notation:</b>
+Let $G$ be a group, let $H$ be a normal subgroup of $G$,
+we denote the collection of left cosets of $H$ in $G$ by $G/H$.
+<br wbtag="newline"/>
+For cosets $H_1$, $H_2$ of $H$ in $G$, let:
+\[
+H_1 \cdot H_2 := \{h_1h_2 : h_1 \in H_1, h_2 \in H_2\}.
+\]
+\quad\\
+<p/><blockquote><h5>Claim.</h5>
+$H_1 \cdot H_2$ is a left coset of $H$.
+More precisely, if $H_i = g_i H$ ($i = 1, 2$),
+then $H_1\cdot H_2 = g_1g_2 \in H$.
+<p/></blockquote><hr>
+First we show that $g_1H \cdot g_2H \subseteq g_1g_2H$.
+Namely, for all $h_1, h_2 \in H$, we want to show that $g_1h_1g_2h_2 = g_1g_2h$ for some $h \in H$.
+Observe that:
+\[
+g_1h_1g_2h_2 = g_1 (g_2g_2^{&#45;1})h_1g_2h_2 = g_1 g_2\cdot(g_2^{&#45;1}h_1g_2)h_2
+\]
+Since $H$ is a normal subgroup, $g_2^{&#45;1}h_1g_2$ belongs to $H$.
+Hence, $h = g_2^{&#45;1}h_1g_2h_2$ lies in $H$, and $g_1h_1g_2h_2 = g_1g_2 h \in g_1g_2H$.
+<br wbtag="newline"/>
+Conversely,
+for each element $g_1g_2 h \in g_1g_2 H$, where $h \in H$,
+we have: $g_1g_2 h = (g_1\cdot e)g_2 h \in g_1H \cdot g_2H$,
+since the identity element $e$ of $G$ lies in the subgroup $H$.
+Hence, $g_1g_2 H \subseteq g_1H \cdot g_2 H$.
+<br wbtag="newline"/>
+We conclude that $g_1H\cdot g_2 H = g_1g_2 H$.
+<br wbtag="newline"/>
+Hence, $\cdot$ is a well&#45;defined binary operation on $G/H$.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Claim.</h5>
+Let $H$ be a normal subgroup of a group $G$.
+<ul>
+<li>[Associativity:]
+For all cosets $H_1, H_2, H_3$ of $H$ in $G$, we have:
+$(H_1\cdot H_2)\cdot H_3 = H_1\cdot (H_2\cdot H_3)$.
+%% In other words, the multiplication of left cosets is associative.
+<br wbtag="newline"/>
+<li>[Identity:]
+For all left cosets $gH$ of $H$ in $G$, we have $g H\cdot H = H\cdot gH = gH$.
+%% Hence, $H$ is an identity element with respect to the multiplication of left cosets.
+<br wbtag="newline"/>
+<li>[Inverse:]
+For all $g \in G$, we have $g H \cdot g^{&#45;1} H = H$.
+%% In other words, each coset has an inverse with respect to the multiplication of left cosets.
+</ul>
+<p/></blockquote><hr>
+\begin{cor}
+The set $G/H$ is a group under the multiplication $\cdot$ defined above.
+Its identity element is the left coset $H$, and $(gH)^{&#45;1} = g^{&#45;1}H$
+for all $gH \in G/H$.
+\end{cor}
+\quad\\
+<b>Terminology.</b>
+We call $G/H$ the <b>quotient group</b> of $G$ by $H$,
+the quotient group of $G$ mod $H$, or simply ``$G$ mod $H$''
+<br wbtag="newline"/>
+Note that the order of $G/H$ is equal to $[G : H]$.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Example.</h5>
+For all $n \in \mathbb{N}$,
+The set $H = n\mathbb{Z}$ is a normal subgroup of $G = (\mathbb{Z}, +)$.
+The quotient group $G/H = \mathbb{Z}/n\mathbb{Z}$ is isomorphic to $(\mathbb{Z}_n, +)$.
+<p/></blockquote><hr>
+<p/><blockquote><h5>Example.</h5>
+In $D_n$, the subgroup $H$ consisting of all rotations is a normal subgroup (<b>Exercise.</b>)
+Since $D_n = H \sqcup sH$, where $s$ is any reflection,
+the quotient group $D_n/H$ is a group of order $2$.
+Hence, $D_n/H$ is isomorphic to $(\mathbb{Z}_2, +)$.
+<p/></blockquote><hr>
+<p/><blockquote><h5>Claim.</h5>
+If $H$ is a normal subgroup of a group $G$, then the map $\phi : G \ra G/H$
+defined by $\phi(g) = gH$, for all $g \in G$, is a surjective group homomorphism.
+<p/></blockquote><hr>
+<b>Exercise.</b>
+<br wbtag="newline"/>
+<p/><blockquote><h5>Claim.</h5>
+Let $\phi : G \ra G'$ be a group homomorphism.  The kernel $\ker \phi$ is a normal subgroup of $G$.
+<p/></blockquote><hr>
+<b>Exercise.</b>
+<br wbtag="newline"/>
+<p/><blockquote><h5>Theorem.</h5>[First Isomorphism Theorem]
+Let $\phi : G \ra G'$ be a homomorphism of groups.
+Then, $\ker \phi$ is a normal subgroup of $G$, and $G/\ker \phi$ is isomorphic to $\im \phi$.
+<p/></blockquote><hr>
+<b>Shown in class.</b>
+<br wbtag="newline"/>
+<p/><blockquote><h5>Example.</h5>
+Let $G = (\mathbb{R}, +)$.  Let $S^1 = \{e^{i t} : t \in \mathbb{R}\}$.\\
+<b>Exercise:</b> The map $\phi : G \ra S^1$ defined by $\phi(x) = e^{i2\pi x}$, $x \in \mathbb{R}$,
+is a surjective group homomorphism, with $\ker\phi = \mathbb{Z}$.
+<br wbtag="newline"/>
+Hence, by the First Isomorphism Theorem, the group $S^1$ is isomorphic to $\mathbb{R}/\mathbb{Z}$.
+<p/></blockquote><hr>\quad\\
+<b>Exercise:</b> If $H$ is a normal subgroup of a group $G$, and $J$ is a subgroup of $G$ containing $H$,
+then $H$ is a normal subgroup of $J$.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Theorem.</h5>[Third Isomorphism Theorem]
+Let $G$ be a group.  Let $H, K$ be normal subgroups of $G$ such that $K$ is a subgroup of $H$.
+Then, $H/K$ is a normal subgroup of $G/K$, and:
+\[
+(G/K)/(H/K) \cong G/H
+\]
+<p/></blockquote><hr>
+Let $\phi : G/K \ra G/H$ be the map defined by:
+\[
+\phi(gK) = gH, \quad \text{ for all } g \in G.
+\]
+If $gK = g'K$, then $g^{&#45;1}g' \in K \subseteq H$, which implies that $\phi(gK) = gH = g'H = \phi(g'K)$.
+Hence, the map $\phi$ is well&#45;defined.
+<br wbtag="newline"/>
+<b>Exercise:</b> $\phi$ is a surjective homomorphism.
+<br wbtag="newline"/>
+For $gK \in G/K$, we have $\phi(gK) = gH = H$ if and only if $g \in H$,
+which is equivalent to $gK \in H/K$.  Hence, $\ker \phi = H/K$,
+which implies that $H/K$ is a normal subgroup of $G/H$.
+It follows from the First Isomorphism theorem that:
+\[
+G/H \cong (G/K)/\ker \phi = (G/K)/(H/K).
+\]
+<br wbtag="newline"/>
+\quad\\
+<b>Exercise:</b> Every subgroup of a cyclic group is cyclic.\\
+<b>Exercise:</b> Every quotient of a cyclic group is cyclic.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Example.</h5>
+Let $m, n$ be natural numbers, then $m\mathbb{Z}/mn\mathbb{Z} \cong \mathbb{Z}_n$
+<p/></blockquote><hr>
+Let $G = \mathbb{Z}$, $K = mn\mathbb{Z}$, $H = m\mathbb{Z}$.
+Since $G$ is abelian, $H, K$ are normal subgroups of $G$.  Moreover, $K$ is a subgroup of $H$.
+By the Third Isomorphism Theorem, we have:
+\[
+(\mathbb{Z}/mn\mathbb{Z})/(m\mathbb{Z}/mn\mathbb{Z}) = (G/K)/(H/K)
+\cong G/H = \mathbb{Z}/m\mathbb{Z}.
+\]
+In particular,
+\begin{multline*}
+\frac{\abs{(\mathbb{Z}/mn\mathbb{Z})}}{\abs{(m\mathbb{Z}/mn\mathbb{Z})}}
+=
+[\mathbb{Z}/mn\mathbb{Z} : m\mathbb{Z}/mn\mathbb{Z}]
+\\= \abs{(\mathbb{Z}/mn\mathbb{Z})/(m\mathbb{Z}/mn\mathbb{Z})}
+ = \abs{\mathbb{Z}/m\mathbb{Z}} = \abs{\mathbb{Z}_{m}} = m.
+\end{multline*}
+Since $\abs{(\mathbb{Z}/mn\mathbb{Z})} = mn$, we deduce that
+$m\mathbb{Z}/mn\mathbb{Z}$ is a cyclic group of order $n$, so it must be isomorphic to $\mathbb{Z}_n$.
+<br wbtag="newline"/>
+\chapter[]{Appendix}
+<br wbtag="newline"/>
+<p/><blockquote><h5>Theorem.</h5>[Second Isomorphism Theorem]
+Let $G$ be a group.  Let $N, H$ be subgroups of $G$.
+If $N$ is a normal subgroup, then (i) $HN := \{hn : h \in H, n \in N\}$ is a subgroup of $G$,
+(ii) $H\cap N$ is a normal subgroup of $H$,
+and (iii):
+\[
+H/(H \cap N) \cong HN/N
+\]
+<p/></blockquote><hr>(Note that $HN/N$ is a well&#45;defined quotient group because by the previous exercise $N$ is a normal subgroup of $HN$.)
+<br wbtag="newline"/>
+Proof of (i):\\
+<ul>
+<li>
+For $h, h' \in H$, $n, n' \in N$, we want to show that $(hn)(h'n')$ lies in $HN$.
+Since $N$ is a normal subgroup of $G$, $h'^{&#45;1}nh'$ lies in $H$,
+hence:
+\[
+hnh'n' = hh'(h'^{&#45;1}nh')n'
+\]
+lies in $HN$.
+<li>
+Since the identity element $e$ of $G$ belongs to both $H$ and $N$,
+it is clear that it lies in $HN$.
+<li>
+Given $hn \in HN$, its inverse in $G$ is:
+\[
+n^{&#45;1}h^{&#45;1} = h^{&#45;1}h n^{&#45;1}h^{&#45;1} = h^{&#45;1}(h n^{&#45;1}h^{&#45;1}),
+\]
+which lies in $HN$, since $N$ is a normal subgroup of $G$.
+</ul>
+It now follows that $HN$ is a subgroup of $G$.
+%
+\quad\\
+Proof of (ii):
+<b>Exercise.</b>\\
+Proof of (iii):
+Define a map $\phi : H \ra  HN/N$ as follows:
+\[
+\phi(h) = hN,\quad \text{ for all } h \in H.
+\]
+By definition of a quotient group,
+multiplication in $HN/N$ is given by $hnN \cdot h'n'N = hnh'n'N$,
+so:
+\[
+\phi(h)\phi(h') = hN\cdot h'N = hh'N = \phi(hh').
+\]
+Hence, $\phi$ is a group homomorphism.
+<br wbtag="newline"/>
+The identity element of $HN/N$ is the left coset $eN = N$.
+An element $h \in H$ lies in $\ker \phi$ if and only if $\phi(h) = hN = N$,
+and that holds if and only if $h \in N$.  Hence, $\ker \phi = H\cap N$.
+<br wbtag="newline"/>
+Each element of $HN/N$ is a left coset
+of the form $hn N = hN = \phi(h)$, where $h \in H$.
+Hence, $\phi$ is surjective.
+<br wbtag="newline"/>
+It now follows from the First Isomorphism Theorem that:
+\[H/(H\cap N) = H/\ker \phi \cong HN/N.\]
+<br wbtag="newline"/>
+<p/><blockquote><h5>Example.</h5>
+Let $G = \mathbb{Z}$, $H = 6\mathbb{Z}$, $N = 4\mathbb{Z}$, with addition as the group operation.
+Since $G$ is abelian, all its subgroups are normal.
+We have $HN = 6\mathbb{Z} + 2\mathbb{Z} = \{6i + 4j : i, j \in \mathbb{Z}\} = gcd(6, 4)\mathbb{Z} = 2 \mathbb{Z}$.
+<br wbtag="newline"/>
+<b>Exercise:</b>  $H \cap N = 6\mathbb{Z} \cap 4\mathbb{Z}$ is equal to $12 \mathbb{Z}$.
+<br wbtag="newline"/>
+Applying the result of the previous example,
+we see that the Second Isomorphism Theorem applied to this case says that:
+\[
+\mathbb{Z}_2 \cong 6\mathbb{Z}/12\mathbb{Z}
+= 6\mathbb{Z}/(6\mathbb{Z} \cap 4\mathbb{Z}) = H/(H\cap N) \cong HN/N
+= 2\mathbb{Z}/4\mathbb{Z} \cong \mathbb{Z}_2,
+\]
+which indeed holds.
+%
+%% If one thinks deeper still, one could see that the Second Isomorphism Theorem applied to $\mathbb{Z}$ is essentially the
+%% statement:
+%% \[
+%% lcm(m, n) = \frac{mn}{gcd(m, n)}
+%% \]
+<p/></blockquote><hr>
+{\color{red} End Apr 17}
+\newpage
+<br wbtag="newline"/>
+<p/><blockquote><h5>Definition.</h5>
+Given two groups $(G, *)$ and $(G', *')$, the <b>product group</b>
+$G\times G'$ is the set $\{(g, g'), g \in G, g\in G'\}$
+equipped with the group operation defined by $(a, a')\cdot(b, b') = (a*b, a'*'b')$.
+The identity element of $G\times G'$ is $(e_G, e_{G'})$,
+and $(g, g')^{&#45;1} = (g^{&#45;1}, g'^{&#45;1})$ for all $(g, g') \in G\times G'$.
+<p/></blockquote><hr>
+<p/><blockquote><h5>Theorem.</h5>
+Let $G$ be a group.  If $H$, $K$ are subgroup of $G$ such that $HK = G$, $H \cap K = \{e\}$,
+and every element of $H$ commutes with every element of $K$, then:
+\[
+G \cong H \times K.
+\]
+<p/></blockquote><hr>
+Define a map $\phi : H \times K \ra G$ as follows:
+\[
+\phi(h, k) = hk,\quad \text{ for all } (h, k) \in H \times K.
+\]
+Since elements in $H$ commute with those of $K$,
+we have
+\[
+\phi((h, k)(h', k')) = \phi(hh', kk') = hh'kk' = hkh'k' = \phi(h, k)\phi(h', k'),
+\]
+for all $(h, k), (h', k') \in H \times K$.  Hence, $\phi$ is a homomorphism.
+Moreover, since by assumption $HK = G$, the map $\phi$ is surjective.
+<br wbtag="newline"/>
+An element $(h, k) \in H\times K$ lies in $\ker \phi$ if and only if $hk = e$,
+which holds if and only if $h = k^{&#45;1}$, which belongs to $K$.  Since $H \cap K = \{e\}$, an element $h \in H$
+lies in $K$ if and only if $h = e$.  Consequently, $(h , k) \in \ker \phi$ if and only if $h = k = e$.
+So, $\phi$ is a one&#45;to&#45;one and onto homomorphism.  Hence, it is an isomorphism.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Claim.</h5>
+Let $G$ be a finite abelian group.  For any prime $p$ which divides $\abs{G}$,
+there is an element $g \in G$ with order $p$.
+<p/></blockquote><hr>
+We prove the claim via induction on $\abs{G}$, with base case $\abs{G} = p$.
+<br wbtag="newline"/>
+If $\abs{G} = p$, then we have already seen that every non&#45;identity element of $G$ has order $p$.
+<br wbtag="newline"/>
+Now suppose $\abs{G} > p$, and the claim holds for all finite abelian groups $G'$ such that $p | \abs{G'}$
+and $\abs{G'} < \abs{G}$.
+<br wbtag="newline"/>
+Let $g$ be a non&#45;identity element of $G$.  Let $H$ be the subgroup
+$\langle g \rangle \subseteq G$.  If $p | \abs{H}$, say $\abs{H} = pl$ for some $l \in \mathbb{N}$,
+then it is clear that $a^l$ has order $p$.
+If $p \nmid \abs{H}$, consider the quotient group $G/H$, which is finite abelian.
+By Lagrange's theorem, $\abs{G/H} = [G:H] = \abs{G}/\abs{H}$.  Since $p \nmid \abs{H}$ and $p | \abs{G}$,
+we must have $p | \abs{G/H}$.  This means that $G/H$ is a finite abelian group with order divisible by $p$.
+Since, $\abs{G/H} < \abs{G}$, by the inductive hypothesis there exists an element $gH \in G/H$
+which has order $p$.  In other words, $g^p \in H$.  On the other hand, $g$ is an element of the finite group $G$,
+so it has some finite order $m$ such that $g^m = e$.  Hence, $(gH)^m = eH = H$ in $G/H$, which implies that $p | m$.
+We have $(g^{m/p})^p = e$, which implies that $\ord g^{m/p} | p$.  Since $p$ is prime and $g^{m/p} \neq e$,
+we conclude that $g^{m/p}$ has order $p$.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Theorem.</h5>[Cauchy's Theorem]
+Let $G$ be a finite group.  For every prime $p$ which divides the order of $G$,
+there is an element of order $p$ in $G$.
+<p/></blockquote><hr>
+Skipped.
+<br wbtag="newline"/>
+%% The <b>commutator subgroup</b> $[G, G]$ of a group $G$ is the group generated elements of the form
+%% $[g, h] := ghg^{&#45;1}h^{&#45;1}$,
+%% $g, h \in G$.
+%% <b>Exercise:</b>
+%% $[G, G]$ is a normal subgroup of $G$. Hint: $x[g, h]x^{&#45;1} = [xgx^{&#45;1}, xhx^{&#45;1}]$.
+<br wbtag="newline"/>
+%% <b>Exercise:</b>
+%% The group $G/[G, G]$ is abelian.
+<br wbtag="newline"/>
+<h2>Constructibility</h2>
+$\cos(3\theta) = 4\cos^3\theta &#45; 3\cos\theta$.
+<br wbtag="newline"/>
+<h3>More on $S_n$</h3>
+<br wbtag="newline"/>
+Consider the following element in $S_6$:
+\[
+\sigma = \left(
+\begin{matrix}
+1&2&3&4&5&6\\
+5&4&3&6&1&2
+\end{matrix}
+\right)
+\]
+We may capture the action of $\sigma : \{1, 2, \ldots, 6\} \ra \{1, 2, \ldots, 6\}$
+using the notation:
+\[
+\sigma = (15)(246),
+\]
+where $(n_1 n_2\cdots n_k)$ represents the permutation:
+\[
+n_1 \mapsto n_2 \dots n_i \mapsto n_{i + 1} \dots \mapsto n_k \mapsto n_1
+\]
+We call $(n_1n_2\cdots n_k)$ a <b>$k$&#45;cycle</b>.
+Note that $3$ is missing from $(15)(246)$.
+This corresponds to the fact that $3$ is fixed by $\sigma$.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Claim.</h5>
+Every permutation $\alpha \in S_n$ is either a cycle or a product of disjoint cycles.
+<p/></blockquote><hr>
+Skipped.
+<br wbtag="newline"/>
+\quad\\
+<b>Exercise.</b> Disjoint cycles commute with each other.
+<br wbtag="newline"/>
+A 2&#45;cycle is often called a <b>transposition</b>,
+for it switches two elements with each other.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Claim.</h5>
+$S_n$ is generated by transpositions.
+<p/></blockquote><hr>
+Sketch of proof:
+Show that each permutation not equal to the identity is a product of cycles,
+and that each cycle is a product of transpositions:
+\[
+(a_1a_2\ldots a_k) = (a_1 a_k) (a_1 a_{k &#45; 1})\cdots(a_1 a_3)(a_1 a_2)
+\]
+<br wbtag="newline"/>
+<p/><blockquote><h5>Example.</h5>
+\[
+\left(
+\begin{matrix}
+1&2&3&4&5&6\\
+5&4&3&6&1&2
+\end{matrix}
+\right) = (15)(246) = (15)(26)(24) = (15)(46)(26)
+\]
+<p/></blockquote><hr>
+Note that a given element $\sigma$ of $S_n$
+may be expressed as a product of transpositions in different ways,
+but:
+<p/><blockquote><h5>Claim.</h5>
+In every factorization of $\sigma$ as a product of transpositions,
+the number of factors is either always even or always odd.
+<p/></blockquote><hr>
+<b>Exercise.</b>
+One approach: There is a unique $n \times n$ matrix, with either $0$ or $1$ as its coefficients,
+which sends any vector $(x_1, x_2, \ldots, x_n)$ to $(x_{\sigma(1)}, x_{\sigma(2)}, \ldots, x_{\sigma(n)})$.
+Use the fact that the determinant of the matrix corresponding to a transposition is $&#45;1$,
+and that the determinant function of matrices is multiplicative.
+<br wbtag="newline"/>
+We say that $\sigma \in S_n$ is an <b>even permutation</b>
+if it is the product of an even number of transpositions.
+We say that it is an <b>odd permutation</b>
+if it is the product of an odd number of transpositions.
+<br wbtag="newline"/>
+We consider the identity in $S_n$ to be an even permutation.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Claim.</h5>
+The even permutations of $S_n$ form a subgroup $A_n$ in $S_n$.
+<p/></blockquote><hr>
+We call $A_n$ the <b>alternating group</b> of degree $n$.
+<br wbtag="newline"/>
+<p/><blockquote><h5>Claim.</h5>
+For $n > 1$, $\abs{A_n} = n!/2$.
+<p/></blockquote><hr>
+Let $G = S_n$.  Let $H = A_n$.
+We know that $\abs{G} = n!$.
+We know that each element of $G$
+is either an even permutation
+(i.e. product of an even number of transpositions) or an odd permutation
+(i.e. product of an odd number of transpositions).
+Fix a transposition $\tau_0$ in $S_n$, say $\tau_0 = (12)$.
+If $\sigma \in S_n$ is an odd permutation, then by definition
+$\sigma = \tau_1\tau_2\ldots\tau_l$, where each $\tau_i$ is a transposition, and $l$ is odd.
+Now, observe that:
+\[
+\sigma = \tau_1\tau_2\ldots\tau_l = (\tau_0 \tau_0^{&#45;1})\tau_1\tau_2\ldots\tau_l
+= \tau_0 (\tau_0^{&#45;1}\tau_1\tau_2\ldots\tau_l) \in \tau_0 A_n.
+\]
+Hence, each odd permutation is a product of $\tau_0$ and an even permutation.
+We have:
+\[
+G = A_n \sqcup \tau_0 A_n.
+\]
+This implies that $[G : H] = 2$, hence $\abs{A_n} = \abs{H} = \abs{G}/[G : H] = n!/2$.
+<hr> 
+-->
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s11" slide="11" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="11" environ="slide" chapter="5" course="Math 2070"><keyword chapter="5" slide="11">Rings</keyword><keyword chapter="5" slide="11">Some Results in Elementary Number Theory</keyword><keyword chapter="5" slide="11">remainder</keyword><keyword chapter="5" slide="11">Division Theorem</keyword></keywords>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<xh:h2 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Rings</xh:h2>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Some Results in Elementary Number Theory</xh:h3>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Division Theorem" label="thm:divalg" md5="e5d1712cf6968618cdae2a8007d5ffb6" course="Math 2070" chapter="5" slide="11" item="5.11"><title environment="statement" chapter_type="Week" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" slide="11">Division Theorem</title>
+
+
+Let $a, b \in \mathbb{Z}$, $a \neq 0$,
+then there exist unique $q$ (called the quotient), and $r$ (<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">remainder</xh:b>) in $\mathbb{Z}$, satisfying
+$0 \leq r &lt; \abs{a}$, such that $b = aq + r$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c55019134a6b77f2e6b756b4cd95e17" course="Math 2070" chapter="5" slide="11" of="e5d1712cf6968618cdae2a8007d5ffb6">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+We will prove the case $a &gt; 0$, $b \geq 0$.  The other cases are left as exercises.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Fix $a &gt; 0$.
+First, we prove the existence of the quotient $q$ and remainder $r$ for any $b \geq 0$,
+using mathematical induction.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">The base step</xh:strong> corresponds to the case $0 \leq b &lt; a$.
+In this case, if we let $q = 0$ and $r = b$, then indeed $b = qa + r$, 
+where $0 \leq r  = b &lt; a$.  Hence, $q$ and $r$ exist.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">The inductive step</xh:strong> of the proof of the existence of $q$ and $r$ is as follows: 
+Suppose the existence of the quotient and remainder holds for all non-negative $b' &lt; b$,
+we want to show that it must also hold for $b$.  
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+First, we may assume that
+$b \geq a$, since the case $b &lt; a$ has already been proved.  Let $b' = b - a$.
+Then, $0 \leq b' &lt; b$,
+so by the inductive hypothesis we have $b' = q'a + r'$ 
+for some $q', r' \in \mathbb{Z}$ such that $0 \leq r' &lt; a$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+This implies that $b = b' + a = (q' + 1)a + r'$.  
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+So, if we let $q = q'+ 1$
+and $r = r'$, then $b = qa + r$, where $0 \leq r &lt; a$.
+This establishes the existence of $q, r$ for $b$.  
+Hence, by mathematical induction, the existence of $q, r$ holds for all $b \geq 0$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Now we prove the uniqueness of $q$ and $r$.
+Suppose $b = qa + r = q'a + r'$, where $q, q', r, r' \in \mathbb{Z}$, 
+with $0 \leq r, r' &lt; a$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Then, $qa+ r = q'a+r'$ implies that $r - r' = (q' - q)a$.
+Since $0 \leq r, r' &lt; a$, we have:
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+\[
+a &gt; \abs{r - r'} = \abs{q' - q} a.
+\]
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Since $q' - q$ is an integer, the above inequality implies that $q'  - q = 0$,
+i.e. $q' = q$, which then also implies that $r' = r$.
+We have therefore established the uniqueness of $q$ and $r$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+The proof of the theorem, for the case $a &gt; 0, b \geq 0$, is now complete.
+<qed environment="newcol" chapter_type=""/>
+</collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s12" slide="12" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="12" environ="slide" chapter="5" course="Math 2070"><keyword chapter="5" slide="12">Greatest Common Divisor</keyword></keywords>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="12" md5="87cca6808c169218e4e5678f4dc19ea2" course="Math 2070" chapter="5" slide="12" item="5.12">
+The <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">Greatest Common Divisor</xh:b> $gcd(a, b)$ of $a, b \in \mathbb{Z}$ is the largest positive integer
+$d$ which divides both $a$ and $b$ (Notation: $d | a$ and $d | b$).
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Note.</xh:strong>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
+$gcd(0, 0)$ is undefined.
+</newcol>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="13" md5="887e4de79f26f195c5f15feb518dbea2" course="Math 2070" chapter="5" slide="12" item="5.13">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
+$gcd(b, a) = gcd (a, r)$.
+</newcol></statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="63475b8aa52063e05bea96092ef61a13" course="Math 2070" chapter="5" slide="12" of="887e4de79f26f195c5f15feb518dbea2">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+If $d | a$ and $d | b$, then $d | r = b - aq$.
+Conversely, if $d | a$ and $d | r$, then $d|a$ and $d|b = qa+r$.
+So, the set of common divisors of $a, b$ is the same as the set of the common divisors of $a, r$.
+If two finite sets of integers are the same, then their largest elements are clearly the same.
+In other words:
+\[
+gcd(b, a) = gcd(a, r).
+\]
+<qed environment="newcol" chapter_type=""/>
+</newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s13" slide="13" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="13" environ="slide" chapter="5" course="Math 2070"><keyword chapter="5" slide="13">Euclidean Algorithm</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" class="notkw" environment="">The Euclidean Algorithm</xh:h3><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">Euclidean Algorithm</hc_keyword>
+
+Suppose $\abs{b} \geq \abs{a}$.  Let $b_0 = b$, $a_0 = a$.
+Write $b_0 = a_0q_0 + r_0$, where $0 \leq r_0 &lt; \abs{a_0}$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+For $n &gt; 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
+$r_n$ is the remainder of the division of $b_n$ by $a_n$.  That is,
+\[
+b_n = a_nq_n + r_n, \quad  0 \leq r_n &lt; \abs{a_n}.
+\]
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
+Now, suppose $r_0 &gt; 0$.
+Since $r_n$ is a non-negative integer and  $0 \leq r_n &lt; r_{n - 1}$,
+eventually, $r_n = 0$ for some $n \in \mathbb{N}$.
+</collapse></newcol>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="14" md5="96bd55f3415684903f8186b9daa9d61f" course="Math 2070" chapter="5" slide="13" item="5.14">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+$gcd(b, a) = \abs{a_n}$.
+<!-- <b> Note</b>: If $n > 0$, then $a_n = r_{n &#45; 1}$. -->
+</newcol></statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="dadfa59b02743f00a1980c86cf30222d" course="Math 2070" chapter="5" slide="13" of="96bd55f3415684903f8186b9daa9d61f">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+By the previous lemma,
+<steps environment="newcol" chapter_type="" stepsid="steps2">
+\[
+\begin{split}
+gcd(b, a) &amp;= gcd(b_0, a_0)\\
+ &amp;
+\class{steps2 steps}{= gcd(a_0, r_0) = gcd(b_1, a_1)}
+\\
+&amp; 
+\class{steps2 steps}{= gcd(a_1, r_1) = gcd(b_2, a_2)}
+\\
+&amp; 
+\class{steps2 steps}{= \ldots}
+\\
+&amp; 
+\class{steps2 steps}{
+= gcd(a_{n}, r_{n}) = gcd(a_n, 0) = \abs{a_n}.
+}
+\end{split}
+\]
+</steps>
+<!-- %% (Note that every integer is a divisor of $0$.) -->
+</newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s14" slide="14" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="14" environ="slide" chapter="5" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="b62c28945981907f6ed4326df63d3118" course="Math 2070" chapter="5" slide="14" item="5.15">
+Find $gcd(285,255)$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<steps environment="newcol" chapter_type="" stepsid="steps3">
+\[
+\begin{split}
+\underbrace{285}_{b_0} &amp;= \underbrace{255}_{a_0} \underbrace{1}_{q_0} + \underbrace{30}_{r_0}
+\\
+\class{steps3 steps}{
+\underbrace{255}_{b_1 = a_0}
+}
+&amp;
+\class{steps3 steps}{=\underbrace{30}_{a_1 = r_0} \underbrace{8}_{q_1} + \underbrace{15}_{r_1}}
+\\
+\class{steps3 steps}{\underbrace{30}_{b_2}} 
+&amp;
+\class{steps3 steps}{=\underbrace{15}_{a_2} \underbrace{2}_{q_2} + \underbrace{0}_{r_2}}
+\end{split}
+\]
+</steps>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+So, $gcd(285, 255) = r_1 = 15$.
+</collapse></newcol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<!--
+@claim
+[<b>B&eacutezout's Lemma</b>]
+<p/>
+@collapse
+There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$.
+@proof
+@collapse
+<b>Exercise.</b>
+Hint: Use the Euclidean Algorithm.
+@endcol
+@end
+@end
+<br wbtag="newline"/>
+@slide
+@defn
+Two integers $a, b \in  \mathbb{Z}$ are <b>relatively prime</b> if $gcd(a, b) = 1$.
+@end
+<br wbtag="newline"/>
+@claim
+@collapse
+Two integers $a, b \in \mathbb{Z}$ are relative prime if and only if there exist $x, y \in \mathbb{Z}$
+such that $ax + by = 1$.
+@endcol
+@proof
+<b>Exercise.</b>
+@end
+@end
+<br wbtag="newline"/>
+@slide
+@defn
+An integer $p \geq 2$ is <b> prime</b>
+if its only proper divisors (i.e. divisors different from $\pm p$)
+are $\pm 1$.
+@end
+<br wbtag="newline"/>
+@lemma
+(<b>Euclid's Lemma</b>)
+<p/>
+@collapse
+Let $a, b$ be integers.
+If $p$ is prime and $p | ab$, then $p|a$ and/or $p|b$.
+@endcol
+@proof
+@collapse
+Suppose $p$ does not divide $b$ (Notation: $p\nmid b$), then $gcd(p, b) = 1$,
+which implies that $1 = px + by$ for some $x, y \in \mathbb{Z}$.
+Since $p | apx$ and $p | aby$, we have $p | a = a\underbrace{(px + by)}_{= 1}$.
+@endproof
+@endcol
+@end
+@end
+<br wbtag="newline"/>
+@slide
+More generally,
+@claim
+If $a, b$ are relatively prime and $a | bc$, then $a | c$.
+@proof
+<b>Exercise.</b>
+@end
+@end
+<br wbtag="newline"/>
+@claim
+@collapse
+If $a, b$ are relatively prime and $a | c$, $b | c$, then $ab | c$.
+@proof
+@collapse
+By assumption, there are $s, t \in \mathbb{Z}$ such that:
+\[
+c = as = bt.
+\]
+So $a | as = bt$, which implies that $a | t$, since $gcd(a, b) = 1$.
+Hence, $t = au$ for some $u \in \mathbb{Z}$, and we have $c = ab u$.
+@endproof
+@endcol
+@end
+@end
+-->
+</slide>
+      </slides>
+    </chapter>
+  </course>
+</document>

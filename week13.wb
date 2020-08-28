@@ -1,0 +1,284 @@
+@sep
+@course{Math 2070}
+@week{13}
+@topic{Finite Fields}
+@thm
+If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
+then there exists a field extension $K$ of $k$, such that $f \in k[x] \subseteq K[x]$
+is a product of linear factors in $K[x]$.
+
+@col
+In other words, there exists a field extension $K$ of $k$, such that:
+\[
+f = c(x - \alpha_1)\cdots (x - \alpha_n),
+\]
+for some $c, \alpha_i \in K$.
+@endcol
+@end
+@proof
+@col
+We prove by induction on $\deg f$.
+<p>
+@col
+If $\deg f = 1$, we are done.
+<p>
+@col
+<b class=notkw>Inductive Step:</b>
+Suppose $\deg f > 1$.  Suppose, for any field extension $k'$ of $k$, 
+and any polynomial $g \in k'[x]$ with $\deg g < \deg f$, 
+there exists a field extension $K$ of $k'$ such that $g$ splits into a product
+of linear factors in $K[x]$.
+<p>
+@col
+Suppose $f$ is irreducible.  Let $f(t)$ be the polynomial in $k[t]$
+obtained from $f$ by replacing the variable $x$ with the variable $t$.
+Consider $k' := k[t]/(f(t))$.
+Then, $k'$ is a field extension of $k$ if we identify $k$ with the subset
+$\{c + (f(t)) : c \in k\} \subseteq k'$,
+where $c$ is considered as a constant polynomial in $k[t]$.
+
+@col
+Observe that $k'$ contains a root $\alpha$ of $f$,
+namely $\alpha = t + (f(t)) \in k[t]/(f(t))$ (<b class=notkw>explained in lecture</b>).
+Hence, $f = (x - \alpha)q$ in $k'[x]$ for some polynomial $q \in k'[x]$ with $\deg q < \deg f$.
+<p>
+@col
+Now, by the induction hypothesis,
+there is an extension field $K$ of $k'$ such that $q$ splits into a product of linear factors in $K[x]$.
+Consequently, $f$ splits into a product of linear factors in $K[x]$.
+<p>
+@col
+If $f$ is not irreducible, then $f = gh$ for some $g, h \in k[x]$, 
+with $\deg g, \deg h < \deg f$.
+So, by the induction hypothesis, there is a field extension $k'$ of $k$
+such that $g$ is a product of linear factors in $k'[x]$.  
+<p>
+@col
+Hence,
+$f = (x - \alpha_1)\cdots(x - \alpha_n) h$ in $k'[x]$.  Since $\deg h < \deg f$,
+by the inductive hypothesis there exists a field extension $K$ of $k'$ such that $h$
+splits into linear factors in $K[x]$.  
+<p>
+@col
+Hence, $f$ is a product of linear factors in $K[x]$.
+@qed
+@endcol
+@end
+@sep
+<h3>Finite Fields</h3>
+
+Recall:
+@def
+Let $R$ be a ring with additive and multiplicative identity elements $0$, $1$,
+respectively.  
+The <b>characteristic</b> ${\rm char}\, R$ of $R$ is the smallest positive integer $n$ 
+such that:
+\[
+\underbrace{1 + 1 + \cdots + 1}_{n \text{ times}} = 0.
+\]
+If such an integer does not exist, we say that the ring has <b>characteristic zero</b>.
+@end
+
+@sep
+
+@eg
+<ul>
+<li>
+The ring $\mathbb{Q}$ has characteristic zero.  
+</li>
+<li>
+${\rm char}\, \mathbb{Z}_6 = 6$.
+</li>
+</ul>
+@end
+
+@ex
+@col
+If a ring $R$ as finitely many elements, then it has positive (i.e. nonzero) characteristic.
+@endcol
+@end
+
+@claim
+@col
+If a field $F$ has positive characteristic ${\rm char}\, F$, 
+then ${\rm char}\, F$ is a prime number.
+@end
+
+@eg
+@col
+${\rm char}\,\mathbb{F}_5 = 5$,
+which is prime.
+@endcol
+@end
+
+@remark
+@col
+Note that all finite rings have positive characteristics, 
+but there are rings with positive characteristics which have infinitely many elements,
+e.g. the polynomial ring $\mathbb{F}_5[x]$.
+@endcol
+@end
+
+@sep
+
+@claim
+Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
+for some prime $p$ and $n \in \mathbb{N}$.
+@end
+@proof
+@col
+Since $F$ is finite, it has finite characteristic.  Since it is a field,
+$\mathrm{char}\, F$ is a prime $p$.
+
+<p>
+@col
+<b>Exercise:</b> $\mathbb{F}_p$ is isomorphic to a subfield of $F$.
+
+<p>
+@col
+Viewing $\mathbb{F}_p$ as a subfield of $F$,
+we see that $F$ is a vector space over $\mathbb{F}_p$.
+Since the cardinality of $F$ is finite, the dimension $n$ of $F$ over $\mathbb{F}_p$
+must necessarily be finite.  
+<p>
+@col
+Hence, there exist $n$ basis elements
+$\alpha_1, \alpha_2,\ldots, \alpha_{n }$ in $F$,
+such that each element of $F$ may be expressed uniquely as:
+\[
+c_1\alpha_1  + c_2\alpha_2 + \cdots + c_{n}\alpha_{n},
+\]
+where $c_i \in \mathbb{F}_p$.
+<p>
+@col
+Since $\mathbb{F}_p$ has $p$ elements,
+it follows that $F$ has $p^n$ elements.
+@qed
+@endcol
+@end
+
+@sep
+
+@claim
+Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
+then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
+@end
+@proof
+@col
+Let $K = k[t]/(f(t))$, 
+then $K$ is a field extension of $k$ which contains a root $\alpha$ of $f$,
+namely, $\alpha = t + (f(t))$.
+<p>
+@col
+By @ref{thm:simpleextthm},
+$K = k(\alpha)$, and every element in $K$ may be expressed uniquely in the form:
+\[
+c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f.
+\]
+This shows that $K$ is a vector space of dimension $\deg f$ over $k$.
+@qed
+@endcol
+@end
+
+@cor
+@col
+If $k$ is a finite field with $\abs{k}$ elements,
+and $f$ is an irreducible polynomial of degree $n$ in $k[x]$,
+then the field $k[x]/(f)$ has $\abs{k}^n$ elements.
+@endcol
+@end
+
+@sep
+@eg
+Let $p = 2$, $n = 2$.  To construct a finite field with $p^n = 4$ elements.
+We first start with the finite field $\mathbb{F}_2$,
+then try to find an irreducible polynomial $f \in \mathbb{F}_2[x]$ such that
+$\mathbb{F}_2[x]/(f)$ has 4 elements.
+<p>
+@col
+Based on our discussion so far,
+the degree of $f$ should be equal to $n = 2$,
+since $n$ is precisely the dimension of the desired finite field over $\mathbb{F}_2$.
+<p>
+@col
+Consider $f = x^2 + x + 1$.  
+Since $p$ is of degree $2$ and has no root in $\mathbb{F}_2$,
+it is irreducible in $\mathbb{F}_2[x]$.  Hence, $\mathbb{F}_2[x]/(x^2 + x + 1)$
+is a field with $4$ elements.
+@endcol
+@end
+
+@sep
+
+@thm
+(<b class=notkw>Galois</b>)
+Given any prime $p$ and $n \in \mathbb{N}$,
+there exists a finite field $F$ with $p^n$ elements.
+@end
+@proof
+(Not within the scope of the course.)
+<p>
+@col
+Consider the polynomial:
+\[
+f = x^{p^n} - x \in \mathbb{F}_p[x]
+\]
+By Kronecker's theorem, there exists a field extension $K$ of $\mathbb{F}_p$
+such that $f$ splits into a product of linear factors in $K[x]$.
+Let:
+\[
+F = \{\alpha \in K : f(\alpha) = 0\}.
+\]
+
+@ex
+Let $g = (x - a_1)(x - a_2)\cdots(x - a_n)$ be a polynomial in $k[x]$,
+where $k$ is a field.  Show that the roots $a_1, a_2, \ldots, a_n$ are distinct
+if and only if $gcd(g, g') = 1$, where $g'$ is the derivative of $g$.
+@end
+<p>
+In this case, we have $f' = p^n x^{p^n - 1} - 1 = -1$ in $\mathbb{F}_p[x]$.
+Hence, $gcd(f, f') = 1$, which implies by the exercise that the roots of $f$
+are all distinct.  So, $f$ has $p^n$ distinct roots in $K$, hence $F$ has exactly $p^n$ elements.
+<p>
+It remains to show that $F$ is a field.
+Let $q = p^n$.  By definition, an element $a \in K$ belongs to $F$ if and only if
+$f(a) = a^q - a = 0$, which holds if and only if $a^q = a$.
+For $a, b \in F$, we have:
+\[
+(ab)^q = a^qb^a = ab,
+\]
+which implies that $F$ is closed under multiplication.
+Since $K$, being a extension of $\mathbb{F}_p$, has characteristic $p$.
+we have $(a + b)^p = a^p + b^p$.  Hence,
+\begin{multline*}
+(a + b)^q = (a + b)^{p^n} = ((a + b)^p)^{p^{n - 1}} = (a^p  + b^p)^{p^{n - 1}}\\
+= (a^p + b^p)^p)^{p^{n - 2}} = (a^{p^2} + b^{p^2})^{p^{n - 2}}\\
+ = \cdots = a^{p^n} + b^{p^n} = a + b,
+\end{multline*}
+which implies that  $F$ is closed under addition.
+<p>
+Let $0, 1$ be the additive and multiplicative identity elements, respectively, of $K$.
+Since $0^q = 0$ and $1^q = 1$, they are also the additive and multiplicative identity elements of $F$.
+<p>
+For nonzero $a \in F$, we need to prove the existence of
+the additive and multiplicative inverses of $a$ in $F$.
+<p>
+Let $-a$ be the additive inverse of $a$ in $K$.
+Since $(-1)^q = -1$ (even if $p = 2$, since $1 = -1$ in $\mathbb{F}_2$),
+we have:
+\[
+(-a)^q = (-1)^q a^q = -a,
+\]
+so $-a \in F$.  Hence, $a \in F$ has an additive inverse in $F$.
+<p>
+Since $a^q = a$ in $K$, we have:
+\[
+a^{q - 2} a = a^{q - 1} = 1
+\]
+in $K$.  Since $a \in F$ and $F$ is closed under multiplication,
+$a^{q - 2} = \underbrace{a\cdots a}_{q-2 \text{ times}}$ lies in $F$.
+So, $a^{q -2}$ is a multiplicative inverse of $a$ in $F$.
+@qed
+@endcol
+@end
+

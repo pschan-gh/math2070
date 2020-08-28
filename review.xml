@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" title="Math 2070" wbtag="course">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">Review</keyword>
+      <keyword chapter="" slide="all">Groups</keyword>
+      <keyword chapter="" slide="all">Definition</keyword>
+      <keyword chapter="" slide="all">Examples</keyword>
+      <keyword chapter="" slide="all">Subgroups</keyword>
+      <keyword chapter="" slide="all">Cosets</keyword>
+      <keyword chapter="" slide="all">Lagrange's Theorem</keyword>
+      <keyword chapter="" slide="all">Generators</keyword>
+      <keyword chapter="" slide="all">Cyclic groups</keyword>
+      <keyword chapter="" slide="all">Group homomorphism</keyword>
+      <keyword chapter="" slide="all">Kernel</keyword>
+      <keyword chapter="" slide="all">Isomorphism</keyword>
+      <keyword chapter="" slide="all">Example</keyword>
+      <keyword chapter="" slide="all">Rings</keyword>
+      <keyword chapter="" slide="all">Definition</keyword>
+      <keyword chapter="" slide="all">Division Theorem</keyword>
+      <keyword chapter="" slide="all">GCD</keyword>
+      <keyword chapter="" slide="all">Euclidean Algorithm</keyword>
+      <keyword chapter="" slide="all">B&amp;eacute;zout's Identity</keyword>
+      <keyword chapter="" slide="all">Chinese Remainder Theorem</keyword>
+      <keyword chapter="" slide="all">Integral Domains</keyword>
+      <keyword chapter="" slide="all">Fields</keyword>
+      <keyword chapter="" slide="all">Field of Fractions</keyword>
+      <keyword chapter="" slide="all">Ring homomorphism</keyword>
+      <keyword chapter="" slide="all">Isomorphism</keyword>
+      <keyword chapter="" slide="all">Kernel</keyword>
+      <keyword chapter="" slide="all">Ideals</keyword>
+      <keyword chapter="" slide="all">Quotient Rings</keyword>
+      <keyword chapter="" slide="all">First Isomorphism Theorem</keyword>
+      <keyword chapter="" slide="all">Example</keyword>
+      <keyword chapter="" slide="all">Example</keyword>
+      <keyword chapter="" slide="all">Math 2070</keyword>
+    </keywords>
+    <title environment="" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" slide="1">Math 2070</title><keywords slide="1" environ="slide" chapter="" course="Math 2070"><keyword chapter="" slide="1">Math 2070</keyword></keywords>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" wbtag="week" num="13" course="Math 2070">
+      <keywords slide="all" environ="chapter" chapter="13" course="Math 2070">
+        <keyword chapter="13" slide="all">Review</keyword>
+        <keyword chapter="13" slide="all">Groups</keyword>
+        <keyword chapter="13" slide="all">Definition</keyword>
+        <keyword chapter="13" slide="all">Examples</keyword>
+        <keyword chapter="13" slide="all">Subgroups</keyword>
+        <keyword chapter="13" slide="all">Cosets</keyword>
+        <keyword chapter="13" slide="all">Lagrange's Theorem</keyword>
+        <keyword chapter="13" slide="all">Generators</keyword>
+        <keyword chapter="13" slide="all">Cyclic groups</keyword>
+        <keyword chapter="13" slide="all">Group homomorphism</keyword>
+        <keyword chapter="13" slide="all">Kernel</keyword>
+        <keyword chapter="13" slide="all">Isomorphism</keyword>
+        <keyword chapter="13" slide="all">Example</keyword>
+        <keyword chapter="13" slide="all">Rings</keyword>
+        <keyword chapter="13" slide="all">Definition</keyword>
+        <keyword chapter="13" slide="all">Division Theorem</keyword>
+        <keyword chapter="13" slide="all">GCD</keyword>
+        <keyword chapter="13" slide="all">Euclidean Algorithm</keyword>
+        <keyword chapter="13" slide="all">B&amp;eacute;zout's Identity</keyword>
+        <keyword chapter="13" slide="all">Chinese Remainder Theorem</keyword>
+        <keyword chapter="13" slide="all">Integral Domains</keyword>
+        <keyword chapter="13" slide="all">Fields</keyword>
+        <keyword chapter="13" slide="all">Field of Fractions</keyword>
+        <keyword chapter="13" slide="all">Ring homomorphism</keyword>
+        <keyword chapter="13" slide="all">Isomorphism</keyword>
+        <keyword chapter="13" slide="all">Kernel</keyword>
+        <keyword chapter="13" slide="all">Ideals</keyword>
+        <keyword chapter="13" slide="all">Quotient Rings</keyword>
+        <keyword chapter="13" slide="all">First Isomorphism Theorem</keyword>
+        <keyword chapter="13" slide="all">Example</keyword>
+        <keyword chapter="13" slide="all">Example</keyword>
+      </keywords>
+      <title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" slide=""/>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s2" slide="2" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="2"/><keywords slide="2" environ="slide" chapter="13" course="Math 2070"><keyword chapter="13" slide="2">Review</keyword></keywords>
+<xh:h2 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Review</xh:h2>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s3" slide="3" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="3" environ="slide" chapter="13" course="Math 2070"><keyword chapter="13" slide="3">Groups</keyword><keyword chapter="13" slide="3">Definition</keyword><keyword chapter="13" slide="3">Examples</keyword><keyword chapter="13" slide="3">Subgroups</keyword><keyword chapter="13" slide="3">Cosets</keyword><keyword chapter="13" slide="3">Lagrange's Theorem</keyword><keyword chapter="13" slide="3">Generators</keyword><keyword chapter="13" slide="3">Cyclic groups</keyword><keyword chapter="13" slide="3">Group homomorphism</keyword><keyword chapter="13" slide="3">Kernel</keyword><keyword chapter="13" slide="3">Isomorphism</keyword><keyword chapter="13" slide="3">Example</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Groups</xh:h3>
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+<col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Definition</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Examples</xh:b>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+\[
+S_n, A_n, D_n, \GL(n), \SL(n), \mathbb{Z}_n
+\]
+</newcol>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+\[
+g^n = e_G \Leftrightarrow \ord g | n
+\]
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Subgroups</xh:b>, <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Cosets</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Lagrange's Theorem</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+\[
+\ord g\;|\;\abs{G}
+\]
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Generators</xh:b>
+\[
+D_n = \langle r, s\rangle,\quad srs = r^{-1}
+\]
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Cyclic groups</xh:b>
+\[
+\abs{\langle g \rangle} = \ord g \text{ if } \ord g &lt; \infty.
+\]
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+A group of prime order is necessarily cyclic.
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Group homomorphism</xh:b>, <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Kernel</xh:b>, <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Isomorphism</xh:b>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Example</xh:b>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Fix $h \in G$.
+\[
+\phi_h : G \longrightarrow G
+\]
+\[
+\phi_h(g) = h^{-1}gh, \quad g \in G.
+\]
+</newcol>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+Any cyclic group is isomorphic to either $\mathbb{Z}_n$ or $\mathbb{Z}$.
+</col_li></col_ol>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s4" slide="4" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="4" environ="slide" chapter="13" course="Math 2070"><keyword chapter="13" slide="4">Rings</keyword><keyword chapter="13" slide="4">Definition</keyword><keyword chapter="13" slide="4">Division Theorem</keyword><keyword chapter="13" slide="4">GCD</keyword><keyword chapter="13" slide="4">Euclidean Algorithm</keyword><keyword chapter="13" slide="4">B&amp;eacute;zout's Identity</keyword><keyword chapter="13" slide="4">Chinese Remainder Theorem</keyword><keyword chapter="13" slide="4">Integral Domains</keyword><keyword chapter="13" slide="4">Fields</keyword><keyword chapter="13" slide="4">Field of Fractions</keyword><keyword chapter="13" slide="4">Ring homomorphism</keyword><keyword chapter="13" slide="4">Isomorphism</keyword><keyword chapter="13" slide="4">Kernel</keyword><keyword chapter="13" slide="4">Ideals</keyword><keyword chapter="13" slide="4">Quotient Rings</keyword><keyword chapter="13" slide="4">First Isomorphism Theorem</keyword><keyword chapter="13" slide="4">Example</keyword><keyword chapter="13" slide="4">Example</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Rings</xh:h3>
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+<col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Definition</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Division Theorem</xh:b> for $\mathbb{Z}$ and $k[x]$ ($k$ a field).
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">GCD</xh:b>, <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Euclidean Algorithm</xh:b>, <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">B&amp;eacute;zout's Identity</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Chinese Remainder Theorem</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Integral Domains</xh:b>, <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Fields</xh:b>, <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Field of Fractions</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Ring homomorphism</xh:b>, <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Isomorphism</xh:b>, <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Kernel</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Ideals</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Quotient Rings</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">First Isomorphism Theorem</xh:b>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Example</xh:b>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+$a, b \in \mathbb{Z}$, $gcd(a, b) = 1$.  Then:
+\[
+\mathbb{Z}/(ab) \cong \mathbb{Z}/(a) \times \mathbb{Z}/(b)
+\]
+</newcol>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol">Example</xh:b>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Let $I, J$ be ideals of a commutative ring $R$, such that:
+\[
+R = I + J := \{i + j : i\in I, j \in J\} 
+\]
+Then,
+\[
+R/(I \cap J) \cong R/I \times R/J.
+\]
+</newcol>
+</col_li></col_ol>
+</slide>
+      </slides>
+    </chapter>
+  </course>
+</document>

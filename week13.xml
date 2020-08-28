@@ -1,0 +1,316 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" title="Math 2070" wbtag="course">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">Finite Fields</keyword>
+      <keyword chapter="" slide="all">characteristic</keyword>
+      <keyword chapter="" slide="all">characteristic zero</keyword>
+      <keyword chapter="" slide="all">Math 2070</keyword>
+    </keywords>
+    <title environment="" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" slide="1">Math 2070</title><keywords slide="1" environ="slide" chapter="" course="Math 2070"><keyword chapter="" slide="1">Math 2070</keyword></keywords>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" wbtag="week" num="13" topic="Finite Fields" course="Math 2070">
+      <keywords slide="all" environ="chapter" chapter="13" course="Math 2070">
+        <keyword chapter="13" slide="all">Finite Fields</keyword>
+        <keyword chapter="13" slide="all">characteristic</keyword>
+        <keyword chapter="13" slide="all">characteristic zero</keyword>
+      </keywords>
+      <title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" slide="">Finite Fields</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s2" slide="2" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="2"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="2">Finite Fields</topic><keywords slide="2" environ="slide" chapter="13" course="Math 2070"/>
+
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" md5="4ceb83b7facc0d38bbaccbd9be28af5f" course="Math 2070" chapter="13" slide="2" item="13.1">
+If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
+then there exists a field extension $K$ of $k$, such that $f \in k[x] \subseteq K[x]$
+is a product of linear factors in $K[x]$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+In other words, there exists a field extension $K$ of $k$, such that:
+\[
+f = c(x - \alpha_1)\cdots (x - \alpha_n),
+\]
+for some $c, \alpha_i \in K$.
+</newcol>
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0c1a84a260e5ccf54a3d1ea7fbdd8681" course="Math 2070" chapter="13" slide="2" of="4ceb83b7facc0d38bbaccbd9be28af5f">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+We prove by induction on $\deg f$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+If $\deg f = 1$, we are done.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">Inductive Step:</xh:b>
+Suppose $\deg f &gt; 1$.  Suppose, for any field extension $k'$ of $k$, 
+and any polynomial $g \in k'[x]$ with $\deg g &lt; \deg f$, 
+there exists a field extension $K$ of $k'$ such that $g$ splits into a product
+of linear factors in $K[x]$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Suppose $f$ is irreducible.  Let $f(t)$ be the polynomial in $k[t]$
+obtained from $f$ by replacing the variable $x$ with the variable $t$.
+Consider $k' := k[t]/(f(t))$.
+Then, $k'$ is a field extension of $k$ if we identify $k$ with the subset
+$\{c + (f(t)) : c \in k\} \subseteq k'$,
+where $c$ is considered as a constant polynomial in $k[t]$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Observe that $k'$ contains a root $\alpha$ of $f$,
+namely $\alpha = t + (f(t)) \in k[t]/(f(t))$ (<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">explained in lecture</xh:b>).
+Hence, $f = (x - \alpha)q$ in $k'[x]$ for some polynomial $q \in k'[x]$ with $\deg q &lt; \deg f$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Now, by the induction hypothesis,
+there is an extension field $K$ of $k'$ such that $q$ splits into a product of linear factors in $K[x]$.
+Consequently, $f$ splits into a product of linear factors in $K[x]$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+If $f$ is not irreducible, then $f = gh$ for some $g, h \in k[x]$, 
+with $\deg g, \deg h &lt; \deg f$.
+So, by the induction hypothesis, there is a field extension $k'$ of $k$
+such that $g$ is a product of linear factors in $k'[x]$.  
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Hence,
+$f = (x - \alpha_1)\cdots(x - \alpha_n) h$ in $k'[x]$.  Since $\deg h &lt; \deg f$,
+by the inductive hypothesis there exists a field extension $K$ of $k'$ such that $h$
+splits into linear factors in $K[x]$.  
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Hence, $f$ is a product of linear factors in $K[x]$.
+<qed environment="newcol" chapter_type=""/>
+</collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></newcol>
+</substatement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s3" slide="3" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="3" environ="slide" chapter="13" course="Math 2070"><keyword chapter="13" slide="3">Finite Fields</keyword><keyword chapter="13" slide="3">characteristic</keyword><keyword chapter="13" slide="3">characteristic zero</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Finite Fields</xh:h3>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+Recall:
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="f7baa70409e0584998c5239191fe583b" course="Math 2070" chapter="13" slide="3" item="13.2">
+Let $R$ be a ring with additive and multiplicative identity elements $0$, $1$,
+respectively.  
+The <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">characteristic</xh:b> ${\rm char}\, R$ of $R$ is the smallest positive integer $n$ 
+such that:
+\[
+\underbrace{1 + 1 + \cdots + 1}_{n \text{ times}} = 0.
+\]
+If such an integer does not exist, we say that the ring has <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">characteristic zero</xh:b>.
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s4" slide="4" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="4" environ="slide" chapter="13" course="Math 2070"/>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="0f62d5124641207e8b82d6e8b53fb74f" course="Math 2070" chapter="13" slide="4" item="13.3">
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement">
+The ring $\mathbb{Q}$ has characteristic zero.  
+</xh:li>
+<xh:li environment="statement">
+${\rm char}\, \mathbb{Z}_6 = 6$.
+</xh:li>
+</xh:ul>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" md5="8d84389862b18d624852baecbae6ae36" course="Math 2070" chapter="13" slide="4" item="13.4">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+If a ring $R$ as finitely many elements, then it has positive (i.e. nonzero) characteristic.
+</newcol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="b27fa703ec93d31be84f6043bcb49f2d" course="Math 2070" chapter="13" slide="4" item="13.5">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+If a field $F$ has positive characteristic ${\rm char}\, F$, 
+then ${\rm char}\, F$ is a prime number.
+</newcol></statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="bb6e107a35587fba09e0bc49371ee018" course="Math 2070" chapter="13" slide="4" item="13.6">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+${\rm char}\,\mathbb{F}_5 = 5$,
+which is prime.
+</newcol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="33ba8fc724dd7569d0e6c190d0f295c9" course="Math 2070" chapter="13" slide="4" of="bb6e107a35587fba09e0bc49371ee018">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Note that all finite rings have positive characteristics, 
+but there are rings with positive characteristics which have infinitely many elements,
+e.g. the polynomial ring $\mathbb{F}_5[x]$.
+</newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s5" slide="5" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="5" environ="slide" chapter="13" course="Math 2070"/>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="7" md5="251ca2836934fecac69830955005cbfb" course="Math 2070" chapter="13" slide="5" item="13.7">
+Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
+for some prime $p$ and $n \in \mathbb{N}$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="375aba184a252cca59e6dec26ed75e02" course="Math 2070" chapter="13" slide="5" of="251ca2836934fecac69830955005cbfb">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Since $F$ is finite, it has finite characteristic.  Since it is a field,
+$\mathrm{char}\, F$ is a prime $p$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Exercise:</xh:b> $\mathbb{F}_p$ is isomorphic to a subfield of $F$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Viewing $\mathbb{F}_p$ as a subfield of $F$,
+we see that $F$ is a vector space over $\mathbb{F}_p$.
+Since the cardinality of $F$ is finite, the dimension $n$ of $F$ over $\mathbb{F}_p$
+must necessarily be finite.  
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Hence, there exist $n$ basis elements
+$\alpha_1, \alpha_2,\ldots, \alpha_{n }$ in $F$,
+such that each element of $F$ may be expressed uniquely as:
+\[
+c_1\alpha_1  + c_2\alpha_2 + \cdots + c_{n}\alpha_{n},
+\]
+where $c_i \in \mathbb{F}_p$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Since $\mathbb{F}_p$ has $p$ elements,
+it follows that $F$ has $p^n$ elements.
+<qed environment="newcol" chapter_type=""/>
+</collapse></collapse></collapse></collapse></newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s6" slide="6" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="6" environ="slide" chapter="13" course="Math 2070"/>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="8" md5="28fa23c4e14bd8c8b9590e028ec38a66" course="Math 2070" chapter="13" slide="6" item="13.8">
+Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
+then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f8fcc80d0b9dc3ab87f9c1edf5c8cc73" course="Math 2070" chapter="13" slide="6" of="28fa23c4e14bd8c8b9590e028ec38a66">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Let $K = k[t]/(f(t))$, 
+then $K$ is a field extension of $k$ which contains a root $\alpha$ of $f$,
+namely, $\alpha = t + (f(t))$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+By <ref environment="newcol" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2070" chapter="13" slide="6" src-course="Math 2070" src-chapter="12" src-slide="4" type="Theorem" item="12.4" title="" src-filename="week12.xml" md5="506a330a556dc38bd7de9fe38a7ecd19" class="knowl" name=""/>,
+$K = k(\alpha)$, and every element in $K$ may be expressed uniquely in the form:
+\[
+c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f.
+\]
+This shows that $K$ is a vector space of dimension $\deg f$ over $k$.
+<qed environment="newcol" chapter_type=""/>
+</collapse></newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="9" md5="ef75ae7a13e345597fb9835611ffc335" course="Math 2070" chapter="13" slide="6" item="13.9">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+If $k$ is a finite field with $\abs{k}$ elements,
+and $f$ is an irreducible polynomial of degree $n$ in $k[x]$,
+then the field $k[x]/(f)$ has $\abs{k}^n$ elements.
+</newcol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s7" slide="7" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="7" environ="slide" chapter="13" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="d17d1c9a4ac920212bf68cfaa31badd5" course="Math 2070" chapter="13" slide="7" item="13.10">
+Let $p = 2$, $n = 2$.  To construct a finite field with $p^n = 4$ elements.
+We first start with the finite field $\mathbb{F}_2$,
+then try to find an irreducible polynomial $f \in \mathbb{F}_2[x]$ such that
+$\mathbb{F}_2[x]/(f)$ has 4 elements.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Based on our discussion so far,
+the degree of $f$ should be equal to $n = 2$,
+since $n$ is precisely the dimension of the desired finite field over $\mathbb{F}_2$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Consider $f = x^2 + x + 1$.  
+Since $p$ is of degree $2$ and has no root in $\mathbb{F}_2$,
+it is irreducible in $\mathbb{F}_2[x]$.  Hence, $\mathbb{F}_2[x]/(x^2 + x + 1)$
+is a field with $4$ elements.
+</collapse></newcol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s8" slide="8" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="8" environ="slide" chapter="13" course="Math 2070"/>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" md5="2d2fc29df24817ebce011011a2a6fad0" course="Math 2070" chapter="13" slide="8" item="13.11">
+(<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" class="notkw" environment="statement">Galois</xh:b>)
+Given any prime $p$ and $n \in \mathbb{N}$,
+there exists a finite field $F$ with $p^n$ elements.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="61f409441d51772cc9fbded6fec5243f" course="Math 2070" chapter="13" slide="8" of="2d2fc29df24817ebce011011a2a6fad0">
+(Not within the scope of the course.)
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="substatement"/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Consider the polynomial:
+\[
+f = x^{p^n} - x \in \mathbb{F}_p[x]
+\]
+By Kronecker's theorem, there exists a field extension $K$ of $\mathbb{F}_p$
+such that $f$ splits into a product of linear factors in $K[x]$.
+Let:
+\[
+F = \{\alpha \in K : f(\alpha) = 0\}.
+\]
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="12" md5="77db0ef84dad377bd8b9d1881a15f5cb" course="Math 2070" chapter="13" slide="8" item="13.12">
+Let $g = (x - a_1)(x - a_2)\cdots(x - a_n)$ be a polynomial in $k[x]$,
+where $k$ is a field.  Show that the roots $a_1, a_2, \ldots, a_n$ are distinct
+if and only if $gcd(g, g') = 1$, where $g'$ is the derivative of $g$.
+</statement>
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+In this case, we have $f' = p^n x^{p^n - 1} - 1 = -1$ in $\mathbb{F}_p[x]$.
+Hence, $gcd(f, f') = 1$, which implies by the exercise that the roots of $f$
+are all distinct.  So, $f$ has $p^n$ distinct roots in $K$, hence $F$ has exactly $p^n$ elements.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+It remains to show that $F$ is a field.
+Let $q = p^n$.  By definition, an element $a \in K$ belongs to $F$ if and only if
+$f(a) = a^q - a = 0$, which holds if and only if $a^q = a$.
+For $a, b \in F$, we have:
+\[
+(ab)^q = a^qb^a = ab,
+\]
+which implies that $F$ is closed under multiplication.
+Since $K$, being a extension of $\mathbb{F}_p$, has characteristic $p$.
+we have $(a + b)^p = a^p + b^p$.  Hence,
+\begin{multline*}
+(a + b)^q = (a + b)^{p^n} = ((a + b)^p)^{p^{n - 1}} = (a^p  + b^p)^{p^{n - 1}}\\
+= (a^p + b^p)^p)^{p^{n - 2}} = (a^{p^2} + b^{p^2})^{p^{n - 2}}\\
+ = \cdots = a^{p^n} + b^{p^n} = a + b,
+\end{multline*}
+which implies that  $F$ is closed under addition.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+Let $0, 1$ be the additive and multiplicative identity elements, respectively, of $K$.
+Since $0^q = 0$ and $1^q = 1$, they are also the additive and multiplicative identity elements of $F$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+For nonzero $a \in F$, we need to prove the existence of
+the additive and multiplicative inverses of $a$ in $F$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+Let $-a$ be the additive inverse of $a$ in $K$.
+Since $(-1)^q = -1$ (even if $p = 2$, since $1 = -1$ in $\mathbb{F}_2$),
+we have:
+\[
+(-a)^q = (-1)^q a^q = -a,
+\]
+so $-a \in F$.  Hence, $a \in F$ has an additive inverse in $F$.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+Since $a^q = a$ in $K$, we have:
+\[
+a^{q - 2} a = a^{q - 1} = 1
+\]
+in $K$.  Since $a \in F$ and $F$ is closed under multiplication,
+$a^{q - 2} = \underbrace{a\cdots a}_{q-2 \text{ times}}$ lies in $F$.
+So, $a^{q -2}$ is a multiplicative inverse of $a$ in $F$.
+<qed environment="newcol" chapter_type=""/>
+</newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+      </slides>
+    </chapter>
+  </course>
+</document>

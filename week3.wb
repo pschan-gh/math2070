@@ -1,0 +1,304 @@
+@sep
+@course{Math 2070}
+@week{3}
+@topic{Subgroups}
+@topic{Left Cosets}
+@topic{Index}
+@sep
+<h2>Subgroups</h2>
+@def
+Let $G$ be a group.
+A subset $H$ of $G$ is a <b>subgroup</b> of $G$ if it satisfies the following properties:
+
+@collapse
+@ul
+@li
+<b>Closure</b> If $a, b \in H$, then $ab \in H$.
+@li
+<b>Identity</b> The identity element of $G$ lies in $H$.
+@li
+<b>Inverses</b> If $a \in H$, then $a^{-1} \in H$.
+@endul
+@endcol
+@end
+@collapse
+In particular, a subgroup $H$ is a group with respect to the group operation on $G$,
+and the identity element of $H$ is the identity element of $G$.
+@endcol
+
+@sep
+@eg
+@label{eg:subgroups}
+@ul
+@li
+For any $n \in \mathbb{Z}$,
+$n\mathbb{Z}$ is a subgroup of $(\mathbb{Z}, +)$.
+@li
+$\mathbb{Q}\bs\{0\}$ is a subgroup of $(\mathbb{R}\bs\{0\}, \cdot)$.
+@li
+${\rm SL}(2, \mathbb{R})$ is a subgroup of ${\rm GL}(2, \mathbb{R})$.
+@li
+The set of all rotations (including the trivial rotation) in a dihedral group $D_n$
+is a subgroup of $D_n$.
+@li
+Let $n \in \mathbb{N}$, $n \geq 2$.  
+We say that $\sigma \in S_n$ is an <b>even permutation</b>
+if it is equal to the product of an even number of transpositions.
+The subset $A_n$ of $S_n$ consisting of even permutations is a subgroup of $S_n$.
+$A_n$ is called an <b>alternating group</b>.
+@endul
+@end
+@sep
+@claim
+A subset $H$ of a group $G$ is a subgroup of $G$ if and only if $H$ is nonempty
+and, for all $x, y \in H$, we have $xy^{-1} \in H$.
+@end
+@proof
+@collapse
+Suppose $H \subseteq G$ is a subgroup.
+Then, $H$ is nonempty since $e_G \in H$.
+For all $x, y \in H$, we have $y^{-1} \in H$;
+hence, $xy^{-1} \in H$.
+
+Conversely, suppose $H$ is a nonempty subset of $G$,
+and $xy^{-1} \in H$ for all $x, y \in H$.
+
+@collapse
+@ul
+@li
+<b>Identity</b> Let $e$ be the identity element of $G$.
+Since $H$ is nonempty, it contains at least one element $h$.
+Since $e = h \cdot h^{-1}$, and by hypothesis $h\cdot h^{-1} \in H$, the set $H$ contains $e$.
+@li
+<b>Inverses</b>
+Since $e \in H$, for all $a \in H$ we have $a^{-1} = e\cdot a^{-1} \in H$.
+@li
+<b>Closure</b>
+For all $a, b \in H$, we know that $b^{-1} \in H$.  Hence,
+$ab = a\cdot(b^{-1})^{-1} \in H$.
+@endul
+@collapse
+Hence, $H$ is a subgroup of $G$.
+@endproof
+@endcol
+@end
+@sep
+@claim
+The intersection of two subgroups of a group $G$ is a subgroup of $G$.
+@end
+@proof
+Exercise.
+@end
+@sep
+@thm
+Every subgroup of $(\mathbb{Z}, +)$ is cyclic.
+@end
+@proof
+@col
+Let $H$ be a subgroup of $G = (\mathbb{Z}, +)$.
+If $H = \{0\}$, then it is clearly cyclic.
+
+@col
+Suppose $\abs{H} > 1$.  Consider the subset:
+\[
+S = \{h \in H \,:\, h > 0\} \subseteq H
+\]
+Since a subgroup is closed under inverse, 
+and the inverse of any $z \in \mathbb{Z}$
+with respect to $+$ is $-z$, the subgroup $H$ must contain at least one positive
+element.  Hence, $S$ is a non-empty subset of $\mathbb{Z}$ bounded from below.
+
+@col
+It then follows from the <a target="_blank" href="https://planetmath.org/wellorderingprinciplefornaturalnumbers">Least Integer Axiom</a> that exists a minimum element $h_0$ in $S$.
+That is $h_0 \leq h$ for any $h \in S$.
+
+@col
+<strong>Exercise.</strong> Show that $H = \langle h_0 \rangle$.
+
+(<em>Hint</em>: The <a target="_blank" href="https://planetmath.org/divisionalgorithmforintegers">Division Theorem for Integers</a> could be useful here.)
+@end
+@ex
+Every subgroup of a cyclic group is cyclic.
+@end
+@sep
+<h2>Lagrange's Theorem</h2>
+Let $G$ be a group, $H$ a subgroup of $G$.
+We are interested in knowing how large $H$ is relative to $G$.
+
+We define a relation $\equiv$ on $G$ as follows:
+\[
+a \equiv b \text{ if } b = ah \text{ for some } h \in H,
+\]
+or equivalently:
+\[
+a \equiv b \text{ if } a^{-1}b \in H.
+\]
+<b>Exercise:</b> $\equiv$ is an <a target="_blank" href="https://planetmath.org/equivalencerelation"><b>equivalence relation</b></a>.
+
+We may therefore partition $G$
+into disjoint equivalence classes with respect to $\equiv$.
+We call these equivalence classes the <b>left cosets</b> of $H$.
+
+Each left coset of $H$ has the form $aH = \{ah \,|\, h \in H\}$.
+
+@collapse
+We could likewise define <i> right</i> cosets.  These sets are of the form $Hb$, $b \in G$.
+In general,
+the number of left cosets and right cosets, if finite, are equal to each other
+@endcol
+@sep
+@eg
+Let $G = (\mathbb{Z}, +)$.
+Let:
+\[
+H = 3\mathbb{Z} =
+\{\ldots, -9, -6, -3, 0, 3, 6, 9, \ldots\}
+\]
+The set $H$ is a subgroup of $G$.
+The left cosets of $H$ in $G$ are as follows:
+\[
+3\mathbb{Z}, 1 + 3\mathbb{Z}, 2 + 3\mathbb{Z},
+\]
+where $i + 3\mathbb{Z} := \{i + 3k : k \in \mathbb{Z}\}$.
+
+In general, for $n \in \mathbb{Z}$,
+the left cosets of $n\mathbb{Z}$ in $\mathbb{Z}$ are:
+\[
+i + n\mathbb{Z}, \quad i = 0, 1, 2, \ldots, n - 1.
+\]
+@end
+@sep
+@def
+The number of left cosets of a subgroup $H$ of $G$ is called the <b>index</b> of $H$ in $G$.
+It is denoted by:
+\[
+[G : H]
+\]
+@end
+@eg
+Let $n \in \mathbb{N}$, 
+$G = (\mathbb{Z}, +)$, $H = (n\mathbb{Z}, +)$.
+Then,
+\[
+[G:H] = n.
+\]
+@end
+@sep
+@eg
+Let $G = {\rm GL}(n, \mathbb{R})$.  Let:
+\[
+H = {\rm GL}^+(n, \mathbb{R}) := \left\{ h \in G : \det h > 0\right\}.
+\]
+(<b>Exercise:</b> $H$ is a subgroup of $G$.)
+
+Let:
+\[
+s = \left(
+\begin{matrix}
+-1 & 0 & 0& 0 & 0\\
+0&1 &0 &0 &0\\
+0&0 &1 &0 &0\\
+0&0 &0 &\ddots&0\\
+0& 0 &0 &0 &1
+\end{matrix}
+\right) \in G
+\]
+Note that $\det s = \det s^{-1} = -1$.
+
+For any $g \in G$, either $\det g > 0$ or $\det g < 0$.
+If $\det g > 0$, then $g \in H$.
+If $\det g < 0$, we write:
+\[
+g = (ss^{-1}) g = s(s^{-1} g).
+\]
+Since $\det s^{-1}g = (\det s^{-1})(\det g) > 0$, we have $s^{-1}g \in H$.
+So, $G = H \sqcup s H$, and $[G : H] = 2$.
+Notice that both $G$ and $H$ are infinite groups, but the index of $H$ in $G$ is finite.
+@end
+
+@eg
+Let $G = {\rm GL}(n, \mathbb{R})$, $H = {\rm SL}(n, \mathbb{R})$.
+For each $x \in \mathbb{R}^\times$, let:
+\[
+s_x = \left(
+\begin{matrix}
+x & 0 & 0& 0 & 0\\
+0&1 &0 &0 &0\\
+0&0 &1 &0 &0\\
+0&0 &0 &\ddots&0\\
+0& 0 &0 &0 &1
+\end{matrix}
+\right) \in G
+\]
+Note that $\det s_x = x$.
+
+For each $g \in G$, we have:
+\[
+g = s_{\det g}{(s_{\det g}^{-1} g)} \in s_{\det g}H
+%% g = s_{\det g}\underbrace{(s_{\det g}^{-1} g)}_{\in H}
+\]
+Moreover, for distinct $x, y \in \mathbb{R}^\times$, we have:
+\[
+\det (s_x^{-1}s_y) = y/x \neq 1.
+\]
+This implies that $s_x^{-1} s_y \notin H$, hence $s_yH$ and $s_xH$ are disjoint cosets.
+We have therefore:
+\[
+G = \bigsqcup_{x \in \mathbb{R}^\times} s_x H.
+\]
+The index $[G: H]$ in this case is infinite.
+@end
+
+<!-- <b>Notation:</b> We denote the size of a set $S$ by $\abs{S}$. -->
+
+@sep
+@thm
+(<b>Lagrange's Theorem</b>)
+Let $G$ be a finite group.  Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
+More precisely, $\abs{G} = [G : H]\cdot\abs{H}$.
+@end
+
+We already know that the left cosets of $H$ partition $G$.
+That is:
+\[
+G = a_1 H \sqcup a_2 H \sqcup \ldots \sqcup a_{[G:H]}H,
+\]
+where $a_i H \cap a_j H = \emptyset$ if $i \neq j$.
+Hence, $\abs{G} = \sum_{i = 1}^{[G:H]} \abs{a_i H}$.
+<!-- Note that one of the left cosets, say $a_1 H$, is equal to $H = eH$. -->
+The theorem follows if we show that the size of each left coset of $H$ is equal to $\abs{H}$.
+
+For each left coset $S$ of $H$, pick an element $a \in S$, and  define a map $\psi : H \ra S$ as follows:
+\[
+\psi(h) = ah.
+\]
+We want to show that $\psi$ is bijective.
+
+For any $s \in S$,
+by definition of a left coset (as an equivalence class) we have $s = ah$ for some $h \in H$.
+Hence, $\psi$ is surjective.
+If $\psi(h') = ah' = ah = \psi(h)$ for some $h', h \in H$,
+then $h' = a^{-1}ah' = a^{-1}ah = h$.  Hence, $\psi$ is one-to-one.
+
+So we have a bijection between two finite sets.  Hence, $\abs{S} = \abs{H}$.
+
+@sep
+@cor
+Let $G$ be a finite group.
+The order of every element of $G$  divides the order of $G$.
+@end
+
+Since $G$ is finite, any element of $g \in G$ has finite order $\ord g$.
+Since the order of the subgroup:
+\[
+H = \langle g \rangle
+= \{e, g, g^2, \ldots, g^{(\ord g) - 1}\}
+\]
+is equal to $\ord g$,
+it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$.
+
+
+@cor
+If the order of a group $G$ is prime, then $G$ is a cyclic group.
+@end
+

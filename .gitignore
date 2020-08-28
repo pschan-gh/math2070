@@ -1,0 +1,6 @@
+**/.htaccess
+**/backup
+*.aux
+*.aux.xml
+*.sh
+**/protected

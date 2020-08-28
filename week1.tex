@@ -1,0 +1,428 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{amscd,amssymb,stmaryrd}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{fancybox}
+\usepackage{amstext}
+\usepackage{color}
+\usepackage{mathtools}
+\usepackage{pdflscape}
+\usepackage{listings}
+\usepackage{epic,eepic}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage[capitalise]{cleveref}
+
+
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\ol}[1]{\overline{#1}}
+\newcommand{\oll}[1]{\overline{\overline{#1}}}
+\newcommand{\bs}{\backslash}
+\newcommand{\Frac}{\mathrm{Frac}}
+\newcommand{\im}{\mathrm{im}\,}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\ra}{\longrightarrow}
+\newcommand{\ord}{\mathrm{ord}\,}
+\newcommand{\GL}{{\rm GL}}
+\newcommand{\SL}{{\rm SL}}
+\newcommand{\SO}{{\rm SO}}
+\newcommand{\colvec}[1]{\begin{pmatrix}#1\end{pmatrix}}
+\newcommand{\Span}{{\rm Span}\,}
+\newcommand{\Rank}{{\rm Rank}\,}
+\newcommand{\nullity}{{\rm nullity}\,}
+\newcommand{\adj}{{\rm adj}\,}
+\newcommand{\Proj}{{\rm Proj}}
+\newcommand{\ora}{\overrightarrow}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\phib}{\ol{\phi}}
+
+\newcommand{\class}{}
+
+\renewcommand{\ord}{\mathrm{ord}\,}
+
+\newcounter{statement}
+\numberwithin{statement}{chapter}
+
+\newtheorem{thm}[statement]{Theorem}
+\newtheorem{prop}[statement]{Proposition}
+\newtheorem{defn}[statement]{Definition}
+\newtheorem{lemma}[statement]{Lemma}
+\newtheorem{claim}[statement]{Claim}
+\newtheorem{cor}[statement]{Corollary}
+\newtheorem{fact}[statement]{Fact}
+\newtheorem{example}[statement]{\bf Example}
+\newtheorem{eg}[statement]{\bf Example}
+\newtheorem{ex}[statement]{\bf Exercise}
+\newtheorem*{notation}{\bf Notation}
+\newtheorem*{sol}{\bf Solution}
+\newtheorem*{remark}{\bf Remark}
+\numberwithin{equation}{chapter}
+\numberwithin{section}{chapter}
+\numberwithin{subsection}{section}
+
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\begin{document}
+\title{Math 2070}
+\setcounter{chapter}{1}\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{statement}{0}
+
+\chapter*{Math 2070 Week 1}
+{\bf Topics: }Groups
+
+
+\quad\\\hrule
+\quad\\
+\subsection*{Motivation}
+
+
+\quad\\\hrule
+\quad\\
+
+\begin{itemize}
+\item 
+How many ways are there to color a cube, such that each face is either red or green?
+
+
+
+
+ {\bf Answer:} 
+10. Why?
+
+
+
+
+\item 
+How many ways are there to form a triangle with three sticks of equal lengths, colored
+red, green and blue, respectively?
+
+
+
+
+\item 
+What are the symmetries of an equilateral triangle?
+
+
+
+
+\textbf{Dihedral Group $D_3$}
+
+
+
+
+
+
+
+
+
+
+\end{itemize}
+
+
+
+
+\quad\\\hrule
+\quad\\
+\subsection*{Cayley Table}
+
+
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+*&$a$&$b$&$c$ \\
+\hline
+$a$&$a^2$&$ab$&$ac$ \\
+\hline
+$b$&$ba$&$b^2$&$bc$ \\
+\hline
+$c$&$ca$&$cb$&$c^2$\\\hline
+\end{tabular}
+\end{center}
+
+
+
+\quad\\\hrule
+\quad\\
+
+
+
+
+
+\textbf{Cayley Table for $D_3$}
+
+
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+
+*
+&$r_0$&$r_1$&$r_2$&$s_0$&$s_1$&$s_2$ \\
+\hline
+$r_0$&$r_0$&$r_1$&$r_2$&$s_0$&$s_1$&$s_2$ \\
+\hline
+$r_1$&$r_1$&$r_2$&$r_0$&$s_1$&$s_2$&$s_0$ \\
+\hline
+$r_2$&$r_2$&$r_0$&$r_1$&$s_2$&$s_0$&$s_1$ \\
+\hline
+$s_0$&$s_0$&$s_2$&$s_1$&$r_0$&$r_2$&$r_1$ \\
+\hline
+$s_1$&$s_1$&$s_0$&$s_2$&$r_1$&$r_0$&$r_2$ \\
+\hline
+$s_2$&$s_2$&$s_1$&$s_0$&$r_2$&$r_1$&$r_0$\\\hline
+\end{tabular}
+\end{center}
+
+
+
+\quad\\\hrule
+\quad\\
+\section*{Groups}
+
+\begin{defn}
+A group $G$ is a set equipped with a binary operation $*: G \times G \ra G$ (typically called  {\bf  group operation}  or " {\bf multiplication} "), such that:
+\begin{itemize}
+\item 
+ \underline{  {\bf Associativity} } 
+\[(a* b)* c = a * (b * c),\]
+for all $a, b, c \in G$. In other words, the group operation is  {\bf associative} .
+
+\item 
+ \underline{  {\bf Existence of an Identity Element} } 
+
+
+
+There is an element $e \in G$, called an  {\bf identity element} , such that:
+\[g* e = e * g = g,\]
+for all $g \in G$.
+
+\item 
+ \underline{  {\bf Invertibility} } 
+
+
+
+Each element $g \in G$ has an  {\bf inverse}  $g^{-1} \in G$, such that:
+\[g^{-1}* g = g* g^{-1} = e.\]
+\end{itemize}
+\end{defn}
+
+\begin{itemize}
+\item 
+Note that we do not require that $a* b = b * a$.
+  
+\item 
+We often write $ab$ to denote $a* b$.
+  \end{itemize}
+
+\begin{defn}
+If $ab = ba$ for all $a, b \in G$. We say that the group operation is
+ {\bf commutative} , and that $G$ is an  {\bf abelian group} .
+\end{defn}
+
+\begin{eg}
+The following sets are groups, with respect to the specified group operations:
+\begin{itemize}
+\item 
+$G = \mathbb{Q} \backslash \{0\}$, where the group operation is the usual multiplication for rational numbers.
+The identity is $e = 1$, and the inverse of $a \in \mathbb{Q}\backslash\{0\}$ is $a^{-1} = \frac{1}{a}$.
+The group $G$ is abelian.
+  
+\item 
+$G = \mathbb{Q}$, where the group operation is the usual addition $+$ for rational numbers. The identity is $e = 0$.
+The inverse of $a \in \mathbb{Q}$ with respect to $+$ is $-a$.
+Note that $\mathbb{Q}$ is  {\bf NOT}  a group with respect to multiplication. For in that case, we have $e = 1$, but $0 \in \mathbb{Q}$ has no inverse
+$0^{-1} \in \mathbb{Q}$ such that $0\cdot 0^{-1} = 1$.
+  \end{itemize}
+
+
+
+
+
+\quad\\\hrule
+\quad\\
+
+\end{eg}
+
+\begin{ex}
+Verify that the following sets are groups under the specified binary operation:
+\begin{itemize}
+\item 
+$(\mathbb{Z}, +)$
+  
+\item 
+$(\mathbb{R}, +)$
+  
+\item 
+$(\mathbb{R}^\times, \cdot)$
+  
+\item 
+$(U_m, \cdot)$, where $m \in \mathbb{N}$,
+\[U_m = \{1, \xi_m, \xi_m^2, \ldots, \xi_m^{m - 1}\},\]
+and
+$\xi_m = e^{2\pi i/m} = \cos(2\pi/m) + i\sin(2\pi/m) \in \mathbb{C}$.
+
+
+  
+\item 
+The set of bijective functions $f: \mathbb{R} \ra \mathbb{R}$,
+where $f * g:= f \circ g$ (i.e. composition of functions).
+  \end{itemize}
+
+
+
+
+
+\quad\\\hrule
+\quad\\
+
+
+\end{ex}
+
+\begin{ex}
+\begin{enumerate}
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+
+\item 
+
+{\bf WeBWork}
+\end{enumerate}
+\end{ex}
+
+\begin{eg}
+The set $G = {\rm GL}(2, \mathbb{R})$
+of real $2 \times 2$ matrices with nonzero determinants is a group
+under matrix multiplication, with identity element:
+\[e = \left(\begin{matrix} 1 &amp; 0\\0&amp; 1\end{matrix}\right).\]
+In the group $G$, we have:
+\[\left(\begin{matrix} a &amp; b \\ c &amp; d\end{matrix}\right)^{-1}
+=
+\frac{1}{ad - bc}\left(\begin{matrix}d &amp; -b \\-c &amp; a\end{matrix}\right)\]
+
+Note that there are matrices $A, B \in {\rm GL}(2, \mathbb{R})$
+such that $AB \neq BA$. Hence ${\rm GL}(2, \mathbb{R})$ is not abelian.
+
+
+
+
+
+\quad\\\hrule
+\quad\\
+
+
+\end{eg}
+\begin{ex}
+
+The set ${\rm SL}(2, \mathbb{R})$ ( {\bf Special Linear Group} )
+of real $2 \times 2$ matrices with determinant $1$ is a group under matrix multiplication.
+\end{ex}
+
+
+\begin{claim}
+The identity element $e$ of a group $G$ is unique.
+\end{claim}
+\begin{proof}
+
+Suppose there is an element $e' \in G$ such that $e' g = ge' = g$ for all $g \in G$.
+Then, in particular, we have:
+\[e'e = e\]
+But since $e$ is an identity element, we also have $e'e = e'$. Hence, $e' = e$.
+\end{proof}
+\begin{claim}
+Let $G$ be a group.
+For all $g \in G$, its inverse $g^{-1}$ is unique.
+\end{claim}
+\begin{proof}
+
+Suppose there exists $g' \in G$ such that $g'g = gg' = e$.
+By the associativity of the group operation, we have:
+\[g' = g'e = g'(g g^{-1}) = (g'g)g^{-1} = e g^{-1} = g^{-1}.\]
+Hence, $g^{-1}$ is unique.
+\end{proof}
+
+Let $G$ be a group with identity element $e$.
+For $g \in G$, $n \in \mathbb{N}$,
+let:
+\[\begin{split}
+g^n &amp;:= \underbrace{g \cdot g \cdots g}_{n\text{ times}}.\\
+g^{-n} &amp;:= \underbrace{g^{-1} \cdot g^{-1} \cdots g^{-1}}_{n\text{ times}}\\
+g^0 &amp;:= e.
+\end{split}\]
+\begin{claim}
+
+Let $G$ be a group.
+\begin{enumerate}
+\item 
+For all $g \in G$,
+we have:
+\[(g^{-1})^{-1} = g.\]
+  
+\item 
+For all $a, b \in G$,
+we have:
+\[(ab)^{-1} = b^{-1}a^{-1}.\]
+  
+\item 
+For all $g \in G$, $n, m \in \mathbb{Z}$, we have:
+\[g^n\cdot g^m = g^{n + m}.\]
+  \end{enumerate}
+\end{claim}
+\begin{proof}
+
+ {\bf Exercise.} 
+\end{proof}
+
+\begin{defn}
+Let $G$ be a group, with identity element $e$.
+The  {\bf order}  of $G$ is the number of elements in $G$.
+The  {\bf order}  $\ord g$ of an  $g \in G$
+is the smallest $n \in \mathbb{N}$ such that $g^n = e$.
+If no such $n$ exists, we say that $g$ has  {\bf infinite order} .
+\end{defn}
+\begin{thm}
+
+Let $G$ be a group with identity element $e$.
+Let $g$ be an element of $G$. If $g^n = e$ for some $n \in \mathbb{N}$,
+then $\ord g$ divides $n$.
+\end{thm}
+\begin{proof}
+
+Shown in class.
+\end{proof}
+
+\end{document}

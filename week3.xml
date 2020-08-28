@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" title="Math 2070" wbtag="course">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">Subgroups</keyword>
+      <keyword chapter="" slide="all">subgroup</keyword>
+      <keyword chapter="" slide="all">Closure</keyword>
+      <keyword chapter="" slide="all">Identity</keyword>
+      <keyword chapter="" slide="all">Inverses</keyword>
+      <keyword chapter="" slide="all">even permutation</keyword>
+      <keyword chapter="" slide="all">alternating group</keyword>
+      <keyword chapter="" slide="all">Identity</keyword>
+      <keyword chapter="" slide="all">Inverses</keyword>
+      <keyword chapter="" slide="all">Closure</keyword>
+      <keyword chapter="" slide="all">Lagrange's Theorem</keyword>
+      <keyword chapter="" slide="all">equivalence relation</keyword>
+      <keyword chapter="" slide="all">left cosets</keyword>
+      <keyword chapter="" slide="all">index</keyword>
+      <keyword chapter="" slide="all">Lagrange's Theorem</keyword>
+      <keyword chapter="" slide="all">Math 2070</keyword>
+    </keywords>
+    <title environment="" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" slide="1">Math 2070</title><keywords slide="1" environ="slide" chapter="" course="Math 2070"><keyword chapter="" slide="1">Math 2070</keyword></keywords>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" wbtag="week" num="3" topic="Subgroups, Left Cosets, Index" course="Math 2070">
+      <keywords slide="all" environ="chapter" chapter="3" course="Math 2070">
+        <keyword chapter="3" slide="all">Subgroups</keyword>
+        <keyword chapter="3" slide="all">subgroup</keyword>
+        <keyword chapter="3" slide="all">Closure</keyword>
+        <keyword chapter="3" slide="all">Identity</keyword>
+        <keyword chapter="3" slide="all">Inverses</keyword>
+        <keyword chapter="3" slide="all">even permutation</keyword>
+        <keyword chapter="3" slide="all">alternating group</keyword>
+        <keyword chapter="3" slide="all">Identity</keyword>
+        <keyword chapter="3" slide="all">Inverses</keyword>
+        <keyword chapter="3" slide="all">Closure</keyword>
+        <keyword chapter="3" slide="all">Lagrange's Theorem</keyword>
+        <keyword chapter="3" slide="all">equivalence relation</keyword>
+        <keyword chapter="3" slide="all">left cosets</keyword>
+        <keyword chapter="3" slide="all">index</keyword>
+        <keyword chapter="3" slide="all">Lagrange's Theorem</keyword>
+      </keywords>
+      <title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" slide="">Subgroups</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" slide="">Left Cosets</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" slide="">Index</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s2" slide="2" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="2"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="2">Subgroups</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="2">Left Cosets</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="2">Index</topic><keywords slide="2" environ="slide" chapter="3" course="Math 2070"/>
+
+
+
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s3" slide="3" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="3" environ="slide" chapter="3" course="Math 2070"><keyword chapter="3" slide="3">Subgroups</keyword><keyword chapter="3" slide="3">subgroup</keyword><keyword chapter="3" slide="3">Closure</keyword><keyword chapter="3" slide="3">Identity</keyword><keyword chapter="3" slide="3">Inverses</keyword></keywords>
+<xh:h2 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Subgroups</xh:h2>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="f7871d71a465e6ab71644abdcc14318d" course="Math 2070" chapter="3" slide="3" item="3.1">
+Let $G$ be a group.
+A subset $H$ of $G$ is a <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">subgroup</xh:b> of $G$ if it satisfies the following properties:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<col_ul environment="col_ul" chapter_type="" wbtag="col_ul">
+<col_li environment="col_ul" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">Closure</xh:b> If $a, b \in H$, then $ab \in H$.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">Identity</xh:b> The identity element of $G$ lies in $H$.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">Inverses</xh:b> If $a \in H$, then $a^{-1} \in H$.
+</col_li></col_ul>
+</newcol>
+</statement>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+In particular, a subgroup $H$ is a group with respect to the group operation on $G$,
+and the identity element of $H$ is the identity element of $G$.
+</newcol>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s4" slide="4" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="4" environ="slide" chapter="3" course="Math 2070"><keyword chapter="3" slide="4">even permutation</keyword><keyword chapter="3" slide="4">alternating group</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" label="eg:subgroups" md5="3a8632057ec5b902b8a4bb5c67ae0717" course="Math 2070" chapter="3" slide="4" item="3.2">
+
+<col_ul environment="col_ul" chapter_type="" wbtag="col_ul">
+<col_li environment="col_ul" chapter_type="" wbtag="col_li">
+For any $n \in \mathbb{Z}$,
+$n\mathbb{Z}$ is a subgroup of $(\mathbb{Z}, +)$.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+$\mathbb{Q}\bs\{0\}$ is a subgroup of $(\mathbb{R}\bs\{0\}, \cdot)$.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+${\rm SL}(2, \mathbb{R})$ is a subgroup of ${\rm GL}(2, \mathbb{R})$.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+The set of all rotations (including the trivial rotation) in a dihedral group $D_n$
+is a subgroup of $D_n$.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+Let $n \in \mathbb{N}$, $n \geq 2$.  
+We say that $\sigma \in S_n$ is an <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">even permutation</xh:b>
+if it is equal to the product of an even number of transpositions.
+The subset $A_n$ of $S_n$ consisting of even permutations is a subgroup of $S_n$.
+$A_n$ is called an <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">alternating group</xh:b>.
+</col_li></col_ul>
+</statement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s5" slide="5" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="5" environ="slide" chapter="3" course="Math 2070"><keyword chapter="3" slide="5">Identity</keyword><keyword chapter="3" slide="5">Inverses</keyword><keyword chapter="3" slide="5">Closure</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" md5="6576c0e809919bd40a259f9cd2d16a01" course="Math 2070" chapter="3" slide="5" item="3.3">
+A subset $H$ of a group $G$ is a subgroup of $G$ if and only if $H$ is nonempty
+and, for all $x, y \in H$, we have $xy^{-1} \in H$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e005ec30f2bf0f9d4d12c09a270b9051" course="Math 2070" chapter="3" slide="5" of="6576c0e809919bd40a259f9cd2d16a01">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Suppose $H \subseteq G$ is a subgroup.
+Then, $H$ is nonempty since $e_G \in H$.
+For all $x, y \in H$, we have $y^{-1} \in H$;
+hence, $xy^{-1} \in H$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+Conversely, suppose $H$ is a nonempty subset of $G$,
+and $xy^{-1} \in H$ for all $x, y \in H$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+<col_ul environment="col_ul" chapter_type="" wbtag="col_ul">
+<col_li environment="col_ul" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">Identity</xh:b> Let $e$ be the identity element of $G$.
+Since $H$ is nonempty, it contains at least one element $h$.
+Since $e = h \cdot h^{-1}$, and by hypothesis $h\cdot h^{-1} \in H$, the set $H$ contains $e$.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">Inverses</xh:b>
+Since $e \in H$, for all $a \in H$ we have $a^{-1} = e\cdot a^{-1} \in H$.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">Closure</xh:b>
+For all $a, b \in H$, we know that $b^{-1} \in H$.  Hence,
+$ab = a\cdot(b^{-1})^{-1} \in H$.
+</col_li></col_ul>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Hence, $H$ is a subgroup of $G$.
+<qed environment="newcol" chapter_type=""/>
+</collapse></collapse></newcol>
+</substatement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s6" slide="6" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="6" environ="slide" chapter="3" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" md5="57b80347e2d3ec6941833fd034627a81" course="Math 2070" chapter="3" slide="6" item="3.4">
+The intersection of two subgroups of a group $G$ is a subgroup of $G$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="3" slide="6" of="57b80347e2d3ec6941833fd034627a81">
+Exercise.
+</substatement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s7" slide="7" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="7" environ="slide" chapter="3" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="5" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2070" chapter="3" slide="7" item="3.5">
+Every subgroup of $(\mathbb{Z}, +)$ is cyclic.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f2f281c9503d1f3c8f264f7cae1c4043" course="Math 2070" chapter="3" slide="7" of="3fc92e570f8a20bea99cbdc36d3c5bb8">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Let $H$ be a subgroup of $G = (\mathbb{Z}, +)$.
+If $H = \{0\}$, then it is clearly cyclic.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Suppose $\abs{H} &gt; 1$.  Consider the subset:
+\[
+S = \{h \in H \,:\, h &gt; 0\} \subseteq H
+\]
+Since a subgroup is closed under inverse, 
+and the inverse of any $z \in \mathbb{Z}$
+with respect to $+$ is $-z$, the subgroup $H$ must contain at least one positive
+element.  Hence, $S$ is a non-empty subset of $\mathbb{Z}$ bounded from below.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+It then follows from the <xh:a xmlns:xh="http://www.w3.org/1999/xhtml" target="_blank" href="https://planetmath.org/wellorderingprinciplefornaturalnumbers" environment="newcol">Least Integer Axiom</xh:a> that exists a minimum element $h_0$ in $S$.
+That is $h_0 \leq h$ for any $h \in S$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Exercise.</xh:strong> Show that $H = \langle h_0 \rangle$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+(<xh:em xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Hint</xh:em>: The <xh:a xmlns:xh="http://www.w3.org/1999/xhtml" target="_blank" href="https://planetmath.org/divisionalgorithmforintegers" environment="newcol">Division Theorem for Integers</xh:a> could be useful here.)
+</collapse></collapse></collapse></newcol></substatement>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="6" md5="bae6cbdabbc658ffccad4c0fd780453c" course="Math 2070" chapter="3" slide="7" item="3.6">
+Every subgroup of a cyclic group is cyclic.
+</statement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s8" slide="8" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="8" environ="slide" chapter="3" course="Math 2070"><keyword chapter="3" slide="8">Lagrange's Theorem</keyword><keyword chapter="3" slide="8">equivalence relation</keyword><keyword chapter="3" slide="8">left cosets</keyword></keywords>
+<xh:h2 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Lagrange's Theorem</xh:h2>
+Let $G$ be a group, $H$ a subgroup of $G$.
+We are interested in knowing how large $H$ is relative to $G$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+We define a relation $\equiv$ on $G$ as follows:
+\[
+a \equiv b \text{ if } b = ah \text{ for some } h \in H,
+\]
+or equivalently:
+\[
+a \equiv b \text{ if } a^{-1}b \in H.
+\]
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Exercise:</xh:b> $\equiv$ is an <xh:a xmlns:xh="http://www.w3.org/1999/xhtml" target="_blank" href="https://planetmath.org/equivalencerelation" environment=""><xh:b environment="">equivalence relation</xh:b></xh:a>.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+We may therefore partition $G$
+into disjoint equivalence classes with respect to $\equiv$.
+We call these equivalence classes the <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="">left cosets</xh:b> of $H$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+Each left coset of $H$ has the form $aH = \{ah \,|\, h \in H\}$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+We could likewise define <xh:i xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"> right</xh:i> cosets.  These sets are of the form $Hb$, $b \in G$.
+In general,
+the number of left cosets and right cosets, if finite, are equal to each other
+</newcol>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s9" slide="9" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="9" environ="slide" chapter="3" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="b77f0c6d9223307e7c03607e4a2f71ba" course="Math 2070" chapter="3" slide="9" item="3.7">
+Let $G = (\mathbb{Z}, +)$.
+Let:
+\[
+H = 3\mathbb{Z} =
+\{\ldots, -9, -6, -3, 0, 3, 6, 9, \ldots\}
+\]
+The set $H$ is a subgroup of $G$.
+The left cosets of $H$ in $G$ are as follows:
+\[
+3\mathbb{Z}, 1 + 3\mathbb{Z}, 2 + 3\mathbb{Z},
+\]
+where $i + 3\mathbb{Z} := \{i + 3k : k \in \mathbb{Z}\}$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+In general, for $n \in \mathbb{Z}$,
+the left cosets of $n\mathbb{Z}$ in $\mathbb{Z}$ are:
+\[
+i + n\mathbb{Z}, \quad i = 0, 1, 2, \ldots, n - 1.
+\]
+</statement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s10" slide="10" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="10" environ="slide" chapter="3" course="Math 2070"><keyword chapter="3" slide="10">index</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="8" md5="8f8a96dfa5832f87f8613f6639e6262b" course="Math 2070" chapter="3" slide="10" item="3.8">
+The number of left cosets of a subgroup $H$ of $G$ is called the <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">index</xh:b> of $H$ in $G$.
+It is denoted by:
+\[
+[G : H]
+\]
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="e2d60e37880b1ae4a5c22a8d6e6b0a01" course="Math 2070" chapter="3" slide="10" item="3.9">
+Let $n \in \mathbb{N}$, 
+$G = (\mathbb{Z}, +)$, $H = (n\mathbb{Z}, +)$.
+Then,
+\[
+[G:H] = n.
+\]
+</statement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s11" slide="11" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="11" environ="slide" chapter="3" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="1ad8b28f2761b0e740cc596c0c98e480" course="Math 2070" chapter="3" slide="11" item="3.10">
+Let $G = {\rm GL}(n, \mathbb{R})$.  Let:
+\[
+H = {\rm GL}^+(n, \mathbb{R}) := \left\{ h \in G : \det h &gt; 0\right\}.
+\]
+(<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">Exercise:</xh:b> $H$ is a subgroup of $G$.)
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+Let:
+\[
+s = \left(
+\begin{matrix}
+-1 &amp; 0 &amp; 0&amp; 0 &amp; 0\\
+0&amp;1 &amp;0 &amp;0 &amp;0\\
+0&amp;0 &amp;1 &amp;0 &amp;0\\
+0&amp;0 &amp;0 &amp;\ddots&amp;0\\
+0&amp; 0 &amp;0 &amp;0 &amp;1
+\end{matrix}
+\right) \in G
+\]
+Note that $\det s = \det s^{-1} = -1$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+For any $g \in G$, either $\det g &gt; 0$ or $\det g &lt; 0$.
+If $\det g &gt; 0$, then $g \in H$.
+If $\det g &lt; 0$, we write:
+\[
+g = (ss^{-1}) g = s(s^{-1} g).
+\]
+Since $\det s^{-1}g = (\det s^{-1})(\det g) &gt; 0$, we have $s^{-1}g \in H$.
+So, $G = H \sqcup s H$, and $[G : H] = 2$.
+Notice that both $G$ and $H$ are infinite groups, but the index of $H$ in $G$ is finite.
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="912af72c3d5172a3749363703f8f653c" course="Math 2070" chapter="3" slide="11" item="3.11">
+Let $G = {\rm GL}(n, \mathbb{R})$, $H = {\rm SL}(n, \mathbb{R})$.
+For each $x \in \mathbb{R}^\times$, let:
+\[
+s_x = \left(
+\begin{matrix}
+x &amp; 0 &amp; 0&amp; 0 &amp; 0\\
+0&amp;1 &amp;0 &amp;0 &amp;0\\
+0&amp;0 &amp;1 &amp;0 &amp;0\\
+0&amp;0 &amp;0 &amp;\ddots&amp;0\\
+0&amp; 0 &amp;0 &amp;0 &amp;1
+\end{matrix}
+\right) \in G
+\]
+Note that $\det s_x = x$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+For each $g \in G$, we have:
+\[
+g = s_{\det g}{(s_{\det g}^{-1} g)} \in s_{\det g}H
+%% g = s_{\det g}\underbrace{(s_{\det g}^{-1} g)}_{\in H}
+\]
+Moreover, for distinct $x, y \in \mathbb{R}^\times$, we have:
+\[
+\det (s_x^{-1}s_y) = y/x \neq 1.
+\]
+This implies that $s_x^{-1} s_y \notin H$, hence $s_yH$ and $s_xH$ are disjoint cosets.
+We have therefore:
+\[
+G = \bigsqcup_{x \in \mathbb{R}^\times} s_x H.
+\]
+The index $[G: H]$ in this case is infinite.
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<!-- <b>Notation:</b> We denote the size of a set $S$ by $\abs{S}$. -->
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s12" slide="12" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="12" environ="slide" chapter="3" course="Math 2070"><keyword chapter="3" slide="12">Lagrange's Theorem</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="73d51b0af4e4da963c2c84cd31fb0993" course="Math 2070" chapter="3" slide="12" item="3.12">
+(<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">Lagrange's Theorem</xh:b>)
+Let $G$ be a finite group.  Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
+More precisely, $\abs{G} = [G : H]\cdot\abs{H}$.
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+We already know that the left cosets of $H$ partition $G$.
+That is:
+\[
+G = a_1 H \sqcup a_2 H \sqcup \ldots \sqcup a_{[G:H]}H,
+\]
+where $a_i H \cap a_j H = \emptyset$ if $i \neq j$.
+Hence, $\abs{G} = \sum_{i = 1}^{[G:H]} \abs{a_i H}$.
+<!-- Note that one of the left cosets, say $a_1 H$, is equal to $H = eH$. -->
+The theorem follows if we show that the size of each left coset of $H$ is equal to $\abs{H}$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+For each left coset $S$ of $H$, pick an element $a \in S$, and  define a map $\psi : H \ra S$ as follows:
+\[
+\psi(h) = ah.
+\]
+We want to show that $\psi$ is bijective.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+For any $s \in S$,
+by definition of a left coset (as an equivalence class) we have $s = ah$ for some $h \in H$.
+Hence, $\psi$ is surjective.
+If $\psi(h') = ah' = ah = \psi(h)$ for some $h', h \in H$,
+then $h' = a^{-1}ah' = a^{-1}ah = h$.  Hence, $\psi$ is one-to-one.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+So we have a bijection between two finite sets.  Hence, $\abs{S} = \abs{H}$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s13" slide="13" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="13" environ="slide" chapter="3" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="13" md5="d0cd4ca8e8cef498e5fce9bce2437087" course="Math 2070" chapter="3" slide="13" item="3.13">
+Let $G$ be a finite group.
+The order of every element of $G$  divides the order of $G$.
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+Since $G$ is finite, any element of $g \in G$ has finite order $\ord g$.
+Since the order of the subgroup:
+\[
+H = \langle g \rangle
+= \{e, g, g^2, \ldots, g^{(\ord g) - 1}\}
+\]
+is equal to $\ord g$,
+it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="14" md5="34537484728fec1aaba97b2d2c2ba958" course="Math 2070" chapter="3" slide="13" item="3.14">
+If the order of a group $G$ is prime, then $G$ is a cyclic group.
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+      </slides>
+    </chapter>
+  </course>
+</document>

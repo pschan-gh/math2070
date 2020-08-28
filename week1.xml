@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" title="Math 2070" wbtag="course">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">Motivation</keyword>
+      <keyword chapter="" slide="all">Dihedral Group $D_3$</keyword>
+      <keyword chapter="" slide="all">Cayley Table</keyword>
+      <keyword chapter="" slide="all">Cayley Table for $D_3$</keyword>
+      <keyword chapter="" slide="all">Groups</keyword>
+      <keyword chapter="" slide="all"> group operation</keyword>
+      <keyword chapter="" slide="all">multiplication</keyword>
+      <keyword chapter="" slide="all">Associativity</keyword>
+      <keyword chapter="" slide="all">associative</keyword>
+      <keyword chapter="" slide="all">Existence of an Identity Element</keyword>
+      <keyword chapter="" slide="all">identity element</keyword>
+      <keyword chapter="" slide="all">Invertibility</keyword>
+      <keyword chapter="" slide="all">inverse</keyword>
+      <keyword chapter="" slide="all">commutative</keyword>
+      <keyword chapter="" slide="all">abelian group</keyword>
+      <keyword chapter="" slide="all">Special Linear Group</keyword>
+      <keyword chapter="" slide="all">order</keyword>
+      <keyword chapter="" slide="all">order</keyword>
+      <keyword chapter="" slide="all">infinite order</keyword>
+      <keyword chapter="" slide="all">Math 2070</keyword>
+    </keywords>
+    <title environment="" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" slide="1">Math 2070</title><keywords slide="1" environ="slide" chapter="" course="Math 2070"><keyword chapter="" slide="1">Math 2070</keyword></keywords>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" wbtag="week" num="1" topic="Groups" course="Math 2070">
+      <keywords slide="all" environ="chapter" chapter="1" course="Math 2070">
+        <keyword chapter="1" slide="all">Motivation</keyword>
+        <keyword chapter="1" slide="all">Dihedral Group $D_3$</keyword>
+        <keyword chapter="1" slide="all">Cayley Table</keyword>
+        <keyword chapter="1" slide="all">Cayley Table for $D_3$</keyword>
+        <keyword chapter="1" slide="all">Groups</keyword>
+        <keyword chapter="1" slide="all"> group operation</keyword>
+        <keyword chapter="1" slide="all">multiplication</keyword>
+        <keyword chapter="1" slide="all">Associativity</keyword>
+        <keyword chapter="1" slide="all">associative</keyword>
+        <keyword chapter="1" slide="all">Existence of an Identity Element</keyword>
+        <keyword chapter="1" slide="all">identity element</keyword>
+        <keyword chapter="1" slide="all">Invertibility</keyword>
+        <keyword chapter="1" slide="all">inverse</keyword>
+        <keyword chapter="1" slide="all">commutative</keyword>
+        <keyword chapter="1" slide="all">abelian group</keyword>
+        <keyword chapter="1" slide="all">Special Linear Group</keyword>
+        <keyword chapter="1" slide="all">order</keyword>
+        <keyword chapter="1" slide="all">order</keyword>
+        <keyword chapter="1" slide="all">infinite order</keyword>
+      </keywords>
+      <title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" slide="">Groups</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s2" slide="2" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="2"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="2">Groups</topic><keywords slide="2" environ="slide" chapter="1" course="Math 2070"/>
+
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s3" slide="3" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="3" environ="slide" chapter="1" course="Math 2070"><keyword chapter="1" slide="3">Motivation</keyword><keyword chapter="1" slide="3">Dihedral Group $D_3$</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Motivation</xh:h3>
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<col_ul environment="col_ul" chapter_type="" wbtag="col_ul">
+<col_li environment="col_ul" chapter_type="" wbtag="col_li">
+How many ways are there to color a cube, such that each face is either red or green?
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="col_ul"/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Answer:</xh:b>
+10. Why?
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+</newcol></col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+How many ways are there to form a triangle with three sticks of equal lengths, colored
+red, green and blue, respectively?
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="col_ul"/>
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+What are the symmetries of an equilateral triangle?
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="col_ul"/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<xh:h5 xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Dihedral Group $D_3$</xh:h5>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/><xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<xh:a xmlns:xh="http://www.w3.org/1999/xhtml" href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" environment="newcol"><xh:img alt="Labeled Triangle Reflections.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" class="lazy" style="display: none;" environment="newcol"/></xh:a>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+</newcol></col_li></col_ul>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s4" slide="4" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="4" environ="slide" chapter="1" course="Math 2070"><keyword chapter="1" slide="4">Cayley Table</keyword><keyword chapter="1" slide="4">Cayley Table for $D_3$</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Cayley Table</xh:h3>
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="">
+<xh:a href="https://en.wikipedia.org/wiki/Cayley_table" target="_blank" environment="">
+<xh:table class="table table-bordered" border="2" cellpadding="5" align="center" style="text-align: center;" environment="">
+<xh:tbody environment="">
+<xh:tr environment="">
+<xh:th style="background:#efefef;text-align:center" environment="">*</xh:th>
+<xh:th style="background:#efefef;text-align:center" environment="">$a$</xh:th>
+<xh:th style="background:#efefef;text-align:center" environment="">$b$</xh:th>
+<xh:th style="background:#efefef;text-align:center" environment="">$c$</xh:th>
+</xh:tr>
+ <xh:tr environment="">
+<xh:th style="background:#efefef;text-align:center" environment="">$a$</xh:th>
+<xh:td environment="">$a^2$</xh:td>
+<xh:td environment="">$ab$</xh:td>
+<xh:td environment="">$ac$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:th style="background:#efefef;text-align:center" environment="">$b$</xh:th>
+<xh:td environment="">$ba$</xh:td>
+<xh:td environment="">$b^2$</xh:td>
+<xh:td environment="">$bc$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:th style="background:#efefef;text-align:center" environment="">$c$</xh:th>
+<xh:td environment="">$ca$</xh:td>
+<xh:td environment="">$cb$</xh:td>
+<xh:td environment="">$c^2$</xh:td>
+</xh:tr>
+</xh:tbody>
+</xh:table>
+</xh:a>
+</xh:div>
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<xh:h5 xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Cayley Table for $D_3$</xh:h5>
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+<xh:a href="https://en.wikipedia.org/wiki/Dihedral_group" target="_blank" environment="newcol">
+<xh:table class="table table-bordered" width="200" style="text-align: center;" environment="newcol">
+<xh:tbody environment="newcol">
+<xh:tr environment="newcol">
+<xh:th style="text-align: center;" environment="newcol">
+*
+</xh:th>
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$r_0$</xh:th>
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$r_1$</xh:th>
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$r_2$</xh:th>
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$s_0$</xh:th>
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$s_1$</xh:th>
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$s_2$</xh:th>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$r_0$</xh:th>
+<xh:td environment="newcol">$r_0$</xh:td>
+<xh:td environment="newcol">$r_1$</xh:td>
+<xh:td environment="newcol">$r_2$</xh:td>
+<xh:td environment="newcol">$s_0$</xh:td>
+<xh:td environment="newcol">$s_1$</xh:td>
+<xh:td environment="newcol">$s_2$</xh:td>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$r_1$</xh:th>
+<xh:td environment="newcol">$r_1$</xh:td>
+<xh:td environment="newcol">$r_2$</xh:td>
+<xh:td environment="newcol">$r_0$</xh:td>
+<xh:td environment="newcol">$s_1$</xh:td>
+<xh:td environment="newcol">$s_2$</xh:td>
+<xh:td environment="newcol">$s_0$</xh:td>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$r_2$</xh:th>
+<xh:td environment="newcol">$r_2$</xh:td>
+<xh:td environment="newcol">$r_0$</xh:td>
+<xh:td environment="newcol">$r_1$</xh:td>
+<xh:td environment="newcol">$s_2$</xh:td>
+<xh:td environment="newcol">$s_0$</xh:td>
+<xh:td environment="newcol">$s_1$</xh:td>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$s_0$</xh:th>
+<xh:td environment="newcol">$s_0$</xh:td>
+<xh:td environment="newcol">$s_2$</xh:td>
+<xh:td environment="newcol">$s_1$</xh:td>
+<xh:td environment="newcol">$r_0$</xh:td>
+<xh:td environment="newcol">$r_2$</xh:td>
+<xh:td environment="newcol">$r_1$</xh:td>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$s_1$</xh:th>
+<xh:td environment="newcol">$s_1$</xh:td>
+<xh:td environment="newcol">$s_0$</xh:td>
+<xh:td environment="newcol">$s_2$</xh:td>
+<xh:td environment="newcol">$r_1$</xh:td>
+<xh:td environment="newcol">$r_0$</xh:td>
+<xh:td environment="newcol">$r_2$</xh:td>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:th style="background:#efefef;text-align:center" environment="newcol">$s_2$</xh:th>
+<xh:td environment="newcol">$s_2$</xh:td>
+<xh:td environment="newcol">$s_1$</xh:td>
+<xh:td environment="newcol">$s_0$</xh:td>
+<xh:td environment="newcol">$r_2$</xh:td>
+<xh:td environment="newcol">$r_1$</xh:td>
+<xh:td environment="newcol">$r_0$</xh:td>
+</xh:tr>
+</xh:tbody>
+</xh:table>
+</xh:a>
+</xh:div>
+</newcol></slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s5" slide="5" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="5" environ="slide" chapter="1" course="Math 2070"><keyword chapter="1" slide="5">Groups</keyword><keyword chapter="1" slide="5"> group operation</keyword><keyword chapter="1" slide="5">multiplication</keyword><keyword chapter="1" slide="5">Associativity</keyword><keyword chapter="1" slide="5">associative</keyword><keyword chapter="1" slide="5">Existence of an Identity Element</keyword><keyword chapter="1" slide="5">identity element</keyword><keyword chapter="1" slide="5">Invertibility</keyword><keyword chapter="1" slide="5">inverse</keyword></keywords>
+<xh:h2 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Groups</xh:h2>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="33f6bdbad7007bdc1e5e1554f7582f65" course="Math 2070" chapter="1" slide="5" item="1.1">
+A group $G$ is a set equipped with a binary operation $*: G \times G \ra G$ (typically called <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"> group operation</xh:b> or "<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">multiplication</xh:b>"), such that:
+<col_ul environment="col_ul" chapter_type="" wbtag="col_ul">
+<col_li environment="col_ul" chapter_type="" wbtag="col_li">
+<xh:u xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul"><xh:b environment="col_ul">Associativity</xh:b></xh:u>
+\[(a* b)* c = a * (b * c),\]
+for all $a, b, c \in G$. In other words, the group operation is <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">associative</xh:b>.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+<xh:u xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul"><xh:b environment="col_ul">Existence of an Identity Element</xh:b></xh:u>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="col_ul"/>
+There is an element $e \in G$, called an <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">identity element</xh:b>, such that:
+\[g* e = e * g = g,\]
+for all $g \in G$.
+</col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li">
+<xh:u xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul"><xh:b environment="col_ul">Invertibility</xh:b></xh:u>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="col_ul"/>
+Each element $g \in G$ has an <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul">inverse</xh:b> $g^{-1} \in G$, such that:
+\[g^{-1}* g = g* g^{-1} = e.\]
+</col_li></col_ul>
+</statement>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">
+  <xh:li environment="newcol">
+Note that we do not require that $a* b = b * a$.
+  </xh:li>
+  <xh:li environment="newcol">
+We often write $ab$ to denote $a* b$.
+  </xh:li>
+</xh:ul>
+</newcol></slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s6" slide="6" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="6" environ="slide" chapter="1" course="Math 2070"><keyword chapter="1" slide="6">commutative</keyword><keyword chapter="1" slide="6">abelian group</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="a85844d4d7ece98fd846fbc30d376bde" course="Math 2070" chapter="1" slide="6" item="1.2">
+If $ab = ba$ for all $a, b \in G$. We say that the group operation is
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">commutative</xh:b>, and that $G$ is an <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">abelian group</xh:b>.
+</statement>
+<!-- For a field $k$, let $k^\times$ denote $k \bs \{0\} = \{s \in k\; |\; s \neq 0\}$. -->
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="c5805b4d4e994ef881eee9f880299f69" course="Math 2070" chapter="1" slide="6" item="1.3">
+The following sets are groups, with respect to the specified group operations:
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+  <xh:li environment="statement">
+$G = \mathbb{Q} \backslash \{0\}$, where the group operation is the usual multiplication for rational numbers.
+The identity is $e = 1$, and the inverse of $a \in \mathbb{Q}\backslash\{0\}$ is $a^{-1} = \frac{1}{a}$.
+The group $G$ is abelian.
+  </xh:li>
+  <xh:li environment="statement">
+$G = \mathbb{Q}$, where the group operation is the usual addition $+$ for rational numbers. The identity is $e = 0$.
+The inverse of $a \in \mathbb{Q}$ with respect to $+$ is $-a$.
+Note that $\mathbb{Q}$ is <xh:em environment="statement">NOT</xh:em> a group with respect to multiplication. For in that case, we have $e = 1$, but $0 \in \mathbb{Q}$ has no inverse
+$0^{-1} \in \mathbb{Q}$ such that $0\cdot 0^{-1} = 1$.
+  </xh:li>
+</xh:ul>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+</statement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s7" slide="7" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="7" environ="slide" chapter="1" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" md5="09d2e3cedd374ec7fe8c13967134ab31" course="Math 2070" chapter="1" slide="7" item="1.4">
+Verify that the following sets are groups under the specified binary operation:
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+  <xh:li environment="statement">
+$(\mathbb{Z}, +)$
+  </xh:li>
+  <xh:li environment="statement">
+$(\mathbb{R}, +)$
+  </xh:li>
+  <xh:li environment="statement">
+$(\mathbb{R}^\times, \cdot)$
+  </xh:li>
+  <xh:li environment="statement">
+$(U_m, \cdot)$, where $m \in \mathbb{N}$,
+\[U_m = \{1, \xi_m, \xi_m^2, \ldots, \xi_m^{m - 1}\},\]
+and
+$\xi_m = e^{2\pi i/m} = \cos(2\pi/m) + i\sin(2\pi/m) \in \mathbb{C}$.
+<!-- $(\mathbb{Z}_m, +)$, $m \in \mathbb{N}$. -->
+<!--
+@html_li
+$(\mathbb{Z}_p^\times, \cdot)$, $p$ a prime number.
+-->
+  </xh:li>
+  <xh:li environment="statement">
+The set of bijective functions $f: \mathbb{R} \ra \mathbb{R}$,
+where $f * g:= f \circ g$ (i.e. composition of functions).
+  </xh:li>
+</xh:ul>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<!--  @linebreak <blockquote><h5>Example.</h5>
+Every ring is a group with respect to addition.
+If $0 \neq 1$ in a ring, then the ring cannot be a group with respect to multiplication,
+since $0$ has no multiplicative inverse.
+ @linebreak </blockquote>&amp;lt;hr&amp;gt;-->
+</statement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s8" slide="8" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="8" environ="slide" chapter="1" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="5" course="Math 2070" chapter="1" slide="8" item="1.5">
+<col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+<col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<webwork environment="col_ol" chapter_type="" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups1.pg"/>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<webwork environment="col_ol" chapter_type="" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups3.pg"/>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<webwork environment="col_ol" chapter_type="" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups4.pg"/>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<webwork environment="col_ol" chapter_type="" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups5.pg"/>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<webwork environment="col_ol" chapter_type="" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups6.pg"/>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<webwork environment="col_ol" chapter_type="" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups7.pg"/>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<webwork environment="col_ol" chapter_type="" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups10.pg"/>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<webwork environment="col_ol" chapter_type="" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups11.pg"/>
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+<webwork environment="col_ol" chapter_type="" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups12.pg"/>
+</col_li></col_ol>
+</statement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s9" slide="9" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="9" environ="slide" chapter="1" course="Math 2070"><keyword chapter="1" slide="9">Special Linear Group</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="9b8c588cd35ab068fc000af50f88c20a" course="Math 2070" chapter="1" slide="9" item="1.6">
+The set $G = {\rm GL}(2, \mathbb{R})$
+of real $2 \times 2$ matrices with nonzero determinants is a group
+under matrix multiplication, with identity element:
+\[e = \left(\begin{matrix} 1 &amp;amp; 0\\0&amp;amp; 1\end{matrix}\right).\]
+In the group $G$, we have:
+\[\left(\begin{matrix} a &amp;amp; b \\ c &amp;amp; d\end{matrix}\right)^{-1}
+=
+\frac{1}{ad - bc}\left(\begin{matrix}d &amp;amp; -b \\-c &amp;amp; a\end{matrix}\right)\]
+<!--
+%% The right&#45;hand side is well&#45;defined because a matrix
+%% $g = \left(\begin{matrix} a &amp;amp; b \\ c &amp;amp; d\end{matrix}\right)$ with real coefficients
+%% is invertible if and only if $\det g := ad &#45; bc \neq 0$.
+-->
+Note that there are matrices $A, B \in {\rm GL}(2, \mathbb{R})$
+such that $AB \neq BA$. Hence ${\rm GL}(2, \mathbb{R})$ is not abelian.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<!--
+In general, for $n \in \mathbb{N}$, $k$ a field,
+the set ${\rm GL}(n, k)$ (<b>General Linear Group</b>) of $n \times n$ matrices $M$ with coefficients in $k$,
+such that $\det M \neq 0$, is a group under matrix multiplication.
+-->
+</statement>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="7" md5="52399932d7161bf7c81711e389d19c86" course="Math 2070" chapter="1" slide="9" item="1.7">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+The set ${\rm SL}(2, \mathbb{R})$ (<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Special Linear Group</xh:b>)
+of real $2 \times 2$ matrices with determinant $1$ is a group under matrix multiplication.
+</newcol></statement>
+<!--
+ @linebreak <blockquote><h5>Example.</h5>
+The set $U$ of units of a commutative ring $R$ is an abelian group with respect to the
+multiplication of the ring.
+ @linebreak </blockquote>&amp;lt;hr&amp;gt;@html_ul
+@html_li
+For $a, b \in U$, $(b^{&#45;1}a^{&#45;1})\cdot (ab) = 1$, which implies that $ab$ is a unit
+(with multiplicative inverse $b^{&#45;1}a^{&#45;1}$).
+Hence, multiplication is a well&#45;defined binary operation on $U$.
+@html_li
+We have $(ab)c = a(bc)$ for all $a, b, c \in U$,
+since by definition multiplication in a ring is associative.
+@html_li
+It is clear that the multiplicative identity $1$ of $R$ is an identity element in $U$.
+@html_li
+For every unit $a \in R$, its multiplicative inverse $a^{&#45;1}$ is also a unit.
+Hence, every element in $U$ has an inverse in $U$ with respect to multiplication.
+@html_endul
+ @linebreak <blockquote><h5>Corollary.</h5>
+For any field $k$, $(k^\times, \cdot)$ is a group.
+ @linebreak </blockquote>&amp;lt;hr&amp;gt;-->
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s10" slide="10" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="10" environ="slide" chapter="1" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="8" md5="f3b81ac27835303554e848ba93cffad2" course="Math 2070" chapter="1" slide="10" item="1.8">
+The identity element $e$ of a group $G$ is unique.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="37f4b6dee2ffc6672031deec79665b0b" course="Math 2070" chapter="1" slide="10" of="f3b81ac27835303554e848ba93cffad2">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Suppose there is an element $e' \in G$ such that $e' g = ge' = g$ for all $g \in G$.
+Then, in particular, we have:
+\[e'e = e\]
+But since $e$ is an identity element, we also have $e'e = e'$. Hence, $e' = e$.
+</newcol></substatement>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="1851fd3bfd53ed9ae77cee1d737d8118" course="Math 2070" chapter="1" slide="10" item="1.9">
+Let $G$ be a group.
+For all $g \in G$, its inverse $g^{-1}$ is unique.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="359cd7840f79f528524785a246a37f24" course="Math 2070" chapter="1" slide="10" of="1851fd3bfd53ed9ae77cee1d737d8118">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Suppose there exists $g' \in G$ such that $g'g = gg' = e$.
+By the associativity of the group operation, we have:
+\[g' = g'e = g'(g g^{-1}) = (g'g)g^{-1} = e g^{-1} = g^{-1}.\]
+Hence, $g^{-1}$ is unique.
+</newcol></substatement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s11" slide="11" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="11" environ="slide" chapter="1" course="Math 2070"/>
+Let $G$ be a group with identity element $e$.
+For $g \in G$, $n \in \mathbb{N}$,
+let:
+\[\begin{split}
+g^n &amp;amp;:= \underbrace{g \cdot g \cdots g}_{n\text{ times}}.\\
+g^{-n} &amp;amp;:= \underbrace{g^{-1} \cdot g^{-1} \cdots g^{-1}}_{n\text{ times}}\\
+g^0 &amp;amp;:= e.
+\end{split}\]
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="10" md5="413dfe67c18ba505d3b2256c719f3a8d" course="Math 2070" chapter="1" slide="11" item="1.10">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Let $G$ be a group.
+<xh:ol xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">
+  <xh:li environment="newcol">
+For all $g \in G$,
+we have:
+\[(g^{-1})^{-1} = g.\]
+  </xh:li>
+  <xh:li environment="newcol">
+For all $a, b \in G$,
+we have:
+\[(ab)^{-1} = b^{-1}a^{-1}.\]
+  </xh:li>
+  <xh:li environment="newcol">
+For all $g \in G$, $n, m \in \mathbb{Z}$, we have:
+\[g^n\cdot g^m = g^{n + m}.\]
+  </xh:li>
+</xh:ol>
+</newcol></statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="1" slide="11" of="413dfe67c18ba505d3b2256c719f3a8d">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Exercise.</xh:b>
+</newcol></substatement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s12" slide="12" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="12" environ="slide" chapter="1" course="Math 2070"><keyword chapter="1" slide="12">order</keyword><keyword chapter="1" slide="12">order</keyword><keyword chapter="1" slide="12">infinite order</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="11" md5="a0591fc42ee4f89ab83102e9dc7e5e30" course="Math 2070" chapter="1" slide="12" item="1.11">
+Let $G$ be a group, with identity element $e$.
+The <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">order</xh:b> of $G$ is the number of elements in $G$.
+The <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">order</xh:b> $\ord g$ of an  $g \in G$
+is the smallest $n \in \mathbb{N}$ such that $g^n = e$.
+If no such $n$ exists, we say that $g$ has <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">infinite order</xh:b>.
+</statement>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="e96b6aa05fb1d6c99e4e9e869060a697" course="Math 2070" chapter="1" slide="12" item="1.12">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Let $G$ be a group with identity element $e$.
+Let $g$ be an element of $G$. If $g^n = e$ for some $n \in \mathbb{N}$,
+then $\ord g$ divides $n$.
+</newcol></statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="723807213862930cca60acb6037d74ca" course="Math 2070" chapter="1" slide="12" of="e96b6aa05fb1d6c99e4e9e869060a697">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Shown in class.
+</newcol></substatement>
+</slide>
+      </slides>
+    </chapter>
+  </course>
+</document>

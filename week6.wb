@@ -1,0 +1,855 @@
+#course{Math 2070}
+#week{6}
+#topic{Elementary Number Theory}
+@sep
+@course{Math 2070}
+@week{6}
+@topic{Elementary Number Theory}
+@topic{Euclid's Lemma}
+@topic{Congruences}
+@topic{Chinese Remainder Theorem}
+@sep
+<h5 class="notkw">Alternative Proof of the @ref{thm:divalg}.</h5>
+@proof
+@of{thm:divalg}
+@col
+We consider here the special case $b \geq 0$.
+Consider the set:
+\[
+S = \{s \in \mathbb{Z}_{\geq 0 } : s = b - aq \text{ for some } q \in \mathbb{Z}.\}
+\]
+Since $b = b - a\cdot 0 \geq 0$, we have $b \in S$.  
+So, $S$ is a nonempty subset of $\mathbb{Z}$ bounded below by $0$.
+By the Least Integer Axiom, there exists a minimum element $r \in S$.
+We claim that $r < \abs{a}$:
+
+@col
+Suppose not, that is, $r \geq \abs{a}$.  By assumption:
+$r = b - aq$
+for some $q \in \mathbb{Z}$.
+
+@col
+Consider the element $r' = r - \abs{a}$.  Then, $0 \leq r'$ and moreover:
+\[
+r' = (b - aq) - \abs{a} = b - (q \pm 1)a,
+\]
+depending on whether $a > 0$ or $a < 0$.
+So, $r' \in S$.  On the other hand, by construction we have $r' < r$,
+which contradicts the minimality of $r$.  We conclude that $r < \abs{a}$.
+This establishes the existence of the remainder $r$.  
+
+@col
+The existence of $q$ in the theorem is now also clear.  We leave the proof of the uniqueness of $r$ and $q$ as an exercise.
+@end
+@sep
+@thm
+@keyword{cyclic}
+Every subgroup of $\mathbb{Z}$ is cyclic.
+@end
+@proof
+@col
+First, we note that the group operation $\ast$ on $\mathbb{Z}$
+is integer addition, with $e_{\mathbb{Z}} = 0$,
+and $z^{\ast -1} = -z$ for any $z \in \mathbb{Z}$.
+
+@col
+Let $H$ be a nontrivial (i.e. contains more than one element) 
+subgroup of $\mathbb{Z}$.
+Since for any $h \in H$ we also have $-h \in H$,
+$H$ contains at least one positive element.
+
+@col
+Let $d$ be the least positive integer in $H$.
+It exists because of the Least Integer Axiom.
+
+We claim that $H = \langle d \rangle$:
+
+@col
+For any $h \in H$,
+by the Division Theorem for Integers we have $h = dq + r$
+for some $r, q \in \mathbb{Z}$, such that $0 \leq r < d$.  Then,
+\[
+r = h - dq = h - (\underbrace{d + d + \ldots + d}_{q \text{ times}})
+\]
+if $q \geq 0$, or
+\[
+r = h - dq = h - (\underbrace{(-d) + (-d) + \ldots + (-d)}_{q \text{ times}})
+\]
+if $q < 0$.
+
+@col
+In either case, since $H$ is a subgroup we have $r \in H$.  If $r > 0$, then we have
+a positive element in $H$ which is strictly less than $d$, which contradicts
+the minimality of $d$.  Hence, $r = 0$, from which it follows that any $h \in H$
+is equal to $dq = d^{\ast q}$ for some $q \in \mathbb{Z}$.
+This shows that $H = \langle d \rangle$.
+@end
+
+@ex
+@col
+Let $n$ be a positive integer.
+Every subgroup of $\mathbb{Z}_n$ is cyclic.
+@end
+
+@cor
+@col
+Every subgroup of a cyclic group is cyclic.
+@end
+
+
+@sep
+@claim
+@title{Bézout's Lemma}
+@label{bezoutslemma}
+Let $a, b$ be nonzero integers.
+There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$.
+@end
+@proof
+@collapse
+<strong>Sketch of Proof:</strong>
+<hr/>
+<strong>Approach 1.</strong>
+@newcol
+Recall the notation used in the <b>Euclidean Algorithm</b>
+in <a href="https://www.math.cuhk.edu.hk/~pschan/elephas-ns/?xml=content/math2070/current/week5.xml&present&slide=10" target="_blank" title="Course:Math 2070">Week 5 Slide 10</a>.
+We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$.
+<br>
+We may prove Bézout's Lemma via mathematical induction as follows:
+<br>
+@col
+First, for integers $0 \leq l < \min(n - 1, 2)$, show that there exist
+$x_l, y_l \in \mathbb{Z}$ such that $r_l = a x_l + b y_l$.
+This is the base step of the induction proof.
+<br>
+@col
+We now carry out the inductive step.
+Suppose $n - 1 \geq 2$. For any integer $2 \leq k \leq n - 1$,
+suppose $r_l = a x_l + b y_l$ for some $x_l, y_l \in \mathbb{Z}$, for all
+$0\leq l < k$.
+<br>
+Show that:
+\[r_k = \underbrace{b_k}_{a_{k - 1} = r_{k - 2}} - q_{k} \underbrace{a_{k}}_{r_{k - 1}}\]
+also has the form $r_k = a x_k + b y_k$
+for some $x_k, y_k \in \mathbb{Z}$.
+<br>
+@col
+The desired identity $gcd(a, b) = r_{n - 1} = ax_{n - 1} + by_{n - 1}$
+then follows by mathemtical induction.
+@endcol
+<hr>
+<strong>Approach 2.</strong>
+@newcol
+Consider the set:
+\[S = \{n \in \mathbb{Z}_{> 0} | n = ax + by \text{ for some } x, y \in \mathbb{Z}\}.\]
+Show that the the minimum element $d \in S$ is the greatest common divisor of
+$a$ and $b$.
+@endcol
+<hr>
+@endcol
+@end
+@ex
+@col
+Find $x, y \in \mathbb{Z}$ such that:
+\[gcd(285, 255) = 285 x + 255 y.\]
+@end
+@ex
+@col
+For any nonzero $a, b$ in  the group $G = (\mathbb{Z}, +)$,
+we have:
+\[
+\langle a, b \rangle = \langle gcd(a, b) \rangle.
+\]
+@end
+@sep
+@def
+Two integers $a, b \in \mathbb{Z}$ are <b>relatively prime</b> if $gcd(a, b) = 1$.
+@end
+@claim
+@collapse
+Two integers $a, b \in \mathbb{Z}$ are relatively prime if and only if there exist $x, y \in \mathbb{Z}$
+such that $ax + by = 1$.
+@endcol
+@end
+@proof
+@col
+If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
+So, by @ref{bezoutslemma} @keyword{Bézout's Lemma} there exist $x, y \in \mathbb{Z}$ such that:
+\[ax + by = gcd(a, b) = 1.\]
+Conversely,
+suppose $ax + by = 1$ for some $x, y \in \mathbb{Z}$.
+Then, any common divisor of $a$ and $b$ must also be a divisor of $1$.
+Since $1$ is only divisible by $\pm 1$, we concldue that $gcd(a, b) = 1$.
+@end
+@sep
+@def
+An integer $p \geq 2$ is <b> prime</b>
+if its only proper divisors (i.e. divisors different from $\pm p$)
+are $\pm 1$.
+@end
+@lemma
+@title{Euclid's Lemma}
+
+@collapse
+Let $a, b$ be integers.
+If $p$ is prime and $p | ab$, then $p|a$ and/or $p|b$.
+@endcol
+@end
+@proof
+@collapse
+Suppose $p$ does not divide $b$ (Notation: $p\nmid b$), then $gcd(p, b) = 1$,
+which implies that $1 = px + by$ for some $x, y \in \mathbb{Z}$.
+Since $p | apx$ and $p | aby$, we have $p | a = a\underbrace{(px + by)}_{= 1}$.
+@endproof
+@endcol
+@end
+@sep
+More generally,
+@claim
+@label{euclidslemmageneral}
+If $a, b$ are relatively prime and $a | bc$, then $a | c$.
+@end
+@proof
+<b>Exercise.</b>
+@end
+@claim
+@collapse
+If $a, b$ are relatively prime and:
+\[
+a | c, \quad b | c,
+\]
+then:
+\[
+ab | c.
+\]
+@end
+@proof
+@collapse
+By assumption, there are $s, t \in \mathbb{Z}$ such that:
+\[
+c = as = bt.
+\]
+@col
+So, $a | as = bt$,
+which by
+@ref{euclidslemmageneral}
+implies that $a | t$, since $gcd(a, b) = 1$.
+
+@col
+Hence, $t = au$ for some $u \in \mathbb{Z}$, and we have $c = bt = ab u$.
+It follows that $ab | c$.
+@endproof
+@endcol
+@end
+@sep
+@thm
+@label{thm:fta}
+@title{The Fundamental Theorem of Arithmetic}
+Let $a$ be a positive integer $\geq 2$. Then,
+@ol
+@li
+The integer $a$ is either a prime or a product of primes.
+@li
+<b>Unique Factorization</b>
+The integer $a$ may be written uniquely as
+\[
+a = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l},
+\]
+where $p_1, p_2, \cdots, p_l$ are distinct prime numbers, and $n_1, n_2, \ldots, n_l \in \mathbb{N}$.
+@endol
+@end
+@proof
+@collapse
+We prove Part 1 of the theorem by contradiction.
+
+@col
+Suppose there exist positive integers $\geq 2$ which are neither primes
+nor products of primes.
+
+@col
+Let $m$ be the smallest such integer. Since $m$ is not prime, there are
+positive integers $a, b \neq 1$ such that $m = ab$.
+
+@col
+In particular, $a, b < m$.
+So, $a$ and $b$ must be either primes or products of primes, which implies that $m$ is itself a product of primes, a contradiction.
+<hr/>
+@collapse
+We now prove Part 2 (<b>Unique Factorization</b>) of the theorem by induction.
+
+@col
+The base step corresponds to the case $l = 1$.
+
+@col
+Suppose:
+\[
+a = p_1^{n_1} = q_1^{m_1}q_2^{m_2}\cdots q_k^{m_k},
+\]
+where $p_1$ is prime, and the $q_i$'s are distinct primes,
+and $n_1, m_i \in \mathbb{N}$.
+
+@col
+Then, $p_1$ divides the right-hand side,
+so by Euclid's Lemma $p_1$ divides one of the $q_i$'s.
+
+@col
+Since the $q_i$'s are prime, we may assume (reindexing if necessary) that $p_1 = q_1$.
+
+@col
+Suppose $k > 1$. If $n_1 > m_1$, then $p_1^{n_1 - m_1} = q_2^{m_2}\cdots q_k^{m_k}$,
+which implies that $p_1 = q_1$ is one of $q_2,\ldots, q_k$, a contradiction, since the $q_i$'s are distinct.
+
+@col
+If $n_1 \leq m_1$, then $1 = p_1^{m_1 - n_1}q_2^{m_2}\cdots q_k^{m_k}$,
+which is impossible.
+We conclude that $k = 1$, and $p_1 = q_1$, $n_1 = m_1$.
+
+@col
+Now we establish the inductive step: Suppose unique factorization is true for all positive integers $a'$
+which may be written as $a' = p_1^{n_1}p_2^{n_2}\cdots p_{l'}^{n_{l'}}$,
+for any $l' < l$.
+We want to show that it is also true for any integer $a$
+which may be written as $a = p_1^{n_1}p_2^{n_2}\cdots p_{l}^{n_{l}}$.
+
+@col
+In other words, suppose
+\[
+a = p_1^{n_1}p_2^{n_2}\cdots p_{l}^{n_{l}} = q_1^{m_1}\cdots q_k^{m_k},
+\]
+where $p_i, q_i$ are prime and $n_i, m_i \in \mathbb{N}$. We want to show that $k = l$, and $p_i = q_i$,
+$n_i = m_i$, for $i = 1, 2, \ldots, l$.
+
+@col
+If $k < l$, then by the inductive hypothesis applied to $l' = k < l$, we have $k = l$,
+a contradiction.
+So, we may assume that $k \geq l$.
+
+@collapse
+By Euclid's Lemma, $p_l$ divides, and hence must be equal to, one of the
+$q_i$'s.
+
+@collapse
+Reindexing if necessary, we may assume that $p_l = q_k$. Cancelling $p_l$ and $q_{k}$
+from both sides of the equation, it is also clear that $n_l = m_{k}$.
+Hence, we have:
+\[
+p_1^{n_1}p_2^{n_2}\cdots p_{l-1}^{n_{l-1}} = q_1^{m_1}\cdots q_{k-1}^{m_{k -1}}.
+\]
+Since $l - 1 < l$, we may now apply the inductive hypothesis to the integer
+which is equal to the left-hand side of the above equation,
+and conclude that $l - 1 = k -1$, $p_i = q_i$, $n_i = m_i$, for $1\leq i \leq l - 1$.
+
+@col
+Since we already know that $p_l^{n_l}$ matches $q_{k}^{m_{k}}$,
+we have $l = k$, and $p_i = q_i$, $n_i = m_i$, for $1 \leq i \leq l$.
+This establishes the inductive step, and completes the proof.
+@endproof
+@endcol
+@end
+@sep
+@ex
+@ol
+@li
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences3.pg}
+@li
+@webwork{Library/NewHampshire/NECAP/grade11/gr11-2009/n11-2009-9s.pg}
+@li
+@webwork{Library/SUNYSB/gcd.pg}
+@endol
+@end
+@sep
+<h3>Congruences</h3>
+@def
+Let $m$ be a positive integer, then $a, b \in \mathbb{Z}$ are said to be:
+<p>
+</p><center><b>congruent modulo $m$</b></center>
+<p></p>
+\[
+a \equiv b \mod m,
+\]
+if $m | (a - b)$.
+@end
+@claim
+@collapse
+The congruence relation $\equiv$ is an <b> equivalence relation</b>. In other words, it
+is:
+<p></p>
+<ul>
+<li>
+<b>Reflexive</b>:<br>
+$a \equiv a \mod m$;<p>
+</p></li><li> <b>Symmetric</b>:<br>
+$a \equiv b \mod m$ implies that $b \equiv a \mod m$;<p>
+</p></li><li> <b>Transitive</b>:<br>
+$a \equiv b \mod m$, $b \equiv c \mod m$, imply that $a \equiv c \mod m$.<p>
+</p></li></ul>
+@endcol
+@end
+@proof
+@collapse
+<ul>
+<li>
+<div style="width:5.4em;display:inline-block"><b class="notkw">Reflexivity</b></div>
+@newcol
+Since $m | 0 = (a - a)$, we have $a\equiv a \mod m$.
+@endcol
+</li>
+<li>
+<div style="width:5.4em;display:inline-block"><b class="notkw">Symmetry</b></div>
+@newcol
+If $a \equiv b \mod m$, then by definition $m$ divides $a - b$.
+But if $m$ divides $a - b$,
+it must also divide $-(a - b) = b - a$, which implies that $b \equiv a \mod m$.
+@endcol
+</li>
+<li>
+<div style="width:5.4em;display:inline-block"><b class="notkw">Transitivity</b></div>
+@newcol
+If $m | (a - b)$ and $m | (b - c)$, then $m | ((a - b) + (b - c)) = (a - c)$, which implies
+that $a \equiv c \mod m$.
+@endcol
+</li>
+</ul>
+@endproof
+@endcol
+@end
+<strong>Note.</strong>
+@collapse
+$a \equiv 0 \mod m$ if and only if $m | a$.
+@endcol
+@sep
+@claim
+@label{claim:congremainder}
+<ol>
+<li>
+If $a = qm + r$, then $a \equiv r \mod m$.
+</li><li>
+If $0 \leq r < r' < m$, then $r \not\equiv r' \mod m$.
+</li></ol>
+@end
+@proof
+<b>
+Exercise.
+</b>
+@end
+@cor
+@label{congremainder}
+@collapse
+Given integer $m \geq 2$, every $a \in \mathbb{Z}$ is congruent modulo $m$
+to exactly one of $\{0, 1, 2, \ldots, m - 1\}$.
+@end
+@proof
+@collapse
+By Part 1 of the claim, $a$ is congruent mod $m$ to the remainder $r$
+of the division of $a$ by $m$.
+<br>
+@collapse
+By definition, the remainder $r$ lies in $\{0, 1, 2, \ldots, m - 1\}$.
+If $a \equiv r' \mod m$, for some $r' \in \{0, 1, 2, \ldots, m - 1\}$,
+then by transitivity, we have $r' \equiv r \mod m$.
+<br>
+@collapse
+By Part 2 of the claim, we have $r = r'$.
+@endproof
+@endcol
+@end
+@sep
+@thm
+@label{congcompat}
+Congruence is compatible with addition and multiplication in the following sense:
+<ul>
+<li>
+<div style="width:6.5em;display:inline-block">
+<strong>Addition</strong>
+</div>
+@col
+If $a \equiv a' \mod m$, and $b \equiv b' \mod m$, then $a + b \equiv a'+ b'\mod m$.
+@endcol
+</li><li>
+<div style="width:6.5em;display:inline-block">
+<strong>Multiplication</strong>
+</div>
+@col
+If $a \equiv a' \mod m$ and $b \equiv b' \mod m$, then
+$ab \equiv a'b' \mod m$.
+@endcol
+</li></ul>
+@end
+@proof
+@collapse
+<ul>
+<li>
+<div style="width:6.5em;display:inline-block">
+<strong>Addition</strong>
+</div>
+@newcol
+If $m | (a - a')$ and $m | (b - b')$, then:
+\[
+m | (a - a') + (b - b') = (a + b) - (a' + b').
+\]
+So, $a + b \equiv a' + b' \mod m$.
+@endcol
+</li><li>
+<div style="width:6.5em;display:inline-block">
+<strong>Multiplication</strong>
+</div>
+@newcol
+If $m | (a - a')$ and $m | (b - b')$, then:
+\[
+m | (a - a')b + a'(b - b') = (ab - a'b').
+\]
+So, $ab \equiv a'b' \mod m$.
+@endcol
+</li></ul>
+@endproof
+@endcol
+@end
+@sep
+@eg
+For $a \in \mathbb{Z}$, $a^2 \equiv 0, 1$, or $4 \mod 8$.
+@end
+@proof
+@collapse
+By
+@ref{congremainder},
+any $a \in \mathbb{Z}$ is congruent modulo $8$ to exactly one
+element in $\{0, 1, 2, \ldots, 7\}$.
+So, by
+@ref{congcompat},
+$a^2$ is congruent modulo 8 to one of:
+\[
+\{0^2, 1^2, 2^2, 3^2, 4^2, 5^2, 6^2, 7^2\} = \{0, 1, 4, 9, 16, 25, 36, 49\}.
+\]
+The numbers above a congruent modulo 8 to 0, 1, or 4. The claim follows.
+@endproof
+@endcol
+@end
+@sep
+@thm
+@label{thm:inversemodm}
+If $a$ and $m$ are relatively prime, then there exists $x \in \mathbb{Z}$ such that
+$ax \equiv 1 \mod m$.
+@end
+@proof
+@collapse
+Since $a$ and $m$ are relatively prime, by <b>Bézout's Lemma</b>
+(@ref{bezoutslemma})
+there exist $x, y \in \mathbb{Z}$ such that:
+\[
+ax + my = 1.
+\]
+@col
+This implies that $m$ divides $my = 1 - ax$. So, by definition,
+we have $ax \equiv 1 \mod m$.
+@endcol
+@end
+@sep
+@thm
+@title{Chinese Remainder Theorem}
+If $m_1$ and $m_2$ are relatively prime, then the system of congruence relations:
+\begin{equation*}
+\begin{split}
+x &\equiv r_1 \mod m_1\\
+x &\equiv r_2 \mod m_2
+\end{split}
+\end{equation*}
+has a solution. Moreover, any two solutions are congruent modulo $m_1m_2$.
+@end
+@remark
+@col
+In other words, the system of two congruence relations is equivalent to
+a single congruence relation:
+\[
+x \equiv r \mod m_1 m_2
+\]
+for some $r \in \mathbb{Z}$.
+
+@col
+Applying this process repeatedly, a system of congruence relations of the form:
+\begin{align*}
+x &\equiv& r_1 &\mod m_1 \\
+x &\equiv& r_2 &\mod m_2 \\
+& &  \vdots &\\
+x &\equiv&  r_l &\mod m_l
+\end{align*}
+where the $m_i$'s are pairwise coprime, is equivalent to a single relation of the 
+form:
+\[
+x \equiv r \mod m_1m_2\cdots m_l
+\]
+for some $r \in \mathbb{Z}$.
+@end
+@proof
+@collapse
+Since $m_1$ and $m_2$ are relatively prime, by @ref{thm:inversemodm} there exists $n \in \mathbb{Z}$ such that $m_1n \equiv 1 \mod m_2$.
+Let $x = m_1n(r_2 - r_1) + r_1$.
+<br>
+@collapse
+Since:
+\[
+m_1 n (r_2 - r_1) \equiv 0 \mod m_1,
+\]
+we have:
+\[
+x \equiv r_1 \mod m_1.
+\]
+@collapse
+Moreover, since $m_1n \equiv 1 \mod m_2$, we have:
+\[
+x = m_1n(r_2 - r_1) + r_1 \equiv r_2 - r_1 + r_1 \equiv r_2 \mod m_2.
+\]
+This shows that the system of congruence relations has at least one solution.
+<br>
+@collapse
+If $x'$ is another solution to the system, then:
+<br>
+@collapse
+\begin{eqnarray*}
+x - x' &\equiv r_1 - r_1 &\equiv 0 \mod m_1,\\
+x - x' &\equiv r_2 - r_2 &\equiv 0 \mod m_2.
+\end{eqnarray*}
+@collapse
+So, $m_1 | (x - x')$ and $m_2 | (x - x')$. Since, $m_1, m_2$ are relatively prime,
+by a previous result we conclude that $m_1m_2 | (x - x')$. In other words,
+$x \equiv x' \mod m_1m_2$.
+@endproof
+@endcol
+@end
+@sep
+<strong>Note.</strong>
+The proof of the Chinese Remainder Theorem as written above is complete.
+However, it is worthwhile to explain
+how we come up with the solution $x = m_1n(r_2 - r_1) + r_1$ in the first place.
+<br>
+@collapse
+Heuristically, the solution may be arrived at as follows:
+For any $q \in \mathbb{Z}$, $x = m_1 q + r_1$ is a solution to the first congruence relation.
+We want to find $q$ such that $m_1 q + r_1$ is also a solution to the second congruence relation, that is:
+\[
+m_1 q + r_1 \equiv r_2 \mod m_2
+\]
+@collapse
+or, equivalently,
+\[
+m_1 q \equiv r_2 - r_1 \mod m_2. \tag{$\ast$}
+\]
+@collapse
+Noting that there exists an $n \in \mathbb{Z}$ such that $m_1 n \equiv 1 \mod m_2$,
+the congruence relation $(\ast)$ is equivalent to:
+\[
+q \equiv n(r_2 - r_1) \mod m_2.
+\]
+@collapse
+Hence, $x = m_1 q + r_1$ is a solution to the system of congruence relations
+if and only if $q$ is of the form $m_2l + n(r_2 - r_1)$, where $l \in \mathbb{Z}$.
+In particular, $l = 0$ gives $q = n(r_2 - r_1)$. Hence, $x = m_1n(r_2 - r_1) + r_1$
+is a solution.
+@endcol
+@sep
+@eg
+Solve the following system of congruence relations:
+\begin{align}
+x &\equiv&  3  & \mod 34 \label{eq:crteg1}\\
+x &\equiv&  -1 & \mod 27 \label{eq:crteg2}
+\end{align}
+@col
+The relation \eqref{eq:crteg1} holds if and only if:
+\[
+x = 34s + 3
+\]
+for some $s \in \mathbb{Z}$.
+
+@col
+For any such $x$, the relation \eqref{eq:crteg2} holds if and only if:
+\[
+34s + 3 \equiv -1 \mod 27,
+\]
+or equivalently:
+\begin{equation}
+\label{eq:crteg3}
+34s \equiv -4 \mod 27.
+\end{equation}
+@col
+Since $gcd(34, 27) = 1$, by @ref{thm:inversemodm} there exists $a \in \mathbb{Z}$ such that $a\cdot 34 \equiv 1 \mod 27$.
+To find $a$, we perform the Euclidean Algorithm on $34$ and $27$:
+\[
+\begin{split}
+34 &= 27 \cdot 1 + 7\\
+27 &= 7 \cdot 3 + 6\\
+7 &= 6 \cdot 1 + 1\\
+6 &= 1\cdot 6 + 0
+\end{split}
+\]
+@col
+Working backwards from the last equation, we see that:
+\[
+1 = 34(4) + 27(-5)
+\]
+Hence:
+\[
+27 | (1 - 34\cdot 4 )
+\]
+That is, $34 \cdot 4 \equiv 1 \mod 27$.
+So, we may take $a = 4$.
+
+@col
+Multiplying both sides of \eqref{eq:crteg3} by $a = 4$, we see that \eqref{eq:crteg3} holds if and only if:
+\[
+s \equiv -16 \mod 27,
+\]
+which is equivalent to:
+\[
+s \equiv 11 \mod 27.
+\]
+Since the relation above holds if and only if $s = 27t + 11$ 
+for some $t \in \mathbb{Z}$,
+we conclude that $x \in \mathbb{Z}$ is a solution to our system of congruence relations if and only if:
+\[
+x = 34s + 3 = 34(27t + 11) + 3 = (34)(27)t + 377
+\]
+for some $t \in \mathbb{Z}$.  
+More concisely, the solution set to the system of congruence relations is represented by the single relation:
+\[
+x \equiv 377 \mod 34\cdot 27
+\]
+@end
+@sep
+@ex
+@ol
+@li
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences1.pg}
+@li
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences2.pg}
+@li
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences5.pg}
+@li
+@webwork{Library/Rochester/setDiscrete6Integers/ur_dis_6_9.pg}
+@li
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_1.pg}
+@li
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_2.pg}
+@li
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_3.pg}
+@li
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_4.pg}
+@li
+@webwork{Library/SDSU/Discrete/IntegersAndRationals/pL11.pg}
+@li
+@webwork{Library/Rochester/setDiscrete7NumberTheory/ur_dis_7_6.pg}
+@li
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences10.pg}
+@li
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences11.pg}
+@li
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences12.pg}
+@li
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences13.pg}
+@endol
+@end
+<!-- @sep -->
+<!-- <h3>Polynomials with Rational Coefficients</h3> -->
+<!-- <h5>Notation:</h5> -->
+<!-- \[ -->
+<!-- \mathbb{Q} = \text{Set of rational numbers} -->
+<!-- \] -->
+<!-- \[ -->
+<!-- \begin{split} -->
+<!-- \mathbb{Q}[x] &= \text{Set of polynomials with rational coefficients}\\ -->
+<!-- &= \left\{a_0 + a_1 x + \cdots + a_n x^n | n \in \mathbb{Z}_{\geq 0}, a_i \in \mathbb{Q}\right\} -->
+<!-- \end{split} -->
+<!-- \] -->
+<!-- @sep -->
+<!-- @thm -->
+<!-- (<b>Division Theorem for $\mathbb{Q}[x]$</b>) -->
+<!-- <br> -->
+<!-- For all $f, g \in \mathbb{Q}[x]$, such that $f \neq 0$, there exist unique $q, r \in \mathbb{Q}[x]$, -->
+<!-- satisfying $\deg r < \deg f$, such that $g = fq + r$. -->
+<!-- @end -->
+<!-- @proof -->
+<!-- @collapse -->
+<!-- We first prove the existence of $q$ and $r$, via induction on the degree of $g$. -->
+<!-- The base step corresponds to the case $\deg g < \deg f$. In this case, -->
+<!-- the choice $q = 0$, $r = g$ works, since $g = f\cdot 0 + g$, -->
+<!-- and $\deg r = \deg g < \deg f$. -->
+<!-- <br> -->
+<!-- @collapse -->
+<!-- Now, we establish the inductive step. -->
+<!-- Let $f$ be fixed. -->
+<!-- Given $g$, suppose for all $g'$ with $\deg g' < \deg g$, -->
+<!-- there exist $q', r' \in \mathbb{Q}[x]$ such that $g' = fg' + r'$, -->
+<!-- with $\deg r' < \deg f$. -->
+<!-- We want to show that there exist $q, r$ such that $g = fq + r$, with $\deg r < \deg f$. -->
+<!-- <br> -->
+<!-- @collapse -->
+<!-- Suppose $g = a_0 + a_1 x + \cdots + a_m x^m$ and $f = b_0 + b_1 x + \cdots + b_n x^n$, -->
+<!-- where $a_m, b_n \neq 0$. -->
+<!-- We may assume that $m \geq n$, since the case $m < n$ (i.e. $\deg g < \deg f$) -->
+<!-- has already be proved. -->
+<!-- <br> -->
+<!-- @collapse -->
+<!-- Consider the polynomial: -->
+<!-- \[ -->
+<!-- g' = g - \frac{a_m}{b_n}x^{m - n}f. -->
+<!-- \] -->
+<!-- Then, $\deg g' < \deg g$, -->
+<!-- and by the inductive hypothesis we have: -->
+<!-- \[ -->
+<!-- g' = fq' + r' -->
+<!-- \] -->
+<!-- for some $q', r' \in \mathbb{Q}[x]$ such that $\deg r' < \deg f$. -->
+<!-- <br> -->
+<!-- @collapse -->
+<!-- Hence, -->
+<!-- \[ -->
+<!-- g - \frac{a_m}{b_n}x^{m - n}f = g' = fq' + r', -->
+<!-- \] -->
+<!-- which implies that: -->
+<!-- <br> -->
+<!-- @collapse -->
+<!-- \[ -->
+<!-- g = f\left(q' + \frac{a_m}{b_n}x^{m - n}\right) + r' -->
+<!-- \] -->
+<!-- This establishes the existence of the quotient $q = q' + \frac{a_m}{b_n}x^{m - n}$ and the remainder $r = r'$. -->
+<!-- <br> -->
+<!-- @collapse -->
+<!-- Now, we prove the uniqueness of $q$ and $r$. -->
+<!-- Suppose $g = fq + r = fq' + r'$, where $q, q', r, r' \in \mathbb{Q}[x]$, -->
+<!-- with $\deg r, \deg r' < \deg f$. We have: -->
+<!-- \[ -->
+<!-- fq + r = fq' + r', -->
+<!-- \] -->
+<!-- which implies that: -->
+<!-- <br> -->
+<!-- @collapse -->
+<!-- \[ -->
+<!-- \deg f(q - q') = \deg (r' - r) < \deg f. -->
+<!-- \] -->
+<!-- The above inequality can hold only if $q = q'$, which in turn implies that $r' = r$. -->
+<!-- It follows that the quotient $q$ and the remainder $r$ are unique. -->
+<!-- @endproof -->
+<!-- @endcol -->
+<!-- @end -->
+<!-- @sep -->
+<!-- @thm -->
+<!-- (<b>Root Theorem</b>) -->
+<!-- <br> -->
+<!-- For $f \in \mathbb{Q}[x]$, and $a \in \mathbb{Q}$, $x - a$ divides $f$ if and only if $f(a) = 0$. -->
+<!-- @end -->
+<!-- @proof -->
+<!-- @collapse -->
+<!-- If $x - a$ divides $f$, then $f = (x - a) g$ for some $g \in \mathbb{Q}[x]$. So, clearly -->
+<!-- $f(a) = 0$. -->
+<!-- <br> -->
+<!-- @collapse -->
+<!-- In the other direction, suppose $f(a) = 0$. -->
+<!-- <br> -->
+<!-- @collapse -->
+<!-- By the division theorem there exist -->
+<!-- $q, r \in \mathbb{Q}[x]$ -->
+<!-- such that $f = (x - a)q + r$, with $\deg r < \deg x - a$. Since $x - a$ is of degree 1, -->
+<!-- the polynomial $r$ must be a constant. Substituting $a$ into $x$ on both sides, we have: -->
+<!-- \[0 = f(a) = 0\cdot q + r.\] -->
+<!-- @collapse -->
+<!-- Hence, $r = 0$, and $f = (x - a)q$. -->
+<!-- @endproof -->
+<!-- @endcol -->
+<!-- @end -->

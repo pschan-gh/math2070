@@ -1,0 +1,469 @@
+#course{Math 2070}
+#week{7}
+#topic{Polynomials}
+#topic{Rings}
+@sep
+@course{Math 2070}
+@week{7}
+@topic{Polynomials}
+@topic{Rings}
+@sep
+<h3>Polynomials with Rational Coefficients</h3>
+<strong>Notation:</strong>
+\[
+\mathbb{Q} = \text{Set of rational numbers}
+\]
+\[
+\begin{split}
+\mathbb{Q}[x] &= \text{Set of polynomials with rational coefficients}\\
+&= \left\{a_0 + a_1 x + \cdots + a_n x^n | n \in \mathbb{Z}_{\geq 0}, a_i \in \mathbb{Q}\right\}
+\end{split}
+\]
+@sep
+@thm
+@title{Division Theorem for Polynomials with Rational Coefficients}
+For all $f, g \in \mathbb{Q}[x]$, such that $f \neq 0$, there exist unique $q, r \in \mathbb{Q}[x]$,
+satisfying $\deg r < \deg f$, such that $g = fq + r$.
+@end
+@proof
+@collapse
+We first prove the existence of $q$ and $r$, via induction on the degree of $g$.
+The base step corresponds to the case $\deg g < \deg f$. In this case,
+the choice $q = 0$, $r = g$ works, since $g = f\cdot 0 + g$,
+and $\deg r = \deg g < \deg f$.
+
+@collapse
+Now, we establish the inductive step.
+Let $f$ be fixed.
+Given $g$, suppose for all $g'$ with $\deg g' < \deg g$,
+there exist $q', r' \in \mathbb{Q}[x]$ such that $g' = fq' + r'$,
+with $\deg r' < \deg f$.
+We want to show that there exist $q, r$ such that $g = fq + r$, with $\deg r < \deg f$.
+
+@collapse
+Suppose $g = a_0 + a_1 x + \cdots + a_m x^m$ and $f = b_0 + b_1 x + \cdots + b_n x^n$,
+where $a_m, b_n \neq 0$.
+We may assume that $m \geq n$, since the case $m < n$ (i.e. $\deg g < \deg f$)
+has already been proved.
+
+@collapse
+Consider the polynomial:
+\[
+g' = g - \frac{a_m}{b_n}x^{m - n}f.
+\]
+Then, $\deg g' < \deg g$,
+and by the induction hypothesis we have:
+\[
+g' = fq' + r'
+\]
+for some $q', r' \in \mathbb{Q}[x]$ such that $\deg r' < \deg f$.
+
+@collapse
+Hence,
+\[
+g - \frac{a_m}{b_n}x^{m - n}f = g' = fq' + r',
+\]
+which implies that:
+
+@collapse
+\[
+g = f\left(q' + \frac{a_m}{b_n}x^{m - n}\right) + r'
+\]
+This establishes the existence of the quotient $q = q' + \frac{a_m}{b_n}x^{m - n}$ and the remainder $r = r'$.
+
+@collapse
+Now, we prove the uniqueness of $q$ and $r$.
+Suppose $g = fq + r = fq' + r'$, where $q, q', r, r' \in \mathbb{Q}[x]$,
+with $\deg r, \deg r' < \deg f$. We have:
+\[
+fq + r = fq' + r',
+\]
+which implies that:
+
+@collapse
+\[
+\deg f(q - q') = \deg (r' - r) < \deg f.
+\]
+The above inequality can hold only if $q = q'$, which in turn implies that $r' = r$.
+It follows that the quotient $q$ and the remainder $r$ are unique.
+@endproof
+@endcol
+@end
+<!-- @sep -->
+<!-- @thm -->
+<!-- [<b>Root Theorem</b>] -->
+<!-- <br> -->
+<!-- For $f \in \mathbb{Q}[x]$, and $a \in \mathbb{Q}$, $x - a$ divides $f$ if and only if $f(a) = 0$. -->
+<!-- @end -->
+<!-- @proof -->
+<!-- @collapse -->
+<!-- If $x - a$ divides $f$, then $f = (x - a) g$ for some $g \in \mathbb{Q}[x]$.  So, clearly -->
+<!-- $f(a) = 0$. -->
+<!-- <p> -->
+<!-- @collapse -->
+<!-- In the other direction, suppose $f(a) = 0$.   -->
+<!-- <p> -->
+<!-- @collapse -->
+<!-- By the division theorem there exist -->
+<!-- $q, r \in \mathbb{Q}[x]$ -->
+<!-- such that $f = (x - a)q + r$, with $\deg r < \deg x - a$.  Since $x - a$ is of degree 1, -->
+<!-- the polynomial $r$ must be a constant.  Substituting $a$ into $x$ on both sides, we have: -->
+<!-- \[ -->
+<!-- 0 = f(a) = 0\cdot q(a) + r. -->
+<!-- \] -->
+<!-- <p> -->
+<!-- @collapse -->
+<!-- Hence, $r = 0$, and $f = (x - a)q$. -->
+<!-- @endproof -->
+<!-- @endcol -->
+<!-- @end -->
+@sep
+@def
+Given $f, g \in \mathbb{Q}[x]$, a <b> Greatest Common Divisor</b> $d$ of $f$ and $g$
+is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties:
+<ol>
+<li>
+$d$ divides both $f$ and $g$.
+</li>
+<li>
+For any $e \in \mathbb{Q}[x]$ which divides both $f$ and $g$, we have $\deg e \leq \deg d$.
+</li>
+</ol>
+@end
+
+@claim
+@collapse
+If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r$.
+@end
+@proof
+@collapse
+See the proof of <a href knowl="https://www.math.cuhk.edu.hk/~pschan/elephas-ns/php/elephas_bare.php?xml=content/math2070/current/week5.xml&query=//statement[@num=13]" target="_blank" title="Course:Math 2070">Lemma 5.13</a>.
+@endcol
+@end
+@sep
+@cor
+The Euclidean Algorithm applies to $\mathbb{Q}[x]$.
+
+@collapse
+Namely:  Suppose $\deg g \geq \deg f$.
+let $g_0 = g$, $f_0 = f$, and let $r_0$ be the unique polynomial in $\mathbb{Q}[x]$
+such that:
+\[
+g_0 = f_0q_0 + r_0,\quad \deg r_0 < \deg f_0,
+\]
+for some $q_0 \in \mathbb{Q}[x]$.
+
+@collapse
+For $k > 0$,
+let:
+\[
+g_k = f_{k-1}, \quad f_k = r_{k - 1}.
+\]
+Let $r_k$ be the remainder such that:
+\[
+g_k = f_k q_k + r_k,
+\]
+for some $q_k \in \mathbb{Q}[x]$.
+
+@collapse
+Since $\deg r_k < \deg f_k = \deg r_{k - 1}$,
+we have:
+\[
+\deg r_0 > \deg r_1 > \deg r_2 > \cdots \geq -\infty
+\]
+(where by convention we let $\deg 0 = -\infty$).
+
+@col
+Eventually, $r_n = 0$ for some $n$,
+and it follows from the previous claim 
+and arguments similar to those used in the case of $\mathbb{Z}$
+that $r_{n-1}$ is a GCD of $f$ and $g$.
+@endcol
+@end
+@eg
+@col
+@ol
+@li
+Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
+@li
+Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
+@endol
+@end
+@sep
+@cor
+#label{bezoutpolynomial}
+(<b>Bézout's Identity for Polynomials</b>)
+
+For any $f, g \in \mathbb{Q}[x]$ which are not both zero, 
+and $d$ a GCD of $f$ and $g$,
+there exist $u, v \in \mathbb{Q}[x]$ such that:
+\[
+d = fu + gv.
+\]
+@end
+@sep
+<h3>Factorization of Polynomials</h3>
+@def
+A polynomial $p$ in $\mathbb{Q}[x]$ is <b>irreducible</b>
+if it satisfies the following conditions:
+<ol>
+<li> $\deg p > 0$,
+</li>
+<li> if $p = ab$ for some $a, b \in \mathbb{Q}[x]$, then either $a$ or $b$
+is a constant.
+</li>
+</ol>
+@end
+<hr/>
+@claim
+@col
+If $p \in \mathbb{Q}[x]$ is irreducible and $p | f_1f_2$, where $f_1, f_2 \in \mathbb{Q}[x]$,
+then $p | f_1$ or $p | f_2$.
+@end
+@proof
+@collapse
+Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
+constant polynomials.
+In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by #ref{bezoutpolynomial}, 
+there exist $u, v, \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
+\[
+f_1 = puf_1 + f_1f_2v.
+\]
+Since $p$ divides the right-hand side of the above equation, it must divide $f_1$.
+@endproof
+@endcol
+@end
+
+
+@sep
+@thm
+A polynomial in $\mathbb{Q}[x]$ of degree greater than zero is either irreducible or a product of irreducibles.
+@end
+@proof
+@collapse
+Suppose there is a nonempty set of polynomials of degree $> 0$
+which are neither irreducible nor products of irreducibles.  Let
+$p$ be an element of this set which has the least degree.  Since $p$ is not irreducible,
+there are $a, b \in \mathbb{Q}[x]$ of degrees $> 0$ such that $p = ab$. But, $a, b$, having degrees strictly
+less than $\deg p$, must be either irreducible or products of irreducibles.  This implies that $p$ is a product
+of irreducibles, a contradiction.
+@endproof
+@endcol
+@end
+<strong>Remark:</strong> 
+Compare this proof with that of Part 1 of the 
+Fundamental Theorem of Arithmetic (@ref{thm:fta}).
+@sep
+
+@thm
+[<b>Unique Factorization for Polynomials</b>]
+
+For any $p \in \mathbb{Q}[x]$ of degree $> 0$, if:
+\[
+p = f_1f_2\cdots f_n = g_1g_2\cdots g_m,
+\]
+where $f_i, g_j$ are irreducible polynomials in $\mathbb{Q}[x]$, then
+$n = m$, and the $g_j$'s may be reindexed so that
+$f_i = \lambda_i g_i$ for some $\lambda_i \in \mathbb{Q}$,
+for $i = 1, 2, \ldots, n$.
+@end
+@proof
+@col
+<strong>Exercise</strong>. See the proof of Part 2 of @ref{thm:fta}).
+@end
+
+@sep
+<h2>Rings</h2>
+@sep
+<h3>Definition of a Ring</h3>
+@def
+A <b> ring</b> $R$ (or $(R, +, \times)$) is a set equipped with two operations:
+\[
+\times, + : R\times R \rightarrow R
+\]
+which satisfy the following properties:
+<ol>
+<li> Properties of $+$:
+  @ol
+  @li
+  Commutativity: $a + b = b + a$, $\forall a, b \in R$.
+  @li
+  Associativity: $a + (b + c) = (a + b) + c$.
+  @li
+  There is an element $0 \in R$ (called the <b>additive identity element</b>),
+  such that $a + 0 = a$ for all $a \in R$.
+  @li
+  Every element of $R$ has an additive inverse; namely:
+  For all $a \in R$, there exists an element of $R$, usually denoted $-a$,
+  such that $a + (-a) = 0$.
+  @endol
+</li>
+<li> Properties of $\times$:
+  @ol
+  @li
+  Associativity: $a(bc) = (ab)c$.
+  @li
+  There is an element $1 \in R$ (called the <b>multiplicative identity element</b>),
+  such that $1\times a = a\times 1 = a$ for all $a \in R$.
+  @endol
+</li>
+<li> Distributativity:
+@ol
+@li
+$a\times(b + c) = a\times b + a\times c$, for all $a, b, c \in R$.
+@li
+$(a + b) \times c = a \times c + b\times c$, for all $a, b, c \in R$.
+@endol
+</li>
+</ol>
+@end
+
+<strong>Note:</strong>
+@collapse
+@ol
+@li
+For convenience's sake, we often write $ab$ for $a\times b$.
+@li
+In the definition, commutativity is required of addition, but not of multiplication.
+@li
+Every element has an additive inverse, but <i> not necessarily</i> a multiplicative inverse.
+That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in R$.
+@endol
+@endcol
+
+@sep
+@claim
+In a ring $R$, there is a unique additive identity element
+and a unique multiplicative identity element.
+@end
+@proof
+@collapse
+Suppose there is an element $0' \in R$ such that $0' + r = r$ for all $r \in R$, then
+in particular $0' + 0 = 0$.
+
+@col
+Since $0$ is an additive identity, we have $0' + 0 = 0'$.
+So, $0' = 0$.
+
+@col
+Suppose there is an element $1' \in R$ such that $1'r = r$ or all $r \in R$, 
+
+@col
+then in particular $1' \cdot 1 = 1$.  
+
+@col
+But $1' \cdot 1 = 1'$ since $1$ is a multiplicative identity element, so $1' = 1$.
+@endproof
+@endcol
+@end
+
+@ex
+@collapse
+Prove that:
+For any $r$ in a ring $R$, its additive inverse $-r$ is unique.
+That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
+@endcol
+@end
+
+@sep
+
+@eg
+The following sets, equipped with the usual operations of addition and multiplication,
+are rings:
+@ol
+@li
+$\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$
+@li
+$\mathbb{Z}[x]$, $\mathbb{Q}[x]$, $\mathbb{R}[x]$
+(Polynomials with integer, rational, real coefficients, respectively.)
+@li
+\[
+\begin{split}
+\mathbb{Q}[\sqrt{2}] &=
+\{\sum_{k = 0}^n a_k(\sqrt{2})^k | a_k \in \mathbb{Q}, n \in \mathbb{N}\}\\
+&= \{a + b\sqrt{2} | a, b \in \mathbb{Q}\}.
+\end{split}
+\]
+@li
+For a fixed $n$, the set of $n\times n$ matrices with integer coefficients.
+@li
+$C[0, 1] = \{f : [0, 1]\rightarrow \mathbb{R}\; |\; f \text{ is continuous.}\}$
+@li
+$M_n(\mathbb{R})$,
+the set of $n \times n$ real matrices, $n \in \mathbb{N}$.
+@endol
+
+The following sets, under the usual operations of addition and multiplication, are not rings:
+@ol
+@li
+$\mathbb{N}$, no additive identity element, i.e. no 0.
+@li
+$\mathbb{N}\cup\{0\}$, nonzero elements have no additive inverses.
+@li
+$\GL(n, \mathbb{R})$,
+the set of $n \times n$ invertible real matrices, $n \in \mathbb{N}$.
+@endol
+@end
+
+@sep
+
+@claim
+For all elements $r$ in a ring $R$, we have $0r = r0 = 0$.
+@end
+@proof
+@collapse
+By distributativity,
+\[
+0r = (0 + 0)r = 0r + 0r.
+\]
+@col
+Adding $-0r$ (additive inverse of $0r$) to both sides, we have:
+\[
+0 = (0r + 0r) + (-0r) = 0r + (0r + (-0r)) = 0r + 0 = 0r.
+\]
+
+@col
+The proof of $r0 = 0$ is similar and we leave it as an <strong>exercise</strong>.
+@endproof
+@endcol
+@end
+
+@claim
+@collapse
+For all elements $r$ in a ring, we have $(-1)(-r) = (-r)(-1)= r$.
+@end
+@proof
+@collapse
+We have:
+\[
+0 = 0(-r) = (1 + (-1))(-r) = -r + (-1)(-r).
+\]
+@col
+Adding $r$ to both sides, we obtain
+\[
+r = r + (-r + (-1)(-r)) = (r + -r) + (-1)(-r) = (-1)(-r).
+\]
+@col
+We leave it as an <strong>exercise</strong> to show that $(-r)(-1) = r$.
+@endproof
+@endcol
+@end
+
+@sep
+
+@ex
+Show that:
+For all $r$ in a ring $R$, we have:
+\[
+(-1) r = r(-1) = -r.
+\]
+@end
+
+@ex
+@collapse
+Show that:
+If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one element.
+<p>
+(We call such an $R$ the <b>zero ring</b>.)
+@endcol
+@end

@@ -1,0 +1,532 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <slides environment="" chapter_type="">
+    <slide environment="" chapter_type="" id="s1" slide="1" course="" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="1" environ="slide" chapter="" course=""/>#course{Math 2070}
+#week{7}
+#topic{Polynomials}
+#topic{Rings}
+</slide>
+  </slides>
+  <course environment="" chapter_type="" title="Math 2070" wbtag="course">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">Polynomials with Rational Coefficients</keyword>
+      <keyword chapter="" slide="all"> Greatest Common Divisor</keyword>
+      <keyword chapter="" slide="all">Bézout's Identity for Polynomials</keyword>
+      <keyword chapter="" slide="all">Factorization of Polynomials</keyword>
+      <keyword chapter="" slide="all">irreducible</keyword>
+      <keyword chapter="" slide="all">Unique Factorization for Polynomials</keyword>
+      <keyword chapter="" slide="all">Rings</keyword>
+      <keyword chapter="" slide="all">Definition of a Ring</keyword>
+      <keyword chapter="" slide="all"> ring</keyword>
+      <keyword chapter="" slide="all">additive identity element</keyword>
+      <keyword chapter="" slide="all">multiplicative identity element</keyword>
+      <keyword chapter="" slide="all">zero ring</keyword>
+      <keyword chapter="" slide="all">Division Theorem for Polynomials with Rational Coefficients</keyword>
+      <keyword chapter="" slide="all">Math 2070</keyword>
+    </keywords>
+    <title environment="" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 2070" title="Math 2070" id="s2" slide="2" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" slide="2">Math 2070</title><keywords slide="2" environ="slide" chapter="" course="Math 2070"><keyword chapter="" slide="2">Math 2070</keyword></keywords>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" wbtag="week" num="7" topic="Polynomials, Rings" course="Math 2070">
+      <keywords slide="all" environ="chapter" chapter="7" course="Math 2070">
+        <keyword chapter="7" slide="all">Polynomials with Rational Coefficients</keyword>
+        <keyword chapter="7" slide="all"> Greatest Common Divisor</keyword>
+        <keyword chapter="7" slide="all">Bézout's Identity for Polynomials</keyword>
+        <keyword chapter="7" slide="all">Factorization of Polynomials</keyword>
+        <keyword chapter="7" slide="all">irreducible</keyword>
+        <keyword chapter="7" slide="all">Unique Factorization for Polynomials</keyword>
+        <keyword chapter="7" slide="all">Rings</keyword>
+        <keyword chapter="7" slide="all">Definition of a Ring</keyword>
+        <keyword chapter="7" slide="all"> ring</keyword>
+        <keyword chapter="7" slide="all">additive identity element</keyword>
+        <keyword chapter="7" slide="all">multiplicative identity element</keyword>
+        <keyword chapter="7" slide="all">zero ring</keyword>
+        <keyword chapter="7" slide="all">Division Theorem for Polynomials with Rational Coefficients</keyword>
+      </keywords>
+      <title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" slide="">Polynomials</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" slide="">Rings</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s3" slide="3" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="3"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="3">Polynomials</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" slide="3">Rings</topic><keywords slide="3" environ="slide" chapter="7" course="Math 2070"/>
+
+
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s4" slide="4" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="4" environ="slide" chapter="7" course="Math 2070"><keyword chapter="7" slide="4">Polynomials with Rational Coefficients</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Polynomials with Rational Coefficients</xh:h3>
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Notation:</xh:strong>
+\[
+\mathbb{Q} = \text{Set of rational numbers}
+\]
+\[
+\begin{split}
+\mathbb{Q}[x] &amp;= \text{Set of polynomials with rational coefficients}\\
+&amp;= \left\{a_0 + a_1 x + \cdots + a_n x^n | n \in \mathbb{Z}_{\geq 0}, a_i \in \mathbb{Q}\right\}
+\end{split}
+\]
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s5" slide="5" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="5" environ="slide" chapter="7" course="Math 2070"><keyword chapter="7" slide="5">Division Theorem for Polynomials with Rational Coefficients</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Division Theorem for Polynomials with Rational Coefficients" md5="bc131a50382e6c5d16d823722b9a7bd7" course="Math 2070" chapter="7" slide="5" item="7.1"><title environment="statement" chapter_type="Week" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" slide="5">Division Theorem for Polynomials with Rational Coefficients</title>
+
+For all $f, g \in \mathbb{Q}[x]$, such that $f \neq 0$, there exist unique $q, r \in \mathbb{Q}[x]$,
+satisfying $\deg r &lt; \deg f$, such that $g = fq + r$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="2ca9939e3f72f220ecaf222c42045c7e" course="Math 2070" chapter="7" slide="5" of="bc131a50382e6c5d16d823722b9a7bd7">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+We first prove the existence of $q$ and $r$, via induction on the degree of $g$.
+The base step corresponds to the case $\deg g &lt; \deg f$. In this case,
+the choice $q = 0$, $r = g$ works, since $g = f\cdot 0 + g$,
+and $\deg r = \deg g &lt; \deg f$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Now, we establish the inductive step.
+Let $f$ be fixed.
+Given $g$, suppose for all $g'$ with $\deg g' &lt; \deg g$,
+there exist $q', r' \in \mathbb{Q}[x]$ such that $g' = fq' + r'$,
+with $\deg r' &lt; \deg f$.
+We want to show that there exist $q, r$ such that $g = fq + r$, with $\deg r &lt; \deg f$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Suppose $g = a_0 + a_1 x + \cdots + a_m x^m$ and $f = b_0 + b_1 x + \cdots + b_n x^n$,
+where $a_m, b_n \neq 0$.
+We may assume that $m \geq n$, since the case $m &lt; n$ (i.e. $\deg g &lt; \deg f$)
+has already been proved.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Consider the polynomial:
+\[
+g' = g - \frac{a_m}{b_n}x^{m - n}f.
+\]
+Then, $\deg g' &lt; \deg g$,
+and by the induction hypothesis we have:
+\[
+g' = fq' + r'
+\]
+for some $q', r' \in \mathbb{Q}[x]$ such that $\deg r' &lt; \deg f$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Hence,
+\[
+g - \frac{a_m}{b_n}x^{m - n}f = g' = fq' + r',
+\]
+which implies that:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+\[
+g = f\left(q' + \frac{a_m}{b_n}x^{m - n}\right) + r'
+\]
+This establishes the existence of the quotient $q = q' + \frac{a_m}{b_n}x^{m - n}$ and the remainder $r = r'$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Now, we prove the uniqueness of $q$ and $r$.
+Suppose $g = fq + r = fq' + r'$, where $q, q', r, r' \in \mathbb{Q}[x]$,
+with $\deg r, \deg r' &lt; \deg f$. We have:
+\[
+fq + r = fq' + r',
+\]
+which implies that:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+\[
+\deg f(q - q') = \deg (r' - r) &lt; \deg f.
+\]
+The above inequality can hold only if $q = q'$, which in turn implies that $r' = r$.
+It follows that the quotient $q$ and the remainder $r$ are unique.
+<qed environment="newcol" chapter_type=""/>
+</collapse></collapse></collapse></collapse></collapse></collapse></collapse></newcol>
+</substatement>
+<!-- @slide -->
+<!-- @thm -->
+<!-- [<b>Root Theorem</b>] -->
+<!-- <br> -->
+<!-- For $f \in \mathbb{Q}[x]$, and $a \in \mathbb{Q}$, $x &#45; a$ divides $f$ if and only if $f(a) = 0$. -->
+<!-- @end -->
+<!-- @proof -->
+<!-- @collapse -->
+<!-- If $x &#45; a$ divides $f$, then $f = (x &#45; a) g$ for some $g \in \mathbb{Q}[x]$.  So, clearly -->
+<!-- $f(a) = 0$. -->
+<!-- <p/> -->
+<!-- @collapse -->
+<!-- In the other direction, suppose $f(a) = 0$.   -->
+<!-- <p/> -->
+<!-- @collapse -->
+<!-- By the division theorem there exist -->
+<!-- $q, r \in \mathbb{Q}[x]$ -->
+<!-- such that $f = (x &#45; a)q + r$, with $\deg r < \deg x &#45; a$.  Since $x &#45; a$ is of degree 1, -->
+<!-- the polynomial $r$ must be a constant.  Substituting $a$ into $x$ on both sides, we have: -->
+<!-- \[ -->
+<!-- 0 = f(a) = 0\cdot q(a) + r. -->
+<!-- \] -->
+<!-- <p/> -->
+<!-- @collapse -->
+<!-- Hence, $r = 0$, and $f = (x &#45; a)q$. -->
+<!-- @endproof -->
+<!-- @endcol -->
+<!-- @end -->
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s6" slide="6" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="6" environ="slide" chapter="7" course="Math 2070"><keyword chapter="7" slide="6"> Greatest Common Divisor</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="bfa0822348fca0c1c57ca6a6e16c2306" course="Math 2070" chapter="7" slide="6" item="7.2">
+Given $f, g \in \mathbb{Q}[x]$, a <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"> Greatest Common Divisor</xh:b> $d$ of $f$ and $g$
+is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties:
+<xh:ol xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement">
+$d$ divides both $f$ and $g$.
+</xh:li>
+<xh:li environment="statement">
+For any $e \in \mathbb{Q}[x]$ which divides both $f$ and $g$, we have $\deg e \leq \deg d$.
+</xh:li>
+</xh:ol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" md5="6de64b1138dea0cc6ee107a783019012" course="Math 2070" chapter="7" slide="6" item="7.3">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r$.
+</newcol></statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="79404b08b4a8873bb3068b6c1c8aee1d" course="Math 2070" chapter="7" slide="6" of="6de64b1138dea0cc6ee107a783019012">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+See the proof of <xh:a xmlns:xh="http://www.w3.org/1999/xhtml" href="href" knowl="https://www.math.cuhk.edu.hk/~pschan/elephas-ns/php/elephas_bare.php?xml=content/math2070/current/week5.xml&amp;query=//statement[@num=13]" target="_blank" title="Course:Math 2070" environment="newcol">Lemma 5.13</xh:a>.
+</newcol>
+</substatement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s7" slide="7" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="7" environ="slide" chapter="7" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="4" md5="b07b34b702160f8a4ffab1fe02e34a84" course="Math 2070" chapter="7" slide="7" item="7.4">
+The Euclidean Algorithm applies to $\mathbb{Q}[x]$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Namely:  Suppose $\deg g \geq \deg f$.
+let $g_0 = g$, $f_0 = f$, and let $r_0$ be the unique polynomial in $\mathbb{Q}[x]$
+such that:
+\[
+g_0 = f_0q_0 + r_0,\quad \deg r_0 &lt; \deg f_0,
+\]
+for some $q_0 \in \mathbb{Q}[x]$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+For $k &gt; 0$,
+let:
+\[
+g_k = f_{k-1}, \quad f_k = r_{k - 1}.
+\]
+Let $r_k$ be the remainder such that:
+\[
+g_k = f_k q_k + r_k,
+\]
+for some $q_k \in \mathbb{Q}[x]$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Since $\deg r_k &lt; \deg f_k = \deg r_{k - 1}$,
+we have:
+\[
+\deg r_0 &gt; \deg r_1 &gt; \deg r_2 &gt; \cdots \geq -\infty
+\]
+(where by convention we let $\deg 0 = -\infty$).
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Eventually, $r_n = 0$ for some $n$,
+and it follows from the previous claim 
+and arguments similar to those used in the case of $\mathbb{Z}$
+that $r_{n-1}$ is a GCD of $f$ and $g$.
+</collapse></collapse></collapse></newcol>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="e02017ac4c516c9722e5cc21307625d6" course="Math 2070" chapter="7" slide="7" item="7.5">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+<col_li environment="col_ol" chapter_type="" wbtag="col_li">
+Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
+</col_li></col_ol>
+</newcol></statement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s8" slide="8" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="8" environ="slide" chapter="7" course="Math 2070"><keyword chapter="7" slide="8">Bézout's Identity for Polynomials</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" label="bezoutpolynomial" md5="ff0cf605977388ae70fe17f3161c10ab" course="Math 2070" chapter="7" slide="8" item="7.6">
+
+(<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">Bézout's Identity for Polynomials</xh:b>)
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+For any $f, g \in \mathbb{Q}[x]$ which are not both zero, 
+and $d$ a GCD of $f$ and $g$,
+there exist $u, v \in \mathbb{Q}[x]$ such that:
+\[
+d = fu + gv.
+\]
+</statement>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s9" slide="9" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="9" environ="slide" chapter="7" course="Math 2070"><keyword chapter="7" slide="9">Factorization of Polynomials</keyword><keyword chapter="7" slide="9">irreducible</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Factorization of Polynomials</xh:h3>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="7" md5="2f3c2192596f4d4c9614493a61d39d27" course="Math 2070" chapter="7" slide="9" item="7.7">
+A polynomial $p$ in $\mathbb{Q}[x]$ is <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">irreducible</xh:b>
+if it satisfies the following conditions:
+<xh:ol xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement"> $\deg p &gt; 0$,
+</xh:li>
+<xh:li environment="statement"> if $p = ab$ for some $a, b \in \mathbb{Q}[x]$, then either $a$ or $b$
+is a constant.
+</xh:li>
+</xh:ol>
+</statement>
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="8" md5="7fb8cbda392fafb917e2f619870c315b" course="Math 2070" chapter="7" slide="9" item="7.8">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+If $p \in \mathbb{Q}[x]$ is irreducible and $p | f_1f_2$, where $f_1, f_2 \in \mathbb{Q}[x]$,
+then $p | f_1$ or $p | f_2$.
+</newcol></statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="8f80a5bf3289db79f084e06b93f45fae" course="Math 2070" chapter="7" slide="9" of="7fb8cbda392fafb917e2f619870c315b">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
+constant polynomials.
+In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by <ref environment="newcol" chapter_type="" label="bezoutpolynomial" wbtag="ref" course="Math 2070" chapter="7" slide="9" src-slide="" item="7.6" filename="self" title="" md5="ff0cf605977388ae70fe17f3161c10ab" class="knowl" name="Corollary 7.6"/>, 
+there exist $u, v, \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
+\[
+f_1 = puf_1 + f_1f_2v.
+\]
+Since $p$ divides the right-hand side of the above equation, it must divide $f_1$.
+<qed environment="newcol" chapter_type=""/>
+</newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s10" slide="10" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="10" environ="slide" chapter="7" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="08cb214282b28e21ea0747f136287f70" course="Math 2070" chapter="7" slide="10" item="7.9">
+A polynomial in $\mathbb{Q}[x]$ of degree greater than zero is either irreducible or a product of irreducibles.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="468ec01c8b81781fd122a6350b41132e" course="Math 2070" chapter="7" slide="10" of="08cb214282b28e21ea0747f136287f70">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Suppose there is a nonempty set of polynomials of degree $&gt; 0$
+which are neither irreducible nor products of irreducibles.  Let
+$p$ be an element of this set which has the least degree.  Since $p$ is not irreducible,
+there are $a, b \in \mathbb{Q}[x]$ of degrees $&gt; 0$ such that $p = ab$. But, $a, b$, having degrees strictly
+less than $\deg p$, must be either irreducible or products of irreducibles.  This implies that $p$ is a product
+of irreducibles, a contradiction.
+<qed environment="newcol" chapter_type=""/>
+</newcol>
+</substatement>
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Remark:</xh:strong> 
+Compare this proof with that of Part 1 of the 
+Fundamental Theorem of Arithmetic (<ref environment="" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="10" src-course="Math 2070" src-chapter="6" src-slide="10" type="Theorem" item="6.13" title="" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="knowl" name="The Fundamental Theorem of Arithmetic"/>).
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s11" slide="11" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="11" environ="slide" chapter="7" course="Math 2070"><keyword chapter="7" slide="11">Unique Factorization for Polynomials</keyword></keywords>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="10" md5="400bbeb107f30d317445ee314dd287bf" course="Math 2070" chapter="7" slide="11" item="7.10">
+[<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">Unique Factorization for Polynomials</xh:b>]
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+For any $p \in \mathbb{Q}[x]$ of degree $&gt; 0$, if:
+\[
+p = f_1f_2\cdots f_n = g_1g_2\cdots g_m,
+\]
+where $f_i, g_j$ are irreducible polynomials in $\mathbb{Q}[x]$, then
+$n = m$, and the $g_j$'s may be reindexed so that
+$f_i = \lambda_i g_i$ for some $\lambda_i \in \mathbb{Q}$,
+for $i = 1, 2, \ldots, n$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="aa755220921faf8169cb8568dc856abd" course="Math 2070" chapter="7" slide="11" of="400bbeb107f30d317445ee314dd287bf">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Exercise</xh:strong>. See the proof of Part 2 of <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="11" src-course="Math 2070" src-chapter="6" src-slide="10" type="Theorem" item="6.13" title="" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="knowl" name="The Fundamental Theorem of Arithmetic"/>).
+</newcol></substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s12" slide="12" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="12" environ="slide" chapter="7" course="Math 2070"><keyword chapter="7" slide="12">Rings</keyword></keywords>
+<xh:h2 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Rings</xh:h2>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s13" slide="13" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="13" environ="slide" chapter="7" course="Math 2070"><keyword chapter="7" slide="13">Definition of a Ring</keyword><keyword chapter="7" slide="13"> ring</keyword><keyword chapter="7" slide="13">additive identity element</keyword><keyword chapter="7" slide="13">multiplicative identity element</keyword></keywords>
+<xh:h3 xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Definition of a Ring</xh:h3>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="11" md5="0a206b94603b3aa73ff196bc390ebe06" course="Math 2070" chapter="7" slide="13" item="7.11">
+A <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"> ring</xh:b> $R$ (or $(R, +, \times)$) is a set equipped with two operations:
+\[
+\times, + : R\times R \rightarrow R
+\]
+which satisfy the following properties:
+<xh:ol xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement"> Properties of $+$:
+  <col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+  <col_li environment="col_ol" chapter_type="" wbtag="col_li">
+  Commutativity: $a + b = b + a$, $\forall a, b \in R$.
+  </col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+  Associativity: $a + (b + c) = (a + b) + c$.
+  </col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+  There is an element $0 \in R$ (called the <xh:b environment="col_ol">additive identity element</xh:b>),
+  such that $a + 0 = a$ for all $a \in R$.
+  </col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+  Every element of $R$ has an additive inverse; namely:
+  For all $a \in R$, there exists an element of $R$, usually denoted $-a$,
+  such that $a + (-a) = 0$.
+  </col_li></col_ol>
+</xh:li>
+<xh:li environment="statement"> Properties of $\times$:
+  <col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+  <col_li environment="col_ol" chapter_type="" wbtag="col_li">
+  Associativity: $a(bc) = (ab)c$.
+  </col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+  There is an element $1 \in R$ (called the <xh:b environment="col_ol">multiplicative identity element</xh:b>),
+  such that $1\times a = a\times 1 = a$ for all $a \in R$.
+  </col_li></col_ol>
+</xh:li>
+<xh:li environment="statement"> Distributativity:
+<col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+<col_li environment="col_ol" chapter_type="" wbtag="col_li">
+$a\times(b + c) = a\times b + a\times c$, for all $a, b, c \in R$.
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+$(a + b) \times c = a \times c + b\times c$, for all $a, b, c \in R$.
+</col_li></col_ol>
+</xh:li>
+</xh:ol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Note:</xh:strong>
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+<col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+<col_li environment="col_ol" chapter_type="" wbtag="col_li">
+For convenience's sake, we often write $ab$ for $a\times b$.
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+In the definition, commutativity is required of addition, but not of multiplication.
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+Every element has an additive inverse, but <xh:i xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ol"> not necessarily</xh:i> a multiplicative inverse.
+That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in R$.
+</col_li></col_ol>
+</newcol>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s14" slide="14" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="14" environ="slide" chapter="7" course="Math 2070"/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="12" md5="3db3b3b565ba9ccf73513c010f0852a8" course="Math 2070" chapter="7" slide="14" item="7.12">
+In a ring $R$, there is a unique additive identity element
+and a unique multiplicative identity element.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7898e16c1a978cf07b406aeda181188e" course="Math 2070" chapter="7" slide="14" of="3db3b3b565ba9ccf73513c010f0852a8">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Suppose there is an element $0' \in R$ such that $0' + r = r$ for all $r \in R$, then
+in particular $0' + 0 = 0$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Since $0$ is an additive identity, we have $0' + 0 = 0'$.
+So, $0' = 0$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Suppose there is an element $1' \in R$ such that $1'r = r$ or all $r \in R$, 
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+then in particular $1' \cdot 1 = 1$.  
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+But $1' \cdot 1 = 1'$ since $1$ is a multiplicative identity element, so $1' = 1$.
+<qed environment="newcol" chapter_type=""/>
+</collapse></collapse></collapse></collapse></newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="13" md5="4362df2060aa5a9465ae569bbf3abfa1" course="Math 2070" chapter="7" slide="14" item="7.13">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Prove that:
+For any $r$ in a ring $R$, its additive inverse $-r$ is unique.
+That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
+</newcol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s15" slide="15" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="15" environ="slide" chapter="7" course="Math 2070"/>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="3e41d6dd3f6db83ff4917f820c2dd20b" course="Math 2070" chapter="7" slide="15" item="7.14">
+The following sets, equipped with the usual operations of addition and multiplication,
+are rings:
+<col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+<col_li environment="col_ol" chapter_type="" wbtag="col_li">
+$\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+$\mathbb{Z}[x]$, $\mathbb{Q}[x]$, $\mathbb{R}[x]$
+(Polynomials with integer, rational, real coefficients, respectively.)
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+\[
+\begin{split}
+\mathbb{Q}[\sqrt{2}] &amp;=
+\{\sum_{k = 0}^n a_k(\sqrt{2})^k | a_k \in \mathbb{Q}, n \in \mathbb{N}\}\\
+&amp;= \{a + b\sqrt{2} | a, b \in \mathbb{Q}\}.
+\end{split}
+\]
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+For a fixed $n$, the set of $n\times n$ matrices with integer coefficients.
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+$C[0, 1] = \{f : [0, 1]\rightarrow \mathbb{R}\; |\; f \text{ is continuous.}\}$
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+$M_n(\mathbb{R})$,
+the set of $n \times n$ real matrices, $n \in \mathbb{N}$.
+</col_li></col_ol>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+The following sets, under the usual operations of addition and multiplication, are not rings:
+<col_ol environment="col_ol" chapter_type="" wbtag="col_ol">
+<col_li environment="col_ol" chapter_type="" wbtag="col_li">
+$\mathbb{N}$, no additive identity element, i.e. no 0.
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+$\mathbb{N}\cup\{0\}$, nonzero elements have no additive inverses.
+</col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li">
+$\GL(n, \mathbb{R})$,
+the set of $n \times n$ invertible real matrices, $n \in \mathbb{N}$.
+</col_li></col_ol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s16" slide="16" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="16" environ="slide" chapter="7" course="Math 2070"/>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="15" md5="06c93e407cb78d275e72438b2177a1dd" course="Math 2070" chapter="7" slide="16" item="7.15">
+For all elements $r$ in a ring $R$, we have $0r = r0 = 0$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1f8a1cb45717ede2d17734b9c60b3784" course="Math 2070" chapter="7" slide="16" of="06c93e407cb78d275e72438b2177a1dd">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+By distributativity,
+\[
+0r = (0 + 0)r = 0r + 0r.
+\]
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Adding $-0r$ (additive inverse of $0r$) to both sides, we have:
+\[
+0 = (0r + 0r) + (-0r) = 0r + (0r + (-0r)) = 0r + 0 = 0r.
+\]
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+The proof of $r0 = 0$ is similar and we leave it as an <xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">exercise</xh:strong>.
+<qed environment="newcol" chapter_type=""/>
+</collapse></collapse></newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="16" md5="ae67e49b63f437688b9241a878c3d85f" course="Math 2070" chapter="7" slide="16" item="7.16">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+For all elements $r$ in a ring, we have $(-1)(-r) = (-r)(-1)= r$.
+</newcol></statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6fdd0fa7d2c0fb732519b938c066c8dd" course="Math 2070" chapter="7" slide="16" of="ae67e49b63f437688b9241a878c3d85f">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+We have:
+\[
+0 = 0(-r) = (1 + (-1))(-r) = -r + (-1)(-r).
+\]
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+Adding $r$ to both sides, we obtain
+\[
+r = r + (-r + (-1)(-r)) = (r + -r) + (-1)(-r) = (-1)(-r).
+\]
+<collapse environment="newcol" chapter_type="" wbtag="collapse">
+We leave it as an <xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">exercise</xh:strong> to show that $(-r)(-1) = r$.
+<qed environment="newcol" chapter_type=""/>
+</collapse></collapse></newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" id="s17" slide="17" course="Math 2070" chapter="7" section="" subsection="" subsubsection="" chapter_title="" section_title=""><keywords slide="17" environ="slide" chapter="7" course="Math 2070"><keyword chapter="7" slide="17">zero ring</keyword></keywords>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="17" md5="97fcac3949c90d57ee7ba8b8f664bd28" course="Math 2070" chapter="7" slide="17" item="7.17">
+Show that:
+For all $r$ in a ring $R$, we have:
+\[
+(-1) r = r(-1) = -r.
+\]
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="18" md5="1c2e2ec38e571aff1c68a3aef3bbf546" course="Math 2070" chapter="7" slide="17" item="7.18">
+<newcol environment="newcol" chapter_type="" wbtag="newcol">
+Show that:
+If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one element.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+(We call such an $R$ the <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">zero ring</xh:b>.)
+</newcol>
+</statement>
+</slide>
+      </slides>
+    </chapter>
+  </course>
+</document>

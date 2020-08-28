@@ -1,0 +1,704 @@
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">primitive</keyword>
+      <keyword chapter="" slide="all">content</keyword>
+      <keyword chapter="" slide="all">Euclid's Lemma</keyword>
+      <keyword chapter="" slide="all">Unique Factorization</keyword>
+      <keyword chapter="" slide="all">Rational Root Theorem</keyword>
+      <keyword chapter="" slide="all">Gauss's Lemma</keyword>
+      <keyword chapter="" slide="all">Gauss's Theorem</keyword>
+      <keyword chapter="" slide="all">Eisenstein's Criterion</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="11" title="" topic="Polynomial Rings, Rational Root Theorem, Gauss's Theorem, Eisenstein's Criterion" course="Math 2070" serial="11">
+      <keywords slide="all" environ="chapter" chapter="11" course="Math 2070">
+        <keyword chapter="11" slide="all">primitive</keyword>
+        <keyword chapter="11" slide="all">content</keyword>
+        <keyword chapter="11" slide="all">Euclid's Lemma</keyword>
+        <keyword chapter="11" slide="all">Unique Factorization</keyword>
+        <keyword chapter="11" slide="all">Rational Root Theorem</keyword>
+        <keyword chapter="11" slide="all">Gauss's Lemma</keyword>
+        <keyword chapter="11" slide="all">Gauss's Theorem</keyword>
+        <keyword chapter="11" slide="all">Eisenstein's Criterion</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" serial="11" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" serial="11" slide="">Polynomial Rings</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" serial="11" slide="">Rational Root Theorem</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" serial="11" slide="">Gauss's Theorem</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" serial="11" slide="">Eisenstein's Criterion</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Polynomial Rings</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Rational Root Theorem</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Gauss's Theorem</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Eisenstein's Criterion</topic>
+          <keywords slide="2" environ="slide" chapter="11" course="Math 2070"/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="3" id="s3" slide="3" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="3" environ="slide" chapter="11" course="Math 2070">
+            <keyword chapter="11" slide="3">Euclid's Lemma</keyword>
+          </keywords>
+          <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="1" title="Euclid's Lemma" md5="c3195296714abca0dd5f5b4bf0cf5302" course="Math 2070" chapter="11" slide="3" item="11.1">
+            <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" serial="" slide="3">Euclid's Lemma</title>
+            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.
+Let $f, g$ be polynomials in $k[x]$.
+Let $p$ be an irreducible polynomial in $k[x]$.
+If $p | fg$ in $k[x]$, then $p | f$ or $p | g$.  </paragraphs>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="900f766dd9b015696a4db8b743fc4f40" course="Math 2070" chapter="11" slide="3" of="c3195296714abca0dd5f5b4bf0cf5302">
+            <newcol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p \nmid f$.
+Then, any common divisor of $p$ and $f$ must have degree strictly less than $\deg p$.
+Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
+Hence, the GCD of $p$ and $f$ is $1$.
+By  </paragraphs>
+              <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="3" src-course="Math 2070" src-chapter="10" src-slide="19" type="Corollary" item="10.18" src-filename="week10.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
+                <title>Corollary 10.18</title>
+              </ref>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , there exist $a, b \in k[x]$ such that:
+\[
+ap + bf = 1.
+\]  </paragraphs>
+              <collapse course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Multiplying both sides of the above equation by $g$, we have:
+\[
+apg + bfg = g.
+\]
+Since $p$ divides the left-hand side of the above equation, it must
+also divide the right-hand side, which is the polynomial $g$.  </paragraphs>
+                <qed course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+              </collapse>
+            </newcol>
+          </substatement>
+          <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="2" md5="26cc8b08e04b09ad63af6569d7afc3ef" course="Math 2070" chapter="11" slide="3" item="11.2">
+            <newcol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f, g \in k[x]$ are relatively prime, and both divide $h \in k[x]$,
+then $fg | h$.  </paragraphs>
+            </newcol>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="11" slide="3" of="26cc8b08e04b09ad63af6569d7afc3ef">
+            <newcol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
+            </newcol>
+          </substatement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="4" environ="slide" chapter="11" course="Math 2070">
+            <keyword chapter="11" slide="4">Unique Factorization</keyword>
+          </keywords>
+          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="3" title="Unique Factorization" md5="92042a9ad2deddf130c4271892172ded" course="Math 2070" chapter="11" slide="4" item="11.3">
+            <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" serial="" slide="4">Unique Factorization</title>
+            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.
+Every nonconstant polynomial $f \in k[x]$ may be written as:
+\[
+f = c p_1\cdots p_n,
+\]
+where $c$ is a nonzero constant,
+and each $p_i$ is a monic irreducible polynomial in $k[x]$.
+The factorization is unique up to the ordering of the factors.  </paragraphs>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1567ec707ddf57907aff40da3ffd9ad8" course="Math 2070" chapter="11" slide="4" of="92042a9ad2deddf130c4271892172ded">
+            <newcol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> One possible approach is very similar to the proof of unique factorization
+for $\mathbb{Z}$. See:  </paragraphs>
+              <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="11" slide="4" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
+                <title>The Fundamental Theorem of Arithmetic</title>
+              </ref>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .  </paragraphs>
+            </newcol>
+          </substatement>
+          <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="5" environ="slide" chapter="11" course="Math 2070"/>
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" course="Math 2070" chapter="11" slide="5" item="11.4">
+            <enumerate course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+              <item course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials3.pg"/>
+              </item>
+            </enumerate>
+          </statement>
+          <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="6" environ="slide" chapter="11" course="Math 2070"/>
+          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="5" md5="b03e893af14e9abfb5b10e2dab6cac75" course="Math 2070" chapter="11" slide="6" item="11.5">
+            <label course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:pirredfield" type="Theorem"/>
+            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
+The following statements are equivalent:  </paragraphs>
+            <col_ol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+              <col_li course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $k[x]/(p)$ is a field.  </paragraphs>
+              </col_li>
+              <col_li course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $k[x]/(p)$ is an integral domain.  </paragraphs>
+              </col_li>
+              <col_li course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $p$ is irreducible in $k[x]$.  </paragraphs>
+              </col_li>
+            </col_ol>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="f6d115a9f5b7589c33941b5fe44d18d9" course="Math 2070" chapter="11" slide="6">
+            <newcol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Compare this result with  </paragraphs>
+              <ref environment="newcol" chapter_type="" label="ex:zmintdom" wbtag="ref" course="Math 2070" chapter="11" slide="6" src-course="Math 2070" src-chapter="8" src-slide="8" type="Exercise" item="8.11" src-filename="week8.xml" md5="4f62ea99a34581084495ad126b1d7ed0" class="lcref" serial="">
+                <title>Exercise 8.11</title>
+              </ref>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and  </paragraphs>
+              <ref environment="newcol" chapter_type="" label="cor:zpfield" wbtag="ref" course="Math 2070" chapter="11" slide="6" src-course="Math 2070" src-chapter="8" src-slide="11" type="Corollary" item="8.16" src-filename="week8.xml" md5="faff551b28a29dea037337edd00bb258" class="lcref" serial="">
+                <title>Corollary 8.16</title>
+              </ref>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .  </paragraphs>
+            </newcol>
+          </substatement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e7663c827574c1016924669d6bba4cf4" course="Math 2070" chapter="11" slide="6" of="b03e893af14e9abfb5b10e2dab6cac75">
+            <newcol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <col_ol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $1 \Rightarrow 2$: Clear, since every field is an integral domain.  </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $2 \Rightarrow 3$: If $p$ is not irreducible, there exist $f, g \in k[x]$,
+with degrees strictly less than that of $p$, such that $p = fg$.
+Since $\deg f, \deg g &lt; \deg p$, the polynomial $p$ does not divide $f$ or $g$
+in $k[x]$.  Consequently, the congruence classes $\ol{f}$ and $\ol{g}$
+of $f$ and $g$, respectively, modulo $(p)$ is not equal to zero in $k[x]/(p)$.
+On the other hand, $\ol{f}\cdot \ol{g} = \ol{fg} = \ol{p} = 0$ in $k[x]/(p)$.
+This implies that $k[x]/(p)$ is not an integral domain, a contradiction.
+Hence, $p$ is irreducible if $k[x]/(p)$ is an integral domain.  </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $3 \Rightarrow 1$:
+By definition, the multiplicative identity element $1$ of a field is different from the
+additive identity element $0$.  So we need to check that the congruence class of $1 \in k[x]$
+in $k[x]/(p)$ is not $0$.  Since $p$ is irreducible, by definition we have $\deg p &gt; 0$.
+Hence, $1 \notin (p)$, for a polynomial of degree $&gt; 0$ cannot divide a polynomial of degree $0$
+in $k[x]$.  We conclude that $1 + (p)\neq 0 + (p)$ in $k[x]/(p)$.</paragraphs>
+                  <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol"/>
+                  <newcol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Next, we need to prove the existence of the multiplicative inverse of any nonzero element in
+$k[x]/(p)$.
+Given any $f \in k[x]$ whose congruence class $\ol{f}$ modulo $(p)$ is nonzero in $k[x]/(p)$,
+we want to find its multiplicative inverse $\ol{f}^{-1}$.
+If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
+that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
+$GCD(p, f) = 1$.  By  </paragraphs>
+                    <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="6" src-course="Math 2070" src-chapter="10" src-slide="19" type="Corollary" item="10.18" src-filename="week10.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
+                      <title>Corollary 10.18</title>
+                    </ref>
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist
+$g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,
+since $fg - 1 = -hp$ implies that $fg - 1 \in (p)$,
+which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$.  </paragraphs>
+                  </newcol>
+                  <qed course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol"/>
+                </col_li>
+              </col_ol>
+            </newcol>
+          </substatement>
+          <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="11" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="7" environ="slide" chapter="11" course="Math 2070"/>
+          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="754a27a416ad77ccfae692cc66444325" course="Math 2070" chapter="11" slide="7" item="11.6">
+            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The rings $\mathbb{R}[x]/(x^2 + 1)$ and $\mathbb{C}$ are isomorphic.  </paragraphs>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48cfd83638f33cdb0094b47704997990" course="Math 2070" chapter="11" slide="7" of="754a27a416ad77ccfae692cc66444325">
+            <newcol course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : \mathbb{R}[x] \ra \mathbb{C}$ as follows:
+\[
+\phi(\sum_{k = 0}^na_kx^k) = \sum_{k = 0}^n a_k i^k.
+\]</paragraphs>
+              <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+              <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol">Exercise:</inline_keyword>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $\phi$ is a homomorphism.</paragraphs>
+              <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+              <collapse course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $a + bi$ ($a, b \in \mathbb{R}$) in $\mathbb{C}$, we have:
+\[
+\phi(a + bx) = a + bi.
+\]
+Hence, $\phi$ is surjective.</paragraphs>
+                <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We now find $\ker \phi$.
+Since $\mathbb{R}[x]$ is a PID (see  </paragraphs>
+                  <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2070" chapter="11" slide="7" src-course="Math 2070" src-chapter="9" src-slide="24" type="Definition" item="9.22" src-filename="week9.xml" md5="4ac60ad0846141cae22cdee387ec081b" class="lcref" serial="">
+                    <title>Definition 9.22</title>
+                  </ref>
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ).  There exists $p \in \mathbb{R}[x]$
+such that $\ker \phi = (p)$.</paragraphs>
+                  <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that $\phi(x^2 + 1) = 0$.  So, $x^2 + 1 \in \ker \phi$,
+which implies that there exists $q \in \mathbb{R}[x]$ such that $x^2 + 1 = pq$.
+Since $x^2 + 1$ has no real roots, neither $p$ or $q$ can be of degree $1$.</paragraphs>
+                    <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, one of $p$ or $q$ must be a nonzero constant polynomial.
+$p$ cannot be a nonzero constant polynomial, for that would imply that
+$\ker \phi = \mathbb{R}[x]$.  So, $q$ is a constant,
+which implies that $p = q^{-1} (x^2 + 1)$.  We conclude that $\ker \phi = (x^2 + 1)$.</paragraphs>
+                      <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from the First Isomorphism Theorem that
+$\mathbb{R}[x]/(x^2 + 1)\cong \mathbb{C}$.  </paragraphs>
+                        <qed course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </collapse>
+            </newcol>
+          </substatement>
+          <newline course="Math 2070" chapter="11" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Polynomials over mathbbZ and mathbbQ" course="Math 2070" chapter="11" num="1" serial="11.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="11.1" slide="">
+          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Polynomials over $\mathbb{Z}$ and $\mathbb{Q}$</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="8" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="8">Rational Root Theorem</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="8">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Polynomials over $\mathbb{Z}$ and $\mathbb{Q}$</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" title="Rational Root Theorem" md5="3c0464ad4416b97d36141ffd6ad5e3fd" course="Math 2070" chapter="11" slide="8" item="11.7">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="8">Rational Root Theorem</title>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f = a_0 + a_1x + \cdots + a_nx^n$, be a polynomial
+in $\mathbb{Q}[x]$, with $a_i \in \mathbb{Z}$, $a_n \neq 0$.
+Every rational root $r$ of $f$ in $\mathbb{Q}$ has the form
+$r = b/c$ $(b, c \in \mathbb{Z})$ where $b | a_0$ and $c | a_n$.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="69afa5c1500692c9cdfffd7b31823c7c" course="Math 2070" chapter="11" slide="8" of="3c0464ad4416b97d36141ffd6ad5e3fd">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $r = b/c$ be a rational root of $f$, where $b, c$ are relatively prime integers.
+We have:
+\[
+0 = \sum_{i = 0}^n a_i (b/c)^i
+\]  </paragraphs>
+                <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Multiplying both sides of the above equation by $c^n$, we have:
+\[
+0 = a_0c^n + a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_n b^n,
+\]
+or equivalently:
+\[
+a_0 c^n = -(a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_n b^n).
+\]  </paragraphs>
+                  <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $b$ divides the right-hand side, and $b$ and $c$ are relatively prime,
+$b$ must divide $a_0$.</paragraphs>
+                    <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Similarly, we have:
+\[
+a_n b^n = - (a_0c^n + a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_{n - 1}cb^{n - 1}).
+\]  </paragraphs>
+                      <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $c$ divides the right-hand side, and $b$ and $c$ are relatively prime, $c$ must divide $a_n$.  </paragraphs>
+                        <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="9" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="9">primitive</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="8" md5="fa31aede4c64516d6e3883385ff7a9d6" course="Math 2070" chapter="11" slide="9" item="11.8">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial $f \in \mathbb{Z}[x]$ is said to be </paragraphs>
+              <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">primitive</inline_keyword>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if the gcd of its coefficients is $1$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="a963bda95da173c53ad5bcfabad308dd" course="Math 2070" chapter="11" slide="9">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Note that if $f$ is monic, i.e. its leading coefficient is $1$,
+then it is primitive.</paragraphs>
+                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">If $d$ is the gcd of the coefficients of $f$, then $\frac{1}{d}f$ is a primitive polynomial
+in $\mathbb{Z}[x]$.  </paragraphs>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="10" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="10">Gauss's Lemma</keyword>
+            </keywords>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="9" title="Gauss's Lemma" md5="af808fc5ae8233666af7e81712828d29" course="Math 2070" chapter="11" slide="10" item="11.9">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="10">Gauss's Lemma</title>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $f, g \in \mathbb{Z}[x]$ are both primitive, then $fg$ is primitive.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d5f8571d4c718bdbab64370dd5708211" course="Math 2070" chapter="11" slide="10" of="af808fc5ae8233666af7e81712828d29">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Write $f = \sum_{k = 0}^m a_k x^k$, $g = \sum_{k = 0}^n b_k x^k$.
+Then, $fg = \sum_{k = 0}^{m+n}c_kx^k$, where:
+\[
+c_k = \sum_{i + j = k}a_ib_j.
+\]  </paragraphs>
+                <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $fg$ is not primitive.  Then, there exists a prime $p$ such that $p$ divides $c_k$
+for $k = 0, 1, 2,\ldots, m + n$.</paragraphs>
+                  <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $f$ is primitive, there exists a least
+$u \in \{0, 1, 2, \ldots, m\}$ such that $a_u$ is not divisible by $p$.</paragraphs>
+                    <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Similarly, since $g$ is primitive, there is a least $v \in \{0, 1, 2, \ldots, n\}$
+such that $b_v$ is not divisible by $p$.
+We have:
+\[
+c_{u + v} = \sum_{\substack{i + j = u+v\\(i, j)\neq (u, v)}}a_ib_j + a_ub_v,
+\]  </paragraphs>
+                      <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> hence:
+\[
+a_ub_v %% = c_{u + v} - \sum_{\substack{i + j = k\\(i, j)\neq (u, v)}}a_ib_j
+= c_{u + v} - \sum_{\substack{i + j = u + v\\i &lt; u}}a_ib_j
+- \sum_{\substack{i + j = u + v\\j &lt; v}}a_ib_j.
+\]  </paragraphs>
+                        <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the minimality conditions on $u$ and $v$, each term on the right-hand side of the above equation
+is divisible by $p$.</paragraphs>
+                          <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $p$ divides $a_ub_v$, which by Euclid's Lemma implies that
+$p$ divides either $a_u$ or $b_v$, a contradiction.  </paragraphs>
+                            <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="11" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="11">content</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="10" md5="4254f85499306c0d0e9620befefd2e33" course="Math 2070" chapter="11" slide="11" item="11.10">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Every nonzero $f \in \mathbb{Q}[x]$ has a unique factorization:
+\[
+f = c(f) f_0,
+\]
+where $c(f)$ is a positive rational number, and $f_0$ is a primitive polynomial in $\mathbb{Z}[x]$.  </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="11" md5="659d6ecb092d39d82f9c5db4d89cd7d7" course="Math 2070" chapter="11" slide="11" item="11.11">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The rational number $c(f)$ is called the  </paragraphs>
+                <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">content</inline_keyword>
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> of $f$.  </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="92b6096f2562a831af54897eb7f05aca" course="Math 2070" chapter="11" slide="11" of="659d6ecb092d39d82f9c5db4d89cd7d7">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <b xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Existence:</paragraphs>
+                </b>
+                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Write $f = \sum_{k = 0}^n (a_k/b_k)x^k$,
+where $a_k, b_k \in \mathbb{Z}$.
+Let $B = b_0b_1\cdots b_n$.
+Then, $g := Bf$ is a polynomial in $\mathbb{Z}[x]$.
+Let $d$ be the gcd of the coefficients of $g$.
+Let $D = \pm d$, with the sign chosen such that $D/B &gt; 0$.
+Observe that $f = c(f)f_0$, where
+\[
+c(f) = D/B,
+\]
+and
+\[
+f_0 := \frac{B}{D} f = \frac{1}{D}g
+\]
+is a primitive polynomial in $\mathbb{Z}[x]$.</paragraphs>
+                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <b xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Uniqueness:</paragraphs>
+                  </b>
+                  <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Suppose $f = ef_1$ for some positive $e \in \mathbb{Q}$ and primitive $f_1 \in \mathbb{Z}[x]$.
+We have:
+\[
+ef_1 = c(f) f_0.
+\]
+Writing $e/c(f) = u/v$ where $u, v$ are relatively prime positive integers, we have:
+\[
+uf_1 = vf_0.
+\]
+Since $gcd(u, v) = 1$, by Euclid's Lemma the above equation implies that $v$ divides each
+coefficient of $f_1$, and $u$ divides each coefficient of $f_0$.
+Since $f_0$ and $f_1$ are primitive, we conclude that $u = v = 1$.
+Hence, $e = c(f)$, and $f_1 = f_0$.  </paragraphs>
+                  <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="12" environ="slide" chapter="11" course="Math 2070"/>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="12" md5="acfea83363e1d036576467fd3f6d15be" course="Math 2070" chapter="11" slide="12" item="11.12">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For $f \in \mathbb{Z}[x] \subseteq \mathbb{Q}[x]$, we have $c(f) \in \mathbb{Z}$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4009b1c4ad404437e3586bad1d374665" course="Math 2070" chapter="11" slide="12" of="acfea83363e1d036576467fd3f6d15be">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $d$ be the gcd of the coefficients of $f$.  Then, $(1/d)f$
+is a primitive polynomial, and
+\[
+f = d\left(\frac{1}{d} f \right)
+\]
+is a factorization of $f$ into a product of a positive rational number and a primitive polynomial
+in $\mathbb{Z}[x]$.
+Hence, by uniqueness of $c(f)$ and $f_0$, we have $c(f) = d \in \mathbb{Z}$.  </paragraphs>
+                <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="13" environ="slide" chapter="11" course="Math 2070"/>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="13" md5="b6714075a8500245e9a1da8997c1755b" course="Math 2070" chapter="11" slide="13" item="11.13">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f, g, h$ be nonzero polynomials in $\mathbb{Q}[x]$ such that $f = gh$.
+Then, $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="973b16b6cd3dce7653231aebbb4564b5" course="Math 2070" chapter="11" slide="13" of="b6714075a8500245e9a1da8997c1755b">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The condition $f = gh$ implies that:
+\[
+c(f)f_0 = {c(g)}{c(h)} g_0h_0,
+\]
+where $f_0, g_0, h_0$ are primitive polynomials and $c(f), c(g), c(h)$ are positive rational numbers.
+By a previous result $g_0h_0$ is primitive.  It now follows from the uniqueness of $c(f)$ and $f_0$
+that $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$.  </paragraphs>
+                <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="14" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="14">Gauss's Theorem</keyword>
+            </keywords>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="14" title="Gauss's Theorem" md5="f569f469324025f59c31b4330b6a3d77" course="Math 2070" chapter="11" slide="14" item="11.14">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="14">Gauss's Theorem</title>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a nonzero polynomial in $\mathbb{Z}[x]$.
+If $f = GH$ for some $G, H \in \mathbb{Q}[x]$, then
+$f = gh$ for some $g, h \in \mathbb{Z}[x]$, where
+$\deg g = \deg G$, $\deg h = \deg H$.</paragraphs>
+              <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Consequently, if $f$ cannot be factored into a product of polynomials of smaller degrees in $\mathbb{Z}[x]$,
+then it is irreducible as a polynomial in $\mathbb{Q}[x]$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c4756254d9dc0fb74981ccd467aee9a" course="Math 2070" chapter="11" slide="14" of="f569f469324025f59c31b4330b6a3d77">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $f = GH$ for some $G, H$ in $\mathbb{Q}[x]$.
+Then $f = c(f) f_0 = c(G)c(H) G_0 H_0$,
+where $G_0$, $H_0$ are primitive polynomials in $\mathbb{Z}[x]$,
+and $c(G)c(H) = c(f)$ by the uniqueness of the content of a polynomial.</paragraphs>
+                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Moreover, since $f \in \mathbb{Z}[x]$, its content $c(f)$ lies in $\mathbb{Z}$.
+Hence, $g = c(f) G_0$ and $h = H_0$ are polynomials in $\mathbb{Z}[x]$,
+with $\deg g = \deg G$, $\deg h = \deg H$, such that $f = gh$.  </paragraphs>
+                  <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="15" environ="slide" chapter="11" course="Math 2070"/>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Let $p$ be a prime.
+Let $\mathbb{F}_p = \mathbb{Z}/p\mathbb{Z} \cong \mathbb{Z}_p$.  It is a field, since $p$ is prime.
+For $a \in \mathbb{Z}$, let $\ol{a}$ denote the residue of $a$ in $\mathbb{F}_p$.</paragraphs>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="">Exercise:</inline_keyword>
+            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We have $\ol{a} = \ol{a_p}$, where $a_p$ is the remainder of the division of $a$ by $p$.</paragraphs>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="15" md5="b3315c7bc4fe2358ae8c9651cd40bd00" course="Math 2070" chapter="11" slide="15" item="11.15">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f = \sum_{k = 0}^na_k x^k$ be a polynomial in $\mathbb{Z}[x]$
+such that $p \nmid a_n$ (in particular, $a_n \neq 0$).
+If $\ol{f} := \sum_{k = 0}^n \ol{a_k}x^k$ is irreducible in $\mathbb{F}_p[x]$,
+then $f$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d9ad97b972ed759d61631d562ff171c3" course="Math 2070" chapter="11" slide="15" of="b3315c7bc4fe2358ae8c9651cd40bd00">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$,
+but $f$ is not irreducible in $\mathbb{Q}[x]$.
+By Gauss's theorem, there exist $g, h \in \mathbb{Z}[x]$ such that
+$\deg g, \deg h  &lt; \deg f$ and $f = gh$.</paragraphs>
+                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since by assumption $p \nmid a_n$, we have $\deg \ol{f} = \deg f$.</paragraphs>
+                  <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Moreover, $\ol{gh} = \ol{g}\cdot\ol{h}$ ( </paragraphs>
+                    <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise</paragraphs>
+                    </strong>
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ).</paragraphs>
+                    <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\ol{f} = \ol{gh} = \ol{g}\cdot \ol{h}$, where $\deg \ol{g}, \deg\ol{h} &lt; \deg \ol{f}$.
+This contradicts the irreducibility of $\ol{f}$ in $\mathbb{F}_p[x]$.</paragraphs>
+                      <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $f$ is irreducible in $\mathbb{Q}[x]$ if $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$.  </paragraphs>
+                        <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="16" environ="slide" chapter="11" course="Math 2070"/>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="16" md5="affb2f9b427acb080edfcb267de8f12c" course="Math 2070" chapter="11" slide="16" item="11.16">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The polynomial $f(x) = x^4 - 5x^3 + 2x + 3 \in \mathbb{Q}[x]$ is irreducible.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="c2727f1dbeca94d1412c44da38fc7a9f" course="Math 2070" chapter="11" slide="16" of="affb2f9b427acb080edfcb267de8f12c">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider $\ol{f} = x^4 -\ol{5}x^3 + \ol{2}x + \ol{3} = x^4 + x^3 + 1$ in $\mathbb{F}_2[x]$.
+If we can show that $\ol{f}$ is irreducible, then by the previous theorem we can
+conclude that $f$ is irreducible.</paragraphs>
+                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\mathbb{F}_2 = \{0, 1\}$ and
+$\ol{f}(0) = \ol{f}(1) = 1 \neq 0$, we know right away that $\ol{f}$
+has no linear factors.  So, if $\ol{f}$ is not irreducible, it must be a product of two quadratic factors:
+\[
+\ol{f} = (ax^2 + bx + c)(dx^2 + ex + g),\quad a, b, c, d, e, g \in \mathbb{F}_2.
+\]  </paragraphs>
+                  <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Note that by assumption $a, d$ are nonzero elements of $\mathbb{F}_2$, so $a = d = 1$.
+This implies that, in particular:
+\[
+\begin{split}
+1 &amp;= \ol{f}(0) = cg\\
+1 &amp;= \ol{f}(1) = (1 + b + c)(1 + e + g)
+\end{split}
+\]  </paragraphs>
+                    <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The first equation implies that $c = g = 1$.
+The second equation then implies that $1 = (2 + b)(2 + e) = be$.
+Hence, $b = e = 1$.</paragraphs>
+                      <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
+\begin{multline*}
+x^4 + x^3 +  1 = (x^2 + x + 1)(x^2 + x + 1)\\
+= x^4 + 2x^3 + 3x^2 + 2x + 1 = x^4 + x^2 + 1,
+\end{multline*}
+a contradiction.</paragraphs>
+                        <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\ol{f}$ is irreducible in $\mathbb{F}_2[x]$, which implies
+that $f$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
+                          <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="17" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="17">Eisenstein's Criterion</keyword>
+            </keywords>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="17" title="Eisenstein's Criterion" md5="c70386bd8f4f800e68f019faaa5f28d3" course="Math 2070" chapter="11" slide="17" item="11.17">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="17">Eisenstein's Criterion</title>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f = a_0 + a_1 x + \cdots + a_n x^n$ be a polynomial in $\mathbb{Z}[x]$.
+If there exists a prime $p$ such that $p | a_i$ for $0 \leq i &lt; n$, but $p \nmid a_n$ and
+$p^2 \nmid a_0$, then $f$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b699c0aca3f7581de8cf068ff0145f35" course="Math 2070" chapter="11" slide="17" of="c70386bd8f4f800e68f019faaa5f28d3">
+              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove by contradiction.  Suppose $f$ is not irreducible in $\mathbb{Q}[x]$.
+Then, by Gauss's Theorem, there exists $g = \sum_{k = 0}^l b_kx^k$,
+$h = \sum_{k = 0}^{n - l} c_k x^k \in \mathbb{Z}[x]$, with $\deg g, \deg h &lt; \deg f$,
+such that $f = gh$.</paragraphs>
+                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider the image of these polynomials in $\mathbb{F}_p[x]$.
+By assumption, we have:
+\[
+\ol{a_n}x^n = \ol{f} = \ol{g}\ol{h}.
+\]  </paragraphs>
+                  <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This implies that $\ol{g}$ and $\ol{h}$ are divisors of $\ol{a_n}x^n$.
+Since $\mathbb{F}_p$ is a field, unique factorization holds for $\mathbb{F}_p[x]$.
+Hence, we must have:
+\[
+\ol{g} = \ol{b_u}x^u,\quad
+\ol{h} = \ol{c_{n - u}}x^{n - u},
+\]
+for some $u \in \{0, 1, 2,\ldots, l\}$.</paragraphs>
+                    <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $u &lt; l$, then $n - u &gt; n - l \geq \deg \ol{h}$, which cannot hold.</paragraphs>
+                      <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, we conclude that $\ol{g} = \ol{b_l}x^l$, $\ol{h} = \ol{c_{n - l}} x^{n - l}$.</paragraphs>
+                        <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, $\ol{b_0} = \ol{c_0} = 0$ in $\mathbb{F}_p$, which implies
+that $p$ divides both $b_0$ and $c_0$.  Since $a_0 = b_0c_0$, we have $p^2 | a_0$,
+a contradiction.  </paragraphs>
+                          <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="18" environ="slide" chapter="11" course="Math 2070"/>
+            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="18" md5="ea2fb75a17d88905f82f74c7e5a3a4d3" course="Math 2070" chapter="11" slide="18" item="11.18">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The polynomial $x^5 + 3x^4 - 6x^3 +12x + 3$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
+            </statement>
+          </slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

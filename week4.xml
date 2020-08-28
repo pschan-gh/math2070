@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">generated</keyword>
+      <keyword chapter="" slide="all">finitely generated</keyword>
+      <keyword chapter="" slide="all">group homomorphism</keyword>
+      <keyword chapter="" slide="all">isomorphism</keyword>
+      <keyword chapter="" slide="all">isomorphic</keyword>
+      <keyword chapter="" slide="all">Lagrange's Theorem</keyword>
+      <keyword chapter="" slide="all">Examples of Group Homomorphisms</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="4" title="" topic="Lagrange's Theorem, Generators, Group Homomorphisms" course="Math 2070" serial="4">
+      <keywords slide="all" environ="chapter" chapter="4" course="Math 2070">
+        <keyword chapter="4" slide="all">generated</keyword>
+        <keyword chapter="4" slide="all">finitely generated</keyword>
+        <keyword chapter="4" slide="all">group homomorphism</keyword>
+        <keyword chapter="4" slide="all">isomorphism</keyword>
+        <keyword chapter="4" slide="all">isomorphic</keyword>
+        <keyword chapter="4" slide="all">Lagrange's Theorem</keyword>
+        <keyword chapter="4" slide="all">Examples of Group Homomorphisms</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="4" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="4" slide="">Lagrange's Theorem</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="4" slide="">Generators</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="4" slide="">Group Homomorphisms</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Lagrange's Theorem</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Generators</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Group Homomorphisms</topic>
+          <keywords slide="2" environ="slide" chapter="4" course="Math 2070"/>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Lagrange's Theorem" course="Math 2070" chapter="4" num="1" serial="4.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" serial="4.1" slide="">
+          <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Lagrange's Theorem</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
+            <keywords slide="3" environ="slide" chapter="4" course="Math 2070">
+              <keyword chapter="4" slide="3">Lagrange's Theorem</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Lagrange's Theorem</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Lagrange's Theorem" md5="73d51b0af4e4da963c2c84cd31fb0993" course="Math 2070" chapter="4" slide="3" item="4.1">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" serial="" slide="3">Lagrange's Theorem</title>
+              <label course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="lagrangethm" type="Theorem"/>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G$ be a finite group. Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
+More precisely, $\abs{G} = [G: H]\cdot\abs{H}$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7d13a33d1da983c7a2ed8ccc7a51764f" course="Math 2070" chapter="4" slide="3" of="73d51b0af4e4da963c2c84cd31fb0993">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We already know that the left cosets of $H$ partition $G$.
+That is:
+\[G = a_1 H \sqcup a_2 H \sqcup \ldots \sqcup a_{[G:H]}H,\]
+where $a_i H \cap a_j H = \emptyset$ if $i \neq j$.
+Hence, $\abs{G} = \sum_{i = 1}^{[G:H]} \abs{a_i H}$.</paragraphs>
+                <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The theorem follows if we show that the size of each left coset of $H$ is equal to $\abs{H}$.</paragraphs>
+                  <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  For each left coset $S$ of $H$, pick an element $a \in S$, and define a map
+$\psi: H \ra S$ as follows:
+\[\psi(h) = ah.\] </paragraphs>
+                    <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We want to show that $\psi$ is bijective.</paragraphs>
+                      <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  For any $s \in S$,
+by definition of a left coset (as an equivalence class) we have $s = ah$ for some $h \in H$.
+Hence, $\psi$ is surjective.</paragraphs>
+                        <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  If $\psi(h') = ah' = ah = \psi(h)$ for some $h', h \in H$,
+then $h' = a^{-1}ah' = a^{-1}ah = h$. Hence, $\psi$ is one-to-one.</paragraphs>
+                          <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  So we have a bijection between two finite sets. Hence, $\abs{S} = \abs{H}$. </paragraphs>
+                            <qed course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
+            <keywords slide="4" environ="slide" chapter="4" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="2" md5="d0cd4ca8e8cef498e5fce9bce2437087" course="Math 2070" chapter="4" slide="4" item="4.2">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G$ be a finite group.
+The order of every element of $G$ divides the order of $G$. </paragraphs>
+            </statement>
+            <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">  Since $G$ is finite, any element of $g \in G$ has finite order $\ord g$.
+Since the order of the subgroup:
+\[H = \langle g \rangle
+= \{e, g, g^2, \ldots, g^{(\ord g) - 1}\}\]
+is equal to $\ord g$,
+it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$. </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="3" md5="34537484728fec1aaba97b2d2c2ba958" course="Math 2070" chapter="4" slide="4" item="4.3">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  If the order of a group $G$ is prime, then $G$ is a cyclic group.</paragraphs>
+                <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <ref environment="newcol" chapter_type="" label="pf:primecyclic" name="Proof shown in class" wbtag="ref" course="Math 2070" chapter="4" slide="4" src-course="" src-chapter="" src-slide="1" type="Proof" src-filename="protected/week4_sol.xml" md5="55e782c564e46f2dadd5c5af48d636f8" class="lcref" serial="">
+                  <title>Proof </title>
+                </ref>
+              </newcol>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="4" md5="de847a24a3d3cd440a891b2601092d0f" course="Math 2070" chapter="4" slide="4" item="4.4">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  If a group $G$ is finite, then for all $g \in G$ we have:
+\[
+g^{\abs{G}} = e.
+\] </paragraphs>
+                <ref environment="newcol" chapter_type="" label="pf:ghatordGeqe" name="Proof shown in class" wbtag="ref" course="Math 2070" chapter="4" slide="4" src-course="" src-chapter="" src-slide="2" type="Proof" src-filename="protected/week4_sol.xml" md5="6f2eca9429b9d6439ae85277a805d90f" class="lcref" serial="">
+                  <title>Proof </title>
+                </ref>
+              </newcol>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
+            <keywords slide="5" environ="slide" chapter="4" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="5" md5="1cb90fab37c3fee817dff8569f471516" course="Math 2070" chapter="4" slide="5" item="4.5">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G$ be a </paragraphs>
+              <i xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">finite</paragraphs>
+              </i>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> group. Then a nonempty subset $H$ of $G$
+is a subgroup of $G$ if and only if it is closed under the group operation of $G$
+(i.e. $ab \in H$ for all $a, b \in H$). </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="27b941edf700d86fa188fb77b295e58c" course="Math 2070" chapter="4" slide="5" of="1cb90fab37c3fee817dff8569f471516">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  It is easy to see that if $H$ is a subgroup,
+then it is closed under the group operation.
+The other direction is left as an </paragraphs>
+                <inline_keyword course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise</inline_keyword>
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">. </paragraphs>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
+            <keywords slide="6" environ="slide" chapter="4" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="ac32bfc2c42601b4b2fe91a735b592b8" course="Math 2070" chapter="4" slide="6" item="4.6">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $n$ be an integer greater than $1$. The group $A_n$ of even permutations
+on a set of $n$ elements (see </paragraphs>
+              <ref environment="statement" chapter_type="" label="eg:subgroups" wbtag="ref" course="Math 2070" chapter="4" slide="6" src-course="Math 2070" src-chapter="3" src-slide="6" type="Example" item="3.4" src-filename="week3.xml" md5="3a8632057ec5b902b8a4bb5c67ae0717" class="lcref" serial="">
+                <title>Example 3.4</title>
+              </ref>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">) has order $\displaystyle \frac{n!}{2}$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="8b893f6f3c25abf839f5f371de1a2cda" course="Math 2070" chapter="4" slide="6" of="ac32bfc2c42601b4b2fe91a735b592b8">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  View $A_n$ as a subgroup of $S_n$, which has order $n!$.</paragraphs>
+                <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <inline_keyword course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise</inline_keyword>
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">: Show that $S_n = A_n\, \sqcup\, (12)A_n$.</paragraphs>
+                <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Hence, we have $[S_n: A_n] = 2$.</paragraphs>
+                  <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from </paragraphs>
+                    <ref environment="newcol" chapter_type="" label="lagrangethm" wbtag="ref" course="Math 2070" chapter="4" slide="6" src-course="Math 2070" src-chapter="4" src-slide="3" type="Theorem" item="4.1" src-filename="week4.xml" md5="73d51b0af4e4da963c2c84cd31fb0993" class="lcref" serial="">
+                      <title>Lagrange's Theorem</title>
+                    </ref>
+                    <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that:
+\[\abs{A_n} = \frac{\abs{S_n}}{[S_n: A_n]} = \frac{n!}{2}.\] </paragraphs>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 2070" chapter="4" section="1" num="1" serial="4.1.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" serial="4.1.1" slide="">
+            <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="7" scope="subsection" id="s7" slide="7" course="Math 2070" chapter="4" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
+              <keywords slide="7" environ="slide" chapter="4" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="4" section="1" subsection="1" subsubsection="" serial="" slide="7">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+              </title>
+              <enumerate course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <paragraphs>
+                  <!-- @item @webwork{Library/UMass&#45;Amherst/Abstract&#45;Algebra/PS&#45;Cosets/Cosets4.pg} -->
+                </paragraphs>
+                <item course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets1.pg"/>
+                </item>
+                <item course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets5.pg"/>
+                </item>
+                <item course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets13.pg"/>
+                </item>
+                <item course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                  <webwork course="Math 2070" chapter="4" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets14.pg"/>
+                </item>
+              </enumerate>
+            </slide>
+          </slides>
+        </subsection>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Generators" course="Math 2070" chapter="4" num="2" serial="4.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="2" subsection="" subsubsection="" serial="4.2" slide="">
+          <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Generators</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 2070" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Generators">
+            <keywords slide="8" environ="slide" chapter="4" course="Math 2070">
+              <keyword chapter="4" slide="8">generated</keyword>
+              <keyword chapter="4" slide="8">finitely generated</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="2" subsection="" subsubsection="" serial="" slide="8">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Generators</paragraphs>
+            </title>
+            <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">  Let $G$ be a group, $X$ a nonempty subset of $G$.
+The subset of $G$ consisting of elements of the form:
+\[g_1^{m_1}g_2^{m_2}\cdots g_n^{m_n},
+\quad\text{where}\quad
+n \in \mathbb{N}, g_i \in X, m_i \in \mathbb{Z},\]
+is a subgroup of $G$.
+We say that it is the subgroup of $G$ </paragraphs>
+            <inline_keyword course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="">generated</inline_keyword>
+            <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> by $X$.
+If $X = \{x_1, x_2, \ldots, x_l\}$, $l \in \mathbb{N}$.
+We often write:
+\[\langle x_1, x_2, \ldots, x_l\rangle\]
+to denote the subgroup generated by $X$. </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="bdd80ad06d898873dfb7d428e4529a9f" course="Math 2070" chapter="4" slide="8" item="4.7">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  In $D_n$, $\{ r_0, r_1, \ldots, r_{n - 1}\} = \langle r_1 \rangle$. </paragraphs>
+              </newcol>
+            </statement>
+            <newcol course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  If there exists a finite number of elements $x_1, x_2, \ldots, x_l \in G$
+such that $G = \langle x_1, x_2, \ldots, x_l\rangle$,
+we say that $G$ is </paragraphs>
+              <inline_keyword course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">finitely generated</inline_keyword>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.</paragraphs>
+              <newline course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              <collapse course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  For example, every cyclic group is finitely generated, for it is generated by one
+element.</paragraphs>
+                <newline course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Every finite group is finitely generated, since we may take the finite generating set
+$X$ to be $G$ itself. </paragraphs>
+                </collapse>
+              </collapse>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Generators">
+            <keywords slide="9" environ="slide" chapter="4" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="9be4d4845e552ad7c50a130cf9519049" course="Math 2070" chapter="4" slide="9" item="4.8">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Consider $G = D_3$, and its subgroup $H = \{r_0, r_1, r_2\}$ consisting of its rotations.
+(We use the convention that $r_k$ is the anticlockwise rotation by an angle of $2\pi k/3$).</paragraphs>
+              <newline course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement"/>
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  By Lagrange's Theorem, the index of $H$ in $G$ is $[G: H] = \abs{G}/\abs{H} = 2$.
+This implies that $G = H \sqcup gH$ for some $g \in G$.
+Since $gH = H$ if $g \in H$, we may conclude that $g \notin H$. So, $g$ is a reflection.</paragraphs>
+                <newline course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Conversely, for any reflection $s \in D_3$, the left coset $sH$ is disjoint from $H$.
+We have therefore $G = H {\sqcup} s_1H = H {\sqcup} s_2H = H {\sqcup} s_3H$,
+which implies that $s_1 H = s_2 H = s_3 H$.</paragraphs>
+                  <newline course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  In particular, for a fixed $s = s_i$,
+any element in $G$ is either a rotation or equal to $s r_i$ for some rotation $r_i$.
+Since $H$ is a cyclic group, generated by the rotation $r_1$, we have $D_3 = \langle r_1, s \rangle$,
+where $s$ is any reflection in $D_3$. </paragraphs>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </statement>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Group Homomorphisms" course="Math 2070" chapter="4" num="3" serial="4.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" serial="4.3" slide="">
+          <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Group Homomorphisms</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="10" scope="section" id="s10" slide="10" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="10" environ="slide" chapter="4" course="Math 2070">
+              <keyword chapter="4" slide="10">group homomorphism</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" serial="" slide="10">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Group Homomorphisms</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="9" md5="cff90ff1a2512def119e61248f4fada3" course="Math 2070" chapter="4" slide="10" item="4.9">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G = (G, *)$, $G' = (G', *')$ be groups.
+A </paragraphs>
+              <inline_keyword course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">group homomorphism</inline_keyword>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\phi$ from $G$ to $G'$
+is a map $\phi: G \ra G'$ which satisfies:
+\[\phi(a * b) = \phi(a)*'\phi(b),\]
+for all $a, b \in G$. </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="10" md5="132d1d672939a84e269a3570d8985795" course="Math 2070" chapter="4" slide="10" item="4.10">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  If $\phi: G \ra G'$ is a group homomorphism, then: </paragraphs>
+                <ol xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $\phi(e_G) = e_{G'}$. </paragraphs>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $\phi(g^{-1}) = \phi(g)^{-1}$, for all $g \in G$. </paragraphs>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $\phi(g^n) = \phi(g)^n$, for all $g \in G$, $n \in \mathbb{Z}$. </paragraphs>
+                  </li>
+                </ol>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="27acefeae6aa3cb3ac33e77d8d72c404" course="Math 2070" chapter="4" slide="10" of="132d1d672939a84e269a3570d8985795">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We prove the first claim, and leave the rest as an exercise.
+Since $e_G$ is the identity element of $G$, we have $e_G*e_G = e_G$.
+On the other hand, since $\phi$ is a group homomorphism, we have:
+\[\phi(e_G) =
+\phi(e_G*e_G) = \phi(e_G)*'\phi(e_G).\]
+Since $G'$ is a group, $\phi(e_G)^{-1}$ exists in $G'$, hence:
+\[\phi(e_G)^{-1}*'\phi(e_G) = \phi(e_G)^{-1}*'(\phi(e_G)*'\phi(e_G))\]
+The left-hand side is equal to $e_{G'}$, while by the associativity of $*'$
+the right-hand side is equal to $\phi(e_G)$. </paragraphs>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="11" environ="slide" chapter="4" course="Math 2070"/>
+            <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">  Let $\phi: G \ra G'$ be a homomorphism of groups.
+The image of $\phi$ is defined as:
+\[\im \phi:= \phi(G):= \{\phi(g): g \in G\} \subseteq G'\]
+The kernel of $\phi$ is defined as:
+\[\ker \phi = \{g \in G: \phi(g) = e_{G'}\} \subseteq G.\] </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="261d6c7b5c29f78ee16355024908c653" course="Math 2070" chapter="4" slide="11" item="4.11">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The image of $\phi$ is a subgroup of $G'$.
+The kernel of $\phi$ is a subgroup of $G$. </paragraphs>
+              </newcol>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="12" md5="7758417e9a45c15356c0ddde1f517645" course="Math 2070" chapter="4" slide="11" item="4.12">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  A group homomorphism $\phi: G \ra G'$ is one-to-one if and only if $\ker \phi = \{e_G\}$.</paragraphs>
+                <newline course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                <ref environment="newcol" chapter_type="" label="pf:kernelonetoone" name="Proof shown in class" wbtag="ref" course="Math 2070" chapter="4" slide="11" src-course="" src-chapter="" src-slide="3" type="Proof" src-filename="protected/week4_sol.xml" md5="ec647566fb79e3dc731cffda7d8be463" class="lcref" serial="">
+                  <title>Proof </title>
+                </ref>
+              </newcol>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="12" environ="slide" chapter="4" course="Math 2070">
+              <keyword chapter="4" slide="12">Examples of Group Homomorphisms</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" title="Examples of Group Homomorphisms" md5="095147f33a3e1fe7ff089b5ce1c3288c" course="Math 2070" chapter="4" slide="12" item="4.13">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" serial="" slide="12">Examples of Group Homomorphisms</title>
+              <label course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="label" name="eg:grouphomomorphisms" type="Example"/>
+              <col_ul course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                <col_li course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">  $\phi: S_n \longrightarrow (\{\pm 1\}, \cdot)$,
+\[\phi(\sigma) = \begin{cases} 1, &amp; \sigma \text{ is an even permutation.}\\
+-1, &amp; \sigma \text{ is an odd permutation.}
+\end{cases}\] </paragraphs>
+                  <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  $\ker \phi = A_n$. </paragraphs>
+                  </newcol>
+                </col_li>
+                <col_li course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">  $\det: \GL(n, \mathbb{R}) \longrightarrow (\mathbb{R}^\times, \cdot)$ </paragraphs>
+                  <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+                  <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  $\ker \det = \SL(n, \mathbb{R})$. </paragraphs>
+                  </newcol>
+                </col_li>
+                <col_li course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">  Let $G$ be the (additive) group of all real-valued continuous functions on $[0, 1]$.
+\[\phi: G \longrightarrow (\mathbb{R}, +)\]
+\[\phi(f) = \int_0^1 f(x)\,dx.\] </paragraphs>
+                </col_li>
+                <col_li course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">  $\phi: (\mathbb{R}, +) \longrightarrow (\mathbb{R}^\times, \cdot)$.
+\[\phi(x) = e^x.\] </paragraphs>
+                </col_li>
+              </col_ul>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="13" environ="slide" chapter="4" course="Math 2070">
+              <keyword chapter="4" slide="13">isomorphism</keyword>
+              <keyword chapter="4" slide="13">isomorphic</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="14" md5="81e17b1bf373a88a12ed40858acec5a7" course="Math 2070" chapter="4" slide="13" item="4.14">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G$, $G'$ be groups. A map $\phi: G \ra G'$ is a group </paragraphs>
+              <inline_keyword course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">isomorphism</inline_keyword>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if it is a bijective
+group homomorphism. </paragraphs>
+            </statement>
+            <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Note that if a homomorphism $\phi$ is bijective, then $\phi^{-1}: G' \ra G$ is also a homomorphism,
+and consequently, $\phi^{-1}$ is an isomorphism.
+If there exists an isomorphism between two groups $G$ and $G'$,
+we say that the groups $G$ and $G'$ are </paragraphs>
+              <inline_keyword course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">isomorphic</inline_keyword>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">. </paragraphs>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="14" environ="slide" chapter="4" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="ad58fb7dd7baadc4df44a7450c55af00" course="Math 2070" chapter="4" slide="14" item="4.15">
+              <label course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="label" name="eg:cycliczn" type="Example"/>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Recall </paragraphs>
+              <ref environment="statement" chapter_type="" label="def:cycliczn" wbtag="ref" course="Math 2070" chapter="4" slide="14" src-course="Math 2070" src-chapter="3" src-slide="3" type="Definition" item="3.1" src-filename="week3.xml" md5="e13b4e54d682feb07aa9b2173056116a" class="lcref" serial="">
+                <title>Definition 3.1</title>
+              </ref>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> and </paragraphs>
+              <ref environment="statement" chapter_type="" label="ex:cycliczn" wbtag="ref" course="Math 2070" chapter="4" slide="14" src-course="Math 2070" src-chapter="3" src-slide="3" type="Exercise" item="3.2" src-filename="week3.xml" md5="c0050bb16a664a6b583ede5a1b606b69" class="lcref" serial="">
+                <title>Exercise 3.2</title>
+              </ref>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">.</paragraphs>
+              <newline course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Let $n &gt; 2$.
+Let $H = \{r_0, r_1, r_2, \ldots, r_{n - 1}\}$
+be the subgroup of $D_n$ consisting of all rotations,
+where $r_1$ denotes the anticlockwise rotation by the angle $2\pi/n$,
+and $r_k = r_1^k$.
+Then, $H$ is isomorphic to $\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4f482b84b61a1c354842df7121c45a5b" course="Math 2070" chapter="4" slide="14" of="ad58fb7dd7baadc4df44a7450c55af00">
+              <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Define $\phi: H \ra \mathbb{Z}_n$ as follows:
+\[\phi(r_k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.\] </paragraphs>
+                <collapse course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  For any $k \in \mathbb{Z}$,
+let $\ol{k} \in \{0, 1, 2, \ldots, n - 1\}$
+denote the remainder of the division of $k$ by $n$.
+By the Division Theorem for Integers, we have:
+\[
+k = nq + \ol{k}
+\]
+for some integer $q \in \mathbb{Z}$.</paragraphs>
+                  <newline course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from $\ord r_1 = n$ that,
+for all $r_i, r_j \in H$, we have: </paragraphs>
+                    <steps course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\[\begin{split}
+r_i r_j &amp;= r_1^i r_1^j = r_1^{i + j}
+\\&amp;
+\class{steps}{\cssId{step0}{= r_1^{nq + \ol{i + j}}}}
+\\
+&amp;
+\class{steps}{\cssId{step1}{= \left(r_1^n\right)^q r_1^{\ol{i + j}}}}
+\\
+&amp;
+\class{steps}{\cssId{step2}{= r_{\ol{i + j}}.}}
+\end{split}\]
+
+</steps>
+                    <newline course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Hence, </paragraphs>
+                      <steps course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+\[\begin{split}
+\phi(r_i r_j) &amp;= \phi(r_{\ol{i + j}})
+\\&amp;
+\class{steps}{\cssId{step0}{= \ol{i + j}}}
+\\&amp;
+\class{steps}{\cssId{step1}{= i +_{\mathbb{Z}_n} j}}
+\\&amp;
+\class{steps}{\cssId{step2}{=\phi(r_i) +_{\mathbb{Z}_n} \phi(r_j).}}
+\end{split}\]
+
+</steps>
+                      <collapse course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  This shows that $\phi$ is a homomorphism.
+It is clear that $\phi$ is surjective, which then implies that
+$\phi$ is one-to-one, for the two groups have the same size.
+Hence, $\phi$ is a bijective homomorphism, i.e. an isomorphism. </paragraphs>
+                        <qed course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

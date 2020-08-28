@@ -1,0 +1,706 @@
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">Motivation</keyword>
+      <keyword chapter="" slide="all">Dihedral Group $D_3$</keyword>
+      <keyword chapter="" slide="all">Cayley Table</keyword>
+      <keyword chapter="" slide="all">Cayley Table for $D_3$</keyword>
+      <keyword chapter="" slide="all">Groups</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="1" title="" topic="Groups" course="Math 2070" serial="1">
+      <keywords slide="all" environ="chapter" chapter="1" course="Math 2070">
+        <keyword chapter="1" slide="all">Motivation</keyword>
+        <keyword chapter="1" slide="all">Dihedral Group $D_3$</keyword>
+        <keyword chapter="1" slide="all">Cayley Table</keyword>
+        <keyword chapter="1" slide="all">Cayley Table for $D_3$</keyword>
+        <keyword chapter="1" slide="all">Groups</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" serial="1" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" serial="1" slide="">Groups</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Groups</topic>
+          <keywords slide="2" environ="slide" chapter="1" course="Math 2070"/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="3" id="s3" slide="3" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="3" environ="slide" chapter="1" course="Math 2070">
+            <keyword chapter="1" slide="3">Motivation</keyword>
+            <keyword chapter="1" slide="3">Dihedral Group $D_3$</keyword>
+          </keywords>
+          <h3 xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">Motivation</paragraphs>
+          </h3>
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+          <col_ul course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+            <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> How many ways are there to color a cube, such that each face is either red or green?</paragraphs>
+              <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul"/>
+              <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <b xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Answer:</paragraphs>
+                </b>
+                <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> 10. Why?</paragraphs>
+                <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </col_li>
+            <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> How many ways are there to form a triangle with three sticks of equal lengths, colored
+red, green and blue, respectively?</paragraphs>
+              <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul"/>
+            </col_li>
+            <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> What are the symmetries of an equilateral triangle?</paragraphs>
+              <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul"/>
+              <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <h5 xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Dihedral Group $D_3$</paragraphs>
+                </h5>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                <a xmlns="http://www.w3.org/1999/xhtml" href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" environment="newcol">
+                  <img alt="Labeled Triangle Reflections.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" class="lazy" style="display: none;" environment="newcol" />
+                </a>
+                <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </col_li>
+          </col_ul>
+          <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="4" environ="slide" chapter="1" course="Math 2070">
+            <keyword chapter="1" slide="4">Cayley Table</keyword>
+            <keyword chapter="1" slide="4">Cayley Table for $D_3$</keyword>
+          </keywords>
+          <h3 xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">Cayley Table</paragraphs>
+          </h3>
+          <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="">
+            <a href="https://en.wikipedia.org/wiki/Cayley_table" target="_blank" environment="">
+              <table class="table table-bordered" border="2" cellpadding="5" align="center" style="text-align: center;" environment="">
+                <tbody environment="">
+                  <tr environment="">
+                    <th style="background:#efefef;text-align:center" environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">*</paragraphs>
+                    </th>
+                    <th style="background:#efefef;text-align:center" environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$a$</paragraphs>
+                    </th>
+                    <th style="background:#efefef;text-align:center" environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$b$</paragraphs>
+                    </th>
+                    <th style="background:#efefef;text-align:center" environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$c$</paragraphs>
+                    </th>
+                  </tr>
+                  <tr environment="">
+                    <th style="background:#efefef;text-align:center" environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$a$</paragraphs>
+                    </th>
+                    <td environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$a^2$</paragraphs>
+                    </td>
+                    <td environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$ab$</paragraphs>
+                    </td>
+                    <td environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$ac$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="">
+                    <th style="background:#efefef;text-align:center" environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$b$</paragraphs>
+                    </th>
+                    <td environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$ba$</paragraphs>
+                    </td>
+                    <td environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$b^2$</paragraphs>
+                    </td>
+                    <td environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$bc$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="">
+                    <th style="background:#efefef;text-align:center" environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$c$</paragraphs>
+                    </th>
+                    <td environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$ca$</paragraphs>
+                    </td>
+                    <td environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$cb$</paragraphs>
+                    </td>
+                    <td environment="">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">$c^2$</paragraphs>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </a>
+          </div>
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+          <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+          <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Cayley Table for $D_3$</paragraphs>
+            </h5>
+            <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+              <a href="https://en.wikipedia.org/wiki/Dihedral_group" target="_blank" environment="newcol">
+                <table class="table table-bordered" width="200" style="text-align: center;" environment="newcol">
+                  <tbody environment="newcol">
+                    <tr environment="newcol">
+                      <th style="text-align: center;" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> * </paragraphs>
+                      </th>
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_0$</paragraphs>
+                      </th>
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_1$</paragraphs>
+                      </th>
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_2$</paragraphs>
+                      </th>
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_0$</paragraphs>
+                      </th>
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_1$</paragraphs>
+                      </th>
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_2$</paragraphs>
+                      </th>
+                    </tr>
+                    <tr environment="newcol">
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_0$</paragraphs>
+                      </th>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_2$</paragraphs>
+                      </td>
+                    </tr>
+                    <tr environment="newcol">
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_1$</paragraphs>
+                      </th>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_0$</paragraphs>
+                      </td>
+                    </tr>
+                    <tr environment="newcol">
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_2$</paragraphs>
+                      </th>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_1$</paragraphs>
+                      </td>
+                    </tr>
+                    <tr environment="newcol">
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_0$</paragraphs>
+                      </th>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_1$</paragraphs>
+                      </td>
+                    </tr>
+                    <tr environment="newcol">
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_1$</paragraphs>
+                      </th>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_2$</paragraphs>
+                      </td>
+                    </tr>
+                    <tr environment="newcol">
+                      <th style="background:#efefef;text-align:center" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_2$</paragraphs>
+                      </th>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$s_0$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_2$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_1$</paragraphs>
+                      </td>
+                      <td environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$r_0$</paragraphs>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </a>
+            </div>
+          </newcol>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="5" environ="slide" chapter="1" course="Math 2070">
+            <keyword chapter="1" slide="5">Groups</keyword>
+          </keywords>
+          <h2 xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">Groups</paragraphs>
+          </h2>
+          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="33f6bdbad7007bdc1e5e1554f7582f65" course="Math 2070" chapter="1" slide="5" item="1.1">
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A group $G$ is a set equipped with a binary operation $*: G \times G \ra G$ (typically called </paragraphs>
+            <b xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> group operation</paragraphs>
+            </b>
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> or "</paragraphs>
+            <b xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">multiplication</paragraphs>
+            </b>
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">"), such that: </paragraphs>
+            <col_ul course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                <u xmlns="http://www.w3.org/1999/xhtml" environment="col_ul">
+                  <b environment="col_ul">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">Associativity</paragraphs>
+                  </b>
+                </u>
+                <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[(a* b)* c = a * (b * c),\]
+for all $a, b, c \in G$. In other words, the group operation is </paragraphs>
+                <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ul">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">associative</paragraphs>
+                </b>
+                <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">. </paragraphs>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                <u xmlns="http://www.w3.org/1999/xhtml" environment="col_ul">
+                  <b environment="col_ul">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">Existence of an Identity Element</paragraphs>
+                  </b>
+                </u>
+                <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul"/>
+                <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">There is an element $e \in G$, called an </paragraphs>
+                <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ul">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">identity element</paragraphs>
+                </b>
+                <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">, such that:
+\[g* e = e * g = g,\]
+for all $g \in G$. </paragraphs>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                <u xmlns="http://www.w3.org/1999/xhtml" environment="col_ul">
+                  <b environment="col_ul">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">Invertibility</paragraphs>
+                  </b>
+                </u>
+                <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul"/>
+                <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">Each element $g \in G$ has an </paragraphs>
+                <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ul">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">inverse</paragraphs>
+                </b>
+                <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $g^{-1} \in G$, such that:
+\[g^{-1}* g = g* g^{-1} = e.\] </paragraphs>
+              </col_li>
+            </col_ul>
+          </statement>
+          <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+            <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">   </paragraphs>
+              <li environment="newcol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Note that we do not require that $a* b = b * a$.
+  </paragraphs>
+              </li>
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">   </paragraphs>
+              <li environment="newcol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We often write $ab$ to denote $a* b$.
+  </paragraphs>
+              </li>
+            </ul>
+          </newcol>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="6" environ="slide" chapter="1" course="Math 2070"/>
+          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="a85844d4d7ece98fd846fbc30d376bde" course="Math 2070" chapter="1" slide="6" item="1.2">
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $ab = ba$ for all $a, b \in G$. We say that the group operation is </paragraphs>
+            <b xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">commutative</paragraphs>
+            </b>
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">, and that $G$ is an </paragraphs>
+            <b xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">abelian group</paragraphs>
+            </b>
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">. </paragraphs>
+          </statement>
+          <paragraphs>
+            <!-- For a field $k$, let $k^\times$ denote $k \bs \{0\} = \{s \in k\; |\; s \neq 0\}$. -->
+          </paragraphs>
+          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="c5805b4d4e994ef881eee9f880299f69" course="Math 2070" chapter="1" slide="6" item="1.3">
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The following sets are groups, with respect to the specified group operations: </paragraphs>
+            <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">   </paragraphs>
+              <li environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $G = \mathbb{Q} \backslash \{0\}$, where the group operation is the usual multiplication for rational numbers.
+The identity is $e = 1$, and the inverse of $a \in \mathbb{Q}\backslash\{0\}$ is $a^{-1} = \frac{1}{a}$.
+The group $G$ is abelian.
+  </paragraphs>
+              </li>
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">   </paragraphs>
+              <li environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $G = \mathbb{Q}$, where the group operation is the usual addition $+$ for rational numbers. The identity is $e = 0$.
+The inverse of $a \in \mathbb{Q}$ with respect to $+$ is $-a$.
+Note that $\mathbb{Q}$ is </paragraphs>
+                <em environment="statement">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">NOT</paragraphs>
+                </em>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> a group with respect to multiplication. For in that case, we have $e = 1$, but $0 \in \mathbb{Q}$ has no inverse
+$0^{-1} \in \mathbb{Q}$ such that $0\cdot 0^{-1} = 1$.
+  </paragraphs>
+              </li>
+            </ul>
+            <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
+          </statement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="7" environ="slide" chapter="1" course="Math 2070"/>
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" md5="09d2e3cedd374ec7fe8c13967134ab31" course="Math 2070" chapter="1" slide="7" item="1.4">
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Verify that the following sets are groups under the specified binary operation: </paragraphs>
+            <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">   </paragraphs>
+              <li environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $(\mathbb{Z}, +)$
+  </paragraphs>
+              </li>
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">   </paragraphs>
+              <li environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $(\mathbb{R}, +)$
+  </paragraphs>
+              </li>
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">   </paragraphs>
+              <li environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $(\mathbb{R}^\times, \cdot)$
+  </paragraphs>
+              </li>
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">   </paragraphs>
+              <li environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $(U_m, \cdot)$, where $m \in \mathbb{N}$,
+\[U_m = \{1, \xi_m, \xi_m^2, \ldots, \xi_m^{m - 1}\},\]
+and
+$\xi_m = e^{2\pi i/m} = \cos(2\pi/m) + i\sin(2\pi/m) \in \mathbb{C}$. </paragraphs>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+                  <!-- $(\mathbb{Z}_m, +)$, $m \in \mathbb{N}$. -->
+                </paragraphs>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+                  <!--@html_li
+$(\mathbb{Z}_p^\times, \cdot)$, $p$ a prime number.
+-->
+                </paragraphs>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">   </paragraphs>
+              </li>
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">   </paragraphs>
+              <li environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The set of bijective functions $f: \mathbb{R} \ra \mathbb{R}$,
+where $f * g:= f \circ g$ (i.e. composition of functions).
+  </paragraphs>
+              </li>
+            </ul>
+            <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
+            <paragraphs>
+              <!--  @linebreak <blockquote><h5>Example.</h5>
+Every ring is a group with respect to addition.
+If $0 \neq 1$ in a ring, then the ring cannot be a group with respect to multiplication,
+since $0$ has no multiplicative inverse.
+ @linebreak </blockquote>&amp;lt;hr&amp;gt;-->
+            </paragraphs>
+          </statement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="8" environ="slide" chapter="1" course="Math 2070"/>
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="5" course="Math 2070" chapter="1" slide="8" item="1.5">
+            <col_ol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <webwork course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups1.pg"/>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <webwork course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups3.pg"/>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <webwork course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups4.pg"/>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <webwork course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups5.pg"/>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <webwork course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups6.pg"/>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <webwork course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups7.pg"/>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <webwork course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups10.pg"/>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <webwork course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups11.pg"/>
+              </col_li>
+              <col_li course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <webwork course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups12.pg"/>
+              </col_li>
+            </col_ol>
+          </statement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="9" environ="slide" chapter="1" course="Math 2070"/>
+          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="9b8c588cd35ab068fc000af50f88c20a" course="Math 2070" chapter="1" slide="9" item="1.6">
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The set $G = {\rm GL}(2, \mathbb{R})$
+of real $2 \times 2$ matrices with nonzero determinants is a group
+under matrix multiplication, with identity element:
+\[e = \left(\begin{matrix} 1 &amp;amp; 0\\0&amp;amp; 1\end{matrix}\right).\]
+In the group $G$, we have:
+\[\left(\begin{matrix} a &amp;amp; b \\ c &amp;amp; d\end{matrix}\right)^{-1}
+=
+\frac{1}{ad - bc}\left(\begin{matrix}d &amp;amp; -b \\-c &amp;amp; a\end{matrix}\right)\] </paragraphs>
+            <paragraphs>
+              <!--
+%% The right-hand side is well-defined because a matrix
+%% $g = \left(\begin{matrix} a &amp;amp; b \\ c &amp;amp; d\end{matrix}\right)$ with real coefficients
+%% is invertible if and only if $\det g := ad - bc \neq 0$.
+-->
+            </paragraphs>
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Note that there are matrices $A, B \in {\rm GL}(2, \mathbb{R})$
+such that $AB \neq BA$. Hence ${\rm GL}(2, \mathbb{R})$ is not abelian.</paragraphs>
+            <newline course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
+            <paragraphs>
+              <!--
+In general, for $n \in \mathbb{N}$, $k$ a field,
+the set ${\rm GL}(n, k)$ (<b>General Linear Group</b>) of $n \times n$ matrices $M$ with coefficients in $k$,
+such that $\det M \neq 0$, is a group under matrix multiplication.
+-->
+            </paragraphs>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="7" md5="52399932d7161bf7c81711e389d19c86" course="Math 2070" chapter="1" slide="9" item="1.7">
+            <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The set ${\rm SL}(2, \mathbb{R})$ (</paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Special Linear Group</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">)
+of real $2 \times 2$ matrices with determinant $1$ is a group under matrix multiplication. </paragraphs>
+            </newcol>
+          </statement>
+          <paragraphs>
+            <!--
+ @linebreak <blockquote><h5>Example.</h5>
+The set $U$ of units of a commutative ring $R$ is an abelian group with respect to the
+multiplication of the ring.
+ @linebreak </blockquote>&amp;lt;hr&amp;gt;@html_ul
+@html_li
+For $a, b \in U$, $(b^{-1}a^{-1})\cdot (ab) = 1$, which implies that $ab$ is a unit
+(with multiplicative inverse $b^{-1}a^{-1}$).
+Hence, multiplication is a well-defined binary operation on $U$.
+@html_li
+We have $(ab)c = a(bc)$ for all $a, b, c \in U$,
+since by definition multiplication in a ring is associative.
+@html_li
+It is clear that the multiplicative identity $1$ of $R$ is an identity element in $U$.
+@html_li
+For every unit $a \in R$, its multiplicative inverse $a^{-1}$ is also a unit.
+Hence, every element in $U$ has an inverse in $U$ with respect to multiplication.
+@html_endul
+ @linebreak <blockquote><h5>Corollary.</h5>
+For any field $k$, $(k^\times, \cdot)$ is a group.
+ @linebreak </blockquote>&amp;lt;hr&amp;gt;-->
+          </paragraphs>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="10" environ="slide" chapter="1" course="Math 2070"/>
+          <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="8" md5="f3b81ac27835303554e848ba93cffad2" course="Math 2070" chapter="1" slide="10" item="1.8">
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The identity element $e$ of a group $G$ is unique. </paragraphs>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="37f4b6dee2ffc6672031deec79665b0b" course="Math 2070" chapter="1" slide="10" of="f3b81ac27835303554e848ba93cffad2">
+            <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose there is an element $e' \in G$ such that $e' g = ge' = g$ for all $g \in G$.
+Then, in particular, we have:
+\[e'e = e\]
+But since $e$ is an identity element, we also have $e'e = e'$. Hence, $e' = e$. </paragraphs>
+            </newcol>
+          </substatement>
+          <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="1851fd3bfd53ed9ae77cee1d737d8118" course="Math 2070" chapter="1" slide="10" item="1.9">
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G$ be a group.
+For all $g \in G$, its inverse $g^{-1}$ is unique. </paragraphs>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="359cd7840f79f528524785a246a37f24" course="Math 2070" chapter="1" slide="10" of="1851fd3bfd53ed9ae77cee1d737d8118">
+            <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose there exists $g' \in G$ such that $g'g = gg' = e$.
+By the associativity of the group operation, we have:
+\[g' = g'e = g'(g g^{-1}) = (g'g)g^{-1} = e g^{-1} = g^{-1}.\]
+Hence, $g^{-1}$ is unique. </paragraphs>
+            </newcol>
+          </substatement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="11" environ="slide" chapter="1" course="Math 2070"/>
+          <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $G$ be a group with identity element $e$.
+For $g \in G$, $n \in \mathbb{N}$,
+let:
+\[\begin{split}
+g^n &amp;amp;:= \underbrace{g \cdot g \cdots g}_{n\text{ times}}.\\
+g^{-n} &amp;amp;:= \underbrace{g^{-1} \cdot g^{-1} \cdots g^{-1}}_{n\text{ times}}\\
+g^0 &amp;amp;:= e.
+\end{split}\] </paragraphs>
+          <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="10" md5="413dfe67c18ba505d3b2256c719f3a8d" course="Math 2070" chapter="1" slide="11" item="1.10">
+            <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $G$ be a group. </paragraphs>
+              <ol xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">   </paragraphs>
+                <li environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $g \in G$,
+we have:
+\[(g^{-1})^{-1} = g.\]
+  </paragraphs>
+                </li>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">   </paragraphs>
+                <li environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $a, b \in G$,
+we have:
+\[(ab)^{-1} = b^{-1}a^{-1}.\]
+  </paragraphs>
+                </li>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">   </paragraphs>
+                <li environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $g \in G$, $n, m \in \mathbb{Z}$, we have:
+\[g^n\cdot g^m = g^{n + m}.\]
+  </paragraphs>
+                </li>
+              </ol>
+            </newcol>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="1" slide="11" of="413dfe67c18ba505d3b2256c719f3a8d">
+            <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
+              </b>
+            </newcol>
+          </substatement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="1" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="12" environ="slide" chapter="1" course="Math 2070"/>
+          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="11" md5="a0591fc42ee4f89ab83102e9dc7e5e30" course="Math 2070" chapter="1" slide="12" item="1.11">
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G$ be a group, with identity element $e$.
+The </paragraphs>
+            <b xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">order</paragraphs>
+            </b>
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $G$ is the number of elements in $G$.
+The </paragraphs>
+            <b xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">order</paragraphs>
+            </b>
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\ord g$ of an  $g \in G$
+is the smallest $n \in \mathbb{N}$ such that $g^n = e$.
+If no such $n$ exists, we say that $g$ has </paragraphs>
+            <b xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">infinite order</paragraphs>
+            </b>
+            <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">. </paragraphs>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="e96b6aa05fb1d6c99e4e9e869060a697" course="Math 2070" chapter="1" slide="12" item="1.12">
+            <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $G$ be a group with identity element $e$.
+Let $g$ be an element of $G$. If $g^n = e$ for some $n \in \mathbb{N}$,
+then $\ord g$ divides $n$. </paragraphs>
+            </newcol>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="723807213862930cca60acb6037d74ca" course="Math 2070" chapter="1" slide="12" of="e96b6aa05fb1d6c99e4e9e869060a697">
+            <newcol course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="1" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Shown in class. </paragraphs>
+            </newcol>
+          </substatement>
+        </slide>
+      </slides>
+    </chapter>
+  </course>
+</document>

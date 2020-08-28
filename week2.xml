@@ -1,0 +1,591 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">order</keyword>
+      <keyword chapter="" slide="all">order</keyword>
+      <keyword chapter="" slide="all">infinite order</keyword>
+      <keyword chapter="" slide="all">cyclic</keyword>
+      <keyword chapter="" slide="all">generator</keyword>
+      <keyword chapter="" slide="all">permutation</keyword>
+      <keyword chapter="" slide="all">Symmetric Group</keyword>
+      <keyword chapter="" slide="all">symmetric</keyword>
+      <keyword chapter="" slide="all">dihedral group</keyword>
+      <keyword chapter="" slide="all">$k$-cycle</keyword>
+      <keyword chapter="" slide="all">transposition</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="2" title="" topic="Groups" course="Math 2070" serial="2">
+      <keywords slide="all" environ="chapter" chapter="2" course="Math 2070">
+        <keyword chapter="2" slide="all">order</keyword>
+        <keyword chapter="2" slide="all">order</keyword>
+        <keyword chapter="2" slide="all">infinite order</keyword>
+        <keyword chapter="2" slide="all">cyclic</keyword>
+        <keyword chapter="2" slide="all">generator</keyword>
+        <keyword chapter="2" slide="all">permutation</keyword>
+        <keyword chapter="2" slide="all">Symmetric Group</keyword>
+        <keyword chapter="2" slide="all">symmetric</keyword>
+        <keyword chapter="2" slide="all">dihedral group</keyword>
+        <keyword chapter="2" slide="all">$k$-cycle</keyword>
+        <keyword chapter="2" slide="all">transposition</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" serial="2" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" serial="2" slide="">Groups</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Groups</topic>
+          <keywords slide="2" environ="slide" chapter="2" course="Math 2070"/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="3" id="s3" slide="3" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="3" environ="slide" chapter="2" course="Math 2070">
+            <keyword chapter="2" slide="3">order</keyword>
+            <keyword chapter="2" slide="3">order</keyword>
+            <keyword chapter="2" slide="3">infinite order</keyword>
+          </keywords>
+          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="01838c350283198a9a47e82d7a337b70" course="Math 2070" chapter="2" slide="3" item="2.1">
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G$ be a group, with identity element $e$.</paragraphs>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">The </paragraphs>
+            <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement">order</inline_keyword>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $G$ is the number of elements in $G$.</paragraphs>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">The </paragraphs>
+            <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement">order</inline_keyword>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\ord g$ of an </paragraphs>
+            <i xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> element</paragraphs>
+            </i>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $g \in G$
+is the smallest $n \in \mathbb{N}$ such that $g^n = e$.
+If no such $n$ exists, we say that $g$ has </paragraphs>
+            <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement">infinite order</inline_keyword>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">.  </paragraphs>
+          </statement>
+          <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" md5="682fc761ecf19d9c07d8b7b1a587af06" course="Math 2070" chapter="2" slide="3" item="2.2">
+            <label course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:orderdividesn" type="Theorem"/>
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $G$ be a group with identity element $e$.
+Let $g$ be an element of $G$.  If $g^n = e$ for some $n \in \mathbb{N}$,
+then $\ord g$ is finite, and moreover $\ord g$ divides $n$.  </paragraphs>
+            </newcol>
+          </statement>
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="723807213862930cca60acb6037d74ca" course="Math 2070" chapter="2" slide="3" of="682fc761ecf19d9c07d8b7b1a587af06">
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Shown in class.  </paragraphs>
+          </substatement>
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+          <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="7f335260865edba17debc220ef37b93d" course="Math 2070" chapter="2" slide="3" item="2.3">
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $G$ has finite order, then every element of $G$ has finite order.  </paragraphs>
+            </newcol>
+          </statement>
+          <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="4" environ="slide" chapter="2" course="Math 2070">
+            <keyword chapter="2" slide="4">cyclic</keyword>
+            <keyword chapter="2" slide="4">generator</keyword>
+          </keywords>
+          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="4" md5="81ee385eb9d7fc5f03e06028f10fac58" course="Math 2070" chapter="2" slide="4" item="2.4">
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A group $G$ is </paragraphs>
+            <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement">cyclic</inline_keyword>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if there exists $g \in G$ such that every element of $G$ is equal to $g^n$
+for some integer $n$.
+In which case, we write: $G = \langle g \rangle$, and say that $g$ is a </paragraphs>
+            <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement">generator</inline_keyword>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $G$.</paragraphs>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Note: The generator of of a cyclic group might not be unique.  </paragraphs>
+            </newcol>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="017f6531a1e2c99e5d46a67e99a9dc05" course="Math 2070" chapter="2" slide="4" item="2.5">
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $(U_m, \cdot)$ is cyclic.  </paragraphs>
+            </newcol>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="6" md5="12b03f3119341f000182eeea2f370ca3" course="Math 2070" chapter="2" slide="4" item="2.6">
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A finite cyclic group $G$ has order (i.e. size) $n$
+if and only if each of its generators has order $n$.  </paragraphs>
+            </newcol>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="7" md5="310302137df5a62dc62619ddae49df2c" course="Math 2070" chapter="2" slide="4" item="2.7">
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $(\mathbb{Q}, +)$ is not cyclic.  </paragraphs>
+            </newcol>
+          </statement>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Permutations" course="Math 2070" chapter="2" num="1" serial="2.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="1" subsection="" subsubsection="" serial="2.1" slide="">
+          <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Permutations</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="5" scope="section" id="s5" slide="5" course="Math 2070" chapter="2" section="1" subsection="" subsubsection="" chapter_title="" section_title="Permutations">
+            <keywords slide="5" environ="slide" chapter="2" course="Math 2070">
+              <keyword chapter="2" slide="5">permutation</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="1" subsection="" subsubsection="" serial="" slide="5">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Permutations</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="8" md5="18a5d5fe255e3cb1b8428cf83be92ef7" course="Math 2070" chapter="2" slide="5" item="2.8">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $X$ be a set.  A </paragraphs>
+              <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">permutation</inline_keyword>
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $X$ is a bijective map $\sigma : X \ra X$.  </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="54d773425d11b8372809b46bbde83958" course="Math 2070" chapter="2" slide="5" item="2.9">
+              <newcol course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The set $S_X$ of permutations of a set $X$
+is a group with respect to $\circ$, the composition of maps.  </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7058aeaa7d824b232f696a1071898e49" course="Math 2070" chapter="2" slide="5" of="54d773425d11b8372809b46bbde83958">
+              <newcol course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <col_ul course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                  <col_li course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> Let $\sigma, \gamma$ be permutations of $X$.
+By definition, they are bijective maps from $X$ to itself.
+It is clear that $\sigma\circ\gamma$ is a bijective map from $X$ to itself,
+hence $\sigma\circ\gamma$ is a permutation of $X$.  So $\circ$ is a well-defined
+binary operation on $S_X$.  </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> For $\alpha, \beta, \gamma \in S_X$, it is clear that
+$\alpha\circ(\beta\circ \gamma) = (\alpha\circ\beta)\circ\gamma$.  </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> Define a map $e : X \ra X$ as follows:
+\[
+e(x) = x,\quad \text{ for all } x \in X.
+\]
+It is clear that $e \in S_X$, and that $e \circ \sigma = \sigma\circ e = \sigma$
+for all $\sigma \in S_X$.  Hence, $e$ is an identity element in $S_X$.  </paragraphs>
+                  </col_li>
+                  <col_li course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> Let $\sigma$ be any element of $S_X$.  Since $\sigma : X \ra X$ is by assumption bijective,
+there exists a bijective map $\sigma^{-1} : X \ra X$
+such that $\sigma\circ\sigma^{-1} = \sigma^{-1}\circ \sigma = e$.
+So $\sigma^{-1}$
+is an inverse of $\sigma$ with respect to the operation $\circ$.  </paragraphs>
+                  </col_li>
+                </col_ul>
+                <qed course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="2" section="1" subsection="" subsubsection="" chapter_title="" section_title="Permutations">
+            <keywords slide="6" environ="slide" chapter="2" course="Math 2070">
+              <keyword chapter="2" slide="6">Symmetric Group</keyword>
+            </keywords>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Terminology:</paragraphs>
+            </strong>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We call $S_X$ the </paragraphs>
+            <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="">Symmetric Group</inline_keyword>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> on $X$.</paragraphs>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Notation:</paragraphs>
+            </strong>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $X = \{1, 2, \ldots, n\}$, where $n \in \mathbb{N}$,
+we denote $S_X$ by $S_n$.</paragraphs>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">For $n \in \mathbb{N}$, the group $S_n$ has $n!$ elements.</paragraphs>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">For $n \in \mathbb{N}$,
+by definition an element of $S_n$ is a bijective map $\sigma : X \ra X$,
+where $X = \{1, 2, \ldots, n\}$.
+We often describe $\sigma$ using the following notation:
+\[
+\sigma = \left(\begin{matrix}
+1 &amp; 2 &amp; \cdots &amp; n\\
+\sigma(1) &amp; \sigma(2) &amp; \ldots &amp; \sigma(n)
+\end{matrix}
+\right)
+\]  </paragraphs>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="2" section="1" subsection="" subsubsection="" chapter_title="" section_title="Permutations">
+            <keywords slide="7" environ="slide" chapter="2" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="c63c475905a86dc94e187be58927b6c7" course="Math 2070" chapter="2" slide="7" item="2.10">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> In $S_3$,
+\[
+\sigma = \left(
+\begin{matrix}
+1 &amp; 2 &amp; 3\\
+3 &amp; 2 &amp; 1
+\end{matrix}
+\right)
+\]
+is the permutation on $\{1, 2, 3\}$
+which sends $1$ to $3$, $2$ to itself, and $3$ to $1$,
+i.e. $\sigma(1) = 3, \sigma(2) = 2, \sigma(3) = 1$.</paragraphs>
+              <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <newcol course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $\alpha, \beta \in S_3$ given by:
+\[
+\alpha =
+\left(
+\begin{matrix}
+1 &amp; 2 &amp; 3\\
+2 &amp; 3 &amp; 1
+\end{matrix}\right),
+\quad
+\beta =
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+2 &amp; 1 &amp; 3
+\end{matrix}\right),
+\]
+we have:</paragraphs>
+                <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+\alpha\beta = \alpha\circ\beta
+=
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+2 &amp; 3 &amp; 1
+\end{matrix}\right) \circ
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+2 &amp; 1 &amp; 3
+\end{matrix}\right)
+=\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+3 &amp; 2 &amp; 1
+\end{matrix}\right)
+\]
+(since, for example, $\alpha\circ\beta: 1 \xmapsto{\beta} 2 \xmapsto{\alpha} 3$.).</paragraphs>
+                  <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">We also have:</paragraphs>
+                  <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+\beta\alpha = \beta\circ\alpha
+= \left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+2 &amp; 1 &amp; 3
+\end{matrix}\right) \circ
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+2 &amp; 3 &amp; 1
+\end{matrix}\right)
+=
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+1 &amp; 3 &amp; 2
+\end{matrix}\right)
+\]  </paragraphs>
+                    <collapse course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\alpha\beta \neq \beta\alpha$, the group $S_3$ is non-abelian.</paragraphs>
+                      <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In general, for $n &gt; 2$, the group $S_n$ is non-abelian ( </paragraphs>
+                        <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise:</inline_keyword>
+                        <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Why?).</paragraphs>
+                        <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For the same $\alpha \in S_3$ defined above, we have:
+\[
+\alpha^2 = \alpha\circ\alpha =
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+2 &amp; 3 &amp; 1
+\end{matrix}\right)\circ
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+2 &amp; 3 &amp; 1
+\end{matrix}\right) =
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+3 &amp; 1 &amp; 2
+\end{matrix}\right)
+\]
+and:</paragraphs>
+                          <newline course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+\alpha^3 = \alpha\cdot\alpha^2
+= \left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+2 &amp; 3 &amp; 1
+\end{matrix}\right)
+\circ
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+3 &amp; 1 &amp; 2
+\end{matrix}\right)
+=
+\left(\begin{matrix}
+1 &amp; 2 &amp; 3\\
+1 &amp; 2 &amp; 3
+\end{matrix}\right) = e
+\]  </paragraphs>
+                            <collapse course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, the order of $\alpha$ is $3$.  </paragraphs>
+                            </collapse>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </statement>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Dihedral Group" course="Math 2070" chapter="2" num="2" serial="2.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="2" subsection="" subsubsection="" serial="2.2" slide="">
+          <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Dihedral Group</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 2070" chapter="2" section="2" subsection="" subsubsection="" chapter_title="" section_title="Dihedral Group">
+            <keywords slide="8" environ="slide" chapter="2" course="Math 2070">
+              <keyword chapter="2" slide="8">symmetric</keyword>
+              <keyword chapter="2" slide="8">dihedral group</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="2" subsection="" subsubsection="" serial="" slide="8">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Dihedral Group</paragraphs>
+            </title>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Consider the subset $\mathcal{T}$ of transformations of $\mathbb{R}^2$,
+consisting of all rotations by fixed angles about the origin, and all reflections over lines through the origin.</paragraphs>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider a regular polygon $P$ with $n$ sides in $\mathbb{R}^2$, centered at the origin.
+Identify the polygon with its $n$ vertices, which form a subset $P = \{x_1, x_2, \ldots, x_n\}$
+of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say that $P$ is  </paragraphs>
+              <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">symmetric</inline_keyword>
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> with respect to $\tau$.</paragraphs>
+              <newline course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              <collapse course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
+and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$.  </paragraphs>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+                  <a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" environment="newcol">
+                    <img alt="Labeled Triangle Reflections.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" class="lazy" style="display: none;" environment="newcol"/>
+                  </a>
+                  <center environment="center">
+                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By  </paragraphs>
+                      <a xmlns="http://www.w3.org/1999/xhtml" href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&amp;action=edit&amp;redlink=1" class="new" title="User:Jim.belk (page does not exist)" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Jim.belk</paragraphs>
+                      </a>
+                      <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> -  </paragraphs>
+                      <span xmlns="http://www.w3.org/1999/xhtml" class="int-own-work" lang="en" xml:lang="en" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Own work</paragraphs>
+                      </span>
+                      <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , Public Domain,  </paragraphs>
+                      <a xmlns="http://www.w3.org/1999/xhtml" href="https://commons.wikimedia.org/w/index.php?curid=2803388" environment="newcol">
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Link</paragraphs>
+                      </a>
+                    </newcol>
+                  </center>
+                </div>
+                <newline course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              </collapse>
+            </newcol>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" md5="681abf11d01196ddcda588bf68cb77af" course="Math 2070" chapter="2" slide="8" item="2.11">
+              <newcol course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The set $D_n := \{r_0, r_1,\ldots, r_{n - 1}, s_1, s_2,\ldots, s_n\}$ is a group,
+with respect to the group operation defined by $\tau*\gamma = \tau\circ\gamma$
+(composition of transformations).  </paragraphs>
+              </newcol>
+            </statement>
+            <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="">Terminology:</inline_keyword>
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $D_n$ is called a  </paragraphs>
+              <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">dihedral group</inline_keyword>
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .  </paragraphs>
+            </newcol>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="More on Sn" course="Math 2070" chapter="2" num="3" serial="2.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="3" subsection="" subsubsection="" serial="2.3" slide="">
+          <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">More on $S_n$</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="9" scope="section" id="s9" slide="9" course="Math 2070" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
+            <keywords slide="9" environ="slide" chapter="2" course="Math 2070">
+              <keyword chapter="2" slide="9">$k$-cycle</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="3" subsection="" subsubsection="" serial="" slide="9">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">More on $S_n$</paragraphs>
+            </title>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Consider the following element in $S_6$:
+\[
+\sigma = \left(
+\begin{matrix}
+1&amp;2&amp;3&amp;4&amp;5&amp;6\\
+5&amp;4&amp;3&amp;6&amp;1&amp;2
+\end{matrix}
+\right)
+\]  </paragraphs>
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We may describe the action of $\sigma : \{1, 2, \ldots, 6\} \ra \{1, 2, \ldots, 6\}$
+using the notation:
+\[
+\sigma = (15)(246),
+\]  </paragraphs>
+              <collapse course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> where $(n_1 n_2\cdots n_k)$ represents the permutation:
+\[
+n_1 \mapsto n_2 \dots n_i \mapsto n_{i + 1} \dots \mapsto n_k \mapsto n_1
+\]  </paragraphs>
+                <collapse course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Viewing permutations as bijective maps,
+the "multiplication" $(15)(246)$ is by definition the composition $(15)\circ(246)$.</paragraphs>
+                  <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We call $(n_1n_2\cdots n_k)$ a  </paragraphs>
+                    <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">$k$-cycle</inline_keyword>
+                    <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .
+Note that $3$ is missing from $(15)(246)$.
+This corresponds to the fact that $3$ is fixed by $\sigma$.</paragraphs>
+                    <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                  </collapse>
+                </collapse>
+              </collapse>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
+            <keywords slide="10" environ="slide" chapter="2" course="Math 2070"/>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="12" md5="1da90d1dbd812239a2410e7989ed12a5" course="Math 2070" chapter="2" slide="10" item="2.12">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Every non-identity permutation in $S_n$ is either a cycle or a product of disjoint cycles.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2070" chapter="2" slide="10" of="1da90d1dbd812239a2410e7989ed12a5">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Discussed in class.  </paragraphs>
+            </substatement>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="13" md5="1a70f04ee63e1f779de5b660b360d2a0" course="Math 2070" chapter="2" slide="10" item="2.13">
+              <newcol course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Disjoint cycles commute with each other.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
+            <keywords slide="11" environ="slide" chapter="2" course="Math 2070">
+              <keyword chapter="2" slide="11">transposition</keyword>
+            </keywords>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> A 2-cycle is often called a </paragraphs>
+            <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="">transposition</inline_keyword>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">,
+for it switches two elements with each other.</paragraphs>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="14" md5="6b6032749a5703501062a9b5268fed8e" course="Math 2070" chapter="2" slide="11" item="2.14">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Each element of $S_n$ is a product of (not necessarily disjoint) transpositions.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">Sketch of proof:</paragraphs>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <newcol course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that each permutation not equal to the identity is a product of cycles,
+and that each cycle is a product of transpositions:
+\[
+(a_1a_2\ldots a_k) = (a_1 a_k) (a_1 a_{k - 1})\cdots(a_1 a_3)(a_1 a_2)
+\]  </paragraphs>
+            </newcol>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="8494fc429cbadc28ad78617ded773654" course="Math 2070" chapter="2" slide="11" item="2.15">
+              <newcol course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <steps course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\[
+\begin{split}
+\left(
+\begin{matrix}
+1&amp;2&amp;3&amp;4&amp;5&amp;6\\
+5&amp;4&amp;3&amp;6&amp;1&amp;2
+\end{matrix}
+\right) &amp;=
+\class{steps}{\cssId{step0}{(15)(246)}}
+\\&amp;
+\class{steps}{\cssId{step1}{= (15)(26)(24)}}
+\\&amp;
+\class{steps}{\cssId{step2}{= (15)(46)(26)}}
+\end{split}
+\]
+</steps>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
+            <keywords slide="12" environ="slide" chapter="2" course="Math 2070"/>
+            <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Note that a given element $\sigma$ of $S_n$
+may be expressed as a product of transpositions in different ways,
+but:  </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="16" md5="b588e52201e19b7a3f9e3a3b4a3e10b8" course="Math 2070" chapter="2" slide="12" item="2.16">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> In every factorization of $\sigma$ as a product of transpositions,
+the number of factors is either always even or always odd.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="db834fd80ecc7026ff95266e76be3a86" course="Math 2070" chapter="2" slide="12" of="b588e52201e19b7a3f9e3a3b4a3e10b8">
+              <newcol course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
+                <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> One approach: Show that there is a unique $n \times n$ matrix, with either $0$ or $1$ as its coefficients,
+which sends each standard basis vector $\vec{e}_i$ in $\mathbb{R}^n$ to $\vec{e}_{\sigma(i)}$.
+Then, use the fact that the determinant of the matrix corresponding to a transposition is $-1$,
+and that the determinant function of matrices is multiplicative.  </paragraphs>
+              </newcol>
+            </substatement>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 2070" chapter="2" num="4" serial="2.4">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="4" subsection="" subsubsection="" serial="2.4" slide="">
+          <paragraphs course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="13" scope="section" id="s13" slide="13" course="Math 2070" chapter="2" section="4" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
+            <keywords slide="13" environ="slide" chapter="2" course="Math 2070"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="4" subsection="" subsubsection="" serial="" slide="13">
+              <paragraphs course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+            </title>
+            <enumerate course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+              <item course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Permutations/Permutations4.pg"/>
+              </item>
+              <item course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Permutations/Permutations3.pg"/>
+              </item>
+              <item course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Permutations/Permutations1.pg"/>
+              </item>
+              <item course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Permutations/Permutations2.pg"/>
+                <paragraphs>
+                  <!--@item @webwork{Library/UMass&#45;Amherst/Abstract&#45;Algebra/PS&#45;Subgroups/Subgroups6.pg}-->
+                </paragraphs>
+              </item>
+              <item course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <paragraphs course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                <webwork course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups7.pg"/>
+              </item>
+              <item course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <paragraphs course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                <webwork course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups8.pg"/>
+              </item>
+            </enumerate>
+          </slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

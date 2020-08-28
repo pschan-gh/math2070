@@ -1,0 +1,543 @@
+@course{Math 2070}
+@week{11}
+@topic{Polynomial Rings}
+@topic{Rational Root Theorem}
+@topic{Gauss's Theorem}
+@topic{Eisenstein's Criterion}
+@slide
+@lemma
+@title{Euclid's Lemma}
+Let $k$ be a field.
+Let $f, g$ be polynomials in $k[x]$.
+Let $p$ be an irreducible polynomial in $k[x]$.
+If $p | fg$ in $k[x]$, then $p | f$ or $p | g$. 
+@end
+@proof
+@newcol
+Suppose $p \nmid f$.
+Then, any common divisor of $p$ and $f$ must have degree strictly less than $\deg p$.
+Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
+Hence, the GCD of $p$ and $f$ is $1$.
+By 
+@ref{bezoutsforpolynomials}
+, there exist $a, b \in k[x]$ such that:
+\[
+ap + bf = 1.
+\] 
+@col
+Multiplying both sides of the above equation by $g$, we have:
+\[
+apg + bfg = g.
+\]
+Since $p$ divides the left-hand side of the above equation, it must
+also divide the right-hand side, which is the polynomial $g$. 
+@qed
+@endcol
+@end
+@claim
+@newcol
+If $f, g \in k[x]$ are relatively prime, and both divide $h \in k[x]$,
+then $fg | h$. 
+@endcol
+@end
+@proof
+@newcol
+@keyword{Exercise.}
+@endcol
+@end
+@slide
+@thm
+@title{Unique Factorization}
+Let $k$ be a field.
+Every nonconstant polynomial $f \in k[x]$ may be written as:
+\[
+f = c p_1\cdots p_n,
+\]
+where $c$ is a nonzero constant,
+and each $p_i$ is a monic irreducible polynomial in $k[x]$.
+The factorization is unique up to the ordering of the factors. 
+@end
+@proof
+@newcol
+@keyword{Exercise.}
+One possible approach is very similar to the proof of unique factorization
+for $\mathbb{Z}$. See: 
+@ref{thm:fta}
+. 
+@endcol
+@end
+
+@slide
+@ex
+@enumerate
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials3.pg}
+@endenumerate
+@end
+
+@slide
+@thm
+@label{thm:pirredfield}
+Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
+The following statements are equivalent: 
+@ol
+@li
+$k[x]/(p)$ is a field. 
+@li
+$k[x]/(p)$ is an integral domain. 
+@li
+$p$ is irreducible in $k[x]$. 
+@endol
+@end
+@remark
+@newcol
+Compare this result with 
+@ref{ex:zmintdom}
+and 
+@ref{cor:zpfield}
+. 
+@endcol
+@end
+@proof
+@newcol
+@ol
+@li
+$1 \Rightarrow 2$: Clear, since every field is an integral domain. 
+@li
+$2 \Rightarrow 3$: If $p$ is not irreducible, there exist $f, g \in k[x]$,
+with degrees strictly less than that of $p$, such that $p = fg$.
+Since $\deg f, \deg g < \deg p$, the polynomial $p$ does not divide $f$ or $g$
+in $k[x]$.  Consequently, the congruence classes $\ol{f}$ and $\ol{g}$
+of $f$ and $g$, respectively, modulo $(p)$ is not equal to zero in $k[x]/(p)$.
+On the other hand, $\ol{f}\cdot \ol{g} = \ol{fg} = \ol{p} = 0$ in $k[x]/(p)$.
+This implies that $k[x]/(p)$ is not an integral domain, a contradiction.
+Hence, $p$ is irreducible if $k[x]/(p)$ is an integral domain. 
+@li
+$3 \Rightarrow 1$:
+By definition, the multiplicative identity element $1$ of a field is different from the
+additive identity element $0$.  So we need to check that the congruence class of $1 \in k[x]$
+in $k[x]/(p)$ is not $0$.  Since $p$ is irreducible, by definition we have $\deg p > 0$.
+Hence, $1 \notin (p)$, for a polynomial of degree $> 0$ cannot divide a polynomial of degree $0$
+in $k[x]$.  We conclude that $1 + (p)\neq 0 + (p)$ in $k[x]/(p)$.
+
+@newcol
+Next, we need to prove the existence of the multiplicative inverse of any nonzero element in
+$k[x]/(p)$.
+Given any $f \in k[x]$ whose congruence class $\ol{f}$ modulo $(p)$ is nonzero in $k[x]/(p)$,
+we want to find its multiplicative inverse $\ol{f}^{-1}$.
+If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
+that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
+$GCD(p, f) = 1$.  By 
+@ref{bezoutsforpolynomials}
+there exist
+$g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,
+since $fg - 1 = -hp$ implies that $fg - 1 \in (p)$,
+which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$. 
+@endcol
+@qed
+@endol
+@endcol
+@end
+
+@slide
+@eg
+The rings $\mathbb{R}[x]/(x^2 + 1)$ and $\mathbb{C}$ are isomorphic. 
+@end
+@proof
+@newcol
+Define a map $\phi : \mathbb{R}[x] \ra \mathbb{C}$ as follows:
+\[
+\phi(\sum_{k = 0}^na_kx^k) = \sum_{k = 0}^n a_k i^k.
+\]
+
+@keyword{Exercise:}
+$\phi$ is a homomorphism.
+
+@col
+For all $a + bi$ ($a, b \in \mathbb{R}$) in $\mathbb{C}$, we have:
+\[
+\phi(a + bx) = a + bi.
+\]
+Hence, $\phi$ is surjective.
+
+@col
+We now find $\ker \phi$.
+Since $\mathbb{R}[x]$ is a PID (see 
+@ref{def:pid}
+).  There exists $p \in \mathbb{R}[x]$
+such that $\ker \phi = (p)$.
+
+@col
+Observe that $\phi(x^2 + 1) = 0$.  So, $x^2 + 1 \in \ker \phi$,
+which implies that there exists $q \in \mathbb{R}[x]$ such that $x^2 + 1 = pq$.
+Since $x^2 + 1$ has no real roots, neither $p$ or $q$ can be of degree $1$.
+
+@col
+So, one of $p$ or $q$ must be a nonzero constant polynomial.
+$p$ cannot be a nonzero constant polynomial, for that would imply that
+$\ker \phi = \mathbb{R}[x]$.  So, $q$ is a constant,
+which implies that $p = q^{-1} (x^2 + 1)$.  We conclude that $\ker \phi = (x^2 + 1)$.
+
+@col
+It now follows from the First Isomorphism Theorem that
+$\mathbb{R}[x]/(x^2 + 1)\cong \mathbb{C}$. 
+@qed
+@endcol
+@end
+
+@section{Polynomials over $\mathbb{Z}$ and $\mathbb{Q}$}
+@thm
+@title{Rational Root Theorem}
+Let $f = a_0 + a_1x + \cdots + a_nx^n$, be a polynomial
+in $\mathbb{Q}[x]$, with $a_i \in \mathbb{Z}$, $a_n \neq 0$.
+Every rational root $r$ of $f$ in $\mathbb{Q}$ has the form
+$r = b/c$ $(b, c \in \mathbb{Z})$ where $b | a_0$ and $c | a_n$. 
+@end
+
+@proof
+@newcol
+Let $r = b/c$ be a rational root of $f$, where $b, c$ are relatively prime integers.
+We have:
+\[
+0 = \sum_{i = 0}^n a_i (b/c)^i
+\] 
+@col
+Multiplying both sides of the above equation by $c^n$, we have:
+\[
+0 = a_0c^n + a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_n b^n,
+\]
+or equivalently:
+\[
+a_0 c^n = -(a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_n b^n).
+\] 
+@col
+Since $b$ divides the right-hand side, and $b$ and $c$ are relatively prime,
+$b$ must divide $a_0$.
+
+@col
+Similarly, we have:
+\[
+a_n b^n = - (a_0c^n + a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_{n - 1}cb^{n - 1}).
+\] 
+@col
+Since $c$ divides the right-hand side, and $b$ and $c$ are relatively prime, $c$ must divide $a_n$. 
+@qed
+@endcol
+@end
+
+@slide
+@defn
+A polynomial $f \in \mathbb{Z}[x]$ is said to be @keyword{primitive} if the gcd of its coefficients is $1$. 
+@end
+@remark
+@newcol
+Note that if $f$ is monic, i.e. its leading coefficient is $1$,
+then it is primitive.
+
+If $d$ is the gcd of the coefficients of $f$, then $\frac{1}{d}f$ is a primitive polynomial
+in $\mathbb{Z}[x]$. 
+@endcol
+@end
+
+@slide
+
+@lemma
+@title{Gauss's Lemma}
+If $f, g \in \mathbb{Z}[x]$ are both primitive, then $fg$ is primitive. 
+@end
+
+@proof
+@newcol
+Write $f = \sum_{k = 0}^m a_k x^k$, $g = \sum_{k = 0}^n b_k x^k$.
+Then, $fg = \sum_{k = 0}^{m+n}c_kx^k$, where:
+\[
+c_k = \sum_{i + j = k}a_ib_j.
+\] 
+@col
+Suppose $fg$ is not primitive.  Then, there exists a prime $p$ such that $p$ divides $c_k$
+for $k = 0, 1, 2,\ldots, m + n$.
+
+@col
+Since $f$ is primitive, there exists a least
+$u \in \{0, 1, 2, \ldots, m\}$ such that $a_u$ is not divisible by $p$.
+
+@col
+Similarly, since $g$ is primitive, there is a least $v \in \{0, 1, 2, \ldots, n\}$
+such that $b_v$ is not divisible by $p$.
+We have:
+\[
+c_{u + v} = \sum_{\substack{i + j = u+v\\(i, j)\neq (u, v)}}a_ib_j + a_ub_v,
+\] 
+@col
+hence:
+\[
+a_ub_v %% = c_{u + v} - \sum_{\substack{i + j = k\\(i, j)\neq (u, v)}}a_ib_j
+= c_{u + v} - \sum_{\substack{i + j = u + v\\i < u}}a_ib_j
+- \sum_{\substack{i + j = u + v\\j < v}}a_ib_j.
+\] 
+@col
+By the minimality conditions on $u$ and $v$, each term on the right-hand side of the above equation
+is divisible by $p$.
+
+@col
+Hence, $p$ divides $a_ub_v$, which by Euclid's Lemma implies that
+$p$ divides either $a_u$ or $b_v$, a contradiction. 
+@qed
+@endcol
+@end
+@slide
+@lemma
+Every nonzero $f \in \mathbb{Q}[x]$ has a unique factorization:
+\[
+f = c(f) f_0,
+\]
+where $c(f)$ is a positive rational number, and $f_0$ is a primitive polynomial in $\mathbb{Z}[x]$. 
+@end
+@defn
+@newcol
+The rational number $c(f)$ is called the 
+@keyword{content}
+of $f$. 
+@endcol
+@end
+@proof
+@newcol
+<b class="notkw">Existence:</b>
+
+Write $f = \sum_{k = 0}^n (a_k/b_k)x^k$,
+where $a_k, b_k \in \mathbb{Z}$.
+Let $B = b_0b_1\cdots b_n$.
+Then, $g := Bf$ is a polynomial in $\mathbb{Z}[x]$.
+Let $d$ be the gcd of the coefficients of $g$.
+Let $D = \pm d$, with the sign chosen such that $D/B > 0$.
+Observe that $f = c(f)f_0$, where
+\[
+c(f) = D/B,
+\]
+and
+\[
+f_0 := \frac{B}{D} f = \frac{1}{D}g
+\]
+is a primitive polynomial in $\mathbb{Z}[x]$.
+
+@col
+<b class="notkw">Uniqueness:</b>
+
+Suppose $f = ef_1$ for some positive $e \in \mathbb{Q}$ and primitive $f_1 \in \mathbb{Z}[x]$.
+We have:
+\[
+ef_1 = c(f) f_0.
+\]
+Writing $e/c(f) = u/v$ where $u, v$ are relatively prime positive integers, we have:
+\[
+uf_1 = vf_0.
+\]
+Since $gcd(u, v) = 1$, by Euclid's Lemma the above equation implies that $v$ divides each
+coefficient of $f_1$, and $u$ divides each coefficient of $f_0$.
+Since $f_0$ and $f_1$ are primitive, we conclude that $u = v = 1$.
+Hence, $e = c(f)$, and $f_1 = f_0$. 
+@qed
+@endcol
+@end
+
+@slide
+
+@cor
+For $f \in \mathbb{Z}[x] \subseteq \mathbb{Q}[x]$, we have $c(f) \in \mathbb{Z}$. 
+@end
+@proof
+@newcol
+Let $d$ be the gcd of the coefficients of $f$.  Then, $(1/d)f$
+is a primitive polynomial, and
+\[
+f = d\left(\frac{1}{d} f \right)
+\]
+is a factorization of $f$ into a product of a positive rational number and a primitive polynomial
+in $\mathbb{Z}[x]$.
+Hence, by uniqueness of $c(f)$ and $f_0$, we have $c(f) = d \in \mathbb{Z}$. 
+@qed
+@endcol
+@end
+
+@slide
+
+@cor
+Let $f, g, h$ be nonzero polynomials in $\mathbb{Q}[x]$ such that $f = gh$.
+Then, $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$. 
+@end
+@proof
+@newcol
+The condition $f = gh$ implies that:
+\[
+c(f)f_0 = {c(g)}{c(h)} g_0h_0,
+\]
+where $f_0, g_0, h_0$ are primitive polynomials and $c(f), c(g), c(h)$ are positive rational numbers.
+By a previous result $g_0h_0$ is primitive.  It now follows from the uniqueness of $c(f)$ and $f_0$
+that $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$. 
+@qed
+@endcol
+@end
+
+@slide
+
+@thm
+@title{Gauss's Theorem}
+Let $f$ be a nonzero polynomial in $\mathbb{Z}[x]$.
+If $f = GH$ for some $G, H \in \mathbb{Q}[x]$, then
+$f = gh$ for some $g, h \in \mathbb{Z}[x]$, where
+$\deg g = \deg G$, $\deg h = \deg H$.
+
+Consequently, if $f$ cannot be factored into a product of polynomials of smaller degrees in $\mathbb{Z}[x]$,
+then it is irreducible as a polynomial in $\mathbb{Q}[x]$. 
+@end
+@proof
+@newcol
+Suppose $f = GH$ for some $G, H$ in $\mathbb{Q}[x]$.
+Then $f = c(f) f_0 = c(G)c(H) G_0 H_0$,
+where $G_0$, $H_0$ are primitive polynomials in $\mathbb{Z}[x]$,
+and $c(G)c(H) = c(f)$ by the uniqueness of the content of a polynomial.
+
+@col
+Moreover, since $f \in \mathbb{Z}[x]$, its content $c(f)$ lies in $\mathbb{Z}$.
+Hence, $g = c(f) G_0$ and $h = H_0$ are polynomials in $\mathbb{Z}[x]$,
+with $\deg g = \deg G$, $\deg h = \deg H$, such that $f = gh$. 
+@qed
+@endcol
+@end
+
+@slide
+
+Let $p$ be a prime.
+Let $\mathbb{F}_p = \mathbb{Z}/p\mathbb{Z} \cong \mathbb{Z}_p$.  It is a field, since $p$ is prime.
+For $a \in \mathbb{Z}$, let $\ol{a}$ denote the residue of $a$ in $\mathbb{F}_p$.
+
+<br/>@keyword{Exercise:} We have $\ol{a} = \ol{a_p}$, where $a_p$ is the remainder of the division of $a$ by $p$.
+
+@thm
+Let $f = \sum_{k = 0}^na_k x^k$ be a polynomial in $\mathbb{Z}[x]$
+such that $p \nmid a_n$ (in particular, $a_n \neq 0$).
+If $\ol{f} := \sum_{k = 0}^n \ol{a_k}x^k$ is irreducible in $\mathbb{F}_p[x]$,
+then $f$ is irreducible in $\mathbb{Q}[x]$. 
+@end
+@proof
+@newcol
+Suppose $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$,
+but $f$ is not irreducible in $\mathbb{Q}[x]$.
+By Gauss's theorem, there exist $g, h \in \mathbb{Z}[x]$ such that
+$\deg g, \deg h  < \deg f$ and $f = gh$.
+
+@col
+Since by assumption $p \nmid a_n$, we have $\deg \ol{f} = \deg f$.
+
+@col
+Moreover, $\ol{gh} = \ol{g}\cdot\ol{h}$ (
+<strong>Exercise</strong>
+).
+
+@col
+Hence, $\ol{f} = \ol{gh} = \ol{g}\cdot \ol{h}$, where $\deg \ol{g}, \deg\ol{h} < \deg \ol{f}$.
+This contradicts the irreducibility of $\ol{f}$ in $\mathbb{F}_p[x]$.
+
+@col
+Hence, $f$ is irreducible in $\mathbb{Q}[x]$ if $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$. 
+@qed
+@endcol
+@end
+
+@slide
+
+@eg
+The polynomial $f(x) = x^4 - 5x^3 + 2x + 3 \in \mathbb{Q}[x]$ is irreducible. 
+@end
+@proof
+@newcol
+Consider $\ol{f} = x^4 -\ol{5}x^3 + \ol{2}x + \ol{3} = x^4 + x^3 + 1$ in $\mathbb{F}_2[x]$.
+If we can show that $\ol{f}$ is irreducible, then by the previous theorem we can
+conclude that $f$ is irreducible.
+
+@col
+Since $\mathbb{F}_2 = \{0, 1\}$ and
+$\ol{f}(0) = \ol{f}(1) = 1 \neq 0$, we know right away that $\ol{f}$
+has no linear factors.  So, if $\ol{f}$ is not irreducible, it must be a product of two quadratic factors:
+\[
+\ol{f} = (ax^2 + bx + c)(dx^2 + ex + g),\quad a, b, c, d, e, g \in \mathbb{F}_2.
+\] 
+@col
+Note that by assumption $a, d$ are nonzero elements of $\mathbb{F}_2$, so $a = d = 1$.
+This implies that, in particular:
+\[
+\begin{split}
+1 &= \ol{f}(0) = cg\\
+1 &= \ol{f}(1) = (1 + b + c)(1 + e + g)
+\end{split}
+\] 
+@col
+The first equation implies that $c = g = 1$.
+The second equation then implies that $1 = (2 + b)(2 + e) = be$.
+Hence, $b = e = 1$.
+
+@col
+We have:
+\begin{multline*}
+x^4 + x^3 +  1 = (x^2 + x + 1)(x^2 + x + 1)\\
+= x^4 + 2x^3 + 3x^2 + 2x + 1 = x^4 + x^2 + 1,
+\end{multline*}
+a contradiction.
+
+@col
+Hence, $\ol{f}$ is irreducible in $\mathbb{F}_2[x]$, which implies
+that $f$ is irreducible in $\mathbb{Q}[x]$. 
+@qed
+@endcol
+@end
+
+@slide
+
+@thm
+@title{Eisenstein's Criterion}
+Let $f = a_0 + a_1 x + \cdots + a_n x^n$ be a polynomial in $\mathbb{Z}[x]$.
+If there exists a prime $p$ such that $p | a_i$ for $0 \leq i < n$, but $p \nmid a_n$ and
+$p^2 \nmid a_0$, then $f$ is irreducible in $\mathbb{Q}[x]$. 
+@end
+@proof
+@newcol
+We prove by contradiction.  Suppose $f$ is not irreducible in $\mathbb{Q}[x]$.
+Then, by Gauss's Theorem, there exists $g = \sum_{k = 0}^l b_kx^k$,
+$h = \sum_{k = 0}^{n - l} c_k x^k \in \mathbb{Z}[x]$, with $\deg g, \deg h < \deg f$,
+such that $f = gh$.
+
+@col
+Consider the image of these polynomials in $\mathbb{F}_p[x]$.
+By assumption, we have:
+\[
+\ol{a_n}x^n = \ol{f} = \ol{g}\ol{h}.
+\] 
+@col
+This implies that $\ol{g}$ and $\ol{h}$ are divisors of $\ol{a_n}x^n$.
+Since $\mathbb{F}_p$ is a field, unique factorization holds for $\mathbb{F}_p[x]$.
+Hence, we must have:
+\[
+\ol{g} = \ol{b_u}x^u,\quad
+\ol{h} = \ol{c_{n - u}}x^{n - u},
+\]
+for some $u \in \{0, 1, 2,\ldots, l\}$.
+
+@col
+If $u < l$, then $n - u > n - l \geq \deg \ol{h}$, which cannot hold.
+
+@col
+So, we conclude that $\ol{g} = \ol{b_l}x^l$, $\ol{h} = \ol{c_{n - l}} x^{n - l}$.
+
+@col
+In particular, $\ol{b_0} = \ol{c_0} = 0$ in $\mathbb{F}_p$, which implies
+that $p$ divides both $b_0$ and $c_0$.  Since $a_0 = b_0c_0$, we have $p^2 | a_0$,
+a contradiction. 
+@qed
+@endcol
+@end
+
+@slide
+
+@eg
+The polynomial $x^5 + 3x^4 - 6x^3 +12x + 3$ is irreducible in $\mathbb{Q}[x]$. 
+@end

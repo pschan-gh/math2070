@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -74,7 +73,7 @@
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="1" section="1" subsection="" subsubsection="" serial="" slide="3">
               <paragraphs course="Math 2070" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Overview</paragraphs>
             </title>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <itemize course="Math 2070" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="itemize">
               <item course="Math 2070" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
                 <h5 xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
@@ -102,10 +101,10 @@ red, green and blue, respectively?</paragraphs>
                     <newline course="Math 2070" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul"/>
                     <newcol course="Math 2070" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                       <inline_keyword course="Math 2070" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Dihedral Group $D_3$</inline_keyword>
-                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
-                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       <a xmlns="http://www.w3.org/1999/xhtml" href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" environment="newcol">
-                        <img alt="Labeled Triangle Reflections.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" class="lazy" style="display: none;" environment="newcol"/>
+                        <img alt="Labeled Triangle Reflections.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" class="lazy" style="display: none;" environment="newcol" />
                       </a>
                     </newcol>
                   </col_li>
@@ -341,7 +340,7 @@ where $f * g:= f \circ g$ (i.e. composition of functions). </paragraphs>
                   </table>
                 </a>
               </div>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
               <newline course="Math 2070" chapter="1" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
               <newcol course="Math 2070" chapter="1" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                 <h5 xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
@@ -593,8 +592,8 @@ such that $AB \neq BA$. Hence ${\rm GL}(2, \mathbb{R})$ is not abelian.</paragra
                     <collapse course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> The group ${\rm GL}(2, \mathbb{R})$ is called a </paragraphs>
                       <inline_keyword course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol">General Linear Group</inline_keyword>
-                      <paragraphs course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">. </paragraphs>
-                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <paragraphs course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
+                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     </collapse>
                   </collapse>
                 </newcol>
@@ -606,7 +605,7 @@ of real $2 \times 2$ matrices with determinant $1$ is a group under matrix multi
                   <newline course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol"/>
                   <paragraphs course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">It is called a </paragraphs>
                   <inline_keyword course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol">Special Linear Group</inline_keyword>
-                  <paragraphs course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">. </paragraphs>
+                  <paragraphs course="Math 2070" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
                 </newcol>
               </statement>
             </slide>

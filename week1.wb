@@ -2,17 +2,16 @@
 @week{1}
 @topic{Groups}
 @section{Overview}
-<hr/>
+<hr style=""/>
 @itemize
 @item
-<h5>Groups</h5>
+<h5 style="">Groups</h5>
 @ul
 @li
-How many ways are there to color a cube, such that each face is either red or green?
+How many ways are there to color a cube, such that each face is either black or white?
 
 @newcol
-<strong>Answer:</strong>
-10. Why?
+<strong style="">Answer:</strong> 10. Why?
 
 @endcol
 @li
@@ -24,14 +23,12 @@ What are the symmetries of an equilateral triangle?
 
 @newcol
 @keyword{Dihedral Group $D_3$}
-<br/>
-<br/>
-<a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg">
-<img alt="Labeled Triangle Reflections.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" class="lazy" style="display: none;"/></a>
+<br/><br/><a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" style="">
+<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" width="450"/></a>
 @endcol
 @endul
 @item
-<h5>Rings</h5>
+<h5 style="">Rings</h5>
 @ul
 @li
 Euclidean Algorithm.
@@ -42,43 +39,36 @@ Partial Fraction Decomposition.
 @li
 Algebraic Extension of Fields.
 @endul
+@enditemize
 @section{Groups}
 @defn
-A group $G$ is a set equipped with a binary operation $*: G \times G \ra G$ (typically called @keyword{group operation} or "@keyword{multiplication}"), such that:
+A group $G$ is a set equipped with a binary operation $*: G \times G \longrightarrow G$ (typically called @keyword{group operation} or "@keyword{multiplication}"), such that:
 @ul
 @li
-<u>
+<u style="">
 @keyword{Associativity}</u>
 \[(a* b)* c = a * (b * c),\]
-for all $a, b, c \in G$. In other words, the group operation is
-@keyword{associative}
-.
+for all $a, b, c \in G$. In other words, the group operation is @keyword{associative} .
 @li
-<u>
+<u style="">
 @keyword{Existence of an Identity Element}</u>
 
-There is an element $e \in G$, called an
-@keyword{identity element}
-, such that:
+There is an element $e \in G$, called an @keyword{identity element} , such that:
 \[g* e = e * g = g,\]
 for all $g \in G$.
 @li
-<u>
+<u style="">
 @keyword{Invertibility}</u>
 
-Each element $g \in G$ has an
-@keyword{inverse}
-$g^{-1} \in G$, such that:
+Each element $g \in G$ has an @keyword{inverse} $g^{-1} \in G$, such that:
 \[g^{-1}* g = g* g^{-1} = e.\]
 @endul
 @end
 @newcol
-<ul>
-<li> Note that we do not require that $a* b = b * a$.
-</li>
+<ul style="">
+<li style=""> Note that we do not require that $a* b = b * a$. </li>
 
-<li> We often write $ab$ to denote $a* b$.
-</li></ul>
+<li style=""> We often write $ab$ to denote $a* b$. </li></ul>
 @endcol
 @slide
 @defn
@@ -94,8 +84,7 @@ The group $G$ is abelian.
 @li
 $G = \mathbb{Q}$, where the group operation is the usual addition $+$ for rational numbers. The identity is $e = 0$.
 The inverse of $a \in \mathbb{Q}$ with respect to $+$ is $-a$.
-Note that $\mathbb{Q}$ is <em>NOT</em>
-a group with respect to multiplication. For in that case, we have $e = 1$, but $0 \in \mathbb{Q}$ has no inverse
+Note that $\mathbb{Q}$ is <em>NOT</em> a group with respect to multiplication. For in that case, we have $e = 1$, but $0 \in \mathbb{Q}$ has no inverse
 $0^{-1} \in \mathbb{Q}$ such that $0\cdot 0^{-1} = 1$.
 @endul
 @end
@@ -132,8 +121,7 @@ where $f * g:= f \circ g$ (i.e. composition of functions).
 <hr/>
 
 @newcol
-<h5>Cayley Table for $D_3$</h5>
-<div class="image">
+<h5>Cayley Table for $D_3$</h5><div class="image">
 <a href="https://en.wikipedia.org/wiki/Dihedral_group" target="_blank">
 <table class="table table-bordered" width="200" style="text-align: center;">
 <tbody>
@@ -173,7 +161,7 @@ The set $G = {\rm GL}(2, \mathbb{R})$
 of real $2 \times 2$ matrices with nonzero determinants is a group
 under matrix multiplication, with identity element:
 
-@col
+@newcol
 \[e = \left(\begin{matrix} 1 & 0\\0& 1\end{matrix}\right).\]
 In the group $G$, we have:
 \[\left(\begin{matrix} a & b \\ c & d\end{matrix}\right)^{-1}
@@ -186,6 +174,7 @@ such that $AB \neq BA$. Hence ${\rm GL}(2, \mathbb{R})$ is not abelian.
 @col
 The group ${\rm GL}(2, \mathbb{R})$ is called a @keyword{General Linear Group}.
 <hr/>
+@endcol
 @end
 @ex
 @newcol
@@ -230,21 +219,17 @@ g^0 &:= e.
 \end{split}\]
 @claim
 @newcol
-Let $G$ be a group.
-<ol>
+Let $G$ be a group. <ol>
 <li> For all $g \in G$,
 we have:
-\[(g^{-1})^{-1} = g.\]
-</li>
+\[(g^{-1})^{-1} = g.\] </li>
 
 <li> For all $a, b \in G$,
 we have:
-\[(ab)^{-1} = b^{-1}a^{-1}.\]
-</li>
+\[(ab)^{-1} = b^{-1}a^{-1}.\] </li>
 
 <li> For all $g \in G$, $n, m \in \mathbb{Z}$, we have:
-\[g^n\cdot g^m = g^{n + m}.\]
-</li></ol>
+\[g^n\cdot g^m = g^{n + m}.\] </li></ol>
 @endcol
 @end
 @proof

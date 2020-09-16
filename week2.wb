@@ -9,7 +9,7 @@ The @keyword{order} of $G$ is the number of elements in $G$.
 
 The @keyword{order} $\ord g$ of an <i> element</i> $g \in G$
 is the smallest $n \in \mathbb{N}$ such that $g^n = e$.
-If no such $n$ exists, we say that $g$ has @keyword{infinite order}. 
+If no such $n$ exists, we say that $g$ has @keyword{infinite order}.
 @end
 
 <hr/>
@@ -18,17 +18,17 @@ If no such $n$ exists, we say that $g$ has @keyword{infinite order}.
 @newcol
 Let $G$ be a group with identity element $e$.
 Let $g$ be an element of $G$.  If $g^n = e$ for some $n \in \mathbb{N}$,
-then $\ord g$ is finite, and moreover $\ord g$ divides $n$. 
+then $\ord g$ is finite, and moreover $\ord g$ divides $n$.
 @endcol
 @end
 @proof
-Shown in class. 
+Shown in class.
 @end
 <hr/>
 
 @ex
 @newcol
-If $G$ has finite order, then every element of $G$ has finite order. 
+If $G$ has finite order, then every element of $G$ has finite order.
 @endcol
 @end
 
@@ -39,33 +39,33 @@ for some integer $n$.
 In which case, we write: $G = \langle g \rangle$, and say that $g$ is a @keyword{generator} of $G$.
 
 @newcol
-Note: The generator of of a cyclic group might not be unique. 
+Note: The generator of of a cyclic group might not be unique.
 @endcol
 @end
 @eg
 @newcol
-$(U_m, \cdot)$ is cyclic. 
+$(U_m, \cdot)$ is cyclic.
 @endcol
 @end
 @ex
 @newcol
 A finite cyclic group $G$ has order (i.e. size) $n$
-if and only if each of its generators has order $n$. 
+if and only if each of its generators has order $n$.
 @endcol
 @end
 @ex
 @newcol
-$(\mathbb{Q}, +)$ is not cyclic. 
+$(\mathbb{Q}, +)$ is not cyclic.
 @endcol
 @end
 @section{Permutations}
 @defn
-Let $X$ be a set.  A @keyword{permutation} of $X$ is a bijective map $\sigma : X \ra X$. 
+Let $X$ be a set.  A @keyword{permutation} of $X$ is a bijective map $\sigma : X \ra X$.
 @end
 @claim
 @newcol
 The set $S_X$ of permutations of a set $X$
-is a group with respect to $\circ$, the composition of maps. 
+is a group with respect to $\circ$, the composition of maps.
 @endcol
 @end
 @proof
@@ -76,23 +76,23 @@ Let $\sigma, \gamma$ be permutations of $X$.
 By definition, they are bijective maps from $X$ to itself.
 It is clear that $\sigma\circ\gamma$ is a bijective map from $X$ to itself,
 hence $\sigma\circ\gamma$ is a permutation of $X$.  So $\circ$ is a well-defined
-binary operation on $S_X$. 
+binary operation on $S_X$.
 @li
 For $\alpha, \beta, \gamma \in S_X$, it is clear that
-$\alpha\circ(\beta\circ \gamma) = (\alpha\circ\beta)\circ\gamma$. 
+$\alpha\circ(\beta\circ \gamma) = (\alpha\circ\beta)\circ\gamma$.
 @li
 Define a map $e : X \ra X$ as follows:
 \[
 e(x) = x,\quad \text{ for all } x \in X.
 \]
 It is clear that $e \in S_X$, and that $e \circ \sigma = \sigma\circ e = \sigma$
-for all $\sigma \in S_X$.  Hence, $e$ is an identity element in $S_X$. 
+for all $\sigma \in S_X$.  Hence, $e$ is an identity element in $S_X$.
 @li
 Let $\sigma$ be any element of $S_X$.  Since $\sigma : X \ra X$ is by assumption bijective,
 there exists a bijective map $\sigma^{-1} : X \ra X$
 such that $\sigma\circ\sigma^{-1} = \sigma^{-1}\circ \sigma = e$.
 So $\sigma^{-1}$
-is an inverse of $\sigma$ with respect to the operation $\circ$. 
+is an inverse of $\sigma$ with respect to the operation $\circ$.
 @endul
 @qed
 @endcol
@@ -116,7 +116,7 @@ We often describe $\sigma$ using the following notation:
 \sigma(1) & \sigma(2) & \ldots & \sigma(n)
 \end{matrix}
 \right)
-\] 
+\]
 @slide
 @eg
 In $S_3$,
@@ -187,14 +187,12 @@ We also have:
 1 & 2 & 3\\
 1 & 3 & 2
 \end{matrix}\right)
-\] 
+\]
 @col
 Since $\alpha\beta \neq \beta\alpha$, the group $S_3$ is non-abelian.
 
 @col
-In general, for $n > 2$, the group $S_n$ is non-abelian (
-@keyword{Exercise:}
-Why?).
+In general, for $n > 2$, the group $S_n$ is non-abelian ( @keyword{Exercise:} Why?).
 
 @col
 For the same $\alpha \in S_3$ defined above, we have:
@@ -232,9 +230,9 @@ and:
 1 & 2 & 3\\
 1 & 2 & 3
 \end{matrix}\right) = e
-\] 
+\]
 @col
-Hence, the order of $\alpha$ is $3$. 
+Hence, the order of $\alpha$ is $3$.
 @endcol
 @end
 @section{Dihedral Group}
@@ -244,25 +242,17 @@ consisting of all rotations by fixed angles about the origin, and all reflection
 @newcol
 Consider a regular polygon $P$ with $n$ sides in $\mathbb{R}^2$, centered at the origin.
 Identify the polygon with its $n$ vertices, which form a subset $P = \{x_1, x_2, \ldots, x_n\}$
-of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say that $P$ is 
-@keyword{symmetric}
-with respect to $\tau$.
+of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say that $P$ is @keyword{symmetric} with respect to $\tau$.
 
 @col
 Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
-and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$. 
-<br/>
-<br/>
-<div class="image">
+and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$. <br/><br/><div class="image" style="width: 450px;">
 <a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg">
-<img alt="Labeled Triangle Reflections.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" class="lazy" style="display: none;"/></a><center>
+<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" width="450"/></a><center>
 @newcol
-By 
-<a href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&action=edit&redlink=1" class="new" title="User:Jim.belk (page does not exist)">Jim.belk</a>
-- 
-<span class="int-own-work" lang="en" xml:lang="en">Own work</span>
-, Public Domain, 
-<a href="https://commons.wikimedia.org/w/index.php?curid=2803388">Link</a>
+By <a href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&action=edit&redlink=1" class="new" title="User:Jim.belk (page does not exist)">Jim.belk</a>
+- <span class="int-own-work" lang="en" xml:lang="en">Own work</span>
+, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2803388">Link</a>
 @endcol</center></div>
 
 @endcol
@@ -270,13 +260,11 @@ By
 @newcol
 The set $D_n := \{r_0, r_1,\ldots, r_{n - 1}, s_1, s_2,\ldots, s_n\}$ is a group,
 with respect to the group operation defined by $\tau*\gamma = \tau\circ\gamma$
-(composition of transformations). 
+(composition of transformations).
 @endcol
 @end@keyword{Terminology:}
 @newcol
-$D_n$ is called a 
-@keyword{dihedral group}
-. 
+$D_n$ is called a @keyword{dihedral group} .
 @endcol
 
 @section{More on $S_n$}
@@ -288,43 +276,47 @@ Consider the following element in $S_6$:
 5&4&3&6&1&2
 \end{matrix}
 \right)
-\] 
+\]
 @newcol
 We may describe the action of $\sigma : \{1, 2, \ldots, 6\} \ra \{1, 2, \ldots, 6\}$
 using the notation:
 \[
 \sigma = (15)(246),
-\] 
+\]
 @col
 where $(n_1 n_2\cdots n_k)$ represents the permutation:
 \[
 n_1 \mapsto n_2 \dots n_i \mapsto n_{i + 1} \dots \mapsto n_k \mapsto n_1
-\] 
+\]
 @col
 Viewing permutations as bijective maps,
 the "multiplication" $(15)(246)$ is by definition the composition $(15)\circ(246)$.
 
 @col
-We call $(n_1n_2\cdots n_k)$ a 
-@keyword{$k$-cycle}
-.
+We call $(n_1n_2\cdots n_k)$ a @keyword{$k$-cycle} .
 Note that $3$ is missing from $(15)(246)$.
 This corresponds to the fact that $3$ is fixed by $\sigma$.
 
 @endcol
+
+@ex
+@newcol
+In $S_n$, for any positive integer $k \leq n$, every $k$-cycle has order $k$.
+@endcol
+@end
 @slide
 
 @claim
-Every non-identity permutation in $S_n$ is either a cycle or a product of disjoint cycles. 
+Every non-identity permutation in $S_n$ is either a cycle or a product of disjoint cycles.
 @end
 @proof
-Discussed in class. 
+Discussed in class.
 @end
 
 <hr/>
 @ex
 @newcol
-Disjoint cycles commute with each other. 
+Disjoint cycles commute with each other.
 @endcol
 @end
 
@@ -333,7 +325,7 @@ A 2-cycle is often called a @keyword{transposition},
 for it switches two elements with each other.
 
 @claim
-Each element of $S_n$ is a product of (not necessarily disjoint) transpositions. 
+Each element of $S_n$ is a product of (not necessarily disjoint) transpositions.
 @end
 
 Sketch of proof:
@@ -343,7 +335,7 @@ Show that each permutation not equal to the identity is a product of cycles,
 and that each cycle is a product of transpositions:
 \[
 (a_1a_2\ldots a_k) = (a_1 a_k) (a_1 a_{k - 1})\cdots(a_1 a_3)(a_1 a_2)
-\] 
+\]
 @endcol
 @eg
 @newcol
@@ -370,19 +362,18 @@ and that each cycle is a product of transpositions:
 @slide
 Note that a given element $\sigma$ of $S_n$
 may be expressed as a product of transpositions in different ways,
-but: 
+but:
 @claim
 In every factorization of $\sigma$ as a product of transpositions,
-the number of factors is either always even or always odd. 
+the number of factors is either always even or always odd.
 @end
 
 @proof
 @newcol
-@keyword{Exercise.}
-One approach: Show that there is a unique $n \times n$ matrix, with either $0$ or $1$ as its coefficients,
+@keyword{Exercise.} One approach: Show that there is a unique $n \times n$ matrix, with either $0$ or $1$ as its coefficients,
 which sends each standard basis vector $\vec{e}_i$ in $\mathbb{R}^n$ to $\vec{e}_{\sigma(i)}$.
 Then, use the fact that the determinant of the matrix corresponding to a transposition is $-1$,
-and that the determinant function of matrices is multiplicative. 
+and that the determinant function of matrices is multiplicative.
 @endcol
 @end
 @section{WeBWorK}
@@ -395,9 +386,8 @@ and that the determinant function of matrices is multiplicative.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Permutations/Permutations1.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Permutations/Permutations2.pg}
-<!--
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups6.pg}
--->
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups7.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups8.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups7.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups8.pg}
 @endenumerate

@@ -263,7 +263,7 @@ For each $x \in \mathbb{R}^\times$, let:
 \[
 s_x = \left(
 \begin{matrix}
-x & 0 
+x & 0\\
 0 & 1 
 \end{matrix}
 \right) \in G

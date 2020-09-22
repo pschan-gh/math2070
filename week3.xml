@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -424,10 +425,10 @@ Then,
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="3" section="3" subsection="" subsubsection="" chapter_title="" section_title="Lagrange's Theorem">
             <keywords slide="13" environ="slide" chapter="3" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="1ad8b28f2761b0e740cc596c0c98e480" course="Math 2070" chapter="3" slide="13" item="3.12">
-              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G = {\rm GL}(n, \mathbb{R})$.  Let:
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="12dd005f38456d700b01c5d24e555148" course="Math 2070" chapter="3" slide="13" item="3.12">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G = {\rm GL}(2, \mathbb{R})$.  Let:
 \[
-H = {\rm GL}^+(n, \mathbb{R}) := \left\{ h \in G : \det h &gt; 0\right\}.
+H = {\rm GL}^+(2, \mathbb{R}) := \left\{ h \in G : \det h &gt; 0\right\}.
 \]
 (</paragraphs>
               <inline_keyword course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">Exercise:</inline_keyword>
@@ -437,11 +438,8 @@ H = {\rm GL}^+(n, \mathbb{R}) := \left\{ h \in G : \det h &gt; 0\right\}.
 \[
 s = \left(
 \begin{matrix}
--1 &amp; 0 &amp; 0&amp; 0 &amp; 0\\
-0&amp;1 &amp;0 &amp;0 &amp;0\\
-0&amp;0 &amp;1 &amp;0 &amp;0\\
-0&amp;0 &amp;0 &amp;\ddots&amp;0\\
-0&amp; 0 &amp;0 &amp;0 &amp;1
+-1 &amp; 0 \\
+ 0 &amp; 1 
 \end{matrix}
 \right) \in G
 \]
@@ -458,17 +456,14 @@ So, $G = H \sqcup s H$, and $[G : H] = 2$.
 Notice that both $G$ and $H$ are infinite groups, but the index of $H$ in $G$ is finite. </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="912af72c3d5172a3749363703f8f653c" course="Math 2070" chapter="3" slide="13" item="3.13">
-              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G = {\rm GL}(n, \mathbb{R})$, $H = {\rm SL}(n, \mathbb{R})$.
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="667cddcfdde11024629cfc37c229f86e" course="Math 2070" chapter="3" slide="13" item="3.13">
+              <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G = {\rm GL}(2, \mathbb{R})$, $H = {\rm SL}(2, \mathbb{R})$.
 For each $x \in \mathbb{R}^\times$, let:
 \[
 s_x = \left(
 \begin{matrix}
-x &amp; 0 &amp; 0&amp; 0 &amp; 0\\
-0&amp;1 &amp;0 &amp;0 &amp;0\\
-0&amp;0 &amp;1 &amp;0 &amp;0\\
-0&amp;0 &amp;0 &amp;\ddots&amp;0\\
-0&amp; 0 &amp;0 &amp;0 &amp;1
+x &amp; 0 
+0 &amp; 1 
 \end{matrix}
 \right) \in G
 \]

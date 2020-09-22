@@ -229,9 +229,9 @@ Then,
 @end
 @slide
 @eg
-Let $G = {\rm GL}(n, \mathbb{R})$.  Let:
+Let $G = {\rm GL}(2, \mathbb{R})$.  Let:
 \[
-H = {\rm GL}^+(n, \mathbb{R}) := \left\{ h \in G : \det h > 0\right\}.
+H = {\rm GL}^+(2, \mathbb{R}) := \left\{ h \in G : \det h > 0\right\}.
 \]
 (@keyword{Exercise:} $H$ is a subgroup of $G$.)
 
@@ -239,11 +239,8 @@ Let:
 \[
 s = \left(
 \begin{matrix}
--1 & 0 & 0& 0 & 0\\
-0&1 &0 &0 &0\\
-0&0 &1 &0 &0\\
-0&0 &0 &\ddots&0\\
-0& 0 &0 &0 &1
+-1 & 0 \\
+ 0 & 1 
 \end{matrix}
 \right) \in G
 \]
@@ -261,16 +258,13 @@ Notice that both $G$ and $H$ are infinite groups, but the index of $H$ in $G$ is
 @end
 
 @eg
-Let $G = {\rm GL}(n, \mathbb{R})$, $H = {\rm SL}(n, \mathbb{R})$.
+Let $G = {\rm GL}(2, \mathbb{R})$, $H = {\rm SL}(2, \mathbb{R})$.
 For each $x \in \mathbb{R}^\times$, let:
 \[
 s_x = \left(
 \begin{matrix}
-x & 0 & 0& 0 & 0\\
-0&1 &0 &0 &0\\
-0&0 &1 &0 &0\\
-0&0 &0 &\ddots&0\\
-0& 0 &0 &0 &1
+x & 0 
+0 & 1 
 \end{matrix}
 \right) \in G
 \]

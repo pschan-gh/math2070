@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -381,7 +382,7 @@ The kernel of $\phi$ is a subgroup of $G$. </paragraphs>
                 </col_li>
                 <col_li course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                   <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\det: \GL(n, \mathbb{R}) \longrightarrow (\mathbb{R}^\times, \cdot)$ </paragraphs>
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
+                  <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
                   <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $\ker \det = \SL(n, \mathbb{R})$. </paragraphs>
                   </newcol>
@@ -439,15 +440,7 @@ where $r_1$ denotes the anticlockwise rotation by the angle $2\pi/n$,
 and $r_k = r_1^k$.
 Then, $H$ is isomorphic to $\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$. </paragraphs>
             </statement>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
-            <keywords slide="15" environ="slide" chapter="4" course="Math 2070"/>
-            <div xmlns="http://www.w3.org/1999/xhtml" class="lcref-footer" environment="">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">https://www.math.cuhk.edu.hk/~pschan/cranach-dev?xml=https://raw.githubusercontent.com/pschan-gh/math2070/devel//week3.xml&amp;query=(//lv:statement[ </paragraphs>
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">@md</paragraphs>
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> 5='e13b4e54d682feb07aa9b2173056116a'])[1]&amp;version=0.42187687850834843</paragraphs>
-            </div>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4f482b84b61a1c354842df7121c45a5b" course="Math 2070" chapter="4" slide="15" of="ad58fb7dd7baadc4df44a7450c55af00">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4f482b84b61a1c354842df7121c45a5b" course="Math 2070" chapter="4" slide="14" of="ad58fb7dd7baadc4df44a7450c55af00">
               <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define $\phi: H \ra \mathbb{Z}_n$ as follows:
 \[\phi(r_k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.\] </paragraphs>

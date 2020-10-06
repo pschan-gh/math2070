@@ -56,8 +56,7 @@ it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$.
 @cor
 @newcol
 If the order of a group $G$ is prime, then $G$ is a cyclic group.
-
-@ref{pf:primecyclic}
+<!-- @ref{pf:primecyclic} -->
 @endcol
 @end
 @cor
@@ -65,7 +64,8 @@ If the order of a group $G$ is prime, then $G$ is a cyclic group.
 If a group $G$ is finite, then for all $g \in G$ we have:
 \[
 g^{\abs{G}} = e.
-\] @ref{pf:ghatordGeqe}
+\] 
+<!-- @ref{pf:ghatordGeqe} -->
 @endcol
 @end
 @slide
@@ -207,8 +207,7 @@ The kernel of $\phi$ is a subgroup of $G$.
 @claim
 @newcol
 A group homomorphism $\phi: G \ra G'$ is one-to-one if and only if $\ker \phi = \{e_G\}$.
-
-@ref{pf:kernelonetoone}
+<!-- @ref{pf:kernelonetoone} -->
 @endcol
 @end
 @slide

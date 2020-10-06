@@ -111,11 +111,10 @@ is equal to $\ord g$,
 it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="3" md5="34537484728fec1aaba97b2d2c2ba958" course="Math 2070" chapter="4" slide="4" item="4.3">
               <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If the order of a group $G$ is prime, then $G$ is a cyclic group.</paragraphs>
-                <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <ref environment="newcol" chapter_type="" label="pf:primecyclic" wbtag="ref" course="Math 2070" chapter="4" slide="4">
-                  <title>UNDEFINED</title>
-                </ref>
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If the order of a group $G$ is prime, then $G$ is a cyclic group. </paragraphs>
+                <paragraphs>
+                  <!-- @ref{pf:primecyclic} -->
+                </paragraphs>
               </newcol>
             </statement>
             <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="4" md5="de847a24a3d3cd440a891b2601092d0f" course="Math 2070" chapter="4" slide="4" item="4.4">
@@ -123,10 +122,10 @@ it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$. </
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If a group $G$ is finite, then for all $g \in G$ we have:
 \[
 g^{\abs{G}} = e.
-\] </paragraphs>
-                <ref environment="newcol" chapter_type="" label="pf:ghatordGeqe" wbtag="ref" course="Math 2070" chapter="4" slide="4">
-                  <title>UNDEFINED</title>
-                </ref>
+\]  </paragraphs>
+                <paragraphs>
+                  <!-- @ref{pf:ghatordGeqe} -->
+                </paragraphs>
               </newcol>
             </statement>
           </slide>
@@ -355,11 +354,10 @@ The kernel of $\phi$ is a subgroup of $G$. </paragraphs>
             </statement>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="12" md5="7758417e9a45c15356c0ddde1f517645" course="Math 2070" chapter="4" slide="11" item="4.12">
               <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A group homomorphism $\phi: G \ra G'$ is one-to-one if and only if $\ker \phi = \{e_G\}$.</paragraphs>
-                <newline course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                <ref environment="newcol" chapter_type="" label="pf:kernelonetoone" wbtag="ref" course="Math 2070" chapter="4" slide="11">
-                  <title>UNDEFINED</title>
-                </ref>
+                <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A group homomorphism $\phi: G \ra G'$ is one-to-one if and only if $\ker \phi = \{e_G\}$. </paragraphs>
+                <paragraphs>
+                  <!-- @ref{pf:kernelonetoone} -->
+                </paragraphs>
               </newcol>
             </statement>
           </slide>

@@ -183,7 +183,7 @@ Two integers $a, b \in \mathbb{Z}$ are relatively prime if and only if there exi
 such that $ax + by = 1$.
 @endcol
 @end
-@keyword{Bézout's Lemma}
+@keyword*{Bézout's Lemma}
 @proof
 @newcol
 If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.

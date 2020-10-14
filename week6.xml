@@ -301,7 +301,7 @@ we have:
 such that $ax + by = 1$. </paragraphs>
                 </newcol>
               </statement>
-              <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="">Bézout's Lemma</inline_keyword>
+              <hc_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">Bézout's Lemma</hc_keyword>
               <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="5957330802d1e74f36567f3f2017c8d6" course="Math 2070" chapter="6" slide="8" of="22c7d97218ccb225ee4ecae2e9b78916">
                 <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.

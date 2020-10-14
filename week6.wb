@@ -6,25 +6,26 @@
 @topic{Chinese Remainder Theorem}
 @section{Further Results in Elementary Number Theory}
 @defn
- The @keyword{Greatest Common Divisor} $gcd(a, b)$ of $a, b \in \mathbb{Z}$ is the largest positive integer
+The @keyword{Greatest Common Divisor} $gcd(a, b)$ of $a, b \in \mathbb{Z}$ is the largest positive integer
 $d$ which divides both $a$ and $b$ (Notation: $d | a$ and $d | b$).
 @end
 
-<strong>Note.</strong> @newcol
- If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
+<strong>Note.</strong>
+@newcol
+If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
 $gcd(0, 0)$ is undefined.
 @endcol
 
 @subsection{Euclidean Algorithm}
 @lemma
 @newcol
- If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
+If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
 $gcd(b, a) = gcd (a, r)$.
 @endcol
 @end
 @proof
 @newcol
- If $d | a$ and $d | b$, then $d | r = b - aq$.
+If $d | a$ and $d | b$, then $d | r = b - aq$.
 Conversely, if $d | a$ and $d | r$, then $d|a$ and $d|b = qa+r$.
 So, the set of common divisors of $a, b$ is the same as the set of the common divisors of $a, r$.
 If two finite sets of integers are the same, then their largest elements are clearly the same.
@@ -36,18 +37,17 @@ gcd(b, a) = gcd(a, r).
 @endcol
 @end
 @slide
-@label{sec:euclidalg}
 Suppose $\abs{b} \geq \abs{a}$.  Let $b_0 = b$, $a_0 = a$.
 Write $b_0 = a_0q_0 + r_0$, where $0 \leq r_0 < \abs{a_0}$.
 
 @newcol
- For $n > 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
+For $n > 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
 $r_n$ is the remainder of the division of $b_n$ by $a_n$.  That is,
 \[
 b_n = a_nq_n + r_n, \quad  0 \leq r_n < \abs{a_n}.
 \]
 @col
- If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
+If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
 Now, suppose $r_0 > 0$.
 Since $r_n$ is a non-negative integer and  $0 \leq r_n < r_{n - 1}$,
 eventually, $r_n = 0$ for some $n \in \mathbb{N}$.
@@ -55,17 +55,17 @@ eventually, $r_n = 0$ for some $n \in \mathbb{N}$.
 
 @claim
 @newcol
- $gcd(b, a) = \abs{a_n}$.
+$gcd(b, a) = \abs{a_n}$.
 @endcol
 @end
 @proof
 @newcol
- By the previous lemma,
+By the previous lemma,
 @steps
 \[
 \begin{split}
 gcd(b, a) &= gcd(b_0, a_0)\\
- &
+&
 @nstep{= gcd(a_0, r_0) = gcd(b_1, a_1)}
 \\
 &
@@ -78,7 +78,6 @@ gcd(b, a) &= gcd(b_0, a_0)\\
 @nstep{= gcd(a_{n}, r_{n}) = gcd(a_n, 0) = \abs{a_n}.}
 \end{split}
 \]
-
 @endsteps
 
 @endcol
@@ -86,7 +85,7 @@ gcd(b, a) &= gcd(b_0, a_0)\\
 
 @slide
 @eg
- Find $gcd(285,255)$.
+Find $gcd(285,255)$.
 
 @newcol
 @steps
@@ -103,10 +102,9 @@ gcd(b, a) &= gcd(b_0, a_0)\\
 @nstep{=\underbrace{15}_{a_2} \underbrace{2}_{q_2} + \underbrace{0}_{r_2}}
 \end{split}
 \]
-
 @endsteps
 @col
- So, $gcd(285, 255) = r_1 = 15$.
+So, $gcd(285, 255) = r_1 = 15$.
 @endcol
 @end
 @slide
@@ -122,27 +120,21 @@ There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$.
 <hr/>
 <strong>Approach 1.</strong>
 @newcol
-Recall the notation used in @ref{sec:euclidalg}.
-We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$.
-<br/>
-We may prove Bézout's Lemma via mathematical induction as follows:
-<br/>
+Recall the notation used in @ref{sec:euclidalg} .
+We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$. <br/> We may prove Bézout's Lemma via mathematical induction as follows: <br/>
 @col
 First, for integers $0 \leq l < \min(n - 1, 2)$, show that there exist
 $x_l, y_l \in \mathbb{Z}$ such that $r_l = a x_l + b y_l$.
-This is the base step of the induction proof.
-<br/>
+This is the base step of the induction proof. <br/>
 @col
 We now carry out the inductive step.
 Suppose $n - 1 \geq 2$. For any integer $2 \leq k \leq n - 1$,
 suppose $r_l = a x_l + b y_l$ for some $x_l, y_l \in \mathbb{Z}$, for all
-$0\leq l < k$.
-<br/>
+$0\leq l < k$. <br/>
 Show that:
 \[r_k = \underbrace{b_k}_{a_{k - 1} = r_{k - 2}} - q_{k} \underbrace{a_{k}}_{r_{k - 1}}\]
 also has the form $r_k = a x_k + b y_k$
-for some $x_k, y_k \in \mathbb{Z}$.
-<br/>
+for some $x_k, y_k \in \mathbb{Z}$. <br/>
 @col
 The desired identity $gcd(a, b) = r_{n - 1} = ax_{n - 1} + by_{n - 1}$
 then follows by mathemtical induction.
@@ -183,13 +175,11 @@ Two integers $a, b \in \mathbb{Z}$ are relatively prime if and only if there exi
 such that $ax + by = 1$.
 @endcol
 @end
-@keyword{Bézout's Lemma}
+@keyword*{Bézout's Lemma}
 @proof
 @newcol
 If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
-So, by
-@ref{bezoutslemma}
-there exist $x, y \in \mathbb{Z}$ such that:
+So, by @ref{bezoutslemma} there exist $x, y \in \mathbb{Z}$ such that:
 \[ax + by = gcd(a, b) = 1.\]
 Conversely,
 suppose $ax + by = 1$ for some $x, y \in \mathbb{Z}$.
@@ -247,14 +237,13 @@ c = as = bt.
 \]
 @col
 So, $a | as = bt$,
-which by
-@ref{euclidslemmageneral}
-implies that $a | t$, since $gcd(a, b) = 1$.
+which by @ref{euclidslemmageneral} implies that $a | t$, since $gcd(a, b) = 1$.
 
 @col
 Hence, $t = au$ for some $u \in \mathbb{Z}$, and we have $c = bt = ab u$.
 It follows that $ab | c$.
 @qed
+@endcol
 @end
 @slide
 @thm
@@ -265,8 +254,7 @@ Let $a$ be a positive integer $\geq 2$. Then,
 @li
 The integer $a$ is either a prime or a product of primes.
 @li
-@keyword{Unique Factorization}
-The integer $a$ may be written uniquely as
+@keyword{Unique Factorization} The integer $a$ may be written uniquely as
 \[
 a = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l},
 \]
@@ -274,7 +262,7 @@ where $p_1, p_2, \cdots, p_l$ are distinct prime numbers, and $n_1, n_2, \ldots,
 @endol
 @end
 @proof
-@col
+@newcol
 We prove Part 1 of the theorem by contradiction.
 
 @col
@@ -290,7 +278,7 @@ In particular, $a, b < m$.
 So, $a$ and $b$ must be either primes or products of primes, which implies that $m$ is itself a product of primes, a contradiction.
 <hr/>
 @col
-We now prove Part 2 (@keyword{Unique Factorization}) of the theorem by induction.
+We now prove Part 2 ( @keyword{Unique Factorization} ) of the theorem by induction.
 
 @col
 The base step corresponds to the case $l = 1$.
@@ -371,13 +359,12 @@ This establishes the inductive step, and completes the proof.
 @webwork{Library/SUNYSB/gcd.pg}
 @endenumerate
 @section{Modular Arithmetic}
+@keyword*{congruence}
 @defn
 Let $m$ be a positive integer, then $a, b \in \mathbb{Z}$ are said to be:
 
 <center>
-@keyword*{congruence}
-@keyword{congruent modulo $m$}
-</center>
+@keyword{congruent modulo $m$}</center>
 \[
 a \equiv b \mod m,
 \]
@@ -385,12 +372,8 @@ if $m | (a - b)$.
 @end
 @claim
 @newcol
-The congruence relation $\equiv$ is an
-@keyword{equivalence relation}
-. In other words, it
-is:
-<p/>
-<ul>
+The congruence relation $\equiv$ is an @keyword{equivalence relation} . In other words, it
+is: <p/><ul>
 <li>
 @keyword{Reflexive}:<br/> $a \equiv a \mod m$;
 
@@ -454,13 +437,11 @@ to exactly one of $\{0, 1, 2, \ldots, m - 1\}$.
 @proof
 @newcol
 By Part 1 of the claim, $a$ is congruent mod $m$ to the remainder $r$
-of the division of $a$ by $m$.
-<br/>
+of the division of $a$ by $m$. <br/>
 @col
 By definition, the remainder $r$ lies in $\{0, 1, 2, \ldots, m - 1\}$.
 If $a \equiv r' \mod m$, for some $r' \in \{0, 1, 2, \ldots, m - 1\}$,
-then by transitivity, we have $r' \equiv r \mod m$.
-<br/>
+then by transitivity, we have $r' \equiv r \mod m$. <br/>
 @col
 By Part 2 of the claim, we have $r = r'$.
 @qed
@@ -516,14 +497,10 @@ For $a \in \mathbb{Z}$, $a^2 \equiv 0, 1$, or $4 \mod 8$.
 @end
 @proof
 @newcol
-By
-@ref{congremainder}
-,
+By @ref{congremainder} ,
 any $a \in \mathbb{Z}$ is congruent modulo $8$ to exactly one
 element in $\{0, 1, 2, \ldots, 7\}$.
-So, by
-@ref{congcompat}
-,
+So, by @ref{congcompat} ,
 $a^2$ is congruent modulo 8 to one of:
 \[
 \{0^2, 1^2, 2^2, 3^2, 4^2, 5^2, 6^2, 7^2\} = \{0, 1, 4, 9, 16, 25, 36, 49\}.
@@ -540,11 +517,7 @@ $ax \equiv 1 \mod m$.
 @end
 @proof
 @newcol
-Since $a$ and $m$ are relatively prime, by
-@keyword{Bézout's Lemma}
-(
-@ref{bezoutslemma}
-)
+Since $a$ and $m$ are relatively prime, by @keyword{Bézout's Lemma} ( @ref{bezoutslemma} )
 there exist $x, y \in \mathbb{Z}$ such that:
 \[
 ax + my = 1.
@@ -594,11 +567,8 @@ for some $r \in \mathbb{Z}$.
 @end
 @proof
 @newcol
-Since $m_1$ and $m_2$ are relatively prime, by
-@ref{thm:inversemodm}
-there exists $n \in \mathbb{Z}$ such that $m_1n \equiv 1 \mod m_2$.
-Let $x = m_1n(r_2 - r_1) + r_1$.
-<br/>
+Since $m_1$ and $m_2$ are relatively prime, by @ref{thm:inversemodm} there exists $n \in \mathbb{Z}$ such that $m_1n \equiv 1 \mod m_2$.
+Let $x = m_1n(r_2 - r_1) + r_1$. <br/>
 @col
 Since:
 \[
@@ -613,11 +583,9 @@ Moreover, since $m_1n \equiv 1 \mod m_2$, we have:
 \[
 x = m_1n(r_2 - r_1) + r_1 \equiv r_2 - r_1 + r_1 \equiv r_2 \mod m_2.
 \]
-This shows that the system of congruence relations has at least one solution.
-<br/>
+This shows that the system of congruence relations has at least one solution. <br/>
 @col
-If $x'$ is another solution to the system, then:
-<br/>
+If $x'$ is another solution to the system, then: <br/>
 @col
 \begin{eqnarray*}
 x - x' &\equiv r_1 - r_1 &\equiv 0 \mod m_1,\\
@@ -691,9 +659,7 @@ or equivalently:
 34s \equiv -4 \mod 27.
 \end{equation}
 @col
-Since $gcd(34, 27) = 1$, by
-@ref{thm:inversemodm}
-there exists $a \in \mathbb{Z}$ such that $a\cdot 34 \equiv 1 \mod 27$.
+Since $gcd(34, 27) = 1$, by @ref{thm:inversemodm} there exists $a \in \mathbb{Z}$ such that $a\cdot 34 \equiv 1 \mod 27$.
 To find $a$, we perform the Euclidean Algorithm on $34$ and $27$:
 \[
 \begin{split}

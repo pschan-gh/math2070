@@ -15,7 +15,6 @@
       <keyword chapter="" slide="all">Symmetric</keyword>
       <keyword chapter="" slide="all">Transitive</keyword>
       <keyword chapter="" slide="all">Bézout's Lemma</keyword>
-      <keyword chapter="" slide="all">Bézout's Lemma</keyword>
       <keyword chapter="" slide="all">Euclid's Lemma</keyword>
       <keyword chapter="" slide="all">The Fundamental Theorem of Arithmetic</keyword>
       <keyword chapter="" slide="all">Chinese Remainder Theorem</keyword>
@@ -41,7 +40,6 @@
         <keyword chapter="6" slide="all">Reflexive</keyword>
         <keyword chapter="6" slide="all">Symmetric</keyword>
         <keyword chapter="6" slide="all">Transitive</keyword>
-        <keyword chapter="6" slide="all">Bézout's Lemma</keyword>
         <keyword chapter="6" slide="all">Bézout's Lemma</keyword>
         <keyword chapter="6" slide="all">Euclid's Lemma</keyword>
         <keyword chapter="6" slide="all">The Fundamental Theorem of Arithmetic</keyword>
@@ -794,24 +792,19 @@ The numbers above a congruent modulo 8 to 0, 1, or 4. The claim follows. </parag
             </substatement>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
-            <keywords slide="17" environ="slide" chapter="6" course="Math 2070">
-              <keyword chapter="6" slide="17">Bézout's Lemma</keyword>
-            </keywords>
+            <keywords slide="17" environ="slide" chapter="6" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="21" md5="22345bc82e7768bc01872dcfa453331a" course="Math 2070" chapter="6" slide="17" item="6.21">
               <label course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:inversemodm" type="Theorem"/>
               <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $a$ and $m$ are relatively prime, then there exists $x \in \mathbb{Z}$ such that
 $ax \equiv 1 \mod m$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="143f9b4933db1778470ce9d1132b62a2" course="Math 2070" chapter="6" slide="17" of="22345bc82e7768bc01872dcfa453331a">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="93ca9773dff8fb92d40e14a34deebd58" course="Math 2070" chapter="6" slide="17" of="22345bc82e7768bc01872dcfa453331a">
               <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $a$ and $m$ are relatively prime, by </paragraphs>
-                <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Bézout's Lemma</inline_keyword>
-                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ( </paragraphs>
                 <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="17" src-course="Math 2070" src-chapter="6" src-slide="7" type="Claim" item="6.5" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
                   <title>Bézout's Lemma</title>
                 </ref>
-                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> )
-there exist $x, y \in \mathbb{Z}$ such that:
+                <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
 \[
 ax + my = 1.
 \] </paragraphs>

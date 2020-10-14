@@ -329,7 +329,6 @@ are $\pm 1$. </paragraphs>
               </statement>
               <statement environment="statement" chapter_type="" type="Lemma" wbtag="lemma" num="11" title="Euclid's Lemma" md5="fce9d6acc542327fa0763877a4905bf2" course="Math 2070" chapter="6" slide="9" item="6.11">
                 <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" serial="" slide="9">Euclid's Lemma</title>
-                <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement"/>
                 <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $a, b$ be integers.
 If $p$ is prime and $p | ab$, then $p$ divides at least one of $a$ and $b$. </paragraphs>

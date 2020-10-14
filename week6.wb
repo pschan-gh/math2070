@@ -204,7 +204,6 @@ are $\pm 1$.
 @end
 @lemma
 @title{Euclid's Lemma}
-
 @newcol
 Let $a, b$ be integers.
 If $p$ is prime and $p | ab$, then $p$ divides at least one of $a$ and $b$.

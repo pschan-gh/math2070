@@ -94,7 +94,7 @@ $gcd(0, 0)$ is undefined. </paragraphs>
           <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="6" section="1" subsection="" subsubsection="" serial="6.1.1" slide="">
             <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
           </title>
-          <label course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="label" name="sec:euclidalg" type="Section"/>
+          <label wbtag="label" name="sec:euclidalg" type="Section"/>
           <slides environment="" chapter_type="">
             <slide environment="" chapter_type="Week" canon_num="4" scope="subsection" id="s4" slide="4" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
               <keywords slide="4" environ="slide" chapter="6" course="Math 2070"/>
@@ -206,7 +206,7 @@ gcd(b, a) &amp;= gcd(b_0, a_0)\\
               </keywords>
               <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="5" title="B&#xE9;zout's Lemma" md5="78dcabe2aa157a7972614bccf4d63cc0" course="Math 2070" chapter="6" slide="7" item="6.5">
                 <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" serial="" slide="7">Bézout's Lemma</title>
-                <label course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="label" name="bezoutslemma" type="Claim"/>
+                <label wbtag="label" name="bezoutslemma" type="Claim"/>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Let $a, b$ be nonzero integers.
 There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
               </statement>
@@ -221,10 +221,8 @@ There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
                   </strong>
                   <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Recall the notation used in </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7" src-course="Math 2070" src-chapter="6" src-slide="" type="Section" src-filename="week6.xml" md5="" class="lcref" serial="6.1.1">
-                      <title>
-            <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
-          </title>
+                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7">
+                      <title>UNDEFINED</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">.
 We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$. </paragraphs>
@@ -347,7 +345,7 @@ Since $p | apx$ and $p | aby$, we have $p | a = a\underbrace{(px + by)}_{= 1}$. 
               <keywords slide="10" environ="slide" chapter="6" course="Math 2070"/>
               <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> More generally, </paragraphs>
               <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="12" md5="8d6c961f7fb13580b65c45ba76b8bead" course="Math 2070" chapter="6" slide="10" item="6.12">
-                <label course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="label" name="euclidslemmageneral" type="Claim"/>
+                <label wbtag="label" name="euclidslemmageneral" type="Claim"/>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> If $a, b$ are relatively prime and $a | bc$, then $a | c$. </paragraphs>
               </statement>
               <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="6" slide="10" of="8d6c961f7fb13580b65c45ba76b8bead">
@@ -396,7 +394,7 @@ It follows that $ab | c$. </paragraphs>
               </keywords>
               <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="14" title="The Fundamental Theorem of Arithmetic" md5="d82a6d14efc507a18d8496d0b9cfe404" course="Math 2070" chapter="6" slide="11" item="6.14">
                 <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" serial="" slide="11">The Fundamental Theorem of Arithmetic</title>
-                <label course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="label" name="thm:fta" type="Theorem"/>
+                <label wbtag="label" name="thm:fta" type="Theorem"/>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Let $a$ be a positive integer $\geq 2$. Then, </paragraphs>
                 <col_ol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
@@ -659,7 +657,7 @@ that $a \equiv c \mod m$. </paragraphs>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
             <keywords slide="14" environ="slide" chapter="6" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="17" md5="d884acf7c8ea7ec4fb60499df8725ef2" course="Math 2070" chapter="6" slide="14" item="6.17">
-              <label course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="claim:congremainder" type="Claim"/>
+              <label wbtag="label" name="claim:congremainder" type="Claim"/>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $a = qm + r$, then $a \equiv r \mod m$. </paragraphs>
@@ -673,7 +671,7 @@ that $a \equiv c \mod m$. </paragraphs>
               <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement">Exercise.</inline_keyword>
             </substatement>
             <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="a360e8a2dbb188f3a0742bcbe26bb2cf" course="Math 2070" chapter="6" slide="14" item="6.18">
-              <label course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="congremainder" type="Corollary"/>
+              <label wbtag="label" name="congremainder" type="Corollary"/>
               <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given integer $m \geq 2$, every $a \in \mathbb{Z}$ is congruent modulo $m$
 to exactly one of $\{0, 1, 2, \ldots, m - 1\}$. </paragraphs>
@@ -700,7 +698,7 @@ then by transitivity, we have $r' \equiv r \mod m$. </paragraphs>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
             <keywords slide="15" environ="slide" chapter="6" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="19" md5="14a4a87fe292c8015bdeac65486af4b4" course="Math 2070" chapter="6" slide="15" item="6.19">
-              <label course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="congcompat" type="Theorem"/>
+              <label wbtag="label" name="congcompat" type="Theorem"/>
               <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Congruence is compatible with addition and multiplication in the following sense: </paragraphs>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
@@ -793,7 +791,7 @@ The numbers above a congruent modulo 8 to 0, 1, or 4. The claim follows. </parag
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
             <keywords slide="17" environ="slide" chapter="6" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="21" md5="22345bc82e7768bc01872dcfa453331a" course="Math 2070" chapter="6" slide="17" item="6.21">
-              <label course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:inversemodm" type="Theorem"/>
+              <label wbtag="label" name="thm:inversemodm" type="Theorem"/>
               <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $a$ and $m$ are relatively prime, then there exists $x \in \mathbb{Z}$ such that
 $ax \equiv 1 \mod m$. </paragraphs>
             </statement>

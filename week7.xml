@@ -242,7 +242,7 @@ that $r_{n-1}$ is a GCD of $f$ and $g$.  </paragraphs>
               <keyword chapter="7" slide="7">Bézout's Identity for Polynomials</keyword>
             </keywords>
             <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" title="B&#xE9;zout's Identity for Polynomials" md5="ff0cf605977388ae70fe17f3161c10ab" course="Math 2070" chapter="7" slide="7" item="7.6">
-              <label course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="bezoutpolynomial" type="Corollary"/>
+              <label wbtag="label" name="bezoutpolynomial" type="Corollary"/>
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="7">Bézout's Identity for Polynomials</title>
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any $f, g \in \mathbb{Q}[x]$ which are not both zero,
 and $d$ a GCD of $f$ and $g$,

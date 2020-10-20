@@ -140,15 +140,52 @@ and arguments similar to those used in the case of $\mathbb{Z}$
 that $r_{n-1}$ is a GCD of $f$ and $g$. 
 @endcol
 @end
+@slide
 @eg
-@newcol
-@ol
-@li
-Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$. 
-@li
+@label{eg:euclidalgpoly}
+@enumerate
+@item
+Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
+
+@col
+@steps
+\begin{align*}
+x^{5} + 1 & 
+@nstep{=\left(x^{3} + 1\right)\left(x^{2}\right) + \left(-x^{2} + 1\right)}
+\\
+@nstep{x^{3} + 1}
+&
+@nstep{= \left(-x^{2} + 1\right)\left(-x\right) + \left(x + 1\right)}
+\\
+@nstep{-x^{2} + 1} 
+&
+@nstep{= \left(x + 1\right)\left(-x + 1\right) + \left(0\right)}
+\end{align*}
+@endsteps
+@col
+So, a GCD is $x + 1$.
+@item
 Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$. 
-@endol
-@endcol
+
+@col
+@steps
+\begin{align*}
+x^{3} - x^{2} - x + 1 
+&
+@nstep{= \left(x^{3} + 4 x^{2} + x - 6\right)\left(1\right) + \left(-5 x^{2} - 2 x + 7\right)}
+\\
+@nstep{x^{3} + 4 x^{2} + x - 6}
+&
+@nstep{= \left(-5 x^{2} - 2 x + 7\right)\left(-\frac{1}{5} x - \frac{18}{25}\right) + \left(\frac{24}{25} x - \frac{24}{25}\right)}
+\\
+@nstep{-5 x^{2} - 2 x + 7}
+&
+@nstep{= \left(\frac{24}{25} x - \frac{24}{25}\right)\left(-\frac{125}{24} x - \frac{175}{24}\right) + \left(0\right)}
+\end{align*}
+@endsteps
+@col
+So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$.
+@endenumerate
 @end
 @slide
 @cor
@@ -160,6 +197,19 @@ there exist $u, v \in \mathbb{Q}[x]$ such that:
 \[
 d = fu + gv.
 \] 
+@end
+
+@eg
+In @ref{eg:euclidalgpoly}, we have:
+@steps
+\begin{align*}
+(x + 1) &= \left(x^3 + 1\right) - \left(-x^{2} + 1\right)\left(-x\right)
+\\&
+@nstep{= \left(x^3 + 1\right) - \left(\left(x^{5} + 1\right) - \left(x^{3} + 1\right)\left(x^{2}\right)\right)\left(-x\right)}
+\\&
+@nstep{= \bigg(x\bigg)\bigg(x^{5} + 1\bigg) + \bigg(-x^{3} + 1\bigg)\bigg(x^{3} + 1\bigg)}
+\end{align*}
+@endsteps
 @end
 @section{Factorization of Polynomials}
 @defn

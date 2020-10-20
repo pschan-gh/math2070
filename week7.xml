@@ -224,32 +224,92 @@ that $r_{n-1}$ is a GCD of $f$ and $g$.  </paragraphs>
                 </collapse>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="e02017ac4c516c9722e5cc21307625d6" course="Math 2070" chapter="7" slide="6" item="7.5">
-              <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <col_ol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-                  <col_li course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.  </paragraphs>
-                  </col_li>
-                  <col_li course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.  </paragraphs>
-                  </col_li>
-                </col_ol>
-              </newcol>
-            </statement>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials with Rational Coefficients">
-            <keywords slide="7" environ="slide" chapter="7" course="Math 2070">
-              <keyword chapter="7" slide="7">Bézout's Identity for Polynomials</keyword>
+            <keywords slide="7" environ="slide" chapter="7" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="99d3d45a66a0beddbcb0975e00acea0d" course="Math 2070" chapter="7" slide="7" item="7.5">
+              <label wbtag="label" name="eg:euclidalgpoly" type="Example"/>
+              <enumerate course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <item course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.</paragraphs>
+                  <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate"/>
+                  <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\begin{align*}
+x^{5} + 1 &amp; 
+\class{steps}{\cssId{step0}{=\left(x^{3} + 1\right)\left(x^{2}\right) + \left(-x^{2} + 1\right)}}
+\\
+\class{steps}{\cssId{step1}{x^{3} + 1}}
+&amp;
+\class{steps}{\cssId{step2}{= \left(-x^{2} + 1\right)\left(-x\right) + \left(x + 1\right)}}
+\\
+\class{steps}{\cssId{step3}{-x^{2} + 1}} 
+&amp;
+\class{steps}{\cssId{step4}{= \left(x + 1\right)\left(-x + 1\right) + \left(0\right)}}
+\end{align*}
+</steps>
+                    <collapse course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, a GCD is $x + 1$. </paragraphs>
+                    </collapse>
+                  </newcol>
+                </item>
+                <item course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.</paragraphs>
+                  <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate"/>
+                  <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+\begin{align*}
+x^{3} - x^{2} - x + 1 
+&amp;
+\class{steps}{\cssId{step0}{= \left(x^{3} + 4 x^{2} + x - 6\right)\left(1\right) + \left(-5 x^{2} - 2 x + 7\right)}}
+\\
+\class{steps}{\cssId{step1}{x^{3} + 4 x^{2} + x - 6}}
+&amp;
+\class{steps}{\cssId{step2}{= \left(-5 x^{2} - 2 x + 7\right)\left(-\frac{1}{5} x - \frac{18}{25}\right) + \left(\frac{24}{25} x - \frac{24}{25}\right)}}
+\\
+\class{steps}{\cssId{step3}{-5 x^{2} - 2 x + 7}}
+&amp;
+\class{steps}{\cssId{step4}{= \left(\frac{24}{25} x - \frac{24}{25}\right)\left(-\frac{125}{24} x - \frac{175}{24}\right) + \left(0\right)}}
+\end{align*}
+</steps>
+                    <collapse course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$. </paragraphs>
+                    </collapse>
+                  </newcol>
+                </item>
+              </enumerate>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials with Rational Coefficients">
+            <keywords slide="8" environ="slide" chapter="7" course="Math 2070">
+              <keyword chapter="7" slide="8">Bézout's Identity for Polynomials</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" title="B&#xE9;zout's Identity for Polynomials" md5="ff0cf605977388ae70fe17f3161c10ab" course="Math 2070" chapter="7" slide="7" item="7.6">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" title="B&#xE9;zout's Identity for Polynomials" md5="ff0cf605977388ae70fe17f3161c10ab" course="Math 2070" chapter="7" slide="8" item="7.6">
               <label wbtag="label" name="bezoutpolynomial" type="Corollary"/>
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="7">Bézout's Identity for Polynomials</title>
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="8">Bézout's Identity for Polynomials</title>
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any $f, g \in \mathbb{Q}[x]$ which are not both zero,
 and $d$ a GCD of $f$ and $g$,
 there exist $u, v \in \mathbb{Q}[x]$ such that:
 \[
 d = fu + gv.
 \]  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="636d802595fa9442291dc296c169b597" course="Math 2070" chapter="7" slide="8" item="7.7">
+              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> In </paragraphs>
+              <ref environment="statement" chapter_type="" label="eg:euclidalgpoly" wbtag="ref" course="Math 2070" chapter="7" slide="8" src-course="Math 2070" src-chapter="7" src-slide="7" type="Example" item="7.5" src-filename="week7.xml" md5="99d3d45a66a0beddbcb0975e00acea0d" class="lcref" serial="">
+                <title>Example 7.5</title>
+              </ref>
+              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">, we have: </paragraphs>
+              <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="steps" stepsid="steps3">
+\begin{align*}
+(x + 1) &amp;= \left(x^3 + 1\right) - \left(-x^{2} + 1\right)\left(-x\right)
+\\&amp;
+\class{steps}{\cssId{step0}{= \left(x^3 + 1\right) - \left(\left(x^{5} + 1\right) - \left(x^{3} + 1\right)\left(x^{2}\right)\right)\left(-x\right)}}
+\\&amp;
+\class{steps}{\cssId{step1}{= \bigg(x\bigg)\bigg(x^{5} + 1\bigg) + \bigg(-x^{3} + 1\bigg)\bigg(x^{3} + 1\bigg)}}
+\end{align*}
+</steps>
             </statement>
           </slide>
         </slides>
@@ -259,14 +319,14 @@ d = fu + gv.
           <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Factorization of Polynomials</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" chapter_title="" section_title="Factorization of Polynomials">
-            <keywords slide="8" environ="slide" chapter="7" course="Math 2070">
-              <keyword chapter="7" slide="8">irreducible</keyword>
+          <slide environment="" chapter_type="Week" canon_num="9" scope="section" id="s9" slide="9" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" chapter_title="" section_title="Factorization of Polynomials">
+            <keywords slide="9" environ="slide" chapter="7" course="Math 2070">
+              <keyword chapter="7" slide="9">irreducible</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" serial="" slide="8">
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" serial="" slide="9">
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Factorization of Polynomials</paragraphs>
             </title>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="7" md5="2f3c2192596f4d4c9614493a61d39d27" course="Math 2070" chapter="7" slide="8" item="7.7">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="8" md5="2f3c2192596f4d4c9614493a61d39d27" course="Math 2070" chapter="7" slide="9" item="7.8">
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial $p$ in $\mathbb{Q}[x]$ is </paragraphs>
               <inline_keyword course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">irreducible</inline_keyword>
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if it satisfies the following conditions: </paragraphs>
@@ -281,18 +341,18 @@ is a constant. </paragraphs>
               </ol>
             </statement>
             <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="8" md5="7fb8cbda392fafb917e2f619870c315b" course="Math 2070" chapter="7" slide="8" item="7.8">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="7fb8cbda392fafb917e2f619870c315b" course="Math 2070" chapter="7" slide="9" item="7.9">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $p \in \mathbb{Q}[x]$ is irreducible and $p | f_1f_2$, where $f_1, f_2 \in \mathbb{Q}[x]$,
 then $p | f_1$ or $p | f_2$.  </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="8f80a5bf3289db79f084e06b93f45fae" course="Math 2070" chapter="7" slide="8" of="7fb8cbda392fafb917e2f619870c315b">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="8f80a5bf3289db79f084e06b93f45fae" course="Math 2070" chapter="7" slide="9" of="7fb8cbda392fafb917e2f619870c315b">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
 constant polynomials.
 In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutpolynomial" wbtag="ref" course="Math 2070" chapter="7" slide="8" src-course="Math 2070" src-chapter="7" src-slide="7" type="Corollary" item="7.6" src-filename="week7.xml" md5="ff0cf605977388ae70fe17f3161c10ab" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="bezoutpolynomial" wbtag="ref" course="Math 2070" chapter="7" slide="9" src-course="Math 2070" src-chapter="7" src-slide="8" type="Corollary" item="7.6" src-filename="week7.xml" md5="ff0cf605977388ae70fe17f3161c10ab" class="lcref" serial="">
                   <title>Bézout's Identity for Polynomials</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
@@ -306,12 +366,12 @@ Since $p$ divides the right-hand side of the above equation, it must divide $f_1
             </substatement>
             <newline course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" chapter_title="" section_title="Factorization of Polynomials">
-            <keywords slide="9" environ="slide" chapter="7" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="08cb214282b28e21ea0747f136287f70" course="Math 2070" chapter="7" slide="9" item="7.9">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" chapter_title="" section_title="Factorization of Polynomials">
+            <keywords slide="10" environ="slide" chapter="7" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="10" md5="08cb214282b28e21ea0747f136287f70" course="Math 2070" chapter="7" slide="10" item="7.10">
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial in $\mathbb{Q}[x]$ of degree greater than zero is either irreducible or a product of irreducibles.  </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="468ec01c8b81781fd122a6350b41132e" course="Math 2070" chapter="7" slide="9" of="08cb214282b28e21ea0747f136287f70">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="468ec01c8b81781fd122a6350b41132e" course="Math 2070" chapter="7" slide="10" of="08cb214282b28e21ea0747f136287f70">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose there is a nonempty set of polynomials of degree $&gt; 0$
 which are neither irreducible nor products of irreducibles.  Let
@@ -327,17 +387,17 @@ of irreducibles, a contradiction.  </paragraphs>
             </strong>
             <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Compare this proof with that of Part 1 of the
 Fundamental Theorem of Arithmetic (</paragraphs>
-            <ref environment="" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="9" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
+            <ref environment="" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="10" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
               <title>The Fundamental Theorem of Arithmetic</title>
             </ref>
             <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">).  </paragraphs>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" chapter_title="" section_title="Factorization of Polynomials">
-            <keywords slide="10" environ="slide" chapter="7" course="Math 2070">
-              <keyword chapter="7" slide="10">Unique Factorization for Polynomials</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" chapter_title="" section_title="Factorization of Polynomials">
+            <keywords slide="11" environ="slide" chapter="7" course="Math 2070">
+              <keyword chapter="7" slide="11">Unique Factorization for Polynomials</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="10" title="Unique Factorization for Polynomials" md5="400bbeb107f30d317445ee314dd287bf" course="Math 2070" chapter="7" slide="10" item="7.10">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" serial="" slide="10">Unique Factorization for Polynomials</title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Unique Factorization for Polynomials" md5="400bbeb107f30d317445ee314dd287bf" course="Math 2070" chapter="7" slide="11" item="7.11">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" serial="" slide="11">Unique Factorization for Polynomials</title>
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any $p \in \mathbb{Q}[x]$ of degree $&gt; 0$, if:
 \[
 p = f_1f_2\cdots f_n = g_1g_2\cdots g_m,
@@ -347,13 +407,13 @@ $n = m$, and the $g_j$'s may be reindexed so that
 $f_i = \lambda_i g_i$ for some $\lambda_i \in \mathbb{Q}$,
 for $i = 1, 2, \ldots, n$.  </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="aa755220921faf8169cb8568dc856abd" course="Math 2070" chapter="7" slide="10" of="400bbeb107f30d317445ee314dd287bf">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="aa755220921faf8169cb8568dc856abd" course="Math 2070" chapter="7" slide="11" of="400bbeb107f30d317445ee314dd287bf">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise</paragraphs>
                 </strong>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . See the proof of Part 2 of  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="10" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="11" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
                   <title>The Fundamental Theorem of Arithmetic</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ).  </paragraphs>
@@ -368,9 +428,9 @@ for $i = 1, 2, \ldots, n$.  </paragraphs>
           <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rings</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="11" scope="section" id="s11" slide="11" course="Math 2070" chapter="7" section="3" subsection="" subsubsection="" chapter_title="" section_title="Rings">
-            <keywords slide="11" environ="slide" chapter="7" course="Math 2070"/>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="7" section="3" subsection="" subsubsection="" serial="" slide="11">
+          <slide environment="" chapter_type="Week" canon_num="12" scope="section" id="s12" slide="12" course="Math 2070" chapter="7" section="3" subsection="" subsubsection="" chapter_title="" section_title="Rings">
+            <keywords slide="12" environ="slide" chapter="7" course="Math 2070"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="7" section="3" subsection="" subsubsection="" serial="" slide="12">
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rings</paragraphs>
             </title>
           </slide>
@@ -380,16 +440,16 @@ for $i = 1, 2, \ldots, n$.  </paragraphs>
             <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Definition of a Ring</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="12" scope="subsection" id="s12" slide="12" course="Math 2070" chapter="7" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
-              <keywords slide="12" environ="slide" chapter="7" course="Math 2070">
-                <keyword chapter="7" slide="12">ring</keyword>
-                <keyword chapter="7" slide="12">additive identity element</keyword>
-                <keyword chapter="7" slide="12">multiplicative identity element</keyword>
+            <slide environment="" chapter_type="Week" canon_num="13" scope="subsection" id="s13" slide="13" course="Math 2070" chapter="7" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
+              <keywords slide="13" environ="slide" chapter="7" course="Math 2070">
+                <keyword chapter="7" slide="13">ring</keyword>
+                <keyword chapter="7" slide="13">additive identity element</keyword>
+                <keyword chapter="7" slide="13">multiplicative identity element</keyword>
               </keywords>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="7" section="3" subsection="1" subsubsection="" serial="" slide="12">
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="7" section="3" subsection="1" subsubsection="" serial="" slide="13">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Definition of a Ring</paragraphs>
               </title>
-              <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="11" md5="0a206b94603b3aa73ff196bc390ebe06" course="Math 2070" chapter="7" slide="12" item="7.11">
+              <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="12" md5="0a206b94603b3aa73ff196bc390ebe06" course="Math 2070" chapter="7" slide="13" item="7.12">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> A </paragraphs>
                 <inline_keyword course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement">ring</inline_keyword>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> $R$ (or $(R, +, \times)$) is a set equipped with two operations:
@@ -470,9 +530,9 @@ That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in 
                 </col_ol>
               </newcol>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="7" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
-              <keywords slide="13" environ="slide" chapter="7" course="Math 2070"/>
-              <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="12" md5="303020730acce82f67b8b05fe15b5e93" course="Math 2070" chapter="7" slide="13" item="7.12">
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="7" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
+              <keywords slide="14" environ="slide" chapter="7" course="Math 2070"/>
+              <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="13" md5="303020730acce82f67b8b05fe15b5e93" course="Math 2070" chapter="7" slide="14" item="7.13">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> The following sets, equipped with the usual operations of addition and multiplication,
 are rings:  </paragraphs>
                 <col_ol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_ol">
@@ -519,13 +579,13 @@ the set of $n \times n$ invertible real matrices, $n \in \mathbb{N}$.  </paragra
                 </col_ol>
               </statement>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="7" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
-              <keywords slide="14" environ="slide" chapter="7" course="Math 2070"/>
-              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="13" md5="3db3b3b565ba9ccf73513c010f0852a8" course="Math 2070" chapter="7" slide="14" item="7.13">
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="7" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
+              <keywords slide="15" environ="slide" chapter="7" course="Math 2070"/>
+              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="14" md5="3db3b3b565ba9ccf73513c010f0852a8" course="Math 2070" chapter="7" slide="15" item="7.14">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> In a ring $R$, there is a unique additive identity element
 and a unique multiplicative identity element.  </paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="7898e16c1a978cf07b406aeda181188e" course="Math 2070" chapter="7" slide="14" of="3db3b3b565ba9ccf73513c010f0852a8">
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="7898e16c1a978cf07b406aeda181188e" course="Math 2070" chapter="7" slide="15" of="3db3b3b565ba9ccf73513c010f0852a8">
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose there is an element $0' \in R$ such that $0' + r = r$ for all $r \in R$, then
 in particular $0' + 0 = 0$.</paragraphs>
@@ -550,7 +610,7 @@ So, $0' = 0$.</paragraphs>
                 </newcol>
               </substatement>
               <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="14" md5="4362df2060aa5a9465ae569bbf3abfa1" course="Math 2070" chapter="7" slide="14" item="7.14">
+              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="15" md5="4362df2060aa5a9465ae569bbf3abfa1" course="Math 2070" chapter="7" slide="15" item="7.15">
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Prove that:
 For any $r$ in a ring $R$, its additive inverse $-r$ is unique.
@@ -565,9 +625,9 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.  </paragraphs>
             <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="15" scope="subsection" id="s15" slide="15" course="Math 2070" chapter="7" section="3" subsection="2" subsubsection="" chapter_title="" section_title="Rings">
-              <keywords slide="15" environ="slide" chapter="7" course="Math 2070"/>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="7" section="3" subsection="2" subsubsection="" serial="" slide="15">
+            <slide environment="" chapter_type="Week" canon_num="16" scope="subsection" id="s16" slide="16" course="Math 2070" chapter="7" section="3" subsection="2" subsubsection="" chapter_title="" section_title="Rings">
+              <keywords slide="16" environ="slide" chapter="7" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="7" section="3" subsection="2" subsubsection="" serial="" slide="16">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
               </title>
               <enumerate course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="enumerate">
@@ -581,13 +641,13 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.  </paragraphs>
                 </item>
               </enumerate>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="7" section="3" subsection="2" subsubsection="" chapter_title="" section_title="Rings">
-              <keywords slide="16" environ="slide" chapter="7" course="Math 2070"/>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="7" section="3" subsection="2" subsubsection="" chapter_title="" section_title="Rings">
+              <keywords slide="17" environ="slide" chapter="7" course="Math 2070"/>
               <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="15" md5="06c93e407cb78d275e72438b2177a1dd" course="Math 2070" chapter="7" slide="16" item="7.15">
+              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="16" md5="06c93e407cb78d275e72438b2177a1dd" course="Math 2070" chapter="7" slide="17" item="7.16">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="statement" wbtag="paragraphs"> For all elements $r$ in a ring $R$, we have $0r = r0 = 0$.  </paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="1f8a1cb45717ede2d17734b9c60b3784" course="Math 2070" chapter="7" slide="16" of="06c93e407cb78d275e72438b2177a1dd">
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="1f8a1cb45717ede2d17734b9c60b3784" course="Math 2070" chapter="7" slide="17" of="06c93e407cb78d275e72438b2177a1dd">
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> By distributativity,
 \[
@@ -611,12 +671,12 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.  </paragraphs>
                 </newcol>
               </substatement>
               <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="16" md5="ae67e49b63f437688b9241a878c3d85f" course="Math 2070" chapter="7" slide="16" item="7.16">
+              <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="17" md5="ae67e49b63f437688b9241a878c3d85f" course="Math 2070" chapter="7" slide="17" item="7.17">
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> For all elements $r$ in a ring, we have $(-1)(-r) = (-r)(-1)= r$.  </paragraphs>
                 </newcol>
               </statement>
-              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="6fdd0fa7d2c0fb732519b938c066c8dd" course="Math 2070" chapter="7" slide="16" of="ae67e49b63f437688b9241a878c3d85f">
+              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="6fdd0fa7d2c0fb732519b938c066c8dd" course="Math 2070" chapter="7" slide="17" of="ae67e49b63f437688b9241a878c3d85f">
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
 \[
@@ -640,12 +700,12 @@ r = r + (-r + (-1)(-r)) = (r + -r) + (-1)(-r) = (-1)(-r).
               </substatement>
               <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment=""/>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="7" section="3" subsection="2" subsubsection="" chapter_title="" section_title="Rings">
-              <keywords slide="17" environ="slide" chapter="7" course="Math 2070">
-                <keyword chapter="7" slide="17">zero ring</keyword>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="7" section="3" subsection="2" subsubsection="" chapter_title="" section_title="Rings">
+              <keywords slide="18" environ="slide" chapter="7" course="Math 2070">
+                <keyword chapter="7" slide="18">zero ring</keyword>
               </keywords>
               <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="17" md5="97fcac3949c90d57ee7ba8b8f664bd28" course="Math 2070" chapter="7" slide="17" item="7.17">
+              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="18" md5="97fcac3949c90d57ee7ba8b8f664bd28" course="Math 2070" chapter="7" slide="18" item="7.18">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="statement" wbtag="paragraphs"> Show that:
 For all $r$ in a ring $R$, we have:
 \[
@@ -653,7 +713,7 @@ For all $r$ in a ring $R$, we have:
 \]  </paragraphs>
               </statement>
               <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="18" md5="1c2e2ec38e571aff1c68a3aef3bbf546" course="Math 2070" chapter="7" slide="17" item="7.18">
+              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="19" md5="1c2e2ec38e571aff1c68a3aef3bbf546" course="Math 2070" chapter="7" slide="18" item="7.19">
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that:
 If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one element.</paragraphs>

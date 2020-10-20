@@ -11,12 +11,12 @@
 \mathbb{Q}[x] &= \text{Set of polynomials with rational coefficients}\\
 &= \left\{a_0 + a_1 x + \cdots + a_n x^n | n \in \mathbb{Z}_{\geq 0}, a_i \in \mathbb{Q}\right\}
 \end{split}
-\] 
+\]
 @slide
 @thm
 @title{Division Theorem for Polynomials with Rational Coefficients}
 For all $f, g \in \mathbb{Q}[x]$, such that $f \neq 0$, there exist unique $q, r \in \mathbb{Q}[x]$,
-satisfying $\deg r < \deg f$, such that $g = fq + r$. 
+satisfying $\deg r < \deg f$, such that $g = fq + r$.
 @end
 @proof
 @newcol
@@ -78,7 +78,7 @@ which implies that:
 \deg f(q - q') = \deg (r' - r) < \deg f.
 \]
 The above inequality can hold only if $q = q'$, which in turn implies that $r' = r$.
-It follows that the quotient $q$ and the remainder $r$ are unique. 
+It follows that the quotient $q$ and the remainder $r$ are unique.
 @qed
 @endcol
 @end
@@ -92,12 +92,12 @@ is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties:
 
 @claim
 @newcol
-If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r$. 
+If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r$.
 @endcol
 @end
 @proof
 @newcol
-See the proof of @ref{887e4de79f26f195c5f15feb518dbea2}.
+See the proof of @ref{887e4de79f26f195c5f15feb518dbea2} .
 @endcol
 @end
 @slide
@@ -137,7 +137,7 @@ we have:
 Eventually, $r_n = 0$ for some $n$,
 and it follows from the previous claim
 and arguments similar to those used in the case of $\mathbb{Z}$
-that $r_{n-1}$ is a GCD of $f$ and $g$. 
+that $r_{n-1}$ is a GCD of $f$ and $g$.
 @endcol
 @end
 @slide
@@ -147,30 +147,31 @@ that $r_{n-1}$ is a GCD of $f$ and $g$.
 @item
 Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
 
-@col
+@newcol
 @steps
-\begin{align*}
-x^{5} + 1 & 
+\[\begin{align*}
+x^{5} + 1 &
 @nstep{=\left(x^{3} + 1\right)\left(x^{2}\right) + \left(-x^{2} + 1\right)}
 \\
 @nstep{x^{3} + 1}
 &
 @nstep{= \left(-x^{2} + 1\right)\left(-x\right) + \left(x + 1\right)}
 \\
-@nstep{-x^{2} + 1} 
+@nstep{-x^{2} + 1}
 &
 @nstep{= \left(x + 1\right)\left(-x + 1\right) + \left(0\right)}
-\end{align*}
+\end{align*}\]
 @endsteps
 @col
 So, a GCD is $x + 1$.
+@endcol
 @item
-Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$. 
+Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
 
-@col
+@newcol
 @steps
-\begin{align*}
-x^{3} - x^{2} - x + 1 
+\[\begin{align*}
+x^{3} - x^{2} - x + 1
 &
 @nstep{= \left(x^{3} + 4 x^{2} + x - 6\right)\left(1\right) + \left(-5 x^{2} - 2 x + 7\right)}
 \\
@@ -181,35 +182,38 @@ x^{3} - x^{2} - x + 1
 @nstep{-5 x^{2} - 2 x + 7}
 &
 @nstep{= \left(\frac{24}{25} x - \frac{24}{25}\right)\left(-\frac{125}{24} x - \frac{175}{24}\right) + \left(0\right)}
-\end{align*}
+\end{align*}\]
 @endsteps
 @col
 So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$.
+@endcol
 @endenumerate
 @end
 @slide
 @cor
-@label{bezoutpolynomial}
 @title{Bézout's Identity for Polynomials}
+@label{bezoutpolynomial}
 For any $f, g \in \mathbb{Q}[x]$ which are not both zero,
 and $d$ a GCD of $f$ and $g$,
 there exist $u, v \in \mathbb{Q}[x]$ such that:
 \[
 d = fu + gv.
-\] 
+\]
 @end
 
 @eg
+@newcol
 In @ref{eg:euclidalgpoly}, we have:
 @steps
-\begin{align*}
+\[\begin{align*}
 (x + 1) &= \left(x^3 + 1\right) - \left(-x^{2} + 1\right)\left(-x\right)
 \\&
 @nstep{= \left(x^3 + 1\right) - \left(\left(x^{5} + 1\right) - \left(x^{3} + 1\right)\left(x^{2}\right)\right)\left(-x\right)}
 \\&
 @nstep{= \bigg(x\bigg)\bigg(x^{5} + 1\bigg) + \bigg(-x^{3} + 1\bigg)\bigg(x^{3} + 1\bigg)}
-\end{align*}
+\end{align*}\]
 @endsteps
+@endcol
 @end
 @section{Factorization of Polynomials}
 @defn
@@ -222,28 +226,26 @@ is a constant. </li></ol>
 @claim
 @newcol
 If $p \in \mathbb{Q}[x]$ is irreducible and $p | f_1f_2$, where $f_1, f_2 \in \mathbb{Q}[x]$,
-then $p | f_1$ or $p | f_2$. 
+then $p | f_1$ or $p | f_2$.
 @endcol
 @end
 @proof
 @newcol
 Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
 constant polynomials.
-In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by 
-@ref{bezoutpolynomial}
-,
+In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by @ref{bezoutpolynomial} ,
 there exist $u, v, \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
 \[
 f_1 = puf_1 + f_1f_2v.
 \]
-Since $p$ divides the right-hand side of the above equation, it must divide $f_1$. 
+Since $p$ divides the right-hand side of the above equation, it must divide $f_1$.
 @qed
 @endcol
 @end
 
 @slide
 @thm
-A polynomial in $\mathbb{Q}[x]$ of degree greater than zero is either irreducible or a product of irreducibles. 
+A polynomial in $\mathbb{Q}[x]$ of degree greater than zero is either irreducible or a product of irreducibles.
 @end
 @proof
 @newcol
@@ -252,12 +254,12 @@ which are neither irreducible nor products of irreducibles.  Let
 $p$ be an element of this set which has the least degree.  Since $p$ is not irreducible,
 there are $a, b \in \mathbb{Q}[x]$ of degrees $> 0$ such that $p = ab$. But, $a, b$, having degrees strictly
 less than $\deg p$, must be either irreducible or products of irreducibles.  This implies that $p$ is a product
-of irreducibles, a contradiction. 
+of irreducibles, a contradiction.
 @qed
 @endcol
 @end
 <strong>Remark:</strong> Compare this proof with that of Part 1 of the
-Fundamental Theorem of Arithmetic (@ref{thm:fta}). 
+Fundamental Theorem of Arithmetic (@ref{thm:fta}).
 @slide
 @thm
 @title{Unique Factorization for Polynomials}
@@ -268,14 +270,11 @@ p = f_1f_2\cdots f_n = g_1g_2\cdots g_m,
 where $f_i, g_j$ are irreducible polynomials in $\mathbb{Q}[x]$, then
 $n = m$, and the $g_j$'s may be reindexed so that
 $f_i = \lambda_i g_i$ for some $\lambda_i \in \mathbb{Q}$,
-for $i = 1, 2, \ldots, n$. 
+for $i = 1, 2, \ldots, n$.
 @end
 @proof
 @newcol
-<strong>Exercise</strong>
-. See the proof of Part 2 of 
-@ref{thm:fta}
-). 
+<strong>Exercise</strong> . See the proof of Part 2 of @ref{thm:fta} ).
 @endcol
 @end
 
@@ -294,9 +293,7 @@ Commutativity: $a + b = b + a$, $\forall a, b \in R$.
 @li
 Associativity: $a + (b + c) = (a + b) + c$.
 @li
-There is an element $0 \in R$ (called the 
-@keyword{additive identity element}
-),
+There is an element $0 \in R$ (called the @keyword{additive identity element} ),
 such that $a + 0 = a$ for all $a \in R$.
 @li
 Every element of $R$ has an additive inverse; namely:
@@ -308,17 +305,15 @@ such that $a + (-a) = 0$.
 @li
 Associativity: $a(bc) = (ab)c$.
 @li
-There is an element $1 \in R$ (called the 
-@keyword{multiplicative identity element}
-),
+There is an element $1 \in R$ (called the @keyword{multiplicative identity element} ),
 such that $1\times a = a\times 1 = a$ for all $a \in R$.
 @endol</li>
-<li> Distributativity: 
+<li> Distributativity:
 @ol
 @li
-$a\times(b + c) = a\times b + a\times c$, for all $a, b, c \in R$. 
+$a\times(b + c) = a\times b + a\times c$, for all $a, b, c \in R$.
 @li
-$(a + b) \times c = a \times c + b\times c$, for all $a, b, c \in R$. 
+$(a + b) \times c = a \times c + b\times c$, for all $a, b, c \in R$.
 @endol</li></ol>
 @end
 
@@ -326,26 +321,24 @@ $(a + b) \times c = a \times c + b\times c$, for all $a, b, c \in R$.
 @newcol
 @ol
 @li
-For convenience's sake, we often write $ab$ for $a\times b$. 
+For convenience's sake, we often write $ab$ for $a\times b$.
 @li
-In the definition, commutativity is required of addition, but not of multiplication. 
+In the definition, commutativity is required of addition, but not of multiplication.
 @li
-Every element has an additive inverse, but 
-<i> not necessarily</i>
-a multiplicative inverse.
-That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in R$. 
+Every element has an additive inverse, but <i> not necessarily</i> a multiplicative inverse.
+That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in R$.
 @endol
 @endcol
 @slide
 @eg
 The following sets, equipped with the usual operations of addition and multiplication,
-are rings: 
+are rings:
 @ol
 @li
-$\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$ 
+$\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$
 @li
 $\mathbb{Z}[x]$, $\mathbb{Q}[x]$, $\mathbb{R}[x]$
-(Polynomials with integer, rational, real coefficients, respectively.) 
+(Polynomials with integer, rational, real coefficients, respectively.)
 @li
 \[
 \begin{split}
@@ -353,31 +346,31 @@ $\mathbb{Z}[x]$, $\mathbb{Q}[x]$, $\mathbb{R}[x]$
 \{\sum_{k = 0}^n a_k(\sqrt{2})^k\, |\, a_k \in \mathbb{Q}, n \in \mathbb{Z}_{\geq 0}\}\\
 &= \{a + b\sqrt{2}\, |\, a, b \in \mathbb{Q}\}.
 \end{split}
-\] 
+\]
 @li
 $M_n(\mathbb{R})$,
-the set of $n \times n$ real matrices, $n \in \mathbb{N}$. 
+the set of $n \times n$ real matrices, $n \in \mathbb{N}$.
 @li
-For a fixed $n$, the set of $n\times n$ matrices with integer coefficients. 
+For a fixed $n$, the set of $n\times n$ matrices with integer coefficients.
 @li
-$C[0, 1] = \{f : [0, 1]\rightarrow \mathbb{R}\; |\; f \text{ is continuous.}\}$ 
+$C[0, 1] = \{f : [0, 1]\rightarrow \mathbb{R}\; |\; f \text{ is continuous.}\}$
 @endol
 
-The following sets, under the usual operations of addition and multiplication, are not rings: 
+The following sets, under the usual operations of addition and multiplication, are not rings:
 @ol
 @li
-$\mathbb{N}$, no additive identity element, i.e. no 0. 
+$\mathbb{N}$, no additive identity element, i.e. no 0.
 @li
-$\mathbb{N}\cup\{0\}$, nonzero elements have no additive inverses. 
+$\mathbb{N}\cup\{0\}$, nonzero elements have no additive inverses.
 @li
 $\GL(n, \mathbb{R})$,
-the set of $n \times n$ invertible real matrices, $n \in \mathbb{N}$. 
+the set of $n \times n$ invertible real matrices, $n \in \mathbb{N}$.
 @endol
 @end
 @slide
 @claim
 In a ring $R$, there is a unique additive identity element
-and a unique multiplicative identity element. 
+and a unique multiplicative identity element.
 @end
 @proof
 @newcol
@@ -395,7 +388,7 @@ Suppose there is an element $1' \in R$ such that $1'r = r$ or all $r \in R$,
 then in particular $1' \cdot 1 = 1$.
 
 @col
-But $1' \cdot 1 = 1'$ since $1$ is a multiplicative identity element, so $1' = 1$. 
+But $1' \cdot 1 = 1'$ since $1$ is a multiplicative identity element, so $1' = 1$.
 @qed
 @endcol
 @end
@@ -404,25 +397,27 @@ But $1' \cdot 1 = 1'$ since $1$ is a multiplicative identity element, so $1' = 1
 @newcol
 Prove that:
 For any $r$ in a ring $R$, its additive inverse $-r$ is unique.
-That is, if $r + r' = r + r'' = 0$, then $r' = r''$. 
+That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
 @endcol
 @end
 @subsection{WeBWorK}
 @enumerate
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
 @endenumerate
 @slide
 
 @claim
-For all elements $r$ in a ring $R$, we have $0r = r0 = 0$. 
+For all elements $r$ in a ring $R$, we have $0r = r0 = 0$.
 @end
 @proof
 @newcol
 By distributativity,
 \[
 0r = (0 + 0)r = 0r + 0r.
-\] 
+\]
 @col
 Adding $-0r$ (additive inverse of $0r$) to both sides, we have:
 \[
@@ -430,16 +425,14 @@ Adding $-0r$ (additive inverse of $0r$) to both sides, we have:
 \]
 
 @col
-The proof of $r0 = 0$ is similar and we leave it as an 
-<strong>exercise</strong>
-. 
+The proof of $r0 = 0$ is similar and we leave it as an <strong>exercise</strong> .
 @qed
 @endcol
 @end
 
 @claim
 @newcol
-For all elements $r$ in a ring, we have $(-1)(-r) = (-r)(-1)= r$. 
+For all elements $r$ in a ring, we have $(-1)(-r) = (-r)(-1)= r$.
 @endcol
 @end
 @proof
@@ -447,16 +440,14 @@ For all elements $r$ in a ring, we have $(-1)(-r) = (-r)(-1)= r$.
 We have:
 \[
 0 = 0(-r) = (1 + (-1))(-r) = -r + (-1)(-r).
-\] 
+\]
 @col
 Adding $r$ to both sides, we obtain
 \[
 r = r + (-r + (-1)(-r)) = (r + -r) + (-1)(-r) = (-1)(-r).
-\] 
+\]
 @col
-We leave it as an 
-<strong>exercise</strong>
-to show that $(-r)(-1) = r$. 
+We leave it as an <strong>exercise</strong> to show that $(-r)(-1) = r$.
 @qed
 @endcol
 @end
@@ -468,7 +459,7 @@ Show that:
 For all $r$ in a ring $R$, we have:
 \[
 (-1) r = r(-1) = -r.
-\] 
+\]
 @end
 
 @ex
@@ -476,8 +467,6 @@ For all $r$ in a ring $R$, we have:
 Show that:
 If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one element.
 
-(We call such an $R$ the 
-@keyword{zero ring}
-.) 
+(We call such an $R$ the @keyword{zero ring} .)
 @endcol
 @end

@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -63,7 +62,7 @@
 \mathbb{Q}[x] &amp;= \text{Set of polynomials with rational coefficients}\\
 &amp;= \left\{a_0 + a_1 x + \cdots + a_n x^n | n \in \mathbb{Z}_{\geq 0}, a_i \in \mathbb{Q}\right\}
 \end{split}
-\]  </paragraphs>
+\] </paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials with Rational Coefficients">
             <keywords slide="4" environ="slide" chapter="7" course="Math 2070">
@@ -72,7 +71,7 @@
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Division Theorem for Polynomials with Rational Coefficients" md5="bc131a50382e6c5d16d823722b9a7bd7" course="Math 2070" chapter="7" slide="4" item="7.1">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="4">Division Theorem for Polynomials with Rational Coefficients</title>
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For all $f, g \in \mathbb{Q}[x]$, such that $f \neq 0$, there exist unique $q, r \in \mathbb{Q}[x]$,
-satisfying $\deg r &lt; \deg f$, such that $g = fq + r$.  </paragraphs>
+satisfying $\deg r &lt; \deg f$, such that $g = fq + r$. </paragraphs>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="2ca9939e3f72f220ecaf222c42045c7e" course="Math 2070" chapter="7" slide="4" of="bc131a50382e6c5d16d823722b9a7bd7">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -134,7 +133,7 @@ which implies that:</paragraphs>
 \deg f(q - q') = \deg (r' - r) &lt; \deg f.
 \]
 The above inequality can hold only if $q = q'$, which in turn implies that $r' = r$.
-It follows that the quotient $q$ and the remainder $r$ are unique.  </paragraphs>
+It follows that the quotient $q$ and the remainder $r$ are unique. </paragraphs>
                               <qed course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                             </collapse>
                           </collapse>
@@ -167,7 +166,7 @@ is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties:
             <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" md5="6de64b1138dea0cc6ee107a783019012" course="Math 2070" chapter="7" slide="5" item="7.3">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r$.  </paragraphs>
+                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r$. </paragraphs>
               </newcol>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3b60090f652a6f844c61561ee28e9629" course="Math 2070" chapter="7" slide="5" of="6de64b1138dea0cc6ee107a783019012">
@@ -176,7 +175,7 @@ is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties:
                 <ref environment="newcol" chapter_type="" label="887e4de79f26f195c5f15feb518dbea2" wbtag="ref" course="Math 2070" chapter="7" slide="5" src-course="Math 2070" src-chapter="6" src-slide="4" type="Lemma" item="6.2" src-filename="week6.xml" md5="887e4de79f26f195c5f15feb518dbea2" class="lcref" serial="">
                   <title>Lemma 6.2</title>
                 </ref>
-                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">. </paragraphs>
+                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
               </newcol>
             </substatement>
           </slide>
@@ -218,7 +217,7 @@ we have:
                       <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Eventually, $r_n = 0$ for some $n$,
 and it follows from the previous claim
 and arguments similar to those used in the case of $\mathbb{Z}$
-that $r_{n-1}$ is a GCD of $f$ and $g$.  </paragraphs>
+that $r_{n-1}$ is a GCD of $f$ and $g$. </paragraphs>
                     </collapse>
                   </collapse>
                 </collapse>
@@ -235,18 +234,18 @@ that $r_{n-1}$ is a GCD of $f$ and $g$.  </paragraphs>
                   <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate"/>
                   <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
-\begin{align*}
-x^{5} + 1 &amp; 
+\[\begin{align*}
+x^{5} + 1 &amp;
 \class{steps}{\cssId{step0}{=\left(x^{3} + 1\right)\left(x^{2}\right) + \left(-x^{2} + 1\right)}}
 \\
 \class{steps}{\cssId{step1}{x^{3} + 1}}
 &amp;
 \class{steps}{\cssId{step2}{= \left(-x^{2} + 1\right)\left(-x\right) + \left(x + 1\right)}}
 \\
-\class{steps}{\cssId{step3}{-x^{2} + 1}} 
+\class{steps}{\cssId{step3}{-x^{2} + 1}}
 &amp;
 \class{steps}{\cssId{step4}{= \left(x + 1\right)\left(-x + 1\right) + \left(0\right)}}
-\end{align*}
+\end{align*}\]
 </steps>
                     <collapse course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, a GCD is $x + 1$. </paragraphs>
@@ -258,8 +257,8 @@ x^{5} + 1 &amp;
                   <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate"/>
                   <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
-\begin{align*}
-x^{3} - x^{2} - x + 1 
+\[\begin{align*}
+x^{3} - x^{2} - x + 1
 &amp;
 \class{steps}{\cssId{step0}{= \left(x^{3} + 4 x^{2} + x - 6\right)\left(1\right) + \left(-5 x^{2} - 2 x + 7\right)}}
 \\
@@ -270,7 +269,7 @@ x^{3} - x^{2} - x + 1
 \class{steps}{\cssId{step3}{-5 x^{2} - 2 x + 7}}
 &amp;
 \class{steps}{\cssId{step4}{= \left(\frac{24}{25} x - \frac{24}{25}\right)\left(-\frac{125}{24} x - \frac{175}{24}\right) + \left(0\right)}}
-\end{align*}
+\end{align*}\]
 </steps>
                     <collapse course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$. </paragraphs>
@@ -284,32 +283,34 @@ x^{3} - x^{2} - x + 1
             <keywords slide="8" environ="slide" chapter="7" course="Math 2070">
               <keyword chapter="7" slide="8">Bézout's Identity for Polynomials</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" title="B&#xE9;zout's Identity for Polynomials" md5="ff0cf605977388ae70fe17f3161c10ab" course="Math 2070" chapter="7" slide="8" item="7.6">
-              <label wbtag="label" name="bezoutpolynomial" type="Corollary"/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" title="Bézout's Identity for Polynomials" md5="ff0cf605977388ae70fe17f3161c10ab" course="Math 2070" chapter="7" slide="8" item="7.6">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="8">Bézout's Identity for Polynomials</title>
+              <label wbtag="label" name="bezoutpolynomial" type="Corollary"/>
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any $f, g \in \mathbb{Q}[x]$ which are not both zero,
 and $d$ a GCD of $f$ and $g$,
 there exist $u, v \in \mathbb{Q}[x]$ such that:
 \[
 d = fu + gv.
-\]  </paragraphs>
+\] </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="636d802595fa9442291dc296c169b597" course="Math 2070" chapter="7" slide="8" item="7.7">
-              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> In </paragraphs>
-              <ref environment="statement" chapter_type="" label="eg:euclidalgpoly" wbtag="ref" course="Math 2070" chapter="7" slide="8" src-course="Math 2070" src-chapter="7" src-slide="7" type="Example" item="7.5" src-filename="week7.xml" md5="99d3d45a66a0beddbcb0975e00acea0d" class="lcref" serial="">
-                <title>Example 7.5</title>
-              </ref>
-              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">, we have: </paragraphs>
-              <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="steps" stepsid="steps3">
-\begin{align*}
+              <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In </paragraphs>
+                <ref environment="newcol" chapter_type="" label="eg:euclidalgpoly" wbtag="ref" course="Math 2070" chapter="7" slide="8" src-course="Math 2070" src-chapter="7" src-slide="7" type="Example" item="7.5" src-filename="week7.xml" md5="99d3d45a66a0beddbcb0975e00acea0d" class="lcref" serial="">
+                  <title>Example 7.5</title>
+                </ref>
+                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, we have: </paragraphs>
+                <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
+\[\begin{align*}
 (x + 1) &amp;= \left(x^3 + 1\right) - \left(-x^{2} + 1\right)\left(-x\right)
 \\&amp;
 \class{steps}{\cssId{step0}{= \left(x^3 + 1\right) - \left(\left(x^{5} + 1\right) - \left(x^{3} + 1\right)\left(x^{2}\right)\right)\left(-x\right)}}
 \\&amp;
 \class{steps}{\cssId{step1}{= \bigg(x\bigg)\bigg(x^{5} + 1\bigg) + \bigg(-x^{3} + 1\bigg)\bigg(x^{3} + 1\bigg)}}
-\end{align*}
+\end{align*}\]
 </steps>
+              </newcol>
             </statement>
           </slide>
         </slides>
@@ -340,18 +341,18 @@ is a constant. </paragraphs>
                 </li>
               </ol>
             </statement>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="7fb8cbda392fafb917e2f619870c315b" course="Math 2070" chapter="7" slide="9" item="7.9">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $p \in \mathbb{Q}[x]$ is irreducible and $p | f_1f_2$, where $f_1, f_2 \in \mathbb{Q}[x]$,
-then $p | f_1$ or $p | f_2$.  </paragraphs>
+then $p | f_1$ or $p | f_2$. </paragraphs>
               </newcol>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="8f80a5bf3289db79f084e06b93f45fae" course="Math 2070" chapter="7" slide="9" of="7fb8cbda392fafb917e2f619870c315b">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
 constant polynomials.
-In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by  </paragraphs>
+In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by </paragraphs>
                 <ref environment="newcol" chapter_type="" label="bezoutpolynomial" wbtag="ref" course="Math 2070" chapter="7" slide="9" src-course="Math 2070" src-chapter="7" src-slide="8" type="Corollary" item="7.6" src-filename="week7.xml" md5="ff0cf605977388ae70fe17f3161c10ab" class="lcref" serial="">
                   <title>Bézout's Identity for Polynomials</title>
                 </ref>
@@ -360,7 +361,7 @@ there exist $u, v, \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
 \[
 f_1 = puf_1 + f_1f_2v.
 \]
-Since $p$ divides the right-hand side of the above equation, it must divide $f_1$.  </paragraphs>
+Since $p$ divides the right-hand side of the above equation, it must divide $f_1$. </paragraphs>
                 <qed course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
               </newcol>
             </substatement>
@@ -369,7 +370,7 @@ Since $p$ divides the right-hand side of the above equation, it must divide $f_1
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" chapter_title="" section_title="Factorization of Polynomials">
             <keywords slide="10" environ="slide" chapter="7" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="10" md5="08cb214282b28e21ea0747f136287f70" course="Math 2070" chapter="7" slide="10" item="7.10">
-              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial in $\mathbb{Q}[x]$ of degree greater than zero is either irreducible or a product of irreducibles.  </paragraphs>
+              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial in $\mathbb{Q}[x]$ of degree greater than zero is either irreducible or a product of irreducibles. </paragraphs>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="468ec01c8b81781fd122a6350b41132e" course="Math 2070" chapter="7" slide="10" of="08cb214282b28e21ea0747f136287f70">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -378,7 +379,7 @@ which are neither irreducible nor products of irreducibles.  Let
 $p$ be an element of this set which has the least degree.  Since $p$ is not irreducible,
 there are $a, b \in \mathbb{Q}[x]$ of degrees $&gt; 0$ such that $p = ab$. But, $a, b$, having degrees strictly
 less than $\deg p$, must be either irreducible or products of irreducibles.  This implies that $p$ is a product
-of irreducibles, a contradiction.  </paragraphs>
+of irreducibles, a contradiction. </paragraphs>
                 <qed course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
               </newcol>
             </substatement>
@@ -390,7 +391,7 @@ Fundamental Theorem of Arithmetic (</paragraphs>
             <ref environment="" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="10" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
               <title>The Fundamental Theorem of Arithmetic</title>
             </ref>
-            <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">).  </paragraphs>
+            <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">). </paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="7" section="2" subsection="" subsubsection="" chapter_title="" section_title="Factorization of Polynomials">
             <keywords slide="11" environ="slide" chapter="7" course="Math 2070">
@@ -405,18 +406,18 @@ p = f_1f_2\cdots f_n = g_1g_2\cdots g_m,
 where $f_i, g_j$ are irreducible polynomials in $\mathbb{Q}[x]$, then
 $n = m$, and the $g_j$'s may be reindexed so that
 $f_i = \lambda_i g_i$ for some $\lambda_i \in \mathbb{Q}$,
-for $i = 1, 2, \ldots, n$.  </paragraphs>
+for $i = 1, 2, \ldots, n$. </paragraphs>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="aa755220921faf8169cb8568dc856abd" course="Math 2070" chapter="7" slide="11" of="400bbeb107f30d317445ee314dd287bf">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise</paragraphs>
                 </strong>
-                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . See the proof of Part 2 of  </paragraphs>
+                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . See the proof of Part 2 of </paragraphs>
                 <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="11" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
                   <title>The Fundamental Theorem of Arithmetic</title>
                 </ref>
-                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ).  </paragraphs>
+                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ). </paragraphs>
               </newcol>
             </substatement>
             <newline course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
@@ -468,7 +469,7 @@ which satisfy the following properties: </paragraphs>
                         <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> Associativity: $a + (b + c) = (a + b) + c$. </paragraphs>
                       </col_li>
                       <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                        <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> There is an element $0 \in R$ (called the  </paragraphs>
+                        <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> There is an element $0 \in R$ (called the </paragraphs>
                         <inline_keyword course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol">additive identity element</inline_keyword>
                         <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> ),
 such that $a + 0 = a$ for all $a \in R$. </paragraphs>
@@ -487,7 +488,7 @@ such that $a + (-a) = 0$. </paragraphs>
                         <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> Associativity: $a(bc) = (ab)c$. </paragraphs>
                       </col_li>
                       <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                        <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> There is an element $1 \in R$ (called the  </paragraphs>
+                        <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> There is an element $1 \in R$ (called the </paragraphs>
                         <inline_keyword course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol">multiplicative identity element</inline_keyword>
                         <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> ),
 such that $1\times a = a\times 1 = a$ for all $a \in R$. </paragraphs>
@@ -495,13 +496,13 @@ such that $1\times a = a\times 1 = a$ for all $a \in R$. </paragraphs>
                     </col_ol>
                   </li>
                   <li environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Distributativity:  </paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Distributativity: </paragraphs>
                     <col_ol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_ol">
                       <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                        <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $a\times(b + c) = a\times b + a\times c$, for all $a, b, c \in R$.  </paragraphs>
+                        <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $a\times(b + c) = a\times b + a\times c$, for all $a, b, c \in R$. </paragraphs>
                       </col_li>
                       <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                        <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $(a + b) \times c = a \times c + b\times c$, for all $a, b, c \in R$.  </paragraphs>
+                        <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $(a + b) \times c = a \times c + b\times c$, for all $a, b, c \in R$. </paragraphs>
                       </col_li>
                     </col_ol>
                   </li>
@@ -514,18 +515,18 @@ such that $1\times a = a\times 1 = a$ for all $a \in R$. </paragraphs>
               <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> For convenience's sake, we often write $ab$ for $a\times b$.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> For convenience's sake, we often write $ab$ for $a\times b$. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> In the definition, commutativity is required of addition, but not of multiplication.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> In the definition, commutativity is required of addition, but not of multiplication. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> Every element has an additive inverse, but  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> Every element has an additive inverse, but </paragraphs>
                     <i xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> not necessarily</paragraphs>
                     </i>
                     <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> a multiplicative inverse.
-That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in R$.  </paragraphs>
+That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in R$. </paragraphs>
                   </col_li>
                 </col_ol>
               </newcol>
@@ -534,14 +535,14 @@ That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in 
               <keywords slide="14" environ="slide" chapter="7" course="Math 2070"/>
               <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="13" md5="303020730acce82f67b8b05fe15b5e93" course="Math 2070" chapter="7" slide="14" item="7.13">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> The following sets, equipped with the usual operations of addition and multiplication,
-are rings:  </paragraphs>
+are rings: </paragraphs>
                 <col_ol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$ </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\mathbb{Z}[x]$, $\mathbb{Q}[x]$, $\mathbb{R}[x]$
-(Polynomials with integer, rational, real coefficients, respectively.)  </paragraphs>
+(Polynomials with integer, rational, real coefficients, respectively.) </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
@@ -550,31 +551,31 @@ are rings:  </paragraphs>
 \{\sum_{k = 0}^n a_k(\sqrt{2})^k\, |\, a_k \in \mathbb{Q}, n \in \mathbb{Z}_{\geq 0}\}\\
 &amp;= \{a + b\sqrt{2}\, |\, a, b \in \mathbb{Q}\}.
 \end{split}
-\]  </paragraphs>
+\] </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $M_n(\mathbb{R})$,
-the set of $n \times n$ real matrices, $n \in \mathbb{N}$.  </paragraphs>
+the set of $n \times n$ real matrices, $n \in \mathbb{N}$. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> For a fixed $n$, the set of $n\times n$ matrices with integer coefficients.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> For a fixed $n$, the set of $n\times n$ matrices with integer coefficients. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $C[0, 1] = \{f : [0, 1]\rightarrow \mathbb{R}\; |\; f \text{ is continuous.}\}$  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $C[0, 1] = \{f : [0, 1]\rightarrow \mathbb{R}\; |\; f \text{ is continuous.}\}$ </paragraphs>
                   </col_li>
                 </col_ol>
                 <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement"/>
-                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">The following sets, under the usual operations of addition and multiplication, are not rings:  </paragraphs>
+                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">The following sets, under the usual operations of addition and multiplication, are not rings: </paragraphs>
                 <col_ol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\mathbb{N}$, no additive identity element, i.e. no 0.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\mathbb{N}$, no additive identity element, i.e. no 0. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\mathbb{N}\cup\{0\}$, nonzero elements have no additive inverses.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\mathbb{N}\cup\{0\}$, nonzero elements have no additive inverses. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\GL(n, \mathbb{R})$,
-the set of $n \times n$ invertible real matrices, $n \in \mathbb{N}$.  </paragraphs>
+the set of $n \times n$ invertible real matrices, $n \in \mathbb{N}$. </paragraphs>
                   </col_li>
                 </col_ol>
               </statement>
@@ -583,7 +584,7 @@ the set of $n \times n$ invertible real matrices, $n \in \mathbb{N}$.  </paragra
               <keywords slide="15" environ="slide" chapter="7" course="Math 2070"/>
               <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="14" md5="3db3b3b565ba9ccf73513c010f0852a8" course="Math 2070" chapter="7" slide="15" item="7.14">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> In a ring $R$, there is a unique additive identity element
-and a unique multiplicative identity element.  </paragraphs>
+and a unique multiplicative identity element. </paragraphs>
               </statement>
               <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="7898e16c1a978cf07b406aeda181188e" course="Math 2070" chapter="7" slide="15" of="3db3b3b565ba9ccf73513c010f0852a8">
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
@@ -601,7 +602,7 @@ So, $0' = 0$.</paragraphs>
                         <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> then in particular $1' \cdot 1 = 1$.</paragraphs>
                         <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol"/>
                         <collapse course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> But $1' \cdot 1 = 1'$ since $1$ is a multiplicative identity element, so $1' = 1$.  </paragraphs>
+                          <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> But $1' \cdot 1 = 1'$ since $1$ is a multiplicative identity element, so $1' = 1$. </paragraphs>
                           <qed course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol"/>
                         </collapse>
                       </collapse>
@@ -614,7 +615,7 @@ So, $0' = 0$.</paragraphs>
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Prove that:
 For any $r$ in a ring $R$, its additive inverse $-r$ is unique.
-That is, if $r + r' = r + r'' = 0$, then $r' = r''$.  </paragraphs>
+That is, if $r + r' = r + r'' = 0$, then $r' = r''$. </paragraphs>
                 </newcol>
               </statement>
             </slide>
@@ -632,11 +633,9 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.  </paragraphs>
               </title>
               <enumerate course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="enumerate">
                 <item course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
                   <webwork course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg"/>
                 </item>
                 <item course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
                   <webwork course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg"/>
                 </item>
               </enumerate>
@@ -645,14 +644,14 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.  </paragraphs>
               <keywords slide="17" environ="slide" chapter="7" course="Math 2070"/>
               <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment=""/>
               <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="16" md5="06c93e407cb78d275e72438b2177a1dd" course="Math 2070" chapter="7" slide="17" item="7.16">
-                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="statement" wbtag="paragraphs"> For all elements $r$ in a ring $R$, we have $0r = r0 = 0$.  </paragraphs>
+                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="statement" wbtag="paragraphs"> For all elements $r$ in a ring $R$, we have $0r = r0 = 0$. </paragraphs>
               </statement>
               <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="1f8a1cb45717ede2d17734b9c60b3784" course="Math 2070" chapter="7" slide="17" of="06c93e407cb78d275e72438b2177a1dd">
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> By distributativity,
 \[
 0r = (0 + 0)r = 0r + 0r.
-\]  </paragraphs>
+\] </paragraphs>
                   <collapse course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> Adding $-0r$ (additive inverse of $0r$) to both sides, we have:
 \[
@@ -660,11 +659,11 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.  </paragraphs>
 \]</paragraphs>
                     <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol"/>
                     <collapse course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> The proof of $r0 = 0$ is similar and we leave it as an  </paragraphs>
+                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> The proof of $r0 = 0$ is similar and we leave it as an </paragraphs>
                       <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                         <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs">exercise</paragraphs>
                       </strong>
-                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> .  </paragraphs>
+                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
                       <qed course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol"/>
                     </collapse>
                   </collapse>
@@ -673,7 +672,7 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.  </paragraphs>
               <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment=""/>
               <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="17" md5="ae67e49b63f437688b9241a878c3d85f" course="Math 2070" chapter="7" slide="17" item="7.17">
                 <newcol course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> For all elements $r$ in a ring, we have $(-1)(-r) = (-r)(-1)= r$.  </paragraphs>
+                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> For all elements $r$ in a ring, we have $(-1)(-r) = (-r)(-1)= r$. </paragraphs>
                 </newcol>
               </statement>
               <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="6fdd0fa7d2c0fb732519b938c066c8dd" course="Math 2070" chapter="7" slide="17" of="ae67e49b63f437688b9241a878c3d85f">
@@ -681,18 +680,18 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.  </paragraphs>
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
 \[
 0 = 0(-r) = (1 + (-1))(-r) = -r + (-1)(-r).
-\]  </paragraphs>
+\] </paragraphs>
                   <collapse course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> Adding $r$ to both sides, we obtain
 \[
 r = r + (-r + (-1)(-r)) = (r + -r) + (-1)(-r) = (-1)(-r).
-\]  </paragraphs>
+\] </paragraphs>
                     <collapse course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> We leave it as an  </paragraphs>
+                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> We leave it as an </paragraphs>
                       <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                         <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs">exercise</paragraphs>
                       </strong>
-                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> to show that $(-r)(-1) = r$.  </paragraphs>
+                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> to show that $(-r)(-1) = r$. </paragraphs>
                       <qed course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol"/>
                     </collapse>
                   </collapse>
@@ -710,7 +709,7 @@ r = r + (-r + (-1)(-r)) = (r + -r) + (-1)(-r) = (-1)(-r).
 For all $r$ in a ring $R$, we have:
 \[
 (-1) r = r(-1) = -r.
-\]  </paragraphs>
+\] </paragraphs>
               </statement>
               <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment=""/>
               <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="19" md5="1c2e2ec38e571aff1c68a3aef3bbf546" course="Math 2070" chapter="7" slide="18" item="7.19">
@@ -718,9 +717,9 @@ For all $r$ in a ring $R$, we have:
                   <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that:
 If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one element.</paragraphs>
                   <newline course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol"/>
-                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs">(We call such an $R$ the  </paragraphs>
+                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs">(We call such an $R$ the </paragraphs>
                   <inline_keyword course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol">zero ring</inline_keyword>
-                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> .)  </paragraphs>
+                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> .) </paragraphs>
                 </newcol>
               </statement>
             </slide>

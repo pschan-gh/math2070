@@ -221,8 +221,10 @@ There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
                   </strong>
                   <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Recall the notation used in </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7">
-                      <title>UNDEFINED</title>
+                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7" src-course="Math 2070" src-chapter="6" src-slide="" type="Section" src-filename="week6.xml" md5="" class="lcref" serial="6.1.1">
+                      <title>
+            <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
+          </title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">.
 We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$. </paragraphs>

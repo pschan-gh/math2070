@@ -497,7 +497,7 @@ So, a question one could ask is, can we "enlarge" a given integral domain to a f
 by formally adding multiplicative inverses to the ring?
 @endcol
 @subsubsection{An Equivalence Relation}
-<br/><br/>
+<br/>
 Given an integral domain $R$ (commutative, with $1 \neq 0$).  We consider the set:
 $R \times R_{\neq 0} := \{(a, b) : a, b \in R, b\neq 0\}$.
 We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:

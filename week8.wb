@@ -89,7 +89,7 @@ We conclude that $+_m$ is associative.
 @endcol
 <hr/>
 @li
-@keyword{Exercise:} We can take 0 to be the additive identity element.
+<strong>Exercise:</strong> We can take 0 to be the additive identity element.
 @li
 For each nonzero element $a \in \mathbb{Z}_m$, we can take the additive inverse of $a$ to be $m - a$.
 Indeed, $a +_m (-a)  = \overline{a + (m - a)} = \overline{m} = 0$.
@@ -111,7 +111,7 @@ which by the associativity of multiplication for integers is equal to:
 \]
 So, $\times_m$ is associative.
 @li
-@keyword{Exercise:} We can take $1$ to be the multiplicative identity.
+<strong>Exercise:</strong> We can take $1$ to be the multiplicative identity.
 @li
 For $a, b \in \mathbb{Z}_m$, $a\times_m b =\ol{a\cdot b} = \ol{b\cdot a} = b\times_ma$.  So $\times_m$ is commutative.
 @li
@@ -497,7 +497,7 @@ So, a question one could ask is, can we "enlarge" a given integral domain to a f
 by formally adding multiplicative inverses to the ring?
 @endcol
 @subsubsection{An Equivalence Relation}
-<br/>
+<br/><br/>
 Given an integral domain $R$ (commutative, with $1 \neq 0$).  We consider the set:
 $R \times R_{\neq 0} := \{(a, b) : a, b \in R, b\neq 0\}$.
 We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:
@@ -521,7 +521,7 @@ then $(a, b) \equiv (e, f)$. </li></ol>
 @end
 @proof
 @newcol
-@keyword{Exercise.}
+<strong>Exercise.</strong>
 @endcol
 @end
 
@@ -623,7 +623,7 @@ $[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$.
 @end
 @proof
 @newcol
-@keyword{Exercise.}
+<strong>Exercise.</strong>
 @endcol
 @end
 

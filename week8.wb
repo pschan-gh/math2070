@@ -5,14 +5,14 @@
 @topic{Fields}
 @section{Integral Domains, Units}
 @defn
-A ring $R$ is said to be @keyword{commutative} if $ab = ba$ for all $a, b \in R$. 
+A ring $R$ is said to be @keyword{commutative} if $ab = ba$ for all $a, b \in R$.
 @end
 
 @eg
 @newcol
 For a fixed natural number $n > 1$,
 the ring of $n\times n$ matrices with integer coefficients,
-under the usual operations of addition and multiplication, is not commutative. 
+under the usual operations of addition and multiplication, is not commutative.
 @endcol
 @end
 
@@ -30,25 +30,21 @@ a +_m b &= \overline{a + b},\\
 a \times_m b &= \overline{a\cdot b},
 \end{split}
 \]
-where the addition and multiplication on the right are the usual addition and multiplication for integers. 
+where the addition and multiplication on the right are the usual addition and multiplication for integers.
 @end
 @slide
 @claim
-With addition and multiplication thus defined, $\mathbb{Z}_m$ is a commutative ring. 
+With addition and multiplication thus defined, $\mathbb{Z}_m$ is a commutative ring.
 @end
 @proof
 @newcol
 @ol
 @li
 For $a, b \in \mathbb{Z}_m$, we have $a +_m b = \overline{a + b} = \overline{b + a} = b +_m a$,
-since addition for integers is commutative.  So, $+_m$ is commutative. 
+since addition for integers is commutative.  So, $+_m$ is commutative.
 @li
 For any $r_1, r_2 \in \mathbb{Z}$,
-by 
-@ref{claim:congremainder}
-and 
-@ref{congcompat}
-,
+by @ref{claim:congremainder} and @ref{congcompat} ,
 we have
 \[
 r_1 \equiv \overline{r_1} \mod m, \quad r_2 \equiv \overline{r_2} \mod m,
@@ -56,9 +52,9 @@ r_1 \equiv \overline{r_1} \mod m, \quad r_2 \equiv \overline{r_2} \mod m,
 and:
 \[
 \overline{r_1 + r_2} \equiv r_1 + r_2 \equiv \overline{r_1} + \overline{r_2} \equiv \overline{\overline{r_1} + \overline{r_2}} \mod m.
-\] 
+\]
 @newcol
-For $a, b, c \in \mathbb{Z}_m$, we have: 
+For $a, b, c \in \mathbb{Z}_m$, we have:
 @steps
 \[
 \begin{split}
@@ -74,7 +70,7 @@ a +_m (b +_m c) &= a +_m \overline{b + c}
 @endsteps
 @col
 But $a + (b + c)$ is equal to $(a + b) + c$, since addition for integers is associative.  Hence, the above expression
-is equal to: 
+is equal to:
 @steps
 \[
 \begin{split}
@@ -89,15 +85,14 @@ is equal to:
 \]
 @endsteps
 @col
-We conclude that $+_m$ is associative. 
+We conclude that $+_m$ is associative.
 @endcol
 <hr/>
 @li
-@keyword{Exercise:}
-We can take 0 to be the additive identity element. 
+@keyword{Exercise:} We can take 0 to be the additive identity element.
 @li
 For each nonzero element $a \in \mathbb{Z}_m$, we can take the additive inverse of $a$ to be $m - a$.
-Indeed, $a +_m (-a)  = \overline{a + (m - a)} = \overline{m} = 0$. 
+Indeed, $a +_m (-a)  = \overline{a + (m - a)} = \overline{m} = 0$.
 @li
 By the same reasoning used in the case of addition,
 for $r_1, r_2 \in \mathbb{Z}$, we have
@@ -114,15 +109,14 @@ which by the associativity of multiplication for integers is equal to:
 \[
 \ol{(ab) c} = \ol{\ol{ab}\cdot\ol{c}} = \ol{ab}\times_m c = (a\times_m b)\times_m c.
 \]
-So, $\times_m$ is associative. 
+So, $\times_m$ is associative.
 @li
-@keyword{Exercise:}
-We can take $1$ to be the multiplicative identity. 
+@keyword{Exercise:} We can take $1$ to be the multiplicative identity.
 @li
-For $a, b \in \mathbb{Z}_m$, $a\times_m b =\ol{a\cdot b} = \ol{b\cdot a} = b\times_ma$.  So $\times_m$ is commutative. 
+For $a, b \in \mathbb{Z}_m$, $a\times_m b =\ol{a\cdot b} = \ol{b\cdot a} = b\times_ma$.  So $\times_m$ is commutative.
 @li
 Lastly, we need to prove distributativity.
-For $a, b, c \in \mathbb{Z}_m$, we have: 
+For $a, b, c \in \mathbb{Z}_m$, we have:
 @steps
 \[
 \begin{split}
@@ -144,7 +138,7 @@ and the commutativity of $\times_m$,
 that distributativity from the right also holds:
 \[
 (a +_m b) \times_m c = a\times_m c + b\times_m c.
-\] 
+\]
 @endcol
 @endol
 @qed
@@ -154,29 +148,27 @@ that distributativity from the right also holds:
 @slide
 @defn
 A nonzero commutative ring $R$ is an @keyword{integral domain} if
-the product of two nonzero elements is always nonzero. 
+the product of two nonzero elements is always nonzero.
 @end
 
 @defn
 @newcol
-A nonzero element $r$ in a ring $R$ is called a 
-@keyword{zero divisor}
-if
-there exists nonzero $s \in R$ such that $rs = 0$ or $sr = 0$. 
+A nonzero element $r$ in a ring $R$ is called a @keyword{zero divisor} if
+there exists nonzero $s \in R$ such that $rs = 0$ or $sr = 0$.
 @endcol
 @end
 
 <strong>Note.</strong>
 @newcol
 A nonzero commutative ring $R$ is an integral domain if and only if
-it has no zero divisors. 
+it has no zero divisors.
 @endcol
 
 @eg
 @newcol
 Since $2, 3 \neq 0$ in $\mathbb{Z}_6$, but
 $2 \times_6 3 = \bar{6} = 0$,
-the ring $\mathbb{Z}_6$ is not an integral domain. 
+the ring $\mathbb{Z}_6$ is not an integral domain.
 @endcol
 @end
 
@@ -185,7 +177,7 @@ the ring $\mathbb{Z}_6$ is not an integral domain.
 @claim
 A commutative ring $R$ is an integral domain if and only if
 the @keyword{cancellation law} holds for multiplication.  That is:
-Whenever $ca = cb$ and $c\neq 0$, we have $a = b$. 
+Whenever $ca = cb$ and $c\neq 0$, we have $a = b$.
 @end
 @proof
 @newcol
@@ -204,17 +196,17 @@ $a = b$.
 
 @col
 Conversely, suppose cancellation law holds.
-It suffices to show that whenever we have $a, b \in R$ such that $ab = 0$ and $a \neq 0$, 
+It suffices to show that whenever we have $a, b \in R$ such that $ab = 0$ and $a \neq 0$,
 then we must have $b = 0$.
 
 @col
 By a previous result we know that $0 = a0$.
-So, $ab = a0$, which by the cancellation law implies that $b = 0$. 
+So, $ab = a0$, which by the cancellation law implies that $b = 0$.
 @qed
 @endcol
 @end
 
-<h5>Note.</h5>
+<strong>Note.</strong>
 @newcol
 If every nonzero element of a commutative ring has a multiplicative inverse,
 then that ring is an integral domain:
@@ -222,18 +214,18 @@ then that ring is an integral domain:
 ca = cb \implies c^{-1} ca = c^{-1}cb\implies a = b.
 \]
 However, a nonzero element of an integral domain does not
-necessarily have a multiplicative inverse. 
+necessarily have a multiplicative inverse.
 @endcol
 @slide
 @eg
 The ring $\mathbb{Z}$ is an integral domain, for the product of two nonzero integers is nonzero.
 So, the cancellation law holds for $\mathbb{Z}$, but the only nonzero elements in $\mathbb{Z}$
-which have multiplicative inverses are $\pm 1$. 
+which have multiplicative inverses are $\pm 1$.
 @end
 
 @eg
 @newcol
-The ring $\mathbb{Q}[x]$ is an integral domain. 
+The ring $\mathbb{Q}[x]$ is an integral domain.
 @endcol
 @end
 
@@ -242,7 +234,7 @@ The ring $\mathbb{Q}[x]$ is an integral domain.
 @newcol
 Show that:
 For $m > 1$,
-$\mathbb{Z}_m$ is an integral domain if and only if $m$ is a prime. 
+$\mathbb{Z}_m$ is an integral domain if and only if $m$ is a prime.
 @endcol
 @end
 @slide
@@ -262,19 +254,19 @@ g(x) = \begin{cases}
 0, & -1 \leq x \leq 0,\\
 x, & 0 < x \leq 1.
 \end{cases}
-\] 
+\]
 @col
 Then $f$ and $g$ are nonzero elements of $R$, but $fg = 0$.
 
 @col
-So $R$ is not an integral domain. 
+So $R$ is not an integral domain.
 @endcol
 @end
 
 @slide
 @defn
 We say that an element $r \in R$ is a @keyword{unit} if it has a multiplicative inverse; i.e.
-there is an element $r^{-1} \in R$ such that $rr^{-1} = r^{-1} r = 1$. 
+there is an element $r^{-1} \in R$ such that $rr^{-1} = r^{-1} r = 1$.
 @end
 
 @eg
@@ -289,14 +281,14 @@ of multiplication, we would have:
 \[
 5 = (10^{-1}\cdot 10)\cdot 5 = 10^{-1} \cdot (10 \cdot 5) = 10^{-1} \cdot 0 = 0,
 \]
-a contradiction.  So, $10$ is not a unit in $\mathbb{Z}_{25}$. 
+a contradiction.  So, $10$ is not a unit in $\mathbb{Z}_{25}$.
 @endcol
 @end
 
 @slide
 @claim
 Let $m \in \mathbb{N}$ be greater than one.  Then, $r \in \mathbb{Z}_m$ is a unit
-if and only if $r$ and $m$ are relatively prime; i.e. $gcd(r, m) = 1$. 
+if and only if $r$ and $m$ are relatively prime; i.e. $gcd(r, m) = 1$.
 @end
 @proof
 @newcol
@@ -314,7 +306,7 @@ Conversely, if $gcd(r, m) = 1$, then there exists $x, y \in \mathbb{Z}$ such tha
 
 @col
 It follows that $r^{-1} = \ol{x}$ is a multiplicative inverse of $r$.
-Here, $\ol{x} \in \mathbb{Z}_m$ is the remainder of the division of $x$ by $m$. 
+Here, $\ol{x} \in \mathbb{Z}_m$ is the remainder of the division of $x$ by $m$.
 @qed
 @endcol
 @end
@@ -322,32 +314,32 @@ Here, $\ol{x} \in \mathbb{Z}_m$ is the remainder of the division of $x$ by $m$.
 @cor
 @label{cor:zpfield}
 @newcol
-For $p$ prime, every nonzero element of $\mathbb{Z}_p$ is a unit. 
+For $p$ prime, every nonzero element of $\mathbb{Z}_p$ is a unit.
 @endcol
 @end
 
 @slide
 @eg
-The only units of $\mathbb{Z}$ are $\pm 1$. 
+The only units of $\mathbb{Z}$ are $\pm 1$.
 @end
 
 @eg
 @newcol
 Let $R$ be the ring of all real-valued functions on $\mathbb{R}$.
-Then, any function $f \in R$  satisfying $f(x) \neq 0$, $\forall x$, is a unit. 
+Then, any function $f \in R$  satisfying $f(x) \neq 0$, $\forall x$, is a unit.
 @endcol
 @end
 
 @eg
 @newcol
 Let $R$ be the ring of all continuous real-valued functions on $\mathbb{R}$,
-then $f \in R$ is a unit if and only if it is either strictly positive or strictly negative. 
+then $f \in R$ is a unit if and only if it is either strictly positive or strictly negative.
 @endcol
 @end
 
 @slide
 @claim
-The only units of $\mathbb{Q}[x]$ are nonzero constants. 
+The only units of $\mathbb{Q}[x]$ are nonzero constants.
 @end
 @proof
 @newcol
@@ -364,21 +356,26 @@ $f\cdot \frac{1}{f} = \frac{1}{f}\cdot f = 1$.  So, $f$ is a unit.
 
 @col
 Finally, if $f = 0$, then $fg = 0 \neq 1$ for all $g \in \mathbb{Q}[x]$, so the zero polynomial
-has no multiplicative inverse. 
+has no multiplicative inverse.
 @qed
 @endcol
 @end
 @subsection{WeBWorK}
 @enumerate
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition10.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition3.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition7.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition9.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition8.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition10.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition3.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition7.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition9.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition8.pg}
 @endenumerate
 @section{Fields}
 @defn
-A @keyword{field} is a commutative ring, with $1 \neq 0$, in which every nonzero element is a unit. 
+A @keyword{field} is a commutative ring, with $1 \neq 0$, in which every nonzero element is a unit.
 @end
 @newcol
 In other words, a nonzero commutative ring $F$ is a field if and only if every nonzero element $r \in F$
@@ -394,14 +391,12 @@ which is not a field.
 @eg
 @ol
 @li
-$\mathbb{Q}$, $\mathbb{R}$ are fields. 
+$\mathbb{Q}$, $\mathbb{R}$ are fields.
 @li
 For $m \in \mathbb{N}$,
-it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if $m$ is prime. 
-<br/>
-<strong>Notation</strong>
+it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if $m$ is prime. <br/><strong>Notation</strong>
 @newcol
-For $p$ prime, we often denote the field $\mathbb{Z}_p$ by $\mathbb{F}_p$. 
+For $p$ prime, we often denote the field $\mathbb{Z}_p$ by $\mathbb{F}_p$.
 @endcol
 @endol
 @end
@@ -409,7 +404,7 @@ For $p$ prime, we often denote the field $\mathbb{Z}_p$ by $\mathbb{F}_p$.
 @slide
 @claim
 Equipped with the usual operations of addition and multiplications for real numbers,
-$F = \mathbb{Q}[\sqrt{2}] := \{a + b\sqrt{2}|a, b \in \mathbb{Q}\}$ is a field. 
+$F = \mathbb{Q}[\sqrt{2}] := \{a + b\sqrt{2}|a, b \in \mathbb{Q}\}$ is a field.
 @end
 @proof
 @newcol
@@ -434,7 +429,7 @@ Hence, $F$ is a commutative ring.
 To show that $F$ is a field, for every nonzero $a + b \sqrt{2}$ in $F$, we need to find its multiplicative inverse.  As an element of the field $\mathbb{R}$, the multiplicative inverse of $a + b\sqrt{2}$ is:
 \[
 (a + b\sqrt{2})^{-1} = \frac{1}{a + b\sqrt{2}}.
-\] 
+\]
 @col
 It remains to show that this number lies in $F$.
 Observe that:
@@ -455,14 +450,14 @@ Hence $a^2 - 2b^2 \neq 0$, and:
 \[
 \frac{1}{a + b\sqrt{2}} = \frac{a}{a^2 - 2b^2} - \frac{b}{a^2 - 2b^2}\sqrt{2},
 \]
-which lies in $F$. 
+which lies in $F$.
 @qed
 @endcol
 @end
 
 @slide
 @claim
-All finite integral domains are fields. 
+All finite integral domains are fields.
 @end
 @proof
 @newcol
@@ -483,7 +478,7 @@ In particular, since $a \neq 0$, we have $aa_i = aa_j$ if and only if $i = j$.
 The set $S$ is therefore a subset of $R$ with $n$ distinct elements, which implies that $S = R$.
 
 @col
-In particular, $1 = aa_i$ for some $i$.  This $a_i$ is the multiplicative inverse of $a$. 
+In particular, $1 = aa_i$ for some $i$.  This $a_i$ is the multiplicative inverse of $a$.
 @qed
 @endcol
 @end
@@ -499,22 +494,22 @@ has a multiplicative inverse $\frac{1}{n}$ in $\mathbb{Q}$, which is a field.
 
 @col
 So, a question one could ask is, can we "enlarge" a given integral domain to a field,
-by formally adding multiplicative inverses to the ring? 
+by formally adding multiplicative inverses to the ring?
 @endcol
 @subsubsection{An Equivalence Relation}
+<br/>
 Given an integral domain $R$ (commutative, with $1 \neq 0$).  We consider the set:
 $R \times R_{\neq 0} := \{(a, b) : a, b \in R, b\neq 0\}$.
 We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:
 \[
 (a, b) \equiv (c, d) \text{ if } ad = bc.
-\] 
+\]
 @lemma
 @newcol
 The relation $\equiv$ is an equivalence relation.
 
 @col
-In other words, the relation $\equiv$ is: 
-<ol>
+In other words, the relation $\equiv$ is: <ol>
 <li>
 <strong>Reflexive:</strong> $(a, b) \equiv (a, b)$ for all $(a, b) \in R\times R_{\neq 0}$ </li>
 <li>
@@ -546,10 +541,8 @@ and the union of all equivalent classes is equal to $S$:
 @defn
 @newcol
 Given an equivalence relation $\sim$ on a set $S$,
-the 
-@keyword{quotient set}
-$S/\sim$ is the set of all equivalence classes
-of $S$, with respect to $\sim$. 
+the @keyword{quotient set} $S/\sim$ is the set of all equivalence classes
+of $S$, with respect to $\sim$.
 @endcol
 @end
 
@@ -561,14 +554,14 @@ We define addition $+$ and multiplication $\cdot$ on $R\times R_{\neq 0}$ as fol
 (a, b) + (c, d) &:= (ad + bc, bd)\\
 (a, b)\cdot(c, d) &:= (ac, bd)
 \end{split}
-\] 
+\]
 @claim
-Suppose $(a, b) \equiv (a', b')$ and $(c, d) \equiv (c', d')$, then: 
+Suppose $(a, b) \equiv (a', b')$ and $(c, d) \equiv (c', d')$, then:
 @ol
 @li
-$(a, b) + (c, d) \equiv (a', b') + (c', d')$. 
+$(a, b) + (c, d) \equiv (a', b') + (c', d')$.
 @li
-$(a, b)\cdot(c, d) \equiv (a', b') \cdot (c', d')$. 
+$(a, b)\cdot(c, d) \equiv (a', b') \cdot (c', d')$.
 @endol
 @end
 @proof
@@ -593,7 +586,7 @@ Since
 \[
 acb'd' = ab'cd' = a'bc'd = a'c'bd,
 \]
-we have $(a, b)\cdot(c, d) \equiv (a', b')\cdot(c', d')$. 
+we have $(a, b)\cdot(c, d) \equiv (a', b')\cdot(c', d')$.
 @qed
 @endcol
 @end
@@ -608,14 +601,14 @@ and define $+$ and $\cdot$ on $\mathrm{Frac}(R)$ as follows:
 [(a, b)] + [(c, d)] &= [(ad + bc, bd)]\\
 [(a, b)]\cdot[(c, d)] &= [(ac, bd)]
 \end{split}
-\] 
+\]
 @cor
 @newcol
 $+$ and $\cdot$ thus defined are well-defined binary operations on $\mathrm{Frac}(R)$.
 
 @col
 In other words, we get the same output in $\mathrm{Frac}(R)$
-regardless of the choice of representatives of the equivalence classes. 
+regardless of the choice of representatives of the equivalence classes.
 @endcol
 @end
 
@@ -625,7 +618,7 @@ The set $\mathrm{Frac}(R)$, equipped with $+$ and $\cdot$ defined as above,
 forms a field, with additive identity $0 = [(0, 1)]$
 and multiplicative identity $1 = [(1, 1)]$.
 The multiplicative inverse of a nonzero element
-$[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$. 
+$[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$.
 @endcol
 @end
 @proof
@@ -636,14 +629,14 @@ $[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$.
 
 @slide
 @defn
-$\mathrm{Frac}(R)$ is called the @keyword{Fraction Field} of $R$. 
+$\mathrm{Frac}(R)$ is called the @keyword{Fraction Field} of $R$.
 @end
 
-<h5>Note.</h5>
+<strong>Note.</strong>
 @newcol
 $\mathrm{Frac}(\mathbb{Z}) = \mathbb{Q}$,
 if we identify $a/b \in \mathbb{Q}$, $a, b \in \mathbb{Z}$,
-with $[(a, b)] \in \mathrm{Frac}(\mathbb{Z})$. 
+with $[(a, b)] \in \mathrm{Frac}(\mathbb{Z})$.
 @endcol
 @subsection{WeBWorK}
 @enumerate

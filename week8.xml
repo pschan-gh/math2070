@@ -706,7 +706,6 @@ by formally adding multiplicative inverses to the ring? </paragraphs>
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="title" wbtag="paragraphs">An Equivalence Relation</paragraphs>
                 </title>
                 <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
                 <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="" wbtag="paragraphs"> Given an integral domain $R$ (commutative, with $1 \neq 0$).  We consider the set:
 $R \times R_{\neq 0} := \{(a, b) : a, b \in R, b\neq 0\}$.
 We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:

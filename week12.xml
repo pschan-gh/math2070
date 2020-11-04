@@ -2,11 +2,17 @@
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">primitive</keyword>
+      <keyword chapter="" slide="all">content</keyword>
       <keyword chapter="" slide="all">subring</keyword>
       <keyword chapter="" slide="all">subfield</keyword>
       <keyword chapter="" slide="all">field extension</keyword>
       <keyword chapter="" slide="all">algebraic</keyword>
       <keyword chapter="" slide="all">minimal polynomial</keyword>
+      <keyword chapter="" slide="all">Rational Root Theorem</keyword>
+      <keyword chapter="" slide="all">Gauss's Lemma</keyword>
+      <keyword chapter="" slide="all">Gauss's Theorem</keyword>
+      <keyword chapter="" slide="all">Eisenstein's Criterion</keyword>
     </keywords>
     <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
     <slides environment="" chapter_type="">
@@ -15,98 +21,545 @@
         <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="12" title="" topic="Field Extensions" course="Math 2070" serial="12">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="12" title="" topic="Rational Root Theorem, Gauss's Theorem, Eisenstein's Criterion, Field Extensions" course="Math 2070" serial="12">
       <keywords slide="all" environ="chapter" chapter="12" course="Math 2070">
+        <keyword chapter="12" slide="all">primitive</keyword>
+        <keyword chapter="12" slide="all">content</keyword>
         <keyword chapter="12" slide="all">subring</keyword>
         <keyword chapter="12" slide="all">subfield</keyword>
         <keyword chapter="12" slide="all">field extension</keyword>
         <keyword chapter="12" slide="all">algebraic</keyword>
         <keyword chapter="12" slide="all">minimal polynomial</keyword>
+        <keyword chapter="12" slide="all">Rational Root Theorem</keyword>
+        <keyword chapter="12" slide="all">Gauss's Lemma</keyword>
+        <keyword chapter="12" slide="all">Gauss's Theorem</keyword>
+        <keyword chapter="12" slide="all">Eisenstein's Criterion</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="12" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Rational Root Theorem</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Gauss's Theorem</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Eisenstein's Criterion</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Field Extensions</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Rational Root Theorem</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Gauss's Theorem</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Eisenstein's Criterion</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Field Extensions</topic>
           <keywords slide="2" environ="slide" chapter="12" course="Math 2070"/>
         </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="3" id="s3" slide="3" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" chapter_title="" section_title="">
-          <keywords slide="3" environ="slide" chapter="12" course="Math 2070">
-            <keyword chapter="12" slide="3">subring</keyword>
-            <keyword chapter="12" slide="3">subfield</keyword>
-          </keywords>
-          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="aa24e56839417ee64553b02eb3b092a6" course="Math 2070" chapter="12" slide="3" item="12.1">
-            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a ring.
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Polynomials over mathbbZ and mathbbQ" course="Math 2070" chapter="12" num="1" serial="12.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="12.1" slide="">
+          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Polynomials over $\mathbb{Z}$ and $\mathbb{Q}$</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="3" environ="slide" chapter="12" course="Math 2070">
+              <keyword chapter="12" slide="3">Rational Root Theorem</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Polynomials over $\mathbb{Z}$ and $\mathbb{Q}$</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Rational Root Theorem" md5="3c0464ad4416b97d36141ffd6ad5e3fd" course="Math 2070" chapter="12" slide="3" item="12.1">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="3">Rational Root Theorem</title>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f = a_0 + a_1x + \cdots + a_nx^n$, be a polynomial
+in $\mathbb{Q}[x]$, with $a_i \in \mathbb{Z}$, $a_n \neq 0$.
+Every rational root $r$ of $f$ in $\mathbb{Q}$ has the form
+$r = b/c$ $(b, c \in \mathbb{Z})$ where $b | a_0$ and $c | a_n$.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="69afa5c1500692c9cdfffd7b31823c7c" course="Math 2070" chapter="12" slide="3" of="3c0464ad4416b97d36141ffd6ad5e3fd">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $r = b/c$ be a rational root of $f$, where $b, c$ are relatively prime integers.
+We have:
+\[
+0 = \sum_{i = 0}^n a_i (b/c)^i
+\]  </paragraphs>
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Multiplying both sides of the above equation by $c^n$, we have:
+\[
+0 = a_0c^n + a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_n b^n,
+\]
+or equivalently:
+\[
+a_0 c^n = -(a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_n b^n).
+\]  </paragraphs>
+                  <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $b$ divides the right-hand side, and $b$ and $c$ are relatively prime,
+$b$ must divide $a_0$.</paragraphs>
+                    <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Similarly, we have:
+\[
+a_n b^n = - (a_0c^n + a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_{n - 1}cb^{n - 1}).
+\]  </paragraphs>
+                      <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $c$ divides the right-hand side, and $b$ and $c$ are relatively prime, $c$ must divide $a_n$.  </paragraphs>
+                        <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="4" environ="slide" chapter="12" course="Math 2070">
+              <keyword chapter="12" slide="4">primitive</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="fa31aede4c64516d6e3883385ff7a9d6" course="Math 2070" chapter="12" slide="4" item="12.2">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial $f \in \mathbb{Z}[x]$ is said to be </paragraphs>
+              <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">primitive</inline_keyword>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if the gcd of its coefficients is $1$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="a963bda95da173c53ad5bcfabad308dd" course="Math 2070" chapter="12" slide="4">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Note that if $f$ is monic, i.e. its leading coefficient is $1$,
+then it is primitive.</paragraphs>
+                <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">If $d$ is the gcd of the coefficients of $f$, then $\frac{1}{d}f$ is a primitive polynomial
+in $\mathbb{Z}[x]$.  </paragraphs>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="5" environ="slide" chapter="12" course="Math 2070">
+              <keyword chapter="12" slide="5">Gauss's Lemma</keyword>
+            </keywords>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="3" title="Gauss's Lemma" md5="af808fc5ae8233666af7e81712828d29" course="Math 2070" chapter="12" slide="5" item="12.3">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="5">Gauss's Lemma</title>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $f, g \in \mathbb{Z}[x]$ are both primitive, then $fg$ is primitive.  </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d5f8571d4c718bdbab64370dd5708211" course="Math 2070" chapter="12" slide="5" of="af808fc5ae8233666af7e81712828d29">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Write $f = \sum_{k = 0}^m a_k x^k$, $g = \sum_{k = 0}^n b_k x^k$.
+Then, $fg = \sum_{k = 0}^{m+n}c_kx^k$, where:
+\[
+c_k = \sum_{i + j = k}a_ib_j.
+\]  </paragraphs>
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $fg$ is not primitive.  Then, there exists a prime $p$ such that $p$ divides $c_k$
+for $k = 0, 1, 2,\ldots, m + n$.</paragraphs>
+                  <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $f$ is primitive, there exists a least
+$u \in \{0, 1, 2, \ldots, m\}$ such that $a_u$ is not divisible by $p$.</paragraphs>
+                    <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Similarly, since $g$ is primitive, there is a least $v \in \{0, 1, 2, \ldots, n\}$
+such that $b_v$ is not divisible by $p$.
+We have:
+\[
+c_{u + v} = \sum_{\substack{i + j = u+v\\(i, j)\neq (u, v)}}a_ib_j + a_ub_v,
+\]  </paragraphs>
+                      <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> hence:
+\[
+a_ub_v %% = c_{u + v} - \sum_{\substack{i + j = k\\(i, j)\neq (u, v)}}a_ib_j
+= c_{u + v} - \sum_{\substack{i + j = u + v\\i &lt; u}}a_ib_j
+- \sum_{\substack{i + j = u + v\\j &lt; v}}a_ib_j.
+\]  </paragraphs>
+                        <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the minimality conditions on $u$ and $v$, each term on the right-hand side of the above equation
+is divisible by $p$.</paragraphs>
+                          <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $p$ divides $a_ub_v$, which by Euclid's Lemma implies that
+$p$ divides either $a_u$ or $b_v$, a contradiction.  </paragraphs>
+                            <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="6" environ="slide" chapter="12" course="Math 2070">
+              <keyword chapter="12" slide="6">content</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="4" md5="4254f85499306c0d0e9620befefd2e33" course="Math 2070" chapter="12" slide="6" item="12.4">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Every nonzero $f \in \mathbb{Q}[x]$ has a unique factorization:
+\[
+f = c(f) f_0,
+\]
+where $c(f)$ is a positive rational number, and $f_0$ is a primitive polynomial in $\mathbb{Z}[x]$.  </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="5" md5="659d6ecb092d39d82f9c5db4d89cd7d7" course="Math 2070" chapter="12" slide="6" item="12.5">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The rational number $c(f)$ is called the  </paragraphs>
+                <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">content</inline_keyword>
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> of $f$.  </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="92b6096f2562a831af54897eb7f05aca" course="Math 2070" chapter="12" slide="6" of="659d6ecb092d39d82f9c5db4d89cd7d7">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <b xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Existence:</paragraphs>
+                </b>
+                <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Write $f = \sum_{k = 0}^n (a_k/b_k)x^k$,
+where $a_k, b_k \in \mathbb{Z}$.
+Let $B = b_0b_1\cdots b_n$.
+Then, $g := Bf$ is a polynomial in $\mathbb{Z}[x]$.
+Let $d$ be the gcd of the coefficients of $g$.
+Let $D = \pm d$, with the sign chosen such that $D/B &gt; 0$.
+Observe that $f = c(f)f_0$, where
+\[
+c(f) = D/B,
+\]
+and
+\[
+f_0 := \frac{B}{D} f = \frac{1}{D}g
+\]
+is a primitive polynomial in $\mathbb{Z}[x]$.</paragraphs>
+                <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <b xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Uniqueness:</paragraphs>
+                  </b>
+                  <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Suppose $f = ef_1$ for some positive $e \in \mathbb{Q}$ and primitive $f_1 \in \mathbb{Z}[x]$.
+We have:
+\[
+ef_1 = c(f) f_0.
+\]
+Writing $e/c(f) = u/v$ where $u, v$ are relatively prime positive integers, we have:
+\[
+uf_1 = vf_0.
+\]
+Since $gcd(u, v) = 1$, by Euclid's Lemma the above equation implies that $v$ divides each
+coefficient of $f_1$, and $u$ divides each coefficient of $f_0$.
+Since $f_0$ and $f_1$ are primitive, we conclude that $u = v = 1$.
+Hence, $e = c(f)$, and $f_1 = f_0$.  </paragraphs>
+                  <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="7" environ="slide" chapter="12" course="Math 2070"/>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" md5="acfea83363e1d036576467fd3f6d15be" course="Math 2070" chapter="12" slide="7" item="12.6">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For $f \in \mathbb{Z}[x] \subseteq \mathbb{Q}[x]$, we have $c(f) \in \mathbb{Z}$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4009b1c4ad404437e3586bad1d374665" course="Math 2070" chapter="12" slide="7" of="acfea83363e1d036576467fd3f6d15be">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $d$ be the gcd of the coefficients of $f$.  Then, $(1/d)f$
+is a primitive polynomial, and
+\[
+f = d\left(\frac{1}{d} f \right)
+\]
+is a factorization of $f$ into a product of a positive rational number and a primitive polynomial
+in $\mathbb{Z}[x]$.
+Hence, by uniqueness of $c(f)$ and $f_0$, we have $c(f) = d \in \mathbb{Z}$.  </paragraphs>
+                <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="8" environ="slide" chapter="12" course="Math 2070"/>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" md5="b6714075a8500245e9a1da8997c1755b" course="Math 2070" chapter="12" slide="8" item="12.7">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f, g, h$ be nonzero polynomials in $\mathbb{Q}[x]$ such that $f = gh$.
+Then, $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="973b16b6cd3dce7653231aebbb4564b5" course="Math 2070" chapter="12" slide="8" of="b6714075a8500245e9a1da8997c1755b">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The condition $f = gh$ implies that:
+\[
+c(f)f_0 = {c(g)}{c(h)} g_0h_0,
+\]
+where $f_0, g_0, h_0$ are primitive polynomials and $c(f), c(g), c(h)$ are positive rational numbers.
+By a previous result $g_0h_0$ is primitive.  It now follows from the uniqueness of $c(f)$ and $f_0$
+that $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$.  </paragraphs>
+                <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="9" environ="slide" chapter="12" course="Math 2070">
+              <keyword chapter="12" slide="9">Gauss's Theorem</keyword>
+            </keywords>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="Gauss's Theorem" md5="f569f469324025f59c31b4330b6a3d77" course="Math 2070" chapter="12" slide="9" item="12.8">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="9">Gauss's Theorem</title>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a nonzero polynomial in $\mathbb{Z}[x]$.
+If $f = GH$ for some $G, H \in \mathbb{Q}[x]$, then
+$f = gh$ for some $g, h \in \mathbb{Z}[x]$, where
+$\deg g = \deg G$, $\deg h = \deg H$.</paragraphs>
+              <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Consequently, if $f$ cannot be factored into a product of polynomials of smaller degrees in $\mathbb{Z}[x]$,
+then it is irreducible as a polynomial in $\mathbb{Q}[x]$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c4756254d9dc0fb74981ccd467aee9a" course="Math 2070" chapter="12" slide="9" of="f569f469324025f59c31b4330b6a3d77">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $f = GH$ for some $G, H$ in $\mathbb{Q}[x]$.
+Then $f = c(f) f_0 = c(G)c(H) G_0 H_0$,
+where $G_0$, $H_0$ are primitive polynomials in $\mathbb{Z}[x]$,
+and $c(G)c(H) = c(f)$ by the uniqueness of the content of a polynomial.</paragraphs>
+                <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Moreover, since $f \in \mathbb{Z}[x]$, its content $c(f)$ lies in $\mathbb{Z}$.
+Hence, $g = c(f) G_0$ and $h = H_0$ are polynomials in $\mathbb{Z}[x]$,
+with $\deg g = \deg G$, $\deg h = \deg H$, such that $f = gh$.  </paragraphs>
+                  <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="10" environ="slide" chapter="12" course="Math 2070"/>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Let $p$ be a prime.
+Let $\mathbb{F}_p = \mathbb{Z}/p\mathbb{Z} \cong \mathbb{Z}_p$.  It is a field, since $p$ is prime.
+For $a \in \mathbb{Z}$, let $\ol{a}$ denote the residue of $a$ in $\mathbb{F}_p$.</paragraphs>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="">Exercise:</inline_keyword>
+            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We have $\ol{a} = \ol{a_p}$, where $a_p$ is the remainder of the division of $a$ by $p$.</paragraphs>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="b3315c7bc4fe2358ae8c9651cd40bd00" course="Math 2070" chapter="12" slide="10" item="12.9">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f = \sum_{k = 0}^na_k x^k$ be a polynomial in $\mathbb{Z}[x]$
+such that $p \nmid a_n$ (in particular, $a_n \neq 0$).
+If $\ol{f} := \sum_{k = 0}^n \ol{a_k}x^k$ is irreducible in $\mathbb{F}_p[x]$,
+then $f$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d9ad97b972ed759d61631d562ff171c3" course="Math 2070" chapter="12" slide="10" of="b3315c7bc4fe2358ae8c9651cd40bd00">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$,
+but $f$ is not irreducible in $\mathbb{Q}[x]$.
+By Gauss's theorem, there exist $g, h \in \mathbb{Z}[x]$ such that
+$\deg g, \deg h  &lt; \deg f$ and $f = gh$.</paragraphs>
+                <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since by assumption $p \nmid a_n$, we have $\deg \ol{f} = \deg f$.</paragraphs>
+                  <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Moreover, $\ol{gh} = \ol{g}\cdot\ol{h}$ ( </paragraphs>
+                    <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise</paragraphs>
+                    </strong>
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ).</paragraphs>
+                    <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\ol{f} = \ol{gh} = \ol{g}\cdot \ol{h}$, where $\deg \ol{g}, \deg\ol{h} &lt; \deg \ol{f}$.
+This contradicts the irreducibility of $\ol{f}$ in $\mathbb{F}_p[x]$.</paragraphs>
+                      <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $f$ is irreducible in $\mathbb{Q}[x]$ if $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$.  </paragraphs>
+                        <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="11" environ="slide" chapter="12" course="Math 2070"/>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="affb2f9b427acb080edfcb267de8f12c" course="Math 2070" chapter="12" slide="11" item="12.10">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The polynomial $f(x) = x^4 - 5x^3 + 2x + 3 \in \mathbb{Q}[x]$ is irreducible.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="c2727f1dbeca94d1412c44da38fc7a9f" course="Math 2070" chapter="12" slide="11" of="affb2f9b427acb080edfcb267de8f12c">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider $\ol{f} = x^4 -\ol{5}x^3 + \ol{2}x + \ol{3} = x^4 + x^3 + 1$ in $\mathbb{F}_2[x]$.
+If we can show that $\ol{f}$ is irreducible, then by the previous theorem we can
+conclude that $f$ is irreducible.</paragraphs>
+                <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\mathbb{F}_2 = \{0, 1\}$ and
+$\ol{f}(0) = \ol{f}(1) = 1 \neq 0$, we know right away that $\ol{f}$
+has no linear factors.  So, if $\ol{f}$ is not irreducible, it must be a product of two quadratic factors:
+\[
+\ol{f} = (ax^2 + bx + c)(dx^2 + ex + g),\quad a, b, c, d, e, g \in \mathbb{F}_2.
+\]  </paragraphs>
+                  <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Note that by assumption $a, d$ are nonzero elements of $\mathbb{F}_2$, so $a = d = 1$.
+This implies that, in particular:
+\[
+\begin{split}
+1 &amp;= \ol{f}(0) = cg\\
+1 &amp;= \ol{f}(1) = (1 + b + c)(1 + e + g)
+\end{split}
+\]  </paragraphs>
+                    <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The first equation implies that $c = g = 1$.
+The second equation then implies that $1 = (2 + b)(2 + e) = be$.
+Hence, $b = e = 1$.</paragraphs>
+                      <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
+\begin{multline*}
+x^4 + x^3 +  1 = (x^2 + x + 1)(x^2 + x + 1)\\
+= x^4 + 2x^3 + 3x^2 + 2x + 1 = x^4 + x^2 + 1,
+\end{multline*}
+a contradiction.</paragraphs>
+                        <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\ol{f}$ is irreducible in $\mathbb{F}_2[x]$, which implies
+that $f$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
+                          <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="12" environ="slide" chapter="12" course="Math 2070">
+              <keyword chapter="12" slide="12">Eisenstein's Criterion</keyword>
+            </keywords>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Eisenstein's Criterion" md5="c70386bd8f4f800e68f019faaa5f28d3" course="Math 2070" chapter="12" slide="12" item="12.11">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="12">Eisenstein's Criterion</title>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f = a_0 + a_1 x + \cdots + a_n x^n$ be a polynomial in $\mathbb{Z}[x]$.
+If there exists a prime $p$ such that $p | a_i$ for $0 \leq i &lt; n$, but $p \nmid a_n$ and
+$p^2 \nmid a_0$, then $f$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b699c0aca3f7581de8cf068ff0145f35" course="Math 2070" chapter="12" slide="12" of="c70386bd8f4f800e68f019faaa5f28d3">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove by contradiction.  Suppose $f$ is not irreducible in $\mathbb{Q}[x]$.
+Then, by Gauss's Theorem, there exists $g = \sum_{k = 0}^l b_kx^k$,
+$h = \sum_{k = 0}^{n - l} c_k x^k \in \mathbb{Z}[x]$, with $\deg g, \deg h &lt; \deg f$,
+such that $f = gh$.</paragraphs>
+                <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider the image of these polynomials in $\mathbb{F}_p[x]$.
+By assumption, we have:
+\[
+\ol{a_n}x^n = \ol{f} = \ol{g}\ol{h}.
+\]  </paragraphs>
+                  <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This implies that $\ol{g}$ and $\ol{h}$ are divisors of $\ol{a_n}x^n$.
+Since $\mathbb{F}_p$ is a field, unique factorization holds for $\mathbb{F}_p[x]$.
+Hence, we must have:
+\[
+\ol{g} = \ol{b_u}x^u,\quad
+\ol{h} = \ol{c_{n - u}}x^{n - u},
+\]
+for some $u \in \{0, 1, 2,\ldots, l\}$.</paragraphs>
+                    <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $u &lt; l$, then $n - u &gt; n - l \geq \deg \ol{h}$, which cannot hold.</paragraphs>
+                      <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, we conclude that $\ol{g} = \ol{b_l}x^l$, $\ol{h} = \ol{c_{n - l}} x^{n - l}$.</paragraphs>
+                        <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, $\ol{b_0} = \ol{c_0} = 0$ in $\mathbb{F}_p$, which implies
+that $p$ divides both $b_0$ and $c_0$.  Since $a_0 = b_0c_0$, we have $p^2 | a_0$,
+a contradiction.  </paragraphs>
+                          <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="13" environ="slide" chapter="12" course="Math 2070"/>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="ea2fb75a17d88905f82f74c7e5a3a4d3" course="Math 2070" chapter="12" slide="13" item="12.12">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The polynomial $x^5 + 3x^4 - 6x^3 +12x + 3$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="14" environ="slide" chapter="12" course="Math 2070">
+              <keyword chapter="12" slide="14">subring</keyword>
+              <keyword chapter="12" slide="14">subfield</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="13" md5="aa24e56839417ee64553b02eb3b092a6" course="Math 2070" chapter="12" slide="14" item="12.13">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a ring.
 A subset $S$ of $R$ is said to be a </paragraphs>
-            <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="statement">subring</inline_keyword>
-            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $R$ if it is a ring under the addition $+_R$ and multiplication $\times_R$ associated with $R$,
+              <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">subring</inline_keyword>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $R$ if it is a ring under the addition $+_R$ and multiplication $\times_R$ associated with $R$,
 and its additive and multiplicative identity elements $0$, $1$ are those of $R$.  </paragraphs>
-          </statement>
-          <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="53ced6de000edd068359bd874c411e57" course="Math 2070" chapter="12" slide="3">
-            <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> To show that a subset $S$ of a ring $R$ is a subring,
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="53ced6de000edd068359bd874c411e57" course="Math 2070" chapter="12" slide="14">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> To show that a subset $S$ of a ring $R$ is a subring,
 it suffices to show that:  </paragraphs>
-              <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                <li environment="newcol">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $S$ contains the additive and multiplicative identity elements of $R$. </paragraphs>
-                </li>
-                <li environment="newcol">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $S$ is "closed under addition": $a +_R b \in S$ for all $a,b \in S$. </paragraphs>
-                </li>
-                <li environment="newcol">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $S$ is "closed under multiplication": $a \times_R b \in S$ for all $a, b\in S$. </paragraphs>
-                </li>
-                <li environment="newcol">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $S$ is closed under additive inverse: For all $a \in S$, the additive inverse $-a$ of $a$
+                <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $S$ contains the additive and multiplicative identity elements of $R$. </paragraphs>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $S$ is "closed under addition": $a +_R b \in S$ for all $a,b \in S$. </paragraphs>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $S$ is "closed under multiplication": $a \times_R b \in S$ for all $a, b\in S$. </paragraphs>
+                  </li>
+                  <li environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $S$ is closed under additive inverse: For all $a \in S$, the additive inverse $-a$ of $a$
 in $R$ belongs to $S$. </paragraphs>
-                </li>
-              </ul>
-            </newcol>
-          </substatement>
-          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="0dfc4cbc57f2fcb5e1aafb064997ddeb" course="Math 2070" chapter="12" slide="3" item="12.2">
-            <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A  </paragraphs>
-              <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol">subfield</inline_keyword>
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $k$ of a field $K$ is a subring of $K$ which is a field.  </paragraphs>
-            </newcol>
-          </statement>
-          <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for each nonzero element $r \in k \subseteq K$.  The multiplicative inverse of $r$ in $K$
+                  </li>
+                </ul>
+              </newcol>
+            </substatement>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="14" md5="0dfc4cbc57f2fcb5e1aafb064997ddeb" course="Math 2070" chapter="12" slide="14" item="12.14">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A  </paragraphs>
+                <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">subfield</inline_keyword>
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $k$ of a field $K$ is a subring of $K$ which is a field.  </paragraphs>
+              </newcol>
+            </statement>
+            <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for each nonzero element $r \in k \subseteq K$.  The multiplicative inverse of $r$ in $K$
 lies $k$.  </paragraphs>
-          </newcol>
-          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="3" md5="7b988cec9378b7935e66c5ba63ca6aa1" course="Math 2070" chapter="12" slide="3" item="12.3">
-            <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $K$ be a field and $k$ a subfield.  Let $\alpha$ be an element of $K$.
+            </newcol>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="15" md5="7b988cec9378b7935e66c5ba63ca6aa1" course="Math 2070" chapter="12" slide="14" item="12.15">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $K$ be a field and $k$ a subfield.  Let $\alpha$ be an element of $K$.
 We define $k(\alpha)$ to be the smallest subfield of $K$ containing $k$ and $\alpha$.
 In other words, if $F$ is a subfield of $K$ which contains $k$ and $\alpha$, then $F \supseteq k(\alpha)$.  </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We say that $k(\alpha)$ is obtained from $k$ by  </paragraphs>
-              <b xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">adjoining</paragraphs>
-              </b>
-              <b xmlns="http://www.w3.org/1999/xhtml" style="display:none" environment="newcol">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">adjoin</paragraphs>
-              </b>
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $\alpha$.  </paragraphs>
-            </newcol>
-          </statement>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" chapter_title="" section_title="">
-          <keywords slide="4" environ="slide" chapter="12" course="Math 2070"/>
-          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="4" md5="506a330a556dc38bd7de9fe38a7ecd19" course="Math 2070" chapter="12" slide="4" item="12.4">
-            <label course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:simpleextthm" type="Theorem"/>
-            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a subfield of a field $K$.  Let $\alpha$ be an element of $K$.  </paragraphs>
-            <col_ol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-              <col_li course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\alpha$ is a root of a nonzero polynomial $f \in k[x]$
+                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We say that $k(\alpha)$ is obtained from $k$ by  </paragraphs>
+                <b xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">adjoining</paragraphs>
+                </b>
+                <b xmlns="http://www.w3.org/1999/xhtml" style="display:none" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">adjoin</paragraphs>
+                </b>
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $\alpha$.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="15" environ="slide" chapter="12" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="16" md5="506a330a556dc38bd7de9fe38a7ecd19" course="Math 2070" chapter="12" slide="15" item="12.16">
+              <label wbtag="label" name="thm:simpleextthm" type="Theorem"/>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a subfield of a field $K$.  Let $\alpha$ be an element of $K$.  </paragraphs>
+              <col_ol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\alpha$ is a root of a nonzero polynomial $f \in k[x]$
 (viewed as a polynomial in $K[x]$ with coefficients in $k$),
 then $\alpha$ is a root of an irreducible polynomial $p \in k[x]$,
 such that $p | f$ in $k[x]$.  </paragraphs>
-              </col_li>
-              <col_li course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Let $p$ be an irreducible polynomial in $k[x]$ of which $\alpha$ is a root.
+                </col_li>
+                <col_li course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Let $p$ be an irreducible polynomial in $k[x]$ of which $\alpha$ is a root.
 Then, the map $\phi : k[x]/(p) \ra K$,
 defined by:
 \[
@@ -115,165 +568,165 @@ defined by:
 is a well-defined one-to-one ring homomorphism with $\im \phi = k(\alpha)$.
 (Here, $\sum_{j = 0}^nc_jx^j + (p)$ is the congruence class of $\sum_{j = 0}^nc_jx^j \in k[x]$
 modulo $(p)$.)  </paragraphs>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Hence,
+                  <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Hence,
 \[
 k[x]/(p) \cong k(\alpha).
 \]  </paragraphs>
-              </col_li>
-              <col_li course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\alpha, \beta \in K$ are both roots of an irreducible polynomial $p$ in $k[x]$,
+                </col_li>
+                <col_li course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\alpha, \beta \in K$ are both roots of an irreducible polynomial $p$ in $k[x]$,
 then there exists a ring isomorphism $\sigma : k(\alpha) \ra k(\beta)$,
 with $\sigma(\alpha) = \beta$ and $\sigma(s) = s$, for all $s \in k$.  </paragraphs>
-              </col_li>
-              <col_li course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Let $p$ be an irreducible polynomial in $k[x]$ of which $\alpha$ is a root.
+                </col_li>
+                <col_li course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Let $p$ be an irreducible polynomial in $k[x]$ of which $\alpha$ is a root.
 Then, each element in $k(\alpha)$ has a unique expression of the form:
 \[
 c_0 + c_1\alpha + \cdots + c_{n - 1}\alpha^{n - 1},
 \]
 where $c_i \in k$, and $n = \deg p$.  </paragraphs>
-              </col_li>
-            </col_ol>
-          </statement>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-          <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="68d09d8a30d9ca1e02f4e2e16936c8e4" course="Math 2070" chapter="12" slide="4">
-            <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ is an irreducible polynomial in $k[x]$ of which $\alpha \in K$ is a root.
+                </col_li>
+              </col_ol>
+            </statement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="68d09d8a30d9ca1e02f4e2e16936c8e4" course="Math 2070" chapter="12" slide="15">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ is an irreducible polynomial in $k[x]$ of which $\alpha \in K$ is a root.
 Part 4 of the theorem essentially says that $k(\alpha)$ is a vectors space of dimension $\deg p$
 over $k$, with basis:
 \[
 \{1, \alpha, \alpha^2,\ldots, \alpha^{n - 1}\}.
 \]  </paragraphs>
-            </newcol>
-          </substatement>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" chapter_title="" section_title="">
-          <keywords slide="5" environ="slide" chapter="12" course="Math 2070"/>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="407602bec9c747ad60b3ea49f2f71907" course="Math 2070" chapter="12" slide="5" item="12.5">
-            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Consider $k = \mathbb{Q}$ as a subfield of $K = \mathbb{R}$.
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="16" environ="slide" chapter="12" course="Math 2070"/>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="17" md5="407602bec9c747ad60b3ea49f2f71907" course="Math 2070" chapter="12" slide="16" item="12.17">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Consider $k = \mathbb{Q}$ as a subfield of $K = \mathbb{R}$.
 The element $\alpha \in \sqrt[3]{2} \in \mathbb{R}$
 is a root of the the polynomial $p = x^3 - 2 \in \mathbb{Q}[x]$,
 which is irreducible in $\mathbb{Q}[x]$ by the Eisenstein's Criterion for the prime $2$.</paragraphs>
-            <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
-            <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The theorem applied to this case says that $\mathbb{Q}(\alpha)$,
+              <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The theorem applied to this case says that $\mathbb{Q}(\alpha)$,
 i.e. the smallest subfield of $\mathbb{R}$ containing $\mathbb{Q}$ and $\alpha$,
 is equal to the set:
 \[
 \{c_0 + c_1 \alpha + c_2 \alpha^2 : c_i \in \mathbb{Q}\}
 \]  </paragraphs>
-              <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The addition and multiplication operations in $\mathbb{Q}(\alpha)$
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The addition and multiplication operations in $\mathbb{Q}(\alpha)$
 are those associated with $\mathbb{R}$, in other words:
 \begin{multline*}
 (c_0 + c_1 \alpha + c_2 \alpha^2) + (b_0 + b_1 \alpha + b_2 \alpha^2)\\
 = (c_0 + b_0) + (c_1 + b_1)\alpha + (c_2 + b_2)\alpha^2,
 \end{multline*}  </paragraphs>
-                <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \begin{multline*}
+                  <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \begin{multline*}
 (c_0 + c_1 \alpha + c_2 \alpha^2) \cdot (b_0 + b_1 \alpha + b_2 \alpha^2)\\
 = c_0b_0 + c_0b_1\alpha + c_0 b_2\alpha^2 + c_1 b_0\alpha + c_1b_1 \alpha^2\\ +
 c_1b_2\alpha^3 + c_2b_0\alpha^2 + c_2b_1\alpha^3 + c_2b_2\alpha^4\\
 = (c_0 b_0 + 2c_1b_2 + 2c_2b_1) + (c_0b_1 + c_1 b_0 + 2c_2b_2)\alpha \\
 + (c_0 b_2 + c_1 b_1 + c_2 b_0)\alpha^2
 \end{multline*}  </paragraphs>
+                  </collapse>
                 </collapse>
-              </collapse>
-            </newcol>
-          </statement>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="6" md5="560320ff85249a3b84d112c63be42a76" course="Math 2070" chapter="12" slide="5" item="12.6">
-            <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given  a nonzero $\gamma = c_0 + c_1\alpha + c_2 \alpha^2 \in \mathbb{Q}(\alpha)$,
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="18" md5="560320ff85249a3b84d112c63be42a76" course="Math 2070" chapter="12" slide="16" item="12.18">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given  a nonzero $\gamma = c_0 + c_1\alpha + c_2 \alpha^2 \in \mathbb{Q}(\alpha)$,
 $c_i \in \mathbb{Q}$, find $b_0, b_1, b_2 \in \mathbb{Q}$ such that
 $b_0 + b_1 \alpha + b_2\alpha^2$ is the multiplicative inverse of $\gamma$ in $\mathbb{Q}(\alpha)$.  </paragraphs>
-            </newcol>
-          </statement>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" chapter_title="" section_title="">
-          <keywords slide="6" environ="slide" chapter="12" course="Math 2070"/>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e85e9a24a97018cc8b9bd03cffec0900" course="Math 2070" chapter="12" slide="6" of="560320ff85249a3b84d112c63be42a76">
-            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> (</paragraphs>
-            <span xmlns="http://www.w3.org/1999/xhtml" style="color:SteelBLue" environment="substatement">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">of </paragraphs>
-              <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2070" chapter="12" slide="6" src-course="Math 2070" src-chapter="12" src-slide="4" type="Theorem" item="12.4" src-filename="week12.xml" md5="506a330a556dc38bd7de9fe38a7ecd19" class="lcref" serial="">
-                <title>Theorem 12.4</title>
-              </ref>
-            </span>
-            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> )  </paragraphs>
-            <col_ol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-              <col_li course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Define a map $\psi : k[x] \ra K$ as follows:
+              </newcol>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="17" environ="slide" chapter="12" course="Math 2070"/>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e85e9a24a97018cc8b9bd03cffec0900" course="Math 2070" chapter="12" slide="17" of="560320ff85249a3b84d112c63be42a76">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> (</paragraphs>
+              <span xmlns="http://www.w3.org/1999/xhtml" style="color:SteelBLue" environment="substatement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">of </paragraphs>
+                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2070" chapter="12" slide="17" src-course="Math 2070" src-chapter="12" src-slide="15" type="Theorem" item="12.16" src-filename="week12.xml" md5="506a330a556dc38bd7de9fe38a7ecd19" class="lcref" serial="">
+                  <title>Theorem 12.16</title>
+                </ref>
+              </span>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> )  </paragraphs>
+              <col_ol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Define a map $\psi : k[x] \ra K$ as follows:
 \[
 \psi\left(\sum c_j x^j\right) = \sum c_j\alpha^j.
 \]</paragraphs>
-                <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol"/>
-                <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol">Exercise:</inline_keyword>
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\psi$ is a ring homomorphism.</paragraphs>
-                <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol"/>
-                <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By assumption, $f$ lies in $\ker \psi$.
+                  <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol"/>
+                  <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol">Exercise:</inline_keyword>
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\psi$ is a ring homomorphism.</paragraphs>
+                  <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol"/>
+                  <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By assumption, $f$ lies in $\ker \psi$.
 Since $k$ is a field, the ring $k[x]$ is a PID.
 So, there exists $p \in k[x]$ such that $\ker \psi = (p)$.
 Hence, $p | f$ in $k[x]$.</paragraphs>
-                  <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the First Isomorphism Theorem, $\im \psi$ is a subring of $K$
+                    <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the First Isomorphism Theorem, $\im \psi$ is a subring of $K$
 which is isomorphic to $k[x]/(p)$.  In particular, $\im \psi$ is an integral domain
 because $K$ has no zero divisors.
 Hence, by  </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="thm:pirredfield" wbtag="ref" course="Math 2070" chapter="12" slide="6" src-course="Math 2070" src-chapter="11" src-slide="6" type="Theorem" item="11.5" src-filename="week11.xml" md5="b03e893af14e9abfb5b10e2dab6cac75" class="lcref" serial="">
-                      <title>Theorem 11.5</title>
-                    </ref>
-                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , the polynomial $p$ is an irreducible in $k[x]$.</paragraphs>
-                    <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $p \in (p) = \ker \psi$, we have $0 = \psi(p) = p(\alpha)$.  Hence,
+                      <ref environment="newcol" chapter_type="" label="thm:pirredfield" wbtag="ref" course="Math 2070" chapter="12" slide="17" src-course="Math 2070" src-chapter="11" src-slide="26" type="Theorem" item="11.27" src-filename="week11.xml" md5="b03e893af14e9abfb5b10e2dab6cac75" class="lcref" serial="">
+                        <title>Theorem 11.27</title>
+                      </ref>
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , the polynomial $p$ is an irreducible in $k[x]$.</paragraphs>
+                      <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $p \in (p) = \ker \psi$, we have $0 = \psi(p) = p(\alpha)$.  Hence,
 $\alpha$ is a root of $p$.  </paragraphs>
+                      </collapse>
                     </collapse>
-                  </collapse>
-                </newcol>
-              </col_li>
-              <col_li course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $f + (p) = g + (p)$ in $k[x]/(p)$, then $g - f \in (p)$, or equivalently:
+                  </newcol>
+                </col_li>
+                <col_li course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $f + (p) = g + (p)$ in $k[x]/(p)$, then $g - f \in (p)$, or equivalently:
 $g =  f + pq$ for some $q \in k[x]$.</paragraphs>
-                <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol"/>
-                <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\phi(g + (p)) = f(\alpha) + p(\alpha)q(\alpha) = f(\alpha) = \phi(f + (p))$.</paragraphs>
-                  <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This shows that $\phi$ is a well-defined map.  We leave it as an exercise to show
+                  <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol"/>
+                  <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\phi(g + (p)) = f(\alpha) + p(\alpha)q(\alpha) = f(\alpha) = \phi(f + (p))$.</paragraphs>
+                    <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This shows that $\phi$ is a well-defined map.  We leave it as an exercise to show
 that $\phi$ is a one-to-one ring homomorphism.</paragraphs>
-                    <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We now show that $\im \phi = k(\alpha)$.
+                      <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We now show that $\im \phi = k(\alpha)$.
 By the First Isomorphism Theorem, $\im \phi$ is isomorphic to $k[x]/(p)$,
 which is a field since $p$ is irreducible.
 Moreover, $\alpha = \phi(x + (p))$ lies in $\im \phi$.  Hence, $\im \phi$ is a subfield
 of $K$ containing $\alpha$.</paragraphs>
-                      <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                      <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since each element in $\im \phi$ has the form
+                        <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since each element in $\im \phi$ has the form
 $\sum_{j = 0}^n c_j \alpha^j$, where $c_j \in k$, and fields are closed under addition and multiplication,
 any subfield of $K$ which contains $k$ and $\alpha$ must contain $\im \phi$.
 This shows that $\im \phi$ is the smallest subfield of $K$ containing $k$ and $\alpha$.
 Hence, $k[x]/(p) \cong \im \phi = k(\alpha)$.  </paragraphs>
+                        </collapse>
                       </collapse>
                     </collapse>
-                  </collapse>
-                </newcol>
-              </col_li>
-              <col_li course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Define $\phi' : k[x]/(p) \ra k(\beta)$ as follows:
+                  </newcol>
+                </col_li>
+                <col_li course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Define $\phi' : k[x]/(p) \ra k(\beta)$ as follows:
 \[
 \phi'\left(\sum c_j x^j + (p)\right) = \sum c_j \beta^j.
 \]  </paragraphs>
-                <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the same reasoning applied to $\phi$ before, the map $\phi'$
+                  <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the same reasoning applied to $\phi$ before, the map $\phi'$
 is a well-defined ring isomorphism, with:
 \[
 \phi'(x + (p)) = \beta,\quad \phi'(s + (p)) = s \text{ for all } s \in k.
@@ -281,141 +734,142 @@ is a well-defined ring isomorphism, with:
 It is then easy to see that the map
 $\sigma := \phi'\circ\phi^{-1} : k(\alpha) \ra k(\beta)$
 is the desired isomorphism between $k(\alpha)$ and $k(\beta)$.  </paragraphs>
-                </newcol>
-              </col_li>
-              <col_li course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Since $\phi$ in Part 2 is an isomorphism onto $\im \phi = k(\alpha)$,
+                  </newcol>
+                </col_li>
+                <col_li course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Since $\phi$ in Part 2 is an isomorphism onto $\im \phi = k(\alpha)$,
 we know that each element $\gamma \in k(\alpha)$
 is equal to $\phi(f + (p)) = f(\alpha) := \sum c_j \alpha^j$
 for some $f = \sum c_j x^j \in k[x]$.</paragraphs>
-                <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol"/>
-                <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the division theorem for $k[x]$.  There exist $m, r \in k[x]$ such that $f = mp + r$,
+                  <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol"/>
+                  <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the division theorem for $k[x]$.  There exist $m, r \in k[x]$ such that $f = mp + r$,
 with $\deg r &lt; \deg p = n$.  In particular, $f + (p) = r + (p)$ in $k[x]/(p)$.</paragraphs>
-                  <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Write $r = \sum_{j = 0}^{n - 1} b_j x^j$, with $b_j = 0$ if $j &gt; \deg r$.</paragraphs>
-                    <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
+                    <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Write $r = \sum_{j = 0}^{n - 1} b_j x^j$, with $b_j = 0$ if $j &gt; \deg r$.</paragraphs>
+                      <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
 \[
 \gamma = \phi(f + (p)) = \phi(r + (p)) = \sum_{j = 0}^{n -1} b_j \alpha^j.
 \]  </paragraphs>
-                      <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It remains to show that this expression for $\gamma$ is unique.
+                        <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It remains to show that this expression for $\gamma$ is unique.
 Suppose $\gamma = g(\alpha) = \sum_{j = 0}^{n - 1} b_j' \alpha^j$ for some
 $g = \sum_{j = 0}^{n - 1}b_j'x^j \in k[x]$.</paragraphs>
-                        <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                        <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Then, $g(\alpha) = r(\alpha) = \gamma$ implies that $\phi(g + (p)) = \phi(r + (p))$,
+                          <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Then, $g(\alpha) = r(\alpha) = \gamma$ implies that $\phi(g + (p)) = \phi(r + (p))$,
 hence:
 \[
 (g - r) + (p) \in \ker \phi.
 \]
 Since $\phi$ is one-to-one, we have $(g - r) \equiv 0$ modulo $(p)$,
 which implies that $p | (g - r)$ in $k[x]$.</paragraphs>
-                          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                          <collapse course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\deg g, \deg r &lt; \deg p$, this implies that $g - r = 0$.
+                            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                            <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\deg g, \deg r &lt; \deg p$, this implies that $g - r = 0$.
 So, the expression $\gamma = b_0 + b_1\alpha + \cdots + b_{n - 1}\alpha^{n - 1}$
 is unique.  </paragraphs>
-                            <qed course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+                              <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                            </collapse>
                           </collapse>
                         </collapse>
                       </collapse>
                     </collapse>
-                  </collapse>
-                </newcol>
-              </col_li>
-            </col_ol>
-          </substatement>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" chapter_title="" section_title="">
-          <keywords slide="7" environ="slide" chapter="12" course="Math 2070">
-            <keyword chapter="12" slide="7">field extension</keyword>
-            <keyword chapter="12" slide="7">algebraic</keyword>
-            <keyword chapter="12" slide="7">minimal polynomial</keyword>
-          </keywords>
-          <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
-            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">Terminology:</paragraphs>
-          </h5>
-          <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
-            <li environment="">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $k$ is a subfield of $K$, we say that $K$ is a </paragraphs>
-              <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="">field extension</inline_keyword>
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $k$. </paragraphs>
-            </li>
-            <li environment="">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $\alpha$ be an element in a field extension $K$ of a field $k$.
+                  </newcol>
+                </col_li>
+              </col_ol>
+            </substatement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="18" environ="slide" chapter="12" course="Math 2070">
+              <keyword chapter="12" slide="18">field extension</keyword>
+              <keyword chapter="12" slide="18">algebraic</keyword>
+              <keyword chapter="12" slide="18">minimal polynomial</keyword>
+            </keywords>
+            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Terminology:</paragraphs>
+            </h5>
+            <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <li environment="">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $k$ is a subfield of $K$, we say that $K$ is a </paragraphs>
+                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="">field extension</inline_keyword>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $k$. </paragraphs>
+              </li>
+              <li environment="">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $\alpha$ be an element in a field extension $K$ of a field $k$.
 If there exists a polynomial $p \in k[x]$ of which $\alpha$
 is a root, then $\alpha$ is said to be </paragraphs>
-              <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="">algebraic</inline_keyword>
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs"> </paragraphs>
-              <b class="notkw" environment="">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">over $k$</paragraphs>
-              </b>
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">. </paragraphs>
-            </li>
-            <li environment="">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $\alpha \in K$ is algebraic over $k$, then there exists a unique </paragraphs>
-              <em environment="">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">monic irreducible</paragraphs>
-              </em>
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs"> polynomial $p \in k[x]$ of which $\alpha$ is a root (</paragraphs>
-              <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="">Exercise</inline_keyword>
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">).
+                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="">algebraic</inline_keyword>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> </paragraphs>
+                <b class="notkw" environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">over $k$</paragraphs>
+                </b>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">. </paragraphs>
+              </li>
+              <li environment="">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $\alpha \in K$ is algebraic over $k$, then there exists a unique </paragraphs>
+                <em environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">monic irreducible</paragraphs>
+                </em>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> polynomial $p \in k[x]$ of which $\alpha$ is a root (</paragraphs>
+                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="">Exercise</inline_keyword>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">).
 This polynomial $p$ is called the </paragraphs>
-              <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="">minimal polynomial</inline_keyword>
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $\alpha$ over $k$. </paragraphs>
-            </li>
-          </ul>
-          <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For example, $\sqrt[3]{2} \in \mathbb{R}$ is algebraic over $\mathbb{Q}$.
+                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="">minimal polynomial</inline_keyword>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $\alpha$ over $k$. </paragraphs>
+              </li>
+            </ul>
+            <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For example, $\sqrt[3]{2} \in \mathbb{R}$ is algebraic over $\mathbb{Q}$.
 Its minimal polynomial over $\mathbb{Q}$ is $x^3 - 2$.  </paragraphs>
-          </newcol>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="7" md5="02132ccf8478d8c60a24eda75e6144af" course="Math 2070" chapter="12" slide="7" item="12.7">
-            <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Find the minimal polynomial of $2 - \sqrt[3]{6} \in \mathbb{R}$ over $\mathbb{Q}$, if it exists.  </paragraphs>
             </newcol>
-          </statement>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" chapter_title="" section_title="">
-          <keywords slide="8" environ="slide" chapter="12" course="Math 2070"/>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="8" md5="1d9c2404f9e67425eed5bdc16e7b7812" course="Math 2070" chapter="12" slide="8" item="12.8">
-            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find the minimal polynomial of $\sqrt[3]{5}$ over $\mathbb{Q}$.  </paragraphs>
-          </statement>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="9" md5="8d8b5716ffde477476143abb096e9caf" course="Math 2070" chapter="12" slide="8" item="12.9">
-            <newcol course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Express the multiplicative inverse of $\gamma = 2 + \sqrt[3]{5}$
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="19" md5="02132ccf8478d8c60a24eda75e6144af" course="Math 2070" chapter="12" slide="18" item="12.19">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Find the minimal polynomial of $2 - \sqrt[3]{6} \in \mathbb{R}$ over $\mathbb{Q}$, if it exists.  </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="19" id="s19" slide="19" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over mathbbZ and mathbbQ">
+            <keywords slide="19" environ="slide" chapter="12" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="20" md5="1d9c2404f9e67425eed5bdc16e7b7812" course="Math 2070" chapter="12" slide="19" item="12.20">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find the minimal polynomial of $\sqrt[3]{5}$ over $\mathbb{Q}$.  </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="21" md5="8d8b5716ffde477476143abb096e9caf" course="Math 2070" chapter="12" slide="19" item="12.21">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Express the multiplicative inverse of $\gamma = 2 + \sqrt[3]{5}$
 in $\mathbb{Q}(\sqrt[3]{5})$ in the form:
 \[
 \gamma^{-1} = c_0 + c_1\sqrt[3]{5} + c_2\left(\sqrt[3]{5}\right)^2,
 \]
 where $c_i \in \mathbb{Q}$, if possible.  </paragraphs>
-            </newcol>
-          </statement>
-          <newline course="Math 2070" chapter="12" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-        </slide>
-      </slides>
-      <section environment="" chapter_type="" type="Section" wbtag="section" title="Splitting Field" course="Math 2070" chapter="12" num="1" serial="12.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="12.1" slide="">
-          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Splitting Field</paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Splitting Field" course="Math 2070" chapter="12" num="2" serial="12.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="12" section="2" subsection="" subsubsection="" serial="12.2" slide="">
+          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Splitting Field</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="9" scope="section" id="s9" slide="9" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Splitting Field">
-            <keywords slide="9" environ="slide" chapter="12" course="Math 2070"/>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="9">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Splitting Field</paragraphs>
+          <slide environment="" chapter_type="Week" canon_num="20" scope="section" id="s20" slide="20" course="Math 2070" chapter="12" section="2" subsection="" subsubsection="" chapter_title="" section_title="Splitting Field">
+            <keywords slide="20" environ="slide" chapter="12" course="Math 2070"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="12" section="2" subsection="" subsubsection="" serial="" slide="20">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Splitting Field</paragraphs>
             </title>
             <b xmlns="http://www.w3.org/1999/xhtml" style="display:none" environment="">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">splitting field</paragraphs>
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">splitting field</paragraphs>
             </b>
             <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="c3d49f6a0d03ed3444dab50bb2ef229a" course="Math 2070" chapter="12" slide="9" item="12.10">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Since $\sqrt[3]{2} \in \mathbb{Q}(\sqrt[3]{2})$ is a root of $x^3 - 2$,
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="22" md5="c3d49f6a0d03ed3444dab50bb2ef229a" course="Math 2070" chapter="12" slide="20" item="12.22">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Since $\sqrt[3]{2} \in \mathbb{Q}(\sqrt[3]{2})$ is a root of $x^3 - 2$,
 the polynomial $p = x^3 - 2$ has a linear factor in
 $\mathbb{Q}(\sqrt[3]{2})[x]$.  More precisely,
 \[
@@ -423,24 +877,24 @@ x^3 - 2 = (x - \sqrt[3]{2})(x^2 + \sqrt[3]{2}x + (\sqrt[3]{2})^2)
 \]
 in $\mathbb{Q}(\sqrt[3]{2})[x]$. </paragraphs>
               <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
-              <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">Exercise</inline_keyword>
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">: Is $x^2 + \sqrt[3]{2}x + (\sqrt[3]{2})^2$
+              <inline_keyword course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">Exercise</inline_keyword>
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">: Is $x^2 + \sqrt[3]{2}x + (\sqrt[3]{2})^2$
 irreducible in $\mathbb{Q}(\sqrt[3]{2})[x]$?  </paragraphs>
             </statement>
-            <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We could repeat this process and adjoin roots of
+            <newcol course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We could repeat this process and adjoin roots of
 $x^2 + \sqrt[3]{2}x + (\sqrt[3]{2})^2$ to $\mathbb{Q}(\sqrt[3]{2})$
 to further "split" the polynomial $x^3 - 2$ into a product of linear factors.
 That is the main idea behind the following theorem:  </paragraphs>
             </newcol>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" md5="4ceb83b7facc0d38bbaccbd9be28af5f" course="Math 2070" chapter="12" slide="9" item="12.11">
-              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="23" md5="4ceb83b7facc0d38bbaccbd9be28af5f" course="Math 2070" chapter="12" slide="20" item="12.23">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
 then there exists a field extension $K$ of $k$, such that $f \in k[x] \subseteq K[x]$
 is a product of linear factors in $K[x]$.</paragraphs>
-                <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In other words, there exists a field extension $K$ of $k$, such that:
+                <newline course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In other words, there exists a field extension $K$ of $k$, such that:
 \[
 f = c(x - \alpha_1)\cdots (x - \alpha_n),
 \]
@@ -448,55 +902,55 @@ for some $c, \alpha_i \in K$.  </paragraphs>
                 </collapse>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="a8623d8ca4e4d9fed35aba57ea62a80d" course="Math 2070" chapter="12" slide="9" of="4ceb83b7facc0d38bbaccbd9be28af5f">
-              <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove by induction on $\deg f$.</paragraphs>
-                <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\deg f = 1$, we are done.</paragraphs>
-                  <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="a8623d8ca4e4d9fed35aba57ea62a80d" course="Math 2070" chapter="12" slide="20" of="4ceb83b7facc0d38bbaccbd9be28af5f">
+              <newcol course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove by induction on $\deg f$.</paragraphs>
+                <newline course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\deg f = 1$, we are done.</paragraphs>
+                  <newline course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <b xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">
-                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Inductive Step:</paragraphs>
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Inductive Step:</paragraphs>
                     </b>
-                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\deg f &gt; 1$.  Suppose, for any field extension $k'$ of $k$,
+                    <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\deg f &gt; 1$.  Suppose, for any field extension $k'$ of $k$,
 and any polynomial $g \in k'[x]$ with $\deg g &lt; \deg f$,
 there exists a field extension $K$ of $k'$ such that $g$ splits into a product
 of linear factors in $K[x]$.</paragraphs>
-                    <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $f$ is irreducible.  Let $f(t)$ be the polynomial in $k[t]$
+                    <newline course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $f$ is irreducible.  Let $f(t)$ be the polynomial in $k[t]$
 obtained from $f$ by replacing the variable $x$ with the variable $t$.
 Consider $k' := k[t]/(f(t))$.
 Then, $k'$ is a field extension of $k$ if we identify $k$ with the subset
 $\{c + (f(t)) : c \in k\} \subseteq k'$,
 where $c$ is considered as a constant polynomial in $k[t]$.</paragraphs>
-                      <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                      <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that $k'$ contains a root $\alpha$ of $f$,
+                      <newline course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that $k'$ contains a root $\alpha$ of $f$,
 namely $\alpha = t + (f(t)) \in k[t]/(f(t))$.
 Hence, $f = (x - \alpha)q$ in $k'[x]$ for some polynomial $q \in k'[x]$ with $\deg q &lt; \deg f$.</paragraphs>
-                        <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                        <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Now, by the induction hypothesis,
+                        <newline course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Now, by the induction hypothesis,
 there is an extension field $K$ of $k'$ such that $q$ splits into a product of linear factors in $K[x]$.
 Consequently, $f$ splits into a product of linear factors in $K[x]$.</paragraphs>
-                          <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                          <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f$ is not irreducible, then $f = gh$ for some $g, h \in k[x]$,
+                          <newline course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f$ is not irreducible, then $f = gh$ for some $g, h \in k[x]$,
 with $\deg g, \deg h &lt; \deg f$.
 So, by the induction hypothesis, there is a field extension $k'$ of $k$
 such that $g$ is a product of linear factors in $k'[x]$.</paragraphs>
-                            <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                            <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence,
+                            <newline course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                            <collapse course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence,
 $f = (x - \alpha_1)\cdots(x - \alpha_n) h$ in $k'[x]$.  Since $\deg h &lt; \deg f$,
 by the inductive hypothesis there exists a field extension $K$ of $k'$ such that $h$
 splits into linear factors in $K[x]$.</paragraphs>
-                              <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                              <collapse course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $f$ is a product of linear factors in $K[x]$.  </paragraphs>
-                                <qed course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                              <newline course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                              <collapse course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                                <paragraphs course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $f$ is a product of linear factors in $K[x]$.  </paragraphs>
+                                <qed course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                               </collapse>
                             </collapse>
                           </collapse>
@@ -508,24 +962,24 @@ splits into linear factors in $K[x]$.</paragraphs>
               </newcol>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title="Splitting Field">
-            <keywords slide="10" environ="slide" chapter="12" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="12" course="Math 2070" chapter="12" slide="10" item="12.12">
-              <enumerate course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
-                <item course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields3.pg"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="21" id="s21" slide="21" course="Math 2070" chapter="12" section="2" subsection="" subsubsection="" chapter_title="" section_title="Splitting Field">
+            <keywords slide="21" environ="slide" chapter="12" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="24" course="Math 2070" chapter="12" slide="21" item="12.24">
+              <enumerate course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <item course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields3.pg"/>
                 </item>
-                <item course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields4.pg"/>
+                <item course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields4.pg"/>
                 </item>
-                <item course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields5.pg"/>
+                <item course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields5.pg"/>
                 </item>
-                <item course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields6.pg"/>
+                <item course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields6.pg"/>
                 </item>
-                <item course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields7.pg"/>
+                <item course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                  <webwork course="Math 2070" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields7.pg"/>
                 </item>
               </enumerate>
             </statement>

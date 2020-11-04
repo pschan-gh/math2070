@@ -24,8 +24,7 @@
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Finite Fields</topic>
           <keywords slide="2" environ="slide" chapter="13" course="Math 2070"/>
-          <paragraphs>
-            <!-- 
+          <comment course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment=""> 
 @thm
 If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
 then there exists a field extension $K$ of $k$, such that $f \in k[x] \subseteq K[x]$
@@ -34,7 +33,7 @@ is a product of linear factors in $K[x]$.
 @newcol
 In other words, there exists a field extension $K$ of $k$, such that:
 \[
-f = c(x &#45; \alpha_1)\cdots (x &#45; \alpha_n),
+f = c(x - \alpha_1)\cdots (x - \alpha_n),
 \]
 for some $c, \alpha_i \in K$. 
 @endcol@end@proof@newcol
@@ -43,9 +42,9 @@ We prove by induction on $\deg f$.
 @col
 If $\deg f = 1$, we are done.
 
-@col<b class="notkw">Inductive Step:</b>
-Suppose $\deg f > 1$.  Suppose, for any field extension $k'$ of $k$,
-and any polynomial $g \in k'[x]$ with $\deg g < \deg f$,
+@col&lt;b class="notkw"&gt;Inductive Step:&lt;/b&gt;
+Suppose $\deg f &gt; 1$.  Suppose, for any field extension $k'$ of $k$,
+and any polynomial $g \in k'[x]$ with $\deg g &lt; \deg f$,
 there exists a field extension $K$ of $k'$ such that $g$ splits into a product
 of linear factors in $K[x]$.
 
@@ -60,7 +59,7 @@ where $c$ is considered as a constant polynomial in $k[t]$.
 @col
 Observe that $k'$ contains a root $\alpha$ of $f$,
 namely $\alpha = t + (f(t)) \in k[t]/(f(t))$.
-Hence, $f = (x &#45; \alpha)q$ in $k'[x]$ for some polynomial $q \in k'[x]$ with $\deg q < \deg f$.
+Hence, $f = (x - \alpha)q$ in $k'[x]$ for some polynomial $q \in k'[x]$ with $\deg q &lt; \deg f$.
 
 @col
 Now, by the induction hypothesis,
@@ -69,20 +68,19 @@ Consequently, $f$ splits into a product of linear factors in $K[x]$.
 
 @col
 If $f$ is not irreducible, then $f = gh$ for some $g, h \in k[x]$,
-with $\deg g, \deg h < \deg f$.
+with $\deg g, \deg h &lt; \deg f$.
 So, by the induction hypothesis, there is a field extension $k'$ of $k$
 such that $g$ is a product of linear factors in $k'[x]$.
 
 @col
 Hence,
-$f = (x &#45; \alpha_1)\cdots(x &#45; \alpha_n) h$ in $k'[x]$.  Since $\deg h < \deg f$,
+$f = (x - \alpha_1)\cdots(x - \alpha_n) h$ in $k'[x]$.  Since $\deg h &lt; \deg f$,
 by the inductive hypothesis there exists a field extension $K$ of $k'$ such that $h$
 splits into linear factors in $K[x]$.
 
 @col
 Hence, $f$ is a product of linear factors in $K[x]$. 
-@qed@endcol@end-->
-          </paragraphs>
+@qed@endcol@end</comment>
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Finite Fields" course="Math 2070" chapter="13" num="1" serial="13.1">
@@ -217,8 +215,8 @@ namely, $\alpha = t + (f(t))$.</paragraphs>
                 <newline course="Math 2070" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                 <collapse course="Math 2070" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 2070" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By  </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2070" chapter="13" slide="6" src-course="Math 2070" src-chapter="12" src-slide="4" type="Theorem" item="12.4" src-filename="week12.xml" md5="506a330a556dc38bd7de9fe38a7ecd19" class="lcref" serial="">
-                    <title>Theorem 12.4</title>
+                  <ref environment="newcol" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2070" chapter="13" slide="6" src-course="Math 2070" src-chapter="12" src-slide="15" type="Theorem" item="12.16" src-filename="week12.xml" md5="506a330a556dc38bd7de9fe38a7ecd19" class="lcref" serial="">
+                    <title>Theorem 12.16</title>
                   </ref>
                   <paragraphs course="Math 2070" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
 $K = k(\alpha)$, and every element in $K$ may be expressed uniquely in the form:

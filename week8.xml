@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -155,7 +156,7 @@ is equal to: </paragraphs>
                         </collapse>
                       </collapse>
                     </newcol>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
                   </col_li>
                   <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                     <strong xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
@@ -455,17 +456,15 @@ Then, any function $f \in R$  satisfying $f(x) \neq 0$, $\forall x$, is a unit. 
               </newcol>
             </statement>
             <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="19" md5="c380c45e48a8ba15b1262dab961344c7" course="Math 2070" chapter="8" slide="12" item="8.19">
-              <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $R$ be the ring of all continuous real-valued functions on $\mathbb{R}$,
-then $f \in R$ is a unit if and only if it is either strictly positive or strictly negative. </paragraphs>
-              </newcol>
-            </statement>
+            <comment course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""> @eg@newcol
+Let $R$ be the ring of all continuous real-valued functions on $\mathbb{R}$,
+then $f \in R$ is a unit if and only if it is either strictly positive or strictly negative.
+@endcol@end </comment>
             <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integral Domains Units">
             <keywords slide="13" environ="slide" chapter="8" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="20" md5="6d231a348d60a74ccb5a6a7bd787da4c" course="Math 2070" chapter="8" slide="13" item="8.20">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="19" md5="6d231a348d60a74ccb5a6a7bd787da4c" course="Math 2070" chapter="8" slide="13" item="8.19">
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The only units of $\mathbb{Q}[x]$ are nonzero constants. </paragraphs>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="599600c3a054ab08194724000efa8433" course="Math 2070" chapter="8" slide="13" of="6d231a348d60a74ccb5a6a7bd787da4c">
@@ -534,7 +533,7 @@ has no multiplicative inverse. </paragraphs>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" serial="" slide="15">
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Fields</paragraphs>
             </title>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="21" md5="e8acd23e633190b73d66d71793f3a974" course="Math 2070" chapter="8" slide="15" item="8.21">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="20" md5="e8acd23e633190b73d66d71793f3a974" course="Math 2070" chapter="8" slide="15" item="8.20">
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A </paragraphs>
               <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">field</inline_keyword>
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> is a commutative ring, with $1 \neq 0$, in which every nonzero element is a unit. </paragraphs>
@@ -553,7 +552,7 @@ which is not a field.</paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title="Fields">
             <keywords slide="16" environ="slide" chapter="8" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="22" md5="2622cb49ee23b4bd35ad594c75f19616" course="Math 2070" chapter="8" slide="16" item="8.22">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="21" md5="2622cb49ee23b4bd35ad594c75f19616" course="Math 2070" chapter="8" slide="16" item="8.21">
               <col_ol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                 <col_li course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\mathbb{Q}$, $\mathbb{R}$ are fields. </paragraphs>
@@ -561,7 +560,7 @@ which is not a field.</paragraphs>
                 <col_li course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $m \in \mathbb{N}$,
 it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if $m$ is prime. </paragraphs>
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ol" />
+                  <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
                   <strong xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Notation</paragraphs>
                   </strong>
@@ -575,7 +574,7 @@ it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if 
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title="Fields">
             <keywords slide="17" environ="slide" chapter="8" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="23" md5="cc936e1ed3ca39c8479a3b2338105bdf" course="Math 2070" chapter="8" slide="17" item="8.23">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="22" md5="cc936e1ed3ca39c8479a3b2338105bdf" course="Math 2070" chapter="8" slide="17" item="8.22">
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Equipped with the usual operations of addition and multiplications for real numbers,
 $F = \mathbb{Q}[\sqrt{2}] := \{a + b\sqrt{2}|a, b \in \mathbb{Q}\}$ is a field. </paragraphs>
             </statement>
@@ -637,7 +636,7 @@ which lies in $F$. </paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title="Fields">
             <keywords slide="18" environ="slide" chapter="8" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="24" md5="6a657d0bc28f21508fd741fb2382fa18" course="Math 2070" chapter="8" slide="18" item="8.24">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="23" md5="6a657d0bc28f21508fd741fb2382fa18" course="Math 2070" chapter="8" slide="18" item="8.23">
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> All finite integral domains are fields. </paragraphs>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="22771a1dd20e60a22b777380bdf5d002" course="Math 2070" chapter="8" slide="18" of="6a657d0bc28f21508fd741fb2382fa18">
@@ -705,14 +704,14 @@ by formally adding multiplicative inverses to the ring? </paragraphs>
                 <title environment="title" chapter_type="Week" wbtag="title" scope="subsubsection" course="Math 2070" chapter="8" section="2" subsection="1" subsubsection="1" serial="" slide="20">
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="title" wbtag="paragraphs">An Equivalence Relation</paragraphs>
                 </title>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+                <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
                 <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="" wbtag="paragraphs"> Given an integral domain $R$ (commutative, with $1 \neq 0$).  We consider the set:
 $R \times R_{\neq 0} := \{(a, b) : a, b \in R, b\neq 0\}$.
 We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:
 \[
 (a, b) \equiv (c, d) \text{ if } ad = bc.
 \] </paragraphs>
-                <statement environment="statement" chapter_type="" type="Lemma" wbtag="lemma" num="25" md5="45777aaa95215986561c973de5594246" course="Math 2070" chapter="8" slide="20" item="8.25">
+                <statement environment="statement" chapter_type="" type="Lemma" wbtag="lemma" num="24" md5="45777aaa95215986561c973de5594246" course="Math 2070" chapter="8" slide="20" item="8.24">
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> The relation $\equiv$ is an equivalence relation.</paragraphs>
                     <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
@@ -770,7 +769,7 @@ and the union of all equivalent classes is equal to $S$:
 \bigcup_{s \in S} [s] = S.
 \]</paragraphs>
                 <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
-                <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="26" md5="c598f4cc029609fe67a39fbdc250c69a" course="Math 2070" chapter="8" slide="21" item="8.26">
+                <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="25" md5="c598f4cc029609fe67a39fbdc250c69a" course="Math 2070" chapter="8" slide="21" item="8.25">
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> Given an equivalence relation $\sim$ on a set $S$,
 the </paragraphs>
@@ -791,7 +790,7 @@ We define addition $+$ and multiplication $\cdot$ on $R\times R_{\neq 0}$ as fol
 (a, b)\cdot(c, d) &amp;:= (ac, bd)
 \end{split}
 \] </paragraphs>
-                <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="27" md5="a1ba9f7a1b4e17cfb72946389adb743c" course="Math 2070" chapter="8" slide="22" item="8.27">
+                <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="26" md5="a1ba9f7a1b4e17cfb72946389adb743c" course="Math 2070" chapter="8" slide="22" item="8.26">
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement" wbtag="paragraphs"> Suppose $(a, b) \equiv (a', b')$ and $(c, d) \equiv (c', d')$, then: </paragraphs>
                   <col_ol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="col_ol" wbtag="col_ol">
                     <col_li course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="col_ol" wbtag="col_li">
@@ -845,7 +844,7 @@ and define $+$ and $\cdot$ on $\mathrm{Frac}(R)$ as follows:
 [(a, b)]\cdot[(c, d)] &amp;= [(ac, bd)]
 \end{split}
 \] </paragraphs>
-                <statement environment="statement" chapter_type="" type="Corollary" wbtag="cor" num="28" md5="99ca4a856c3b3f5cdf3fbf4574ae7ab7" course="Math 2070" chapter="8" slide="23" item="8.28">
+                <statement environment="statement" chapter_type="" type="Corollary" wbtag="cor" num="27" md5="99ca4a856c3b3f5cdf3fbf4574ae7ab7" course="Math 2070" chapter="8" slide="23" item="8.27">
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> $+$ and $\cdot$ thus defined are well-defined binary operations on $\mathrm{Frac}(R)$.</paragraphs>
                     <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
@@ -856,7 +855,7 @@ regardless of the choice of representatives of the equivalence classes. </paragr
                   </newcol>
                 </statement>
                 <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
-                <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="29" md5="01abcef5efc49dc54237d2ef63d6bd0b" course="Math 2070" chapter="8" slide="23" item="8.29">
+                <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="28" md5="01abcef5efc49dc54237d2ef63d6bd0b" course="Math 2070" chapter="8" slide="23" item="8.28">
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> The set $\mathrm{Frac}(R)$, equipped with $+$ and $\cdot$ defined as above,
 forms a field, with additive identity $0 = [(0, 1)]$
@@ -878,7 +877,7 @@ $[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$. </paragraphs>
                 <keywords slide="24" environ="slide" chapter="8" course="Math 2070">
                   <keyword chapter="8" slide="24">Fraction Field</keyword>
                 </keywords>
-                <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="30" md5="aa3c851fa19495b6e6fd3dff39db5847" course="Math 2070" chapter="8" slide="24" item="8.30">
+                <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="29" md5="aa3c851fa19495b6e6fd3dff39db5847" course="Math 2070" chapter="8" slide="24" item="8.29">
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement" wbtag="paragraphs"> $\mathrm{Frac}(R)$ is called the </paragraphs>
                   <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement">Fraction Field</inline_keyword>
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement" wbtag="paragraphs"> of $R$. </paragraphs>

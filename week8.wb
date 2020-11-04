@@ -330,12 +330,12 @@ Then, any function $f \in R$  satisfying $f(x) \neq 0$, $\forall x$, is a unit.
 @endcol
 @end
 
-@eg
+<!-- @eg
 @newcol
 Let $R$ be the ring of all continuous real-valued functions on $\mathbb{R}$,
 then $f \in R$ is a unit if and only if it is either strictly positive or strictly negative.
 @endcol
-@end
+@end -->
 
 @slide
 @claim

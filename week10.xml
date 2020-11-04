@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -21,7 +20,7 @@
         <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="10" title="" topic="Ideals, Principal Ideals" course="Math 2070" serial="10">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="10" title="" topic="Ideals, Principal Ideal Domains" course="Math 2070" serial="10">
       <keywords slide="all" environ="chapter" chapter="10" course="Math 2070">
         <keyword chapter="10" slide="all">kernel</keyword>
         <keyword chapter="10" slide="all">image</keyword>
@@ -37,12 +36,12 @@
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide=""/>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Ideals</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Principal Ideals</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Principal Ideal Domains</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Ideals</topic>
-          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Principal Ideals</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Principal Ideal Domains</topic>
           <keywords slide="2" environ="slide" chapter="10" course="Math 2070"/>
         </slide>
       </slides>
@@ -292,7 +291,7 @@ $ra$ belongs to $I$ for all $a \in I$, $r\in R$.</paragraphs>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Clearly,
 this general definition coincides with the one above in the special case that
 the ring is commutative. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In this introductory course, unless otherwise noted,
 we will always discuss ideals in the context of commutative rings. </paragraphs>
             </newcol>
@@ -460,15 +459,12 @@ map from the infinite set $\mathbb{Q}$ to the finite set $\mathbb{Z}_m$. </parag
               </title>
               <enumerate course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
                 <item course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
                   <webwork course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms5.pg"/>
                 </item>
                 <item course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
                   <webwork course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms7.pg"/>
                 </item>
                 <item course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
                   <webwork course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg"/>
                 </item>
               </enumerate>

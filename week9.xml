@@ -217,7 +217,7 @@ addition and multiplication for integers.</paragraphs>
             </keywords>
             <hc_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">evaluation homomorphism</hc_keyword>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="3bca8a74c04e7763a3607fb2fcaadc80" course="Math 2070" chapter="9" slide="7" item="9.5">
-              <label course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="eg:evalhomom" type="Example"/>
+              <label wbtag="label" name="eg:evalhomom" type="Example"/>
               <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.  For each element $r \in R$,
 we may define the </paragraphs>
               <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
@@ -466,7 +466,7 @@ The </paragraphs>
             <keywords slide="14" environ="slide" chapter="9" course="Math 2070"/>
             <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="cbcc6c4aa6c59ea640e8408f178a2b39" course="Math 2070" chapter="9" slide="14" item="9.11">
-              <label course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="claim:onetooneker" type="Claim"/>
+              <label wbtag="label" name="claim:onetooneker" type="Claim"/>
               <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A ring homomorphism $\phi : A \rightarrow B$ is one-to-one if and only if $\ker \phi = \{0\}$. </paragraphs>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="fb467bda7c59ff2b1a37e19d08c2ed15" course="Math 2070" chapter="9" slide="14" of="cbcc6c4aa6c59ea640e8408f178a2b39">
@@ -822,7 +822,7 @@ This shows that $u$ is unit. </paragraphs>
               <keyword chapter="9" slide="24">PID</keyword>
             </keywords>
             <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="22" md5="4ac60ad0846141cae22cdee387ec081b" course="Math 2070" chapter="9" slide="24" item="9.22">
-              <label course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="def:pid" type="Definition"/>
+              <label wbtag="label" name="def:pid" type="Definition"/>
               <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $R$ is an integral domain in which every ideal is principal,
 we say that $R$ is a </paragraphs>
               <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">Principal Ideal Domain</inline_keyword>
@@ -891,7 +891,7 @@ $k[x]$ is also a PID.</paragraphs>
             <newline course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="24" title="Division Theorem for Polynomials with Unit Leading Coefficients" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" course="Math 2070" chapter="9" slide="25" item="9.24">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" serial="" slide="25">Division Theorem for Polynomials with Unit Leading Coefficients</title>
-              <label course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:divalgpoly" type="Theorem"/>
+              <label wbtag="label" name="thm:divalgpoly" type="Theorem"/>
               <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.  For all $d, f \in R[x]$, such that the leading coefficient of $d$ is a unit in $R$,
 there exist $q , r \in R[x]$ such that:
 \[
@@ -950,7 +950,7 @@ f = (q' + a_n^{-1}b_m x^{m - n}) d + r'.
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="26" id="s26" slide="26" course="Math 2070" chapter="9" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
             <keywords slide="26" environ="slide" chapter="9" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="25" md5="cb147fcfae2b64a2477e6cd9c7fb2126" course="Math 2070" chapter="9" slide="26" item="9.25">
-              <label course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:pidpoly" type="Theorem"/>
+              <label wbtag="label" name="thm:pidpoly" type="Theorem"/>
               <paragraphs course="Math 2070" chapter="9" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Then, $k[x]$ is a PID. </paragraphs>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="19c29c16368d2f0619952c1519b4a600" course="Math 2070" chapter="9" slide="26" of="cb147fcfae2b64a2477e6cd9c7fb2126">

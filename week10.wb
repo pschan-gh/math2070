@@ -8,7 +8,8 @@ for it must preserve algebraic structure.
 
 @newcol
 For example, there is a bijective map
-$f : \mathbb{Z} \rightarrow \mathbb{Q}$ ( <i>shown in class</i> ),
+$f : \mathbb{Z} \rightarrow \mathbb{Q}$
+,
 but the two are clearly not isomorphic as rings:
 
 @col

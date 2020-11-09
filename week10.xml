@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -61,11 +60,8 @@ for it must preserve algebraic structure.</paragraphs>
             <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For example, there is a bijective map
-$f : \mathbb{Z} \rightarrow \mathbb{Q}$ ( </paragraphs>
-              <i xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">shown in class</paragraphs>
-              </i>
-              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ),
+$f : \mathbb{Z} \rightarrow \mathbb{Q}$
+,
 but the two are clearly not isomorphic as rings:</paragraphs>
               <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
               <collapse course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
@@ -292,7 +288,7 @@ $ra$ belongs to $I$ for all $a \in I$, $r\in R$.</paragraphs>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Clearly,
 this general definition coincides with the one above in the special case that
 the ring is commutative. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In this introductory course, unless otherwise noted,
 we will always discuss ideals in the context of commutative rings. </paragraphs>
             </newcol>

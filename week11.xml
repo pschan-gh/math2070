@@ -1,13 +1,6 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
-      <keyword chapter="" slide="all">congruent modulo $I$</keyword>
-      <keyword chapter="" slide="all">equivalence relation</keyword>
-      <keyword chapter="" slide="all">Reflexivity</keyword>
-      <keyword chapter="" slide="all">Symmetry</keyword>
-      <keyword chapter="" slide="all">Transitivity</keyword>
-      <keyword chapter="" slide="all">residue</keyword>
       <keyword chapter="" slide="all">evaluation homomorphism</keyword>
       <keyword chapter="" slide="all">root</keyword>
       <keyword chapter="" slide="all">monic polynomial</keyword>
@@ -15,7 +8,6 @@
       <keyword chapter="" slide="all">GCD</keyword>
       <keyword chapter="" slide="all">relatively prime</keyword>
       <keyword chapter="" slide="all">irreducible</keyword>
-      <keyword chapter="" slide="all">First Isomorphism Theorem</keyword>
       <keyword chapter="" slide="all">Gaussian Integers</keyword>
       <keyword chapter="" slide="all">Root Theorem</keyword>
       <keyword chapter="" slide="all">Euclid's Lemma</keyword>
@@ -30,12 +22,6 @@
     </slides>
     <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="11" title="" topic="Quotient Rings, Polynomials over a Field" course="Math 2070" serial="11">
       <keywords slide="all" environ="chapter" chapter="11" course="Math 2070">
-        <keyword chapter="11" slide="all">congruent modulo $I$</keyword>
-        <keyword chapter="11" slide="all">equivalence relation</keyword>
-        <keyword chapter="11" slide="all">Reflexivity</keyword>
-        <keyword chapter="11" slide="all">Symmetry</keyword>
-        <keyword chapter="11" slide="all">Transitivity</keyword>
-        <keyword chapter="11" slide="all">residue</keyword>
         <keyword chapter="11" slide="all">evaluation homomorphism</keyword>
         <keyword chapter="11" slide="all">root</keyword>
         <keyword chapter="11" slide="all">monic polynomial</keyword>
@@ -43,7 +29,6 @@
         <keyword chapter="11" slide="all">GCD</keyword>
         <keyword chapter="11" slide="all">relatively prime</keyword>
         <keyword chapter="11" slide="all">irreducible</keyword>
-        <keyword chapter="11" slide="all">First Isomorphism Theorem</keyword>
         <keyword chapter="11" slide="all">Gaussian Integers</keyword>
         <keyword chapter="11" slide="all">Root Theorem</keyword>
         <keyword chapter="11" slide="all">Euclid's Lemma</keyword>
@@ -60,348 +45,17 @@
           <keywords slide="2" environ="slide" chapter="11" course="Math 2070"/>
         </slide>
       </slides>
-      <section environment="" chapter_type="" type="Section" wbtag="section" title="Quotient Rings" course="Math 2070" chapter="11" num="1" serial="11.1">
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Quotient Rings - continued" course="Math 2070" chapter="11" num="1" serial="11.1">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="11.1" slide="">
-          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Quotient Rings</paragraphs>
+          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Quotient Rings - continued</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="3" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="3">congruent modulo $I$</keyword>
-              <keyword chapter="11" slide="3">equivalence relation</keyword>
-              <keyword chapter="11" slide="3">Reflexivity</keyword>
-              <keyword chapter="11" slide="3">Symmetry</keyword>
-              <keyword chapter="11" slide="3">Transitivity</keyword>
-            </keywords>
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings - continued">
+            <keywords slide="3" environ="slide" chapter="11" course="Math 2070"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="3">
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Quotient Rings</paragraphs>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Quotient Rings - continued</paragraphs>
             </title>
-            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $R$ be a commutative ring.  Let $I$ be an ideal of $R$.
-We define a relation $\sim$ on $R$ as follows:
-\[
-a \sim b, \quad \text{ if } a - b \in I.
-\]</paragraphs>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Notation/Terminology:</paragraphs>
-            </strong>
-            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $a \sim b$, we say that $a$ is </paragraphs>
-            <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="">congruent modulo $I$</inline_keyword>
-            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> to $b$,
-and write:
-\[
-a \equiv b \mod I.
-\]</paragraphs>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="1" md5="963e2cc1e3a2e478611a672d21ac6c47" course="Math 2070" chapter="11" slide="3" item="11.1">
-              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Congruence modulo $I$ is an  </paragraphs>
-                <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">equivalence relation</inline_keyword>
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .  </paragraphs>
-              </newcol>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0771d5f86bf61c0125b5841ae455cab9" course="Math 2070" chapter="11" slide="3" of="963e2cc1e3a2e478611a672d21ac6c47">
-              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                  <li environment="newcol">
-                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Reflexivity</inline_keyword>
-                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a - a = 0 \in I$, since $I$ is an ideal; hence, $a \equiv a \mod I$.  </paragraphs>
-                    </newcol>
-                  </li>
-                  <li environment="newcol">
-                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Symmetry</inline_keyword>
-                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a - b \in I$, then $b - a = -1(a  - b) \in I$, since $I$
-is an ideal and $-1 \in R$.  Hence, $a \equiv b \mod I$ implies that $b \equiv a \mod I$.  </paragraphs>
-                    </newcol>
-                  </li>
-                  <li environment="newcol">
-                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Transitivity</inline_keyword>
-                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a - b \in I$ and $b - c \in I$, then
-$a - c = a + (- b + b) - c = (a - b) + (b - c) \in I$,
-since $I$, being an ideal, is closed under addition.
-Hence, $a \equiv b, b \equiv c \mod I$ implies that $a \equiv c \mod I$.  </paragraphs>
-                      <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                    </newcol>
-                  </li>
-                </ul>
-              </newcol>
-            </substatement>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="4" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="4">residue</keyword>
-            </keywords>
-            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $R/ I$ be the set of equivalence classes of $R$ with respect to the relation $\sim$.
-Each element of $R/ I$ has the form:
-\[
-\ol{r} = r + I = \{r + a : a \in I\}, \quad r \in R.
-\]</paragraphs>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Terminology.</paragraphs>
-            </h5>
-            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We call $\ol{r}$ the </paragraphs>
-            <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="">residue</inline_keyword>
-            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $r$ in $R/I$.</paragraphs>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note that if $r \in I$, then $\bar{r} = \bar{0}$, since $r - 0 = r \in I$.</paragraphs>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that: for all $r, r' \in R$, and $a, a' \in I$,
-\[
-(r + a) + (r' + a') = (r + r') + (a + a') \in (r + r') + I = \ol{r + r'},
-\]
-\[
-(r + a)\cdot(r'+ a') = rr' + ra' + r'a + aa' \in rr' + I = \ol{rr'}.
-\]  </paragraphs>
-              <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, we may define binary operations $+, \cdot$ on $R/I$ as follows:
-\[
-\begin{split}
-\ol{r} + \ol{r'}  &amp;= \ol{r + r'},\\
-\ol{r}\cdot\ol{r'} &amp;= \ol{rr'},
-\end{split}
-\]
-for all $\ol{r},\ol{r'} \in R/ I$.  </paragraphs>
-              </collapse>
-            </newcol>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="5" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="2" md5="acf88bc4556b717fbb31ace5cebe6fc5" course="Math 2070" chapter="11" slide="5" item="11.2">
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The set $R/I$, equipped with the addition $+$ and multiplication $\cdot$ defined above,
-is a commutative ring.  </paragraphs>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6b4ebc05e8cb268a358520e6283a75e3" course="Math 2070" chapter="11" slide="5" of="acf88bc4556b717fbb31ace5cebe6fc5">
-              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We note here only that the additive identity element of $R/I$ is $\ol{0} = 0 + I$,
-the multiplicative identity element of $R/I$ is $\ol{1} = 1 + I$,
-and that $-\ol{r} = \ol{-r}$ for all $r \in R$.</paragraphs>
-                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">We leave the rest of the proof (additive and multiplicative associativity, commutativity, distributativity)
-as an  </paragraphs>
-                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
-                </strong>
-              </newcol>
-            </substatement>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" md5="e8b7ffa34c4842301996d7a0e5a08f33" course="Math 2070" chapter="11" slide="5" item="11.3">
-              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The map $\pi : R \rightarrow R/I$, defined by
-\[
-\pi(r) = \ol{r},\quad \forall r \in R.
-\]
-is a surjective ring homomorphism with kernel $\ker \pi = I$.  </paragraphs>
-              </newcol>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="11" slide="5" of="e8b7ffa34c4842301996d7a0e5a08f33">
-              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
-                </strong>
-              </newcol>
-            </substatement>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="6" environ="slide" chapter="11" course="Math 2070"/>
-            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $m$ be a natural number.  The set:
-\[
-m\mathbb{Z} = \{mn : n \in \mathbb{Z}\}
-\]
-is an ideal of $\mathbb{Z}$.  </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" course="Math 2070" chapter="11" slide="6" item="11.4">
-              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The quotient ring $\mathbb{Z}/m\mathbb{Z}$ is isomorphic to $\mathbb{Z}_m$.  </paragraphs>
-              </newcol>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="73dd8b75e9c74bead432dbb5a0f2704b" course="Math 2070" chapter="11" slide="6" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4">
-              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $r \in \mathbb{Z}$, let $r_m$ denote the remainder of the division of $r$ by $m$.</paragraphs>
-                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise:</paragraphs>
-                  </strong>
-                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We have $\ol{r} = \ol{r_m}$ in $\ZZ/m\ZZ$,
-where $\bar{r}$ is the residue of $r$ in $\ZZ/m\ZZ$.</paragraphs>
-                  <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : \mathbb{Z}_m \ra \ZZ/m\ZZ$ as follows:
-\[
-\phi(r) = \bar{r},\quad \forall\, r \in \ZZ_m.
-\]  </paragraphs>
-                    <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We claim that $\phi$ is a homomorphism:  </paragraphs>
-                      <col_ul course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
-                        <col_li course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\phi(1) = \bar{1} = 1_{\ZZ/m\ZZ}$.  </paragraphs>
-                        </col_li>
-                        <col_li course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \begin{multline*}
-\phi(r +_{\ZZ_m} r') = \ol{r +_{\ZZ_m} r'} = \ol{(r +_{\ZZ} r')_m} \\
-= \ol{r +_{\ZZ} r'} = \ol{r} + \ol{r'} = \phi(r) + \phi(r')
-\end{multline*}  </paragraphs>
-                        </col_li>
-                        <col_li course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \begin{multline*}
-\phi(r \cdot_{\ZZ_m} r') = \ol{r \cdot_{\ZZ_m} r'} = \ol{(r \cdot_{\ZZ} r')_m}\\
-= \ol{r \cdot_{\ZZ} r'} = \ol{r} \cdot \ol{r'} = \phi(r) \cdot \phi(r')
-\end{multline*}  </paragraphs>
-                        </col_li>
-                      </col_ul>
-                      <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\phi$ is a homomorphism.</paragraphs>
-                        <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                        <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Next, we show that $\phi$ is bijective:</paragraphs>
-                          <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                          <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $\bar{r} \in \ZZ/m\ZZ$, we have $\phi(r_m) = \ol{r_m} = \ol{r}$.
-Hence, $\phi$ is onto.</paragraphs>
-                            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                            <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $r$ is an element in $\ZZ_m$
-such that $\phi(r) = \ol{r} = 0$ in $\ZZ/m\ZZ$.  By definition, this means that $r \in m\ZZ$,
-or equivalently, that $m | r$.  Since $0 \leq r &lt; m$, we must have $r = 0$.
-Hence, $\ker \phi = \{0\}$.
-It now follows from  </paragraphs>
-                              <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="11" slide="6" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
-                                <title>Claim 10.4</title>
-                              </ref>
-                              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that $\phi$ is one-to one.</paragraphs>
-                              <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                              <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We conclude that $\phi : \ZZ_m \ra \ZZ/m\ZZ$ is an isomorphism.  </paragraphs>
-                                <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                              </collapse>
-                            </collapse>
-                          </collapse>
-                        </collapse>
-                      </collapse>
-                    </collapse>
-                  </collapse>
-                </collapse>
-              </newcol>
-            </substatement>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="7" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="993c7ad44dad2b06493e1b9ba465adbb" course="Math 2070" chapter="11" slide="7" item="11.5">
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $\phi : R \longrightarrow R'$ be a ring homomorphism.  Then, the image of $\phi$:
-\[
-\im \phi = \{r' \in R' : r' = \phi(r) \text{ for some } r \in R\}
-\]
-is a ring under the addition and multiplication operations of $R'$.
-(In fact, it is a subring of $R'$.)  </paragraphs>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="11" slide="7" of="993c7ad44dad2b06493e1b9ba465adbb">
-              <strong xmlns="http://www.w3.org/1999/xhtml" environment="substatement">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">Exercise.</paragraphs>
-              </strong>
-            </substatement>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="8" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="8">First Isomorphism Theorem</keyword>
-            </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="6" title="First Isomorphism Theorem" md5="1486f5b52a8fff9f86fe19ee7f4439ad" course="Math 2070" chapter="11" slide="8" item="11.6">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="8">First Isomorphism Theorem</title>
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.
-Let $\phi : R \ra R'$ be a ring homomorphism.
-Then:
-\[
-R/\ker\phi \cong \im \phi,
-\]
-(i.e. $R/\ker \phi$ is isomorphic to $\im \phi$.)  </paragraphs>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0b8767251aef159322ffde9600e8efa4" course="Math 2070" chapter="11" slide="8" of="1486f5b52a8fff9f86fe19ee7f4439ad">
-              <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We define a map $\ol{\phi} : R/\ker\phi \ra \im \phi$ as follows:
-\[
-\ol{\phi}(\ol{r}) = \phi(r), \quad \forall\, r \in R,
-\]
-where $\ol{r}$ is the residue of $r$ in $R/\ker \phi$.</paragraphs>
-                <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We first need to check that $\phi$ is well-defined.
-Suppose $\ol{r} = \ol{r'}$, then $r' - r \in \ker\phi$.
-We have:
-\[
-\phi(r') - \phi(r) = \phi(r' - r) = 0.
-\]  </paragraphs>
-                  <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\phi(r') = \phi(r)$.
-So, $\phib(\ol{r})$ is well-defined.</paragraphs>
-                    <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Next, we show that $\phib$ is a homomorphism:  </paragraphs>
-                      <col_ul course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
-                        <col_li course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\phib(\ol{1}) = \phi(1) = 1$;  </paragraphs>
-                        </col_li>
-                        <col_li course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $
-\phib(\ol{a} + \ol{b}) = \phib(\ol{a + b}) = \phi(a + b) = \phi(a) + \phi(b)
-= \phib(\ol{a}) + \phib(\ol{b});
-$  </paragraphs>
-                        </col_li>
-                        <col_li course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $
-\phib(\ol{a} \cdot \ol{b})
-= \phib(\ol{ab}) = \phi(ab) = \phi(a)\phi(b) = \phib(\ol{a})\phib(\ol{b}).
-$  </paragraphs>
-                        </col_li>
-                      </col_ul>
-                      <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                      <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Finally, we show that $\phib$ is a bijection, i.e. one-to-one and onto.</paragraphs>
-                        <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                        <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any $r' \in\im \phi$, there exists $r \in R$ such that $\phi(r) = r'$.
-Since $\phib(\ol{r}) = \phi(r) = r'$, $\phib$ is onto.</paragraphs>
-                          <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                          <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $r$ be an element in $R$ such that
-$\phib(\ol{r}) = \phi(r) = 0$.
-We have $r \in \ker \phi$, which implies that $\ol{r} = 0$ in $R/\ker\phi$.
-Hence, $\ker \phib = \{0\}$, and it follows from  </paragraphs>
-                            <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="11" slide="8" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
-                              <title>Claim 10.4</title>
-                            </ref>
-                            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that $\phib$ is one-to-one.  </paragraphs>
-                            <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                          </collapse>
-                        </collapse>
-                      </collapse>
-                    </collapse>
-                  </collapse>
-                </collapse>
-              </newcol>
-            </substatement>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="9" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" md5="921b526634907f81c0eaafc434d6b91e" course="Math 2070" chapter="11" slide="9" item="11.7">
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If a ring homomorphism $\phi : R \ra R'$ is surjective, then:
-\[
-R' \cong R/\ker \phi
-\]  </paragraphs>
-            </statement>
-            <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="10" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="4f706ef40c63abeca5dda6b8259a25fa" course="Math 2070" chapter="11" slide="10" item="11.8">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="1" md5="4f706ef40c63abeca5dda6b8259a25fa" course="Math 2070" chapter="11" slide="3" item="11.1">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $m$ be a natural number.
 Consider the map $\phi : \mathbb{Z} \ra \ZZ_m$ defined by:
 \[
@@ -418,22 +72,22 @@ where ${n}_m$ is the remainder of the division of $n$ by $m$.</paragraphs>
 So, it follows from the First Isomorphism Theorem that:
 \[
 \ZZ_m \cong \ZZ/m\ZZ.
-\]  </paragraphs>
+\] </paragraphs>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="11" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="11">Gaussian Integers</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings - continued">
+            <keywords slide="4" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="4">Gaussian Integers</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="9" title="Gaussian Integers" md5="6508d08d4c532fd4090349222529c9bc" course="Math 2070" chapter="11" slide="11" item="11.9">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="11">Gaussian Integers</title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" title="Gaussian Integers" md5="6508d08d4c532fd4090349222529c9bc" course="Math 2070" chapter="11" slide="4" item="11.2">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="4">Gaussian Integers</title>
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let:
 \[
 \mathbb{Z}[i] = \{z \in \mathbb{C}: z = a + bi \text{ for some } a, b \in \mathbb{Z}\},
 \]
-where $i = \sqrt{-1}$.  </paragraphs>
+where $i = \sqrt{-1}$. </paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="10" md5="934d5ab0532d22f000cda91b29e6c63e" course="Math 2070" chapter="11" slide="11" item="11.10">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="934d5ab0532d22f000cda91b29e6c63e" course="Math 2070" chapter="11" slide="4" item="11.3">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that the set $\mathbb{Z}[i]$ is a ring under the usual addition $+$
 and multiplication $\times$ operations on $\mathbb{C}$.</paragraphs>
@@ -443,17 +97,17 @@ and:
 \[
 -(a + bi) = (-a) + (-b) i
 \]
-for any $a, b \in \mathbb{Z}$.  </paragraphs>
+for any $a, b \in \mathbb{Z}$. </paragraphs>
               </newcol>
             </statement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
-            <keywords slide="12" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="a780d473975decbb35a820a29e106575" course="Math 2070" chapter="11" slide="12" item="11.11">
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The ring $\mathbb{Z}[i]/(1 + 3i)$ is isomorphic to $\mathbb{Z}/10\ZZ$.  </paragraphs>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings - continued">
+            <keywords slide="5" environ="slide" chapter="11" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="a780d473975decbb35a820a29e106575" course="Math 2070" chapter="11" slide="5" item="11.4">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The ring $\mathbb{Z}[i]/(1 + 3i)$ is isomorphic to $\mathbb{Z}/10\ZZ$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="064e5b43d04f32f770220d6b3d3c85dd" course="Math 2070" chapter="11" slide="12" of="a780d473975decbb35a820a29e106575">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="064e5b43d04f32f770220d6b3d3c85dd" course="Math 2070" chapter="11" slide="5" of="a780d473975decbb35a820a29e106575">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi: \ZZ \ra \ZZ[i]/(1 + 3i)$ as follows:
 \[
@@ -471,17 +125,17 @@ where $\ol{n}$ is the residue of $n \in \ZZ[i]$ modulo $(1 + 3i)$.</paragraphs>
                   <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Observe that in $\mathbb{Z}[i]$, we have:
 \[
 1 + 3i \equiv 0 \mod (1 + 3i),
-\]  </paragraphs>
+\] </paragraphs>
                   <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that:  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that: </paragraphs>
                     <steps course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
-\begin{align*}
+\[\begin{align*}
 \class{steps}{\cssId{step0}{1}} &amp; \class{steps}{\cssId{step1}{\equiv -3i \mod (1 + 3i)}}
 \\
 \class{steps}{\cssId{step2}{i\cdot 1}} &amp; \class{steps}{\cssId{step3}{\equiv i \cdot (-3i) \mod (1 + 3i)}}
 \\
 \class{steps}{\cssId{step4}{i}} &amp; \class{steps}{\cssId{step5}{\equiv 3 \mod (1 + 3i).}}
-\end{align*}
+\end{align*}\]
 </steps>
                     <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, for all $a, b \in \ZZ$,
@@ -495,17 +149,17 @@ in $\ZZ[i]/(1 + 3i)$.  Hence, $\phi$ is surjective.</paragraphs>
 Then, by the definition of the quotient ring we have:
 \[
 n \in (1 + 3i).
-\]  </paragraphs>
+\] </paragraphs>
                         <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This means that there exist $a, b \in \ZZ$ such that:
 \[
 n = (a + bi)(1 + 3i) = (a - 3b) + (3a + b)i,
-\]  </paragraphs>
+\] </paragraphs>
                           <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                             <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that $3a + b = 0$, or equivalently, $b = -3a$.  Hence:
 \[
 n = a - 3b = a - 3(-3a) = 10 a,
-\]  </paragraphs>
+\] </paragraphs>
                             <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that $\ker \phi \subseteq 10\ZZ$.  Conversely, for all $m \in \ZZ$,
 we have:
@@ -521,7 +175,7 @@ in $\ZZ[i]/(1 + 3i)$.</paragraphs>
                                   <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from the First Isomorphism Theorem that:
 \[
 \ZZ/10\ZZ \cong \ZZ[i]/(1 + 3i).
-\]  </paragraphs>
+\] </paragraphs>
                                   <qed course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                                 </collapse>
                               </collapse>
@@ -543,12 +197,12 @@ in $\ZZ[i]/(1 + 3i)$.</paragraphs>
           <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Polynomials over a Field</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="13" scope="section" id="s13" slide="13" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="13" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="13">evaluation homomorphism</keyword>
-              <keyword chapter="11" slide="13">root</keyword>
+          <slide environment="" chapter_type="Week" canon_num="6" scope="section" id="s6" slide="6" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="6" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="6">evaluation homomorphism</keyword>
+              <keyword chapter="11" slide="6">root</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="13">
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="6">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Polynomials over a Field</paragraphs>
             </title>
             <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $k$ be a field.
@@ -559,7 +213,7 @@ f(a) = \phi_a(f),
 where $\phi_a$ is the </paragraphs>
             <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="">evaluation homomorphism</inline_keyword>
             <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> defined in </paragraphs>
-            <ref environment="" chapter_type="" label="eg:evalhomom" wbtag="ref" course="Math 2070" chapter="11" slide="13" src-course="Math 2070" src-chapter="9" src-slide="7" type="Example" item="9.5" src-filename="week9.xml" md5="3bca8a74c04e7763a3607fb2fcaadc80" class="lcref" serial="">
+            <ref environment="" chapter_type="" label="eg:evalhomom" wbtag="ref" course="Math 2070" chapter="11" slide="6" src-course="Math 2070" src-chapter="9" src-slide="7" type="Example" item="9.5" src-filename="week9.xml" md5="3bca8a74c04e7763a3607fb2fcaadc80" class="lcref" serial="">
               <title>Example 9.5</title>
             </ref>
             <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">.
@@ -568,7 +222,7 @@ That is:
 \phi_a\left(\sum_{i = 0}^nc_ix^i \right) = \sum_{i = 0}^nc_ia^i .
 \]</paragraphs>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="12" md5="66c81ec28bd2b6aec46624dff4b88876" course="Math 2070" chapter="11" slide="13" item="11.12">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="5" md5="66c81ec28bd2b6aec46624dff4b88876" course="Math 2070" chapter="11" slide="6" item="11.5">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f = \sum_{i = 0}^nc_ix^i$ be a polynomial in $k[x]$.
 An element $a \in k$ is a </paragraphs>
               <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">root</inline_keyword>
@@ -576,22 +230,22 @@ An element $a \in k$ is a </paragraphs>
 \[
 f(a) = 0
 \]
-in $k$.  </paragraphs>
+in $k$. </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="14" environ="slide" chapter="11" course="Math 2070"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="7" environ="slide" chapter="11" course="Math 2070"/>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="13" md5="1ef11bc2089db36061346b99b0a9d3bb" course="Math 2070" chapter="11" slide="14" item="11.13">
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="6" md5="1ef11bc2089db36061346b99b0a9d3bb" course="Math 2070" chapter="11" slide="7" item="11.6">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For all $f \in k[x]$, $a \in k$, there exists $q \in k[x]$ such that:
 \[
 f = q(x - a) + f(a)
-\]  </paragraphs>
+\] </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d4fefef67ca36c1b73f8486737314f52" course="Math 2070" chapter="11" slide="14" of="1ef11bc2089db36061346b99b0a9d3bb">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d4fefef67ca36c1b73f8486737314f52" course="Math 2070" chapter="11" slide="7" of="1ef11bc2089db36061346b99b0a9d3bb">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> By the </paragraphs>
-              <ref environment="substatement" chapter_type="" label="thm:divalgpoly" wbtag="ref" course="Math 2070" chapter="11" slide="14" src-course="Math 2070" src-chapter="10" src-slide="18" type="Theorem" item="10.17" src-filename="week10.xml" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" class="lcref" serial="">
+              <ref environment="substatement" chapter_type="" label="thm:divalgpoly" wbtag="ref" course="Math 2070" chapter="11" slide="7" src-course="Math 2070" src-chapter="10" src-slide="18" type="Theorem" item="10.17" src-filename="week10.xml" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" class="lcref" serial="">
                 <title>Division Theorem for Polynomials with Unit Leading Coefficients</title>
               </ref>
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">,
@@ -603,7 +257,7 @@ This implies that $r$ is a constant polynomial.</paragraphs>
               <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement"/>
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Applying the evaluation homomorphism $\phi_a$ to both sides of the above equation,
-we have:  </paragraphs>
+we have: </paragraphs>
                 <steps course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
 \[
 \begin{split}
@@ -620,17 +274,17 @@ f(a) &amp;= \phi_a(q(x - a) + r)
               </newcol>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="15" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="15">Root Theorem</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="8" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="8">Root Theorem</keyword>
             </keywords>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="14" title="Root Theorem" md5="fdf08d122e7c9eda7dbc19a6f9f37275" course="Math 2070" chapter="11" slide="15" item="11.14">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="15">Root Theorem</title>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="7" title="Root Theorem" md5="fdf08d122e7c9eda7dbc19a6f9f37275" course="Math 2070" chapter="11" slide="8" item="11.7">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="8">Root Theorem</title>
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, $f$ a polynomial in $k[x]$.  Then, $a \in k$
-is a root of $f$ if and only if $(x - a)$ divides $f$ in $k[x]$.  </paragraphs>
+is a root of $f$ if and only if $(x - a)$ divides $f$ in $k[x]$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="41aab7991acc83fe5a359af00a081453" course="Math 2070" chapter="11" slide="15" of="fdf08d122e7c9eda7dbc19a6f9f37275">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="41aab7991acc83fe5a359af00a081453" course="Math 2070" chapter="11" slide="8" of="fdf08d122e7c9eda7dbc19a6f9f37275">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> If $a \in k$ is a root of $f$, then by the previous lemma there exists $q \in k[x]$
 such that:
 \[
@@ -640,14 +294,14 @@ so $(x - a)$ divides $f$ in $k[x]$.</paragraphs>
               <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement"/>
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Conversely, if $f = q(x - a)$ for some $q \in k[x]$, then $f(a) = q(a)(a - a) = 0$.
-Hence, $a$ is a root of $f$.  </paragraphs>
+Hence, $a$ is a root of $f$. </paragraphs>
               </newcol>
             </substatement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="16" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="15" md5="e23028af93c01e05926ac441bbd1d3c0" course="Math 2070" chapter="11" slide="16" item="11.15">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="9" environ="slide" chapter="11" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" md5="e23028af93c01e05926ac441bbd1d3c0" course="Math 2070" chapter="11" slide="9" item="11.8">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, $f$ a nonzero polynomial in $k[x]$. </paragraphs>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
@@ -663,15 +317,15 @@ for some $c \in k$. </paragraphs>
                 </li>
               </ol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="91354d7bad7202aa43076fd43a5722eb" course="Math 2070" chapter="11" slide="16" of="e23028af93c01e05926ac441bbd1d3c0">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="91354d7bad7202aa43076fd43a5722eb" course="Math 2070" chapter="11" slide="9" of="e23028af93c01e05926ac441bbd1d3c0">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <ol xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <li environment="newcol">
                     <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                       <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove Part 1 of the claim by induction.
 If $f$ has degree 0, then $f$ is a nonzero constant, which implies that it has no roots.
-So, in this case the claim holds.  </paragraphs>
-                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+So, in this case the claim holds. </paragraphs>
+                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $f$ be a polynomial with degree $n &gt; 0$.
 Suppose the claim holds for all nonzero polynomials with degrees strictly less than $n$.
@@ -681,22 +335,22 @@ If $f$ has a root $a \in k$, then by the previous claim there exists $q \in k[x]
 such that:
 \[
 f  = q(x - a).
-\]  </paragraphs>
+\] </paragraphs>
                         <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any other root $b \in k$ of $f$ which is different from $a$, we have:
 \[
 0 = f(b) = q(b)(b - a).
-\]  </paragraphs>
+\] </paragraphs>
                           <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                             <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $k$ is a field, it has no zero divisors; so, it follows from $b - a \neq 0$ that $q(b) = 0$.
 In other words, $b$ is a root of $q$.  Since $\deg q &lt; n$,
 by the induction hypothesis $q$ has at most $n - 1$ roots.
-So, $f$ has at most $n - 1$ roots different from $a$.  This shows that $f$ has at most $n$ roots.  </paragraphs>
+So, $f$ has at most $n - 1$ roots different from $a$.  This shows that $f$ has at most $n$ roots. </paragraphs>
                           </collapse>
                         </collapse>
                       </collapse>
                     </newcol>
-                    <hr environment="newcol"/>
+                    <hr environment="newcol" />
                   </li>
                   <li environment="newcol">
                     <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -707,12 +361,12 @@ So, $f$ has at most $n - 1$ roots different from $a$.  This shows that $f$ has a
 We have:
 \[
 0 = f(a_1) = c_0 + c_1a_1,
-\]  </paragraphs>
+\] </paragraphs>
                         <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that: $c_0 = - c_1a_1$.  Hence,
 \[
 f = -c_1a_1 + c_1 x = c_1(x - a_1).
-\]  </paragraphs>
+\] </paragraphs>
                           <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                             <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $n &gt; 1$.
 Suppose for all $n' \in \mathbb{N}$, such that $1 \leq n' &lt; n$,
@@ -727,7 +381,7 @@ Note that $\deg q = n - 1$.</paragraphs>
                               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $1 \leq i &lt; n$, we have
 \[
 0 = f(a_i) = q(a_i)\underbrace{(a_i - a_n)}_{\neq 0}.
-\]  </paragraphs>
+\] </paragraphs>
                               <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $k$ is a field, this implies that $q(a_i) = 0$ for $1 \leq i &lt; n$.
 So, $a_1, a_2,\ldots, a_{n - 1}$ are $n - 1$ distinct roots of $q$.
@@ -735,7 +389,7 @@ By the induction hypothesis there exists $c \in k$ such that:
 \[
 q = c(x - a_1)(x - a_2)\cdots(x - a_{n - 1}).
 \]
-Hence, $f = q(x - a_n) = c(x - a_1)(x - a_2)\cdots(x - a_{n - 1})(x - a_n)$.  </paragraphs>
+Hence, $f = q(x - a_n) = c(x - a_1)(x - a_2)\cdots(x - a_{n - 1})(x - a_n)$. </paragraphs>
                                 <qed course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                               </collapse>
                             </collapse>
@@ -749,67 +403,67 @@ Hence, $f = q(x - a_n) = c(x - a_1)(x - a_2)\cdots(x - a_{n - 1})(x - a_n)$.  </
               <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement"/>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="17" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="16" md5="fc0feeb467c57eba5f0ef92387037542" course="Math 2070" chapter="11" slide="17" item="11.16">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="10" environ="slide" chapter="11" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="9" md5="fc0feeb467c57eba5f0ef92387037542" course="Math 2070" chapter="11" slide="10" item="11.9">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.
 Let $n = {\rm max}\{\deg f, \deg g\}$.
-If $f(a) = g(a)$ for $n + 1$ distinct $a \in k$.  Then, $f = g$.  </paragraphs>
+If $f(a) = g(a)$ for $n + 1$ distinct $a \in k$.  Then, $f = g$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5fc701a328ed32889bcee40859e2fef4" course="Math 2070" chapter="11" slide="17" of="fc0feeb467c57eba5f0ef92387037542">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5fc701a328ed32889bcee40859e2fef4" course="Math 2070" chapter="11" slide="10" of="fc0feeb467c57eba5f0ef92387037542">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $h = f - g$, then $\deg h \leq n$.  By hypothesis, there are $n + 1$ distinct elements $a \in k$
 such that $h(a) = f(a) - g(a) = 0$.  If $h \neq 0$,
 then it is a nonzero polynomial with degree $\leq n$ which has $n + 1$ distinct roots,
 which contradicts the previous theorem.
-Hence, $h$ must necessarily be the zero polynomial, which implies that $f = g$.  </paragraphs>
+Hence, $h$ must necessarily be the zero polynomial, which implies that $f = g$. </paragraphs>
                 <qed course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
               </newcol>
             </substatement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="18" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="18">monic polynomial</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="11" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="11">monic polynomial</keyword>
             </keywords>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="17" md5="26ca35322b8375da145d52b1bdbeb373" course="Math 2070" chapter="11" slide="18" item="11.17">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="10" md5="26ca35322b8375da145d52b1bdbeb373" course="Math 2070" chapter="11" slide="11" item="11.10">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial in $k[x]$ is called a </paragraphs>
               <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">monic polynomial</inline_keyword>
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if its leading coefficient is $1$.  </paragraphs>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if its leading coefficient is $1$. </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="19" id="s19" slide="19" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="19" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="19">Greatest Common Divisor</keyword>
-              <keyword chapter="11" slide="19">GCD</keyword>
-              <keyword chapter="11" slide="19">relatively prime</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="12" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="12">Greatest Common Divisor</keyword>
+              <keyword chapter="11" slide="12">GCD</keyword>
+              <keyword chapter="11" slide="12">relatively prime</keyword>
             </keywords>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="954c0637ea39d29081b585eb905c1ed0" course="Math 2070" chapter="11" slide="19" item="11.18">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="11" md5="954c0637ea39d29081b585eb905c1ed0" course="Math 2070" chapter="11" slide="12" item="11.11">
               <label wbtag="label" name="bezoutsforpolynomials" type="Corollary"/>
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.  There exists a unique monic polynomial
 $d \in k[x]$ with the following property: </paragraphs>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $(f, g) = (d)$ </paragraphs>
-                  <br environment="statement"/>
+                  <br environment="statement" />
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Moreover, this $d$ also satisfies the following properties: </paragraphs>
                 </li>
                 <li environment="statement">
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $d$ divides both $f$ and $g$, i.e., there exists $a, b \in k[x]$ such that $f = ad$, $g = bd$.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $d$ divides both $f$ and $g$, i.e., there exists $a, b \in k[x]$ such that $f = ad$, $g = bd$. </paragraphs>
                   </newcol>
                 </li>
                 <li environment="statement">
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> There are polynomials $p, q \in k[x]$ such that $d = pf + qg$.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> There are polynomials $p, q \in k[x]$ such that $d = pf + qg$. </paragraphs>
                   </newcol>
                 </li>
                 <li environment="statement">
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $h \in k[x]$ is a divisor of $f$ and $g$, then $h$ divides $d$.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $h \in k[x]$ is a divisor of $f$ and $g$, then $h$ divides $d$. </paragraphs>
                   </newcol>
                 </li>
               </ol>
@@ -840,13 +494,13 @@ is called the </paragraphs>
               </ul>
             </newcol>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="004062c7e7c889f00bd520c9fb77cc14" course="Math 2070" chapter="11" slide="19" of="954c0637ea39d29081b585eb905c1ed0">
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="004062c7e7c889f00bd520c9fb77cc14" course="Math 2070" chapter="11" slide="12" of="954c0637ea39d29081b585eb905c1ed0">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> By  </paragraphs>
-                    <ref environment="col_ol" chapter_type="" label="thm:pidpoly" wbtag="ref" course="Math 2070" chapter="11" slide="19" src-course="Math 2070" src-chapter="10" src-slide="19" type="Theorem" item="10.18" src-filename="week10.xml" md5="cb147fcfae2b64a2477e6cd9c7fb2126" class="lcref" serial="">
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> By </paragraphs>
+                    <ref environment="col_ol" chapter_type="" label="thm:pidpoly" wbtag="ref" course="Math 2070" chapter="11" slide="12" src-course="Math 2070" src-chapter="10" src-slide="19" type="Theorem" item="10.18" src-filename="week10.xml" md5="cb147fcfae2b64a2477e6cd9c7fb2126" class="lcref" serial="">
                       <title>Theorem 10.18</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> , there exists $d = \sum_{i = 0}^n a_i x^i \in k[x]$ such that
@@ -859,7 +513,7 @@ Then, there exist nonzero $p, q \in k[x]$
 such that:
 \[
 d' = pd,\quad d= qd'.
-\]  </paragraphs>
+\] </paragraphs>
                       <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Examining the degrees of the polynomials, we have:
 \[
@@ -868,25 +522,25 @@ d' = pd,\quad d= qd'.
 and:
 \[
 \deg d = \deg q + \deg d' = \deg p + \deg q + \deg d.
-\]  </paragraphs>
+\] </paragraphs>
                         <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This implies that $\deg p + \deg q = 0$.  Hence, $p$ and $q$ must both have degree $0$; in other words, they are
 constant polynomials.  Moreover, we have $\deg d = \deg d'$.
 Comparing the leading coefficients of $d'$ and $pd$, we have $p = 1$.
-Hence, $d = d'$.  </paragraphs>
+Hence, $d = d'$. </paragraphs>
                         </collapse>
                       </collapse>
                     </newcol>
                   </col_li>
                   <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Clear.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Clear. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Clear.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Clear. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> By Part 3 of the corollary, there are $p, q \in k[x]$ such that $d = pf + qg$.
-It is then clear that if $h$ divides both $f$ and $g$, then $h$ must divide $d$.  </paragraphs>
+It is then clear that if $h$ divides both $f$ and $g$, then $h$ must divide $d$. </paragraphs>
                     <qed course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol"/>
                   </col_li>
                 </col_ol>
@@ -894,46 +548,46 @@ It is then clear that if $h$ divides both $f$ and $g$, then $h$ must divide $d$.
             </substatement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="20" id="s20" slide="20" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="20" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="20">irreducible</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="13" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="13">irreducible</keyword>
             </keywords>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="19" md5="cbc97b55e3eb1db7609e0ab02ba83049" course="Math 2070" chapter="11" slide="20" item="11.19">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="12" md5="cbc97b55e3eb1db7609e0ab02ba83049" course="Math 2070" chapter="11" slide="13" item="11.12">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.
 A nonzero element $p \in R$ which is not a unit is said to be </paragraphs>
               <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">irreducible</inline_keyword>
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if $p = ab$ implies that either $a$ or $b$ is a unit.  </paragraphs>
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if $p = ab$ implies that either $a$ or $b$ is a unit. </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="20" md5="6a7ac7ae4dce7f64fcb7e2c2b5830b8d" course="Math 2070" chapter="11" slide="20" item="11.20">
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.  </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="6a7ac7ae4dce7f64fcb7e2c2b5830b8d" course="Math 2070" chapter="11" slide="13" item="11.13">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$. </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="21" id="s21" slide="21" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="21" environ="slide" chapter="11" course="Math 2070"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="14" environ="slide" chapter="11" course="Math 2070"/>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">Let $k$ be a field.  </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="21" md5="df7a0ba35ef0d043bf31e1068cad258d" course="Math 2070" chapter="11" slide="21" item="11.21">
+            <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">Let $k$ be a field. </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="14" md5="df7a0ba35ef0d043bf31e1068cad258d" course="Math 2070" chapter="11" slide="14" item="11.14">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial $f \in k[x]$ is a unit if and only if it is a
-nonzero constant polynomial.  </paragraphs>
+nonzero constant polynomial. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="11" slide="21" of="df7a0ba35ef0d043bf31e1068cad258d">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="11" slide="14" of="df7a0ba35ef0d043bf31e1068cad258d">
               <strong xmlns="http://www.w3.org/1999/xhtml" environment="substatement">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">Exercise.</paragraphs>
               </strong>
             </substatement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="22" id="s22" slide="22" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="22" environ="slide" chapter="11" course="Math 2070"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="15" environ="slide" chapter="11" course="Math 2070"/>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="22" md5="8fb5602ba1db0cf60e376b4e99d0b3d6" course="Math 2070" chapter="11" slide="22" item="11.22">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="15" md5="8fb5602ba1db0cf60e376b4e99d0b3d6" course="Math 2070" chapter="11" slide="15" item="11.15">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A nonzero nonconstant polynomial $p \in k[x]$ is irreducible if and only if there is no $f, g \in k[x]$,
-with $\deg f, \deg g &lt; \deg p$, such that $fg = p$.  </paragraphs>
+with $\deg f, \deg g &lt; \deg p$, such that $fg = p$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="95b3d8b404f7193bae35a27fcfde7c03" course="Math 2070" chapter="11" slide="22" of="8fb5602ba1db0cf60e376b4e99d0b3d6">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="95b3d8b404f7193bae35a27fcfde7c03" course="Math 2070" chapter="11" slide="15" of="8fb5602ba1db0cf60e376b4e99d0b3d6">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ is irreducible, and $p = fg$ for some $f, g \in k[x]$ such that $\deg f, \deg g &lt; \deg p$.  Then $p = fg$ implies that $\deg f$ and $\deg g$ are both positive.
 By the previous lemma, both $f$ and $g$ are non-units, which is a contradiction,
@@ -945,66 +599,66 @@ which is not equal to $fg$ for any $f, g \in k[x]$ with $\deg f, \deg g &lt; \de
 Then, $p = ab$, $a$, $b \in k[x]$,
 implies that either $a$ or $b$ must have the same degree as $p$,
 and the other factor must be a nonzero constant, in other words a unit in $k[x]$.
-Hence, $p$ is irreducible.  </paragraphs>
+Hence, $p$ is irreducible. </paragraphs>
                   <qed course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                 </collapse>
               </newcol>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="23" id="s23" slide="23" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="23" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="23">Euclid's Lemma</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="16" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="16">Euclid's Lemma</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="23" title="Euclid's Lemma" md5="c3195296714abca0dd5f5b4bf0cf5302" course="Math 2070" chapter="11" slide="23" item="11.23">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="23">Euclid's Lemma</title>
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="16" title="Euclid's Lemma" md5="c3195296714abca0dd5f5b4bf0cf5302" course="Math 2070" chapter="11" slide="16" item="11.16">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="16">Euclid's Lemma</title>
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.
 Let $f, g$ be polynomials in $k[x]$.
 Let $p$ be an irreducible polynomial in $k[x]$.
-If $p | fg$ in $k[x]$, then $p | f$ or $p | g$.  </paragraphs>
+If $p | fg$ in $k[x]$, then $p | f$ or $p | g$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="900f766dd9b015696a4db8b743fc4f40" course="Math 2070" chapter="11" slide="23" of="c3195296714abca0dd5f5b4bf0cf5302">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="900f766dd9b015696a4db8b743fc4f40" course="Math 2070" chapter="11" slide="16" of="c3195296714abca0dd5f5b4bf0cf5302">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p \nmid f$.
 Then, any common divisor of $p$ and $f$ must have degree strictly less than $\deg p$.
 Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
 Hence, the GCD of $p$ and $f$ is $1$.
-By  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="23" src-course="Math 2070" src-chapter="11" src-slide="19" type="Corollary" item="11.18" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
+By </paragraphs>
+                <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="16" src-course="Math 2070" src-chapter="11" src-slide="19" type="Corollary" item="11.18" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
                   <title>Corollary 11.18</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , there exist $a, b \in k[x]$ such that:
 \[
 ap + bf = 1.
-\]  </paragraphs>
+\] </paragraphs>
                 <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Multiplying both sides of the above equation by $g$, we have:
 \[
 apg + bfg = g.
 \]
 Since $p$ divides the left-hand side of the above equation, it must
-also divide the right-hand side, which is the polynomial $g$.  </paragraphs>
+also divide the right-hand side, which is the polynomial $g$. </paragraphs>
                   <qed course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                 </collapse>
               </newcol>
             </substatement>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="24" md5="26cc8b08e04b09ad63af6569d7afc3ef" course="Math 2070" chapter="11" slide="23" item="11.24">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="17" md5="26cc8b08e04b09ad63af6569d7afc3ef" course="Math 2070" chapter="11" slide="16" item="11.17">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f, g \in k[x]$ are relatively prime, and both divide $h \in k[x]$,
-then $fg | h$.  </paragraphs>
+then $fg | h$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="11" slide="23" of="26cc8b08e04b09ad63af6569d7afc3ef">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="11" slide="16" of="26cc8b08e04b09ad63af6569d7afc3ef">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
               </newcol>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="24" id="s24" slide="24" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="24" environ="slide" chapter="11" course="Math 2070">
-              <keyword chapter="11" slide="24">Unique Factorization</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="17" environ="slide" chapter="11" course="Math 2070">
+              <keyword chapter="11" slide="17">Unique Factorization</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="25" title="Unique Factorization" md5="92042a9ad2deddf130c4271892172ded" course="Math 2070" chapter="11" slide="24" item="11.25">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="24">Unique Factorization</title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="18" title="Unique Factorization" md5="92042a9ad2deddf130c4271892172ded" course="Math 2070" chapter="11" slide="17" item="11.18">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="17">Unique Factorization</title>
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.
 Every nonconstant polynomial $f \in k[x]$ may be written as:
 \[
@@ -1012,24 +666,24 @@ f = c p_1\cdots p_n,
 \]
 where $c$ is a nonzero constant,
 and each $p_i$ is a monic irreducible polynomial in $k[x]$.
-The factorization is unique up to the ordering of the factors.  </paragraphs>
+The factorization is unique up to the ordering of the factors. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1567ec707ddf57907aff40da3ffd9ad8" course="Math 2070" chapter="11" slide="24" of="92042a9ad2deddf130c4271892172ded">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1567ec707ddf57907aff40da3ffd9ad8" course="Math 2070" chapter="11" slide="17" of="92042a9ad2deddf130c4271892172ded">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <inline_keyword course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> One possible approach is very similar to the proof of unique factorization
-for $\mathbb{Z}$. See:  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="11" slide="24" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
+for $\mathbb{Z}$. See: </paragraphs>
+                <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="11" slide="17" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
                   <title>The Fundamental Theorem of Arithmetic</title>
                 </ref>
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .  </paragraphs>
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
               </newcol>
             </substatement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="25" id="s25" slide="25" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="25" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="26" course="Math 2070" chapter="11" slide="25" item="11.26">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="18" environ="slide" chapter="11" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="19" course="Math 2070" chapter="11" slide="18" item="11.19">
               <enumerate course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
                 <item course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                   <webwork course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials3.pg"/>
@@ -1038,42 +692,42 @@ for $\mathbb{Z}$. See:  </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="26" id="s26" slide="26" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="26" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="27" md5="b03e893af14e9abfb5b10e2dab6cac75" course="Math 2070" chapter="11" slide="26" item="11.27">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="19" id="s19" slide="19" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="19" environ="slide" chapter="11" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="20" md5="b03e893af14e9abfb5b10e2dab6cac75" course="Math 2070" chapter="11" slide="19" item="11.20">
               <label wbtag="label" name="thm:pirredfield" type="Theorem"/>
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
-The following statements are equivalent:  </paragraphs>
+The following statements are equivalent: </paragraphs>
               <col_ol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                 <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $k[x]/(p)$ is a field.  </paragraphs>
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $k[x]/(p)$ is a field. </paragraphs>
                 </col_li>
                 <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $k[x]/(p)$ is an integral domain.  </paragraphs>
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $k[x]/(p)$ is an integral domain. </paragraphs>
                 </col_li>
                 <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $p$ is irreducible in $k[x]$.  </paragraphs>
+                  <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $p$ is irreducible in $k[x]$. </paragraphs>
                 </col_li>
               </col_ol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="f6d115a9f5b7589c33941b5fe44d18d9" course="Math 2070" chapter="11" slide="26">
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="f6d115a9f5b7589c33941b5fe44d18d9" course="Math 2070" chapter="11" slide="19">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Compare this result with  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="ex:zmintdom" wbtag="ref" course="Math 2070" chapter="11" slide="26" src-course="Math 2070" src-chapter="8" src-slide="8" type="Exercise" item="8.11" src-filename="week8.xml" md5="4f62ea99a34581084495ad126b1d7ed0" class="lcref" serial="">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Compare this result with </paragraphs>
+                <ref environment="newcol" chapter_type="" label="ex:zmintdom" wbtag="ref" course="Math 2070" chapter="11" slide="19" src-course="Math 2070" src-chapter="8" src-slide="8" type="Exercise" item="8.11" src-filename="week8.xml" md5="4f62ea99a34581084495ad126b1d7ed0" class="lcref" serial="">
                   <title>Exercise 8.11</title>
                 </ref>
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="cor:zpfield" wbtag="ref" course="Math 2070" chapter="11" slide="26" src-course="Math 2070" src-chapter="8" src-slide="11" type="Corollary" item="8.16" src-filename="week8.xml" md5="faff551b28a29dea037337edd00bb258" class="lcref" serial="">
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and </paragraphs>
+                <ref environment="newcol" chapter_type="" label="cor:zpfield" wbtag="ref" course="Math 2070" chapter="11" slide="19" src-course="Math 2070" src-chapter="8" src-slide="11" type="Corollary" item="8.16" src-filename="week8.xml" md5="faff551b28a29dea037337edd00bb258" class="lcref" serial="">
                   <title>Corollary 8.16</title>
                 </ref>
-                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .  </paragraphs>
+                <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
               </newcol>
             </substatement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e7663c827574c1016924669d6bba4cf4" course="Math 2070" chapter="11" slide="26" of="b03e893af14e9abfb5b10e2dab6cac75">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e7663c827574c1016924669d6bba4cf4" course="Math 2070" chapter="11" slide="19" of="b03e893af14e9abfb5b10e2dab6cac75">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $1 \Rightarrow 2$: Clear, since every field is an integral domain.  </paragraphs>
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $1 \Rightarrow 2$: Clear, since every field is an integral domain. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $2 \Rightarrow 3$: If $p$ is not irreducible, there exist $f, g \in k[x]$,
@@ -1083,7 +737,7 @@ in $k[x]$.  Consequently, the congruence classes $\ol{f}$ and $\ol{g}$
 of $f$ and $g$, respectively, modulo $(p)$ is not equal to zero in $k[x]/(p)$.
 On the other hand, $\ol{f}\cdot \ol{g} = \ol{fg} = \ol{p} = 0$ in $k[x]/(p)$.
 This implies that $k[x]/(p)$ is not an integral domain, a contradiction.
-Hence, $p$ is irreducible if $k[x]/(p)$ is an integral domain.  </paragraphs>
+Hence, $p$ is irreducible if $k[x]/(p)$ is an integral domain. </paragraphs>
                   </col_li>
                   <col_li course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $3 \Rightarrow 1$:
@@ -1100,14 +754,14 @@ Given any $f \in k[x]$ whose congruence class $\ol{f}$ modulo $(p)$ is nonzero i
 we want to find its multiplicative inverse $\ol{f}^{-1}$.
 If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
 that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
-$GCD(p, f) = 1$.  By  </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="26" src-course="Math 2070" src-chapter="11" src-slide="19" type="Corollary" item="11.18" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
+$GCD(p, f) = 1$.  By </paragraphs>
+                      <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="19" src-course="Math 2070" src-chapter="11" src-slide="19" type="Corollary" item="11.18" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
                         <title>Corollary 11.18</title>
                       </ref>
                       <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist
 $g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,
 since $fg - 1 = -hp$ implies that $fg - 1 \in (p)$,
-which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$.  </paragraphs>
+which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$. </paragraphs>
                     </newcol>
                     <qed course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol"/>
                   </col_li>
@@ -1116,12 +770,12 @@ which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$. 
             </substatement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="27" id="s27" slide="27" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="27" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="28" md5="754a27a416ad77ccfae692cc66444325" course="Math 2070" chapter="11" slide="27" item="11.28">
-              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The rings $\mathbb{R}[x]/(x^2 + 1)$ and $\mathbb{C}$ are isomorphic.  </paragraphs>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="20" id="s20" slide="20" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="20" environ="slide" chapter="11" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="21" md5="754a27a416ad77ccfae692cc66444325" course="Math 2070" chapter="11" slide="20" item="11.21">
+              <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The rings $\mathbb{R}[x]/(x^2 + 1)$ and $\mathbb{C}$ are isomorphic. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48cfd83638f33cdb0094b47704997990" course="Math 2070" chapter="11" slide="27" of="754a27a416ad77ccfae692cc66444325">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48cfd83638f33cdb0094b47704997990" course="Math 2070" chapter="11" slide="20" of="754a27a416ad77ccfae692cc66444325">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : \mathbb{R}[x] \ra \mathbb{C}$ as follows:
 \[
@@ -1140,8 +794,8 @@ Hence, $\phi$ is surjective.</paragraphs>
                   <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We now find $\ker \phi$.
-Since $\mathbb{R}[x]$ is a PID (see  </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2070" chapter="11" slide="27" src-course="Math 2070" src-chapter="10" src-slide="17" type="Definition" item="10.15" src-filename="week10.xml" md5="4ac60ad0846141cae22cdee387ec081b" class="lcref" serial="">
+Since $\mathbb{R}[x]$ is a PID (see </paragraphs>
+                    <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2070" chapter="11" slide="20" src-course="Math 2070" src-chapter="10" src-slide="17" type="Definition" item="10.15" src-filename="week10.xml" md5="4ac60ad0846141cae22cdee387ec081b" class="lcref" serial="">
                       <title>Definition 10.15</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ).  There exists $p \in \mathbb{R}[x]$
@@ -1160,7 +814,7 @@ which implies that $p = q^{-1} (x^2 + 1)$.  We conclude that $\ker \phi = (x^2 +
                         <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                         <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from the First Isomorphism Theorem that
-$\mathbb{R}[x]/(x^2 + 1)\cong \mathbb{C}$.  </paragraphs>
+$\mathbb{R}[x]/(x^2 + 1)\cong \mathbb{C}$. </paragraphs>
                           <qed course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                         </collapse>
                       </collapse>

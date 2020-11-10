@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -146,17 +145,17 @@ which by definition of $\Frac(\mathbb{Z})$ implies that $[(a, b)] = [(c, d)]$.</
                           </col_li>
                           <col_li course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                             <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
-\[\begin{multline*}
+\begin{multline*}
 \phi(a/b + c/d) = \phi((ad + bc)/(bd)) = [(ad + bc, bd)]\\
 = [(a, b)] + [(c, d)] = \phi(a/b) + \phi(c/d)
-\end{multline*}\] </paragraphs>
+\end{multline*} </paragraphs>
                           </col_li>
                           <col_li course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                             <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
-\[\begin{multline*}
+\begin{multline*}
 \phi((a/b)(c/d)) = \phi((ac)/(bd)) = [(ac, bd)]\\
 = [(a, b)]\cdot[(c, d)] = \phi(a/b)\phi(c/d)
-\end{multline*}\] </paragraphs>
+\end{multline*} </paragraphs>
                           </col_li>
                         </col_ol>
                         <collapse course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
@@ -305,7 +304,7 @@ $ra$ belongs to $I$ for all $a \in I$, $r\in R$.</paragraphs>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Clearly,
 this general definition coincides with the one above in the special case that
 the ring is commutative. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In this introductory course, unless otherwise noted,
 we will always discuss ideals in the context of commutative rings. </paragraphs>
             </newcol>

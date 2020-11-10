@@ -11,7 +11,14 @@
       <keyword chapter="" slide="all">principal ideal</keyword>
       <keyword chapter="" slide="all">Principal Ideal Domain</keyword>
       <keyword chapter="" slide="all">PID</keyword>
+      <keyword chapter="" slide="all">congruent modulo $I$</keyword>
+      <keyword chapter="" slide="all">equivalence relation</keyword>
+      <keyword chapter="" slide="all">Reflexivity</keyword>
+      <keyword chapter="" slide="all">Symmetry</keyword>
+      <keyword chapter="" slide="all">Transitivity</keyword>
+      <keyword chapter="" slide="all">residue</keyword>
       <keyword chapter="" slide="all">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
+      <keyword chapter="" slide="all">First Isomorphism Theorem</keyword>
     </keywords>
     <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
     <slides environment="" chapter_type="">
@@ -20,7 +27,7 @@
         <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="10" title="" topic="Ideals, Principal Ideal Domains" course="Math 2070" serial="10">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="10" title="" topic="Ideals, Principal Ideal Domains, Quotient Rings" course="Math 2070" serial="10">
       <keywords slide="all" environ="chapter" chapter="10" course="Math 2070">
         <keyword chapter="10" slide="all">kernel</keyword>
         <keyword chapter="10" slide="all">image</keyword>
@@ -32,16 +39,25 @@
         <keyword chapter="10" slide="all">principal ideal</keyword>
         <keyword chapter="10" slide="all">Principal Ideal Domain</keyword>
         <keyword chapter="10" slide="all">PID</keyword>
+        <keyword chapter="10" slide="all">congruent modulo $I$</keyword>
+        <keyword chapter="10" slide="all">equivalence relation</keyword>
+        <keyword chapter="10" slide="all">Reflexivity</keyword>
+        <keyword chapter="10" slide="all">Symmetry</keyword>
+        <keyword chapter="10" slide="all">Transitivity</keyword>
+        <keyword chapter="10" slide="all">residue</keyword>
         <keyword chapter="10" slide="all">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
+        <keyword chapter="10" slide="all">First Isomorphism Theorem</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide=""/>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Ideals</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Principal Ideal Domains</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Quotient Rings</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Ideals</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Principal Ideal Domains</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Quotient Rings</topic>
           <keywords slide="2" environ="slide" chapter="10" course="Math 2070"/>
         </slide>
       </slides>
@@ -129,17 +145,17 @@ which by definition of $\Frac(\mathbb{Z})$ implies that $[(a, b)] = [(c, d)]$.</
                           </col_li>
                           <col_li course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                             <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
-\begin{multline*}
+\[\begin{multline*}
 \phi(a/b + c/d) = \phi((ad + bc)/(bd)) = [(ad + bc, bd)]\\
 = [(a, b)] + [(c, d)] = \phi(a/b) + \phi(c/d)
-\end{multline*} </paragraphs>
+\end{multline*}\] </paragraphs>
                           </col_li>
                           <col_li course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                             <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
-\begin{multline*}
+\[\begin{multline*}
 \phi((a/b)(c/d)) = \phi((ac)/(bd)) = [(ac, bd)]\\
 = [(a, b)]\cdot[(c, d)] = \phi(a/b)\phi(c/d)
-\end{multline*} </paragraphs>
+\end{multline*}\] </paragraphs>
                           </col_li>
                         </col_ol>
                         <collapse course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
@@ -740,7 +756,347 @@ Hence, $I \subseteq (d)$, and we may now conclude that $I = (d)$. </paragraphs>
                 </collapse>
               </newcol>
             </substatement>
-            <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Quotient Rings" course="Math 2070" chapter="10" num="3" serial="10.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" serial="10.3" slide="">
+          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Quotient Rings</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="20" scope="section" id="s20" slide="20" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
+            <keywords slide="20" environ="slide" chapter="10" course="Math 2070">
+              <keyword chapter="10" slide="20">congruent modulo $I$</keyword>
+              <keyword chapter="10" slide="20">equivalence relation</keyword>
+              <keyword chapter="10" slide="20">Reflexivity</keyword>
+              <keyword chapter="10" slide="20">Symmetry</keyword>
+              <keyword chapter="10" slide="20">Transitivity</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" serial="" slide="20">
+              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Quotient Rings</paragraphs>
+            </title>
+            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $R$ be a commutative ring.  Let $I$ be an ideal of $R$.
+We define a relation $\sim$ on $R$ as follows:
+\[
+a \sim b, \quad \text{ if } a - b \in I.
+\]</paragraphs>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">Notation/Terminology:</paragraphs>
+            </strong>
+            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $a \sim b$, we say that $a$ is </paragraphs>
+            <inline_keyword course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="">congruent modulo $I$</inline_keyword>
+            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> to $b$,
+and write:
+\[
+a \equiv b \mod I.
+\]</paragraphs>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="19" md5="963e2cc1e3a2e478611a672d21ac6c47" course="Math 2070" chapter="10" slide="20" item="10.19">
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Congruence modulo $I$ is an </paragraphs>
+                <inline_keyword course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">equivalence relation</inline_keyword>
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0771d5f86bf61c0125b5841ae455cab9" course="Math 2070" chapter="10" slide="20" of="963e2cc1e3a2e478611a672d21ac6c47">
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <li environment="newcol">
+                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">Reflexivity</inline_keyword>
+                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a - a = 0 \in I$, since $I$ is an ideal; hence, $a \equiv a \mod I$. </paragraphs>
+                    </newcol>
+                  </li>
+                  <li environment="newcol">
+                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">Symmetry</inline_keyword>
+                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a - b \in I$, then $b - a = -1(a  - b) \in I$, since $I$
+is an ideal and $-1 \in R$.  Hence, $a \equiv b \mod I$ implies that $b \equiv a \mod I$. </paragraphs>
+                    </newcol>
+                  </li>
+                  <li environment="newcol">
+                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">Transitivity</inline_keyword>
+                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                      <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a - b \in I$ and $b - c \in I$, then
+$a - c = a + (- b + b) - c = (a - b) + (b - c) \in I$,
+since $I$, being an ideal, is closed under addition.
+Hence, $a \equiv b, b \equiv c \mod I$ implies that $a \equiv c \mod I$. </paragraphs>
+                      <qed course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                    </newcol>
+                  </li>
+                </ul>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="21" id="s21" slide="21" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
+            <keywords slide="21" environ="slide" chapter="10" course="Math 2070">
+              <keyword chapter="10" slide="21">residue</keyword>
+            </keywords>
+            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $R/ I$ be the set of equivalence classes of $R$ with respect to the relation $\sim$.
+Each element of $R/ I$ has the form:
+\[
+\ol{r} = r + I = \{r + a : a \in I\}, \quad r \in R.
+\]</paragraphs>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">Terminology.</paragraphs>
+            </h5>
+            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We call $\ol{r}$ the </paragraphs>
+            <inline_keyword course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="">residue</inline_keyword>
+            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $r$ in $R/I$.</paragraphs>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note that if $r \in I$, then $\bar{r} = \bar{0}$, since $r - 0 = r \in I$.</paragraphs>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that: for all $r, r' \in R$, and $a, a' \in I$,
+\[
+(r + a) + (r' + a') = (r + r') + (a + a') \in (r + r') + I = \ol{r + r'},
+\]
+\[
+(r + a)\cdot(r'+ a') = rr' + ra' + r'a + aa' \in rr' + I = \ol{rr'}.
+\] </paragraphs>
+              <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, we may define binary operations $+, \cdot$ on $R/I$ as follows:
+\[
+\begin{split}
+\ol{r} + \ol{r'}  &amp;= \ol{r + r'},\\
+\ol{r}\cdot\ol{r'} &amp;= \ol{rr'},
+\end{split}
+\]
+for all $\ol{r},\ol{r'} \in R/ I$. </paragraphs>
+              </collapse>
+            </newcol>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="22" id="s22" slide="22" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
+            <keywords slide="22" environ="slide" chapter="10" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="20" md5="acf88bc4556b717fbb31ace5cebe6fc5" course="Math 2070" chapter="10" slide="22" item="10.20">
+              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The set $R/I$, equipped with the addition $+$ and multiplication $\cdot$ defined above,
+is a commutative ring. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6b4ebc05e8cb268a358520e6283a75e3" course="Math 2070" chapter="10" slide="22" of="acf88bc4556b717fbb31ace5cebe6fc5">
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We note here only that the additive identity element of $R/I$ is $\ol{0} = 0 + I$,
+the multiplicative identity element of $R/I$ is $\ol{1} = 1 + I$,
+and that $-\ol{r} = \ol{-r}$ for all $r \in R$.</paragraphs>
+                <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">We leave the rest of the proof (additive and multiplicative associativity, commutativity, distributativity)
+as an </paragraphs>
+                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
+                </strong>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="21" md5="e8b7ffa34c4842301996d7a0e5a08f33" course="Math 2070" chapter="10" slide="22" item="10.21">
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The map $\pi : R \rightarrow R/I$, defined by
+\[
+\pi(r) = \ol{r},\quad \forall r \in R.
+\]
+is a surjective ring homomorphism with kernel $\ker \pi = I$. </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="10" slide="22" of="e8b7ffa34c4842301996d7a0e5a08f33">
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
+                </strong>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="23" id="s23" slide="23" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
+            <keywords slide="23" environ="slide" chapter="10" course="Math 2070"/>
+            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $m$ be a natural number.  The set:
+\[
+m\mathbb{Z} = \{mn : n \in \mathbb{Z}\}
+\]
+is an ideal of $\mathbb{Z}$. </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="22" md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" course="Math 2070" chapter="10" slide="23" item="10.22">
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The quotient ring $\mathbb{Z}/m\mathbb{Z}$ is isomorphic to $\mathbb{Z}_m$. </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="73dd8b75e9c74bead432dbb5a0f2704b" course="Math 2070" chapter="10" slide="23" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4">
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $r \in \mathbb{Z}$, let $r_m$ denote the remainder of the division of $r$ by $m$.</paragraphs>
+                <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise:</paragraphs>
+                  </strong>
+                  <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We have $\ol{r} = \ol{r_m}$ in $\ZZ/m\ZZ$,
+where $\bar{r}$ is the residue of $r$ in $\ZZ/m\ZZ$.</paragraphs>
+                  <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : \mathbb{Z}_m \ra \ZZ/m\ZZ$ as follows:
+\[
+\phi(r) = \bar{r},\quad \forall\, r \in \ZZ_m.
+\] </paragraphs>
+                    <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We claim that $\phi$ is a homomorphism: </paragraphs>
+                      <col_ul course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                        <col_li course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\phi(1) = \bar{1} = 1_{\ZZ/m\ZZ}$. </paragraphs>
+                        </col_li>
+                        <col_li course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[\begin{multline*}
+\phi(r +_{\ZZ_m} r') = \ol{r +_{\ZZ_m} r'} = \ol{(r +_{\ZZ} r')_m} \\
+= \ol{r +_{\ZZ} r'} = \ol{r} + \ol{r'} = \phi(r) + \phi(r')
+\end{multline*}\] </paragraphs>
+                        </col_li>
+                        <col_li course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[\begin{multline*}
+\phi(r \cdot_{\ZZ_m} r') = \ol{r \cdot_{\ZZ_m} r'} = \ol{(r \cdot_{\ZZ} r')_m}\\
+= \ol{r \cdot_{\ZZ} r'} = \ol{r} \cdot \ol{r'} = \phi(r) \cdot \phi(r')
+\end{multline*}\] </paragraphs>
+                        </col_li>
+                      </col_ul>
+                      <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\phi$ is a homomorphism.</paragraphs>
+                        <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Next, we show that $\phi$ is bijective:</paragraphs>
+                          <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $\bar{r} \in \ZZ/m\ZZ$, we have $\phi(r_m) = \ol{r_m} = \ol{r}$.
+Hence, $\phi$ is onto.</paragraphs>
+                            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                            <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $r$ is an element in $\ZZ_m$
+such that $\phi(r) = \ol{r} = 0$ in $\ZZ/m\ZZ$.  By definition, this means that $r \in m\ZZ$,
+or equivalently, that $m | r$.  Since $0 \leq r &lt; m$, we must have $r = 0$.
+Hence, $\ker \phi = \{0\}$.
+It now follows from </paragraphs>
+                              <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="23" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
+                                <title>Claim 10.4</title>
+                              </ref>
+                              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that $\phi$ is one-to one.</paragraphs>
+                              <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                              <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We conclude that $\phi : \ZZ_m \ra \ZZ/m\ZZ$ is an isomorphism. </paragraphs>
+                                <qed course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                              </collapse>
+                            </collapse>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="24" id="s24" slide="24" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
+            <keywords slide="24" environ="slide" chapter="10" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="23" md5="993c7ad44dad2b06493e1b9ba465adbb" course="Math 2070" chapter="10" slide="24" item="10.23">
+              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $\phi : R \longrightarrow R'$ be a ring homomorphism.  Then, the image of $\phi$:
+\[
+\im \phi = \{r' \in R' : r' = \phi(r) \text{ for some } r \in R\}
+\]
+is a ring under the addition and multiplication operations of $R'$.
+(In fact, it is a subring of $R'$.) </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="10" slide="24" of="993c7ad44dad2b06493e1b9ba465adbb">
+              <strong xmlns="http://www.w3.org/1999/xhtml" environment="substatement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">Exercise.</paragraphs>
+              </strong>
+            </substatement>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="25" id="s25" slide="25" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
+            <keywords slide="25" environ="slide" chapter="10" course="Math 2070">
+              <keyword chapter="10" slide="25">First Isomorphism Theorem</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="24" title="First Isomorphism Theorem" md5="1486f5b52a8fff9f86fe19ee7f4439ad" course="Math 2070" chapter="10" slide="25" item="10.24">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" serial="" slide="25">First Isomorphism Theorem</title>
+              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.
+Let $\phi : R \ra R'$ be a ring homomorphism.
+Then:
+\[
+R/\ker\phi \cong \im \phi,
+\]
+(i.e. $R/\ker \phi$ is isomorphic to $\im \phi$.) </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0b8767251aef159322ffde9600e8efa4" course="Math 2070" chapter="10" slide="25" of="1486f5b52a8fff9f86fe19ee7f4439ad">
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We define a map $\ol{\phi} : R/\ker\phi \ra \im \phi$ as follows:
+\[
+\ol{\phi}(\ol{r}) = \phi(r), \quad \forall\, r \in R,
+\]
+where $\ol{r}$ is the residue of $r$ in $R/\ker \phi$.</paragraphs>
+                <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We first need to check that $\phi$ is well-defined.
+Suppose $\ol{r} = \ol{r'}$, then $r' - r \in \ker\phi$.
+We have:
+\[
+\phi(r') - \phi(r) = \phi(r' - r) = 0.
+\] </paragraphs>
+                  <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\phi(r') = \phi(r)$.
+So, $\phib(\ol{r})$ is well-defined.</paragraphs>
+                    <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Next, we show that $\phib$ is a homomorphism: </paragraphs>
+                      <col_ul course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                        <col_li course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\phib(\ol{1}) = \phi(1) = 1$; </paragraphs>
+                        </col_li>
+                        <col_li course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $
+\phib(\ol{a} + \ol{b}) = \phib(\ol{a + b}) = \phi(a + b) = \phi(a) + \phi(b)
+= \phib(\ol{a}) + \phib(\ol{b});
+$ </paragraphs>
+                        </col_li>
+                        <col_li course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $
+\phib(\ol{a} \cdot \ol{b})
+= \phib(\ol{ab}) = \phi(ab) = \phi(a)\phi(b) = \phib(\ol{a})\phib(\ol{b}).
+$ </paragraphs>
+                        </col_li>
+                      </col_ul>
+                      <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Finally, we show that $\phib$ is a bijection, i.e. one-to-one and onto.</paragraphs>
+                        <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any $r' \in\im \phi$, there exists $r \in R$ such that $\phi(r) = r'$.
+Since $\phib(\ol{r}) = \phi(r) = r'$, $\phib$ is onto.</paragraphs>
+                          <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $r$ be an element in $R$ such that
+$\phib(\ol{r}) = \phi(r) = 0$.
+We have $r \in \ker \phi$, which implies that $\ol{r} = 0$ in $R/\ker\phi$.
+Hence, $\ker \phib = \{0\}$, and it follows from </paragraphs>
+                            <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="25" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
+                              <title>Claim 10.4</title>
+                            </ref>
+                            <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that $\phib$ is one-to-one. </paragraphs>
+                            <qed course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="26" id="s26" slide="26" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
+            <keywords slide="26" environ="slide" chapter="10" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="25" md5="921b526634907f81c0eaafc434d6b91e" course="Math 2070" chapter="10" slide="26" item="10.25">
+              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If a ring homomorphism $\phi : R \ra R'$ is surjective, then:
+\[
+R' \cong R/\ker \phi
+\] </paragraphs>
+            </statement>
+            <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
           </slide>
         </slides>
       </section>

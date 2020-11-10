@@ -2,6 +2,7 @@
 @week{10}
 @topic{Ideals}
 @topic{Principal Ideal Domains}
+@topic{Quotient Rings}
 @section{Ring Homomorphisms - continued}
 An isomorphism is more than simply a bijective map,
 for it must preserve algebraic structure.
@@ -68,16 +69,16 @@ We now show that $\phi$ is a homomorphism:
 $\phi(1) = \phi(1/1) = [(1, 1)]$, which is indeed the multiplicative identity of $\Frac(\mathbb{Z})$.
 @li
 For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
-\begin{multline*}
+\[\begin{multline*}
 \phi(a/b + c/d) = \phi((ad + bc)/(bd)) = [(ad + bc, bd)]\\
 = [(a, b)] + [(c, d)] = \phi(a/b) + \phi(c/d)
-\end{multline*}
+\end{multline*}\]
 @li
 For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
-\begin{multline*}
+\[\begin{multline*}
 \phi((a/b)(c/d)) = \phi((ac)/(bd)) = [(ac, bd)]\\
 = [(a, b)]\cdot[(c, d)] = \phi(a/b)\phi(c/d)
-\end{multline*}
+\end{multline*}\]
 @endol
 @col
 Finally, we need to show that $\phi$ is one-to-one and onto.
@@ -521,5 +522,257 @@ In order words $f = qd$, which implies that $f \in (d)$.
 Hence, $I \subseteq (d)$, and we may now conclude that $I = (d)$.
 @qed
 @endcol
+@end
+@section{Quotient Rings}
+Let $R$ be a commutative ring.  Let $I$ be an ideal of $R$.
+We define a relation $\sim$ on $R$ as follows:
+\[
+a \sim b, \quad \text{ if } a - b \in I.
+\]
+
+<strong>Notation/Terminology:</strong> If $a \sim b$, we say that $a$ is @keyword{congruent modulo $I$} to $b$,
+and write:
+\[
+a \equiv b \mod I.
+\]
+
+@claim
+@newcol
+Congruence modulo $I$ is an @keyword{equivalence relation} .
+@endcol
+@end
+@proof
+@newcol
+<ul>
+<li>
+@keyword{Reflexivity}
+@newcol
+$a - a = 0 \in I$, since $I$ is an ideal; hence, $a \equiv a \mod I$.
+@endcol</li>
+<li>
+@keyword{Symmetry}
+@newcol
+If $a - b \in I$, then $b - a = -1(a  - b) \in I$, since $I$
+is an ideal and $-1 \in R$.  Hence, $a \equiv b \mod I$ implies that $b \equiv a \mod I$.
+@endcol</li>
+<li>
+@keyword{Transitivity}
+@newcol
+If $a - b \in I$ and $b - c \in I$, then
+$a - c = a + (- b + b) - c = (a - b) + (b - c) \in I$,
+since $I$, being an ideal, is closed under addition.
+Hence, $a \equiv b, b \equiv c \mod I$ implies that $a \equiv c \mod I$.
+@qed
+@endcol</li></ul>
+@endcol
+@end
+
+@slide
+Let $R/ I$ be the set of equivalence classes of $R$ with respect to the relation $\sim$.
+Each element of $R/ I$ has the form:
+\[
+\ol{r} = r + I = \{r + a : a \in I\}, \quad r \in R.
+\]
+
+<h5>Terminology.</h5>
+We call $\ol{r}$ the @keyword{residue} of $r$ in $R/I$.
+
+Note that if $r \in I$, then $\bar{r} = \bar{0}$, since $r - 0 = r \in I$.
+
+@newcol
+Observe that: for all $r, r' \in R$, and $a, a' \in I$,
+\[
+(r + a) + (r' + a') = (r + r') + (a + a') \in (r + r') + I = \ol{r + r'},
+\]
+\[
+(r + a)\cdot(r'+ a') = rr' + ra' + r'a + aa' \in rr' + I = \ol{rr'}.
+\]
+@col
+Hence, we may define binary operations $+, \cdot$ on $R/I$ as follows:
+\[
+\begin{split}
+\ol{r} + \ol{r'}  &= \ol{r + r'},\\
+\ol{r}\cdot\ol{r'} &= \ol{rr'},
+\end{split}
+\]
+for all $\ol{r},\ol{r'} \in R/ I$.
+@endcol
+
+@slide
+@claim
+The set $R/I$, equipped with the addition $+$ and multiplication $\cdot$ defined above,
+is a commutative ring.
+@end
+@proof
+@newcol
+We note here only that the additive identity element of $R/I$ is $\ol{0} = 0 + I$,
+the multiplicative identity element of $R/I$ is $\ol{1} = 1 + I$,
+and that $-\ol{r} = \ol{-r}$ for all $r \in R$.
+
+We leave the rest of the proof (additive and multiplicative associativity, commutativity, distributativity)
+as an <strong>Exercise.</strong>
+@endcol
+@end
+
+@claim
+@newcol
+The map $\pi : R \rightarrow R/I$, defined by
+\[
+\pi(r) = \ol{r},\quad \forall r \in R.
+\]
+is a surjective ring homomorphism with kernel $\ker \pi = I$.
+@endcol
+@end
+@proof
+@newcol
+<strong>Exercise.</strong>
+@endcol
+@end
+
+@slide
+Let $m$ be a natural number.  The set:
+\[
+m\mathbb{Z} = \{mn : n \in \mathbb{Z}\}
+\]
+is an ideal of $\mathbb{Z}$.
+@claim
+@newcol
+The quotient ring $\mathbb{Z}/m\mathbb{Z}$ is isomorphic to $\mathbb{Z}_m$.
+@endcol
+@end
+@proof
+@newcol
+For $r \in \mathbb{Z}$, let $r_m$ denote the remainder of the division of $r$ by $m$.
+
+@col
+<strong>Exercise:</strong> We have $\ol{r} = \ol{r_m}$ in $\ZZ/m\ZZ$,
+where $\bar{r}$ is the residue of $r$ in $\ZZ/m\ZZ$.
+
+@col
+Define a map $\phi : \mathbb{Z}_m \ra \ZZ/m\ZZ$ as follows:
+\[
+\phi(r) = \bar{r},\quad \forall\, r \in \ZZ_m.
+\]
+@col
+We claim that $\phi$ is a homomorphism:
+@ul
+@li
+$\phi(1) = \bar{1} = 1_{\ZZ/m\ZZ}$.
+@li
+\[\begin{multline*}
+\phi(r +_{\ZZ_m} r') = \ol{r +_{\ZZ_m} r'} = \ol{(r +_{\ZZ} r')_m} \\
+= \ol{r +_{\ZZ} r'} = \ol{r} + \ol{r'} = \phi(r) + \phi(r')
+\end{multline*}\]
+@li
+\[\begin{multline*}
+\phi(r \cdot_{\ZZ_m} r') = \ol{r \cdot_{\ZZ_m} r'} = \ol{(r \cdot_{\ZZ} r')_m}\\
+= \ol{r \cdot_{\ZZ} r'} = \ol{r} \cdot \ol{r'} = \phi(r) \cdot \phi(r')
+\end{multline*}\]
+@endul
+@col
+Hence, $\phi$ is a homomorphism.
+
+@col
+Next, we show that $\phi$ is bijective:
+
+@col
+For all $\bar{r} \in \ZZ/m\ZZ$, we have $\phi(r_m) = \ol{r_m} = \ol{r}$.
+Hence, $\phi$ is onto.
+
+@col
+Suppose $r$ is an element in $\ZZ_m$
+such that $\phi(r) = \ol{r} = 0$ in $\ZZ/m\ZZ$.  By definition, this means that $r \in m\ZZ$,
+or equivalently, that $m | r$.  Since $0 \leq r < m$, we must have $r = 0$.
+Hence, $\ker \phi = \{0\}$.
+It now follows from @ref{claim:onetooneker} that $\phi$ is one-to one.
+
+@col
+We conclude that $\phi : \ZZ_m \ra \ZZ/m\ZZ$ is an isomorphism.
+@qed
+@endcol
+@end
+
+@slide
+@claim
+Let $\phi : R \longrightarrow R'$ be a ring homomorphism.  Then, the image of $\phi$:
+\[
+\im \phi = \{r' \in R' : r' = \phi(r) \text{ for some } r \in R\}
+\]
+is a ring under the addition and multiplication operations of $R'$.
+(In fact, it is a subring of $R'$.)
+@end
+@proof
+<strong>Exercise.</strong>
+@end
+
+@slide
+@thm
+@title{First Isomorphism Theorem}
+Let $R$ be a commutative ring.
+Let $\phi : R \ra R'$ be a ring homomorphism.
+Then:
+\[
+R/\ker\phi \cong \im \phi,
+\]
+(i.e. $R/\ker \phi$ is isomorphic to $\im \phi$.)
+@end
+@proof
+@newcol
+We define a map $\ol{\phi} : R/\ker\phi \ra \im \phi$ as follows:
+\[
+\ol{\phi}(\ol{r}) = \phi(r), \quad \forall\, r \in R,
+\]
+where $\ol{r}$ is the residue of $r$ in $R/\ker \phi$.
+
+@col
+We first need to check that $\phi$ is well-defined.
+Suppose $\ol{r} = \ol{r'}$, then $r' - r \in \ker\phi$.
+We have:
+\[
+\phi(r') - \phi(r) = \phi(r' - r) = 0.
+\]
+@col
+Hence, $\phi(r') = \phi(r)$.
+So, $\phib(\ol{r})$ is well-defined.
+
+@col
+Next, we show that $\phib$ is a homomorphism:
+@ul
+@li
+$\phib(\ol{1}) = \phi(1) = 1$;
+@li
+$
+\phib(\ol{a} + \ol{b}) = \phib(\ol{a + b}) = \phi(a + b) = \phi(a) + \phi(b)
+= \phib(\ol{a}) + \phib(\ol{b});
+$
+@li
+$
+\phib(\ol{a} \cdot \ol{b})
+= \phib(\ol{ab}) = \phi(ab) = \phi(a)\phi(b) = \phib(\ol{a})\phib(\ol{b}).
+$
+@endul
+
+@col
+Finally, we show that $\phib$ is a bijection, i.e. one-to-one and onto.
+
+@col
+For any $r' \in\im \phi$, there exists $r \in R$ such that $\phi(r) = r'$.
+Since $\phib(\ol{r}) = \phi(r) = r'$, $\phib$ is onto.
+
+@col
+Let $r$ be an element in $R$ such that
+$\phib(\ol{r}) = \phi(r) = 0$.
+We have $r \in \ker \phi$, which implies that $\ol{r} = 0$ in $R/\ker\phi$.
+Hence, $\ker \phib = \{0\}$, and it follows from @ref{claim:onetooneker} that $\phib$ is one-to-one.
+@qed
+@endcol
+@end
+
+@slide
+@cor
+If a ring homomorphism $\phi : R \ra R'$ is surjective, then:
+\[
+R' \cong R/\ker \phi
+\]
 @end
 

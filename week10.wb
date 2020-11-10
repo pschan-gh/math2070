@@ -69,16 +69,16 @@ We now show that $\phi$ is a homomorphism:
 $\phi(1) = \phi(1/1) = [(1, 1)]$, which is indeed the multiplicative identity of $\Frac(\mathbb{Z})$.
 @li
 For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
-\[\begin{multline*}
+\begin{multline*}
 \phi(a/b + c/d) = \phi((ad + bc)/(bd)) = [(ad + bc, bd)]\\
 = [(a, b)] + [(c, d)] = \phi(a/b) + \phi(c/d)
-\end{multline*}\]
+\end{multline*}
 @li
 For $a, b, c, d \in \mathbb{Z}$, $b, d \neq 0$, we have:
-\[\begin{multline*}
+\begin{multline*}
 \phi((a/b)(c/d)) = \phi((ac)/(bd)) = [(ac, bd)]\\
 = [(a, b)]\cdot[(c, d)] = \phi(a/b)\phi(c/d)
-\end{multline*}\]
+\end{multline*}
 @endol
 @col
 Finally, we need to show that $\phi$ is one-to-one and onto.

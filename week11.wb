@@ -64,13 +64,13 @@ Observe that in $\mathbb{Z}[i]$, we have:
 @col
 which implies that:
 @steps
-\[\begin{align*}
+\begin{align*}
 @nstep{1} & @nstep{\equiv -3i \mod (1 + 3i)}
 \\
 @nstep{i\cdot 1} & @nstep{\equiv i \cdot (-3i) \mod (1 + 3i)}
 \\
 @nstep{i} & @nstep{\equiv 3 \mod (1 + 3i).}
-\end{align*}\]
+\end{align*}
 @endsteps
 @col
 Hence, for all $a, b \in \ZZ$,

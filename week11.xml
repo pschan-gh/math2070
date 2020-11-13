@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -130,13 +129,13 @@ where $\ol{n}$ is the residue of $n \in \ZZ[i]$ modulo $(1 + 3i)$.</paragraphs>
                   <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that: </paragraphs>
                     <steps course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
-\[\begin{align*}
+\begin{align*}
 \class{steps}{\cssId{step0}{1}} &amp; \class{steps}{\cssId{step1}{\equiv -3i \mod (1 + 3i)}}
 \\
 \class{steps}{\cssId{step2}{i\cdot 1}} &amp; \class{steps}{\cssId{step3}{\equiv i \cdot (-3i) \mod (1 + 3i)}}
 \\
 \class{steps}{\cssId{step4}{i}} &amp; \class{steps}{\cssId{step5}{\equiv 3 \mod (1 + 3i).}}
-\end{align*}\]
+\end{align*}
 </steps>
                     <collapse course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, for all $a, b \in \ZZ$,
@@ -326,7 +325,7 @@ for some $c \in k$. </paragraphs>
                       <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove Part 1 of the claim by induction.
 If $f$ has degree 0, then $f$ is a nonzero constant, which implies that it has no roots.
 So, in this case the claim holds. </paragraphs>
-                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $f$ be a polynomial with degree $n &gt; 0$.
 Suppose the claim holds for all nonzero polynomials with degrees strictly less than $n$.
@@ -351,7 +350,7 @@ So, $f$ has at most $n - 1$ roots different from $a$.  This shows that $f$ has a
                         </collapse>
                       </collapse>
                     </newcol>
-                    <hr environment="newcol"/>
+                    <hr environment="newcol" />
                   </li>
                   <li environment="newcol">
                     <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -449,7 +448,7 @@ $d \in k[x]$ with the following property: </paragraphs>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $(f, g) = (d)$ </paragraphs>
-                  <br environment="statement"/>
+                  <br environment="statement" />
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Moreover, this $d$ also satisfies the following properties: </paragraphs>
                 </li>
                 <li environment="statement">
@@ -495,7 +494,7 @@ is called the </paragraphs>
               </ul>
             </newcol>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="004062c7e7c889f00bd520c9fb77cc14" course="Math 2070" chapter="11" slide="12" of="954c0637ea39d29081b585eb905c1ed0">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">

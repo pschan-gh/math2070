@@ -589,10 +589,12 @@ Observe that: for all $r, r' \in R$, and $a, a' \in I$,
 \]
 @col
 Hence, we may define binary operations $+, \cdot$ on $R/I$ as follows:
+\[
 \begin{split}
 \ol{r} + \ol{r'}  &= \ol{r + r'},\\
 \ol{r}\cdot\ol{r'} &= \ol{rr'},
 \end{split}
+\]
 for all $\ol{r},\ol{r'} \in R/ I$.
 @endcol
 

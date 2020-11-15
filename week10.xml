@@ -859,10 +859,12 @@ Each element of $R/ I$ has the form:
 \] </paragraphs>
               <collapse course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, we may define binary operations $+, \cdot$ on $R/I$ as follows:
+\[
 \begin{split}
 \ol{r} + \ol{r'}  &amp;= \ol{r + r'},\\
 \ol{r}\cdot\ol{r'} &amp;= \ol{rr'},
 \end{split}
+\]
 for all $\ol{r},\ol{r'} \in R/ I$. </paragraphs>
               </collapse>
             </newcol>

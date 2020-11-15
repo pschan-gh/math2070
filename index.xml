@@ -24,11 +24,11 @@
     <entry keyword="equivalence relation">
       <branch chapter="3" slide="10" filename="week3.xml" file_md5="7b4c8f56ed2fc28756995a3db1e1ba61" keyword="equivalence relation">equivalence relation</branch>
       <branch chapter="6" slide="13" filename="week6.xml" file_md5="0fef5b0cff760cda60c3647573c1052f" keyword="equivalence relation">equivalence relation</branch>
-      <branch chapter="10" slide="20" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="equivalence relation">equivalence relation</branch>
+      <branch chapter="10" slide="20" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="equivalence relation">equivalence relation</branch>
     </entry>
     <entry keyword="generated">
       <branch chapter="4" slide="8" filename="week4.xml" file_md5="1f02726cb0d9be0dd26b9d5632ab0a18" keyword="generated">generated</branch>
-      <branch chapter="10" slide="15" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="generated">generated</branch>
+      <branch chapter="10" slide="15" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="generated">generated</branch>
     </entry>
     <entry keyword="isomorphism">
       <branch chapter="4" slide="13" filename="week4.xml" file_md5="1f02726cb0d9be0dd26b9d5632ab0a18" keyword="isomorphism">isomorphism</branch>
@@ -284,51 +284,6 @@
     <entry keyword="ring homomorphism">
       <branch chapter="9" slide="3" filename="week9.xml" file_md5="6536ab706774e3f7f32d86855702332d" keyword="ring homomorphism">ring homomorphism</branch>
     </entry>
-    <entry keyword="kernel">
-      <branch chapter="10" slide="6" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="kernel">kernel</branch>
-    </entry>
-    <entry keyword="image">
-      <branch chapter="10" slide="6" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="image">image</branch>
-    </entry>
-    <entry keyword="ideal">
-      <branch chapter="10" slide="8" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="ideal">ideal</branch>
-    </entry>
-    <entry keyword="proper ideal">
-      <branch chapter="10" slide="8" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="proper ideal">proper ideal</branch>
-    </entry>
-    <entry keyword="remark.">
-      <branch chapter="10" slide="11" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="remark.">Remark.</branch>
-    </entry>
-    <entry keyword="principal ideal">
-      <branch chapter="10" slide="15" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="principal ideal">principal ideal</branch>
-    </entry>
-    <entry keyword="principal ideal domain">
-      <branch chapter="10" slide="17" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="principal ideal domain">Principal Ideal Domain</branch>
-    </entry>
-    <entry keyword="pid">
-      <branch chapter="10" slide="17" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="pid">PID</branch>
-    </entry>
-    <entry keyword="division theorem for polynomials with unit leading coefficients">
-      <branch chapter="10" slide="18" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="division theorem for polynomials with unit leading coefficients">Division Theorem for Polynomials with Unit Leading Coefficients</branch>
-    </entry>
-    <entry keyword="congruent modulo $i$">
-      <branch chapter="10" slide="20" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="congruent modulo $i$">congruent modulo $I$</branch>
-    </entry>
-    <entry keyword="reflexivity">
-      <branch chapter="10" slide="20" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="reflexivity">Reflexivity</branch>
-    </entry>
-    <entry keyword="symmetry">
-      <branch chapter="10" slide="20" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="symmetry">Symmetry</branch>
-    </entry>
-    <entry keyword="transitivity">
-      <branch chapter="10" slide="20" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="transitivity">Transitivity</branch>
-    </entry>
-    <entry keyword="residue">
-      <branch chapter="10" slide="21" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="residue">residue</branch>
-    </entry>
-    <entry keyword="first isomorphism theorem">
-      <branch chapter="10" slide="25" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" keyword="first isomorphism theorem">First Isomorphism Theorem</branch>
-    </entry>
     <entry keyword="gaussian integers">
       <branch chapter="11" slide="4" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" keyword="gaussian integers">Gaussian Integers</branch>
     </entry>
@@ -347,6 +302,51 @@
     <entry keyword="euclid's lemma">
       <branch chapter="11" slide="16" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" keyword="euclid's lemma">Euclid's Lemma</branch>
     </entry>
+    <entry keyword="kernel">
+      <branch chapter="10" slide="6" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="kernel">kernel</branch>
+    </entry>
+    <entry keyword="image">
+      <branch chapter="10" slide="6" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="image">image</branch>
+    </entry>
+    <entry keyword="ideal">
+      <branch chapter="10" slide="8" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="ideal">ideal</branch>
+    </entry>
+    <entry keyword="proper ideal">
+      <branch chapter="10" slide="8" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="proper ideal">proper ideal</branch>
+    </entry>
+    <entry keyword="remark.">
+      <branch chapter="10" slide="11" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="remark.">Remark.</branch>
+    </entry>
+    <entry keyword="principal ideal">
+      <branch chapter="10" slide="15" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="principal ideal">principal ideal</branch>
+    </entry>
+    <entry keyword="principal ideal domain">
+      <branch chapter="10" slide="17" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="principal ideal domain">Principal Ideal Domain</branch>
+    </entry>
+    <entry keyword="pid">
+      <branch chapter="10" slide="17" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="pid">PID</branch>
+    </entry>
+    <entry keyword="division theorem for polynomials with unit leading coefficients">
+      <branch chapter="10" slide="18" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="division theorem for polynomials with unit leading coefficients">Division Theorem for Polynomials with Unit Leading Coefficients</branch>
+    </entry>
+    <entry keyword="congruent modulo $i$">
+      <branch chapter="10" slide="20" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="congruent modulo $i$">congruent modulo $I$</branch>
+    </entry>
+    <entry keyword="reflexivity">
+      <branch chapter="10" slide="20" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="reflexivity">Reflexivity</branch>
+    </entry>
+    <entry keyword="symmetry">
+      <branch chapter="10" slide="20" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="symmetry">Symmetry</branch>
+    </entry>
+    <entry keyword="transitivity">
+      <branch chapter="10" slide="20" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="transitivity">Transitivity</branch>
+    </entry>
+    <entry keyword="residue">
+      <branch chapter="10" slide="21" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="residue">residue</branch>
+    </entry>
+    <entry keyword="first isomorphism theorem">
+      <branch chapter="10" slide="25" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" keyword="first isomorphism theorem">First Isomorphism Theorem</branch>
+    </entry>
     <entry md5="ef8fb97d271d5d2e855498ac9a9b41b7" of="413dfe67c18ba505d3b2256c719f3a8d" slide="11" chapter="1" course="Math 2070" wbtag="proof" type="Proof" chapter_type="" environment="substatement" filename="week1.xml" file_md5="b41149c81180f9afd18267bcde4b1c07" ofmd5="413dfe67c18ba505d3b2256c719f3a8d">
       <branch of="413dfe67c18ba505d3b2256c719f3a8d" slide="11" chapter="1" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="" environment="substatement" filename="week1.xml" file_md5="b41149c81180f9afd18267bcde4b1c07" ofmd5="413dfe67c18ba505d3b2256c719f3a8d"/>
       <branch of="57b80347e2d3ec6941833fd034627a81" slide="8" chapter="3" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week3.xml" file_md5="7b4c8f56ed2fc28756995a3db1e1ba61" ofmd5="57b80347e2d3ec6941833fd034627a81"/>
@@ -355,10 +355,10 @@
       <branch of="45777aaa95215986561c973de5594246" slide="20" chapter="8" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="" environment="substatement" filename="week8.xml" file_md5="de0097d76b5787fbdaaaec2693736b8a" ofmd5="45777aaa95215986561c973de5594246"/>
       <branch of="01abcef5efc49dc54237d2ef63d6bd0b" slide="23" chapter="8" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="" environment="substatement" filename="week8.xml" file_md5="de0097d76b5787fbdaaaec2693736b8a" ofmd5="01abcef5efc49dc54237d2ef63d6bd0b"/>
       <branch of="2152ce3be89ef2f21ec407344bdeffeb" slide="6" chapter="9" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="6536ab706774e3f7f32d86855702332d" ofmd5="2152ce3be89ef2f21ec407344bdeffeb"/>
-      <branch of="e8b7ffa34c4842301996d7a0e5a08f33" slide="22" chapter="10" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="e8b7ffa34c4842301996d7a0e5a08f33"/>
-      <branch of="993c7ad44dad2b06493e1b9ba465adbb" slide="24" chapter="10" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="993c7ad44dad2b06493e1b9ba465adbb"/>
       <branch of="df7a0ba35ef0d043bf31e1068cad258d" slide="14" chapter="11" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="df7a0ba35ef0d043bf31e1068cad258d"/>
       <branch of="26cc8b08e04b09ad63af6569d7afc3ef" slide="16" chapter="11" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="26cc8b08e04b09ad63af6569d7afc3ef"/>
+      <branch of="e8b7ffa34c4842301996d7a0e5a08f33" slide="22" chapter="10" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="e8b7ffa34c4842301996d7a0e5a08f33"/>
+      <branch of="993c7ad44dad2b06493e1b9ba465adbb" slide="24" chapter="10" course="Math 2070" md5="ef8fb97d271d5d2e855498ac9a9b41b7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="993c7ad44dad2b06493e1b9ba465adbb"/>
     </entry>
     <entry md5="723807213862930cca60acb6037d74ca" of="e96b6aa05fb1d6c99e4e9e869060a697" slide="12" chapter="1" course="Math 2070" wbtag="proof" type="Proof" chapter_type="" environment="substatement" filename="week1.xml" file_md5="b41149c81180f9afd18267bcde4b1c07" ofmd5="e96b6aa05fb1d6c99e4e9e869060a697">
       <branch of="e96b6aa05fb1d6c99e4e9e869060a697" slide="12" chapter="1" course="Math 2070" md5="723807213862930cca60acb6037d74ca" wbtag="proof" type="Proof" chapter_type="" environment="substatement" filename="week1.xml" file_md5="b41149c81180f9afd18267bcde4b1c07" ofmd5="e96b6aa05fb1d6c99e4e9e869060a697"/>
@@ -1175,140 +1175,6 @@
     <entry md5="21627d6d8f7cdde680f210a24da5438e" of="c805c14632eb7e0540de3e7f1f0f3a32" slide="9" chapter="9" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="6536ab706774e3f7f32d86855702332d" ofmd5="c805c14632eb7e0540de3e7f1f0f3a32">
       <branch of="c805c14632eb7e0540de3e7f1f0f3a32" slide="9" chapter="9" course="Math 2070" md5="21627d6d8f7cdde680f210a24da5438e" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="6536ab706774e3f7f32d86855702332d" ofmd5="c805c14632eb7e0540de3e7f1f0f3a32"/>
     </entry>
-    <entry md5="1b43d093634e2912e56e65d8107ef004" item="10.1" slide="4" chapter="10" course="Math 2070" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.1" slide="4" chapter="10" course="Math 2070" md5="1b43d093634e2912e56e65d8107ef004" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="6b7370562a5a82687bc0654c60c2f2c2" of="1b43d093634e2912e56e65d8107ef004" slide="4" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="1b43d093634e2912e56e65d8107ef004">
-      <branch of="1b43d093634e2912e56e65d8107ef004" slide="4" chapter="10" course="Math 2070" md5="6b7370562a5a82687bc0654c60c2f2c2" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="1b43d093634e2912e56e65d8107ef004"/>
-    </entry>
-    <entry md5="b66381493e8a061cd9050a22e61d080a" item="10.2" slide="5" chapter="10" course="Math 2070" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.2" slide="5" chapter="10" course="Math 2070" md5="b66381493e8a061cd9050a22e61d080a" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="e69870d50b54ab77748ce22dbe251e0d" of="b66381493e8a061cd9050a22e61d080a" slide="5" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="b66381493e8a061cd9050a22e61d080a">
-      <branch of="b66381493e8a061cd9050a22e61d080a" slide="5" chapter="10" course="Math 2070" md5="e69870d50b54ab77748ce22dbe251e0d" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="b66381493e8a061cd9050a22e61d080a"/>
-    </entry>
-    <entry md5="54f9cd4469c14cab94b88043c76a0da1" item="10.3" slide="6" chapter="10" course="Math 2070" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.3" slide="6" chapter="10" course="Math 2070" md5="54f9cd4469c14cab94b88043c76a0da1" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="cbcc6c4aa6c59ea640e8408f178a2b39" item="10.4" slide="7" chapter="10" course="Math 2070" num="4" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.4" slide="7" chapter="10" course="Math 2070" md5="cbcc6c4aa6c59ea640e8408f178a2b39" num="4" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-        <label item="10.4" slide="7" chapter="10" course="Math 2070" md5="cbcc6c4aa6c59ea640e8408f178a2b39" num="4" wbtag="label" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" name="claim:onetooneker"/>
-      </branch>
-    </entry>
-    <entry md5="fb467bda7c59ff2b1a37e19d08c2ed15" of="cbcc6c4aa6c59ea640e8408f178a2b39" slide="7" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="cbcc6c4aa6c59ea640e8408f178a2b39">
-      <branch of="cbcc6c4aa6c59ea640e8408f178a2b39" slide="7" chapter="10" course="Math 2070" md5="fb467bda7c59ff2b1a37e19d08c2ed15" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="cbcc6c4aa6c59ea640e8408f178a2b39"/>
-    </entry>
-    <entry md5="f29e3b23792ff505e360c6318c541e75" item="10.5" slide="8" chapter="10" course="Math 2070" num="5" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.5" slide="8" chapter="10" course="Math 2070" md5="f29e3b23792ff505e360c6318c541e75" num="5" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="709d743f618d8109acb9ff99e66a365c" item="10.6" slide="9" chapter="10" course="Math 2070" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.6" slide="9" chapter="10" course="Math 2070" md5="709d743f618d8109acb9ff99e66a365c" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="59107f73004d4ded0f0c7339c4f11320" item="10.7" slide="9" chapter="10" course="Math 2070" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.7" slide="9" chapter="10" course="Math 2070" md5="59107f73004d4ded0f0c7339c4f11320" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="9ac8ebe3875b6fb30aa0bf6b319c1d9e" item="10.8" slide="10" chapter="10" course="Math 2070" num="8" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.8" slide="10" chapter="10" course="Math 2070" md5="9ac8ebe3875b6fb30aa0bf6b319c1d9e" num="8" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="ce81022bcaed7a2e18c3efdcc5744cba" of="9ac8ebe3875b6fb30aa0bf6b319c1d9e" slide="10" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="9ac8ebe3875b6fb30aa0bf6b319c1d9e">
-      <branch of="9ac8ebe3875b6fb30aa0bf6b319c1d9e" slide="10" chapter="10" course="Math 2070" md5="ce81022bcaed7a2e18c3efdcc5744cba" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="9ac8ebe3875b6fb30aa0bf6b319c1d9e"/>
-    </entry>
-    <entry md5="f6d45000345868000b92827305467cab" item="10.9" slide="11" chapter="10" course="Math 2070" num="9" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.9" slide="11" chapter="10" course="Math 2070" md5="f6d45000345868000b92827305467cab" num="9" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="6a55595991263502c93cc2256df67d87" of="f6d45000345868000b92827305467cab" slide="11" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="f6d45000345868000b92827305467cab">
-      <branch of="f6d45000345868000b92827305467cab" slide="11" chapter="10" course="Math 2070" md5="6a55595991263502c93cc2256df67d87" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="f6d45000345868000b92827305467cab"/>
-    </entry>
-    <entry md5="b5f8630108eb461ddd15d5d076725838" item="10.10" slide="12" chapter="10" course="Math 2070" num="10" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.10" slide="12" chapter="10" course="Math 2070" md5="b5f8630108eb461ddd15d5d076725838" num="10" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="052a4162fca39c51d68e9d88c328319f" of="b5f8630108eb461ddd15d5d076725838" slide="12" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="b5f8630108eb461ddd15d5d076725838">
-      <branch of="b5f8630108eb461ddd15d5d076725838" slide="12" chapter="10" course="Math 2070" md5="052a4162fca39c51d68e9d88c328319f" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="b5f8630108eb461ddd15d5d076725838"/>
-    </entry>
-    <entry md5="e74c3178aa9c569c1a1de49d19a7d455" item="10.11" slide="13" chapter="10" course="Math 2070" num="11" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.11" slide="13" chapter="10" course="Math 2070" md5="e74c3178aa9c569c1a1de49d19a7d455" num="11" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="624300205118c2e9201a66faf5587173" of="e74c3178aa9c569c1a1de49d19a7d455" slide="13" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="e74c3178aa9c569c1a1de49d19a7d455">
-      <branch of="e74c3178aa9c569c1a1de49d19a7d455" slide="13" chapter="10" course="Math 2070" md5="624300205118c2e9201a66faf5587173" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="e74c3178aa9c569c1a1de49d19a7d455"/>
-    </entry>
-    <entry md5="264c632e0d97858d6be04567e3b501c2" item="10.12" slide="13" chapter="10" course="Math 2070" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.12" slide="13" chapter="10" course="Math 2070" md5="264c632e0d97858d6be04567e3b501c2" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="a7b5b629c76180a2f2e9958644f1dde5" item="10.13" slide="15" chapter="10" course="Math 2070" num="13" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.13" slide="15" chapter="10" course="Math 2070" md5="a7b5b629c76180a2f2e9958644f1dde5" num="13" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="6d221f1011813cdadacce02c9588a8e7" of="a7b5b629c76180a2f2e9958644f1dde5" slide="15" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="a7b5b629c76180a2f2e9958644f1dde5">
-      <branch of="a7b5b629c76180a2f2e9958644f1dde5" slide="15" chapter="10" course="Math 2070" md5="6d221f1011813cdadacce02c9588a8e7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="a7b5b629c76180a2f2e9958644f1dde5"/>
-    </entry>
-    <entry md5="2b4012d8c411deb5b3e144c24272188a" item="10.14" slide="16" chapter="10" course="Math 2070" num="14" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.14" slide="16" chapter="10" course="Math 2070" md5="2b4012d8c411deb5b3e144c24272188a" num="14" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="07730df91687f0fb5bfb765f4cca3e69" of="2b4012d8c411deb5b3e144c24272188a" slide="16" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="2b4012d8c411deb5b3e144c24272188a">
-      <branch of="2b4012d8c411deb5b3e144c24272188a" slide="16" chapter="10" course="Math 2070" md5="07730df91687f0fb5bfb765f4cca3e69" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="2b4012d8c411deb5b3e144c24272188a"/>
-    </entry>
-    <entry md5="4ac60ad0846141cae22cdee387ec081b" item="10.15" slide="17" chapter="10" course="Math 2070" num="15" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.15" slide="17" chapter="10" course="Math 2070" md5="4ac60ad0846141cae22cdee387ec081b" num="15" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-        <label item="10.15" slide="17" chapter="10" course="Math 2070" md5="4ac60ad0846141cae22cdee387ec081b" num="15" wbtag="label" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" name="def:pid"/>
-      </branch>
-    </entry>
-    <entry md5="d4992a68e2b3882226b0601e7b9d78c5" item="10.16" slide="17" chapter="10" course="Math 2070" num="16" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.16" slide="17" chapter="10" course="Math 2070" md5="d4992a68e2b3882226b0601e7b9d78c5" num="16" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="b8242f09678f06aa2cf5c8c11e19c9f8" of="d4992a68e2b3882226b0601e7b9d78c5" slide="17" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="d4992a68e2b3882226b0601e7b9d78c5">
-      <branch of="d4992a68e2b3882226b0601e7b9d78c5" slide="17" chapter="10" course="Math 2070" md5="b8242f09678f06aa2cf5c8c11e19c9f8" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="d4992a68e2b3882226b0601e7b9d78c5"/>
-    </entry>
-    <entry md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" item="10.17" slide="18" chapter="10" course="Math 2070" title="Division Theorem for Polynomials with Unit Leading Coefficients" num="17" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.17" slide="18" chapter="10" course="Math 2070" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" title="Division Theorem for Polynomials with Unit Leading Coefficients" num="17" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-        <label item="10.17" slide="18" chapter="10" course="Math 2070" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" title="Division Theorem for Polynomials with Unit Leading Coefficients" num="17" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" name="thm:divalgpoly"/>
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" serial="" slide="18">Division Theorem for Polynomials with Unit Leading Coefficients</title>
-      </branch>
-    </entry>
-    <entry md5="46cba4fb237d16241d49988aed460464" of="4b69f068400a3bb3ab9ad76ed3d6a6e0" slide="18" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="4b69f068400a3bb3ab9ad76ed3d6a6e0">
-      <branch of="4b69f068400a3bb3ab9ad76ed3d6a6e0" slide="18" chapter="10" course="Math 2070" md5="46cba4fb237d16241d49988aed460464" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="4b69f068400a3bb3ab9ad76ed3d6a6e0"/>
-    </entry>
-    <entry md5="cb147fcfae2b64a2477e6cd9c7fb2126" item="10.18" slide="19" chapter="10" course="Math 2070" num="18" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.18" slide="19" chapter="10" course="Math 2070" md5="cb147fcfae2b64a2477e6cd9c7fb2126" num="18" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-        <label item="10.18" slide="19" chapter="10" course="Math 2070" md5="cb147fcfae2b64a2477e6cd9c7fb2126" num="18" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" name="thm:pidpoly"/>
-      </branch>
-    </entry>
-    <entry md5="19c29c16368d2f0619952c1519b4a600" of="cb147fcfae2b64a2477e6cd9c7fb2126" slide="19" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="cb147fcfae2b64a2477e6cd9c7fb2126">
-      <branch of="cb147fcfae2b64a2477e6cd9c7fb2126" slide="19" chapter="10" course="Math 2070" md5="19c29c16368d2f0619952c1519b4a600" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="cb147fcfae2b64a2477e6cd9c7fb2126"/>
-    </entry>
-    <entry md5="963e2cc1e3a2e478611a672d21ac6c47" item="10.19" slide="20" chapter="10" course="Math 2070" num="19" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.19" slide="20" chapter="10" course="Math 2070" md5="963e2cc1e3a2e478611a672d21ac6c47" num="19" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="0771d5f86bf61c0125b5841ae455cab9" of="963e2cc1e3a2e478611a672d21ac6c47" slide="20" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="963e2cc1e3a2e478611a672d21ac6c47">
-      <branch of="963e2cc1e3a2e478611a672d21ac6c47" slide="20" chapter="10" course="Math 2070" md5="0771d5f86bf61c0125b5841ae455cab9" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="963e2cc1e3a2e478611a672d21ac6c47"/>
-    </entry>
-    <entry md5="acf88bc4556b717fbb31ace5cebe6fc5" item="10.20" slide="22" chapter="10" course="Math 2070" num="20" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.20" slide="22" chapter="10" course="Math 2070" md5="acf88bc4556b717fbb31ace5cebe6fc5" num="20" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="6b4ebc05e8cb268a358520e6283a75e3" of="acf88bc4556b717fbb31ace5cebe6fc5" slide="22" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="acf88bc4556b717fbb31ace5cebe6fc5">
-      <branch of="acf88bc4556b717fbb31ace5cebe6fc5" slide="22" chapter="10" course="Math 2070" md5="6b4ebc05e8cb268a358520e6283a75e3" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="acf88bc4556b717fbb31ace5cebe6fc5"/>
-    </entry>
-    <entry md5="e8b7ffa34c4842301996d7a0e5a08f33" item="10.21" slide="22" chapter="10" course="Math 2070" num="21" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.21" slide="22" chapter="10" course="Math 2070" md5="e8b7ffa34c4842301996d7a0e5a08f33" num="21" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" item="10.22" slide="23" chapter="10" course="Math 2070" num="22" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.22" slide="23" chapter="10" course="Math 2070" md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" num="22" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="73dd8b75e9c74bead432dbb5a0f2704b" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4" slide="23" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="6d9ce9127a830cd0b5fcfcfa1e90e7a4">
-      <branch of="6d9ce9127a830cd0b5fcfcfa1e90e7a4" slide="23" chapter="10" course="Math 2070" md5="73dd8b75e9c74bead432dbb5a0f2704b" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="6d9ce9127a830cd0b5fcfcfa1e90e7a4"/>
-    </entry>
-    <entry md5="993c7ad44dad2b06493e1b9ba465adbb" item="10.23" slide="24" chapter="10" course="Math 2070" num="23" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.23" slide="24" chapter="10" course="Math 2070" md5="993c7ad44dad2b06493e1b9ba465adbb" num="23" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
-    <entry md5="1486f5b52a8fff9f86fe19ee7f4439ad" item="10.24" slide="25" chapter="10" course="Math 2070" title="First Isomorphism Theorem" num="24" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.24" slide="25" chapter="10" course="Math 2070" md5="1486f5b52a8fff9f86fe19ee7f4439ad" title="First Isomorphism Theorem" num="24" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" serial="" slide="25">First Isomorphism Theorem</title>
-      </branch>
-    </entry>
-    <entry md5="6bece8d10a388a622fd14a7c2f2dde17" of="1486f5b52a8fff9f86fe19ee7f4439ad" slide="25" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="1486f5b52a8fff9f86fe19ee7f4439ad">
-      <branch of="1486f5b52a8fff9f86fe19ee7f4439ad" slide="25" chapter="10" course="Math 2070" md5="6bece8d10a388a622fd14a7c2f2dde17" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f" ofmd5="1486f5b52a8fff9f86fe19ee7f4439ad"/>
-    </entry>
-    <entry md5="921b526634907f81c0eaafc434d6b91e" item="10.25" slide="26" chapter="10" course="Math 2070" num="25" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <branch item="10.25" slide="26" chapter="10" course="Math 2070" md5="921b526634907f81c0eaafc434d6b91e" num="25" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f"/>
-    </entry>
     <entry md5="4f706ef40c63abeca5dda6b8259a25fa" item="11.1" slide="3" chapter="11" course="Math 2070" num="1" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <branch item="11.1" slide="3" chapter="11" course="Math 2070" md5="4f706ef40c63abeca5dda6b8259a25fa" num="1" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93"/>
     </entry>
@@ -1323,7 +1189,7 @@
     <entry md5="a780d473975decbb35a820a29e106575" item="11.4" slide="5" chapter="11" course="Math 2070" num="4" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <branch item="11.4" slide="5" chapter="11" course="Math 2070" md5="a780d473975decbb35a820a29e106575" num="4" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93"/>
     </entry>
-    <entry md5="064e5b43d04f32f770220d6b3d3c85dd" of="a780d473975decbb35a820a29e106575" slide="5" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="064e5b43d04f32f770220d6b3d3c85dd" of="a780d473975decbb35a820a29e106575" slide="5" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="a780d473975decbb35a820a29e106575">
       <branch of="a780d473975decbb35a820a29e106575" slide="5" chapter="11" course="Math 2070" md5="064e5b43d04f32f770220d6b3d3c85dd" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="a780d473975decbb35a820a29e106575"/>
     </entry>
     <entry md5="66c81ec28bd2b6aec46624dff4b88876" item="11.5" slide="6" chapter="11" course="Math 2070" num="5" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
@@ -1332,7 +1198,7 @@
     <entry md5="1ef11bc2089db36061346b99b0a9d3bb" item="11.6" slide="7" chapter="11" course="Math 2070" num="6" wbtag="lemma" type="Lemma" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <branch item="11.6" slide="7" chapter="11" course="Math 2070" md5="1ef11bc2089db36061346b99b0a9d3bb" num="6" wbtag="lemma" type="Lemma" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93"/>
     </entry>
-    <entry md5="d4fefef67ca36c1b73f8486737314f52" of="1ef11bc2089db36061346b99b0a9d3bb" slide="7" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="d4fefef67ca36c1b73f8486737314f52" of="1ef11bc2089db36061346b99b0a9d3bb" slide="7" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="1ef11bc2089db36061346b99b0a9d3bb">
       <branch of="1ef11bc2089db36061346b99b0a9d3bb" slide="7" chapter="11" course="Math 2070" md5="d4fefef67ca36c1b73f8486737314f52" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="1ef11bc2089db36061346b99b0a9d3bb"/>
     </entry>
     <entry md5="fdf08d122e7c9eda7dbc19a6f9f37275" item="11.7" slide="8" chapter="11" course="Math 2070" title="Root Theorem" num="7" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
@@ -1340,19 +1206,19 @@
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="8">Root Theorem</title>
       </branch>
     </entry>
-    <entry md5="41aab7991acc83fe5a359af00a081453" of="fdf08d122e7c9eda7dbc19a6f9f37275" slide="8" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="41aab7991acc83fe5a359af00a081453" of="fdf08d122e7c9eda7dbc19a6f9f37275" slide="8" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="fdf08d122e7c9eda7dbc19a6f9f37275">
       <branch of="fdf08d122e7c9eda7dbc19a6f9f37275" slide="8" chapter="11" course="Math 2070" md5="41aab7991acc83fe5a359af00a081453" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="fdf08d122e7c9eda7dbc19a6f9f37275"/>
     </entry>
     <entry md5="e23028af93c01e05926ac441bbd1d3c0" item="11.8" slide="9" chapter="11" course="Math 2070" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <branch item="11.8" slide="9" chapter="11" course="Math 2070" md5="e23028af93c01e05926ac441bbd1d3c0" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93"/>
     </entry>
-    <entry md5="91354d7bad7202aa43076fd43a5722eb" of="e23028af93c01e05926ac441bbd1d3c0" slide="9" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="91354d7bad7202aa43076fd43a5722eb" of="e23028af93c01e05926ac441bbd1d3c0" slide="9" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="e23028af93c01e05926ac441bbd1d3c0">
       <branch of="e23028af93c01e05926ac441bbd1d3c0" slide="9" chapter="11" course="Math 2070" md5="91354d7bad7202aa43076fd43a5722eb" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="e23028af93c01e05926ac441bbd1d3c0"/>
     </entry>
     <entry md5="fc0feeb467c57eba5f0ef92387037542" item="11.9" slide="10" chapter="11" course="Math 2070" num="9" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <branch item="11.9" slide="10" chapter="11" course="Math 2070" md5="fc0feeb467c57eba5f0ef92387037542" num="9" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93"/>
     </entry>
-    <entry md5="5fc701a328ed32889bcee40859e2fef4" of="fc0feeb467c57eba5f0ef92387037542" slide="10" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="5fc701a328ed32889bcee40859e2fef4" of="fc0feeb467c57eba5f0ef92387037542" slide="10" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="fc0feeb467c57eba5f0ef92387037542">
       <branch of="fc0feeb467c57eba5f0ef92387037542" slide="10" chapter="11" course="Math 2070" md5="5fc701a328ed32889bcee40859e2fef4" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="fc0feeb467c57eba5f0ef92387037542"/>
     </entry>
     <entry md5="26ca35322b8375da145d52b1bdbeb373" item="11.10" slide="11" chapter="11" course="Math 2070" num="10" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
@@ -1363,7 +1229,7 @@
         <label item="11.11" slide="12" chapter="11" course="Math 2070" md5="954c0637ea39d29081b585eb905c1ed0" num="11" wbtag="label" type="Corollary" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" name="bezoutsforpolynomials"/>
       </branch>
     </entry>
-    <entry md5="004062c7e7c889f00bd520c9fb77cc14" of="954c0637ea39d29081b585eb905c1ed0" slide="12" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="004062c7e7c889f00bd520c9fb77cc14" of="954c0637ea39d29081b585eb905c1ed0" slide="12" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="954c0637ea39d29081b585eb905c1ed0">
       <branch of="954c0637ea39d29081b585eb905c1ed0" slide="12" chapter="11" course="Math 2070" md5="004062c7e7c889f00bd520c9fb77cc14" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="954c0637ea39d29081b585eb905c1ed0"/>
     </entry>
     <entry md5="cbc97b55e3eb1db7609e0ab02ba83049" item="11.12" slide="13" chapter="11" course="Math 2070" num="12" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
@@ -1378,7 +1244,7 @@
     <entry md5="8fb5602ba1db0cf60e376b4e99d0b3d6" item="11.15" slide="15" chapter="11" course="Math 2070" num="15" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <branch item="11.15" slide="15" chapter="11" course="Math 2070" md5="8fb5602ba1db0cf60e376b4e99d0b3d6" num="15" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93"/>
     </entry>
-    <entry md5="95b3d8b404f7193bae35a27fcfde7c03" of="8fb5602ba1db0cf60e376b4e99d0b3d6" slide="15" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="95b3d8b404f7193bae35a27fcfde7c03" of="8fb5602ba1db0cf60e376b4e99d0b3d6" slide="15" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="8fb5602ba1db0cf60e376b4e99d0b3d6">
       <branch of="8fb5602ba1db0cf60e376b4e99d0b3d6" slide="15" chapter="11" course="Math 2070" md5="95b3d8b404f7193bae35a27fcfde7c03" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="8fb5602ba1db0cf60e376b4e99d0b3d6"/>
     </entry>
     <entry md5="c3195296714abca0dd5f5b4bf0cf5302" item="11.16" slide="16" chapter="11" course="Math 2070" title="Euclid's Lemma" num="16" wbtag="lemma" type="Lemma" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
@@ -1386,7 +1252,7 @@
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="16">Euclid's Lemma</title>
       </branch>
     </entry>
-    <entry md5="900f766dd9b015696a4db8b743fc4f40" of="c3195296714abca0dd5f5b4bf0cf5302" slide="16" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="900f766dd9b015696a4db8b743fc4f40" of="c3195296714abca0dd5f5b4bf0cf5302" slide="16" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="c3195296714abca0dd5f5b4bf0cf5302">
       <branch of="c3195296714abca0dd5f5b4bf0cf5302" slide="16" chapter="11" course="Math 2070" md5="900f766dd9b015696a4db8b743fc4f40" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="c3195296714abca0dd5f5b4bf0cf5302"/>
     </entry>
     <entry md5="26cc8b08e04b09ad63af6569d7afc3ef" item="11.17" slide="16" chapter="11" course="Math 2070" num="17" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
@@ -1397,7 +1263,7 @@
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="17">Unique Factorization</title>
       </branch>
     </entry>
-    <entry md5="1567ec707ddf57907aff40da3ffd9ad8" of="92042a9ad2deddf130c4271892172ded" slide="17" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="1567ec707ddf57907aff40da3ffd9ad8" of="92042a9ad2deddf130c4271892172ded" slide="17" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="92042a9ad2deddf130c4271892172ded">
       <branch of="92042a9ad2deddf130c4271892172ded" slide="17" chapter="11" course="Math 2070" md5="1567ec707ddf57907aff40da3ffd9ad8" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="92042a9ad2deddf130c4271892172ded"/>
     </entry>
     <entry md5="b03e893af14e9abfb5b10e2dab6cac75" item="11.20" slide="19" chapter="11" course="Math 2070" num="20" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
@@ -1408,14 +1274,148 @@
     <entry md5="f6d115a9f5b7589c33941b5fe44d18d9" slide="19" chapter="11" course="Math 2070" wbtag="remark" type="Remark" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <branch slide="19" chapter="11" course="Math 2070" md5="f6d115a9f5b7589c33941b5fe44d18d9" wbtag="remark" type="Remark" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93"/>
     </entry>
-    <entry md5="e7663c827574c1016924669d6bba4cf4" of="b03e893af14e9abfb5b10e2dab6cac75" slide="19" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="e7663c827574c1016924669d6bba4cf4" of="b03e893af14e9abfb5b10e2dab6cac75" slide="19" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="b03e893af14e9abfb5b10e2dab6cac75">
       <branch of="b03e893af14e9abfb5b10e2dab6cac75" slide="19" chapter="11" course="Math 2070" md5="e7663c827574c1016924669d6bba4cf4" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="b03e893af14e9abfb5b10e2dab6cac75"/>
     </entry>
     <entry md5="754a27a416ad77ccfae692cc66444325" item="11.21" slide="20" chapter="11" course="Math 2070" num="21" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <branch item="11.21" slide="20" chapter="11" course="Math 2070" md5="754a27a416ad77ccfae692cc66444325" num="21" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93"/>
     </entry>
-    <entry md5="48cfd83638f33cdb0094b47704997990" of="754a27a416ad77ccfae692cc66444325" slide="20" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
+    <entry md5="48cfd83638f33cdb0094b47704997990" of="754a27a416ad77ccfae692cc66444325" slide="20" chapter="11" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="754a27a416ad77ccfae692cc66444325">
       <branch of="754a27a416ad77ccfae692cc66444325" slide="20" chapter="11" course="Math 2070" md5="48cfd83638f33cdb0094b47704997990" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93" ofmd5="754a27a416ad77ccfae692cc66444325"/>
+    </entry>
+    <entry md5="1b43d093634e2912e56e65d8107ef004" item="10.1" slide="4" chapter="10" course="Math 2070" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.1" slide="4" chapter="10" course="Math 2070" md5="1b43d093634e2912e56e65d8107ef004" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="6b7370562a5a82687bc0654c60c2f2c2" of="1b43d093634e2912e56e65d8107ef004" slide="4" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="1b43d093634e2912e56e65d8107ef004" slide="4" chapter="10" course="Math 2070" md5="6b7370562a5a82687bc0654c60c2f2c2" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="1b43d093634e2912e56e65d8107ef004"/>
+    </entry>
+    <entry md5="b66381493e8a061cd9050a22e61d080a" item="10.2" slide="5" chapter="10" course="Math 2070" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.2" slide="5" chapter="10" course="Math 2070" md5="b66381493e8a061cd9050a22e61d080a" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="e69870d50b54ab77748ce22dbe251e0d" of="b66381493e8a061cd9050a22e61d080a" slide="5" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="b66381493e8a061cd9050a22e61d080a" slide="5" chapter="10" course="Math 2070" md5="e69870d50b54ab77748ce22dbe251e0d" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="b66381493e8a061cd9050a22e61d080a"/>
+    </entry>
+    <entry md5="54f9cd4469c14cab94b88043c76a0da1" item="10.3" slide="6" chapter="10" course="Math 2070" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.3" slide="6" chapter="10" course="Math 2070" md5="54f9cd4469c14cab94b88043c76a0da1" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="cbcc6c4aa6c59ea640e8408f178a2b39" item="10.4" slide="7" chapter="10" course="Math 2070" num="4" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.4" slide="7" chapter="10" course="Math 2070" md5="cbcc6c4aa6c59ea640e8408f178a2b39" num="4" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+        <label item="10.4" slide="7" chapter="10" course="Math 2070" md5="cbcc6c4aa6c59ea640e8408f178a2b39" num="4" wbtag="label" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" name="claim:onetooneker"/>
+      </branch>
+    </entry>
+    <entry md5="fb467bda7c59ff2b1a37e19d08c2ed15" of="cbcc6c4aa6c59ea640e8408f178a2b39" slide="7" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="cbcc6c4aa6c59ea640e8408f178a2b39" slide="7" chapter="10" course="Math 2070" md5="fb467bda7c59ff2b1a37e19d08c2ed15" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="cbcc6c4aa6c59ea640e8408f178a2b39"/>
+    </entry>
+    <entry md5="f29e3b23792ff505e360c6318c541e75" item="10.5" slide="8" chapter="10" course="Math 2070" num="5" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.5" slide="8" chapter="10" course="Math 2070" md5="f29e3b23792ff505e360c6318c541e75" num="5" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="709d743f618d8109acb9ff99e66a365c" item="10.6" slide="9" chapter="10" course="Math 2070" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.6" slide="9" chapter="10" course="Math 2070" md5="709d743f618d8109acb9ff99e66a365c" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="59107f73004d4ded0f0c7339c4f11320" item="10.7" slide="9" chapter="10" course="Math 2070" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.7" slide="9" chapter="10" course="Math 2070" md5="59107f73004d4ded0f0c7339c4f11320" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="9ac8ebe3875b6fb30aa0bf6b319c1d9e" item="10.8" slide="10" chapter="10" course="Math 2070" num="8" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.8" slide="10" chapter="10" course="Math 2070" md5="9ac8ebe3875b6fb30aa0bf6b319c1d9e" num="8" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="ce81022bcaed7a2e18c3efdcc5744cba" of="9ac8ebe3875b6fb30aa0bf6b319c1d9e" slide="10" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="9ac8ebe3875b6fb30aa0bf6b319c1d9e" slide="10" chapter="10" course="Math 2070" md5="ce81022bcaed7a2e18c3efdcc5744cba" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="9ac8ebe3875b6fb30aa0bf6b319c1d9e"/>
+    </entry>
+    <entry md5="f6d45000345868000b92827305467cab" item="10.9" slide="11" chapter="10" course="Math 2070" num="9" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.9" slide="11" chapter="10" course="Math 2070" md5="f6d45000345868000b92827305467cab" num="9" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="6a55595991263502c93cc2256df67d87" of="f6d45000345868000b92827305467cab" slide="11" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="f6d45000345868000b92827305467cab" slide="11" chapter="10" course="Math 2070" md5="6a55595991263502c93cc2256df67d87" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="f6d45000345868000b92827305467cab"/>
+    </entry>
+    <entry md5="b5f8630108eb461ddd15d5d076725838" item="10.10" slide="12" chapter="10" course="Math 2070" num="10" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.10" slide="12" chapter="10" course="Math 2070" md5="b5f8630108eb461ddd15d5d076725838" num="10" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="052a4162fca39c51d68e9d88c328319f" of="b5f8630108eb461ddd15d5d076725838" slide="12" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="b5f8630108eb461ddd15d5d076725838" slide="12" chapter="10" course="Math 2070" md5="052a4162fca39c51d68e9d88c328319f" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="b5f8630108eb461ddd15d5d076725838"/>
+    </entry>
+    <entry md5="e74c3178aa9c569c1a1de49d19a7d455" item="10.11" slide="13" chapter="10" course="Math 2070" num="11" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.11" slide="13" chapter="10" course="Math 2070" md5="e74c3178aa9c569c1a1de49d19a7d455" num="11" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="624300205118c2e9201a66faf5587173" of="e74c3178aa9c569c1a1de49d19a7d455" slide="13" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="e74c3178aa9c569c1a1de49d19a7d455" slide="13" chapter="10" course="Math 2070" md5="624300205118c2e9201a66faf5587173" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="e74c3178aa9c569c1a1de49d19a7d455"/>
+    </entry>
+    <entry md5="264c632e0d97858d6be04567e3b501c2" item="10.12" slide="13" chapter="10" course="Math 2070" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.12" slide="13" chapter="10" course="Math 2070" md5="264c632e0d97858d6be04567e3b501c2" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="a7b5b629c76180a2f2e9958644f1dde5" item="10.13" slide="15" chapter="10" course="Math 2070" num="13" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.13" slide="15" chapter="10" course="Math 2070" md5="a7b5b629c76180a2f2e9958644f1dde5" num="13" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="6d221f1011813cdadacce02c9588a8e7" of="a7b5b629c76180a2f2e9958644f1dde5" slide="15" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="a7b5b629c76180a2f2e9958644f1dde5" slide="15" chapter="10" course="Math 2070" md5="6d221f1011813cdadacce02c9588a8e7" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="a7b5b629c76180a2f2e9958644f1dde5"/>
+    </entry>
+    <entry md5="2b4012d8c411deb5b3e144c24272188a" item="10.14" slide="16" chapter="10" course="Math 2070" num="14" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.14" slide="16" chapter="10" course="Math 2070" md5="2b4012d8c411deb5b3e144c24272188a" num="14" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="07730df91687f0fb5bfb765f4cca3e69" of="2b4012d8c411deb5b3e144c24272188a" slide="16" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="2b4012d8c411deb5b3e144c24272188a" slide="16" chapter="10" course="Math 2070" md5="07730df91687f0fb5bfb765f4cca3e69" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="2b4012d8c411deb5b3e144c24272188a"/>
+    </entry>
+    <entry md5="4ac60ad0846141cae22cdee387ec081b" item="10.15" slide="17" chapter="10" course="Math 2070" num="15" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.15" slide="17" chapter="10" course="Math 2070" md5="4ac60ad0846141cae22cdee387ec081b" num="15" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+        <label item="10.15" slide="17" chapter="10" course="Math 2070" md5="4ac60ad0846141cae22cdee387ec081b" num="15" wbtag="label" type="Definition" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" name="def:pid"/>
+      </branch>
+    </entry>
+    <entry md5="d4992a68e2b3882226b0601e7b9d78c5" item="10.16" slide="17" chapter="10" course="Math 2070" num="16" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.16" slide="17" chapter="10" course="Math 2070" md5="d4992a68e2b3882226b0601e7b9d78c5" num="16" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="b8242f09678f06aa2cf5c8c11e19c9f8" of="d4992a68e2b3882226b0601e7b9d78c5" slide="17" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="d4992a68e2b3882226b0601e7b9d78c5" slide="17" chapter="10" course="Math 2070" md5="b8242f09678f06aa2cf5c8c11e19c9f8" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="d4992a68e2b3882226b0601e7b9d78c5"/>
+    </entry>
+    <entry md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" item="10.17" slide="18" chapter="10" course="Math 2070" title="Division Theorem for Polynomials with Unit Leading Coefficients" num="17" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.17" slide="18" chapter="10" course="Math 2070" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" title="Division Theorem for Polynomials with Unit Leading Coefficients" num="17" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+        <label item="10.17" slide="18" chapter="10" course="Math 2070" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" title="Division Theorem for Polynomials with Unit Leading Coefficients" num="17" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" name="thm:divalgpoly"/>
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" serial="" slide="18">Division Theorem for Polynomials with Unit Leading Coefficients</title>
+      </branch>
+    </entry>
+    <entry md5="46cba4fb237d16241d49988aed460464" of="4b69f068400a3bb3ab9ad76ed3d6a6e0" slide="18" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="4b69f068400a3bb3ab9ad76ed3d6a6e0" slide="18" chapter="10" course="Math 2070" md5="46cba4fb237d16241d49988aed460464" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="4b69f068400a3bb3ab9ad76ed3d6a6e0"/>
+    </entry>
+    <entry md5="cb147fcfae2b64a2477e6cd9c7fb2126" item="10.18" slide="19" chapter="10" course="Math 2070" num="18" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.18" slide="19" chapter="10" course="Math 2070" md5="cb147fcfae2b64a2477e6cd9c7fb2126" num="18" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+        <label item="10.18" slide="19" chapter="10" course="Math 2070" md5="cb147fcfae2b64a2477e6cd9c7fb2126" num="18" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" name="thm:pidpoly"/>
+      </branch>
+    </entry>
+    <entry md5="19c29c16368d2f0619952c1519b4a600" of="cb147fcfae2b64a2477e6cd9c7fb2126" slide="19" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="cb147fcfae2b64a2477e6cd9c7fb2126" slide="19" chapter="10" course="Math 2070" md5="19c29c16368d2f0619952c1519b4a600" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="cb147fcfae2b64a2477e6cd9c7fb2126"/>
+    </entry>
+    <entry md5="963e2cc1e3a2e478611a672d21ac6c47" item="10.19" slide="20" chapter="10" course="Math 2070" num="19" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.19" slide="20" chapter="10" course="Math 2070" md5="963e2cc1e3a2e478611a672d21ac6c47" num="19" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="0771d5f86bf61c0125b5841ae455cab9" of="963e2cc1e3a2e478611a672d21ac6c47" slide="20" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="963e2cc1e3a2e478611a672d21ac6c47" slide="20" chapter="10" course="Math 2070" md5="0771d5f86bf61c0125b5841ae455cab9" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="963e2cc1e3a2e478611a672d21ac6c47"/>
+    </entry>
+    <entry md5="acf88bc4556b717fbb31ace5cebe6fc5" item="10.20" slide="22" chapter="10" course="Math 2070" num="20" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.20" slide="22" chapter="10" course="Math 2070" md5="acf88bc4556b717fbb31ace5cebe6fc5" num="20" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="6b4ebc05e8cb268a358520e6283a75e3" of="acf88bc4556b717fbb31ace5cebe6fc5" slide="22" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="acf88bc4556b717fbb31ace5cebe6fc5" slide="22" chapter="10" course="Math 2070" md5="6b4ebc05e8cb268a358520e6283a75e3" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="acf88bc4556b717fbb31ace5cebe6fc5"/>
+    </entry>
+    <entry md5="e8b7ffa34c4842301996d7a0e5a08f33" item="10.21" slide="22" chapter="10" course="Math 2070" num="21" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.21" slide="22" chapter="10" course="Math 2070" md5="e8b7ffa34c4842301996d7a0e5a08f33" num="21" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" item="10.22" slide="23" chapter="10" course="Math 2070" num="22" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.22" slide="23" chapter="10" course="Math 2070" md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" num="22" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="73dd8b75e9c74bead432dbb5a0f2704b" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4" slide="23" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="6d9ce9127a830cd0b5fcfcfa1e90e7a4" slide="23" chapter="10" course="Math 2070" md5="73dd8b75e9c74bead432dbb5a0f2704b" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="6d9ce9127a830cd0b5fcfcfa1e90e7a4"/>
+    </entry>
+    <entry md5="993c7ad44dad2b06493e1b9ba465adbb" item="10.23" slide="24" chapter="10" course="Math 2070" num="23" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.23" slide="24" chapter="10" course="Math 2070" md5="993c7ad44dad2b06493e1b9ba465adbb" num="23" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
+    </entry>
+    <entry md5="1486f5b52a8fff9f86fe19ee7f4439ad" item="10.24" slide="25" chapter="10" course="Math 2070" title="First Isomorphism Theorem" num="24" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.24" slide="25" chapter="10" course="Math 2070" md5="1486f5b52a8fff9f86fe19ee7f4439ad" title="First Isomorphism Theorem" num="24" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" serial="" slide="25">First Isomorphism Theorem</title>
+      </branch>
+    </entry>
+    <entry md5="6bece8d10a388a622fd14a7c2f2dde17" of="1486f5b52a8fff9f86fe19ee7f4439ad" slide="25" chapter="10" course="Math 2070" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch of="1486f5b52a8fff9f86fe19ee7f4439ad" slide="25" chapter="10" course="Math 2070" md5="6bece8d10a388a622fd14a7c2f2dde17" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903" ofmd5="1486f5b52a8fff9f86fe19ee7f4439ad"/>
+    </entry>
+    <entry md5="921b526634907f81c0eaafc434d6b91e" item="10.25" slide="26" chapter="10" course="Math 2070" num="25" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <branch item="10.25" slide="26" chapter="10" course="Math 2070" md5="921b526634907f81c0eaafc434d6b91e" num="25" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903"/>
     </entry>
     <ref serial="" class="lcref" md5="ad58fb7dd7baadc4df44a7450c55af00" src-filename="week4.xml" item="4.15" type="Example" src-slide="14" src-chapter="4" src-course="Math 2070" slide="3" chapter="5" course="Math 2070" wbtag="ref" label="eg:cycliczn" chapter_type="" environment="newcol" filename="week5.xml" file_md5="8aba43e59f106870f9910503aee21eab">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Example 4.15</title>
@@ -1494,12 +1494,6 @@
     <ref serial="" class="lcref" md5="506a330a556dc38bd7de9fe38a7ecd19" src-filename="week13.xml" item="13.4" type="Theorem" src-slide="4" src-chapter="13" src-course="Math 2070" slide="14" chapter="13" course="Math 2070" wbtag="ref" label="thm:simpleextthm" chapter_type="" environment="newcol" filename="week13.xml" file_md5="a5d1a4ddd63a9f2be2d6368abe3118be">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Theorem 13.4</title>
     </ref>
-    <ref serial="" class="lcref" md5="cbcc6c4aa6c59ea640e8408f178a2b39" src-filename="week10.xml" item="10.4" type="Claim" src-slide="7" src-chapter="10" src-course="Math 2070" slide="23" chapter="10" course="Math 2070" wbtag="ref" label="claim:onetooneker" chapter_type="" environment="newcol" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Claim 10.4</title>
-    </ref>
-    <ref serial="" class="lcref" md5="cbcc6c4aa6c59ea640e8408f178a2b39" src-filename="week10.xml" item="10.4" type="Claim" src-slide="7" src-chapter="10" src-course="Math 2070" slide="25" chapter="10" course="Math 2070" wbtag="ref" label="claim:onetooneker" chapter_type="" environment="newcol" filename="week10.xml" file_md5="62d153c469ea51ad19b59f7e44b8540f">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Claim 10.4</title>
-    </ref>
     <ref serial="" class="lcref" md5="3bca8a74c04e7763a3607fb2fcaadc80" src-filename="week9.xml" item="9.5" type="Example" src-slide="7" src-chapter="9" src-course="Math 2070" slide="6" chapter="11" course="Math 2070" wbtag="ref" label="eg:evalhomom" chapter_type="" environment="" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Example 9.5</title>
     </ref>
@@ -1526,6 +1520,12 @@
     </ref>
     <ref serial="" class="lcref" md5="4ac60ad0846141cae22cdee387ec081b" src-filename="week10.xml" item="10.15" type="Definition" src-slide="17" src-chapter="10" src-course="Math 2070" slide="20" chapter="11" course="Math 2070" wbtag="ref" label="def:pid" chapter_type="" environment="newcol" filename="week11.xml" file_md5="cc41611afcc5ccc4d5520f1b821c8c93">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Definition 10.15</title>
+    </ref>
+    <ref serial="" class="lcref" md5="cbcc6c4aa6c59ea640e8408f178a2b39" src-filename="week10.xml" item="10.4" type="Claim" src-slide="7" src-chapter="10" src-course="Math 2070" slide="23" chapter="10" course="Math 2070" wbtag="ref" label="claim:onetooneker" chapter_type="" environment="newcol" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Claim 10.4</title>
+    </ref>
+    <ref serial="" class="lcref" md5="cbcc6c4aa6c59ea640e8408f178a2b39" src-filename="week10.xml" item="10.4" type="Claim" src-slide="7" src-chapter="10" src-course="Math 2070" slide="25" chapter="10" course="Math 2070" wbtag="ref" label="claim:onetooneker" chapter_type="" environment="newcol" filename="week10.xml" file_md5="a40daf4192e0bba4086bc6c52a738903">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Claim 10.4</title>
     </ref>
   </index>
 </document>

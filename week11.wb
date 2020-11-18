@@ -560,7 +560,7 @@ Hence, $\phi$ is surjective.
 
 @col
 We now find $\ker \phi$.
-Since $\mathbb{R}[x]$ is a PID (see @ref{def:pid} ).  There exists $p \in \mathbb{R}[x]$
+Since $\mathbb{R}[x]$ is a PID (see @ref{def:pid}).  There exists $p \in \mathbb{R}[x]$
 such that $\ker \phi = (p)$.
 
 @col

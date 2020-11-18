@@ -798,7 +798,7 @@ Since $\mathbb{R}[x]$ is a PID (see </paragraphs>
                     <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2070" chapter="11" slide="20" src-course="Math 2070" src-chapter="10" src-slide="17" type="Definition" item="10.15" src-filename="week10.xml" md5="4ac60ad0846141cae22cdee387ec081b" class="lcref" serial="">
                       <title>Definition 10.15</title>
                     </ref>
-                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ).  There exists $p \in \mathbb{R}[x]$
+                    <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">).  There exists $p \in \mathbb{R}[x]$
 such that $\ker \phi = (p)$.</paragraphs>
                     <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                     <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">

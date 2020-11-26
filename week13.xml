@@ -548,9 +548,6 @@ splits into linear factors in $K[x]$.</paragraphs>
               <item course="Math 2070" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                 <webwork course="Math 2070" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields6.pg"/>
               </item>
-              <item course="Math 2070" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <webwork course="Math 2070" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields7.pg"/>
-              </item>
             </enumerate>
             <comment course="Math 2070" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="">@thm
 If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,

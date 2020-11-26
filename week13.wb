@@ -362,8 +362,6 @@ Hence, $f$ is a product of linear factors in $K[x]$.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields5.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields6.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields7.pg}
 @endenumerate
 <!--@thm
 If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,

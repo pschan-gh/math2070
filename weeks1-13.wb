@@ -2,17 +2,16 @@
 @week{1}
 @topic{Groups}
 @section{Overview}
-<hr/>
+<hr style=""/>
 @itemize
 @item
-<h5>Groups</h5>
+<h5 style="">Groups</h5>
 @ul
 @li
-How many ways are there to color a cube, such that each face is either red or green?
+How many ways are there to color a cube, such that each face is either black or white?
 
 @newcol
-<strong>Answer:</strong>
-10. Why?
+<strong style="">Answer:</strong> 10. Why?
 
 @endcol
 @li
@@ -24,14 +23,12 @@ What are the symmetries of an equilateral triangle?
 
 @newcol
 @keyword{Dihedral Group $D_3$}
-<br/>
-<br/>
-<a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg">
-<img alt="Labeled Triangle Reflections.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" class="lazy" style="display: none;"/></a>
+<br/><br/><a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" style="">
+<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" width="450"/></a>
 @endcol
 @endul
 @item
-<h5>Rings</h5>
+<h5 style="">Rings</h5>
 @ul
 @li
 Euclidean Algorithm.
@@ -42,43 +39,36 @@ Partial Fraction Decomposition.
 @li
 Algebraic Extension of Fields.
 @endul
+@enditemize
 @section{Groups}
 @defn
-A group $G$ is a set equipped with a binary operation $*: G \times G \ra G$ (typically called @keyword{group operation} or "@keyword{multiplication}"), such that:
+A group $G$ is a set equipped with a binary operation $*: G \times G \longrightarrow G$ (typically called @keyword{group operation} or "@keyword{multiplication}"), such that:
 @ul
 @li
-<u>
+<u style="">
 @keyword{Associativity}</u>
 \[(a* b)* c = a * (b * c),\]
-for all $a, b, c \in G$. In other words, the group operation is
-@keyword{associative}
-.
+for all $a, b, c \in G$. In other words, the group operation is @keyword{associative} .
 @li
-<u>
+<u style="">
 @keyword{Existence of an Identity Element}</u>
 
-There is an element $e \in G$, called an
-@keyword{identity element}
-, such that:
+There is an element $e \in G$, called an @keyword{identity element} , such that:
 \[g* e = e * g = g,\]
 for all $g \in G$.
 @li
-<u>
+<u style="">
 @keyword{Invertibility}</u>
 
-Each element $g \in G$ has an
-@keyword{inverse}
-$g^{-1} \in G$, such that:
+Each element $g \in G$ has an @keyword{inverse} $g^{-1} \in G$, such that:
 \[g^{-1}* g = g* g^{-1} = e.\]
 @endul
 @end
 @newcol
-<ul>
-<li> Note that we do not require that $a* b = b * a$.
-</li>
+<ul style="">
+<li style=""> Note that we do not require that $a* b = b * a$. </li>
 
-<li> We often write $ab$ to denote $a* b$.
-</li></ul>
+<li style=""> We often write $ab$ to denote $a* b$. </li></ul>
 @endcol
 @slide
 @defn
@@ -94,8 +84,7 @@ The group $G$ is abelian.
 @li
 $G = \mathbb{Q}$, where the group operation is the usual addition $+$ for rational numbers. The identity is $e = 0$.
 The inverse of $a \in \mathbb{Q}$ with respect to $+$ is $-a$.
-Note that $\mathbb{Q}$ is <em>NOT</em>
-a group with respect to multiplication. For in that case, we have $e = 1$, but $0 \in \mathbb{Q}$ has no inverse
+Note that $\mathbb{Q}$ is <em>NOT</em> a group with respect to multiplication. For in that case, we have $e = 1$, but $0 \in \mathbb{Q}$ has no inverse
 $0^{-1} \in \mathbb{Q}$ such that $0\cdot 0^{-1} = 1$.
 @endul
 @end
@@ -132,8 +121,7 @@ where $f * g:= f \circ g$ (i.e. composition of functions).
 <hr/>
 
 @newcol
-<h5>Cayley Table for $D_3$</h5>
-<div class="image">
+<h5>Cayley Table for $D_3$</h5><div class="image">
 <a href="https://en.wikipedia.org/wiki/Dihedral_group" target="_blank">
 <table class="table table-bordered" width="200" style="text-align: center;">
 <tbody>
@@ -173,7 +161,7 @@ The set $G = {\rm GL}(2, \mathbb{R})$
 of real $2 \times 2$ matrices with nonzero determinants is a group
 under matrix multiplication, with identity element:
 
-@col
+@newcol
 \[e = \left(\begin{matrix} 1 & 0\\0& 1\end{matrix}\right).\]
 In the group $G$, we have:
 \[\left(\begin{matrix} a & b \\ c & d\end{matrix}\right)^{-1}
@@ -186,6 +174,7 @@ such that $AB \neq BA$. Hence ${\rm GL}(2, \mathbb{R})$ is not abelian.
 @col
 The group ${\rm GL}(2, \mathbb{R})$ is called a @keyword{General Linear Group}.
 <hr/>
+@endcol
 @end
 @ex
 @newcol
@@ -230,21 +219,17 @@ g^0 &:= e.
 \end{split}\]
 @claim
 @newcol
-Let $G$ be a group.
-<ol>
+Let $G$ be a group. <ol>
 <li> For all $g \in G$,
 we have:
-\[(g^{-1})^{-1} = g.\]
-</li>
+\[(g^{-1})^{-1} = g.\] </li>
 
 <li> For all $a, b \in G$,
 we have:
-\[(ab)^{-1} = b^{-1}a^{-1}.\]
-</li>
+\[(ab)^{-1} = b^{-1}a^{-1}.\] </li>
 
 <li> For all $g \in G$, $n, m \in \mathbb{Z}$, we have:
-\[g^n\cdot g^m = g^{n + m}.\]
-</li></ol>
+\[g^n\cdot g^m = g^{n + m}.\] </li></ol>
 @endcol
 @end
 @proof
@@ -271,8 +256,7 @@ then $\ord g$ divides $n$.
 @newcol
 Shown in class.
 @endcol
-@end
-
+@end@course{Math 2070}
 @week{2}
 @topic{Groups}
 @slide
@@ -466,9 +450,7 @@ We also have:
 Since $\alpha\beta \neq \beta\alpha$, the group $S_3$ is non-abelian.
 
 @col
-In general, for $n > 2$, the group $S_n$ is non-abelian (
-@keyword{Exercise:}
-Why?).
+In general, for $n > 2$, the group $S_n$ is non-abelian ( @keyword{Exercise:} Why?).
 
 @col
 For the same $\alpha \in S_3$ defined above, we have:
@@ -518,25 +500,17 @@ consisting of all rotations by fixed angles about the origin, and all reflection
 @newcol
 Consider a regular polygon $P$ with $n$ sides in $\mathbb{R}^2$, centered at the origin.
 Identify the polygon with its $n$ vertices, which form a subset $P = \{x_1, x_2, \ldots, x_n\}$
-of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say that $P$ is
-@keyword{symmetric}
-with respect to $\tau$.
+of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say that $P$ is @keyword{symmetric} with respect to $\tau$.
 
 @col
 Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
-and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$.
-<br/>
-<br/>
-<div class="image">
+and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$. <br/><br/><div class="image" style="width: 450px;">
 <a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg">
-<img alt="Labeled Triangle Reflections.svg" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" class="lazy" style="display: none;"/></a><center>
+<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" width="450"/></a><center>
 @newcol
-By
-<a href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&action=edit&redlink=1" class="new" title="User:Jim.belk (page does not exist)">Jim.belk</a>
--
-<span class="int-own-work" lang="en" xml:lang="en">Own work</span>
-, Public Domain,
-<a href="https://commons.wikimedia.org/w/index.php?curid=2803388">Link</a>
+By <a href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&action=edit&redlink=1" class="new" title="User:Jim.belk (page does not exist)">Jim.belk</a>
+- <span class="int-own-work" lang="en" xml:lang="en">Own work</span>
+, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2803388">Link</a>
 @endcol</center></div>
 
 @endcol
@@ -548,9 +522,7 @@ with respect to the group operation defined by $\tau*\gamma = \tau\circ\gamma$
 @endcol
 @end@keyword{Terminology:}
 @newcol
-$D_n$ is called a
-@keyword{dihedral group}
-.
+$D_n$ is called a @keyword{dihedral group} .
 @endcol
 
 @section{More on $S_n$}
@@ -579,13 +551,17 @@ Viewing permutations as bijective maps,
 the "multiplication" $(15)(246)$ is by definition the composition $(15)\circ(246)$.
 
 @col
-We call $(n_1n_2\cdots n_k)$ a
-@keyword{$k$-cycle}
-.
+We call $(n_1n_2\cdots n_k)$ a @keyword{$k$-cycle} .
 Note that $3$ is missing from $(15)(246)$.
 This corresponds to the fact that $3$ is fixed by $\sigma$.
 
 @endcol
+
+@ex
+@newcol
+In $S_n$, for any positive integer $k \leq n$, every $k$-cycle has order $k$.
+@endcol
+@end
 @slide
 
 @claim
@@ -652,8 +628,7 @@ the number of factors is either always even or always odd.
 
 @proof
 @newcol
-@keyword{Exercise.}
-One approach: Show that there is a unique $n \times n$ matrix, with either $0$ or $1$ as its coefficients,
+@keyword{Exercise.} One approach: Show that there is a unique $n \times n$ matrix, with either $0$ or $1$ as its coefficients,
 which sends each standard basis vector $\vec{e}_i$ in $\mathbb{R}^n$ to $\vec{e}_{\sigma(i)}$.
 Then, use the fact that the determinant of the matrix corresponding to a transposition is $-1$,
 and that the determinant function of matrices is multiplicative.
@@ -669,13 +644,11 @@ and that the determinant function of matrices is multiplicative.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Permutations/Permutations1.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Permutations/Permutations2.pg}
-<!--
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups6.pg}
--->
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups7.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups8.pg}
-@endenumerate
-
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups7.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups8.pg}
+@endenumerate@course{Math 2070}
 @week{3}
 @topic{$\mathbb{Z}_n$}
 @topic{Subgroups}
@@ -697,8 +670,8 @@ on $\mathbb{Z}_n$ as follows:
 @ex
 @label{ex:cycliczn}
 @newcol
- $\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$
-is a @keyword{cyclic} group, with identity element $0$, and $j^{-1} = n - j$ for any $j \in \mathbb{Z}_n$.
+$\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$
+is a @keyword{cyclic} group, with identity element $0$, and $j^{-1} = n - j$ for any nonzero $j \in \mathbb{Z}_n$.
 @endcol
 @end
 @subsection{WeBWorK}
@@ -730,7 +703,7 @@ is a @keyword{cyclic} group, with identity element $0$, and $j^{-1} = n - j$ for
 @endenumerate
 @section{Subgroups}
 @defn
- Let $G$ be a group.
+Let $G$ be a group.
 A subset $H$ of $G$ is a @keyword{subgroup} of $G$ if it satisfies the following properties:
 
 @newcol
@@ -745,7 +718,7 @@ A subset $H$ of $G$ is a @keyword{subgroup} of $G$ if it satisfies the following
 @endcol
 @end
 @newcol
- In particular, a subgroup $H$ is a group with respect to the group operation on $G$,
+In particular, a subgroup $H$ is a group with respect to the group operation on $G$,
 and the identity element of $H$ is the identity element of $G$.
 @endcol
 
@@ -754,17 +727,17 @@ and the identity element of $H$ is the identity element of $G$.
 @label{eg:subgroups}
 @ul
 @li
- For any $n \in \mathbb{Z}$,
+For any $n \in \mathbb{Z}$,
 $n\mathbb{Z}$ is a subgroup of $(\mathbb{Z}, +)$.
 @li
- $\mathbb{Q}\bs\{0\}$ is a subgroup of $(\mathbb{R}\bs\{0\}, \cdot)$.
+$\mathbb{Q}\bs\{0\}$ is a subgroup of $(\mathbb{R}\bs\{0\}, \cdot)$.
 @li
- ${\rm SL}(2, \mathbb{R})$ is a subgroup of ${\rm GL}(2, \mathbb{R})$.
+${\rm SL}(2, \mathbb{R})$ is a subgroup of ${\rm GL}(2, \mathbb{R})$.
 @li
- The set of all rotations (including the trivial rotation) in a dihedral group $D_n$
+The set of all rotations (including the trivial rotation) in a dihedral group $D_n$
 is a subgroup of $D_n$.
 @li
- Let $n \in \mathbb{N}$, $n \geq 2$.
+Let $n \in \mathbb{N}$, $n \geq 2$.
 We say that $\sigma \in S_n$ is an @keyword{even permutation} if it is equal to the product of an even number of transpositions.
 The subset $A_n$ of $S_n$ consisting of even permutations is a subgroup of $S_n$.
 $A_n$ is called an @keyword{alternating group}.
@@ -772,12 +745,12 @@ $A_n$ is called an @keyword{alternating group}.
 @end
 @slide
 @claim
- A subset $H$ of a group $G$ is a subgroup of $G$ if and only if $H$ is nonempty
+A subset $H$ of a group $G$ is a subgroup of $G$ if and only if $H$ is nonempty
 and, for all $x, y \in H$, we have $xy^{-1} \in H$.
 @end
 @proof
 @newcol
- Suppose $H \subseteq G$ is a subgroup.
+Suppose $H \subseteq G$ is a subgroup.
 Then, $H$ is nonempty since $e_G \in H$.
 For all $x, y \in H$, we have $y^{-1} \in H$;
 hence, $xy^{-1} \in H$.
@@ -798,28 +771,28 @@ Since $e = h \cdot h^{-1}$, and by hypothesis $h\cdot h^{-1} \in H$, the set $H$
 $ab = a\cdot(b^{-1})^{-1} \in H$.
 @endul
 @col
- Hence, $H$ is a subgroup of $G$.
+Hence, $H$ is a subgroup of $G$.
 @qed
 @endcol
 @end
 @slide
 @claim
- The intersection of two subgroups of a group $G$ is a subgroup of $G$.
+The intersection of two subgroups of a group $G$ is a subgroup of $G$.
 @end
 @proof
- Exercise.
+Exercise.
 @end
 @slide
 @thm
- Every subgroup of $(\mathbb{Z}, +)$ is cyclic.
+Every subgroup of $(\mathbb{Z}, +)$ is cyclic.
 @end
 @proof
 @newcol
- Let $H$ be a subgroup of $G = (\mathbb{Z}, +)$.
+Let $H$ be a subgroup of $G = (\mathbb{Z}, +)$.
 If $H = \{0\}$, then it is clearly cyclic.
 
 @col
- Suppose $\abs{H} > 1$.  Consider the subset:
+Suppose $\abs{H} > 1$.  Consider the subset:
 \[
 S = \{h \in H \,:\, h > 0\} \subseteq H
 \]
@@ -829,24 +802,21 @@ with respect to $+$ is $-z$, the subgroup $H$ must contain at least one positive
 element.  Hence, $S$ is a non-empty subset of $\mathbb{Z}$ bounded from below.
 
 @col
- It then follows from the <a target="_blank" href="https://planetmath.org/wellorderingprinciplefornaturalnumbers">Least Integer Axiom</a>
- that exists a minimum element $h_0$ in $S$.
+It then follows from the <a target="_blank" href="https://planetmath.org/wellorderingprinciplefornaturalnumbers">Least Integer Axiom</a>
+that exists a minimum element $h_0$ in $S$.
 That is $h_0 \leq h$ for any $h \in S$.
 
 @col
-<strong>Exercise.</strong>
- Show that $H = \langle h_0 \rangle$.
+<strong>Exercise.</strong>  Show that $H = \langle h_0 \rangle$.
 
-(<em>Hint</em>
-: The <a target="_blank" href="https://planetmath.org/divisionalgorithmforintegers">Division Theorem for Integers</a>
- could be useful here.)
+(<em>Hint</em> : The <a target="_blank" href="https://planetmath.org/divisionalgorithmforintegers">Division Theorem for Integers</a>  could be useful here.)
 @endcol
 @end
 @ex
- Every subgroup of a cyclic group is cyclic.
+Every subgroup of a cyclic group is cyclic.
 @end
 @section{Lagrange's Theorem}
- Let $G$ be a group, $H$ a subgroup of $G$.
+Let $G$ be a group, $H$ a subgroup of $G$.
 We are interested in knowing how large $H$ is relative to $G$.
 
 We define a relation $\equiv$ on $G$ as follows:
@@ -866,14 +836,13 @@ We call these equivalence classes the @keyword{left cosets} of $H$.
 Each left coset of $H$ has the form $aH = \{ah \,|\, h \in H\}$.
 
 @newcol
- We could likewise define <i> right</i>
- cosets.  These sets are of the form $Hb$, $b \in G$.
+We could likewise define <i> right</i>  cosets.  These sets are of the form $Hb$, $b \in G$.
 In general,
 the number of left cosets and right cosets, if finite, are equal to each other
 @endcol
 @slide
 @eg
- Let $G = (\mathbb{Z}, +)$.
+Let $G = (\mathbb{Z}, +)$.
 Let:
 \[
 H = 3\mathbb{Z} =
@@ -894,14 +863,14 @@ i + n\mathbb{Z}, \quad i = 0, 1, 2, \ldots, n - 1.
 @end
 @slide
 @defn
- The number of left cosets of a subgroup $H$ of $G$ is called the @keyword{index} of $H$ in $G$.
+The number of left cosets of a subgroup $H$ of $G$ is called the @keyword{index} of $H$ in $G$.
 It is denoted by:
 \[
 [G : H]
 \]
 @end
 @eg
- Let $n \in \mathbb{N}$,
+Let $n \in \mathbb{N}$,
 $G = (\mathbb{Z}, +)$, $H = (n\mathbb{Z}, +)$.
 Then,
 \[
@@ -910,9 +879,9 @@ Then,
 @end
 @slide
 @eg
- Let $G = {\rm GL}(n, \mathbb{R})$.  Let:
+Let $G = {\rm GL}(2, \mathbb{R})$.  Let:
 \[
-H = {\rm GL}^+(n, \mathbb{R}) := \left\{ h \in G : \det h > 0\right\}.
+H = {\rm GL}^+(2, \mathbb{R}) := \left\{ h \in G : \det h > 0\right\}.
 \]
 (@keyword{Exercise:} $H$ is a subgroup of $G$.)
 
@@ -920,11 +889,8 @@ Let:
 \[
 s = \left(
 \begin{matrix}
--1 & 0 & 0& 0 & 0\\
-0&1 &0 &0 &0\\
-0&0 &1 &0 &0\\
-0&0 &0 &\ddots&0\\
-0& 0 &0 &0 &1
+-1 & 0 \\
+ 0 & 1 
 \end{matrix}
 \right) \in G
 \]
@@ -942,16 +908,13 @@ Notice that both $G$ and $H$ are infinite groups, but the index of $H$ in $G$ is
 @end
 
 @eg
- Let $G = {\rm GL}(n, \mathbb{R})$, $H = {\rm SL}(n, \mathbb{R})$.
+Let $G = {\rm GL}(2, \mathbb{R})$, $H = {\rm SL}(2, \mathbb{R})$.
 For each $x \in \mathbb{R}^\times$, let:
 \[
 s_x = \left(
 \begin{matrix}
-x & 0 & 0& 0 & 0\\
-0&1 &0 &0 &0\\
-0&0 &1 &0 &0\\
-0&0 &0 &\ddots&0\\
-0& 0 &0 &0 &1
+x & 0\\
+0 & 1 
 \end{matrix}
 \right) \in G
 \]
@@ -974,65 +937,7 @@ G = \bigsqcup_{x \in \mathbb{R}^\times} s_x H.
 The index $[G: H]$ in this case is infinite.
 @end
 
-<!--
-@slide
-@thm
-@title{Lagrange's Theorem}
-Let $G$ be a finite group.  Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
-More precisely, $\abs{G} = [G : H]\cdot\abs{H}$.
-@end
-
-We already know that the left cosets of $H$ partition $G$.
-That is:
-\[
-G = a_1 H \sqcup a_2 H \sqcup \ldots \sqcup a_{[G:H]}H,
-\]
-where $a_i H \cap a_j H = \emptyset$ if $i \neq j$.
-Hence, $\abs{G} = \sum_{i = 1}^{[G:H]} \abs{a_i H}$.
-The theorem follows if we show that the size of each left coset of $H$ is equal to $\abs{H}$.
-
-For each left coset $S$ of $H$, pick an element $a \in S$, and  define a map $\psi : H \ra S$ as follows:
-\[
-\psi(h) = ah.
-\]
-We want to show that $\psi$ is bijective.
-
-For any $s \in S$,
-by definition of a left coset (as an equivalence class) we have $s = ah$ for some $h \in H$.
-Hence, $\psi$ is surjective.
-If $\psi(h') = ah' = ah = \psi(h)$ for some $h', h \in H$,
-then $h' = a^{-1}ah' = a^{-1}ah = h$.  Hence, $\psi$ is one-to-one.
-
-So we have a bijection between two finite sets.  Hence, $\abs{S} = \abs{H}$.
-
-@slide
-@cor
- Let $G$ be a finite group.
-The order of every element of $G$  divides the order of $G$.
-@end
-
-Since $G$ is finite, any element of $g \in G$ has finite order $\ord g$.
-Since the order of the subgroup:
-\[
-H = \langle g \rangle
-= \{e, g, g^2, \ldots, g^{(\ord g) - 1}\}
-\]
-is equal to $\ord g$,
-it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$.
-
-@cor
- If the order of a group $G$ is prime, then $G$ is a cyclic group.
-@end
-@subsection{WeBWorK}
-@enumerate
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets4.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets1.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets5.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets13.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets14.pg}
-@endenumerate
--->
-
+@course{Math 2070}
 @week{4}
 @topic{Lagrange's Theorem}
 @topic{Generators}
@@ -1041,47 +946,47 @@ it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$.
 @thm
 @title{Lagrange's Theorem}
 @label{lagrangethm}
- Let $G$ be a finite group. Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
+Let $G$ be a finite group. Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
 More precisely, $\abs{G} = [G: H]\cdot\abs{H}$.
 @end
 @proof
 @newcol
- We already know that the left cosets of $H$ partition $G$.
+We already know that the left cosets of $H$ partition $G$.
 That is:
 \[G = a_1 H \sqcup a_2 H \sqcup \ldots \sqcup a_{[G:H]}H,\]
 where $a_i H \cap a_j H = \emptyset$ if $i \neq j$.
 Hence, $\abs{G} = \sum_{i = 1}^{[G:H]} \abs{a_i H}$.
 
 @col
- The theorem follows if we show that the size of each left coset of $H$ is equal to $\abs{H}$.
+The theorem follows if we show that the size of each left coset of $H$ is equal to $\abs{H}$.
 
 @col
- For each left coset $S$ of $H$, pick an element $a \in S$, and define a map
+For each left coset $S$ of $H$, pick an element $a \in S$, and define a map
 $\psi: H \ra S$ as follows:
 \[\psi(h) = ah.\]
 @col
- We want to show that $\psi$ is bijective.
+We want to show that $\psi$ is bijective.
 
 @col
- For any $s \in S$,
+For any $s \in S$,
 by definition of a left coset (as an equivalence class) we have $s = ah$ for some $h \in H$.
 Hence, $\psi$ is surjective.
 
 @col
- If $\psi(h') = ah' = ah = \psi(h)$ for some $h', h \in H$,
+If $\psi(h') = ah' = ah = \psi(h)$ for some $h', h \in H$,
 then $h' = a^{-1}ah' = a^{-1}ah = h$. Hence, $\psi$ is one-to-one.
 
 @col
- So we have a bijection between two finite sets. Hence, $\abs{S} = \abs{H}$.
+So we have a bijection between two finite sets. Hence, $\abs{S} = \abs{H}$.
 @qed
 @endcol
 @end
 @slide
 @cor
- Let $G$ be a finite group.
+Let $G$ be a finite group.
 The order of every element of $G$ divides the order of $G$.
 @end
- Since $G$ is finite, any element of $g \in G$ has finite order $\ord g$.
+Since $G$ is finite, any element of $g \in G$ has finite order $\ord g$.
 Since the order of the subgroup:
 \[H = \langle g \rangle
 = \{e, g, g^2, \ldots, g^{(\ord g) - 1}\}\]
@@ -1089,18 +994,17 @@ is equal to $\ord g$,
 it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$.
 @cor
 @newcol
- If the order of a group $G$ is prime, then $G$ is a cyclic group.
-
-@ref{pf:primecyclic}[Proof shown in class]
+If the order of a group $G$ is prime, then $G$ is a cyclic group.
+<!-- @ref{pf:primecyclic} -->
 @endcol
 @end
 @cor
 @newcol
- If a group $G$ is finite, then for all $g \in G$ we have:
+If a group $G$ is finite, then for all $g \in G$ we have:
 \[
 g^{\abs{G}} = e.
-\]
-@ref{pf:ghatordGeqe}[Proof shown in class]
+\] 
+<!-- @ref{pf:ghatordGeqe} -->
 @endcol
 @end
 @slide
@@ -1111,24 +1015,24 @@ is a subgroup of $G$ if and only if it is closed under the group operation of $G
 @end
 @proof
 @newcol
- It is easy to see that if $H$ is a subgroup,
+It is easy to see that if $H$ is a subgroup,
 then it is closed under the group operation.
-The other direction is left as an @keyword{Exercise}.
+The other direction is left as an @keyword{Exercise} .
 @endcol
 @end
 @slide
 @eg
- Let $n$ be an integer greater than $1$. The group $A_n$ of even permutations
+Let $n$ be an integer greater than $1$. The group $A_n$ of even permutations
 on a set of $n$ elements (see @ref{eg:subgroups}) has order $\displaystyle \frac{n!}{2}$.
 @end
 @proof
 @newcol
- View $A_n$ as a subgroup of $S_n$, which has order $n!$.
+View $A_n$ as a subgroup of $S_n$, which has order $n!$.
 
-@keyword{Exercise}: Show that $S_n = A_n\, \sqcup\, (12)A_n$.
+@keyword{Exercise} : Show that $S_n = A_n\, \sqcup\, (12)A_n$.
 
 @col
- Hence, we have $[S_n: A_n] = 2$.
+Hence, we have $[S_n: A_n] = 2$.
 
 @col
 It now follows from @ref{lagrangethm} that:
@@ -1137,14 +1041,17 @@ It now follows from @ref{lagrangethm} that:
 @end
 @subsection{WeBWorK}
 @enumerate
-<!-- @item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets4.pg} -->
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets1.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets5.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets13.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets14.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets1.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets5.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets13.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Cosets/Cosets14.pg}
 @endenumerate
 @section{Generators}
- Let $G$ be a group, $X$ a nonempty subset of $G$.
+Let $G$ be a group, $X$ a nonempty subset of $G$.
 The subset of $G$ consisting of elements of the form:
 \[g_1^{m_1}g_2^{m_2}\cdots g_n^{m_n},
 \quad\text{where}\quad
@@ -1157,39 +1064,39 @@ We often write:
 to denote the subgroup generated by $X$.
 @eg
 @newcol
- In $D_n$, $\{ r_0, r_1, \ldots, r_{n - 1}\} = \langle r_1 \rangle$.
+In $D_n$, $\{ r_0, r_1, \ldots, r_{n - 1}\} = \langle r_1 \rangle$.
 @endcol
 @end
 @newcol
- If there exists a finite number of elements $x_1, x_2, \ldots, x_l \in G$
+If there exists a finite number of elements $x_1, x_2, \ldots, x_l \in G$
 such that $G = \langle x_1, x_2, \ldots, x_l\rangle$,
-we say that $G$ is @keyword{finitely generated}.
+we say that $G$ is @keyword{finitely generated} .
 
 @col
- For example, every cyclic group is finitely generated, for it is generated by one
+For example, every cyclic group is finitely generated, for it is generated by one
 element.
 
 @col
- Every finite group is finitely generated, since we may take the finite generating set
+Every finite group is finitely generated, since we may take the finite generating set
 $X$ to be $G$ itself.
 @endcol
 @slide
 @eg
- Consider $G = D_3$, and its subgroup $H = \{r_0, r_1, r_2\}$ consisting of its rotations.
+Consider $G = D_3$, and its subgroup $H = \{r_0, r_1, r_2\}$ consisting of its rotations.
 (We use the convention that $r_k$ is the anticlockwise rotation by an angle of $2\pi k/3$).
 
 @newcol
- By Lagrange's Theorem, the index of $H$ in $G$ is $[G: H] = \abs{G}/\abs{H} = 2$.
+By Lagrange's Theorem, the index of $H$ in $G$ is $[G: H] = \abs{G}/\abs{H} = 2$.
 This implies that $G = H \sqcup gH$ for some $g \in G$.
 Since $gH = H$ if $g \in H$, we may conclude that $g \notin H$. So, $g$ is a reflection.
 
 @col
- Conversely, for any reflection $s \in D_3$, the left coset $sH$ is disjoint from $H$.
+Conversely, for any reflection $s \in D_3$, the left coset $sH$ is disjoint from $H$.
 We have therefore $G = H {\sqcup} s_1H = H {\sqcup} s_2H = H {\sqcup} s_3H$,
 which implies that $s_1 H = s_2 H = s_3 H$.
 
 @col
- In particular, for a fixed $s = s_i$,
+In particular, for a fixed $s = s_i$,
 any element in $G$ is either a rotation or equal to $s r_i$ for some rotation $r_i$.
 Since $H$ is a cyclic group, generated by the rotation $r_1$, we have $D_3 = \langle r_1, s \rangle$,
 where $s$ is any reflection in $D_3$.
@@ -1197,7 +1104,7 @@ where $s$ is any reflection in $D_3$.
 @end
 @section{Group Homomorphisms}
 @defn
- Let $G = (G, *)$, $G' = (G', *')$ be groups.
+Let $G = (G, *)$, $G' = (G', *')$ be groups.
 A @keyword{group homomorphism} $\phi$ from $G$ to $G'$
 is a map $\phi: G \ra G'$ which satisfies:
 \[\phi(a * b) = \phi(a)*'\phi(b),\]
@@ -1205,7 +1112,7 @@ for all $a, b \in G$.
 @end
 @claim
 @newcol
- If $\phi: G \ra G'$ is a group homomorphism, then: <ol>
+If $\phi: G \ra G'$ is a group homomorphism, then: <ol>
 <li> $\phi(e_G) = e_{G'}$. </li>
 <li> $\phi(g^{-1}) = \phi(g)^{-1}$, for all $g \in G$. </li>
 <li> $\phi(g^n) = \phi(g)^n$, for all $g \in G$, $n \in \mathbb{Z}$. </li></ol>
@@ -1213,7 +1120,7 @@ for all $a, b \in G$.
 @end
 @proof
 @newcol
- We prove the first claim, and leave the rest as an exercise.
+We prove the first claim, and leave the rest as an exercise.
 Since $e_G$ is the identity element of $G$, we have $e_G*e_G = e_G$.
 On the other hand, since $\phi$ is a group homomorphism, we have:
 \[\phi(e_G) =
@@ -1225,22 +1132,21 @@ the right-hand side is equal to $\phi(e_G)$.
 @endcol
 @end
 @slide
- Let $\phi: G \ra G'$ be a homomorphism of groups.
+Let $\phi: G \ra G'$ be a homomorphism of groups.
 The image of $\phi$ is defined as:
-\[\im \phi:= \phi(G):= \{\phi(g): g \in G\} \subseteq G'\]
+\[\im \phi:= \phi(G):= \{g' \in G' : g' = \phi(g) \;\text{ for some }\; g \in G\} \subseteq G'\]
 The kernel of $\phi$ is defined as:
 \[\ker \phi = \{g \in G: \phi(g) = e_{G'}\} \subseteq G.\]
 @claim
 @newcol
- The image of $\phi$ is a subgroup of $G'$.
+The image of $\phi$ is a subgroup of $G'$.
 The kernel of $\phi$ is a subgroup of $G$.
 @endcol
 @end
 @claim
 @newcol
- A group homomorphism $\phi: G \ra G'$ is one-to-one if and only if $\ker \phi = \{e_G\}$.
-
-@ref{pf:kernelonetoone}[Proof shown in class]
+A group homomorphism $\phi: G \ra G'$ is one-to-one if and only if $\ker \phi = \{e_G\}$.
+<!-- @ref{pf:kernelonetoone} -->
 @endcol
 @end
 @slide
@@ -1249,37 +1155,37 @@ The kernel of $\phi$ is a subgroup of $G$.
 @label{eg:grouphomomorphisms}
 @ul
 @li
- $\phi: S_n \longrightarrow (\{\pm 1\}, \cdot)$,
+$\phi: S_n \longrightarrow (\{\pm 1\}, \cdot)$,
 \[\phi(\sigma) = \begin{cases} 1, & \sigma \text{ is an even permutation.}\\
 -1, & \sigma \text{ is an odd permutation.}
 \end{cases}\]
 @newcol
- $\ker \phi = A_n$.
+$\ker \phi = A_n$.
 @endcol
 @li
- $\det: \GL(n, \mathbb{R}) \longrightarrow (\mathbb{R}^\times, \cdot)$ <br/>
+$\det: \GL(n, \mathbb{R}) \longrightarrow (\mathbb{R}^\times, \cdot)$ <br/>
 @newcol
- $\ker \det = \SL(n, \mathbb{R})$.
+$\ker \det = \SL(n, \mathbb{R})$.
 @endcol
 @li
- Let $G$ be the (additive) group of all real-valued continuous functions on $[0, 1]$.
+Let $G$ be the (additive) group of all real-valued continuous functions on $[0, 1]$.
 \[\phi: G \longrightarrow (\mathbb{R}, +)\]
 \[\phi(f) = \int_0^1 f(x)\,dx.\]
 @li
- $\phi: (\mathbb{R}, +) \longrightarrow (\mathbb{R}^\times, \cdot)$.
+$\phi: (\mathbb{R}, +) \longrightarrow (\mathbb{R}^\times, \cdot)$.
 \[\phi(x) = e^x.\]
 @endul
 @end
 @slide
 @defn
- Let $G$, $G'$ be groups. A map $\phi: G \ra G'$ is a group @keyword{isomorphism} if it is a bijective
+Let $G$, $G'$ be groups. A map $\phi: G \ra G'$ is a group @keyword{isomorphism} if it is a bijective
 group homomorphism.
 @end
 @newcol
- Note that if a homomorphism $\phi$ is bijective, then $\phi^{-1}: G' \ra G$ is also a homomorphism,
+Note that if a homomorphism $\phi$ is bijective, then $\phi^{-1}: G' \ra G$ is also a homomorphism,
 and consequently, $\phi^{-1}$ is an isomorphism.
 If there exists an isomorphism between two groups $G$ and $G'$,
-we say that the groups $G$ and $G'$ are @keyword{isomorphic}.
+we say that the groups $G$ and $G'$ are @keyword{isomorphic} .
 @endcol
 @slide
 @eg
@@ -1295,10 +1201,10 @@ Then, $H$ is isomorphic to $\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$.
 @end
 @proof
 @newcol
- Define $\phi: H \ra \mathbb{Z}_n$ as follows:
+Define $\phi: H \ra \mathbb{Z}_n$ as follows:
 \[\phi(r_k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.\]
 @col
- For any $k \in \mathbb{Z}$,
+For any $k \in \mathbb{Z}$,
 let $\ol{k} \in \{0, 1, 2, \ldots, n - 1\}$
 denote the remainder of the division of $k$ by $n$.
 By the Division Theorem for Integers, we have:
@@ -1322,11 +1228,10 @@ r_i r_j &= r_1^i r_1^j = r_1^{i + j}
 &
 @nstep{= r_{\ol{i + j}}.}
 \end{split}\]
-
 @endsteps
 
 @col
- Hence,
+Hence,
 @steps
 \[\begin{split}
 \phi(r_i r_j) &= \phi(r_{\ol{i + j}})
@@ -1337,17 +1242,15 @@ r_i r_j &= r_1^i r_1^j = r_1^{i + j}
 \\&
 @nstep{=\phi(r_i) +_{\mathbb{Z}_n} \phi(r_j).}
 \end{split}\]
-
 @endsteps
 @col
- This shows that $\phi$ is a homomorphism.
+This shows that $\phi$ is a homomorphism.
 It is clear that $\phi$ is surjective, which then implies that
 $\phi$ is one-to-one, for the two groups have the same size.
 Hence, $\phi$ is a bijective homomorphism, i.e. an isomorphism.
 @qed
 @endcol
-@end
-
+@end@course{Math 2070}
 @week{5}
 @topic{Group Homomorphisms}
 @topic{Rings}
@@ -1799,7 +1702,7 @@ Every subgroup of $\mathbb{Z}_n$ is cyclic.
 Every subgroup of a cyclic group is cyclic.
 @endcol
 @end
-
+@course{Math 2070}
 @week{6}
 @topic{Elementary Number Theory}
 @topic{Euclid's Lemma}
@@ -1984,7 +1887,7 @@ Two integers $a, b \in \mathbb{Z}$ are relatively prime if and only if there exi
 such that $ax + by = 1$.
 @endcol
 @end
-@keyword{Bézout's Lemma}
+@keyword*{Bézout's Lemma}
 @proof
 @newcol
 If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
@@ -2005,7 +1908,6 @@ are $\pm 1$.
 @end
 @lemma
 @title{Euclid's Lemma}
-
 @newcol
 Let $a, b$ be integers.
 If $p$ is prime and $p | ab$, then $p$ divides at least one of $a$ and $b$.
@@ -2342,10 +2244,7 @@ $ax \equiv 1 \mod m$.
 @proof
 @newcol
 Since $a$ and $m$ are relatively prime, by
-@keyword{Bézout's Lemma}
-(
 @ref{bezoutslemma}
-)
 there exist $x, y \in \mathbb{Z}$ such that:
 \[
 ax + my = 1.
@@ -2571,7 +2470,7 @@ x \equiv 377 \mod 34\cdot 27
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences13.pg}
 @endenumerate
 @end
-
+@course{Math 2070}
 @week{7}
 @topic{Polynomials}
 @topic{Rings}
@@ -2670,7 +2569,7 @@ If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r
 @end
 @proof
 @newcol
-See the proof of @ref{887e4de79f26f195c5f15feb518dbea2}.
+See the proof of @ref{887e4de79f26f195c5f15feb518dbea2} .
 @endcol
 @end
 @slide
@@ -2713,26 +2612,80 @@ and arguments similar to those used in the case of $\mathbb{Z}$
 that $r_{n-1}$ is a GCD of $f$ and $g$.
 @endcol
 @end
+@slide
 @eg
-@newcol
-@ol
-@li
+@label{eg:euclidalgpoly}
+@enumerate
+@item
 Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
-@li
-Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
-@endol
+
+@newcol
+@steps
+\[\begin{align*}
+x^{5} + 1 &
+@nstep{=\left(x^{3} + 1\right)\left(x^{2}\right) + \left(-x^{2} + 1\right)}
+\\
+@nstep{x^{3} + 1}
+&
+@nstep{= \left(-x^{2} + 1\right)\left(-x\right) + \left(x + 1\right)}
+\\
+@nstep{-x^{2} + 1}
+&
+@nstep{= \left(x + 1\right)\left(-x + 1\right) + \left(0\right)}
+\end{align*}\]
+@endsteps
+@col
+So, a GCD is $x + 1$.
 @endcol
+@item
+Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
+
+@newcol
+@steps
+\[\begin{align*}
+x^{3} - x^{2} - x + 1
+&
+@nstep{= \left(x^{3} + 4 x^{2} + x - 6\right)\left(1\right) + \left(-5 x^{2} - 2 x + 7\right)}
+\\
+@nstep{x^{3} + 4 x^{2} + x - 6}
+&
+@nstep{= \left(-5 x^{2} - 2 x + 7\right)\left(-\frac{1}{5} x - \frac{18}{25}\right) + \left(\frac{24}{25} x - \frac{24}{25}\right)}
+\\
+@nstep{-5 x^{2} - 2 x + 7}
+&
+@nstep{= \left(\frac{24}{25} x - \frac{24}{25}\right)\left(-\frac{125}{24} x - \frac{175}{24}\right) + \left(0\right)}
+\end{align*}\]
+@endsteps
+@col
+So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$.
+@endcol
+@endenumerate
 @end
 @slide
 @cor
-@label{bezoutpolynomial}
 @title{Bézout's Identity for Polynomials}
+@label{bezoutpolynomial}
 For any $f, g \in \mathbb{Q}[x]$ which are not both zero,
 and $d$ a GCD of $f$ and $g$,
 there exist $u, v \in \mathbb{Q}[x]$ such that:
 \[
 d = fu + gv.
 \]
+@end
+
+@eg
+@newcol
+In @ref{eg:euclidalgpoly}, we have:
+@steps
+\[\begin{align*}
+(x + 1) &= \left(x^3 + 1\right) - \left(-x^{2} + 1\right)\left(-x\right)
+\\&
+@nstep{= \left(x^3 + 1\right) - \left(\left(x^{5} + 1\right) - \left(x^{3} + 1\right)\left(x^{2}\right)\right)\left(-x\right)}
+\\&
+@nstep{= \bigg(x\bigg)\bigg(x^{5} + 1\bigg) + \bigg(-x^{3} + 1\bigg)\bigg(x^{3} + 1\bigg)}
+\end{align*}\]
+@endsteps
+@endcol
 @end
 @section{Factorization of Polynomials}
 @defn
@@ -2752,9 +2705,7 @@ then $p | f_1$ or $p | f_2$.
 @newcol
 Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
 constant polynomials.
-In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by
-@ref{bezoutpolynomial}
-,
+In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by @ref{bezoutpolynomial} ,
 there exist $u, v, \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
 \[
 f_1 = puf_1 + f_1f_2v.
@@ -2795,10 +2746,7 @@ for $i = 1, 2, \ldots, n$.
 @end
 @proof
 @newcol
-<strong>Exercise</strong>
-. See the proof of Part 2 of
-@ref{thm:fta}
-).
+<strong>Exercise</strong> . See the proof of Part 2 of @ref{thm:fta} ).
 @endcol
 @end
 
@@ -2817,9 +2765,7 @@ Commutativity: $a + b = b + a$, $\forall a, b \in R$.
 @li
 Associativity: $a + (b + c) = (a + b) + c$.
 @li
-There is an element $0 \in R$ (called the
-@keyword{additive identity element}
-),
+There is an element $0 \in R$ (called the @keyword{additive identity element} ),
 such that $a + 0 = a$ for all $a \in R$.
 @li
 Every element of $R$ has an additive inverse; namely:
@@ -2831,9 +2777,7 @@ such that $a + (-a) = 0$.
 @li
 Associativity: $a(bc) = (ab)c$.
 @li
-There is an element $1 \in R$ (called the
-@keyword{multiplicative identity element}
-),
+There is an element $1 \in R$ (called the @keyword{multiplicative identity element} ),
 such that $1\times a = a\times 1 = a$ for all $a \in R$.
 @endol</li>
 <li> Distributativity:
@@ -2853,9 +2797,7 @@ For convenience's sake, we often write $ab$ for $a\times b$.
 @li
 In the definition, commutativity is required of addition, but not of multiplication.
 @li
-Every element has an additive inverse, but
-<i> not necessarily</i>
-a multiplicative inverse.
+Every element has an additive inverse, but <i> not necessarily</i> a multiplicative inverse.
 That is, there may be an element $a \in R$ such that $ab \neq 1$ for all $b \in R$.
 @endol
 @endcol
@@ -2932,8 +2874,10 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
 @end
 @subsection{WeBWorK}
 @enumerate
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
 @endenumerate
 @slide
 
@@ -2953,9 +2897,7 @@ Adding $-0r$ (additive inverse of $0r$) to both sides, we have:
 \]
 
 @col
-The proof of $r0 = 0$ is similar and we leave it as an
-<strong>exercise</strong>
-.
+The proof of $r0 = 0$ is similar and we leave it as an <strong>exercise</strong> .
 @qed
 @endcol
 @end
@@ -2977,9 +2919,7 @@ Adding $r$ to both sides, we obtain
 r = r + (-r + (-1)(-r)) = (r + -r) + (-1)(-r) = (-1)(-r).
 \]
 @col
-We leave it as an
-<strong>exercise</strong>
-to show that $(-r)(-1) = r$.
+We leave it as an <strong>exercise</strong> to show that $(-r)(-1) = r$.
 @qed
 @endcol
 @end
@@ -2999,12 +2939,9 @@ For all $r$ in a ring $R$, we have:
 Show that:
 If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one element.
 
-(We call such an $R$ the
-@keyword{zero ring}
-.)
+(We call such an $R$ the @keyword{zero ring} .)
 @endcol
-@end
-
+@end@course{Math 2070}
 @week{8}
 @topic{Rings}
 @topic{Integral Domains}
@@ -3050,11 +2987,7 @@ For $a, b \in \mathbb{Z}_m$, we have $a +_m b = \overline{a + b} = \overline{b +
 since addition for integers is commutative.  So, $+_m$ is commutative.
 @li
 For any $r_1, r_2 \in \mathbb{Z}$,
-by
-@ref{claim:congremainder}
-and
-@ref{congcompat}
-,
+by @ref{claim:congremainder} and @ref{congcompat} ,
 we have
 \[
 r_1 \equiv \overline{r_1} \mod m, \quad r_2 \equiv \overline{r_2} \mod m,
@@ -3099,8 +3032,7 @@ We conclude that $+_m$ is associative.
 @endcol
 <hr/>
 @li
-@keyword{Exercise:}
-We can take 0 to be the additive identity element.
+<strong>Exercise:</strong> We can take 0 to be the additive identity element.
 @li
 For each nonzero element $a \in \mathbb{Z}_m$, we can take the additive inverse of $a$ to be $m - a$.
 Indeed, $a +_m (-a)  = \overline{a + (m - a)} = \overline{m} = 0$.
@@ -3122,8 +3054,7 @@ which by the associativity of multiplication for integers is equal to:
 \]
 So, $\times_m$ is associative.
 @li
-@keyword{Exercise:}
-We can take $1$ to be the multiplicative identity.
+<strong>Exercise:</strong> We can take $1$ to be the multiplicative identity.
 @li
 For $a, b \in \mathbb{Z}_m$, $a\times_m b =\ol{a\cdot b} = \ol{b\cdot a} = b\times_ma$.  So $\times_m$ is commutative.
 @li
@@ -3165,9 +3096,7 @@ the product of two nonzero elements is always nonzero.
 
 @defn
 @newcol
-A nonzero element $r$ in a ring $R$ is called a
-@keyword{zero divisor}
-if
+A nonzero element $r$ in a ring $R$ is called a @keyword{zero divisor} if
 there exists nonzero $s \in R$ such that $rs = 0$ or $sr = 0$.
 @endcol
 @end
@@ -3220,7 +3149,7 @@ So, $ab = a0$, which by the cancellation law implies that $b = 0$.
 @endcol
 @end
 
-<h5>Note.</h5>
+<strong>Note.</strong>
 @newcol
 If every nonzero element of a commutative ring has a multiplicative inverse,
 then that ring is an integral domain:
@@ -3344,12 +3273,12 @@ Then, any function $f \in R$  satisfying $f(x) \neq 0$, $\forall x$, is a unit.
 @endcol
 @end
 
-@eg
+<!-- @eg
 @newcol
 Let $R$ be the ring of all continuous real-valued functions on $\mathbb{R}$,
 then $f \in R$ is a unit if and only if it is either strictly positive or strictly negative.
 @endcol
-@end
+@end -->
 
 @slide
 @claim
@@ -3376,11 +3305,16 @@ has no multiplicative inverse.
 @end
 @subsection{WeBWorK}
 @enumerate
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition10.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition3.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition7.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition9.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition8.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition10.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition3.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition7.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition9.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition8.pg}
 @endenumerate
 @section{Fields}
 @defn
@@ -3403,9 +3337,7 @@ which is not a field.
 $\mathbb{Q}$, $\mathbb{R}$ are fields.
 @li
 For $m \in \mathbb{N}$,
-it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if $m$ is prime.
-<br/>
-<strong>Notation</strong>
+it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if $m$ is prime. <br/><strong>Notation</strong>
 @newcol
 For $p$ prime, we often denote the field $\mathbb{Z}_p$ by $\mathbb{F}_p$.
 @endcol
@@ -3508,6 +3440,7 @@ So, a question one could ask is, can we "enlarge" a given integral domain to a f
 by formally adding multiplicative inverses to the ring?
 @endcol
 @subsubsection{An Equivalence Relation}
+<br/>
 Given an integral domain $R$ (commutative, with $1 \neq 0$).  We consider the set:
 $R \times R_{\neq 0} := \{(a, b) : a, b \in R, b\neq 0\}$.
 We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:
@@ -3519,8 +3452,7 @@ We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:
 The relation $\equiv$ is an equivalence relation.
 
 @col
-In other words, the relation $\equiv$ is:
-<ol>
+In other words, the relation $\equiv$ is: <ol>
 <li>
 <strong>Reflexive:</strong> $(a, b) \equiv (a, b)$ for all $(a, b) \in R\times R_{\neq 0}$ </li>
 <li>
@@ -3532,7 +3464,7 @@ then $(a, b) \equiv (e, f)$. </li></ol>
 @end
 @proof
 @newcol
-@keyword{Exercise.}
+<strong>Exercise.</strong>
 @endcol
 @end
 
@@ -3552,9 +3484,7 @@ and the union of all equivalent classes is equal to $S$:
 @defn
 @newcol
 Given an equivalence relation $\sim$ on a set $S$,
-the
-@keyword{quotient set}
-$S/\sim$ is the set of all equivalence classes
+the @keyword{quotient set} $S/\sim$ is the set of all equivalence classes
 of $S$, with respect to $\sim$.
 @endcol
 @end
@@ -3636,7 +3566,7 @@ $[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$.
 @end
 @proof
 @newcol
-@keyword{Exercise.}
+<strong>Exercise.</strong>
 @endcol
 @end
 
@@ -3645,7 +3575,7 @@ $[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$.
 $\mathrm{Frac}(R)$ is called the @keyword{Fraction Field} of $R$.
 @end
 
-<h5>Note.</h5>
+<strong>Note.</strong>
 @newcol
 $\mathrm{Frac}(\mathbb{Z}) = \mathbb{Q}$,
 if we identify $a/b \in \mathbb{Q}$, $a, b \in \mathbb{Z}$,
@@ -3673,12 +3603,9 @@ with $[(a, b)] \in \mathrm{Frac}(\mathbb{Z})$.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition10.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition12.pg}
-@endenumerate
-
+@endenumerate@course{Math 2070}
 @week{9}
 @topic{Ring Homomorphisms}
-@topic{Ideals}
-
 @section{Homomorphisms}
 @defn
 Let $(A, +_A, \cdot_A)$, $(B, +_B, \cdot_B)$ be rings.  A @keyword{ring homomorphism} from $A$ to $B$
@@ -3847,16 +3774,19 @@ This shows that $\phi^{-1}$ is a bijective homomorphism.
 @qed
 @endcol
 @end
-
-@slide
+@course{Math 2070}
+@week{10}
+@topic{Ideals}
+@topic{Principal Ideal Domains}
+@topic{Quotient Rings}
+@section{Ring Homomorphisms - continued}
 An isomorphism is more than simply a bijective map,
 for it must preserve algebraic structure.
 
 @newcol
 For example, there is a bijective map
-$f : \mathbb{Z} \rightarrow \mathbb{Q}$ (
-<i>shown in class</i>
-),
+$f : \mathbb{Z} \rightarrow \mathbb{Q}$
+,
 but the two are clearly not isomorphic as rings:
 
 @col
@@ -3957,8 +3887,7 @@ If $F$ is a field, then $\Frac(F) \cong F$.
 Define a map $\phi : F \rightarrow \Frac(F)$ as follows:
 \[
 \phi(s) = [(s, 1)],\quad \forall s \in F.
-\]
-@keyword{Exercise:}
+\] @keyword{Exercise:}
 
 <ol>
 <li> Show that $\phi$ is a homomorphism. </li>
@@ -3979,9 +3908,7 @@ The @keyword{image} of $\phi$ is the set:
 \im \phi := \{b \in B : b = \phi(a) \text{ for some } a \in A\}.
 \]
 @end
-
 @slide
-
 @claim
 @label{claim:onetooneker}
 A ring homomorphism $\phi : A \rightarrow B$ is one-to-one if and only if $\ker \phi = \{0\}$.
@@ -3997,7 +3924,6 @@ So, $a - a' = 0$, which implies that $a = a'$.  Hence, $\phi$ is one-to-one.
 @qed
 @endcol
 @end
-
 @slide
 @defn
 An @keyword{ideal} $I$ in a commutative ring $R$ is a subset of $R$ which satisfies
@@ -4011,9 +3937,7 @@ If $a, b \in I$, then $a + b \in I$.
 For all $a \in I$, we have $ar \in I$ for all $r \in R$.
 @endol
 @newcol
-If an ideal $I$ is a proper subset of $R$, we say it is a
-@keyword{proper ideal}
-.
+If an ideal $I$ is a proper subset of $R$, we say it is a @keyword{proper ideal} .
 @endcol
 @end
 
@@ -4023,22 +3947,17 @@ If an ideal $I$ contains $1$, then $r = 1 \cdot r \in I$ for all $r \in R$,
 which implies that $I = R$.
 @endcol
 
-<h5>Remark.</h5>
+<strong>Remark.</strong>
 @newcol
-There is a definition of an
-@keyword{ideal}
-in the more general case where the ring is not necessarily commutative.
+There is a definition of an @keyword{ideal} in the more general case where the ring is not necessarily commutative.
 It is similar to the definition above, except for one extra condition:
 $ra$ belongs to $I$ for all $a \in I$, $r\in R$.
 
 Clearly,
 this general definition coincides with the one above in the special case that
-the ring is commutative.
-<p/>
-In this introductory course, unless otherwise noted,
+the ring is commutative. <p/> In this introductory course, unless otherwise noted,
 we will always discuss ideals in the context of commutative rings.
 @endcol
-
 @slide
 @eg
 For any commutative ring $R$, the set $\{0\}$ is an ideal,
@@ -4150,7 +4069,6 @@ is a proper ideal of $k$.  Since $k$ is a field, we have $\ker \phi = \{0\}$.  I
 @qed
 @endcol
 @end
-
 @eg
 @newcol
 For any natural number $m  > 1$,
@@ -4166,9 +4084,12 @@ map from the infinite set $\mathbb{Q}$ to the finite set $\mathbb{Z}_m$.
 @end
 @subsection{WeBWorK}
 @enumerate
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms5.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms7.pg}
-@item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms5.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms7.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg}
 @endenumerate
 @section{Principal Ideal Domains}
 For a fixed finite set of elements $a_1, a_2,\ldots, a_n$ in a commutative ring $R$,
@@ -4197,12 +4118,8 @@ $r \sum_i r_i a_i = \sum_i (rr_i) a_i \in I$.
 @endcol
 @end
 @newcol
-We call $(a_1, a_2,\ldots, a_n)$ the ideal
-@keyword{generated}
-by $a_1, a_2, \ldots, a_n$.
-An ideal $(a) = \{ar : r \in R\}$ generated by one element $a \in R$ is called a
-@keyword{principal ideal}
-.
+We call $(a_1, a_2,\ldots, a_n)$ the ideal @keyword{generated} by $a_1, a_2, \ldots, a_n$.
+An ideal $(a) = \{ar : r \in R\}$ generated by one element $a \in R$ is called a @keyword{principal ideal} .
 
 @col
 Note that $R = (1)$ and $\{0\} = (0)$ are both principal ideals.
@@ -4280,7 +4197,7 @@ This implies that $a = dq$.  Hence, $I \subseteq (d)$.
 
 @col
 Conversely, since $d \in I$ and $I$ is an ideal, we have $dr \in I$
-for all $r \in R$, which implies that $(d) \subseteq I$.
+for all $r \in \mathbb{Z}$, which implies that $(d) \subseteq I$.
 
 @col
 Hence, $I = (d)$.  In other words, $I$ is a principal ideal generated by $d$.
@@ -4382,10 +4299,6 @@ Hence, $I \subseteq (d)$, and we may now conclude that $I = (d)$.
 @qed
 @endcol
 @end
-
-@week{10}
-@topic{Quotient Rings}
-@topic{Polynomials over a Field}
 @section{Quotient Rings}
 Let $R$ be a commutative ring.  Let $I$ be an ideal of $R$.
 We define a relation $\sim$ on $R$ as follows:
@@ -4393,8 +4306,7 @@ We define a relation $\sim$ on $R$ as follows:
 a \sim b, \quad \text{ if } a - b \in I.
 \]
 
-<strong>Notation/Terminology:</strong>
-If $a \sim b$, we say that $a$ is @keyword{congruent modulo $I$} to $b$,
+<strong>Notation/Terminology:</strong> If $a \sim b$, we say that $a$ is @keyword{congruent modulo $I$} to $b$,
 and write:
 \[
 a \equiv b \mod I.
@@ -4402,9 +4314,7 @@ a \equiv b \mod I.
 
 @claim
 @newcol
-Congruence modulo $I$ is an
-@keyword{equivalence relation}
-.
+Congruence modulo $I$ is an @keyword{equivalence relation} .
 @endcol
 @end
 @proof
@@ -4476,8 +4386,7 @@ the multiplicative identity element of $R/I$ is $\ol{1} = 1 + I$,
 and that $-\ol{r} = \ol{-r}$ for all $r \in R$.
 
 We leave the rest of the proof (additive and multiplicative associativity, commutativity, distributativity)
-as an
-<strong>Exercise.</strong>
+as an <strong>Exercise.</strong>
 @endcol
 @end
 
@@ -4512,8 +4421,7 @@ The quotient ring $\mathbb{Z}/m\mathbb{Z}$ is isomorphic to $\mathbb{Z}_m$.
 For $r \in \mathbb{Z}$, let $r_m$ denote the remainder of the division of $r$ by $m$.
 
 @col
-<strong>Exercise:</strong>
-We have $\ol{r} = \ol{r_m}$ in $\ZZ/m\ZZ$,
+<strong>Exercise:</strong> We have $\ol{r} = \ol{r_m}$ in $\ZZ/m\ZZ$,
 where $\bar{r}$ is the residue of $r$ in $\ZZ/m\ZZ$.
 
 @col
@@ -4552,9 +4460,7 @@ Suppose $r$ is an element in $\ZZ_m$
 such that $\phi(r) = \ol{r} = 0$ in $\ZZ/m\ZZ$.  By definition, this means that $r \in m\ZZ$,
 or equivalently, that $m | r$.  Since $0 \leq r < m$, we must have $r = 0$.
 Hence, $\ker \phi = \{0\}$.
-It now follows from
-@ref{claim:onetooneker}
-that $\phi$ is one-to one.
+It now follows from @ref{claim:onetooneker} that $\phi$ is one-to one.
 
 @col
 We conclude that $\phi : \ZZ_m \ra \ZZ/m\ZZ$ is an isomorphism.
@@ -4603,7 +4509,7 @@ We have:
 \]
 @col
 Hence, $\phi(r') = \phi(r)$.
-So, $\phib(\ol{r})$ is well-defined.
+So, $\phib$ is well-defined.
 
 @col
 Next, we show that $\phib$ is a homomorphism:
@@ -4627,15 +4533,13 @@ Finally, we show that $\phib$ is a bijection, i.e. one-to-one and onto.
 
 @col
 For any $r' \in\im \phi$, there exists $r \in R$ such that $\phi(r) = r'$.
-Since $\phib(\ol{r}) = \phi(r) = r'$, $\phib$ is onto.
+Since $\phib(\ol{r}) = \phi(r) = r'$, the map $\phib$ is onto.
 
 @col
 Let $r$ be an element in $R$ such that
 $\phib(\ol{r}) = \phi(r) = 0$.
 We have $r \in \ker \phi$, which implies that $\ol{r} = 0$ in $R/\ker\phi$.
-Hence, $\ker \phib = \{0\}$, and it follows from
-@ref{claim:onetooneker}
-that $\phib$ is one-to-one.
+Hence, $\ker \phib = \{0\}$, and it follows from @ref{claim:onetooneker} that $\phib$ is one-to-one.
 @qed
 @endcol
 @end
@@ -4648,7 +4552,11 @@ R' \cong R/\ker \phi
 \]
 @end
 
-@slide
+@course{Math 2070}
+@week{11}
+@topic{Quotient Rings}
+@topic{Polynomials over a Field}
+@section{Quotient Rings - continued}
 @eg
 Let $m$ be a natural number.
 Consider the map $\phi : \mathbb{Z} \ra \ZZ_m$ defined by:
@@ -4701,9 +4609,7 @@ Define a map $\phi: \ZZ \ra \ZZ[i]/(1 + 3i)$ as follows:
 where $\ol{n}$ is the residue of $n \in \ZZ[i]$ modulo $(1 + 3i)$.
 
 @col
-It is clear that $\phi$ is a homomorphism (
-<strong>Exercise</strong>
-).
+It is clear that $\phi$ is a homomorphism ( <strong>Exercise</strong> ).
 
 Observe that in $\mathbb{Z}[i]$, we have:
 \[
@@ -4857,8 +4763,7 @@ for some $c \in k$. </li></ol>
 @newcol
 We prove Part 1 of the claim by induction.
 If $f$ has degree 0, then $f$ is a nonzero constant, which implies that it has no roots.
-So, in this case the claim holds.
-<br/>
+So, in this case the claim holds. <br/>
 @col
 Let $f$ be a polynomial with degree $n > 0$.
 Suppose the claim holds for all nonzero polynomials with degrees strictly less than $n$.
@@ -4953,8 +4858,7 @@ A polynomial in $k[x]$ is called a @keyword{monic polynomial} if its leading coe
 @label{bezoutsforpolynomials}
 Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.  There exists a unique monic polynomial
 $d \in k[x]$ with the following property: <ol>
-<li> $(f, g) = (d)$ <br/>
-Moreover, this $d$ also satisfies the following properties: </li>
+<li> $(f, g) = (d)$ <br/> Moreover, this $d$ also satisfies the following properties: </li>
 <li>
 @newcol
 $d$ divides both $f$ and $g$, i.e., there exists $a, b \in k[x]$ such that $f = ad$, $g = bd$.
@@ -4982,9 +4886,7 @@ is called the @keyword{Greatest Common Divisor} (<i>abbrev.</i> @keyword{GCD}) o
 @newcol
 @ol
 @li
-By
-@ref{thm:pidpoly}
-, there exists $d = \sum_{i = 0}^n a_i x^i \in k[x]$ such that
+By @ref{thm:pidpoly} , there exists $d = \sum_{i = 0}^n a_i x^i \in k[x]$ such that
 $(d) = (f, g)$.  Replacing $d$ by $a_n^{-1} d$ if necessary, we may assume that $d$ is a monic polynomial.
 It remains to show that $d$ is unique.
 
@@ -5066,12 +4968,6 @@ Hence, $p$ is irreducible.
 @qed
 @endcol
 @end
-
-@week{11}
-@topic{Polynomial Rings}
-@topic{Rational Root Theorem}
-@topic{Gauss's Theorem}
-@topic{Eisenstein's Criterion}
 @slide
 @lemma
 @title{Euclid's Lemma}
@@ -5086,9 +4982,7 @@ Suppose $p \nmid f$.
 Then, any common divisor of $p$ and $f$ must have degree strictly less than $\deg p$.
 Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
 Hence, the GCD of $p$ and $f$ is $1$.
-By
-@ref{bezoutsforpolynomials}
-, there exist $a, b \in k[x]$ such that:
+By @ref{bezoutsforpolynomials} , there exist $a, b \in k[x]$ such that:
 \[
 ap + bf = 1.
 \]
@@ -5127,11 +5021,8 @@ The factorization is unique up to the ordering of the factors.
 @end
 @proof
 @newcol
-@keyword{Exercise.}
-One possible approach is very similar to the proof of unique factorization
-for $\mathbb{Z}$. See:
-@ref{thm:fta}
-.
+@keyword{Exercise.} One possible approach is very similar to the proof of unique factorization
+for $\mathbb{Z}$. See: @ref{thm:fta} .
 @endcol
 @end
 
@@ -5159,11 +5050,7 @@ $p$ is irreducible in $k[x]$.
 @end
 @remark
 @newcol
-Compare this result with
-@ref{ex:zmintdom}
-and
-@ref{cor:zpfield}
-.
+Compare this result with @ref{ex:zmintdom} and @ref{cor:zpfield} .
 @endcol
 @end
 @proof
@@ -5195,9 +5082,7 @@ Given any $f \in k[x]$ whose congruence class $\ol{f}$ modulo $(p)$ is nonzero i
 we want to find its multiplicative inverse $\ol{f}^{-1}$.
 If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
 that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
-$GCD(p, f) = 1$.  By
-@ref{bezoutsforpolynomials}
-there exist
+$GCD(p, f) = 1$.  By @ref{bezoutsforpolynomials} there exist
 $g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,
 since $fg - 1 = -hp$ implies that $fg - 1 \in (p)$,
 which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$.
@@ -5218,8 +5103,7 @@ Define a map $\phi : \mathbb{R}[x] \ra \mathbb{C}$ as follows:
 \phi(\sum_{k = 0}^na_kx^k) = \sum_{k = 0}^n a_k i^k.
 \]
 
-@keyword{Exercise:}
-$\phi$ is a homomorphism.
+@keyword{Exercise:} $\phi$ is a homomorphism.
 
 @col
 For all $a + bi$ ($a, b \in \mathbb{R}$) in $\mathbb{C}$, we have:
@@ -5230,9 +5114,7 @@ Hence, $\phi$ is surjective.
 
 @col
 We now find $\ker \phi$.
-Since $\mathbb{R}[x]$ is a PID (see
-@ref{def:pid}
-).  There exists $p \in \mathbb{R}[x]$
+Since $\mathbb{R}[x]$ is a PID (see @ref{def:pid}).  There exists $p \in \mathbb{R}[x]$
 such that $\ker \phi = (p)$.
 
 @col
@@ -5251,15 +5133,18 @@ It now follows from the First Isomorphism Theorem that
 $\mathbb{R}[x]/(x^2 + 1)\cong \mathbb{C}$.
 @qed
 @endcol
-@end
-
+@end@course{Math 2070}
+@week{12}
+@topic{Rational Root Theorem}
+@topic{Gauss's Theorem}
+@topic{Eisenstein's Criterion}
 @section{Polynomials over $\mathbb{Z}$ and $\mathbb{Q}$}
 @thm
 @title{Rational Root Theorem}
 Let $f = a_0 + a_1x + \cdots + a_nx^n$, be a polynomial
 in $\mathbb{Q}[x]$, with $a_i \in \mathbb{Z}$, $a_n \neq 0$.
 Every rational root $r$ of $f$ in $\mathbb{Q}$ has the form
-$r = b/c$ $(b, c \in \mathbb{Z})$ where $b | a_0$ and $c | a_n$.
+$r = b/c$ $(b, c \in \mathbb{Z})$ where $b | a_0$ and $c | a_n$. 
 @end
 
 @proof
@@ -5268,7 +5153,7 @@ Let $r = b/c$ be a rational root of $f$, where $b, c$ are relatively prime integ
 We have:
 \[
 0 = \sum_{i = 0}^n a_i (b/c)^i
-\]
+\] 
 @col
 Multiplying both sides of the above equation by $c^n$, we have:
 \[
@@ -5277,7 +5162,7 @@ Multiplying both sides of the above equation by $c^n$, we have:
 or equivalently:
 \[
 a_0 c^n = -(a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_n b^n).
-\]
+\] 
 @col
 Since $b$ divides the right-hand side, and $b$ and $c$ are relatively prime,
 $b$ must divide $a_0$.
@@ -5286,16 +5171,16 @@ $b$ must divide $a_0$.
 Similarly, we have:
 \[
 a_n b^n = - (a_0c^n + a_1c^{n - 1} b + a_2c^{n - 2}b^2 + \cdots + a_{n - 1}cb^{n - 1}).
-\]
+\] 
 @col
-Since $c$ divides the right-hand side, and $b$ and $c$ are relatively prime, $c$ must divide $a_n$.
+Since $c$ divides the right-hand side, and $b$ and $c$ are relatively prime, $c$ must divide $a_n$. 
 @qed
 @endcol
 @end
 
 @slide
 @defn
-A polynomial $f \in \mathbb{Z}[x]$ is said to be @keyword{primitive} if the gcd of its coefficients is $1$.
+A polynomial $f \in \mathbb{Z}[x]$ is said to be @keyword{primitive} if the gcd of its coefficients is $1$. 
 @end
 @remark
 @newcol
@@ -5303,7 +5188,7 @@ Note that if $f$ is monic, i.e. its leading coefficient is $1$,
 then it is primitive.
 
 If $d$ is the gcd of the coefficients of $f$, then $\frac{1}{d}f$ is a primitive polynomial
-in $\mathbb{Z}[x]$.
+in $\mathbb{Z}[x]$. 
 @endcol
 @end
 
@@ -5311,7 +5196,7 @@ in $\mathbb{Z}[x]$.
 
 @lemma
 @title{Gauss's Lemma}
-If $f, g \in \mathbb{Z}[x]$ are both primitive, then $fg$ is primitive.
+If $f, g \in \mathbb{Z}[x]$ are both primitive, then $fg$ is primitive. 
 @end
 
 @proof
@@ -5320,7 +5205,7 @@ Write $f = \sum_{k = 0}^m a_k x^k$, $g = \sum_{k = 0}^n b_k x^k$.
 Then, $fg = \sum_{k = 0}^{m+n}c_kx^k$, where:
 \[
 c_k = \sum_{i + j = k}a_ib_j.
-\]
+\] 
 @col
 Suppose $fg$ is not primitive.  Then, there exists a prime $p$ such that $p$ divides $c_k$
 for $k = 0, 1, 2,\ldots, m + n$.
@@ -5335,21 +5220,21 @@ such that $b_v$ is not divisible by $p$.
 We have:
 \[
 c_{u + v} = \sum_{\substack{i + j = u+v\\(i, j)\neq (u, v)}}a_ib_j + a_ub_v,
-\]
+\] 
 @col
 hence:
 \[
 a_ub_v %% = c_{u + v} - \sum_{\substack{i + j = k\\(i, j)\neq (u, v)}}a_ib_j
 = c_{u + v} - \sum_{\substack{i + j = u + v\\i < u}}a_ib_j
 - \sum_{\substack{i + j = u + v\\j < v}}a_ib_j.
-\]
+\] 
 @col
 By the minimality conditions on $u$ and $v$, each term on the right-hand side of the above equation
 is divisible by $p$.
 
 @col
 Hence, $p$ divides $a_ub_v$, which by Euclid's Lemma implies that
-$p$ divides either $a_u$ or $b_v$, a contradiction.
+$p$ divides either $a_u$ or $b_v$, a contradiction. 
 @qed
 @endcol
 @end
@@ -5359,13 +5244,13 @@ Every nonzero $f \in \mathbb{Q}[x]$ has a unique factorization:
 \[
 f = c(f) f_0,
 \]
-where $c(f)$ is a positive rational number, and $f_0$ is a primitive polynomial in $\mathbb{Z}[x]$.
+where $c(f)$ is a positive rational number, and $f_0$ is a primitive polynomial in $\mathbb{Z}[x]$. 
 @end
 @defn
 @newcol
-The rational number $c(f)$ is called the
+The rational number $c(f)$ is called the 
 @keyword{content}
-of $f$.
+of $f$. 
 @endcol
 @end
 @proof
@@ -5403,7 +5288,7 @@ uf_1 = vf_0.
 Since $gcd(u, v) = 1$, by Euclid's Lemma the above equation implies that $v$ divides each
 coefficient of $f_1$, and $u$ divides each coefficient of $f_0$.
 Since $f_0$ and $f_1$ are primitive, we conclude that $u = v = 1$.
-Hence, $e = c(f)$, and $f_1 = f_0$.
+Hence, $e = c(f)$, and $f_1 = f_0$. 
 @qed
 @endcol
 @end
@@ -5411,7 +5296,7 @@ Hence, $e = c(f)$, and $f_1 = f_0$.
 @slide
 
 @cor
-For $f \in \mathbb{Z}[x] \subseteq \mathbb{Q}[x]$, we have $c(f) \in \mathbb{Z}$.
+For $f \in \mathbb{Z}[x] \subseteq \mathbb{Q}[x]$, we have $c(f) \in \mathbb{Z}$. 
 @end
 @proof
 @newcol
@@ -5422,7 +5307,7 @@ f = d\left(\frac{1}{d} f \right)
 \]
 is a factorization of $f$ into a product of a positive rational number and a primitive polynomial
 in $\mathbb{Z}[x]$.
-Hence, by uniqueness of $c(f)$ and $f_0$, we have $c(f) = d \in \mathbb{Z}$.
+Hence, by uniqueness of $c(f)$ and $f_0$, we have $c(f) = d \in \mathbb{Z}$. 
 @qed
 @endcol
 @end
@@ -5431,7 +5316,7 @@ Hence, by uniqueness of $c(f)$ and $f_0$, we have $c(f) = d \in \mathbb{Z}$.
 
 @cor
 Let $f, g, h$ be nonzero polynomials in $\mathbb{Q}[x]$ such that $f = gh$.
-Then, $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$.
+Then, $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$. 
 @end
 @proof
 @newcol
@@ -5441,7 +5326,7 @@ c(f)f_0 = {c(g)}{c(h)} g_0h_0,
 \]
 where $f_0, g_0, h_0$ are primitive polynomials and $c(f), c(g), c(h)$ are positive rational numbers.
 By a previous result $g_0h_0$ is primitive.  It now follows from the uniqueness of $c(f)$ and $f_0$
-that $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$.
+that $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$. 
 @qed
 @endcol
 @end
@@ -5456,7 +5341,7 @@ $f = gh$ for some $g, h \in \mathbb{Z}[x]$, where
 $\deg g = \deg G$, $\deg h = \deg H$.
 
 Consequently, if $f$ cannot be factored into a product of polynomials of smaller degrees in $\mathbb{Z}[x]$,
-then it is irreducible as a polynomial in $\mathbb{Q}[x]$.
+then it is irreducible as a polynomial in $\mathbb{Q}[x]$. 
 @end
 @proof
 @newcol
@@ -5468,7 +5353,7 @@ and $c(G)c(H) = c(f)$ by the uniqueness of the content of a polynomial.
 @col
 Moreover, since $f \in \mathbb{Z}[x]$, its content $c(f)$ lies in $\mathbb{Z}$.
 Hence, $g = c(f) G_0$ and $h = H_0$ are polynomials in $\mathbb{Z}[x]$,
-with $\deg g = \deg G$, $\deg h = \deg H$, such that $f = gh$.
+with $\deg g = \deg G$, $\deg h = \deg H$, such that $f = gh$. 
 @qed
 @endcol
 @end
@@ -5485,7 +5370,7 @@ For $a \in \mathbb{Z}$, let $\ol{a}$ denote the residue of $a$ in $\mathbb{F}_p$
 Let $f = \sum_{k = 0}^na_k x^k$ be a polynomial in $\mathbb{Z}[x]$
 such that $p \nmid a_n$ (in particular, $a_n \neq 0$).
 If $\ol{f} := \sum_{k = 0}^n \ol{a_k}x^k$ is irreducible in $\mathbb{F}_p[x]$,
-then $f$ is irreducible in $\mathbb{Q}[x]$.
+then $f$ is irreducible in $\mathbb{Q}[x]$. 
 @end
 @proof
 @newcol
@@ -5507,7 +5392,7 @@ Hence, $\ol{f} = \ol{gh} = \ol{g}\cdot \ol{h}$, where $\deg \ol{g}, \deg\ol{h} <
 This contradicts the irreducibility of $\ol{f}$ in $\mathbb{F}_p[x]$.
 
 @col
-Hence, $f$ is irreducible in $\mathbb{Q}[x]$ if $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$.
+Hence, $f$ is irreducible in $\mathbb{Q}[x]$ if $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$. 
 @qed
 @endcol
 @end
@@ -5515,7 +5400,7 @@ Hence, $f$ is irreducible in $\mathbb{Q}[x]$ if $\ol{f}$ is irreducible in $\mat
 @slide
 
 @eg
-The polynomial $f(x) = x^4 - 5x^3 + 2x + 3 \in \mathbb{Q}[x]$ is irreducible.
+The polynomial $f(x) = x^4 - 5x^3 + 2x + 3 \in \mathbb{Q}[x]$ is irreducible. 
 @end
 @proof
 @newcol
@@ -5529,7 +5414,7 @@ $\ol{f}(0) = \ol{f}(1) = 1 \neq 0$, we know right away that $\ol{f}$
 has no linear factors.  So, if $\ol{f}$ is not irreducible, it must be a product of two quadratic factors:
 \[
 \ol{f} = (ax^2 + bx + c)(dx^2 + ex + g),\quad a, b, c, d, e, g \in \mathbb{F}_2.
-\]
+\] 
 @col
 Note that by assumption $a, d$ are nonzero elements of $\mathbb{F}_2$, so $a = d = 1$.
 This implies that, in particular:
@@ -5538,7 +5423,7 @@ This implies that, in particular:
 1 &= \ol{f}(0) = cg\\
 1 &= \ol{f}(1) = (1 + b + c)(1 + e + g)
 \end{split}
-\]
+\] 
 @col
 The first equation implies that $c = g = 1$.
 The second equation then implies that $1 = (2 + b)(2 + e) = be$.
@@ -5554,7 +5439,7 @@ a contradiction.
 
 @col
 Hence, $\ol{f}$ is irreducible in $\mathbb{F}_2[x]$, which implies
-that $f$ is irreducible in $\mathbb{Q}[x]$.
+that $f$ is irreducible in $\mathbb{Q}[x]$. 
 @qed
 @endcol
 @end
@@ -5565,7 +5450,7 @@ that $f$ is irreducible in $\mathbb{Q}[x]$.
 @title{Eisenstein's Criterion}
 Let $f = a_0 + a_1 x + \cdots + a_n x^n$ be a polynomial in $\mathbb{Z}[x]$.
 If there exists a prime $p$ such that $p | a_i$ for $0 \leq i < n$, but $p \nmid a_n$ and
-$p^2 \nmid a_0$, then $f$ is irreducible in $\mathbb{Q}[x]$.
+$p^2 \nmid a_0$, then $f$ is irreducible in $\mathbb{Q}[x]$. 
 @end
 @proof
 @newcol
@@ -5579,7 +5464,7 @@ Consider the image of these polynomials in $\mathbb{F}_p[x]$.
 By assumption, we have:
 \[
 \ol{a_n}x^n = \ol{f} = \ol{g}\ol{h}.
-\]
+\] 
 @col
 This implies that $\ol{g}$ and $\ol{h}$ are divisors of $\ol{a_n}x^n$.
 Since $\mathbb{F}_p$ is a field, unique factorization holds for $\mathbb{F}_p[x]$.
@@ -5599,20 +5484,20 @@ So, we conclude that $\ol{g} = \ol{b_l}x^l$, $\ol{h} = \ol{c_{n - l}} x^{n - l}$
 @col
 In particular, $\ol{b_0} = \ol{c_0} = 0$ in $\mathbb{F}_p$, which implies
 that $p$ divides both $b_0$ and $c_0$.  Since $a_0 = b_0c_0$, we have $p^2 | a_0$,
-a contradiction.
+a contradiction. 
 @qed
 @endcol
 @end
 
 @slide
-
 @eg
-The polynomial $x^5 + 3x^4 - 6x^3 +12x + 3$ is irreducible in $\mathbb{Q}[x]$.
+The polynomial $x^5 + 3x^4 - 6x^3 +12x + 3$ is irreducible in $\mathbb{Q}[x]$. 
 @end
-
-@week{12}
+@course{Math 2070}
+@week{13}
 @topic{Field Extensions}
-@slide
+@topic{Finite Fields}
+@section{Field Extensions}
 @defn
 Let $R$ be a ring.
 A subset $S$ of $R$ is said to be a @keyword{subring} of $R$ if it is a ring under the addition $+_R$ and multiplication $\times_R$ associated with $R$,
@@ -5621,8 +5506,7 @@ and its additive and multiplicative identity elements $0$, $1$ are those of $R$.
 @remark
 @newcol
 To show that a subset $S$ of a ring $R$ is a subring,
-it suffices to show that:
-<ul>
+it suffices to show that: <ul>
 <li> $S$ contains the additive and multiplicative identity elements of $R$. </li>
 <li> $S$ is "closed under addition": $a +_R b \in S$ for all $a,b \in S$. </li>
 <li> $S$ is "closed under multiplication": $a \times_R b \in S$ for all $a, b\in S$. </li>
@@ -5632,9 +5516,7 @@ in $R$ belongs to $S$. </li></ul>
 @end
 @defn
 @newcol
-A
-@keyword{subfield}
-$k$ of a field $K$ is a subring of $K$ which is a field.
+A @keyword{subfield} $k$ of a field $K$ is a subring of $K$ which is a field.
 @endcol
 @end
 @newcol
@@ -5645,12 +5527,8 @@ lies $k$.
 @newcol
 Let $K$ be a field and $k$ a subfield.  Let $\alpha$ be an element of $K$.
 We define $k(\alpha)$ to be the smallest subfield of $K$ containing $k$ and $\alpha$.
-In other words, if $F$ is a subfield of $K$ which contains $k$ and $\alpha$, then $F \supseteq k(\alpha)$.
-<p/>
-We say that $k(\alpha)$ is obtained from $k$ by
-<b class="notkw">adjoining</b>
-<b style="display:none">adjoin</b>
-$\alpha$.
+In other words, if $F$ is a subfield of $K$ which contains $k$ and $\alpha$, then $F \supseteq k(\alpha)$. <p/>
+We say that $k(\alpha)$ is obtained from $k$ by <b class="notkw">adjoining</b><b style="display:none">adjoin</b> $\alpha$.
 @endcol
 @end
 
@@ -5673,8 +5551,7 @@ defined by:
 \]
 is a well-defined one-to-one ring homomorphism with $\im \phi = k(\alpha)$.
 (Here, $\sum_{j = 0}^nc_jx^j + (p)$ is the congruence class of $\sum_{j = 0}^nc_jx^j \in k[x]$
-modulo $(p)$.)
-<br/>
+modulo $(p)$.) <br/>
 Hence,
 \[
 k[x]/(p) \cong k(\alpha).
@@ -5756,8 +5633,7 @@ Define a map $\psi : k[x] \ra K$ as follows:
 \psi\left(\sum c_j x^j\right) = \sum c_j\alpha^j.
 \]
 
-@keyword{Exercise:}
-$\psi$ is a ring homomorphism.
+@keyword{Exercise:} $\psi$ is a ring homomorphism.
 
 @newcol
 By assumption, $f$ lies in $\ker \psi$.
@@ -5769,9 +5645,7 @@ Hence, $p | f$ in $k[x]$.
 By the First Isomorphism Theorem, $\im \psi$ is a subring of $K$
 which is isomorphic to $k[x]/(p)$.  In particular, $\im \psi$ is an integral domain
 because $K$ has no zero divisors.
-Hence, by
-@ref{thm:pirredfield}
-, the polynomial $p$ is an irreducible in $k[x]$.
+Hence, by @ref{thm:pirredfield} , the polynomial $p$ is an irreducible in $k[x]$.
 
 @col
 Since $p \in (p) = \ker \psi$, we have $0 = \psi(p) = p(\alpha)$.  Hence,
@@ -5933,8 +5807,7 @@ We prove by induction on $\deg f$.
 If $\deg f = 1$, we are done.
 
 @col
-<b class="notkw">Inductive Step:</b>
-Suppose $\deg f > 1$.  Suppose, for any field extension $k'$ of $k$,
+<b class="notkw">Inductive Step:</b> Suppose $\deg f > 1$.  Suppose, for any field extension $k'$ of $k$,
 and any polynomial $g \in k'[x]$ with $\deg g < \deg f$,
 there exists a field extension $K$ of $k'$ such that $g$ splits into a product
 of linear factors in $K[x]$.
@@ -5974,8 +5847,7 @@ Hence, $f$ is a product of linear factors in $K[x]$.
 @qed
 @endcol
 @end
-@slide
-@ex
+@section{WeBWorK}
 @enumerate
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields3.pg}
@@ -5985,41 +5857,27 @@ Hence, $f$ is a product of linear factors in $K[x]$.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields5.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields6.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields7.pg}
 @endenumerate
-@end
-
-@week{13}
-@topic{Finite Fields}
-<!--
-@thm
+<!--@thm
 If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
 then there exists a field extension $K$ of $k$, such that $f \in k[x] \subseteq K[x]$
 is a product of linear factors in $K[x]$.
-
 @newcol
 In other words, there exists a field extension $K$ of $k$, such that:
 \[
 f = c(x - \alpha_1)\cdots (x - \alpha_n),
 \]
 for some $c, \alpha_i \in K$.
-@endcol
-@end
-@proof
-@newcol
+@endcol@end@proof@newcol
 We prove by induction on $\deg f$.
-
 @col
 If $\deg f = 1$, we are done.
-
 @col
 <b class="notkw">Inductive Step:</b>
 Suppose $\deg f > 1$.  Suppose, for any field extension $k'$ of $k$,
 and any polynomial $g \in k'[x]$ with $\deg g < \deg f$,
 there exists a field extension $K$ of $k'$ such that $g$ splits into a product
 of linear factors in $K[x]$.
-
 @col
 Suppose $f$ is irreducible.  Let $f(t)$ be the polynomial in $k[t]$
 obtained from $f$ by replacing the variable $x$ with the variable $t$.
@@ -6027,35 +5885,27 @@ Consider $k' := k[t]/(f(t))$.
 Then, $k'$ is a field extension of $k$ if we identify $k$ with the subset
 $\{c + (f(t)) : c \in k\} \subseteq k'$,
 where $c$ is considered as a constant polynomial in $k[t]$.
-
 @col
 Observe that $k'$ contains a root $\alpha$ of $f$,
 namely $\alpha = t + (f(t)) \in k[t]/(f(t))$.
 Hence, $f = (x - \alpha)q$ in $k'[x]$ for some polynomial $q \in k'[x]$ with $\deg q < \deg f$.
-
 @col
 Now, by the induction hypothesis,
 there is an extension field $K$ of $k'$ such that $q$ splits into a product of linear factors in $K[x]$.
 Consequently, $f$ splits into a product of linear factors in $K[x]$.
-
 @col
 If $f$ is not irreducible, then $f = gh$ for some $g, h \in k[x]$,
 with $\deg g, \deg h < \deg f$.
 So, by the induction hypothesis, there is a field extension $k'$ of $k$
 such that $g$ is a product of linear factors in $k'[x]$.
-
 @col
 Hence,
 $f = (x - \alpha_1)\cdots(x - \alpha_n) h$ in $k'[x]$.  Since $\deg h < \deg f$,
 by the inductive hypothesis there exists a field extension $K$ of $k'$ such that $h$
 splits into linear factors in $K[x]$.
-
 @col
 Hence, $f$ is a product of linear factors in $K[x]$.
-@qed
-@endcol
-@end
--->
+@qed@endcol@end-->
 @section{Finite Fields}
 
 Recall:
@@ -6118,8 +5968,7 @@ Since $F$ is finite, it has finite characteristic.  Since it is a field,
 $\mathrm{char}\, F$ is a prime $p$.
 
 @col
-@keyword{Exercise:}
-$\mathbb{F}_p$ is isomorphic to a subfield of $F$.
+@keyword{Exercise:} $\mathbb{F}_p$ is isomorphic to a subfield of $F$.
 
 @col
 Viewing $\mathbb{F}_p$ as a subfield of $F$,
@@ -6156,9 +6005,7 @@ then $K$ is a field extension of $k$ which contains a root $\alpha$ of $f$,
 namely, $\alpha = t + (f(t))$.
 
 @col
-By
-@ref{thm:simpleextthm}
-,
+By @ref{thm:simpleextthm} ,
 $K = k(\alpha)$, and every element in $K$ may be expressed uniquely in the form:
 \[
 c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f.
@@ -6257,8 +6104,7 @@ we have:
 \[
 (-a)^q = (-1)^q a^q = -a,
 \]
-so $-a \in F$.  Hence, $a \in F$ has an additive inverse in $F$.
-<p/>
+so $-a \in F$.  Hence, $a \in F$ has an additive inverse in $F$. <p/>
 Since $a^q = a$ in $K$, we have:
 \[
 a^{q - 2} a = a^{q - 1} = 1

@@ -67,7 +67,7 @@
               <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">The Cyclic Group $\mathbb{Z}_n$</paragraphs>
             </title>
             <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="e13b4e54d682feb07aa9b2173056116a" course="Math 2070" chapter="3" slide="3" item="3.1">
-              <label course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="def:cycliczn" type="Definition"/>
+              <label wbtag="label" name="def:cycliczn" type="Definition"/>
               <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Fix an integer $n &gt; 0$.</paragraphs>
               <newline course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
               <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">For any $k \in \mathbb{Z}$, let $\ol{k}$ denote the remainder of the division of $k$
@@ -79,7 +79,7 @@ on $\mathbb{Z}_n$ as follows:
 \[k +_{\mathbb{Z}_n} l = \ol{k + l}.\] </paragraphs>
             </statement>
             <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="2" md5="ca1d769c6cebb731348d21e923321c84" course="Math 2070" chapter="3" slide="3" item="3.2">
-              <label course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="ex:cycliczn" type="Exercise"/>
+              <label wbtag="label" name="ex:cycliczn" type="Exercise"/>
               <newcol course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$
 is a </paragraphs>
@@ -191,7 +191,7 @@ and the identity element of $H$ is the identity element of $G$. </paragraphs>
               <keyword chapter="3" slide="6">alternating group</keyword>
             </keywords>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="3a8632057ec5b902b8a4bb5c67ae0717" course="Math 2070" chapter="3" slide="6" item="3.4">
-              <label course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="eg:subgroups" type="Example"/>
+              <label wbtag="label" name="eg:subgroups" type="Example"/>
               <col_ul course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
                 <col_li course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                   <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> For any $n \in \mathbb{Z}$,

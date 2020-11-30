@@ -54,7 +54,7 @@
             </title>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Lagrange's Theorem" md5="73d51b0af4e4da963c2c84cd31fb0993" course="Math 2070" chapter="4" slide="3" item="4.1">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" serial="" slide="3">Lagrange's Theorem</title>
-              <label course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="lagrangethm" type="Theorem"/>
+              <label wbtag="label" name="lagrangethm" type="Theorem"/>
               <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G$ be a finite group. Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
 More precisely, $\abs{G} = [G: H]\cdot\abs{H}$. </paragraphs>
             </statement>
@@ -109,23 +109,19 @@ Since the order of the subgroup:
 = \{e, g, g^2, \ldots, g^{(\ord g) - 1}\}\]
 is equal to $\ord g$,
 it follows from Lagrange's Theorem that $\ord g = \abs{H}$ divides $\abs{G}$. </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="3" md5="34537484728fec1aaba97b2d2c2ba958" course="Math 2070" chapter="4" slide="4" item="4.3">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="3" md5="cc555ec9c996581b87d54b75211deba0" course="Math 2070" chapter="4" slide="4" item="4.3">
               <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If the order of a group $G$ is prime, then $G$ is a cyclic group. </paragraphs>
-                <paragraphs>
-                  <!-- @ref{pf:primecyclic} -->
-                </paragraphs>
+                <comment course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"> @ref{pf:primecyclic} </comment>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="4" md5="de847a24a3d3cd440a891b2601092d0f" course="Math 2070" chapter="4" slide="4" item="4.4">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="4" md5="cc24b86c6eb28067eca483f264122165" course="Math 2070" chapter="4" slide="4" item="4.4">
               <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If a group $G$ is finite, then for all $g \in G$ we have:
 \[
 g^{\abs{G}} = e.
 \]  </paragraphs>
-                <paragraphs>
-                  <!-- @ref{pf:ghatordGeqe} -->
-                </paragraphs>
+                <comment course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"> @ref{pf:ghatordGeqe} </comment>
               </newcol>
             </statement>
           </slide>
@@ -172,8 +168,8 @@ on a set of $n$ elements (see </paragraphs>
                   <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="lagrangethm" wbtag="ref" course="Math 2070" chapter="4" slide="6" src-course="Math 2070" src-chapter="4" src-slide="3" type="Theorem" item="4.1" src-filename="week4.xml" md5="73d51b0af4e4da963c2c84cd31fb0993" class="lcref" serial="">
-                      <title>Lagrange's Theorem</title>
+                    <ref environment="newcol" chapter_type="" label="lagrangethm" wbtag="ref" course="Math 2070" chapter="4" slide="6">
+                      <title>UNDEFINED</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that:
 \[\abs{A_n} = \frac{\abs{S_n}}{[S_n: A_n]} = \frac{n!}{2}.\] </paragraphs>
@@ -352,12 +348,10 @@ The kernel of $\phi$ is defined as:
 The kernel of $\phi$ is a subgroup of $G$. </paragraphs>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="12" md5="7758417e9a45c15356c0ddde1f517645" course="Math 2070" chapter="4" slide="11" item="4.12">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="12" md5="771de3ce3367fc51fb77081bfb8ad6c0" course="Math 2070" chapter="4" slide="11" item="4.12">
               <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A group homomorphism $\phi: G \ra G'$ is one-to-one if and only if $\ker \phi = \{e_G\}$. </paragraphs>
-                <paragraphs>
-                  <!-- @ref{pf:kernelonetoone} -->
-                </paragraphs>
+                <comment course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"> @ref{pf:kernelonetoone} </comment>
               </newcol>
             </statement>
           </slide>
@@ -367,7 +361,7 @@ The kernel of $\phi$ is a subgroup of $G$. </paragraphs>
             </keywords>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" title="Examples of Group Homomorphisms" md5="095147f33a3e1fe7ff089b5ce1c3288c" course="Math 2070" chapter="4" slide="12" item="4.13">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" serial="" slide="12">Examples of Group Homomorphisms</title>
-              <label course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="label" name="eg:grouphomomorphisms" type="Example"/>
+              <label wbtag="label" name="eg:grouphomomorphisms" type="Example"/>
               <col_ul course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
                 <col_li course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                   <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\phi: S_n \longrightarrow (\{\pm 1\}, \cdot)$,
@@ -420,7 +414,7 @@ we say that the groups $G$ and $G'$ are </paragraphs>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
             <keywords slide="14" environ="slide" chapter="4" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="ad58fb7dd7baadc4df44a7450c55af00" course="Math 2070" chapter="4" slide="14" item="4.15">
-              <label course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="label" name="eg:cycliczn" type="Example"/>
+              <label wbtag="label" name="eg:cycliczn" type="Example"/>
               <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Recall </paragraphs>
               <ref environment="statement" chapter_type="" label="def:cycliczn" wbtag="ref" course="Math 2070" chapter="4" slide="14" src-course="Math 2070" src-chapter="3" src-slide="3" type="Definition" item="3.1" src-filename="week3.xml" md5="e13b4e54d682feb07aa9b2173056116a" class="lcref" serial="">
                 <title>Definition 3.1</title>

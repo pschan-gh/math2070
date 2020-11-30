@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -283,7 +284,7 @@ x^{3} - x^{2} - x + 1
             <keywords slide="8" environ="slide" chapter="7" course="Math 2070">
               <keyword chapter="7" slide="8">Bézout's Identity for Polynomials</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" title="Bézout's Identity for Polynomials" md5="ff0cf605977388ae70fe17f3161c10ab" course="Math 2070" chapter="7" slide="8" item="7.6">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" title="B&#xE9;zout's Identity for Polynomials" md5="ff0cf605977388ae70fe17f3161c10ab" course="Math 2070" chapter="7" slide="8" item="7.6">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="8">Bézout's Identity for Polynomials</title>
               <label wbtag="label" name="bezoutpolynomial" type="Corollary"/>
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any $f, g \in \mathbb{Q}[x]$ which are not both zero,
@@ -297,8 +298,8 @@ d = fu + gv.
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="636d802595fa9442291dc296c169b597" course="Math 2070" chapter="7" slide="8" item="7.7">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In </paragraphs>
-                <ref environment="newcol" chapter_type="" label="eg:euclidalgpoly" wbtag="ref" course="Math 2070" chapter="7" slide="8" src-course="Math 2070" src-chapter="7" src-slide="7" type="Example" item="7.5" src-filename="week7.xml" md5="99d3d45a66a0beddbcb0975e00acea0d" class="lcref" serial="">
-                  <title>Example 7.5</title>
+                <ref environment="newcol" chapter_type="" label="eg:euclidalgpoly" wbtag="ref" course="Math 2070" chapter="7" slide="8">
+                  <title>UNDEFINED</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, we have: </paragraphs>
                 <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
@@ -341,7 +342,7 @@ is a constant. </paragraphs>
                 </li>
               </ol>
             </statement>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="7fb8cbda392fafb917e2f619870c315b" course="Math 2070" chapter="7" slide="9" item="7.9">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $p \in \mathbb{Q}[x]$ is irreducible and $p | f_1f_2$, where $f_1, f_2 \in \mathbb{Q}[x]$,
@@ -353,8 +354,8 @@ then $p | f_1$ or $p | f_2$. </paragraphs>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
 constant polynomials.
 In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutpolynomial" wbtag="ref" course="Math 2070" chapter="7" slide="9" src-course="Math 2070" src-chapter="7" src-slide="8" type="Corollary" item="7.6" src-filename="week7.xml" md5="ff0cf605977388ae70fe17f3161c10ab" class="lcref" serial="">
-                  <title>Bézout's Identity for Polynomials</title>
+                <ref environment="newcol" chapter_type="" label="bezoutpolynomial" wbtag="ref" course="Math 2070" chapter="7" slide="9">
+                  <title>UNDEFINED</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
 there exist $u, v, \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:

@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -304,7 +305,7 @@ $ra$ belongs to $I$ for all $a \in I$, $r\in R$.</paragraphs>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Clearly,
 this general definition coincides with the one above in the special case that
 the ring is commutative. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In this introductory course, unless otherwise noted,
 we will always discuss ideals in the context of commutative rings. </paragraphs>
             </newcol>
@@ -971,8 +972,8 @@ such that $\phi(r) = \ol{r} = 0$ in $\ZZ/m\ZZ$.  By definition, this means that 
 or equivalently, that $m | r$.  Since $0 \leq r &lt; m$, we must have $r = 0$.
 Hence, $\ker \phi = \{0\}$.
 It now follows from </paragraphs>
-                              <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="23" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
-                                <title>Claim 10.4</title>
+                              <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="23">
+                                <title>UNDEFINED</title>
                               </ref>
                               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that $\phi$ is one-to one.</paragraphs>
                               <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
@@ -1073,8 +1074,8 @@ Since $\phib(\ol{r}) = \phi(r) = r'$, the map $\phib$ is onto.</paragraphs>
 $\phib(\ol{r}) = \phi(r) = 0$.
 We have $r \in \ker \phi$, which implies that $\ol{r} = 0$ in $R/\ker\phi$.
 Hence, $\ker \phib = \{0\}$, and it follows from </paragraphs>
-                            <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="25" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
-                              <title>Claim 10.4</title>
+                            <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="25">
+                              <title>UNDEFINED</title>
                             </ref>
                             <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that $\phib$ is one-to-one. </paragraphs>
                             <qed course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>

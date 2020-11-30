@@ -221,10 +221,8 @@ There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
                   </strong>
                   <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Recall the notation used in </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7" src-course="Math 2070" src-chapter="6" src-slide="" type="Section" src-filename="week6.xml" md5="" class="lcref" serial="6.1.1">
-                      <title>
-            <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
-          </title>
+                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7">
+                      <title>UNDEFINED</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">.
 We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$. </paragraphs>
@@ -304,8 +302,8 @@ such that $ax + by = 1$. </paragraphs>
                 <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
 So, by </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="8" src-course="Math 2070" src-chapter="6" src-slide="7" type="Claim" item="6.5" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
-                    <title>Bézout's Lemma</title>
+                  <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="8">
+                    <title>UNDEFINED</title>
                   </ref>
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
 \[ax + by = gcd(a, b) = 1.\]
@@ -374,8 +372,8 @@ c = as = bt.
                   <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $a | as = bt$,
 which by </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="euclidslemmageneral" wbtag="ref" course="Math 2070" chapter="6" slide="10" src-course="Math 2070" src-chapter="6" src-slide="10" type="Claim" item="6.12" src-filename="week6.xml" md5="8d6c961f7fb13580b65c45ba76b8bead" class="lcref" serial="">
-                      <title>Claim 6.12</title>
+                    <ref environment="newcol" chapter_type="" label="euclidslemmageneral" wbtag="ref" course="Math 2070" chapter="6" slide="10">
+                      <title>UNDEFINED</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> implies that $a | t$, since $gcd(a, b) = 1$.</paragraphs>
                     <newline course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol"/>
@@ -770,15 +768,15 @@ So, $ab \equiv a'b' \mod m$. </paragraphs>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="cf60c58ff0203947c6445a0f92edc8ec" course="Math 2070" chapter="6" slide="16" of="cf808375735a9ca3dd49918a6d0fdbe6">
               <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By </paragraphs>
-                <ref environment="newcol" chapter_type="" label="congremainder" wbtag="ref" course="Math 2070" chapter="6" slide="16" src-course="Math 2070" src-chapter="6" src-slide="14" type="Corollary" item="6.18" src-filename="week6.xml" md5="a360e8a2dbb188f3a0742bcbe26bb2cf" class="lcref" serial="">
-                  <title>Corollary 6.18</title>
+                <ref environment="newcol" chapter_type="" label="congremainder" wbtag="ref" course="Math 2070" chapter="6" slide="16">
+                  <title>UNDEFINED</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
 any $a \in \mathbb{Z}$ is congruent modulo $8$ to exactly one
 element in $\{0, 1, 2, \ldots, 7\}$.
 So, by </paragraphs>
-                <ref environment="newcol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2070" chapter="6" slide="16" src-course="Math 2070" src-chapter="6" src-slide="15" type="Theorem" item="6.19" src-filename="week6.xml" md5="14a4a87fe292c8015bdeac65486af4b4" class="lcref" serial="">
-                  <title>Theorem 6.19</title>
+                <ref environment="newcol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2070" chapter="6" slide="16">
+                  <title>UNDEFINED</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
 $a^2$ is congruent modulo 8 to one of:
@@ -800,8 +798,8 @@ $ax \equiv 1 \mod m$. </paragraphs>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="93ca9773dff8fb92d40e14a34deebd58" course="Math 2070" chapter="6" slide="17" of="22345bc82e7768bc01872dcfa453331a">
               <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $a$ and $m$ are relatively prime, by </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="17" src-course="Math 2070" src-chapter="6" src-slide="7" type="Claim" item="6.5" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
-                  <title>Bézout's Lemma</title>
+                <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="17">
+                  <title>UNDEFINED</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
 \[
@@ -859,8 +857,8 @@ for some $r \in \mathbb{Z}$. </paragraphs>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4e477375d817abad208ca5b40199a0f5" course="Math 2070" chapter="6" slide="18" of="43bd36ddac0bd25723eed1c3291d6256">
               <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $m_1$ and $m_2$ are relatively prime, by </paragraphs>
-                <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2070" chapter="6" slide="18" src-course="Math 2070" src-chapter="6" src-slide="17" type="Theorem" item="6.21" src-filename="week6.xml" md5="22345bc82e7768bc01872dcfa453331a" class="lcref" serial="">
-                  <title>Theorem 6.21</title>
+                <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2070" chapter="6" slide="18">
+                  <title>UNDEFINED</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exists $n \in \mathbb{Z}$ such that $m_1n \equiv 1 \mod m_2$.
 Let $x = m_1n(r_2 - r_1) + r_1$. </paragraphs>
@@ -974,8 +972,8 @@ or equivalently:
 \end{equation} </paragraphs>
                   <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $gcd(34, 27) = 1$, by </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2070" chapter="6" slide="20" src-course="Math 2070" src-chapter="6" src-slide="17" type="Theorem" item="6.21" src-filename="week6.xml" md5="22345bc82e7768bc01872dcfa453331a" class="lcref" serial="">
-                      <title>Theorem 6.21</title>
+                    <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2070" chapter="6" slide="20">
+                      <title>UNDEFINED</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exists $a \in \mathbb{Z}$ such that $a\cdot 34 \equiv 1 \mod 27$.
 To find $a$, we perform the Euclidean Algorithm on $34$ and $27$:

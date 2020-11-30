@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -325,7 +326,7 @@ for some $c \in k$. </paragraphs>
                       <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove Part 1 of the claim by induction.
 If $f$ has degree 0, then $f$ is a nonzero constant, which implies that it has no roots.
 So, in this case the claim holds. </paragraphs>
-                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
                       <collapse course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $f$ be a polynomial with degree $n &gt; 0$.
 Suppose the claim holds for all nonzero polynomials with degrees strictly less than $n$.
@@ -350,7 +351,7 @@ So, $f$ has at most $n - 1$ roots different from $a$.  This shows that $f$ has a
                         </collapse>
                       </collapse>
                     </newcol>
-                    <hr environment="newcol" />
+                    <hr environment="newcol"/>
                   </li>
                   <li environment="newcol">
                     <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -448,7 +449,7 @@ $d \in k[x]$ with the following property: </paragraphs>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $(f, g) = (d)$ </paragraphs>
-                  <br environment="statement" />
+                  <br environment="statement"/>
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Moreover, this $d$ also satisfies the following properties: </paragraphs>
                 </li>
                 <li environment="statement">
@@ -494,7 +495,7 @@ is called the </paragraphs>
               </ul>
             </newcol>
             <newline course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="004062c7e7c889f00bd520c9fb77cc14" course="Math 2070" chapter="11" slide="12" of="954c0637ea39d29081b585eb905c1ed0">
               <newcol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
@@ -623,8 +624,8 @@ Then, any common divisor of $p$ and $f$ must have degree strictly less than $\de
 Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
 Hence, the GCD of $p$ and $f$ is $1$.
 By </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="16" src-course="Math 2070" src-chapter="11" src-slide="12" type="Corollary" item="11.11" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
-                  <title>Corollary 11.11</title>
+                <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="16">
+                  <title>UNDEFINED</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , there exist $a, b \in k[x]$ such that:
 \[
@@ -755,8 +756,8 @@ we want to find its multiplicative inverse $\ol{f}^{-1}$.
 If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
 that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
 $GCD(p, f) = 1$.  By </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="19" src-course="Math 2070" src-chapter="11" src-slide="12" type="Corollary" item="11.11" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
-                        <title>Corollary 11.11</title>
+                      <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="19">
+                        <title>UNDEFINED</title>
                       </ref>
                       <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist
 $g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,

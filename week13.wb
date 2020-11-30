@@ -412,7 +412,6 @@ splits into linear factors in $K[x]$.
 Hence, $f$ is a product of linear factors in $K[x]$.
 @qed@endcol@end-->
 @section{Finite Fields}
-
 Recall:
 @defn
 Let $R$ be a ring with additive and multiplicative identity elements $0$, $1$,

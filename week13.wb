@@ -513,8 +513,10 @@ It is clear that $K = k(\alpha)$, since any element in $K = k[t]/(f(t))$ has the
 
 On the other hand, by @ref{thm:simpleextthm}, every element in $k(\alpha)$ may be expressed uniquely in the form:
 \[
-c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f.
+c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f,
 \]
+which shows that $K = k(\alpha)$ is a vector space of dimension $\deg f$ over $k$.
+
 Since $K$ is simply $k[x]/(f)$ with the variable $x$ replaced with $t$,
 we conclude that $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
 @qed

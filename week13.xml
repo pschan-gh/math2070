@@ -723,7 +723,7 @@ it follows that $F$ has $p^n$ elements. </paragraphs>
               <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
 then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="74622056f848de03d60bee6480da1f86" course="Math 2070" chapter="13" slide="14" of="28fa23c4e14bd8c8b9590e028ec38a66">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="81fb2c347ead6074330a6100255fb631" course="Math 2070" chapter="13" slide="14" of="28fa23c4e14bd8c8b9590e028ec38a66">
               <newcol course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $K = k[t]/(f(t))$,
 then $K$ is a field extension of $k$ which contains a root $\alpha$ of $f$,
@@ -738,9 +738,11 @@ namely, $\alpha = t + (f(t))$.</paragraphs>
                   </ref>
                   <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, every element in $k(\alpha)$ may be expressed uniquely in the form:
 \[
-c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f.
+c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f,
 \]
-Since $K$ is simply $k[x]/(f)$ with the variable $x$ replaced with $t$,
+which shows that $K = k(\alpha)$ is a vector space of dimension $\deg f$ over $k$.</paragraphs>
+                  <newline course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Since $K$ is simply $k[x]/(f)$ with the variable $x$ replaced with $t$,
 we conclude that $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$. </paragraphs>
                   <qed course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol"/>
                 </collapse>

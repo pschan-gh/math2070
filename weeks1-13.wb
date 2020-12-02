@@ -256,7 +256,7 @@ then $\ord g$ divides $n$.
 @newcol
 Shown in class.
 @endcol
-@end@course{Math 2070}
+@end
 @week{2}
 @topic{Groups}
 @slide
@@ -648,7 +648,7 @@ and that the determinant function of matrices is multiplicative.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups7.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups8.pg}
-@endenumerate@course{Math 2070}
+@endenumerate
 @week{3}
 @topic{$\mathbb{Z}_n$}
 @topic{Subgroups}
@@ -937,7 +937,7 @@ G = \bigsqcup_{x \in \mathbb{R}^\times} s_x H.
 The index $[G: H]$ in this case is infinite.
 @end
 
-@course{Math 2070}
+
 @week{4}
 @topic{Lagrange's Theorem}
 @topic{Generators}
@@ -1250,7 +1250,7 @@ $\phi$ is one-to-one, for the two groups have the same size.
 Hence, $\phi$ is a bijective homomorphism, i.e. an isomorphism.
 @qed
 @endcol
-@end@course{Math 2070}
+@end
 @week{5}
 @topic{Group Homomorphisms}
 @topic{Rings}
@@ -1702,7 +1702,7 @@ Every subgroup of $\mathbb{Z}_n$ is cyclic.
 Every subgroup of a cyclic group is cyclic.
 @endcol
 @end
-@course{Math 2070}
+
 @week{6}
 @topic{Elementary Number Theory}
 @topic{Euclid's Lemma}
@@ -2470,7 +2470,7 @@ x \equiv 377 \mod 34\cdot 27
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences13.pg}
 @endenumerate
 @end
-@course{Math 2070}
+
 @week{7}
 @topic{Polynomials}
 @topic{Rings}
@@ -2941,7 +2941,7 @@ If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one e
 
 (We call such an $R$ the @keyword{zero ring} .)
 @endcol
-@end@course{Math 2070}
+@end
 @week{8}
 @topic{Rings}
 @topic{Integral Domains}
@@ -3603,7 +3603,7 @@ with $[(a, b)] \in \mathrm{Frac}(\mathbb{Z})$.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition10.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition12.pg}
-@endenumerate@course{Math 2070}
+@endenumerate
 @week{9}
 @topic{Ring Homomorphisms}
 @section{Homomorphisms}
@@ -3774,7 +3774,7 @@ This shows that $\phi^{-1}$ is a bijective homomorphism.
 @qed
 @endcol
 @end
-@course{Math 2070}
+
 @week{10}
 @topic{Ideals}
 @topic{Principal Ideal Domains}
@@ -4552,7 +4552,7 @@ R' \cong R/\ker \phi
 \]
 @end
 
-@course{Math 2070}
+
 @week{11}
 @topic{Quotient Rings}
 @topic{Polynomials over a Field}
@@ -5133,7 +5133,7 @@ It now follows from the First Isomorphism Theorem that
 $\mathbb{R}[x]/(x^2 + 1)\cong \mathbb{C}$.
 @qed
 @endcol
-@end@course{Math 2070}
+@end
 @week{12}
 @topic{Rational Root Theorem}
 @topic{Gauss's Theorem}
@@ -5493,7 +5493,7 @@ a contradiction.
 @eg
 The polynomial $x^5 + 3x^4 - 6x^3 +12x + 3$ is irreducible in $\mathbb{Q}[x]$. 
 @end
-@course{Math 2070}
+
 @week{13}
 @topic{Field Extensions}
 @topic{Finite Fields}

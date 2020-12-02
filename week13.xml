@@ -722,7 +722,7 @@ it follows that $F$ has $p^n$ elements. </paragraphs>
               <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
 then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f8fcc80d0b9dc3ab87f9c1edf5c8cc73" course="Math 2070" chapter="13" slide="14" of="28fa23c4e14bd8c8b9590e028ec38a66">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3a41b8ad2e429f46c66ddf9c7509393c" course="Math 2070" chapter="13" slide="14" of="28fa23c4e14bd8c8b9590e028ec38a66">
               <newcol course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $K = k[t]/(f(t))$,
 then $K$ is a field extension of $k$ which contains a root $\alpha$ of $f$,
@@ -734,11 +734,12 @@ namely, $\alpha = t + (f(t))$.</paragraphs>
                     <title>Theorem 13.4</title>
                   </ref>
                   <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
-$K = k(\alpha)$, and every element in $K$ may be expressed uniquely in the form:
+we may identify $k[x]/(f)$ with $k(\alpha)$ (via $x + (f) \mapsto \alpha$,
+and $c \mapsto c $ for all $c \in k$), in which every element may be expressed uniquely in the form:
 \[
 c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f.
 \]
-This shows that $K$ is a vector space of dimension $\deg f$ over $k$. </paragraphs>
+This shows that $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$. </paragraphs>
                   <qed course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol"/>
                 </collapse>
               </newcol>

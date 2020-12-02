@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
+    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+      <keyword chapter="" slide="all">Review</keyword>
+      <keyword chapter="" slide="all">Groups</keyword>
+      <keyword chapter="" slide="all">Rings</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="13" title="" course="Math 2070" serial="13">
+      <keywords slide="all" environ="chapter" chapter="13" course="Math 2070">
+        <keyword chapter="13" slide="all">Review</keyword>
+        <keyword chapter="13" slide="all">Groups</keyword>
+        <keyword chapter="13" slide="all">Rings</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" serial="13" slide=""/>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <keywords slide="2" environ="slide" chapter="13" course="Math 2070">
+            <keyword chapter="13" slide="2">Review</keyword>
+          </keywords>
+          <h2 xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">Review</paragraphs>
+          </h2>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="3" id="s3" slide="3" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="3" environ="slide" chapter="13" course="Math 2070">
+            <keyword chapter="13" slide="3">Groups</keyword>
+          </keywords>
+          <h3 xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">Groups</paragraphs>
+          </h3>
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+          <col_ol course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Definition</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Examples</paragraphs>
+              </b>
+              <newcol course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+S_n, A_n, D_n, \GL(n), \SL(n), \mathbb{Z}_n
+\] </paragraphs>
+              </newcol>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
+g^n = e_G \Leftrightarrow \ord g | n
+\] </paragraphs>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Subgroups</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">, </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Cosets</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Lagrange's Theorem</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
+\ord g\;|\;\abs{G}
+\] </paragraphs>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Generators</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
+D_n = \langle r, s\rangle,\quad srs = r^{-1}
+\] </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Cyclic groups</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
+\abs{\langle g \rangle} = \ord g \text{ if } \ord g &lt; \infty.
+\] </paragraphs>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> A group of prime order is necessarily cyclic. </paragraphs>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Group homomorphism</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">, </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Kernel</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">, </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Isomorphism</paragraphs>
+              </b>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Example</paragraphs>
+              </b>
+              <newcol course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Fix $h \in G$.
+\[
+\phi_h : G \longrightarrow G
+\]
+\[
+\phi_h(g) = h^{-1}gh, \quad g \in G.
+\] </paragraphs>
+              </newcol>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Any cyclic group is isomorphic to either $\mathbb{Z}_n$ or $\mathbb{Z}$. </paragraphs>
+            </col_li>
+          </col_ol>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="4" environ="slide" chapter="13" course="Math 2070">
+            <keyword chapter="13" slide="4">Rings</keyword>
+          </keywords>
+          <h3 xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">Rings</paragraphs>
+          </h3>
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+          <col_ol course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Definition</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Division Theorem</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> for $\mathbb{Z}$ and $k[x]$ ($k$ a field). </paragraphs>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">GCD</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">, </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">, </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">B&amp;eacute;zout's Identity</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Chinese Remainder Theorem</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Integral Domains</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">, </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Fields</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">, </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Field of Fractions</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Ring homomorphism</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">, </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Isomorphism</paragraphs>
+              </b>
+              <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">, </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Kernel</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Ideals</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Quotient Rings</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">First Isomorphism Theorem</paragraphs>
+              </b>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Example</paragraphs>
+              </b>
+              <newcol course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a, b \in \mathbb{Z}$, $gcd(a, b) = 1$.  Then:
+\[
+\mathbb{Z}/(ab) \cong \mathbb{Z}/(a) \times \mathbb{Z}/(b)
+\] </paragraphs>
+              </newcol>
+            </col_li>
+            <col_li course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">Example</paragraphs>
+              </b>
+              <newcol course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="13" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $I, J$ be ideals of a commutative ring $R$, such that:
+\[
+R = I + J := \{i + j : i\in I, j \in J\} 
+\]
+Then,
+\[
+R/(I \cap J) \cong R/I \times R/J.
+\] </paragraphs>
+              </newcol>
+            </col_li>
+          </col_ol>
+        </slide>
+      </slides>
+    </chapter>
+  </course>
+</document>

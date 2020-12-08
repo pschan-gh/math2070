@@ -168,8 +168,8 @@ on a set of $n$ elements (see </paragraphs>
                   <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="lagrangethm" wbtag="ref" course="Math 2070" chapter="4" slide="6">
-                      <title>UNDEFINED</title>
+                    <ref environment="newcol" chapter_type="" label="lagrangethm" wbtag="ref" course="Math 2070" chapter="4" slide="6" src-course="Math 2070" src-chapter="4" src-slide="3" type="Theorem" item="4.1" src-filename="week4.xml" md5="73d51b0af4e4da963c2c84cd31fb0993" class="lcref" serial="">
+                      <title>Lagrange's Theorem</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that:
 \[\abs{A_n} = \frac{\abs{S_n}}{[S_n: A_n]} = \frac{n!}{2}.\] </paragraphs>

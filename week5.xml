@@ -518,8 +518,8 @@ We have therefore established the uniqueness of $q$ and $r$.</paragraphs>
               <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
               <h5 xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">Another Proof of the </paragraphs>
-                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" label="thm:divalg" wbtag="ref" course="Math 2070" chapter="5" slide="11">
-                  <title>UNDEFINED</title>
+                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" label="thm:divalg" wbtag="ref" course="Math 2070" chapter="5" slide="11" src-course="Math 2070" src-chapter="5" src-slide="11" type="Theorem" item="5.11" src-filename="week5.xml" md5="e5d1712cf6968618cdae2a8007d5ffb6" class="lcref" serial="">
+                  <title>Division Theorem</title>
                 </ref>
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">.</paragraphs>
               </h5>

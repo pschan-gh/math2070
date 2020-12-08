@@ -624,8 +624,8 @@ Then, any common divisor of $p$ and $f$ must have degree strictly less than $\de
 Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
 Hence, the GCD of $p$ and $f$ is $1$.
 By </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="16">
-                  <title>UNDEFINED</title>
+                <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="16" src-course="Math 2070" src-chapter="11" src-slide="12" type="Corollary" item="11.11" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
+                  <title>Corollary 11.11</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , there exist $a, b \in k[x]$ such that:
 \[
@@ -756,8 +756,8 @@ we want to find its multiplicative inverse $\ol{f}^{-1}$.
 If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
 that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
 $GCD(p, f) = 1$.  By </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="19">
-                        <title>UNDEFINED</title>
+                      <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2070" chapter="11" slide="19" src-course="Math 2070" src-chapter="11" src-slide="12" type="Corollary" item="11.11" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
+                        <title>Corollary 11.11</title>
                       </ref>
                       <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist
 $g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,

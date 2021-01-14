@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -69,7 +68,7 @@ If no such $n$ exists, we say that $g$ has </paragraphs>
             <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">. </paragraphs>
           </statement>
           <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-          <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
           <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" md5="682fc761ecf19d9c07d8b7b1a587af06" course="Math 2070" chapter="2" slide="3" item="2.2">
             <label wbtag="label" name="thm:orderdividesn" type="Theorem"/>
             <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -81,7 +80,7 @@ then $\ord g$ is finite, and moreover $\ord g$ divides $n$. </paragraphs>
           <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="723807213862930cca60acb6037d74ca" course="Math 2070" chapter="2" slide="3" of="682fc761ecf19d9c07d8b7b1a587af06">
             <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Shown in class. </paragraphs>
           </substatement>
-          <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
           <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
           <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="7f335260865edba17debc220ef37b93d" course="Math 2070" chapter="2" slide="3" item="2.3">
             <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -372,13 +371,13 @@ of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say tha
               <collapse course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
 and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$. </paragraphs>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
                   <a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" environment="newcol">
-                    <img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" width="450" environment="newcol"/>
+                    <img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" environment="newcol" />
                   </a>
-                  <center environment="center">
+                  <center environment="newcol">
                     <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                       <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By </paragraphs>
                       <a xmlns="http://www.w3.org/1999/xhtml" href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&amp;action=edit&amp;redlink=1" class="new" title="User:Jim.belk (page does not exist)" environment="newcol">
@@ -479,7 +478,7 @@ This corresponds to the fact that $3$ is fixed by $\sigma$.</paragraphs>
               <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Discussed in class. </paragraphs>
             </substatement>
             <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="14" md5="1a70f04ee63e1f779de5b660b360d2a0" course="Math 2070" chapter="2" slide="10" item="2.14">
               <newcol course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Disjoint cycles commute with each other. </paragraphs>

@@ -114,7 +114,7 @@ where $f * g:= f \circ g$ (i.e. composition of functions).
 <table class="table table-bordered" border="2" cellpadding="5" align="center" style="text-align: center;">
 <tbody>
 <tr>
-<th style="background:#efefef;text-align:center">*</th><th style="background:#efefef;text-align:center">$a$</th><th style="background:#efefef;text-align:center">$b$</th><th style="background:#efefef;text-align:center">$c$</th></tr><tr>
+<th style="background:#efefef;text-align:center">$\large\ast$</th><th style="background:#efefef;text-align:center">$a$</th><th style="background:#efefef;text-align:center">$b$</th><th style="background:#efefef;text-align:center">$c$</th></tr><tr>
 <th style="background:#efefef;text-align:center">$a$</th><td>$a^2$</td><td>$ab$</td><td>$ac$</td></tr><tr>
 <th style="background:#efefef;text-align:center">$b$</th><td>$ba$</td><td>$b^2$</td><td>$bc$</td></tr><tr>
 <th style="background:#efefef;text-align:center">$c$</th><td>$ca$</td><td>$cb$</td><td>$c^2$</td></tr></tbody></table></a></div>
@@ -126,7 +126,7 @@ where $f * g:= f \circ g$ (i.e. composition of functions).
 <table class="table table-bordered" width="200" style="text-align: center;">
 <tbody>
 <tr>
-<th style="text-align: center;"> * </th><th style="background:#efefef;text-align:center">$r_0$</th><th style="background:#efefef;text-align:center">$r_1$</th><th style="background:#efefef;text-align:center">$r_2$</th><th style="background:#efefef;text-align:center">$s_0$</th><th style="background:#efefef;text-align:center">$s_1$</th><th style="background:#efefef;text-align:center">$s_2$</th></tr><tr>
+<th style="text-align: center;">$\large\ast$</th><th style="background:#efefef;text-align:center">$r_0$</th><th style="background:#efefef;text-align:center">$r_1$</th><th style="background:#efefef;text-align:center">$r_2$</th><th style="background:#efefef;text-align:center">$s_0$</th><th style="background:#efefef;text-align:center">$s_1$</th><th style="background:#efefef;text-align:center">$s_2$</th></tr><tr>
 <th style="background:#efefef;text-align:center">$r_0$</th><td>$r_0$</td><td>$r_1$</td><td>$r_2$</td><td>$s_0$</td><td>$s_1$</td><td>$s_2$</td></tr><tr>
 <th style="background:#efefef;text-align:center">$r_1$</th><td>$r_1$</td><td>$r_2$</td><td>$r_0$</td><td>$s_1$</td><td>$s_2$</td><td>$s_0$</td></tr><tr>
 <th style="background:#efefef;text-align:center">$r_2$</th><td>$r_2$</td><td>$r_0$</td><td>$r_1$</td><td>$s_2$</td><td>$s_0$</td><td>$s_1$</td></tr><tr>

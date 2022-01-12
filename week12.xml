@@ -25,10 +25,10 @@
         <keyword chapter="12" slide="all">Gauss's Theorem</keyword>
         <keyword chapter="12" slide="all">Eisenstein's Criterion</keyword>
       </keywords>
-      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="12" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Rational Root Theorem</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Gauss's Theorem</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Eisenstein's Criterion</topic>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="" slide="">Rational Root Theorem</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="" slide="">Gauss's Theorem</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" serial="" slide="">Eisenstein's Criterion</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="12" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
@@ -39,7 +39,7 @@
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Polynomials over mathbbZ and mathbbQ" course="Math 2070" chapter="12" num="1" serial="12.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="12.1" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Polynomials over $\mathbb{Z}$ and $\mathbb{Q}$</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -58,7 +58,8 @@ Every rational root $r$ of $f$ in $\mathbb{Q}$ has the form
 $r = b/c$ $(b, c \in \mathbb{Z})$ where $b | a_0$ and $c | a_n$.  </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="69afa5c1500692c9cdfffd7b31823c7c" course="Math 2070" chapter="12" slide="3" of="3c0464ad4416b97d36141ffd6ad5e3fd">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="69afa5c1500692c9cdfffd7b31823c7c" course="Math 2070" chapter="12" slide="3" of="3c0464ad4416b97d36141ffd6ad5e3fd" of-src-course="Math 2070" of-src-chapter="12" of-src-slide="3" of-type="Theorem" of-item="12.1" of-src-filename="week12.xml" ofmd5="3c0464ad4416b97d36141ffd6ad5e3fd" of-serial="">
+              <of-title hidden="true">Rational Root Theorem</of-title>
               <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $r = b/c$ be a rational root of $f$, where $b, c$ are relatively prime integers.
 We have:
@@ -124,7 +125,8 @@ in $\mathbb{Z}[x]$.  </paragraphs>
               <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $f, g \in \mathbb{Z}[x]$ are both primitive, then $fg$ is primitive.  </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d5f8571d4c718bdbab64370dd5708211" course="Math 2070" chapter="12" slide="5" of="af808fc5ae8233666af7e81712828d29">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d5f8571d4c718bdbab64370dd5708211" course="Math 2070" chapter="12" slide="5" of="af808fc5ae8233666af7e81712828d29" of-src-course="Math 2070" of-src-chapter="12" of-src-slide="5" of-type="Lemma" of-item="12.3" of-src-filename="week12.xml" ofmd5="af808fc5ae8233666af7e81712828d29" of-serial="">
+              <of-title hidden="true">Gauss's Lemma</of-title>
               <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Write $f = \sum_{k = 0}^m a_k x^k$, $g = \sum_{k = 0}^n b_k x^k$.
 Then, $fg = \sum_{k = 0}^{m+n}c_kx^k$, where:
@@ -188,7 +190,8 @@ where $c(f)$ is a positive rational number, and $f_0$ is a primitive polynomial 
                 <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> of $f$.  </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="92b6096f2562a831af54897eb7f05aca" course="Math 2070" chapter="12" slide="6" of="659d6ecb092d39d82f9c5db4d89cd7d7">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="92b6096f2562a831af54897eb7f05aca" course="Math 2070" chapter="12" slide="6" of="659d6ecb092d39d82f9c5db4d89cd7d7" of-src-course="Math 2070" of-src-chapter="12" of-src-slide="6" of-type="Definition" of-item="12.5" of-src-filename="week12.xml" ofmd5="659d6ecb092d39d82f9c5db4d89cd7d7" of-serial="">
+              <of-title hidden="true">Definition 12.5</of-title>
               <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <b xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="newcol">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Existence:</paragraphs>
@@ -240,7 +243,8 @@ Hence, $e = c(f)$, and $f_1 = f_0$.  </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" md5="acfea83363e1d036576467fd3f6d15be" course="Math 2070" chapter="12" slide="7" item="12.6">
               <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For $f \in \mathbb{Z}[x] \subseteq \mathbb{Q}[x]$, we have $c(f) \in \mathbb{Z}$.  </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4009b1c4ad404437e3586bad1d374665" course="Math 2070" chapter="12" slide="7" of="acfea83363e1d036576467fd3f6d15be">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4009b1c4ad404437e3586bad1d374665" course="Math 2070" chapter="12" slide="7" of="acfea83363e1d036576467fd3f6d15be" of-src-course="Math 2070" of-src-chapter="12" of-src-slide="7" of-type="Corollary" of-item="12.6" of-src-filename="week12.xml" ofmd5="acfea83363e1d036576467fd3f6d15be" of-serial="">
+              <of-title hidden="true">Corollary 12.6</of-title>
               <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $d$ be the gcd of the coefficients of $f$.  Then, $(1/d)f$
 is a primitive polynomial, and
@@ -262,7 +266,8 @@ Hence, by uniqueness of $c(f)$ and $f_0$, we have $c(f) = d \in \mathbb{Z}$.  </
               <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f, g, h$ be nonzero polynomials in $\mathbb{Q}[x]$ such that $f = gh$.
 Then, $f_0 = g_0h_0$ and $c(f) = c(g)c(h)$.  </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="973b16b6cd3dce7653231aebbb4564b5" course="Math 2070" chapter="12" slide="8" of="b6714075a8500245e9a1da8997c1755b">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="973b16b6cd3dce7653231aebbb4564b5" course="Math 2070" chapter="12" slide="8" of="b6714075a8500245e9a1da8997c1755b" of-src-course="Math 2070" of-src-chapter="12" of-src-slide="8" of-type="Corollary" of-item="12.7" of-src-filename="week12.xml" ofmd5="b6714075a8500245e9a1da8997c1755b" of-serial="">
+              <of-title hidden="true">Corollary 12.7</of-title>
               <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The condition $f = gh$ implies that:
 \[
@@ -291,7 +296,8 @@ $\deg g = \deg G$, $\deg h = \deg H$.</paragraphs>
               <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Consequently, if $f$ cannot be factored into a product of polynomials of smaller degrees in $\mathbb{Z}[x]$,
 then it is irreducible as a polynomial in $\mathbb{Q}[x]$.  </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c4756254d9dc0fb74981ccd467aee9a" course="Math 2070" chapter="12" slide="9" of="f569f469324025f59c31b4330b6a3d77">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c4756254d9dc0fb74981ccd467aee9a" course="Math 2070" chapter="12" slide="9" of="f569f469324025f59c31b4330b6a3d77" of-src-course="Math 2070" of-src-chapter="12" of-src-slide="9" of-type="Theorem" of-item="12.8" of-src-filename="week12.xml" ofmd5="f569f469324025f59c31b4330b6a3d77" of-serial="">
+              <of-title hidden="true">Gauss's Theorem</of-title>
               <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $f = GH$ for some $G, H$ in $\mathbb{Q}[x]$.
 Then $f = c(f) f_0 = c(G)c(H) G_0 H_0$,
@@ -325,7 +331,8 @@ such that $p \nmid a_n$ (in particular, $a_n \neq 0$).
 If $\ol{f} := \sum_{k = 0}^n \ol{a_k}x^k$ is irreducible in $\mathbb{F}_p[x]$,
 then $f$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d9ad97b972ed759d61631d562ff171c3" course="Math 2070" chapter="12" slide="10" of="b3315c7bc4fe2358ae8c9651cd40bd00">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d9ad97b972ed759d61631d562ff171c3" course="Math 2070" chapter="12" slide="10" of="b3315c7bc4fe2358ae8c9651cd40bd00" of-src-course="Math 2070" of-src-chapter="12" of-src-slide="10" of-type="Theorem" of-item="12.9" of-src-filename="week12.xml" ofmd5="b3315c7bc4fe2358ae8c9651cd40bd00" of-serial="">
+              <of-title hidden="true">Theorem 12.9</of-title>
               <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\ol{f}$ is irreducible in $\mathbb{F}_p[x]$,
 but $f$ is not irreducible in $\mathbb{Q}[x]$.
@@ -363,7 +370,8 @@ This contradicts the irreducibility of $\ol{f}$ in $\mathbb{F}_p[x]$.</paragraph
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="affb2f9b427acb080edfcb267de8f12c" course="Math 2070" chapter="12" slide="11" item="12.10">
               <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The polynomial $f(x) = x^4 - 5x^3 + 2x + 3 \in \mathbb{Q}[x]$ is irreducible.  </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="c2727f1dbeca94d1412c44da38fc7a9f" course="Math 2070" chapter="12" slide="11" of="affb2f9b427acb080edfcb267de8f12c">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="c2727f1dbeca94d1412c44da38fc7a9f" course="Math 2070" chapter="12" slide="11" of="affb2f9b427acb080edfcb267de8f12c" of-src-course="Math 2070" of-src-chapter="12" of-src-slide="11" of-type="Example" of-item="12.10" of-src-filename="week12.xml" ofmd5="affb2f9b427acb080edfcb267de8f12c" of-serial="">
+              <of-title hidden="true">Example 12.10</of-title>
               <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider $\ol{f} = x^4 -\ol{5}x^3 + \ol{2}x + \ol{3} = x^4 + x^3 + 1$ in $\mathbb{F}_2[x]$.
 If we can show that $\ol{f}$ is irreducible, then by the previous theorem we can
@@ -422,7 +430,8 @@ that $f$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
 If there exists a prime $p$ such that $p | a_i$ for $0 \leq i &lt; n$, but $p \nmid a_n$ and
 $p^2 \nmid a_0$, then $f$ is irreducible in $\mathbb{Q}[x]$.  </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b699c0aca3f7581de8cf068ff0145f35" course="Math 2070" chapter="12" slide="12" of="c70386bd8f4f800e68f019faaa5f28d3">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b699c0aca3f7581de8cf068ff0145f35" course="Math 2070" chapter="12" slide="12" of="c70386bd8f4f800e68f019faaa5f28d3" of-src-course="Math 2070" of-src-chapter="12" of-src-slide="12" of-type="Theorem" of-item="12.11" of-src-filename="week12.xml" ofmd5="c70386bd8f4f800e68f019faaa5f28d3" of-serial="">
+              <of-title hidden="true">Eisenstein's Criterion</of-title>
               <newcol course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove by contradiction.  Suppose $f$ is not irreducible in $\mathbb{Q}[x]$.
 Then, by Gauss's Theorem, there exists $g = \sum_{k = 0}^l b_kx^k$,

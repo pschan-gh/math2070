@@ -27,9 +27,9 @@
         <keyword chapter="13" slide="all">characteristic</keyword>
         <keyword chapter="13" slide="all">characteristic zero</keyword>
       </keywords>
-      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" serial="13" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" serial="13" slide="">Field Extensions</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" serial="13" slide="">Finite Fields</topic>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" serial="" slide="">Field Extensions</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" serial="" slide="">Finite Fields</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
@@ -39,7 +39,7 @@
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Field Extensions" course="Math 2070" chapter="13" num="1" serial="13.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="13" section="1" subsection="" subsubsection="" serial="13.1" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Field Extensions</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -211,11 +211,12 @@ $b_0 + b_1 \alpha + b_2\alpha^2$ is the multiplicative inverse of $\gamma$ in $\
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Field Extensions">
             <keywords slide="6" environ="slide" chapter="13" course="Math 2070"/>
             <newline course="Math 2070" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e85e9a24a97018cc8b9bd03cffec0900" course="Math 2070" chapter="13" slide="6" of="560320ff85249a3b84d112c63be42a76">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e85e9a24a97018cc8b9bd03cffec0900" course="Math 2070" chapter="13" slide="6" of="560320ff85249a3b84d112c63be42a76" of-src-course="Math 2070" of-src-chapter="13" of-src-slide="5" of-type="Exercise" of-item="13.6" of-src-filename="week13.xml" ofmd5="560320ff85249a3b84d112c63be42a76" of-serial="">
+              <of-title hidden="true">Exercise 13.6</of-title>
               <paragraphs course="Math 2070" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> (</paragraphs>
               <span xmlns="http://www.w3.org/1999/xhtml" style="color:SteelBLue" environment="substatement">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">of </paragraphs>
-                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2070" chapter="13" slide="6" src-course="Math 2070" src-chapter="13" src-slide="4" type="Theorem" item="13.4" src-filename="week13.xml" md5="506a330a556dc38bd7de9fe38a7ecd19" class="lcref" serial="">
+                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2070" chapter="13" slide="6" referrer-type="Proof" referrer-md5="e85e9a24a97018cc8b9bd03cffec0900" src-course="Math 2070" src-chapter="13" src-slide="4" type="Theorem" item="13.4" src-filename="week13.xml" md5="506a330a556dc38bd7de9fe38a7ecd19" class="lcref" serial="">
                   <title>Theorem 13.4</title>
                 </ref>
               </span>
@@ -241,7 +242,7 @@ Hence, $p | f$ in $k[x]$.</paragraphs>
 which is isomorphic to $k[x]/(p)$.  In particular, $\im \psi$ is an integral domain
 because $K$ has no zero divisors.
 Hence, by </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="thm:pirredfield" wbtag="ref" course="Math 2070" chapter="13" slide="6" src-course="Math 2070" src-chapter="11" src-slide="19" type="Theorem" item="11.20" src-filename="week11.xml" md5="b03e893af14e9abfb5b10e2dab6cac75" class="lcref" serial="">
+                      <ref environment="newcol" chapter_type="" label="thm:pirredfield" wbtag="ref" course="Math 2070" chapter="13" slide="6" referrer-type="Proof" referrer-md5="e85e9a24a97018cc8b9bd03cffec0900" src-course="Math 2070" src-chapter="11" src-slide="19" type="Theorem" item="11.20" src-filename="week11.xml" md5="b03e893af14e9abfb5b10e2dab6cac75" class="lcref" serial="">
                         <title>Theorem 11.20</title>
                       </ref>
                       <paragraphs course="Math 2070" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , the polynomial $p$ is an irreducible in $k[x]$.</paragraphs>
@@ -417,7 +418,7 @@ where $c_i \in \mathbb{Q}$, if possible. </paragraphs>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Splitting Field" course="Math 2070" chapter="13" num="2" serial="13.2">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="13" section="2" subsection="" subsubsection="" serial="13.2" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="13" section="2" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="13" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Splitting Field</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -464,7 +465,8 @@ for some $c, \alpha_i \in K$. </paragraphs>
                 </collapse>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="a8623d8ca4e4d9fed35aba57ea62a80d" course="Math 2070" chapter="13" slide="9" of="4ceb83b7facc0d38bbaccbd9be28af5f">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="a8623d8ca4e4d9fed35aba57ea62a80d" course="Math 2070" chapter="13" slide="9" of="4ceb83b7facc0d38bbaccbd9be28af5f" of-src-course="Math 2070" of-src-chapter="13" of-src-slide="9" of-type="Theorem" of-item="13.11" of-src-filename="week13.xml" ofmd5="4ceb83b7facc0d38bbaccbd9be28af5f" of-serial="">
+              <of-title hidden="true">Theorem 13.11</of-title>
               <newcol course="Math 2070" chapter="13" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="13" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove by induction on $\deg f$.</paragraphs>
                 <newline course="Math 2070" chapter="13" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
@@ -527,7 +529,7 @@ splits into linear factors in $K[x]$.</paragraphs>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 2070" chapter="13" num="3" serial="13.3">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="13" section="3" subsection="" subsubsection="" serial="13.3" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="13" section="3" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -601,7 +603,7 @@ Hence, $f$ is a product of linear factors in $K[x]$.
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Finite Fields" course="Math 2070" chapter="13" num="4" serial="13.4">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="13" section="4" subsection="" subsubsection="" serial="13.4" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="13" section="4" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Finite Fields</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -680,7 +682,8 @@ e.g. the polynomial ring $\mathbb{F}_5[x]$. </paragraphs>
               <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
 for some prime $p$ and $n \in \mathbb{N}$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="375aba184a252cca59e6dec26ed75e02" course="Math 2070" chapter="13" slide="13" of="251ca2836934fecac69830955005cbfb">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="375aba184a252cca59e6dec26ed75e02" course="Math 2070" chapter="13" slide="13" of="251ca2836934fecac69830955005cbfb" of-src-course="Math 2070" of-src-chapter="13" of-src-slide="13" of-type="Claim" of-item="13.17" of-src-filename="week13.xml" ofmd5="251ca2836934fecac69830955005cbfb" of-serial="">
+              <of-title hidden="true">Claim 13.17</of-title>
               <newcol course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $F$ is finite, it has finite characteristic.  Since it is a field,
 $\mathrm{char}\, F$ is a prime $p$.</paragraphs>
@@ -723,7 +726,8 @@ it follows that $F$ has $p^n$ elements. </paragraphs>
               <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
 then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="81fb2c347ead6074330a6100255fb631" course="Math 2070" chapter="13" slide="14" of="28fa23c4e14bd8c8b9590e028ec38a66">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="81fb2c347ead6074330a6100255fb631" course="Math 2070" chapter="13" slide="14" of="28fa23c4e14bd8c8b9590e028ec38a66" of-src-course="Math 2070" of-src-chapter="13" of-src-slide="14" of-type="Claim" of-item="13.18" of-src-filename="week13.xml" ofmd5="28fa23c4e14bd8c8b9590e028ec38a66" of-serial="">
+              <of-title hidden="true">Claim 13.18</of-title>
               <newcol course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $K = k[t]/(f(t))$,
 then $K$ is a field extension of $k$ which contains a root $\alpha$ of $f$,
@@ -733,7 +737,7 @@ namely, $\alpha = t + (f(t))$.</paragraphs>
                   <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It is clear that $K = k(\alpha)$, since any element in $K = k[t]/(f(t))$ has the form $\sum b_i\alpha^i$, where $b_i \in k$.</paragraphs>
                   <newline course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol"/>
                   <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">On the other hand, by </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2070" chapter="13" slide="14" src-course="Math 2070" src-chapter="13" src-slide="4" type="Theorem" item="13.4" src-filename="week13.xml" md5="506a330a556dc38bd7de9fe38a7ecd19" class="lcref" serial="">
+                  <ref environment="newcol" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2070" chapter="13" slide="14" referrer-type="Proof" referrer-md5="81fb2c347ead6074330a6100255fb631" src-course="Math 2070" src-chapter="13" src-slide="4" type="Theorem" item="13.4" src-filename="week13.xml" md5="506a330a556dc38bd7de9fe38a7ecd19" class="lcref" serial="">
                     <title>Theorem 13.4</title>
                   </ref>
                   <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, every element in $k(\alpha)$ may be expressed uniquely in the form:
@@ -793,7 +797,8 @@ is a field with $4$ elements. </paragraphs>
 Given any prime $p$ and $n \in \mathbb{N}$,
 there exists a finite field $F$ with $p^n$ elements. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="61f409441d51772cc9fbded6fec5243f" course="Math 2070" chapter="13" slide="16" of="2d2fc29df24817ebce011011a2a6fad0">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="61f409441d51772cc9fbded6fec5243f" course="Math 2070" chapter="13" slide="16" of="2d2fc29df24817ebce011011a2a6fad0" of-src-course="Math 2070" of-src-chapter="13" of-src-slide="16" of-type="Theorem" of-item="13.21" of-src-filename="week13.xml" ofmd5="2d2fc29df24817ebce011011a2a6fad0" of-serial="">
+              <of-title hidden="true">Theorem 13.21</of-title>
               <paragraphs course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> (Not within the scope of the course.)</paragraphs>
               <newline course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="substatement"/>
               <newcol course="Math 2070" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">

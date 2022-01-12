@@ -31,10 +31,10 @@
         <keyword chapter="8" slide="all">quotient set</keyword>
         <keyword chapter="8" slide="all">Fraction Field</keyword>
       </keywords>
-      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="8" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="8" slide="">Rings</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="8" slide="">Integral Domains</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="8" slide="">Fields</topic>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="" slide="">Rings</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="" slide="">Integral Domains</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" serial="" slide="">Fields</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="8" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
@@ -45,7 +45,7 @@
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Integral Domains Units" course="Math 2070" chapter="8" num="1" serial="8.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" serial="8.1" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="8" section="1" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Integral Domains, Units</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -94,7 +94,8 @@ where the addition and multiplication on the right are the usual addition and mu
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" md5="819ae89e5a5c75d0f88a5cbffbeb4735" course="Math 2070" chapter="8" slide="5" item="8.4">
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> With addition and multiplication thus defined, $\mathbb{Z}_m$ is a commutative ring. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3836b8945ad743702d04f76f86ebfcb3" course="Math 2070" chapter="8" slide="5" of="819ae89e5a5c75d0f88a5cbffbeb4735">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3836b8945ad743702d04f76f86ebfcb3" course="Math 2070" chapter="8" slide="5" of="819ae89e5a5c75d0f88a5cbffbeb4735" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="5" of-type="Claim" of-item="8.4" of-src-filename="week8.xml" ofmd5="819ae89e5a5c75d0f88a5cbffbeb4735" of-serial="">
+              <of-title hidden="true">Claim 8.4</of-title>
               <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
@@ -104,11 +105,11 @@ since addition for integers is commutative.  So, $+_m$ is commutative. </paragra
                   <col_li course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For any $r_1, r_2 \in \mathbb{Z}$,
 by </paragraphs>
-                    <ref environment="col_ol" chapter_type="" label="claim:congremainder" wbtag="ref" course="Math 2070" chapter="8" slide="5" src-course="Math 2070" src-chapter="6" src-slide="14" type="Claim" item="6.17" src-filename="week6.xml" md5="d884acf7c8ea7ec4fb60499df8725ef2" class="lcref" serial="">
+                    <ref environment="col_ol" chapter_type="" label="claim:congremainder" wbtag="ref" course="Math 2070" chapter="8" slide="5" referrer-type="Proof" referrer-md5="3836b8945ad743702d04f76f86ebfcb3" src-course="Math 2070" src-chapter="6" src-slide="14" type="Claim" item="6.17" src-filename="week6.xml" md5="d884acf7c8ea7ec4fb60499df8725ef2" class="lcref" serial="">
                       <title>Claim 6.17</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> and </paragraphs>
-                    <ref environment="col_ol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2070" chapter="8" slide="5" src-course="Math 2070" src-chapter="6" src-slide="15" type="Theorem" item="6.19" src-filename="week6.xml" md5="14a4a87fe292c8015bdeac65486af4b4" class="lcref" serial="">
+                    <ref environment="col_ol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2070" chapter="8" slide="5" referrer-type="Proof" referrer-md5="3836b8945ad743702d04f76f86ebfcb3" src-course="Math 2070" src-chapter="6" src-slide="15" type="Theorem" item="6.19" src-filename="week6.xml" md5="14a4a87fe292c8015bdeac65486af4b4" class="lcref" serial="">
                       <title>Theorem 6.19</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> ,
@@ -278,7 +279,8 @@ the </paragraphs>
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> holds for multiplication.  That is:
 Whenever $ca = cb$ and $c\neq 0$, we have $a = b$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="76baeaa9b9841a22bffe170005089be3" course="Math 2070" chapter="8" slide="7" of="cd5d13765e4cbae70f4b39fc2e55ff0e">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="76baeaa9b9841a22bffe170005089be3" course="Math 2070" chapter="8" slide="7" of="cd5d13765e4cbae70f4b39fc2e55ff0e" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="7" of-type="Claim" of-item="8.8" of-src-filename="week8.xml" ofmd5="cd5d13765e4cbae70f4b39fc2e55ff0e" of-serial="">
+              <of-title hidden="true">Claim 8.8</of-title>
               <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $R$ is an integral domain.</paragraphs>
                 <newline course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
@@ -411,7 +413,8 @@ a contradiction.  So, $10$ is not a unit in $\mathbb{Z}_{25}$. </paragraphs>
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $m \in \mathbb{N}$ be greater than one.  Then, $r \in \mathbb{Z}_m$ is a unit
 if and only if $r$ and $m$ are relatively prime; i.e. $gcd(r, m) = 1$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0d43976f409bcbbdadc972ae9819ec1b" course="Math 2070" chapter="8" slide="11" of="0e0111cd0ed7b5ce2130f804227cafe1">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0d43976f409bcbbdadc972ae9819ec1b" course="Math 2070" chapter="8" slide="11" of="0e0111cd0ed7b5ce2130f804227cafe1" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="11" of-type="Claim" of-item="8.15" of-src-filename="week8.xml" ofmd5="0e0111cd0ed7b5ce2130f804227cafe1" of-serial="">
+              <of-title hidden="true">Claim 8.15</of-title>
               <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $r \in \{0, 1, 2,\ldots, m - 1\}$ is a unit in $\mathbb{Z}_m$, then
 there exists $r^{-1} \in \mathbb{Z}_m$ such that $r\cdot r^{-1} \equiv 1 \mod m$.</paragraphs>
@@ -467,7 +470,8 @@ then $f \in R$ is a unit if and only if it is either strictly positive or strict
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="19" md5="6d231a348d60a74ccb5a6a7bd787da4c" course="Math 2070" chapter="8" slide="13" item="8.19">
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The only units of $\mathbb{Q}[x]$ are nonzero constants. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="599600c3a054ab08194724000efa8433" course="Math 2070" chapter="8" slide="13" of="6d231a348d60a74ccb5a6a7bd787da4c">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="599600c3a054ab08194724000efa8433" course="Math 2070" chapter="8" slide="13" of="6d231a348d60a74ccb5a6a7bd787da4c" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="13" of-type="Claim" of-item="8.19" of-src-filename="week8.xml" ofmd5="6d231a348d60a74ccb5a6a7bd787da4c" of-serial="">
+              <of-title hidden="true">Claim 8.19</of-title>
               <newcol course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given any $f \in \mathbb{Q}[x]$ such that $\deg f &gt; 0$, for all nonzero $g \in \mathbb{Q}[x]$ we have
 \[
@@ -522,7 +526,7 @@ has no multiplicative inverse. </paragraphs>
         </subsection>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Fields" course="Math 2070" chapter="8" num="2" serial="8.2">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" serial="8.2" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="8" section="2" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Fields</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -578,7 +582,8 @@ it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if 
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Equipped with the usual operations of addition and multiplications for real numbers,
 $F = \mathbb{Q}[\sqrt{2}] := \{a + b\sqrt{2}|a, b \in \mathbb{Q}\}$ is a field. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f0a53667913977f5ca6664749872a2bd" course="Math 2070" chapter="8" slide="17" of="cc936e1ed3ca39c8479a3b2338105bdf">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f0a53667913977f5ca6664749872a2bd" course="Math 2070" chapter="8" slide="17" of="cc936e1ed3ca39c8479a3b2338105bdf" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="17" of-type="Claim" of-item="8.22" of-src-filename="week8.xml" ofmd5="cc936e1ed3ca39c8479a3b2338105bdf" of-serial="">
+              <of-title hidden="true">Claim 8.22</of-title>
               <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that:
 $(a + b\sqrt{2}) + (c + d\sqrt{2}) = (a + c) + (b + d)\sqrt{2}$ lies in $F$,
@@ -639,7 +644,8 @@ which lies in $F$. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="23" md5="6a657d0bc28f21508fd741fb2382fa18" course="Math 2070" chapter="8" slide="18" item="8.23">
               <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> All finite integral domains are fields. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="22771a1dd20e60a22b777380bdf5d002" course="Math 2070" chapter="8" slide="18" of="6a657d0bc28f21508fd741fb2382fa18">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="22771a1dd20e60a22b777380bdf5d002" course="Math 2070" chapter="8" slide="18" of="6a657d0bc28f21508fd741fb2382fa18" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="18" of-type="Claim" of-item="8.23" of-src-filename="week8.xml" ofmd5="6a657d0bc28f21508fd741fb2382fa18" of-serial="">
+              <of-title hidden="true">Claim 8.23</of-title>
               <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $R$ be an integral domain with $n$ elements, where $n$ is finite.
 Write $R = \{a_1, a_2, \ldots, a_{n}\}$.</paragraphs>
@@ -711,7 +717,7 @@ We define a relation $\equiv$ on $R \times R_{\neq 0}$ as follows:
 \[
 (a, b) \equiv (c, d) \text{ if } ad = bc.
 \] </paragraphs>
-                <statement environment="statement" chapter_type="" type="Lemma" wbtag="lemma" num="24" md5="45777aaa95215986561c973de5594246" course="Math 2070" chapter="8" slide="20" item="8.24">
+                <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="24" md5="45777aaa95215986561c973de5594246" course="Math 2070" chapter="8" slide="20" item="8.24">
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> The relation $\equiv$ is an equivalence relation.</paragraphs>
                     <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
@@ -741,7 +747,8 @@ then $(a, b) \equiv (e, f)$. </paragraphs>
                     </collapse>
                   </newcol>
                 </statement>
-                <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="8" slide="20" of="45777aaa95215986561c973de5594246">
+                <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="8" slide="20" of="45777aaa95215986561c973de5594246" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="20" of-type="Lemma" of-item="8.24" of-src-filename="week8.xml" ofmd5="45777aaa95215986561c973de5594246" of-serial="">
+                  <of-title hidden="true">Lemma 8.24</of-title>
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
@@ -769,7 +776,7 @@ and the union of all equivalent classes is equal to $S$:
 \bigcup_{s \in S} [s] = S.
 \]</paragraphs>
                 <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
-                <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="25" md5="c598f4cc029609fe67a39fbdc250c69a" course="Math 2070" chapter="8" slide="21" item="8.25">
+                <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="25" md5="c598f4cc029609fe67a39fbdc250c69a" course="Math 2070" chapter="8" slide="21" item="8.25">
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> Given an equivalence relation $\sim$ on a set $S$,
 the </paragraphs>
@@ -790,7 +797,7 @@ We define addition $+$ and multiplication $\cdot$ on $R\times R_{\neq 0}$ as fol
 (a, b)\cdot(c, d) &amp;:= (ac, bd)
 \end{split}
 \] </paragraphs>
-                <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="26" md5="a1ba9f7a1b4e17cfb72946389adb743c" course="Math 2070" chapter="8" slide="22" item="8.26">
+                <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="26" md5="a1ba9f7a1b4e17cfb72946389adb743c" course="Math 2070" chapter="8" slide="22" item="8.26">
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement" wbtag="paragraphs"> Suppose $(a, b) \equiv (a', b')$ and $(c, d) \equiv (c', d')$, then: </paragraphs>
                   <col_ol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="col_ol" wbtag="col_ol">
                     <col_li course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="col_ol" wbtag="col_li">
@@ -801,7 +808,8 @@ We define addition $+$ and multiplication $\cdot$ on $R\times R_{\neq 0}$ as fol
                     </col_li>
                   </col_ol>
                 </statement>
-                <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="64f53bff3b177c0d76791a084bdd4530" course="Math 2070" chapter="8" slide="22" of="a1ba9f7a1b4e17cfb72946389adb743c">
+                <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="64f53bff3b177c0d76791a084bdd4530" course="Math 2070" chapter="8" slide="22" of="a1ba9f7a1b4e17cfb72946389adb743c" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="22" of-type="Claim" of-item="8.26" of-src-filename="week8.xml" ofmd5="a1ba9f7a1b4e17cfb72946389adb743c" of-serial="">
+                  <of-title hidden="true">Claim 8.26</of-title>
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> By definition, $(a, b) + (c, d) = (ad + bc, bd)$,
 and $(a', b') + (c', d') = (a'd' + b'c', b'd')$.
@@ -844,7 +852,7 @@ and define $+$ and $\cdot$ on $\mathrm{Frac}(R)$ as follows:
 [(a, b)]\cdot[(c, d)] &amp;= [(ac, bd)]
 \end{split}
 \] </paragraphs>
-                <statement environment="statement" chapter_type="" type="Corollary" wbtag="cor" num="27" md5="99ca4a856c3b3f5cdf3fbf4574ae7ab7" course="Math 2070" chapter="8" slide="23" item="8.27">
+                <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="27" md5="99ca4a856c3b3f5cdf3fbf4574ae7ab7" course="Math 2070" chapter="8" slide="23" item="8.27">
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> $+$ and $\cdot$ thus defined are well-defined binary operations on $\mathrm{Frac}(R)$.</paragraphs>
                     <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol"/>
@@ -855,7 +863,7 @@ regardless of the choice of representatives of the equivalence classes. </paragr
                   </newcol>
                 </statement>
                 <newline course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment=""/>
-                <statement environment="statement" chapter_type="" type="Claim" wbtag="claim" num="28" md5="01abcef5efc49dc54237d2ef63d6bd0b" course="Math 2070" chapter="8" slide="23" item="8.28">
+                <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="28" md5="01abcef5efc49dc54237d2ef63d6bd0b" course="Math 2070" chapter="8" slide="23" item="8.28">
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> The set $\mathrm{Frac}(R)$, equipped with $+$ and $\cdot$ defined as above,
 forms a field, with additive identity $0 = [(0, 1)]$
@@ -864,7 +872,8 @@ The multiplicative inverse of a nonzero element
 $[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$. </paragraphs>
                   </newcol>
                 </statement>
-                <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="8" slide="23" of="01abcef5efc49dc54237d2ef63d6bd0b">
+                <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="8" slide="23" of="01abcef5efc49dc54237d2ef63d6bd0b" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="23" of-type="Claim" of-item="8.28" of-src-filename="week8.xml" ofmd5="01abcef5efc49dc54237d2ef63d6bd0b" of-serial="">
+                  <of-title hidden="true">Claim 8.28</of-title>
                   <newcol course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
@@ -877,7 +886,7 @@ $[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$. </paragraphs>
                 <keywords slide="24" environ="slide" chapter="8" course="Math 2070">
                   <keyword chapter="8" slide="24">Fraction Field</keyword>
                 </keywords>
-                <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="29" md5="aa3c851fa19495b6e6fd3dff39db5847" course="Math 2070" chapter="8" slide="24" item="8.29">
+                <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="29" md5="aa3c851fa19495b6e6fd3dff39db5847" course="Math 2070" chapter="8" slide="24" item="8.29">
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement" wbtag="paragraphs"> $\mathrm{Frac}(R)$ is called the </paragraphs>
                   <inline_keyword course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement">Fraction Field</inline_keyword>
                   <paragraphs course="Math 2070" chapter="8" chapter_type="" section="2" subsection="1" subsubsection="1" environment="statement" wbtag="paragraphs"> of $R$. </paragraphs>

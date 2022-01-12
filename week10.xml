@@ -49,10 +49,10 @@
         <keyword chapter="10" slide="all">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
         <keyword chapter="10" slide="all">First Isomorphism Theorem</keyword>
       </keywords>
-      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Ideals</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Principal Ideal Domains</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Quotient Rings</topic>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="" slide="">Ideals</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="" slide="">Principal Ideal Domains</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" serial="" slide="">Quotient Rings</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
@@ -63,7 +63,7 @@
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Ring Homomorphisms - continued" course="Math 2070" chapter="10" num="1" serial="10.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="1" subsection="" subsubsection="" serial="10.1" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="1" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Ring Homomorphisms - continued</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -121,7 +121,8 @@ implies that $\phi(-1)$ could only be $\pm 1 \neq 2$.</paragraphs>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" md5="1b43d093634e2912e56e65d8107ef004" course="Math 2070" chapter="10" slide="4" item="10.1">
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The fields $\mathbb{Q}$ and $\mathrm{Frac}(\mathbb{Z})$ are isomorphic. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6b7370562a5a82687bc0654c60c2f2c2" course="Math 2070" chapter="10" slide="4" of="1b43d093634e2912e56e65d8107ef004">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6b7370562a5a82687bc0654c60c2f2c2" course="Math 2070" chapter="10" slide="4" of="1b43d093634e2912e56e65d8107ef004" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="4" of-type="Theorem" of-item="10.1" of-src-filename="week10.xml" ofmd5="1b43d093634e2912e56e65d8107ef004" of-serial="">
+              <of-title hidden="true">Theorem 10.1</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi: \mathbb{Q} \rightarrow \mathrm{Frac}(\mathbb{Z})$ as follows:
 \[
@@ -195,7 +196,8 @@ So $\phi$ is onto.</paragraphs>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" md5="b66381493e8a061cd9050a22e61d080a" course="Math 2070" chapter="10" slide="5" item="10.2">
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $F$ is a field, then $\Frac(F) \cong F$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e69870d50b54ab77748ce22dbe251e0d" course="Math 2070" chapter="10" slide="5" of="b66381493e8a061cd9050a22e61d080a">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e69870d50b54ab77748ce22dbe251e0d" course="Math 2070" chapter="10" slide="5" of="b66381493e8a061cd9050a22e61d080a" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="5" of-type="Theorem" of-item="10.2" of-src-filename="week10.xml" ofmd5="b66381493e8a061cd9050a22e61d080a" of-serial="">
+              <of-title hidden="true">Theorem 10.2</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : F \rightarrow \Frac(F)$ as follows:
 \[
@@ -243,7 +245,8 @@ The </paragraphs>
               <label wbtag="label" name="claim:onetooneker" type="Claim"/>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A ring homomorphism $\phi : A \rightarrow B$ is one-to-one if and only if $\ker \phi = \{0\}$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="fb467bda7c59ff2b1a37e19d08c2ed15" course="Math 2070" chapter="10" slide="7" of="cbcc6c4aa6c59ea640e8408f178a2b39">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="fb467bda7c59ff2b1a37e19d08c2ed15" course="Math 2070" chapter="10" slide="7" of="cbcc6c4aa6c59ea640e8408f178a2b39" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="7" of-type="Claim" of-item="10.4" of-src-filename="week10.xml" ofmd5="cbcc6c4aa6c59ea640e8408f178a2b39" of-serial="">
+              <of-title hidden="true">Claim 10.4</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\phi$ is one-to-one.  For any $a \in \ker \phi$, we have $\phi(0) = \phi(a) = 0$,
 which implies that $a = 0$ since $\phi$ is one-to-one.  Hence, $\ker \phi = \{0\}$.</paragraphs>
@@ -344,7 +347,8 @@ We claim that the kernel of $\phi$ is:
 \ker \phi = m\mathbb{Z}.
 \] </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ce81022bcaed7a2e18c3efdcc5744cba" course="Math 2070" chapter="10" slide="10" of="9ac8ebe3875b6fb30aa0bf6b319c1d9e">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ce81022bcaed7a2e18c3efdcc5744cba" course="Math 2070" chapter="10" slide="10" of="9ac8ebe3875b6fb30aa0bf6b319c1d9e" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="10" of-type="Example" of-item="10.8" of-src-filename="week10.xml" ofmd5="9ac8ebe3875b6fb30aa0bf6b319c1d9e" of-serial="">
+              <of-title hidden="true">Example 10.8</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\phi(n) = \ol{n} = 0$, then $n = mq + 0 = mq$ for some $q \in \mathbb{Z}$.  So, $n \in m\mathbb{Z}$.
 Hence, $\ker \phi \subseteq m\mathbb{Z}$.</paragraphs>
@@ -365,7 +369,8 @@ is clearly $0$, so $\phi(mn) = 0$, which implies that $m \mathbb{Z}\subseteq \ke
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $A$ be a commutative ring.
 If $\phi : A \rightarrow B$ is a ring homomorphism, then $\ker \phi$ is an ideal of $A$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6a55595991263502c93cc2256df67d87" course="Math 2070" chapter="10" slide="11" of="f6d45000345868000b92827305467cab">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6a55595991263502c93cc2256df67d87" course="Math 2070" chapter="10" slide="11" of="f6d45000345868000b92827305467cab" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="11" of-type="Claim" of-item="10.9" of-src-filename="week10.xml" ofmd5="f6d45000345868000b92827305467cab" of-serial="">
+              <of-title hidden="true">Claim 10.9</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
@@ -398,7 +403,8 @@ and "ideal" is defined using the more general definition mentioned earlier.</par
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A nonzero commutative ring $R$ is a field if and only if its only ideals are
 $\{0\}$ and $R$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="052a4162fca39c51d68e9d88c328319f" course="Math 2070" chapter="10" slide="12" of="b5f8630108eb461ddd15d5d076725838">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="052a4162fca39c51d68e9d88c328319f" course="Math 2070" chapter="10" slide="12" of="b5f8630108eb461ddd15d5d076725838" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="12" of-type="Claim" of-item="10.10" of-src-filename="week10.xml" ofmd5="b5f8630108eb461ddd15d5d076725838" of-serial="">
+              <of-title hidden="true">Claim 10.10</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose a nonzero commutative ring $R$ is a field.
 If an ideal $I$ of $R$ is nonzero, it contains at least one
@@ -438,7 +444,8 @@ This shows that any nonzero element of $R$ is a unit.  Hence, $R$ is a field. </
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="e74c3178aa9c569c1a1de49d19a7d455" course="Math 2070" chapter="10" slide="13" item="10.11">
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, and $R$ a nonzero ring.  Any ring homomorphism $\phi : k \rightarrow R$ is necessarily one-to-one. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="624300205118c2e9201a66faf5587173" course="Math 2070" chapter="10" slide="13" of="e74c3178aa9c569c1a1de49d19a7d455">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="624300205118c2e9201a66faf5587173" course="Math 2070" chapter="10" slide="13" of="e74c3178aa9c569c1a1de49d19a7d455" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="13" of-type="Claim" of-item="10.11" of-src-filename="week10.xml" ofmd5="e74c3178aa9c569c1a1de49d19a7d455" of-serial="">
+              <of-title hidden="true">Claim 10.11</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $R$ is not a zero ring, it contains $1 \neq 0$.  So, $\phi(1) = 1 \neq 0$, which implies that $\ker \phi$
 is a proper ideal of $k$.  Since $k$ is a field, we have $\ker \phi = \{0\}$.  It now follows from a previous claim that $\phi$ is one-to-one. </paragraphs>
@@ -487,7 +494,7 @@ map from the infinite set $\mathbb{Q}$ to the finite set $\mathbb{Z}_m$. </parag
         </subsection>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Principal Ideal Domains" course="Math 2070" chapter="10" num="2" serial="10.2">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" serial="10.2" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Principal Ideal Domains</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -509,7 +516,8 @@ let $(a_1, a_2,\ldots, a_n)$ denote the subset:
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The set $I = (a_1, a_2, \ldots, a_n)$ is an ideal of $R$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6d221f1011813cdadacce02c9588a8e7" course="Math 2070" chapter="10" slide="15" of="a7b5b629c76180a2f2e9958644f1dde5">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6d221f1011813cdadacce02c9588a8e7" course="Math 2070" chapter="10" slide="15" of="a7b5b629c76180a2f2e9958644f1dde5" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="15" of-type="Claim" of-item="10.13" of-src-filename="week10.xml" ofmd5="a7b5b629c76180a2f2e9958644f1dde5" of-serial="">
+              <of-title hidden="true">Claim 10.13</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
@@ -549,7 +557,8 @@ then $(a) = (b)$.</paragraphs>
               <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement"/>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">If $R$ is an integral domain and $(a) = (b)$, then $b = au$ for some unit $u \in R$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="07730df91687f0fb5bfb765f4cca3e69" course="Math 2070" chapter="10" slide="16" of="2b4012d8c411deb5b3e144c24272188a">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="07730df91687f0fb5bfb765f4cca3e69" course="Math 2070" chapter="10" slide="16" of="2b4012d8c411deb5b3e144c24272188a" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="16" of-type="Claim" of-item="10.14" of-src-filename="week10.xml" ofmd5="2b4012d8c411deb5b3e144c24272188a" of-serial="">
+              <of-title hidden="true">Claim 10.14</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We leave the first part of the claim as an exercise.</paragraphs>
                 <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
@@ -607,7 +616,8 @@ we say that $R$ is a </paragraphs>
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The ring $\mathbb{Z}$ is a principal ideal domain. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b8242f09678f06aa2cf5c8c11e19c9f8" course="Math 2070" chapter="10" slide="17" of="d4992a68e2b3882226b0601e7b9d78c5">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b8242f09678f06aa2cf5c8c11e19c9f8" course="Math 2070" chapter="10" slide="17" of="d4992a68e2b3882226b0601e7b9d78c5" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="17" of-type="Theorem" of-item="10.16" of-src-filename="week10.xml" ofmd5="d4992a68e2b3882226b0601e7b9d78c5" of-serial="">
+              <of-title hidden="true">Theorem 10.16</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $I$ be an ideal of $\mathbb{Z}$.
 We already know that the zero ideal $\{0\} = (0)$ is principal.</paragraphs>
@@ -666,7 +676,8 @@ f = qd + r,
 \]
 with $\deg r &lt; \deg d$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="46cba4fb237d16241d49988aed460464" course="Math 2070" chapter="10" slide="18" of="4b69f068400a3bb3ab9ad76ed3d6a6e0">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="46cba4fb237d16241d49988aed460464" course="Math 2070" chapter="10" slide="18" of="4b69f068400a3bb3ab9ad76ed3d6a6e0" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="18" of-type="Theorem" of-item="10.17" of-src-filename="week10.xml" ofmd5="4b69f068400a3bb3ab9ad76ed3d6a6e0" of-serial="">
+              <of-title hidden="true">Division Theorem for Polynomials with Unit Leading Coefficients</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The proof is essentially the same as that of the division theorem for $\mathbb{Q}[x]$.  We prove by induction:</paragraphs>
                 <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
@@ -720,7 +731,8 @@ f = (q' + a_n^{-1}b_m x^{m - n}) d + r'.
               <label wbtag="label" name="thm:pidpoly" type="Theorem"/>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Then, $k[x]$ is a PID. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="19c29c16368d2f0619952c1519b4a600" course="Math 2070" chapter="10" slide="19" of="cb147fcfae2b64a2477e6cd9c7fb2126">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="19c29c16368d2f0619952c1519b4a600" course="Math 2070" chapter="10" slide="19" of="cb147fcfae2b64a2477e6cd9c7fb2126" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="19" of-type="Theorem" of-item="10.18" of-src-filename="week10.xml" ofmd5="cb147fcfae2b64a2477e6cd9c7fb2126" of-serial="">
+              <of-title hidden="true">Theorem 10.18</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $k$ is a field, the previous claim holds for all $d, f \in k[x]$ such that $d \neq 0$.</paragraphs>
                 <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
@@ -761,7 +773,7 @@ Hence, $I \subseteq (d)$, and we may now conclude that $I = (d)$. </paragraphs>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Quotient Rings" course="Math 2070" chapter="10" num="3" serial="10.3">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" serial="10.3" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="3" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Quotient Rings</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -800,7 +812,8 @@ a \equiv b \mod I.
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0771d5f86bf61c0125b5841ae455cab9" course="Math 2070" chapter="10" slide="20" of="963e2cc1e3a2e478611a672d21ac6c47">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0771d5f86bf61c0125b5841ae455cab9" course="Math 2070" chapter="10" slide="20" of="963e2cc1e3a2e478611a672d21ac6c47" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="20" of-type="Claim" of-item="10.19" of-src-filename="week10.xml" ofmd5="963e2cc1e3a2e478611a672d21ac6c47" of-serial="">
+              <of-title hidden="true">Claim 10.19</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <li environment="newcol">
@@ -877,7 +890,8 @@ for all $\ol{r},\ol{r'} \in R/ I$. </paragraphs>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The set $R/I$, equipped with the addition $+$ and multiplication $\cdot$ defined above,
 is a commutative ring. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6b4ebc05e8cb268a358520e6283a75e3" course="Math 2070" chapter="10" slide="22" of="acf88bc4556b717fbb31ace5cebe6fc5">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6b4ebc05e8cb268a358520e6283a75e3" course="Math 2070" chapter="10" slide="22" of="acf88bc4556b717fbb31ace5cebe6fc5" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="22" of-type="Claim" of-item="10.20" of-src-filename="week10.xml" ofmd5="acf88bc4556b717fbb31ace5cebe6fc5" of-serial="">
+              <of-title hidden="true">Claim 10.20</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We note here only that the additive identity element of $R/I$ is $\ol{0} = 0 + I$,
 the multiplicative identity element of $R/I$ is $\ol{1} = 1 + I$,
@@ -900,7 +914,8 @@ as an </paragraphs>
 is a surjective ring homomorphism with kernel $\ker \pi = I$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="10" slide="22" of="e8b7ffa34c4842301996d7a0e5a08f33">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="10" slide="22" of="e8b7ffa34c4842301996d7a0e5a08f33" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="22" of-type="Claim" of-item="10.21" of-src-filename="week10.xml" ofmd5="e8b7ffa34c4842301996d7a0e5a08f33" of-serial="">
+              <of-title hidden="true">Claim 10.21</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
@@ -921,7 +936,8 @@ is an ideal of $\mathbb{Z}$. </paragraphs>
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The quotient ring $\mathbb{Z}/m\mathbb{Z}$ is isomorphic to $\mathbb{Z}_m$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="73dd8b75e9c74bead432dbb5a0f2704b" course="Math 2070" chapter="10" slide="23" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="73dd8b75e9c74bead432dbb5a0f2704b" course="Math 2070" chapter="10" slide="23" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="23" of-type="Claim" of-item="10.22" of-src-filename="week10.xml" ofmd5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-serial="">
+              <of-title hidden="true">Claim 10.22</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $r \in \mathbb{Z}$, let $r_m$ denote the remainder of the division of $r$ by $m$.</paragraphs>
                 <newline course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
@@ -972,7 +988,7 @@ such that $\phi(r) = \ol{r} = 0$ in $\ZZ/m\ZZ$.  By definition, this means that 
 or equivalently, that $m | r$.  Since $0 \leq r &lt; m$, we must have $r = 0$.
 Hence, $\ker \phi = \{0\}$.
 It now follows from </paragraphs>
-                              <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="23" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
+                              <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="23" referrer-type="Proof" referrer-md5="73dd8b75e9c74bead432dbb5a0f2704b" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
                                 <title>Claim 10.4</title>
                               </ref>
                               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that $\phi$ is one-to one.</paragraphs>
@@ -1002,7 +1018,8 @@ It now follows from </paragraphs>
 is a ring under the addition and multiplication operations of $R'$.
 (In fact, it is a subring of $R'$.) </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="10" slide="24" of="993c7ad44dad2b06493e1b9ba465adbb">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="10" slide="24" of="993c7ad44dad2b06493e1b9ba465adbb" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="24" of-type="Claim" of-item="10.23" of-src-filename="week10.xml" ofmd5="993c7ad44dad2b06493e1b9ba465adbb" of-serial="">
+              <of-title hidden="true">Claim 10.23</of-title>
               <strong xmlns="http://www.w3.org/1999/xhtml" environment="substatement">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">Exercise.</paragraphs>
               </strong>
@@ -1023,7 +1040,8 @@ R/\ker\phi \cong \im \phi,
 \]
 (i.e. $R/\ker \phi$ is isomorphic to $\im \phi$.) </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6bece8d10a388a622fd14a7c2f2dde17" course="Math 2070" chapter="10" slide="25" of="1486f5b52a8fff9f86fe19ee7f4439ad">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6bece8d10a388a622fd14a7c2f2dde17" course="Math 2070" chapter="10" slide="25" of="1486f5b52a8fff9f86fe19ee7f4439ad" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="25" of-type="Theorem" of-item="10.24" of-src-filename="week10.xml" ofmd5="1486f5b52a8fff9f86fe19ee7f4439ad" of-serial="">
+              <of-title hidden="true">First Isomorphism Theorem</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We define a map $\ol{\phi} : R/\ker\phi \ra \im \phi$ as follows:
 \[
@@ -1074,7 +1092,7 @@ Since $\phib(\ol{r}) = \phi(r) = r'$, the map $\phib$ is onto.</paragraphs>
 $\phib(\ol{r}) = \phi(r) = 0$.
 We have $r \in \ker \phi$, which implies that $\ol{r} = 0$ in $R/\ker\phi$.
 Hence, $\ker \phib = \{0\}$, and it follows from </paragraphs>
-                            <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="25" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
+                            <ref environment="newcol" chapter_type="" label="claim:onetooneker" wbtag="ref" course="Math 2070" chapter="10" slide="25" referrer-type="Proof" referrer-md5="6bece8d10a388a622fd14a7c2f2dde17" src-course="Math 2070" src-chapter="10" src-slide="7" type="Claim" item="10.4" src-filename="week10.xml" md5="cbcc6c4aa6c59ea640e8408f178a2b39" class="lcref" serial="">
                               <title>Claim 10.4</title>
                             </ref>
                             <paragraphs course="Math 2070" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that $\phib$ is one-to-one. </paragraphs>

@@ -23,9 +23,9 @@
         <keyword chapter="5" slide="all">cyclic</keyword>
         <keyword chapter="5" slide="all">Division Theorem</keyword>
       </keywords>
-      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" serial="5" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" serial="5" slide="">Group Homomorphisms</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" serial="5" slide="">Rings</topic>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" serial="" slide="">Group Homomorphisms</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" serial="" slide="">Rings</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
@@ -41,7 +41,8 @@
           <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="1" md5="224ec41686eb81f448eb4424cb858088" course="Math 2070" chapter="5" slide="3" item="5.1">
             <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Any cyclic group of finite order $n$ is isomorphic to $\mathbb{Z}_n$. </paragraphs>
           </statement>
-          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e97772519646fa9e27646048ea2e57de" course="Math 2070" chapter="5" slide="3" of="224ec41686eb81f448eb4424cb858088">
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e97772519646fa9e27646048ea2e57de" course="Math 2070" chapter="5" slide="3" of="224ec41686eb81f448eb4424cb858088" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="3" of-type="Claim" of-item="5.1" of-src-filename="week5.xml" ofmd5="224ec41686eb81f448eb4424cb858088" of-serial="">
+            <of-title hidden="true">Claim 5.1</of-title>
             <newcol course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Sketch of Proof:</paragraphs>
               <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
@@ -55,7 +56,7 @@ Moreover, $\ord g = \ord G$.</paragraphs>
 Show that $\phi$ is a group isomorphism.</paragraphs>
               <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
               <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">(For reference, see the discussion of </paragraphs>
-              <ref environment="newcol" chapter_type="" label="eg:cycliczn" wbtag="ref" course="Math 2070" chapter="5" slide="3" src-course="Math 2070" src-chapter="4" src-slide="14" type="Example" item="4.15" src-filename="week4.xml" md5="ad58fb7dd7baadc4df44a7450c55af00" class="lcref" serial="">
+              <ref environment="newcol" chapter_type="" label="eg:cycliczn" wbtag="ref" course="Math 2070" chapter="5" slide="3" referrer-type="Proof" referrer-md5="e97772519646fa9e27646048ea2e57de" src-course="Math 2070" src-chapter="4" src-slide="14" type="Example" item="4.15" src-filename="week4.xml" md5="ad58fb7dd7baadc4df44a7450c55af00" class="lcref" serial="">
                 <title>Example 4.15</title>
               </ref>
               <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.) </paragraphs>
@@ -83,7 +84,7 @@ Show that $\phi$ is a group isomorphism.</paragraphs>
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Product Group" course="Math 2070" chapter="5" num="1" serial="5.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" serial="5.1" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="5" section="1" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Product Group</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -148,7 +149,8 @@ its inverse is:
             <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="5" md5="28b7caeaa658281f2213fca1d9e8dd59" course="Math 2070" chapter="5" slide="5" item="5.5">
               <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  $\mathbb{Z}_6$ is isomorphic to $\mathbb{Z}_2\times\mathbb{Z}_3$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="34cb6e03c272f66e6adec049748a1d59" course="Math 2070" chapter="5" slide="5" of="28b7caeaa658281f2213fca1d9e8dd59">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="34cb6e03c272f66e6adec049748a1d59" course="Math 2070" chapter="5" slide="5" of="28b7caeaa658281f2213fca1d9e8dd59" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="5" of-type="Exercise" of-item="5.5" of-src-filename="week5.xml" ofmd5="28b7caeaa658281f2213fca1d9e8dd59" of-serial="">
+              <of-title hidden="true">Exercise 5.5</of-title>
               <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Hint:</paragraphs>
@@ -162,7 +164,8 @@ its inverse is:
                 <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The cyclic group $\mathbb{Z}_4$ is not isomorphic to $\mathbb{Z}_2 \times \mathbb{Z}_2$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="57b96aa2ec328868339bffa1f4b9aa60" course="Math 2070" chapter="5" slide="5" of="098c417f4cb5297f8ea505fb51cfb1de">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="57b96aa2ec328868339bffa1f4b9aa60" course="Math 2070" chapter="5" slide="5" of="098c417f4cb5297f8ea505fb51cfb1de" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="5" of-type="Example" of-item="5.6" of-src-filename="week5.xml" ofmd5="098c417f4cb5297f8ea505fb51cfb1de" of-serial="">
+              <of-title hidden="true">Example 5.6</of-title>
               <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Each element of $G = \mathbb{Z}_2\times\mathbb{Z}_2$ is of order at most $2$.
 Since $\abs{G} = 4$, $G$ cannot be generated by a single element.
@@ -192,7 +195,8 @@ For $\mathbb{Z}_6 \times \mathbb{Z}_2$ is abelian, but $D_6$ is not. </paragraph
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="5fea1767dbc70eac51394f4d00e15c74" course="Math 2070" chapter="5" slide="7" item="5.9">
               <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  The dihedral group $D_3$ is isomorphic to the symmetric group $S_3$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3be728b9f89cfc148597e21a557c4d7e" course="Math 2070" chapter="5" slide="7" of="5fea1767dbc70eac51394f4d00e15c74">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3be728b9f89cfc148597e21a557c4d7e" course="Math 2070" chapter="5" slide="7" of="5fea1767dbc70eac51394f4d00e15c74" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="7" of-type="Claim" of-item="5.9" of-src-filename="week5.xml" ofmd5="5fea1767dbc70eac51394f4d00e15c74" of-serial="">
+              <of-title hidden="true">Claim 5.9</of-title>
               <newcol course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We have seen that $D_3 = \langle r, s\rangle$, where $r = r_1$ and
 $s$ is any fixed reflection,
@@ -240,7 +244,7 @@ since no rotation is a reflection.</paragraphs>
 3 | (i - i'), \quad 2 | (j' - j),
 \]
 by </paragraphs>
-                            <ref environment="newcol" chapter_type="" label="thm:orderdividesn" wbtag="ref" course="Math 2070" chapter="5" slide="7" src-course="Math 2070" src-chapter="2" src-slide="3" type="Theorem" item="2.2" src-filename="week2.xml" md5="682fc761ecf19d9c07d8b7b1a587af06" class="lcref" serial="">
+                            <ref environment="newcol" chapter_type="" label="thm:orderdividesn" wbtag="ref" course="Math 2070" chapter="5" slide="7" referrer-type="Proof" referrer-md5="3be728b9f89cfc148597e21a557c4d7e" src-course="Math 2070" src-chapter="2" src-slide="3" type="Theorem" item="2.2" src-filename="week2.xml" md5="682fc761ecf19d9c07d8b7b1a587af06" class="lcref" serial="">
                               <title>Theorem 2.2</title>
                             </ref>
                             <paragraphs course="Math 2070" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.</paragraphs>
@@ -408,7 +412,7 @@ Then, show that it is a bijective group homomorphism. </paragraphs>
         </subsection>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Rings" course="Math 2070" chapter="5" num="2" serial="5.2">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="5" section="2" subsection="" subsubsection="" serial="5.2" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="5" section="2" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rings</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -432,7 +436,7 @@ Then, show that it is a bijective group homomorphism. </paragraphs>
               <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="11">
                 <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Basic Results in Elementary Number Theory</paragraphs>
               </title>
-              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="11" title="Division Theorem" md5="e5d1712cf6968618cdae2a8007d5ffb6" course="Math 2070" chapter="5" slide="11" item="5.11">
+              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Division Theorem" md5="e5d1712cf6968618cdae2a8007d5ffb6" course="Math 2070" chapter="5" slide="11" item="5.11">
                 <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="11">Division Theorem</title>
                 <label wbtag="label" name="thm:divalg" type="Theorem"/>
                 <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">  Let $a, b \in \mathbb{Z}$, $a \neq 0$,
@@ -441,7 +445,8 @@ then there exist unique $q$ (called the quotient), and $r$ (</paragraphs>
                 <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">) in $\mathbb{Z}$, satisfying
 $0 \leq r &lt; \abs{a}$, such that $b = aq + r$. </paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="3c55019134a6b77f2e6b756b4cd95e17" course="Math 2070" chapter="5" slide="11" of="e5d1712cf6968618cdae2a8007d5ffb6">
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c55019134a6b77f2e6b756b4cd95e17" course="Math 2070" chapter="5" slide="11" of="e5d1712cf6968618cdae2a8007d5ffb6" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="11" of-type="Theorem" of-item="5.11" of-src-filename="week5.xml" ofmd5="e5d1712cf6968618cdae2a8007d5ffb6" of-serial="">
+                <of-title hidden="true">Division Theorem</of-title>
                 <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  We will prove the case $a &gt; 0$, $b \geq 0$.  The other cases are left as exercises.</paragraphs>
                   <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
@@ -519,11 +524,12 @@ We have therefore established the uniqueness of $q$ and $r$.</paragraphs>
               <h5 xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">Another Proof of the </paragraphs>
                 <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" label="thm:divalg" wbtag="ref" course="Math 2070" chapter="5" slide="11" src-course="Math 2070" src-chapter="5" src-slide="11" type="Theorem" item="5.11" src-filename="week5.xml" md5="e5d1712cf6968618cdae2a8007d5ffb6" class="lcref" serial="">
-                  <title>Division Theorem</title>
+                  <title custom="true">Division Theorem</title>
                 </ref>
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">.</paragraphs>
               </h5>
-              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" of="thm:divalg" md5="a1b6d9dac7b5465af27bb92534938056" course="Math 2070" chapter="5" slide="11">
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" of="thm:divalg" md5="a1b6d9dac7b5465af27bb92534938056" course="Math 2070" chapter="5" slide="11" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="11" of-type="Theorem" of-item="5.11" of-src-filename="week5.xml" ofmd5="e5d1712cf6968618cdae2a8007d5ffb6" of-serial="">
+                <of-title hidden="false">Division Theorem</of-title>
                 <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We consider here the special case $b \geq 0$.
 Consider the set:
@@ -563,10 +569,11 @@ This establishes the existence of the remainder $r$.</paragraphs>
                 <keyword chapter="5" slide="12">cyclic</keyword>
               </keywords>
               <hc_keyword course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">cyclic</hc_keyword>
-              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="12" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2070" chapter="5" slide="12" item="5.12">
+              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2070" chapter="5" slide="12" item="5.12">
                 <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Every subgroup of $\mathbb{Z}$ is cyclic. </paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="90afc19c6980d7d52536841192056305" course="Math 2070" chapter="5" slide="12" of="3fc92e570f8a20bea99cbdc36d3c5bb8">
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="90afc19c6980d7d52536841192056305" course="Math 2070" chapter="5" slide="12" of="3fc92e570f8a20bea99cbdc36d3c5bb8" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="12" of-type="Theorem" of-item="5.12" of-src-filename="week5.xml" ofmd5="3fc92e570f8a20bea99cbdc36d3c5bb8" of-serial="">
+                <of-title hidden="true">Theorem 5.12</of-title>
                 <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we note that the group operation $\ast$ on $\mathbb{Z}$
 is integer addition, with $e_{\mathbb{Z}} = 0$,
@@ -610,14 +617,14 @@ This shows that $H = \langle d \rangle$. </paragraphs>
                 </newcol>
               </substatement>
               <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="13" md5="a0a8c8bc7f02df4b0dfeb2744e20a198" course="Math 2070" chapter="5" slide="12" item="5.13">
+              <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="13" md5="a0a8c8bc7f02df4b0dfeb2744e20a198" course="Math 2070" chapter="5" slide="12" item="5.13">
                 <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $n$ be a positive integer.
 Every subgroup of $\mathbb{Z}_n$ is cyclic. </paragraphs>
                 </newcol>
               </statement>
               <newline course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="" type="Corollary" wbtag="cor" num="14" md5="bae6cbdabbc658ffccad4c0fd780453c" course="Math 2070" chapter="5" slide="12" item="5.14">
+              <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="14" md5="bae6cbdabbc658ffccad4c0fd780453c" course="Math 2070" chapter="5" slide="12" item="5.14">
                 <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Every subgroup of a cyclic group is cyclic. </paragraphs>
                 </newcol>

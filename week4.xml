@@ -27,10 +27,10 @@
         <keyword chapter="4" slide="all">Lagrange's Theorem</keyword>
         <keyword chapter="4" slide="all">Examples of Group Homomorphisms</keyword>
       </keywords>
-      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="4" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="4" slide="">Lagrange's Theorem</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="4" slide="">Generators</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="4" slide="">Group Homomorphisms</topic>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="" slide="">Lagrange's Theorem</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="" slide="">Generators</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" serial="" slide="">Group Homomorphisms</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="4" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
@@ -41,7 +41,7 @@
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Lagrange's Theorem" course="Math 2070" chapter="4" num="1" serial="4.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" serial="4.1" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="1" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Lagrange's Theorem</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -58,7 +58,8 @@
               <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G$ be a finite group. Let $H$ be subgroup of $G$, then $\abs{H}$ divides $\abs{G}$.
 More precisely, $\abs{G} = [G: H]\cdot\abs{H}$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7d13a33d1da983c7a2ed8ccc7a51764f" course="Math 2070" chapter="4" slide="3" of="73d51b0af4e4da963c2c84cd31fb0993">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7d13a33d1da983c7a2ed8ccc7a51764f" course="Math 2070" chapter="4" slide="3" of="73d51b0af4e4da963c2c84cd31fb0993" of-src-course="Math 2070" of-src-chapter="4" of-src-slide="3" of-type="Theorem" of-item="4.1" of-src-filename="week4.xml" ofmd5="73d51b0af4e4da963c2c84cd31fb0993" of-serial="">
+              <of-title hidden="true">Lagrange's Theorem</of-title>
               <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We already know that the left cosets of $H$ partition $G$.
 That is:
@@ -136,7 +137,8 @@ g^{\abs{G}} = e.
 is a subgroup of $G$ if and only if it is closed under the group operation of $G$
 (i.e. $ab \in H$ for all $a, b \in H$). </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="27b941edf700d86fa188fb77b295e58c" course="Math 2070" chapter="4" slide="5" of="1cb90fab37c3fee817dff8569f471516">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="27b941edf700d86fa188fb77b295e58c" course="Math 2070" chapter="4" slide="5" of="1cb90fab37c3fee817dff8569f471516" of-src-course="Math 2070" of-src-chapter="4" of-src-slide="5" of-type="Corollary" of-item="4.5" of-src-filename="week4.xml" ofmd5="1cb90fab37c3fee817dff8569f471516" of-serial="">
+              <of-title hidden="true">Corollary 4.5</of-title>
               <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It is easy to see that if $H$ is a subgroup,
 then it is closed under the group operation.
@@ -151,12 +153,13 @@ The other direction is left as an </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="ac32bfc2c42601b4b2fe91a735b592b8" course="Math 2070" chapter="4" slide="6" item="4.6">
               <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $n$ be an integer greater than $1$. The group $A_n$ of even permutations
 on a set of $n$ elements (see </paragraphs>
-              <ref environment="statement" chapter_type="" label="eg:subgroups" wbtag="ref" course="Math 2070" chapter="4" slide="6" src-course="Math 2070" src-chapter="3" src-slide="6" type="Example" item="3.4" src-filename="week3.xml" md5="3a8632057ec5b902b8a4bb5c67ae0717" class="lcref" serial="">
+              <ref environment="statement" chapter_type="" label="eg:subgroups" wbtag="ref" course="Math 2070" chapter="4" slide="6" referrer-type="Example" referrer-md5="ac32bfc2c42601b4b2fe91a735b592b8" src-course="Math 2070" src-chapter="3" src-slide="6" type="Example" item="3.4" src-filename="week3.xml" md5="3a8632057ec5b902b8a4bb5c67ae0717" class="lcref" serial="">
                 <title>Example 3.4</title>
               </ref>
               <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">) has order $\displaystyle \frac{n!}{2}$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="8b893f6f3c25abf839f5f371de1a2cda" course="Math 2070" chapter="4" slide="6" of="ac32bfc2c42601b4b2fe91a735b592b8">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="8b893f6f3c25abf839f5f371de1a2cda" course="Math 2070" chapter="4" slide="6" of="ac32bfc2c42601b4b2fe91a735b592b8" of-src-course="Math 2070" of-src-chapter="4" of-src-slide="6" of-type="Example" of-item="4.6" of-src-filename="week4.xml" ofmd5="ac32bfc2c42601b4b2fe91a735b592b8" of-serial="">
+              <of-title hidden="true">Example 4.6</of-title>
               <newcol course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> View $A_n$ as a subgroup of $S_n$, which has order $n!$.</paragraphs>
                 <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
@@ -168,8 +171,8 @@ on a set of $n$ elements (see </paragraphs>
                   <newline course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="lagrangethm" wbtag="ref" course="Math 2070" chapter="4" slide="6" src-course="Math 2070" src-chapter="4" src-slide="3" type="Theorem" item="4.1" src-filename="week4.xml" md5="73d51b0af4e4da963c2c84cd31fb0993" class="lcref" serial="">
-                      <title>Lagrange's Theorem</title>
+                    <ref environment="newcol" chapter_type="" label="lagrangethm" wbtag="ref" course="Math 2070" chapter="4" slide="6" referrer-type="Proof" referrer-md5="8b893f6f3c25abf839f5f371de1a2cda" src-course="Math 2070" src-chapter="4" src-slide="3" type="Theorem" item="4.1" src-filename="week4.xml" md5="73d51b0af4e4da963c2c84cd31fb0993" class="lcref" serial="">
+                      <title custom="true">Lagrange's Theorem</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that:
 \[\abs{A_n} = \frac{\abs{S_n}}{[S_n: A_n]} = \frac{n!}{2}.\] </paragraphs>
@@ -208,7 +211,7 @@ on a set of $n$ elements (see </paragraphs>
         </subsection>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Generators" course="Math 2070" chapter="4" num="2" serial="4.2">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="2" subsection="" subsubsection="" serial="4.2" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="2" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Generators</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -285,7 +288,7 @@ where $s$ is any reflection in $D_3$. </paragraphs>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Group Homomorphisms" course="Math 2070" chapter="4" num="3" serial="4.3">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" serial="4.3" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Group Homomorphisms</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -321,7 +324,8 @@ for all $a, b \in G$. </paragraphs>
                 </ol>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="27acefeae6aa3cb3ac33e77d8d72c404" course="Math 2070" chapter="4" slide="10" of="132d1d672939a84e269a3570d8985795">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="27acefeae6aa3cb3ac33e77d8d72c404" course="Math 2070" chapter="4" slide="10" of="132d1d672939a84e269a3570d8985795" of-src-course="Math 2070" of-src-chapter="4" of-src-slide="10" of-type="Claim" of-item="4.10" of-src-filename="week4.xml" ofmd5="132d1d672939a84e269a3570d8985795" of-serial="">
+              <of-title hidden="true">Claim 4.10</of-title>
               <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove the first claim, and leave the rest as an exercise.
 Since $e_G$ is the identity element of $G$, we have $e_G*e_G = e_G$.
@@ -416,11 +420,11 @@ we say that the groups $G$ and $G'$ are </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="ad58fb7dd7baadc4df44a7450c55af00" course="Math 2070" chapter="4" slide="14" item="4.15">
               <label wbtag="label" name="eg:cycliczn" type="Example"/>
               <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Recall </paragraphs>
-              <ref environment="statement" chapter_type="" label="def:cycliczn" wbtag="ref" course="Math 2070" chapter="4" slide="14" src-course="Math 2070" src-chapter="3" src-slide="3" type="Definition" item="3.1" src-filename="week3.xml" md5="e13b4e54d682feb07aa9b2173056116a" class="lcref" serial="">
+              <ref environment="statement" chapter_type="" label="def:cycliczn" wbtag="ref" course="Math 2070" chapter="4" slide="14" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" src-course="Math 2070" src-chapter="3" src-slide="3" type="Definition" item="3.1" src-filename="week3.xml" md5="e13b4e54d682feb07aa9b2173056116a" class="lcref" serial="">
                 <title>Definition 3.1</title>
               </ref>
               <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> and </paragraphs>
-              <ref environment="statement" chapter_type="" label="ex:cycliczn" wbtag="ref" course="Math 2070" chapter="4" slide="14" src-course="Math 2070" src-chapter="3" src-slide="3" type="Exercise" item="3.2" src-filename="week3.xml" md5="ca1d769c6cebb731348d21e923321c84" class="lcref" serial="">
+              <ref environment="statement" chapter_type="" label="ex:cycliczn" wbtag="ref" course="Math 2070" chapter="4" slide="14" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" src-course="Math 2070" src-chapter="3" src-slide="3" type="Exercise" item="3.2" src-filename="week3.xml" md5="ca1d769c6cebb731348d21e923321c84" class="lcref" serial="">
                 <title>Exercise 3.2</title>
               </ref>
               <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">.</paragraphs>
@@ -432,7 +436,8 @@ where $r_1$ denotes the anticlockwise rotation by the angle $2\pi/n$,
 and $r_k = r_1^k$.
 Then, $H$ is isomorphic to $\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4f482b84b61a1c354842df7121c45a5b" course="Math 2070" chapter="4" slide="14" of="ad58fb7dd7baadc4df44a7450c55af00">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4f482b84b61a1c354842df7121c45a5b" course="Math 2070" chapter="4" slide="14" of="ad58fb7dd7baadc4df44a7450c55af00" of-src-course="Math 2070" of-src-chapter="4" of-src-slide="14" of-type="Example" of-item="4.15" of-src-filename="week4.xml" ofmd5="ad58fb7dd7baadc4df44a7450c55af00" of-serial="">
+              <of-title hidden="true">Example 4.15</of-title>
               <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define $\phi: H \ra \mathbb{Z}_n$ as follows:
 \[\phi(r_k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.\] </paragraphs>

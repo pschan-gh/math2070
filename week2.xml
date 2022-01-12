@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -34,8 +35,8 @@
         <keyword chapter="2" slide="all">$k$-cycle</keyword>
         <keyword chapter="2" slide="all">transposition</keyword>
       </keywords>
-      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" serial="2" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" serial="2" slide="">Groups</topic>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" serial="" slide="">Groups</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="2" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
@@ -68,7 +69,7 @@ If no such $n$ exists, we say that $g$ has </paragraphs>
             <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">. </paragraphs>
           </statement>
           <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-          <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
           <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" md5="682fc761ecf19d9c07d8b7b1a587af06" course="Math 2070" chapter="2" slide="3" item="2.2">
             <label wbtag="label" name="thm:orderdividesn" type="Theorem"/>
             <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -77,10 +78,11 @@ Let $g$ be an element of $G$.  If $g^n = e$ for some $n \in \mathbb{N}$,
 then $\ord g$ is finite, and moreover $\ord g$ divides $n$. </paragraphs>
             </newcol>
           </statement>
-          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="723807213862930cca60acb6037d74ca" course="Math 2070" chapter="2" slide="3" of="682fc761ecf19d9c07d8b7b1a587af06">
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="723807213862930cca60acb6037d74ca" course="Math 2070" chapter="2" slide="3" of="682fc761ecf19d9c07d8b7b1a587af06" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="3" of-type="Theorem" of-item="2.2" of-src-filename="week2.xml" ofmd5="682fc761ecf19d9c07d8b7b1a587af06" of-serial="">
+            <of-title hidden="true">Theorem 2.2</of-title>
             <paragraphs course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Shown in class. </paragraphs>
           </substatement>
-          <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+          <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
           <newline course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
           <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="7f335260865edba17debc220ef37b93d" course="Math 2070" chapter="2" slide="3" item="2.3">
             <newcol course="Math 2070" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -126,7 +128,7 @@ if and only if each of its generators has order $n$. </paragraphs>
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Permutations" course="Math 2070" chapter="2" num="1" serial="2.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="1" subsection="" subsubsection="" serial="2.1" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="1" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Permutations</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -148,7 +150,8 @@ if and only if each of its generators has order $n$. </paragraphs>
 is a group with respect to $\circ$, the composition of maps. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7058aeaa7d824b232f696a1071898e49" course="Math 2070" chapter="2" slide="5" of="54d773425d11b8372809b46bbde83958">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7058aeaa7d824b232f696a1071898e49" course="Math 2070" chapter="2" slide="5" of="54d773425d11b8372809b46bbde83958" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="5" of-type="Claim" of-item="2.9" of-src-filename="week2.xml" ofmd5="54d773425d11b8372809b46bbde83958" of-serial="">
+              <of-title hidden="true">Claim 2.9</of-title>
               <newcol course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ul course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
                   <col_li course="Math 2070" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
@@ -346,7 +349,7 @@ and:</paragraphs>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Dihedral Group" course="Math 2070" chapter="2" num="2" serial="2.2">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="2" subsection="" subsubsection="" serial="2.2" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="2" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Dihedral Group</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -371,13 +374,13 @@ of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say tha
               <collapse course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
 and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$. </paragraphs>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
                 <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
                   <a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" environment="newcol">
-                    <img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" environment="newcol" />
+                    <img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" environment="newcol"/>
                   </a>
-                  <center environment="newcol">
+                  <center environment="center">
                     <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                       <paragraphs course="Math 2070" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By </paragraphs>
                       <a xmlns="http://www.w3.org/1999/xhtml" href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&amp;action=edit&amp;redlink=1" class="new" title="User:Jim.belk (page does not exist)" environment="newcol">
@@ -415,7 +418,7 @@ with respect to the group operation defined by $\tau*\gamma = \tau\circ\gamma$
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="More on Sn" course="Math 2070" chapter="2" num="3" serial="2.3">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="3" subsection="" subsubsection="" serial="2.3" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="3" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">More on $S_n$</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -474,11 +477,12 @@ This corresponds to the fact that $3$ is fixed by $\sigma$.</paragraphs>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="13" md5="1da90d1dbd812239a2410e7989ed12a5" course="Math 2070" chapter="2" slide="10" item="2.13">
               <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Every non-identity permutation in $S_n$ is either a cycle or a product of disjoint cycles. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2070" chapter="2" slide="10" of="1da90d1dbd812239a2410e7989ed12a5">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2070" chapter="2" slide="10" of="1da90d1dbd812239a2410e7989ed12a5" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="10" of-type="Claim" of-item="2.13" of-src-filename="week2.xml" ofmd5="1da90d1dbd812239a2410e7989ed12a5" of-serial="">
+              <of-title hidden="true">Claim 2.13</of-title>
               <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Discussed in class. </paragraphs>
             </substatement>
             <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="14" md5="1a70f04ee63e1f779de5b660b360d2a0" course="Math 2070" chapter="2" slide="10" item="2.14">
               <newcol course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Disjoint cycles commute with each other. </paragraphs>
@@ -541,7 +545,8 @@ but: </paragraphs>
 the number of factors is either always even or always odd. </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="db834fd80ecc7026ff95266e76be3a86" course="Math 2070" chapter="2" slide="12" of="b588e52201e19b7a3f9e3a3b4a3e10b8">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="db834fd80ecc7026ff95266e76be3a86" course="Math 2070" chapter="2" slide="12" of="b588e52201e19b7a3f9e3a3b4a3e10b8" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="12" of-type="Claim" of-item="2.17" of-src-filename="week2.xml" ofmd5="b588e52201e19b7a3f9e3a3b4a3e10b8" of-serial="">
+              <of-title hidden="true">Claim 2.17</of-title>
               <newcol course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <inline_keyword course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
                 <paragraphs course="Math 2070" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> One approach: Show that there is a unique $n \times n$ matrix, with either $0$ or $1$ as its coefficients,
@@ -554,7 +559,7 @@ and that the determinant function of matrices is multiplicative. </paragraphs>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 2070" chapter="2" num="4" serial="2.4">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="4" subsection="" subsubsection="" serial="2.4" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="2" section="4" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
         </title>
         <slides environment="" chapter_type="">

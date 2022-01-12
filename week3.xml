@@ -39,11 +39,11 @@
         <keyword chapter="3" slide="all">left cosets</keyword>
         <keyword chapter="3" slide="all">index</keyword>
       </keywords>
-      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">$\mathbb{Z}_n$</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Subgroups</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Left Cosets</topic>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Index</topic>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="" slide="">$\mathbb{Z}_n$</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="" slide="">Subgroups</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="" slide="">Left Cosets</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" serial="" slide="">Index</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
@@ -55,7 +55,7 @@
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="The Cyclic Group mathbbZn" course="Math 2070" chapter="3" num="1" serial="3.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="1" subsection="" subsubsection="" serial="3.1" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="1" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">The Cyclic Group $\mathbb{Z}_n$</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -142,7 +142,7 @@ is a </paragraphs>
         </subsection>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Subgroups" course="Math 2070" chapter="3" num="2" serial="3.2">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="2" subsection="" subsubsection="" serial="3.2" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="2" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Subgroups</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -230,7 +230,8 @@ $A_n$ is called an </paragraphs>
               <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A subset $H$ of a group $G$ is a subgroup of $G$ if and only if $H$ is nonempty
 and, for all $x, y \in H$, we have $xy^{-1} \in H$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e005ec30f2bf0f9d4d12c09a270b9051" course="Math 2070" chapter="3" slide="7" of="6576c0e809919bd40a259f9cd2d16a01">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e005ec30f2bf0f9d4d12c09a270b9051" course="Math 2070" chapter="3" slide="7" of="6576c0e809919bd40a259f9cd2d16a01" of-src-course="Math 2070" of-src-chapter="3" of-src-slide="7" of-type="Claim" of-item="3.5" of-src-filename="week3.xml" ofmd5="6576c0e809919bd40a259f9cd2d16a01" of-serial="">
+              <of-title hidden="true">Claim 3.5</of-title>
               <newcol course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $H \subseteq G$ is a subgroup.
 Then, $H$ is nonempty since $e_G \in H$.
@@ -271,7 +272,8 @@ $ab = a\cdot(b^{-1})^{-1} \in H$. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="6" md5="57b80347e2d3ec6941833fd034627a81" course="Math 2070" chapter="3" slide="8" item="3.6">
               <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The intersection of two subgroups of a group $G$ is a subgroup of $G$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="3" slide="8" of="57b80347e2d3ec6941833fd034627a81">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="3" slide="8" of="57b80347e2d3ec6941833fd034627a81" of-src-course="Math 2070" of-src-chapter="3" of-src-slide="8" of-type="Claim" of-item="3.6" of-src-filename="week3.xml" ofmd5="57b80347e2d3ec6941833fd034627a81" of-serial="">
+              <of-title hidden="true">Claim 3.6</of-title>
               <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Exercise. </paragraphs>
             </substatement>
           </slide>
@@ -280,7 +282,8 @@ $ab = a\cdot(b^{-1})^{-1} \in H$. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2070" chapter="3" slide="9" item="3.7">
               <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Every subgroup of $(\mathbb{Z}, +)$ is cyclic. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f2f281c9503d1f3c8f264f7cae1c4043" course="Math 2070" chapter="3" slide="9" of="3fc92e570f8a20bea99cbdc36d3c5bb8">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f2f281c9503d1f3c8f264f7cae1c4043" course="Math 2070" chapter="3" slide="9" of="3fc92e570f8a20bea99cbdc36d3c5bb8" of-src-course="Math 2070" of-src-chapter="3" of-src-slide="9" of-type="Theorem" of-item="3.7" of-src-filename="week3.xml" ofmd5="3fc92e570f8a20bea99cbdc36d3c5bb8" of-serial="">
+              <of-title hidden="true">Theorem 3.7</of-title>
               <newcol course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $H$ be a subgroup of $G = (\mathbb{Z}, +)$.
 If $H = \{0\}$, then it is clearly cyclic.</paragraphs>
@@ -330,7 +333,7 @@ That is $h_0 \leq h$ for any $h \in S$.</paragraphs>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Lagrange's Theorem" course="Math 2070" chapter="3" num="3" serial="3.3">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="3" subsection="" subsubsection="" serial="3.3" slide="">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="3" section="3" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2070" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Lagrange's Theorem</paragraphs>
         </title>
         <slides environment="" chapter_type="">

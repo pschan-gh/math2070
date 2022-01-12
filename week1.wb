@@ -2,7 +2,7 @@
 @week{1}
 @topic{Groups}
 @section{Overview}
-<hr style=""/>
+<hr/>
 @itemize
 @item
 <h5 style="">Groups</h5>
@@ -24,7 +24,7 @@ What are the symmetries of an equilateral triangle?
 @newcol
 @keyword{Dihedral Group $D_3$}
 <br/><br/><a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" style="">
-<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" width="450"/></a>
+<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png"/></a>
 @endcol
 @endul
 @item
@@ -138,22 +138,31 @@ where $f * g:= f \circ g$ (i.e. composition of functions).
 @enumerate
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups1.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups3.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups4.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups5.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups6.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups7.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups10.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups11.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups12.pg}
+<br/>
 @endenumerate
 @subsection{Matrix Groups}
 @eg
@@ -249,7 +258,7 @@ If no such $n$ exists, we say that $g$ has @keyword{infinite order}.
 @newcol
 Let $G$ be a group with identity element $e$.
 Let $g$ be an element of $G$. If $g^n = e$ for some $n \in \mathbb{N}$,
-then $\ord g$ divides $n$.
+then $g$ has finite order, and $\ord g$ divides $n$.
 @endcol
 @end
 @proof

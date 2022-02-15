@@ -41,7 +41,7 @@
           <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="1" md5="224ec41686eb81f448eb4424cb858088" course="Math 2070" chapter="5" slide="3" item="5.1">
             <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Any cyclic group of finite order $n$ is isomorphic to $\mathbb{Z}_n$. </paragraphs>
           </statement>
-          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e97772519646fa9e27646048ea2e57de" course="Math 2070" chapter="5" slide="3" of="224ec41686eb81f448eb4424cb858088" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="3" of-type="Claim" of-item="5.1" of-src-filename="week5.xml" ofmd5="224ec41686eb81f448eb4424cb858088" of-serial="">
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b66bbc073b4e4558602118e7b809a786" course="Math 2070" chapter="5" slide="3" of="224ec41686eb81f448eb4424cb858088" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="3" of-type="Claim" of-item="5.1" of-src-filename="week5.xml" ofmd5="224ec41686eb81f448eb4424cb858088" of-serial="">
             <of-title hidden="true">Claim 5.1</of-title>
             <newcol course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Sketch of Proof:</paragraphs>
@@ -49,14 +49,14 @@
               <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">By definition, a cyclic group $G$ is equal to $\langle g\rangle$ for some $g \in G$.
 Moreover, $\ord g = \ord G$.</paragraphs>
               <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Define a map $\phi : G \longrightarrow \mathbb{Z}_n$ as follows:
+              <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Define a map $ \phi : \mathbb{Z}_n \longrightarrow G $ as follows:
 \[
-\phi(g^k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
+\phi(k) = g^k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
 \]
 Show that $\phi$ is a group isomorphism.</paragraphs>
               <newline course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
               <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">(For reference, see the discussion of </paragraphs>
-              <ref environment="newcol" chapter_type="" label="eg:cycliczn" wbtag="ref" course="Math 2070" chapter="5" slide="3" referrer-type="Proof" referrer-md5="e97772519646fa9e27646048ea2e57de" src-course="Math 2070" src-chapter="4" src-slide="14" type="Example" item="4.15" src-filename="week4.xml" md5="ad58fb7dd7baadc4df44a7450c55af00" class="lcref" serial="">
+              <ref environment="newcol" chapter_type="" label="eg:cycliczn" wbtag="ref" course="Math 2070" chapter="5" slide="3" referrer-type="Proof" referrer-md5="b66bbc073b4e4558602118e7b809a786" src-course="Math 2070" src-chapter="4" src-slide="14" type="Example" item="4.15" src-filename="week4.xml" md5="ad58fb7dd7baadc4df44a7450c55af00" class="lcref" serial="">
                 <title>Example 4.15</title>
               </ref>
               <paragraphs course="Math 2070" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.) </paragraphs>
@@ -572,8 +572,8 @@ This establishes the existence of the remainder $r$.</paragraphs>
               <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2070" chapter="5" slide="12" item="5.12">
                 <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Every subgroup of $\mathbb{Z}$ is cyclic. </paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="90afc19c6980d7d52536841192056305" course="Math 2070" chapter="5" slide="12" of="3fc92e570f8a20bea99cbdc36d3c5bb8" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="12" of-type="Theorem" of-item="5.12" of-src-filename="week5.xml" ofmd5="3fc92e570f8a20bea99cbdc36d3c5bb8" of-serial="">
-                <of-title hidden="true">Theorem 5.12</of-title>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="90afc19c6980d7d52536841192056305" course="Math 2070" chapter="5" slide="12" of="3fc92e570f8a20bea99cbdc36d3c5bb8" of-src-course="Math 2070" of-src-chapter="3" of-src-slide="9" of-type="Theorem" of-item="3.7" of-src-filename="week3.xml" ofmd5="3fc92e570f8a20bea99cbdc36d3c5bb8" of-serial="">
+                <of-title hidden="true">Theorem 3.7</of-title>
                 <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we note that the group operation $\ast$ on $\mathbb{Z}$
 is integer addition, with $e_{\mathbb{Z}} = 0$,

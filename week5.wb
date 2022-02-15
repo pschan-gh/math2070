@@ -14,9 +14,9 @@
 By definition, a cyclic group $G$ is equal to $\langle g\rangle$ for some $g \in G$.
 Moreover, $\ord g = \ord G$.
 
-Define a map $\phi : G \longrightarrow \mathbb{Z}_n$ as follows:
+Define a map $ \phi : \mathbb{Z}_n \longrightarrow G $ as follows:
 \[
-\phi(g^k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
+\phi(k) = g^k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
 \]
 Show that $\phi$ is a group isomorphism.
 

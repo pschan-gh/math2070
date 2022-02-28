@@ -1,7 +1,8 @@
 @course{Math 2070}
-@week{7}
 @topic{Polynomials}
 @topic{Rings}
+@title{<span class="type">Week</span><span class="num">7</span>
+@title{}}
 @section{Polynomials with Rational Coefficients}
 <strong>Notation:</strong> \[
 \mathbb{Q} = \text{Set of rational numbers}
@@ -149,7 +150,7 @@ Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
 
 @newcol
 @steps
-\[\begin{align*}
+\begin{align*}
 x^{5} + 1 &
 @nstep{=\left(x^{3} + 1\right)\left(x^{2}\right) + \left(-x^{2} + 1\right)}
 \\
@@ -160,7 +161,7 @@ x^{5} + 1 &
 @nstep{-x^{2} + 1}
 &
 @nstep{= \left(x + 1\right)\left(-x + 1\right) + \left(0\right)}
-\end{align*}\]
+\end{align*}
 @endsteps
 @col
 So, a GCD is $x + 1$.
@@ -404,8 +405,10 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
 @enumerate
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
+<br/>
 @endenumerate
 @slide
 

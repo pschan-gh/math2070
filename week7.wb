@@ -1,8 +1,8 @@
 @course{Math 2070}
 @topic{Polynomials}
 @topic{Rings}
-@title{<span class="type">Week</span><span class="num">7</span>
-@title{}}
+<span class="type"/>
+@chapter{}
 @section{Polynomials with Rational Coefficients}
 <strong>Notation:</strong> \[
 \mathbb{Q} = \text{Set of rational numbers}
@@ -171,7 +171,7 @@ Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
 
 @newcol
 @steps
-\[\begin{align*}
+\begin{align*}
 x^{3} - x^{2} - x + 1
 &
 @nstep{= \left(x^{3} + 4 x^{2} + x - 6\right)\left(1\right) + \left(-5 x^{2} - 2 x + 7\right)}
@@ -183,7 +183,7 @@ x^{3} - x^{2} - x + 1
 @nstep{-5 x^{2} - 2 x + 7}
 &
 @nstep{= \left(\frac{24}{25} x - \frac{24}{25}\right)\left(-\frac{125}{24} x - \frac{175}{24}\right) + \left(0\right)}
-\end{align*}\]
+\end{align*}
 @endsteps
 @col
 So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$.
@@ -206,13 +206,13 @@ d = fu + gv.
 @newcol
 In @ref{eg:euclidalgpoly}, we have:
 @steps
-\[\begin{align*}
+\begin{align*}
 (x + 1) &= \left(x^3 + 1\right) - \left(-x^{2} + 1\right)\left(-x\right)
 \\&
 @nstep{= \left(x^3 + 1\right) - \left(\left(x^{5} + 1\right) - \left(x^{3} + 1\right)\left(x^{2}\right)\right)\left(-x\right)}
 \\&
 @nstep{= \bigg(x\bigg)\bigg(x^{5} + 1\bigg) + \bigg(-x^{3} + 1\bigg)\bigg(x^{3} + 1\bigg)}
-\end{align*}\]
+\end{align*}
 @endsteps
 @endcol
 @end
@@ -405,10 +405,10 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
 @enumerate
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
-<br/>
+<br/><br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
-<br/>
+<br/><br/>
 @endenumerate
 @slide
 

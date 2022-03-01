@@ -1,5 +1,7 @@
 @course{Math 2070}
 @week{7}
+@topic{Polynomials}
+@topic{Rings}
 @section{Polynomials with Rational Coefficients}
 <strong>Notation:</strong> \[
 \mathbb{Q} = \text{Set of rational numbers}

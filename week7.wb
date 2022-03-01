@@ -1,8 +1,5 @@
 @course{Math 2070}
-@topic{Polynomials}
-@topic{Rings}
-<span class="type"/>
-@chapter{}
+@week{7}
 @section{Polynomials with Rational Coefficients}
 <strong>Notation:</strong> \[
 \mathbb{Q} = \text{Set of rational numbers}
@@ -130,7 +127,7 @@ for some $q_k \in \mathbb{Q}[x]$.
 Since $\deg r_k < \deg f_k = \deg r_{k - 1}$,
 we have:
 \[
-\deg r_0 > \deg r_1 > \deg r_2 > \cdots \geq -\infty
+\deg r_0 > \deg r_1 > \deg r_2 > \cdots \geq 0 \geq -\infty
 \]
 (where by convention we let $\deg 0 = -\infty$).
 
@@ -405,10 +402,10 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
 @enumerate
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
-<br/><br/>
+<br/><br/><br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
-<br/><br/>
+<br/><br/><br/>
 @endenumerate
 @slide
 

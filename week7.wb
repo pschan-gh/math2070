@@ -234,7 +234,7 @@ then $p | f_1$ or $p | f_2$.
 Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
 constant polynomials.
 In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by @ref{bezoutpolynomial} ,
-there exist $u, v, \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
+there exist $u, v \in \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
 \[
 f_1 = puf_1 + f_1f_2v.
 \]
@@ -404,10 +404,10 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
 @enumerate
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
-<br/><br/><br/>
+<br/><br/><br/><br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
-<br/><br/><br/>
+<br/><br/><br/><br/>
 @endenumerate
 @slide
 

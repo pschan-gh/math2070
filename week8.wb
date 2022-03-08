@@ -1,9 +1,9 @@
 @course{Math 2070}
 @week{8}
-@topic{Rings}
+@topic{Commutative Rings}
 @topic{Integral Domains}
 @topic{Fields}
-@section{Integral Domains, Units}
+@section{Commutative Rings}
 @defn
 A ring $R$ is said to be @keyword{commutative} if $ab = ba$ for all $a, b \in R$.
 @end
@@ -144,8 +144,7 @@ that distributativity from the right also holds:
 @qed
 @endcol
 @end
-
-@slide
+@section{Integral Domains, Units}
 @defn
 A nonzero commutative ring $R$ is an @keyword{integral domain} if
 the product of two nonzero elements is always nonzero.

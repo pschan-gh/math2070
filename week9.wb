@@ -19,9 +19,17 @@ Note that if $\phi : A \rightarrow B$ is a homomorphism, then:
 @ol
 @li
 \[
+\phi(0_A) + \phi(0_A) = \phi(0_A + 0_A) = \phi(0_A).
+\]
+Adding $-\phi(0_A)$ to both sides, we have:
+\[
+\phi(0_A) = 0_B.
+\]
+<!--
+\[
 1 = \phi(1) = \phi(1 + 0) = \phi(1) + \phi(0) = 1 + \phi(0),
 \]
-which implies that $\phi(0) = 0$.
+-->
 @li
 For all $a \in A$, $0 = \phi(0) = \phi(-a + a) = \phi(-a) + \phi(a)$,
 which implies that $\phi(-a) = -\phi(a)$.

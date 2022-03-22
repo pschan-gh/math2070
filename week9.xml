@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -64,9 +63,17 @@ is a map $\phi: A \rightarrow B$ with the following properties: </paragraphs>
             <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
               <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                 <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
+\phi(0_A) + \phi(0_A) = \phi(0_A + 0_A) = \phi(0_A).
+\]
+Adding $-\phi(0_A)$ to both sides, we have:
+\[
+\phi(0_A) = 0_B.
+\] </paragraphs>
+                <comment course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol">
+\[
 1 = \phi(1) = \phi(1 + 0) = \phi(1) + \phi(0) = 1 + \phi(0),
 \]
-which implies that $\phi(0) = 0$. </paragraphs>
+</comment>
               </col_li>
               <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                 <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For all $a \in A$, $0 = \phi(0) = \phi(-a + a) = \phi(-a) + \phi(a)$,

@@ -244,15 +244,22 @@ The </paragraphs>
               <label wbtag="label" name="claim:onetooneker" type="Claim"/>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A ring homomorphism $\phi : A \rightarrow B$ is one-to-one if and only if $\ker \phi = \{0\}$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="fb467bda7c59ff2b1a37e19d08c2ed15" course="Math 2070" chapter="10" slide="7" of="cbcc6c4aa6c59ea640e8408f178a2b39" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="7" of-type="Claim" of-item="10.4" of-src-filename="week10.xml" ofmd5="cbcc6c4aa6c59ea640e8408f178a2b39" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f13342d34e37e7ae4f100698bd8b8d2f" course="Math 2070" chapter="10" slide="7" of="cbcc6c4aa6c59ea640e8408f178a2b39" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="7" of-type="Claim" of-item="10.4" of-src-filename="week10.xml" ofmd5="cbcc6c4aa6c59ea640e8408f178a2b39" of-serial="">
               <of-title hidden="true">Claim 10.4</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\phi$ is one-to-one.  For any $a \in \ker \phi$, we have $\phi(0) = \phi(a) = 0$,
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $\phi$ is one-to-one.
+For any $a \in \ker \phi$, we have $\phi(0) = \phi(a) = 0$,
 which implies that $a = 0$ since $\phi$ is one-to-one.  Hence, $\ker \phi = \{0\}$.</paragraphs>
                 <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Suppose $\ker \phi = \{0\}$.  If $\phi(a) = \phi(a')$,
-then $0 = \phi(a) - \phi(a') = \phi(a - a')$, which implies that $a - a' \in \ker \phi = \{0\}$.
-So, $a - a' = 0$, which implies that $a = a'$.  Hence, $\phi$ is one-to-one. </paragraphs>
+then:
+\[
+0 = \phi(a) + \left(-\phi(a')\right)
+= \phi(a) + \left(\phi(-a')\right) 
+= \phi(a + (-a')),
+\]
+which implies that $a + (-a') \in \ker \phi = \{0\}$.
+So, $a + (-a') = 0$, which implies that $a = a'$.  Hence, $\phi$ is one-to-one. </paragraphs>
                 <qed course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
               </newcol>
             </substatement>

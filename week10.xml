@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -308,7 +307,7 @@ $ra$ belongs to $I$ for all $a \in I$, $r\in R$.</paragraphs>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Clearly,
 this general definition coincides with the one above in the special case that
 the ring is commutative. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In this introductory course, unless otherwise noted,
 we will always discuss ideals in the context of commutative rings. </paragraphs>
             </newcol>
@@ -397,85 +396,15 @@ Hence, $ar \in \ker \phi$ for all $r \in R$. </paragraphs>
 and "ideal" is defined using the more general definition mentioned earlier.</paragraphs>
             <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2070" chapter="10" section="1" subsection="" subsubsection="" chapter_title="" section_title="Ring Homomorphisms - continued">
-            <keywords slide="12" environ="slide" chapter="10" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="10" md5="b5f8630108eb461ddd15d5d076725838" course="Math 2070" chapter="10" slide="12" item="10.10">
-              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A nonzero commutative ring $R$ is a field if and only if its only ideals are
-$\{0\}$ and $R$. </paragraphs>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="052a4162fca39c51d68e9d88c328319f" course="Math 2070" chapter="10" slide="12" of="b5f8630108eb461ddd15d5d076725838" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="12" of-type="Claim" of-item="10.10" of-src-filename="week10.xml" ofmd5="b5f8630108eb461ddd15d5d076725838" of-serial="">
-              <of-title hidden="true">Claim 10.10</of-title>
-              <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose a nonzero commutative ring $R$ is a field.
-If an ideal $I$ of $R$ is nonzero, it contains at least one
-nonzero element $a$ of $R$.</paragraphs>
-                <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $R$ is a field, $a$ has a multiplicative inverse $a^{-1}$ in $R$.
-Since $I$ is an ideal, and $a \in I$, we have $1 = a^{-1} a \in I$.</paragraphs>
-                  <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $I$ is an ideal which contains $1$,
-hence it must be the whole field $R$.</paragraphs>
-                    <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Conversely, let $R$ be a nonzero commutative ring whose only ideals are $\{0\}$ and $R$.</paragraphs>
-                      <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                      <collapse course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given any nonzero element $a \in R$,
-the principal ideal $(a) := \{ar : r \in R\}$ generated by $a$ is nonzero because it contains $a \neq 0$.</paragraphs>
-                        <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                        <collapse course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by hypothesis the ideal $(a)$ is necessarily the whole ring $R$.
-In particular, the element $1$ lies in $(a)$, which means that there is an $r \in R$
-such that $ar = 1$.
-This shows that any nonzero element of $R$ is a unit.  Hence, $R$ is a field. </paragraphs>
-                          <qed course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                        </collapse>
-                      </collapse>
-                    </collapse>
-                  </collapse>
-                </collapse>
-              </newcol>
-            </substatement>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2070" chapter="10" section="1" subsection="" subsubsection="" chapter_title="" section_title="Ring Homomorphisms - continued">
-            <keywords slide="13" environ="slide" chapter="10" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="e74c3178aa9c569c1a1de49d19a7d455" course="Math 2070" chapter="10" slide="13" item="10.11">
-              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, and $R$ a nonzero ring.  Any ring homomorphism $\phi : k \rightarrow R$ is necessarily one-to-one. </paragraphs>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="624300205118c2e9201a66faf5587173" course="Math 2070" chapter="10" slide="13" of="e74c3178aa9c569c1a1de49d19a7d455" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="13" of-type="Claim" of-item="10.11" of-src-filename="week10.xml" ofmd5="e74c3178aa9c569c1a1de49d19a7d455" of-serial="">
-              <of-title hidden="true">Claim 10.11</of-title>
-              <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $R$ is not a zero ring, it contains $1 \neq 0$.  So, $\phi(1) = 1 \neq 0$, which implies that $\ker \phi$
-is a proper ideal of $k$.  Since $k$ is a field, we have $\ker \phi = \{0\}$.  It now follows from a previous claim that $\phi$ is one-to-one. </paragraphs>
-                <qed course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-              </newcol>
-            </substatement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="264c632e0d97858d6be04567e3b501c2" course="Math 2070" chapter="10" slide="13" item="10.12">
-              <newcol course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any natural number $m  &gt; 1$,
-there can be no ring homomorphisms from $\mathbb{Q}$ to $\mathbb{Z}_m$.</paragraphs>
-                <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">The reason is as follows:</paragraphs>
-                <newline course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the previous claim, any ring homomorphism from the field $\mathbb{Q}$
-to $\mathbb{Z}_m$ must be one-to-one, but there can be no one-to-one
-map from the infinite set $\mathbb{Q}$ to the finite set $\mathbb{Z}_m$. </paragraphs>
-                </collapse>
-              </newcol>
-            </statement>
-          </slide>
         </slides>
         <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 2070" chapter="10" section="1" num="1" serial="10.1.1">
           <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="10" section="1" subsection="" subsubsection="" serial="10.1.1" slide="">
             <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="14" scope="subsection" id="s14" slide="14" course="Math 2070" chapter="10" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Ring Homomorphisms - continued">
-              <keywords slide="14" environ="slide" chapter="10" course="Math 2070"/>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="10" section="1" subsection="1" subsubsection="" serial="" slide="14">
+            <slide environment="" chapter_type="Week" canon_num="12" scope="subsection" id="s12" slide="12" course="Math 2070" chapter="10" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Ring Homomorphisms - continued">
+              <keywords slide="12" environ="slide" chapter="10" course="Math 2070"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2070" chapter="10" section="1" subsection="1" subsubsection="" serial="" slide="12">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
               </title>
               <enumerate course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
@@ -493,31 +422,31 @@ map from the infinite set $\mathbb{Q}$ to the finite set $\mathbb{Z}_m$. </parag
           </slides>
         </subsection>
       </section>
-      <section environment="" chapter_type="" type="Section" wbtag="section" title="Principal Ideal Domains" course="Math 2070" chapter="10" num="2" serial="10.2">
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Principal Ideals" course="Math 2070" chapter="10" num="2" serial="10.2">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" serial="" slide="">
-          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Principal Ideal Domains</paragraphs>
+          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Principal Ideals</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="15" scope="section" id="s15" slide="15" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
-            <keywords slide="15" environ="slide" chapter="10" course="Math 2070">
-              <keyword chapter="10" slide="15">generated</keyword>
-              <keyword chapter="10" slide="15">principal ideal</keyword>
+          <slide environment="" chapter_type="Week" canon_num="13" scope="section" id="s13" slide="13" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideals">
+            <keywords slide="13" environ="slide" chapter="10" course="Math 2070">
+              <keyword chapter="10" slide="13">generated</keyword>
+              <keyword chapter="10" slide="13">principal ideal</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" serial="" slide="15">
-              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Principal Ideal Domains</paragraphs>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" serial="" slide="13">
+              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Principal Ideals</paragraphs>
             </title>
             <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> For a fixed finite set of elements $a_1, a_2,\ldots, a_n$ in a commutative ring $R$,
 let $(a_1, a_2,\ldots, a_n)$ denote the subset:
 \[
 \{r_1 a_1 + r_2 a_2 + \cdots + r_n a_n : r_i \in R\}.
 \] </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="13" md5="a7b5b629c76180a2f2e9958644f1dde5" course="Math 2070" chapter="10" slide="15" item="10.13">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="10" md5="a7b5b629c76180a2f2e9958644f1dde5" course="Math 2070" chapter="10" slide="13" item="10.10">
               <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The set $I = (a_1, a_2, \ldots, a_n)$ is an ideal of $R$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6d221f1011813cdadacce02c9588a8e7" course="Math 2070" chapter="10" slide="15" of="a7b5b629c76180a2f2e9958644f1dde5" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="15" of-type="Claim" of-item="10.13" of-src-filename="week10.xml" ofmd5="a7b5b629c76180a2f2e9958644f1dde5" of-serial="">
-              <of-title hidden="true">Claim 10.13</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6d221f1011813cdadacce02c9588a8e7" course="Math 2070" chapter="10" slide="13" of="a7b5b629c76180a2f2e9958644f1dde5" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="13" of-type="Claim" of-item="10.10" of-src-filename="week10.xml" ofmd5="a7b5b629c76180a2f2e9958644f1dde5" of-serial="">
+              <of-title hidden="true">Claim 10.10</of-title>
               <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
@@ -547,9 +476,78 @@ An ideal $(a) = \{ar : r \in R\}$ generated by one element $a \in R$ is called a
                 <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Note that $R = (1)$ and $\{0\} = (0)$ are both principal ideals. </paragraphs>
               </collapse>
             </newcol>
-            <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideals">
+            <keywords slide="14" environ="slide" chapter="10" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="b5f8630108eb461ddd15d5d076725838" course="Math 2070" chapter="10" slide="14" item="10.11">
+              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A nonzero commutative ring $R$ is a field if and only if its only ideals are
+$\{0\}$ and $R$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="052a4162fca39c51d68e9d88c328319f" course="Math 2070" chapter="10" slide="14" of="b5f8630108eb461ddd15d5d076725838" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="14" of-type="Claim" of-item="10.11" of-src-filename="week10.xml" ofmd5="b5f8630108eb461ddd15d5d076725838" of-serial="">
+              <of-title hidden="true">Claim 10.11</of-title>
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose a nonzero commutative ring $R$ is a field.
+If an ideal $I$ of $R$ is nonzero, it contains at least one
+nonzero element $a$ of $R$.</paragraphs>
+                <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $R$ is a field, $a$ has a multiplicative inverse $a^{-1}$ in $R$.
+Since $I$ is an ideal, and $a \in I$, we have $1 = a^{-1} a \in I$.</paragraphs>
+                  <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $I$ is an ideal which contains $1$,
+hence it must be the whole field $R$.</paragraphs>
+                    <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Conversely, let $R$ be a nonzero commutative ring whose only ideals are $\{0\}$ and $R$.</paragraphs>
+                      <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given any nonzero element $a \in R$,
+the principal ideal $(a) := \{ar : r \in R\}$ generated by $a$ is nonzero because it contains $a \neq 0$.</paragraphs>
+                        <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by hypothesis the ideal $(a)$ is necessarily the whole ring $R$.
+In particular, the element $1$ lies in $(a)$, which means that there is an $r \in R$
+such that $ar = 1$.
+This shows that any nonzero element of $R$ is a unit.  Hence, $R$ is a field. </paragraphs>
+                          <qed course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideals">
+            <keywords slide="15" environ="slide" chapter="10" course="Math 2070"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="12" md5="e74c3178aa9c569c1a1de49d19a7d455" course="Math 2070" chapter="10" slide="15" item="10.12">
+              <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, and $R$ a nonzero ring.  Any ring homomorphism $\phi : k \rightarrow R$ is necessarily one-to-one. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="624300205118c2e9201a66faf5587173" course="Math 2070" chapter="10" slide="15" of="e74c3178aa9c569c1a1de49d19a7d455" of-src-course="Math 2070" of-src-chapter="10" of-src-slide="15" of-type="Claim" of-item="10.12" of-src-filename="week10.xml" ofmd5="e74c3178aa9c569c1a1de49d19a7d455" of-serial="">
+              <of-title hidden="true">Claim 10.12</of-title>
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $R$ is not a zero ring, it contains $1 \neq 0$.  So, $\phi(1) = 1 \neq 0$, which implies that $\ker \phi$
+is a proper ideal of $k$.  Since $k$ is a field, we have $\ker \phi = \{0\}$.  It now follows from a previous claim that $\phi$ is one-to-one. </paragraphs>
+                <qed course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              </newcol>
+            </substatement>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="264c632e0d97858d6be04567e3b501c2" course="Math 2070" chapter="10" slide="15" item="10.13">
+              <newcol course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any natural number $m  &gt; 1$,
+there can be no ring homomorphisms from $\mathbb{Q}$ to $\mathbb{Z}_m$.</paragraphs>
+                <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">The reason is as follows:</paragraphs>
+                <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the previous claim, any ring homomorphism from the field $\mathbb{Q}$
+to $\mathbb{Z}_m$ must be one-to-one, but there can be no one-to-one
+map from the infinite set $\mathbb{Q}$ to the finite set $\mathbb{Z}_m$. </paragraphs>
+                </collapse>
+              </newcol>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideals">
             <keywords slide="16" environ="slide" chapter="10" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="14" md5="2b4012d8c411deb5b3e144c24272188a" course="Math 2070" chapter="10" slide="16" item="10.14">
               <paragraphs course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Given $a, b$ in a commutative ring $R$.  If $b = au$ for some unit $u \in R$,
@@ -592,7 +590,7 @@ This shows that $u$ is unit. </paragraphs>
             </substatement>
             <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideals">
             <keywords slide="17" environ="slide" chapter="10" course="Math 2070">
               <keyword chapter="10" slide="17">Principal Ideal Domain</keyword>
               <keyword chapter="10" slide="17">PID</keyword>
@@ -657,7 +655,7 @@ for all $r \in \mathbb{Z}$, which implies that $(d) \subseteq I$.</paragraphs>
             </substatement>
             <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideals">
             <keywords slide="18" environ="slide" chapter="10" course="Math 2070">
               <keyword chapter="10" slide="18">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
             </keywords>
@@ -725,7 +723,7 @@ f = (q' + a_n^{-1}b_m x^{m - n}) d + r'.
             </substatement>
             <newline course="Math 2070" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="19" id="s19" slide="19" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideal Domains">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="19" id="s19" slide="19" course="Math 2070" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideals">
             <keywords slide="19" environ="slide" chapter="10" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="18" md5="cb147fcfae2b64a2477e6cd9c7fb2126" course="Math 2070" chapter="10" slide="19" item="10.18">
               <label wbtag="label" name="thm:pidpoly" type="Theorem"/>

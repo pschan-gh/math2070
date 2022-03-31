@@ -89,7 +89,7 @@ which implies that $\phi(u)$ is a unit, with $\phi(u)^{-1} = \phi(u^{-1})$. </pa
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
             <keywords slide="4" environ="slide" chapter="9" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="52d07ae6b861a310748bece0bf8fcfd2" course="Math 2070" chapter="9" slide="4" item="9.2">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="8acfa4b3621e90fd03a3d7262013296a" course="Math 2070" chapter="9" slide="4" item="9.2">
               <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The map $\phi : \mathbb{Z}\rightarrow \mathbb{Q}$ defined by:
 \[
 \phi(n) = \frac{n}{1}, \quad n \in \mathbb{Z},
@@ -100,13 +100,13 @@ is a homomorphism, since: </paragraphs>
                   <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1) = \frac{1}{1} = 1_{\mathbb{Q}}$, </paragraphs>
                 </col_li>
                 <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(n +_\mathbb{Z} m)  = \frac{m + n}{1}
+                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(n +_\mathbb{Z} m)  = \frac{n + m}{1}
 = \frac{n}{1} +_{\mathbb{Q}} \frac{m}{1}
 = \phi(n) +_{\mathbb{Q}} \phi(m)$. </paragraphs>
                 </col_li>
                 <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                   <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(n \cdot_\mathbb{Z} m)
-= \frac{mn}{1} = \frac{n}{1} \cdot_{\mathbb{Q}} \frac{m}{1}
+= \frac{nm}{1} = \frac{n}{1} \cdot_{\mathbb{Q}} \frac{m}{1}
 = \phi(n)\cdot_{\mathbb{Q}} \phi(m).
 $ </paragraphs>
                 </col_li>

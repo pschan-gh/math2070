@@ -50,12 +50,12 @@ is a homomorphism, since:
 @li
 $\phi(1) = \frac{1}{1} = 1_{\mathbb{Q}}$,
 @li
-$\phi(n +_\mathbb{Z} m)  = \frac{m + n}{1}
+$\phi(n +_\mathbb{Z} m)  = \frac{n + m}{1}
 = \frac{n}{1} +_{\mathbb{Q}} \frac{m}{1}
 = \phi(n) +_{\mathbb{Q}} \phi(m)$.
 @li
 $\phi(n \cdot_\mathbb{Z} m)
-= \frac{mn}{1} = \frac{n}{1} \cdot_{\mathbb{Q}} \frac{m}{1}
+= \frac{nm}{1} = \frac{n}{1} \cdot_{\mathbb{Q}} \frac{m}{1}
 = \phi(n)\cdot_{\mathbb{Q}} \phi(m).
 $
 @endol

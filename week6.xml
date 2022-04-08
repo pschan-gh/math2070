@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
     <keywords slide="all" environ="course" chapter="" course="Math 2070">
@@ -203,7 +202,7 @@ gcd(b, a) &amp;= gcd(b_0, a_0)\\
               <keywords slide="7" environ="slide" chapter="6" course="Math 2070">
                 <keyword chapter="6" slide="7">Bézout's Lemma</keyword>
               </keywords>
-              <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" title="B&#xE9;zout's Lemma" md5="78dcabe2aa157a7972614bccf4d63cc0" course="Math 2070" chapter="6" slide="7" item="6.5">
+              <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" title="Bézout's Lemma" md5="78dcabe2aa157a7972614bccf4d63cc0" course="Math 2070" chapter="6" slide="7" item="6.5">
                 <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="6" section="1" subsection="1" subsubsection="" serial="" slide="7">Bézout's Lemma</title>
                 <label wbtag="label" name="bezoutslemma" type="Claim"/>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Let $a, b$ be nonzero integers.
@@ -215,38 +214,36 @@ There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
                   <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">Sketch of Proof:</paragraphs>
                   </strong>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">Approach 1.</paragraphs>
                   </strong>
                   <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Recall the notation used in </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7" referrer-type="Proof" referrer-md5="73702ed2c86843ffd54481b11a5a6d7b" src-course="Math 2070" src-chapter="6" src-slide="" type="Section" src-filename="week6.xml" md5="" class="lcref" serial="6.1.1">
-                      <title custom="true">
-            Euclidean Algorithm
-          </title>
+                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7" referrer-type="Proof" referrer-md5="73702ed2c86843ffd54481b11a5a6d7b">
+                      <title>UNDEFINED</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> .
 We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$. </paragraphs>
-                    <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We may prove Bézout's Lemma via mathematical induction as follows: </paragraphs>
-                    <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> First, for integers $0 \leq l &lt; \min(n - 1, 2)$, show that there exist
 $x_l, y_l \in \mathbb{Z}$ such that $r_l = a x_l + b y_l$.
 This is the base step of the induction proof. </paragraphs>
-                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We now carry out the inductive step.
 Suppose $n - 1 \geq 2$. For any integer $2 \leq k \leq n - 1$,
 suppose $r_l = a x_l + b y_l$ for some $x_l, y_l \in \mathbb{Z}$, for all
 $0\leq l &lt; k$. </paragraphs>
-                        <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                         <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that:
 \[r_k = \underbrace{b_k}_{a_{k - 1} = r_{k - 2}} - q_{k} \underbrace{a_{k}}_{r_{k - 1}}\]
 also has the form $r_k = a x_k + b y_k$
 for some $x_k, y_k \in \mathbb{Z}$. </paragraphs>
-                        <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                         <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> The desired identity $gcd(a, b) = r_{n - 1} = ax_{n - 1} + by_{n - 1}$
 then follows by mathemtical induction. </paragraphs>
@@ -254,7 +251,7 @@ then follows by mathemtical induction. </paragraphs>
                       </collapse>
                     </collapse>
                   </newcol>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">Approach 2.</paragraphs>
                   </strong>
@@ -264,7 +261,7 @@ then follows by mathemtical induction. </paragraphs>
 Show that the the minimum element $d \in S$ is the greatest common divisor of
 $a$ and $b$. </paragraphs>
                   </newcol>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 </newcol>
               </substatement>
               <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="6" md5="0f32dc57739b5c26d1683f997d1780a2" course="Math 2070" chapter="6" slide="7" item="6.6">
@@ -306,7 +303,7 @@ such that $ax + by = 1$. </paragraphs>
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
 So, by </paragraphs>
                   <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="8" referrer-type="Proof" referrer-md5="5957330802d1e74f36567f3f2017c8d6" src-course="Math 2070" src-chapter="6" src-slide="7" type="Claim" item="6.5" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
-                    <title custom="true">Bézout's Lemma</title>
+                    <title>Bézout's Lemma</title>
                   </ref>
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
 \[ax + by = gcd(a, b) = 1.\]
@@ -432,7 +429,7 @@ positive integers $a, b \neq 1$ such that $m = ab$.</paragraphs>
                       <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, $a, b &lt; m$.
 So, $a$ and $b$ must be either primes or products of primes, which implies that $m$ is itself a product of primes, a contradiction. </paragraphs>
-                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                         <collapse course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We now prove Part 2 ( </paragraphs>
                           <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol">Unique Factorization</inline_keyword>
@@ -572,8 +569,8 @@ This establishes the inductive step, and completes the proof. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="15" md5="4a62c29bb2c92e3bb1826309cded2dcd" course="Math 2070" chapter="6" slide="13" item="6.15">
               <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $m$ be a positive integer, then $a, b \in \mathbb{Z}$ are said to be:</paragraphs>
               <newline course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement"/>
-              <center xmlns="http://www.w3.org/1999/xhtml" environment="center">
-                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="center">congruent modulo $m$</inline_keyword>
+              <center xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement">congruent modulo $m$</inline_keyword>
               </center>
               <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> \[
 a \equiv b \mod m,
@@ -586,12 +583,12 @@ if $m | (a - b)$. </paragraphs>
                 <inline_keyword course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">equivalence relation</inline_keyword>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . In other words, it
 is: </paragraphs>
-                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                 <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <li environment="newcol">
                     <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Reflexive</inline_keyword>
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">:</paragraphs>
-                    <br environment="newcol"/>
+                    <br environment="newcol" />
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a \equiv a \mod m$;</paragraphs>
                     <newline xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                   </li>
@@ -599,7 +596,7 @@ is: </paragraphs>
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> </paragraphs>
                     <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Symmetric</inline_keyword>
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">:</paragraphs>
-                    <br environment="newcol"/>
+                    <br environment="newcol" />
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a \equiv b \mod m$ implies that $b \equiv a \mod m$;</paragraphs>
                     <newline xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                   </li>
@@ -607,7 +604,7 @@ is: </paragraphs>
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> </paragraphs>
                     <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">Transitive</inline_keyword>
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">:</paragraphs>
-                    <br environment="newcol"/>
+                    <br environment="newcol" />
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $a \equiv b \mod m$, $b \equiv c \mod m$, imply that $a \equiv c \mod m$.</paragraphs>
                     <newline xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                   </li>
@@ -691,12 +688,12 @@ to exactly one of $\{0, 1, 2, \ldots, m - 1\}$. </paragraphs>
               <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By Part 1 of the claim, $a$ is congruent mod $m$ to the remainder $r$
 of the division of $a$ by $m$. </paragraphs>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By definition, the remainder $r$ lies in $\{0, 1, 2, \ldots, m - 1\}$.
 If $a \equiv r' \mod m$, for some $r' \in \{0, 1, 2, \ldots, m - 1\}$,
 then by transitivity, we have $r' \equiv r \mod m$. </paragraphs>
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By Part 2 of the claim, we have $r = r'$. </paragraphs>
                     <qed course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
@@ -812,7 +809,7 @@ $ax \equiv 1 \mod m$. </paragraphs>
               <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $a$ and $m$ are relatively prime, by </paragraphs>
                 <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="17" referrer-type="Proof" referrer-md5="93ca9773dff8fb92d40e14a34deebd58" src-course="Math 2070" src-chapter="6" src-slide="7" type="Claim" item="6.5" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
-                  <title custom="true">Bézout's Lemma</title>
+                  <title>Bézout's Lemma</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
 \[
@@ -876,7 +873,7 @@ for some $r \in \mathbb{Z}$. </paragraphs>
                 </ref>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exists $n \in \mathbb{Z}$ such that $m_1n \equiv 1 \mod m_2$.
 Let $x = m_1n(r_2 - r_1) + r_1$. </paragraphs>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since:
 \[
@@ -892,10 +889,10 @@ x \equiv r_1 \mod m_1.
 x = m_1n(r_2 - r_1) + r_1 \equiv r_2 - r_1 + r_1 \equiv r_2 \mod m_2.
 \]
 This shows that the system of congruence relations has at least one solution. </paragraphs>
-                    <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $x'$ is another solution to the system, then: </paragraphs>
-                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       <collapse course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \begin{eqnarray*}
 x - x' &amp;\equiv r_1 - r_1 &amp;\equiv 0 \mod m_1,\\
@@ -930,7 +927,7 @@ where $x_0$ is any particular solution to the system. </paragraphs>
             <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> The proof of the Chinese Remainder Theorem as written above is complete.
 However, it is worthwhile to explain
 how we come up with the solution $x = m_1n(r_2 - r_1) + r_1$ in the first place. </paragraphs>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Heuristically, the solution may be arrived at as follows:
 For any $q \in \mathbb{Z}$, $x = m_1 q + r_1$ is a solution to the first congruence relation.
@@ -1040,7 +1037,7 @@ x \equiv 377 \mod 34\cdot 27
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="21" id="s21" slide="21" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
             <keywords slide="21" environ="slide" chapter="6" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="24" md5="1fb100aa6a7eadd671411f5387f49f90" course="Math 2070" chapter="6" slide="21" item="6.24">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="24" course="Math 2070" chapter="6" slide="21" item="6.24">
               <enumerate course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
                 <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                   <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences1.pg"/>

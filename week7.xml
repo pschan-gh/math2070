@@ -357,7 +357,7 @@ then $p | f_1$ or $p | f_2$. </paragraphs>
 constant polynomials.
 In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by </paragraphs>
                 <ref environment="newcol" chapter_type="" label="bezoutpolynomial" wbtag="ref" course="Math 2070" chapter="7" slide="9" referrer-type="Proof" referrer-md5="aee3542321d304d7f865173d1e8b3285" src-course="Math 2070" src-chapter="7" src-slide="8" type="Corollary" item="7.6" src-filename="week7.xml" md5="ff0cf605977388ae70fe17f3161c10ab" class="lcref" serial="">
-                  <title>Bézout's Identity for Polynomials</title>
+                  <title custom="true">Bézout's Identity for Polynomials</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
 there exist $u, v \in \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
@@ -393,7 +393,7 @@ of irreducibles, a contradiction. </paragraphs>
             <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Compare this proof with that of Part 1 of the
 Fundamental Theorem of Arithmetic (</paragraphs>
             <ref environment="" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="10" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
-              <title>The Fundamental Theorem of Arithmetic</title>
+              <title custom="true">The Fundamental Theorem of Arithmetic</title>
             </ref>
             <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">). </paragraphs>
           </slide>
@@ -420,7 +420,7 @@ for $i = 1, 2, \ldots, n$. </paragraphs>
                 </strong>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . See the proof of Part 2 of </paragraphs>
                 <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="7" slide="11" referrer-type="Proof" referrer-md5="aa755220921faf8169cb8568dc856abd" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
-                  <title>The Fundamental Theorem of Arithmetic</title>
+                  <title custom="true">The Fundamental Theorem of Arithmetic</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ). </paragraphs>
               </newcol>

@@ -220,7 +220,7 @@ There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
                   </strong>
                   <newcol course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Recall the notation used in </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7" referrer-type="Proof" referrer-md5="73702ed2c86843ffd54481b11a5a6d7b">
+                    <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2070" chapter="6" slide="7" referrer-type="Proof" referrer-md5="73702ed2c86843ffd54481b11a5a6d7b" undefined="true">
                       <title>UNDEFINED</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> .
@@ -303,7 +303,7 @@ such that $ax + by = 1$. </paragraphs>
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
 So, by </paragraphs>
                   <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="8" referrer-type="Proof" referrer-md5="5957330802d1e74f36567f3f2017c8d6" src-course="Math 2070" src-chapter="6" src-slide="7" type="Claim" item="6.5" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
-                    <title>Bézout's Lemma</title>
+                    <title custom="true">Bézout's Lemma</title>
                   </ref>
                   <paragraphs course="Math 2070" chapter="6" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
 \[ax + by = gcd(a, b) = 1.\]
@@ -809,7 +809,7 @@ $ax \equiv 1 \mod m$. </paragraphs>
               <newcol course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $a$ and $m$ are relatively prime, by </paragraphs>
                 <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2070" chapter="6" slide="17" referrer-type="Proof" referrer-md5="93ca9773dff8fb92d40e14a34deebd58" src-course="Math 2070" src-chapter="6" src-slide="7" type="Claim" item="6.5" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
-                  <title>Bézout's Lemma</title>
+                  <title custom="true">Bézout's Lemma</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
 \[
@@ -1037,7 +1037,7 @@ x \equiv 377 \mod 34\cdot 27
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="21" id="s21" slide="21" course="Math 2070" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="Modular Arithmetic">
             <keywords slide="21" environ="slide" chapter="6" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="24" course="Math 2070" chapter="6" slide="21" item="6.24">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="24" md5="1fb100aa6a7eadd671411f5387f49f90" course="Math 2070" chapter="6" slide="21" item="6.24">
               <enumerate course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
                 <item course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                   <webwork course="Math 2070" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences1.pg"/>

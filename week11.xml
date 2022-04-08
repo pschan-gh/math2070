@@ -248,7 +248,7 @@ f = q(x - a) + f(a)
               <of-title hidden="true">Lemma 11.6</of-title>
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> By the </paragraphs>
               <ref environment="substatement" chapter_type="" label="thm:divalgpoly" wbtag="ref" course="Math 2070" chapter="11" slide="7" referrer-type="Proof" referrer-md5="d4fefef67ca36c1b73f8486737314f52" src-course="Math 2070" src-chapter="10" src-slide="18" type="Theorem" item="10.17" src-filename="week10.xml" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" class="lcref" serial="">
-                <title>Division Theorem for Polynomials with Unit Leading Coefficients</title>
+                <title custom="true">Division Theorem for Polynomials with Unit Leading Coefficients</title>
               </ref>
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">,
 there exist $q, r \in k[x]$ such that:
@@ -685,7 +685,7 @@ The factorization is unique up to the ordering of the factors. </paragraphs>
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> One possible approach is very similar to the proof of unique factorization
 for $\mathbb{Z}$. See: </paragraphs>
                 <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2070" chapter="11" slide="17" referrer-type="Proof" referrer-md5="1567ec707ddf57907aff40da3ffd9ad8" src-course="Math 2070" src-chapter="6" src-slide="11" type="Theorem" item="6.14" src-filename="week6.xml" md5="d82a6d14efc507a18d8496d0b9cfe404" class="lcref" serial="">
-                  <title>The Fundamental Theorem of Arithmetic</title>
+                  <title custom="true">The Fundamental Theorem of Arithmetic</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
               </newcol>
@@ -694,7 +694,7 @@ for $\mathbb{Z}$. See: </paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2070" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
             <keywords slide="18" environ="slide" chapter="11" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="19" course="Math 2070" chapter="11" slide="18" item="11.19">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="19" md5="8c4af4bbba9bea8cf1e2900ae1d28f18" course="Math 2070" chapter="11" slide="18" item="11.19">
               <enumerate course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
                 <item course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                   <webwork course="Math 2070" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials3.pg"/>

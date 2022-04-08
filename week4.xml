@@ -4,6 +4,8 @@
       <keyword chapter="" slide="all">generated</keyword>
       <keyword chapter="" slide="all">finitely generated</keyword>
       <keyword chapter="" slide="all">group homomorphism</keyword>
+      <keyword chapter="" slide="all">image</keyword>
+      <keyword chapter="" slide="all">kernel</keyword>
       <keyword chapter="" slide="all">isomorphism</keyword>
       <keyword chapter="" slide="all">isomorphic</keyword>
       <keyword chapter="" slide="all">Lagrange's Theorem</keyword>
@@ -21,6 +23,8 @@
         <keyword chapter="4" slide="all">generated</keyword>
         <keyword chapter="4" slide="all">finitely generated</keyword>
         <keyword chapter="4" slide="all">group homomorphism</keyword>
+        <keyword chapter="4" slide="all">image</keyword>
+        <keyword chapter="4" slide="all">kernel</keyword>
         <keyword chapter="4" slide="all">isomorphism</keyword>
         <keyword chapter="4" slide="all">isomorphic</keyword>
         <keyword chapter="4" slide="all">Lagrange's Theorem</keyword>
@@ -171,7 +175,7 @@ on a set of $n$ elements (see </paragraphs>
                   <collapse course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from </paragraphs>
                     <ref environment="newcol" chapter_type="" label="lagrangethm" wbtag="ref" course="Math 2070" chapter="4" slide="6" referrer-type="Proof" referrer-md5="8b893f6f3c25abf839f5f371de1a2cda" src-course="Math 2070" src-chapter="4" src-slide="3" type="Theorem" item="4.1" src-filename="week4.xml" md5="73d51b0af4e4da963c2c84cd31fb0993" class="lcref" serial="">
-                      <title>Lagrange's Theorem</title>
+                      <title custom="true">Lagrange's Theorem</title>
                     </ref>
                     <paragraphs course="Math 2070" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that:
 \[\abs{A_n} = \frac{\abs{S_n}}{[S_n: A_n]} = \frac{n!}{2}.\] </paragraphs>
@@ -339,11 +343,18 @@ the right-hand side is equal to $\phi(e_G)$. </paragraphs>
             </substatement>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2070" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
-            <keywords slide="11" environ="slide" chapter="4" course="Math 2070"/>
+            <keywords slide="11" environ="slide" chapter="4" course="Math 2070">
+              <keyword chapter="4" slide="11">image</keyword>
+              <keyword chapter="4" slide="11">kernel</keyword>
+            </keywords>
             <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $\phi: G \ra G'$ be a homomorphism of groups.
-The __image__ of $\phi$ is defined as:
+The </paragraphs>
+            <inline_keyword course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="">image</inline_keyword>
+            <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $\phi$ is defined as:
 \[\im \phi:= \phi(G):= \{g' \in G' : g' = \phi(g) \;\text{ for some }\; g \in G\} \subseteq G'\]
-The __kernel__ of $\phi$ is defined as:
+The </paragraphs>
+            <inline_keyword course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="">kernel</inline_keyword>
+            <paragraphs course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $\phi$ is defined as:
 \[\ker \phi = \{g \in G: \phi(g) = e_{G'}\} \subseteq G.\] </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="261d6c7b5c29f78ee16355024908c653" course="Math 2070" chapter="4" slide="11" item="4.11">
               <newcol course="Math 2070" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">

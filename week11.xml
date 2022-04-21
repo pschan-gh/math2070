@@ -102,7 +102,7 @@ for any $a, b \in \mathbb{Z}$. </paragraphs>
             </statement>
             <newline course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings - continued">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" data-lecture-skip="true" id="s5" slide="5" course="Math 2070" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings - continued">
             <keywords slide="5" environ="slide" chapter="11" course="Math 2070"/>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="a780d473975decbb35a820a29e106575" course="Math 2070" chapter="11" slide="5" item="11.4">
               <paragraphs course="Math 2070" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The ring $\mathbb{Z}[i]/(1 + 3i)$ is isomorphic to $\mathbb{Z}/10\ZZ$. </paragraphs>

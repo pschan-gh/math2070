@@ -43,6 +43,7 @@ for any $a, b \in \mathbb{Z}$.
 @end
 
 @slide
+@skip
 @eg
 The ring $\mathbb{Z}[i]/(1 + 3i)$ is isomorphic to $\mathbb{Z}/10\ZZ$.
 @end

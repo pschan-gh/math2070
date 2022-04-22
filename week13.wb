@@ -270,7 +270,18 @@ in $\mathbb{Q}(\sqrt[3]{5})$ in the form:
 where $c_i \in \mathbb{Q}$, if possible.
 @endcol
 @end
-
+@section{WeBWorK}
+@enumerate
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields3.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields4.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields5.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields6.pg}
+@endenumerate
+<!--
 @section{Splitting Field}
 <b style="display:none">splitting field</b>
 <hr/>
@@ -352,17 +363,7 @@ Hence, $f$ is a product of linear factors in $K[x]$.
 @qed
 @endcol
 @end
-@section{WeBWorK}
-@enumerate
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields3.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields4.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields5.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields6.pg}
-@endenumerate
+-->
 <!--@thm
 If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
 then there exists a field extension $K$ of $k$, such that $f \in k[x] \subseteq K[x]$
@@ -411,6 +412,7 @@ splits into linear factors in $K[x]$.
 @col
 Hence, $f$ is a product of linear factors in $K[x]$.
 @qed@endcol@end-->
+<!--
 @section{Finite Fields}
 Recall:
 @defn
@@ -623,3 +625,4 @@ So, $a^{q -2}$ is a multiplicative inverse of $a$ in $F$.
 @qed
 @endcol
 @end
+-->

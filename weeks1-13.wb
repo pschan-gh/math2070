@@ -1,8 +1,8 @@
-@course{MATH 2070A}
+@course{Math 2070}
 @week{1}
 @topic{Groups}
 @section{Overview}
-<hr style=""/>
+<hr/>
 @itemize
 @item
 <h5 style="">Groups</h5>
@@ -24,7 +24,7 @@ What are the symmetries of an equilateral triangle?
 @newcol
 @keyword{Dihedral Group $D_3$}
 <br/><br/><a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" style="">
-<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" width="450"/></a>
+<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png"/></a>
 @endcol
 @endul
 @item
@@ -114,7 +114,7 @@ where $f * g:= f \circ g$ (i.e. composition of functions).
 <table class="table table-bordered" border="2" cellpadding="5" align="center" style="text-align: center;">
 <tbody>
 <tr>
-<th style="background:#efefef;text-align:center">*</th><th style="background:#efefef;text-align:center">$a$</th><th style="background:#efefef;text-align:center">$b$</th><th style="background:#efefef;text-align:center">$c$</th></tr><tr>
+<th style="background:#efefef;text-align:center">$\large\ast$</th><th style="background:#efefef;text-align:center">$a$</th><th style="background:#efefef;text-align:center">$b$</th><th style="background:#efefef;text-align:center">$c$</th></tr><tr>
 <th style="background:#efefef;text-align:center">$a$</th><td>$a^2$</td><td>$ab$</td><td>$ac$</td></tr><tr>
 <th style="background:#efefef;text-align:center">$b$</th><td>$ba$</td><td>$b^2$</td><td>$bc$</td></tr><tr>
 <th style="background:#efefef;text-align:center">$c$</th><td>$ca$</td><td>$cb$</td><td>$c^2$</td></tr></tbody></table></a></div>
@@ -126,7 +126,7 @@ where $f * g:= f \circ g$ (i.e. composition of functions).
 <table class="table table-bordered" width="200" style="text-align: center;">
 <tbody>
 <tr>
-<th style="text-align: center;"> * </th><th style="background:#efefef;text-align:center">$r_0$</th><th style="background:#efefef;text-align:center">$r_1$</th><th style="background:#efefef;text-align:center">$r_2$</th><th style="background:#efefef;text-align:center">$s_0$</th><th style="background:#efefef;text-align:center">$s_1$</th><th style="background:#efefef;text-align:center">$s_2$</th></tr><tr>
+<th style="text-align: center;">$\large\ast$</th><th style="background:#efefef;text-align:center">$r_0$</th><th style="background:#efefef;text-align:center">$r_1$</th><th style="background:#efefef;text-align:center">$r_2$</th><th style="background:#efefef;text-align:center">$s_0$</th><th style="background:#efefef;text-align:center">$s_1$</th><th style="background:#efefef;text-align:center">$s_2$</th></tr><tr>
 <th style="background:#efefef;text-align:center">$r_0$</th><td>$r_0$</td><td>$r_1$</td><td>$r_2$</td><td>$s_0$</td><td>$s_1$</td><td>$s_2$</td></tr><tr>
 <th style="background:#efefef;text-align:center">$r_1$</th><td>$r_1$</td><td>$r_2$</td><td>$r_0$</td><td>$s_1$</td><td>$s_2$</td><td>$s_0$</td></tr><tr>
 <th style="background:#efefef;text-align:center">$r_2$</th><td>$r_2$</td><td>$r_0$</td><td>$r_1$</td><td>$s_2$</td><td>$s_0$</td><td>$s_1$</td></tr><tr>
@@ -138,22 +138,31 @@ where $f * g:= f \circ g$ (i.e. composition of functions).
 @enumerate
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups1.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups3.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups4.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups5.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups6.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups7.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups10.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups11.pg}
+<br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Groups/Groups12.pg}
+<br/>
 @endenumerate
 @subsection{Matrix Groups}
 @eg
@@ -249,14 +258,14 @@ If no such $n$ exists, we say that $g$ has @keyword{infinite order}.
 @newcol
 Let $G$ be a group with identity element $e$.
 Let $g$ be an element of $G$. If $g^n = e$ for some $n \in \mathbb{N}$,
-then $\ord g$ divides $n$.
+then $g$ has finite order, and $\ord g$ divides $n$.
 @endcol
 @end
 @proof
 @newcol
 Shown in class.
 @endcol
-@end
+@end@course{Math 2070}
 @week{2}
 @topic{Groups}
 @slide
@@ -506,7 +515,7 @@ of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say tha
 Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
 and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$. <br/><br/><div class="image" style="width: 450px;">
 <a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg">
-<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" width="450"/></a><center>
+<img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png"/></a><center>
 @newcol
 By <a href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&action=edit&redlink=1" class="new" title="User:Jim.belk (page does not exist)">Jim.belk</a>
 - <span class="int-own-work" lang="en" xml:lang="en">Own work</span>
@@ -648,7 +657,7 @@ and that the determinant function of matrices is multiplicative.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups7.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Subgroups/Subgroups8.pg}
-@endenumerate
+@endenumerate@course{Math 2070}
 @week{3}
 @topic{$\mathbb{Z}_n$}
 @topic{Subgroups}
@@ -937,7 +946,7 @@ G = \bigsqcup_{x \in \mathbb{R}^\times} s_x H.
 The index $[G: H]$ in this case is infinite.
 @end
 
-
+@course{Math 2070}
 @week{4}
 @topic{Lagrange's Theorem}
 @topic{Generators}
@@ -1133,9 +1142,9 @@ the right-hand side is equal to $\phi(e_G)$.
 @end
 @slide
 Let $\phi: G \ra G'$ be a homomorphism of groups.
-The image of $\phi$ is defined as:
+The __image__ of $\phi$ is defined as:
 \[\im \phi:= \phi(G):= \{g' \in G' : g' = \phi(g) \;\text{ for some }\; g \in G\} \subseteq G'\]
-The kernel of $\phi$ is defined as:
+The __kernel__ of $\phi$ is defined as:
 \[\ker \phi = \{g \in G: \phi(g) = e_{G'}\} \subseteq G.\]
 @claim
 @newcol
@@ -1250,7 +1259,7 @@ $\phi$ is one-to-one, for the two groups have the same size.
 Hence, $\phi$ is a bijective homomorphism, i.e. an isomorphism.
 @qed
 @endcol
-@end
+@end@course{Math 2070}
 @week{5}
 @topic{Group Homomorphisms}
 @topic{Rings}
@@ -1266,9 +1275,9 @@ Hence, $\phi$ is a bijective homomorphism, i.e. an isomorphism.
 By definition, a cyclic group $G$ is equal to $\langle g\rangle$ for some $g \in G$.
 Moreover, $\ord g = \ord G$.
 
-Define a map $\phi : G \longrightarrow \mathbb{Z}_n$ as follows:
+Define a map $ \phi : \mathbb{Z}_n \longrightarrow G $ as follows:
 \[
-\phi(g^k) = k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
+\phi(k) = g^k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
 \]
 Show that $\phi$ is a group isomorphism.
 
@@ -1702,7 +1711,7 @@ Every subgroup of $\mathbb{Z}_n$ is cyclic.
 Every subgroup of a cyclic group is cyclic.
 @endcol
 @end
-
+@course{Math 2070}
 @week{6}
 @topic{Elementary Number Theory}
 @topic{Euclid's Lemma}
@@ -2438,7 +2447,7 @@ x \equiv 377 \mod 34\cdot 27
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Congruences/Congruences13.pg}
 @endenumerate
-@end
+@end@course{Math 2070}
 @week{7}
 @topic{Polynomials}
 @topic{Rings}
@@ -2569,7 +2578,7 @@ for some $q_k \in \mathbb{Q}[x]$.
 Since $\deg r_k < \deg f_k = \deg r_{k - 1}$,
 we have:
 \[
-\deg r_0 > \deg r_1 > \deg r_2 > \cdots \geq -\infty
+\deg r_0 > \deg r_1 > \deg r_2 > \cdots \geq 0 \geq -\infty
 \]
 (where by convention we let $\deg 0 = -\infty$).
 
@@ -2589,7 +2598,7 @@ Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
 
 @newcol
 @steps
-\[\begin{align*}
+\begin{align*}
 x^{5} + 1 &
 @nstep{=\left(x^{3} + 1\right)\left(x^{2}\right) + \left(-x^{2} + 1\right)}
 \\
@@ -2600,7 +2609,7 @@ x^{5} + 1 &
 @nstep{-x^{2} + 1}
 &
 @nstep{= \left(x + 1\right)\left(-x + 1\right) + \left(0\right)}
-\end{align*}\]
+\end{align*}
 @endsteps
 @col
 So, a GCD is $x + 1$.
@@ -2610,7 +2619,7 @@ Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
 
 @newcol
 @steps
-\[\begin{align*}
+\begin{align*}
 x^{3} - x^{2} - x + 1
 &
 @nstep{= \left(x^{3} + 4 x^{2} + x - 6\right)\left(1\right) + \left(-5 x^{2} - 2 x + 7\right)}
@@ -2622,7 +2631,7 @@ x^{3} - x^{2} - x + 1
 @nstep{-5 x^{2} - 2 x + 7}
 &
 @nstep{= \left(\frac{24}{25} x - \frac{24}{25}\right)\left(-\frac{125}{24} x - \frac{175}{24}\right) + \left(0\right)}
-\end{align*}\]
+\end{align*}
 @endsteps
 @col
 So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$.
@@ -2645,13 +2654,13 @@ d = fu + gv.
 @newcol
 In @ref{eg:euclidalgpoly}, we have:
 @steps
-\[\begin{align*}
+\begin{align*}
 (x + 1) &= \left(x^3 + 1\right) - \left(-x^{2} + 1\right)\left(-x\right)
 \\&
 @nstep{= \left(x^3 + 1\right) - \left(\left(x^{5} + 1\right) - \left(x^{3} + 1\right)\left(x^{2}\right)\right)\left(-x\right)}
 \\&
 @nstep{= \bigg(x\bigg)\bigg(x^{5} + 1\bigg) + \bigg(-x^{3} + 1\bigg)\bigg(x^{3} + 1\bigg)}
-\end{align*}\]
+\end{align*}
 @endsteps
 @endcol
 @end
@@ -2674,7 +2683,7 @@ then $p | f_1$ or $p | f_2$.
 Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
 constant polynomials.
 In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by @ref{bezoutpolynomial} ,
-there exist $u, v, \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
+there exist $u, v \in \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
 \[
 f_1 = puf_1 + f_1f_2v.
 \]
@@ -2844,8 +2853,10 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
 @enumerate
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
+<br/><br/><br/><br/>
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
+<br/><br/><br/><br/>
 @endenumerate
 @slide
 
@@ -2909,12 +2920,12 @@ If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one e
 
 (We call such an $R$ the @keyword{zero ring} .)
 @endcol
-@end
+@end@course{Math 2070}
 @week{8}
-@topic{Rings}
+@topic{Commutative Rings}
 @topic{Integral Domains}
 @topic{Fields}
-@section{Integral Domains, Units}
+@section{Commutative Rings}
 @defn
 A ring $R$ is said to be @keyword{commutative} if $ab = ba$ for all $a, b \in R$.
 @end
@@ -3055,8 +3066,7 @@ that distributativity from the right also holds:
 @qed
 @endcol
 @end
-
-@slide
+@section{Integral Domains, Units}
 @defn
 A nonzero commutative ring $R$ is an @keyword{integral domain} if
 the product of two nonzero elements is always nonzero.
@@ -3571,7 +3581,7 @@ with $[(a, b)] \in \mathrm{Frac}(\mathbb{Z})$.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition10.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition12.pg}
-@endenumerate
+@endenumerate@course{Math 2070}
 @week{9}
 @topic{Ring Homomorphisms}
 @section{Homomorphisms}
@@ -3592,9 +3602,17 @@ Note that if $\phi : A \rightarrow B$ is a homomorphism, then:
 @ol
 @li
 \[
+\phi(0_A) + \phi(0_A) = \phi(0_A + 0_A) = \phi(0_A).
+\]
+Adding $-\phi(0_A)$ to both sides, we have:
+\[
+\phi(0_A) = 0_B.
+\]
+<!--
+\[
 1 = \phi(1) = \phi(1 + 0) = \phi(1) + \phi(0) = 1 + \phi(0),
 \]
-which implies that $\phi(0) = 0$.
+-->
 @li
 For all $a \in A$, $0 = \phi(0) = \phi(-a + a) = \phi(-a) + \phi(a)$,
 which implies that $\phi(-a) = -\phi(a)$.
@@ -3615,12 +3633,12 @@ is a homomorphism, since:
 @li
 $\phi(1) = \frac{1}{1} = 1_{\mathbb{Q}}$,
 @li
-$\phi(n +_\mathbb{Z} m)  = \frac{m + n}{1}
+$\phi(n +_\mathbb{Z} m)  = \frac{n + m}{1}
 = \frac{n}{1} +_{\mathbb{Q}} \frac{m}{1}
 = \phi(n) +_{\mathbb{Q}} \phi(m)$.
 @li
 $\phi(n \cdot_\mathbb{Z} m)
-= \frac{mn}{1} = \frac{n}{1} \cdot_{\mathbb{Q}} \frac{m}{1}
+= \frac{nm}{1} = \frac{n}{1} \cdot_{\mathbb{Q}} \frac{m}{1}
 = \phi(n)\cdot_{\mathbb{Q}} \phi(m).
 $
 @endol
@@ -3742,7 +3760,7 @@ This shows that $\phi^{-1}$ is a bijective homomorphism.
 @qed
 @endcol
 @end
-
+@course{Math 2070}
 @week{10}
 @topic{Ideals}
 @topic{Principal Ideal Domains}
@@ -3883,12 +3901,19 @@ A ring homomorphism $\phi : A \rightarrow B$ is one-to-one if and only if $\ker 
 @end
 @proof
 @newcol
-Suppose $\phi$ is one-to-one.  For any $a \in \ker \phi$, we have $\phi(0) = \phi(a) = 0$,
+Suppose $\phi$ is one-to-one.
+For any $a \in \ker \phi$, we have $\phi(0) = \phi(a) = 0$,
 which implies that $a = 0$ since $\phi$ is one-to-one.  Hence, $\ker \phi = \{0\}$.
 
 Suppose $\ker \phi = \{0\}$.  If $\phi(a) = \phi(a')$,
-then $0 = \phi(a) - \phi(a') = \phi(a - a')$, which implies that $a - a' \in \ker \phi = \{0\}$.
-So, $a - a' = 0$, which implies that $a = a'$.  Hence, $\phi$ is one-to-one.
+then:
+\[
+0 = \phi(a) + \left(-\phi(a')\right)
+= \phi(a) + \left(\phi(-a')\right) 
+= \phi(a + (-a')),
+\]
+which implies that $a + (-a') \in \ker \phi = \{0\}$.
+So, $a + (-a') = 0$, which implies that $a = a'$.  Hence, $\phi$ is one-to-one.
 @qed
 @endcol
 @end
@@ -3992,6 +4017,48 @@ Hence, $ar \in \ker \phi$ for all $r \in R$.
 The claim still holds if we remove the requirement that $A$ be commutative,
 and "ideal" is defined using the more general definition mentioned earlier.
 
+@subsection{WeBWorK}
+@enumerate
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms5.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms7.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg}
+@endenumerate
+@section{Principal Ideals}
+For a fixed finite set of elements $a_1, a_2,\ldots, a_n$ in a commutative ring $R$,
+let $(a_1, a_2,\ldots, a_n)$ denote the subset:
+\[
+\{r_1 a_1 + r_2 a_2 + \cdots + r_n a_n : r_i \in R\}.
+\]
+@claim
+@newcol
+The set $I = (a_1, a_2, \ldots, a_n)$ is an ideal of $R$.
+@endcol
+@end
+@proof
+@newcol
+@ol
+@li
+$0 = 0\cdot a_1 + 0 \cdot a_2 + \cdots + 0\cdot a_n \in I$.
+@li
+For $\sum_{i} r_i a_i$ and $\sum_i r_i'a_i$ in $I$, we have
+$\sum_i r_i a_i + \sum_i r_i'a_i = \sum_i (r_i + r_i')a_i \in I$.
+@li
+Given any $\sum_i r_ia_i \in I$, for any $r \in R$ we have
+$r \sum_i r_i a_i = \sum_i (rr_i) a_i \in I$.
+@qed
+@endol
+@endcol
+@end
+@newcol
+We call $(a_1, a_2,\ldots, a_n)$ the ideal @keyword{generated} by $a_1, a_2, \ldots, a_n$.
+An ideal $(a) = \{ar : r \in R\}$ generated by one element $a \in R$ is called a @keyword{principal ideal} .
+
+@col
+Note that $R = (1)$ and $\{0\} = (0)$ are both principal ideals.
+@endcol
 @slide
 @claim
 A nonzero commutative ring $R$ is a field if and only if its only ideals are
@@ -4050,49 +4117,6 @@ to $\mathbb{Z}_m$ must be one-to-one, but there can be no one-to-one
 map from the infinite set $\mathbb{Q}$ to the finite set $\mathbb{Z}_m$.
 @endcol
 @end
-@subsection{WeBWorK}
-@enumerate
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms5.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms7.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg}
-@endenumerate
-@section{Principal Ideal Domains}
-For a fixed finite set of elements $a_1, a_2,\ldots, a_n$ in a commutative ring $R$,
-let $(a_1, a_2,\ldots, a_n)$ denote the subset:
-\[
-\{r_1 a_1 + r_2 a_2 + \cdots + r_n a_n : r_i \in R\}.
-\]
-@claim
-@newcol
-The set $I = (a_1, a_2, \ldots, a_n)$ is an ideal of $R$.
-@endcol
-@end
-@proof
-@newcol
-@ol
-@li
-$0 = 0\cdot a_1 + 0 \cdot a_2 + \cdots + 0\cdot a_n \in I$.
-@li
-For $\sum_{i} r_i a_i$ and $\sum_i r_i'a_i$ in $I$, we have
-$\sum_i r_i a_i + \sum_i r_i'a_i = \sum_i (r_i + r_i')a_i \in I$.
-@li
-Given any $\sum_i r_ia_i \in I$, for any $r \in R$ we have
-$r \sum_i r_i a_i = \sum_i (rr_i) a_i \in I$.
-@qed
-@endol
-@endcol
-@end
-@newcol
-We call $(a_1, a_2,\ldots, a_n)$ the ideal @keyword{generated} by $a_1, a_2, \ldots, a_n$.
-An ideal $(a) = \{ar : r \in R\}$ generated by one element $a \in R$ is called a @keyword{principal ideal} .
-
-@col
-Note that $R = (1)$ and $\{0\} = (0)$ are both principal ideals.
-@endcol
-
 @slide
 @claim
 Given $a, b$ in a commutative ring $R$.  If $b = au$ for some unit $u \in R$,
@@ -4520,7 +4544,7 @@ R' \cong R/\ker \phi
 \]
 @end
 
-
+@course{Math 2070}
 @week{11}
 @topic{Quotient Rings}
 @topic{Polynomials over a Field}
@@ -4565,6 +4589,7 @@ for any $a, b \in \mathbb{Z}$.
 @end
 
 @slide
+@skip
 @eg
 The ring $\mathbb{Z}[i]/(1 + 3i)$ is isomorphic to $\mathbb{Z}/10\ZZ$.
 @end
@@ -5101,7 +5126,7 @@ It now follows from the First Isomorphism Theorem that
 $\mathbb{R}[x]/(x^2 + 1)\cong \mathbb{C}$.
 @qed
 @endcol
-@end
+@end@course{Math 2070}
 @week{12}
 @topic{Rational Root Theorem}
 @topic{Gauss's Theorem}
@@ -5461,7 +5486,7 @@ a contradiction.
 @eg
 The polynomial $x^5 + 3x^4 - 6x^3 +12x + 3$ is irreducible in $\mathbb{Q}[x]$. 
 @end
-
+@course{Math 2070}
 @week{13}
 @topic{Field Extensions}
 @topic{Finite Fields}
@@ -5733,7 +5758,18 @@ in $\mathbb{Q}(\sqrt[3]{5})$ in the form:
 where $c_i \in \mathbb{Q}$, if possible.
 @endcol
 @end
-
+@section{WeBWorK}
+@enumerate
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields3.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields4.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields5.pg}
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields6.pg}
+@endenumerate
+<!--
 @section{Splitting Field}
 <b style="display:none">splitting field</b>
 <hr/>
@@ -5815,17 +5851,7 @@ Hence, $f$ is a product of linear factors in $K[x]$.
 @qed
 @endcol
 @end
-@section{WeBWorK}
-@enumerate
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields3.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields4.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields5.pg}
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-Fields/Fields6.pg}
-@endenumerate
+-->
 <!--@thm
 If $k$ is a field, and $f$ is a nonconstant polynomial in $k[x]$,
 then there exists a field extension $K$ of $k$, such that $f \in k[x] \subseteq K[x]$
@@ -5874,6 +5900,7 @@ splits into linear factors in $K[x]$.
 @col
 Hence, $f$ is a product of linear factors in $K[x]$.
 @qed@endcol@end-->
+<!--
 @section{Finite Fields}
 Recall:
 @defn
@@ -6086,3 +6113,4 @@ So, $a^{q -2}$ is a multiplicative inverse of $a$ in $F$.
 @qed
 @endcol
 @end
+-->

@@ -402,9 +402,11 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
 @end
 @subsection{WeBWorK}
 @enumerate
+<!--
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
 <br/><br/><br/><br/>
+-->
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
 <br/><br/><br/><br/>

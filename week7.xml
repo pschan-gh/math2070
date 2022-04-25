@@ -638,13 +638,7 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$. </paragraphs>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
               </title>
               <enumerate course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="enumerate">
-                <item course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg"/>
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate" />
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate" />
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate" />
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate" />
-                </item>
+                <comment course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate">@item@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</comment>
                 <item course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
                   <webwork course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg"/>
                   <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate" />

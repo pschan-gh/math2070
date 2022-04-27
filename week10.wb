@@ -261,8 +261,10 @@ and "ideal" is defined using the more general definition mentioned earlier.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms5.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms7.pg}
+<!--
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg}
+-->
 @endenumerate
 @section{Principal Ideals}
 For a fixed finite set of elements $a_1, a_2,\ldots, a_n$ in a commutative ring $R$,

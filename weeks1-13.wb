@@ -2533,15 +2533,19 @@ It follows that the quotient $q$ and the remainder $r$ are unique.
 @end
 @slide
 @defn
-Given $f, g \in \mathbb{Q}[x]$, a @keyword{Greatest Common Divisor} $d$ of $f$ and $g$
-is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties: <ol>
+Given $f, g \in \mathbb{Q}[x]$, the @keyword{Greatest Common Divisor} (__GCD__) of $f$ and $g$
+is a polynomial in $d \in \mathbb{Q}[x]$ which satisfies the following two properties: <ol>
 <li> $d$ divides both $f$ and $g$. </li>
-<li> For any $e \in \mathbb{Q}[x]$ which divides both $f$ and $g$, we have $\deg e \leq \deg d$. </li></ol>
+<li> For any $e \in \mathbb{Q}[x]$ which divides both $f$ and $g$, we have $\deg e \leq \deg d$. </li>
+<li>
+The leading coefficient of $d$ is equal to $1$.
+</li>
+</ol>
 @end
 
 @claim
 @newcol
-If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r$.
+If $g = fq +r$, and $d$ is the GCD of $g$ and $f$, then $d$ is the GCD of $f$ and $r$.
 @endcol
 @end
 @proof
@@ -2584,9 +2588,12 @@ we have:
 
 @col
 Eventually, $r_n = 0$ for some $n$,
-and it follows from the previous claim
-and arguments similar to those used in the case of $\mathbb{Z}$
-that $r_{n-1}$ is a GCD of $f$ and $g$.
+and it follows from the previous claim,
+and arguments similar to those used in the case of $\mathbb{Z}$,
+that $r_{n-1}$ satisfies criterion 1 and 2 in the definition of the GCD.
+
+Hence, if the leading coefficient of $r_{n-1}$ is some nonzero $c \in \mathbb{Q}$,
+then $\dfrac{1}{c} r_{n-1}$ is the GCD of $f$ and $g$.
 @endcol
 @end
 @slide
@@ -2594,7 +2601,7 @@ that $r_{n-1}$ is a GCD of $f$ and $g$.
 @label{eg:euclidalgpoly}
 @enumerate
 @item
-Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
+Find the GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.
 
 @newcol
 @steps
@@ -2612,10 +2619,10 @@ x^{5} + 1 &
 \end{align*}
 @endsteps
 @col
-So, a GCD is $x + 1$.
+So, the GCD is $x + 1$.
 @endcol
 @item
-Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
+Find the GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.
 
 @newcol
 @steps
@@ -2634,7 +2641,7 @@ x^{3} - x^{2} - x + 1
 \end{align*}
 @endsteps
 @col
-So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$.
+So, normalizing the leading coefficient of $\frac{24}{25}x - \frac{24}{25}$, we conclude that the GCD is $x - 1$.
 @endcol
 @endenumerate
 @end
@@ -2643,7 +2650,7 @@ So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$.
 @title{Bézout's Identity for Polynomials}
 @label{bezoutpolynomial}
 For any $f, g \in \mathbb{Q}[x]$ which are not both zero,
-and $d$ a GCD of $f$ and $g$,
+and $d$ the GCD of $f$ and $g$,
 there exist $u, v \in \mathbb{Q}[x]$ such that:
 \[
 d = fu + gv.
@@ -2682,7 +2689,7 @@ then $p | f_1$ or $p | f_2$.
 @newcol
 Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
 constant polynomials.
-In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by @ref{bezoutpolynomial} ,
+In particular, $1$ is the GCD of $p$ and $f_2$.  Then, by @ref{bezoutpolynomial} ,
 there exist $u, v \in \mathbb{Q}[x]$ such that $1 = pu + f_2v$.  We have:
 \[
 f_1 = puf_1 + f_1f_2v.
@@ -2851,9 +2858,11 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$.
 @end
 @subsection{WeBWorK}
 @enumerate
+<!--
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}
 <br/><br/><br/><br/>
+-->
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg}
 <br/><br/><br/><br/>
@@ -2920,7 +2929,8 @@ If $R$ is a ring in which $1 = 0$, then $R = \{0\}$.  That is, it has only one e
 
 (We call such an $R$ the @keyword{zero ring} .)
 @endcol
-@end@course{Math 2070}
+@end
+@course{Math 2070}
 @week{8}
 @topic{Commutative Rings}
 @topic{Integral Domains}
@@ -4023,8 +4033,10 @@ and "ideal" is defined using the more general definition mentioned earlier.
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms5.pg}
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms7.pg}
+<!--
 @item
 @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg}
+-->
 @endenumerate
 @section{Principal Ideals}
 For a fixed finite set of elements $a_1, a_2,\ldots, a_n$ in a commutative ring $R$,

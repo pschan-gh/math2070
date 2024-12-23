@@ -1678,8 +1678,8 @@ $ab = a\cdot(b^{-1})^{-1} \in H$. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2070" chapter="3" slide="32" item="3.7">
               <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Every subgroup of $(\mathbb{Z}, +)$ is cyclic. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f2f281c9503d1f3c8f264f7cae1c4043" course="Math 2070" chapter="3" slide="32" of="3fc92e570f8a20bea99cbdc36d3c5bb8" of-src-course="Math 2070" of-src-chapter="3" of-src-slide="9" of-type="Theorem" of-item="3.7" of-src-filename="week3.xml" ofmd5="3fc92e570f8a20bea99cbdc36d3c5bb8" of-serial="">
-              <of-title hidden="true">Theorem 3.7</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f2f281c9503d1f3c8f264f7cae1c4043" course="Math 2070" chapter="3" slide="32" of="3fc92e570f8a20bea99cbdc36d3c5bb8" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="12" of-type="Theorem" of-item="5.12" of-src-filename="week5.xml" ofmd5="3fc92e570f8a20bea99cbdc36d3c5bb8" of-serial="">
+              <of-title hidden="true">Theorem 5.12</of-title>
               <newcol course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $H$ be a subgroup of $G = (\mathbb{Z}, +)$.
 If $H = \{0\}$, then it is clearly cyclic.</paragraphs>
@@ -2926,8 +2926,8 @@ This establishes the existence of the remainder $r$.</paragraphs>
               <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2070" chapter="5" slide="60" item="5.12">
                 <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Every subgroup of $\mathbb{Z}$ is cyclic. </paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="90afc19c6980d7d52536841192056305" course="Math 2070" chapter="5" slide="60" of="3fc92e570f8a20bea99cbdc36d3c5bb8" of-src-course="Math 2070" of-src-chapter="3" of-src-slide="9" of-type="Theorem" of-item="3.7" of-src-filename="week3.xml" ofmd5="3fc92e570f8a20bea99cbdc36d3c5bb8" of-serial="">
-                <of-title hidden="true">Theorem 3.7</of-title>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="90afc19c6980d7d52536841192056305" course="Math 2070" chapter="5" slide="60" of="3fc92e570f8a20bea99cbdc36d3c5bb8" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="12" of-type="Theorem" of-item="5.12" of-src-filename="week5.xml" ofmd5="3fc92e570f8a20bea99cbdc36d3c5bb8" of-serial="">
+                <of-title hidden="true">Theorem 5.12</of-title>
                 <newcol course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2070" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we note that the group operation $\ast$ on $\mathbb{Z}$
 is integer addition, with $e_{\mathbb{Z}} = 0$,
@@ -4182,11 +4182,11 @@ It follows that the quotient $q$ and the remainder $r$ are unique. </paragraphs>
             <keywords slide="84" environ="slide" chapter="7" course="Math 2070">
               <keyword chapter="7" slide="84">Greatest Common Divisor</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="bfa0822348fca0c1c57ca6a6e16c2306" course="Math 2070" chapter="7" slide="84" item="7.2">
-              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Given $f, g \in \mathbb{Q}[x]$, a </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="719e47edae06b7485b9e8f1a8a3d7625" course="Math 2070" chapter="7" slide="84" item="7.2">
+              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Given $f, g \in \mathbb{Q}[x]$, the </paragraphs>
               <inline_keyword course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">Greatest Common Divisor</inline_keyword>
-              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $d$ of $f$ and $g$
-is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties: </paragraphs>
+              <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (__GCD__) of $f$ and $g$
+is a polynomial in $d \in \mathbb{Q}[x]$ which satisfies the following two properties: </paragraphs>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $d$ divides both $f$ and $g$. </paragraphs>
@@ -4194,15 +4194,18 @@ is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties:
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any $e \in \mathbb{Q}[x]$ which divides both $f$ and $g$, we have $\deg e \leq \deg d$. </paragraphs>
                 </li>
+                <li environment="statement">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The leading coefficient of $d$ is equal to $1$. </paragraphs>
+                </li>
               </ol>
             </statement>
             <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" md5="6de64b1138dea0cc6ee107a783019012" course="Math 2070" chapter="7" slide="84" item="7.3">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" md5="95abdeac487ec68a02de88a85ecfeff6" course="Math 2070" chapter="7" slide="84" item="7.3">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $g = fq +r$, and $d$ is a GCD of $g$ and $f$, then $d$ is a GCD of $f$ and $r$. </paragraphs>
+                <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $g = fq +r$, and $d$ is the GCD of $g$ and $f$, then $d$ is the GCD of $f$ and $r$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3b60090f652a6f844c61561ee28e9629" course="Math 2070" chapter="7" slide="84" of="6de64b1138dea0cc6ee107a783019012" of-src-course="Math 2070" of-src-chapter="7" of-src-slide="5" of-type="Claim" of-item="7.3" of-src-filename="week7.xml" ofmd5="6de64b1138dea0cc6ee107a783019012" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3b60090f652a6f844c61561ee28e9629" course="Math 2070" chapter="7" slide="84" of="95abdeac487ec68a02de88a85ecfeff6" of-src-course="Math 2070" of-src-chapter="7" of-src-slide="5" of-type="Claim" of-item="7.3" of-src-filename="week7.xml" ofmd5="95abdeac487ec68a02de88a85ecfeff6" of-serial="">
               <of-title hidden="true">Claim 7.3</of-title>
               <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> See the proof of </paragraphs>
@@ -4215,7 +4218,7 @@ is a polynomial in $\mathbb{Q}[x]$ which satisfies the following two properties:
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="85" id="s85" slide="85" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials with Rational Coefficients">
             <keywords slide="85" environ="slide" chapter="7" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="4" md5="49677f3b77a59b624f5d6586859c2d82" course="Math 2070" chapter="7" slide="85" item="7.4">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="4" md5="4b34c7109df342de807dbc28f2e0ded4" course="Math 2070" chapter="7" slide="85" item="7.4">
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The Euclidean Algorithm applies to $\mathbb{Q}[x]$.</paragraphs>
               <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
               <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -4249,9 +4252,12 @@ we have:
                     <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                     <collapse course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Eventually, $r_n = 0$ for some $n$,
-and it follows from the previous claim
-and arguments similar to those used in the case of $\mathbb{Z}$
-that $r_{n-1}$ is a GCD of $f$ and $g$. </paragraphs>
+and it follows from the previous claim,
+and arguments similar to those used in the case of $\mathbb{Z}$,
+that $r_{n-1}$ satisfies criterion 1 and 2 in the definition of the GCD.</paragraphs>
+                      <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Hence, if the leading coefficient of $r_{n-1}$ is some nonzero $c \in \mathbb{Q}$,
+then $\dfrac{1}{c} r_{n-1}$ is the GCD of $f$ and $g$. </paragraphs>
                     </collapse>
                   </collapse>
                 </collapse>
@@ -4260,11 +4266,11 @@ that $r_{n-1}$ is a GCD of $f$ and $g$. </paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="86" id="s86" slide="86" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials with Rational Coefficients">
             <keywords slide="86" environ="slide" chapter="7" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="99d3d45a66a0beddbcb0975e00acea0d" course="Math 2070" chapter="7" slide="86" item="7.5">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="c0e462c7af2ad63475fec271e1adfa13" course="Math 2070" chapter="7" slide="86" item="7.5">
               <label wbtag="label" name="eg:euclidalgpoly" type="Example"/>
               <enumerate course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
                 <item course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> Find a GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.</paragraphs>
+                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> Find the GCD of $x^5 + 1$ and $x^3 + 1$ in $\mathbb{Q}[x]$.</paragraphs>
                   <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate"/>
                   <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps7">
@@ -4282,12 +4288,12 @@ x^{5} + 1 &amp;
 \end{align*}
 </steps>
                     <collapse course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, a GCD is $x + 1$. </paragraphs>
+                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, the GCD is $x + 1$. </paragraphs>
                     </collapse>
                   </newcol>
                 </item>
                 <item course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> Find a GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.</paragraphs>
+                  <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> Find the GCD of $x^3 - x^2 - x + 1$ and $x^3 + 4x^2 + x - 6$ in $\mathbb{Q}[x]$.</paragraphs>
                   <newline course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate"/>
                   <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps8">
@@ -4306,7 +4312,7 @@ x^{3} - x^{2} - x + 1
 \end{align*}
 </steps>
                     <collapse course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, a GCD is $\frac{24}{25}x - \frac{24}{25}$, and so is $x - 1$. </paragraphs>
+                      <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, normalizing the leading coefficient of $\frac{24}{25}x - \frac{24}{25}$, we conclude that the GCD is $x - 1$. </paragraphs>
                     </collapse>
                   </newcol>
                 </item>
@@ -4317,11 +4323,11 @@ x^{3} - x^{2} - x + 1
             <keywords slide="87" environ="slide" chapter="7" course="Math 2070">
               <keyword chapter="7" slide="87">Bézout's Identity for Polynomials</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" title="B&#xE9;zout's Identity for Polynomials" md5="ff0cf605977388ae70fe17f3161c10ab" course="Math 2070" chapter="7" slide="87" item="7.6">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" title="B&#xE9;zout's Identity for Polynomials" md5="34cca33a801d1edcd101103461e2e48e" course="Math 2070" chapter="7" slide="87" item="7.6">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2070" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="87">Bézout's Identity for Polynomials</title>
               <label wbtag="label" name="bezoutpolynomial" type="Corollary"/>
               <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any $f, g \in \mathbb{Q}[x]$ which are not both zero,
-and $d$ a GCD of $f$ and $g$,
+and $d$ the GCD of $f$ and $g$,
 there exist $u, v \in \mathbb{Q}[x]$ such that:
 \[
 d = fu + gv.
@@ -4331,7 +4337,7 @@ d = fu + gv.
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="636d802595fa9442291dc296c169b597" course="Math 2070" chapter="7" slide="87" item="7.7">
               <newcol course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In </paragraphs>
-                <ref environment="newcol" chapter_type="" label="eg:euclidalgpoly" wbtag="ref" course="Math 2070" chapter="7" slide="87" referrer-type="Example" referrer-md5="636d802595fa9442291dc296c169b597" src-course="Math 2070" src-chapter="7" src-slide="7" type="Example" item="7.5" src-filename="week7.xml" md5="99d3d45a66a0beddbcb0975e00acea0d" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="eg:euclidalgpoly" wbtag="ref" course="Math 2070" chapter="7" slide="87" referrer-type="Example" referrer-md5="636d802595fa9442291dc296c169b597" src-course="Math 2070" src-chapter="7" src-slide="7" type="Example" item="7.5" src-filename="week7.xml" md5="c0e462c7af2ad63475fec271e1adfa13" class="lcref" serial="">
                   <title>Example 7.5</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, we have: </paragraphs>
@@ -4382,13 +4388,13 @@ is a constant. </paragraphs>
 then $p | f_1$ or $p | f_2$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="aee3542321d304d7f865173d1e8b3285" course="Math 2070" chapter="7" slide="88" of="7fb8cbda392fafb917e2f619870c315b" of-src-course="Math 2070" of-src-chapter="7" of-src-slide="9" of-type="Claim" of-item="7.9" of-src-filename="week7.xml" ofmd5="7fb8cbda392fafb917e2f619870c315b" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d598e32f7b5528352cb8b2c27a2d150b" course="Math 2070" chapter="7" slide="88" of="7fb8cbda392fafb917e2f619870c315b" of-src-course="Math 2070" of-src-chapter="7" of-src-slide="9" of-type="Claim" of-item="7.9" of-src-filename="week7.xml" ofmd5="7fb8cbda392fafb917e2f619870c315b" of-serial="">
               <of-title hidden="true">Claim 7.9</of-title>
               <newcol course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ does not divide $f_2$, then the only common divisors of $p$ and $f_2$ are
 constant polynomials.
-In particular, $1$ is a GCD of $p$ and $f_2$.  Then, by </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutpolynomial" wbtag="ref" course="Math 2070" chapter="7" slide="88" referrer-type="Proof" referrer-md5="aee3542321d304d7f865173d1e8b3285" src-course="Math 2070" src-chapter="7" src-slide="8" type="Corollary" item="7.6" src-filename="week7.xml" md5="ff0cf605977388ae70fe17f3161c10ab" class="lcref" serial="">
+In particular, $1$ is the GCD of $p$ and $f_2$.  Then, by </paragraphs>
+                <ref environment="newcol" chapter_type="" label="bezoutpolynomial" wbtag="ref" course="Math 2070" chapter="7" slide="88" referrer-type="Proof" referrer-md5="d598e32f7b5528352cb8b2c27a2d150b" src-course="Math 2070" src-chapter="7" src-slide="8" type="Corollary" item="7.6" src-filename="week7.xml" md5="34cca33a801d1edcd101103461e2e48e" class="lcref" serial="">
                   <title custom="true">Bézout's Identity for Polynomials</title>
                 </ref>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
@@ -4670,13 +4676,7 @@ That is, if $r + r' = r + r'' = 0$, then $r' = r''$. </paragraphs>
                 <paragraphs course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
               </title>
               <enumerate course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="enumerate">
-                <item course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg"/>
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate"/>
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate"/>
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate"/>
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate"/>
-                </item>
+                <comment course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate">@item@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition1.pg}&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</comment>
                 <item course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="item">
                   <webwork course="Math 2070" chapter="7" chapter_type="" section="3" subsection="2" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsDefinition/RingsDefinition2.pg"/>
                   <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate"/>
@@ -6373,9 +6373,7 @@ and "ideal" is defined using the more general definition mentioned earlier.</par
                 </item>
                 <item course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
                   <webwork course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms7.pg"/>
-                </item>
-                <item course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg"/>
+                  <comment course="Math 2070" chapter="10" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate">@item@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsIdealsHomomorphisms/RingsIdealsHomomorphisms6.pg}</comment>
                 </item>
               </enumerate>
             </slide>

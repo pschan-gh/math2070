@@ -1,123 +1,123 @@
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
-  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2070">
-    <keywords slide="all" environ="course" chapter="" course="Math 2070">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2078">
+    <keywords slide="all" environ="course" chapter="" course="Math 2078">
       <keyword chapter="" slide="all">ring homomorphism</keyword>
       <keyword chapter="" slide="all">evaluation homomorphism</keyword>
       <keyword chapter="" slide="all">isomorphism</keyword>
       <keyword chapter="" slide="all">isomorphic</keyword>
     </keywords>
-    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2070" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2070</title>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2078" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2078</title>
     <slides environment="" chapter_type="">
-      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2070" title="Math 2070" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
-        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2070</title>
-        <keywords slide="1" environ="slide" chapter="" course="Math 2070"/>
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2078" title="Math 2078" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2078</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 2078"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="9" title="" topic="Ring Homomorphisms" course="Math 2070" serial="9">
-      <keywords slide="all" environ="chapter" chapter="9" course="Math 2070">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="9" title="" topic="Ring Homomorphisms" course="Math 2078" serial="9">
+      <keywords slide="all" environ="chapter" chapter="9" course="Math 2078">
         <keyword chapter="9" slide="all">ring homomorphism</keyword>
         <keyword chapter="9" slide="all">evaluation homomorphism</keyword>
         <keyword chapter="9" slide="all">isomorphism</keyword>
         <keyword chapter="9" slide="all">isomorphic</keyword>
       </keywords>
-      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2070" chapter="9" section="" subsection="" subsubsection="" serial="" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2070" chapter="9" section="" subsection="" subsubsection="" serial="" slide="">Ring Homomorphisms</topic>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2078" chapter="9" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="9" section="" subsection="" subsubsection="" serial="" slide="">Ring Homomorphisms</topic>
       <slides environment="" chapter_type="">
-        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2070" chapter="9" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2078" chapter="9" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Ring Homomorphisms</topic>
-          <keywords slide="2" environ="slide" chapter="9" course="Math 2070"/>
+          <keywords slide="2" environ="slide" chapter="9" course="Math 2078"/>
         </slide>
       </slides>
-      <section environment="" chapter_type="" type="Section" wbtag="section" title="Homomorphisms" course="Math 2070" chapter="9" num="1" serial="9.1">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="">
-          <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Homomorphisms</paragraphs>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Homomorphisms" course="Math 2078" chapter="9" num="1" serial="9.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="">
+          <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Homomorphisms</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
-            <keywords slide="3" environ="slide" chapter="9" course="Math 2070">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="3" environ="slide" chapter="9" course="Math 2078">
               <keyword chapter="9" slide="3">ring homomorphism</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="3">
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Homomorphisms</paragraphs>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Homomorphisms</paragraphs>
             </title>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="704fa25a13e0cdbd6887e64eb2063e6e" course="Math 2070" chapter="9" slide="3" item="9.1">
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $(A, +_A, \cdot_A)$, $(B, +_B, \cdot_B)$ be rings.  A </paragraphs>
-              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">ring homomorphism</inline_keyword>
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> from $A$ to $B$
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="704fa25a13e0cdbd6887e64eb2063e6e" course="Math 2078" chapter="9" slide="3" item="9.1">
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $(A, +_A, \cdot_A)$, $(B, +_B, \cdot_B)$ be rings.  A </paragraphs>
+              <inline_keyword course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">ring homomorphism</inline_keyword>
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> from $A$ to $B$
 is a map $\phi: A \rightarrow B$ with the following properties: </paragraphs>
-              <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1_A) = 1_B$. </paragraphs>
+              <col_ol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1_A) = 1_B$. </paragraphs>
                 </col_li>
-                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(a_1 +_A a_2) = \phi(a_1) +_B \phi(a_2)$, for all $a_1, a_2 \in A$. </paragraphs>
+                <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(a_1 +_A a_2) = \phi(a_1) +_B \phi(a_2)$, for all $a_1, a_2 \in A$. </paragraphs>
                 </col_li>
-                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(a_1\cdot_A a_2) = \phi(a_1)\cdot_B \phi(a_2)$, for all $a_1, a_2 \in A$. </paragraphs>
+                <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(a_1\cdot_A a_2) = \phi(a_1)\cdot_B \phi(a_2)$, for all $a_1, a_2 \in A$. </paragraphs>
                 </col_li>
               </col_ol>
             </statement>
-            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note that if $\phi : A \rightarrow B$ is a homomorphism, then: </paragraphs>
-            <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-              <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
+            <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note that if $\phi : A \rightarrow B$ is a homomorphism, then: </paragraphs>
+            <col_ol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+              <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
 \phi(0_A) + \phi(0_A) = \phi(0_A + 0_A) = \phi(0_A).
 \]
 Adding $-\phi(0_A)$ to both sides, we have:
 \[
 \phi(0_A) = 0_B.
 \] </paragraphs>
-                <comment course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol">
+                <comment course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol">
 \[
 1 = \phi(1) = \phi(1 + 0) = \phi(1) + \phi(0) = 1 + \phi(0),
 \]
 </comment>
               </col_li>
-              <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For all $a \in A$, $0 = \phi(0) = \phi(-a + a) = \phi(-a) + \phi(a)$,
+              <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For all $a \in A$, $0 = \phi(0) = \phi(-a + a) = \phi(-a) + \phi(a)$,
 which implies that $\phi(-a) = -\phi(a)$. </paragraphs>
               </col_li>
-              <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $u$ is a unit in $A$, then $1 = \phi(u\cdot u^{-1}) = \phi(u)\phi(u^{-1})$,
+              <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $u$ is a unit in $A$, then $1 = \phi(u\cdot u^{-1}) = \phi(u)\phi(u^{-1})$,
 and $1 = \phi(u^{-1}\cdot u) = \phi(u^{-1})\phi(u)$;
 which implies that $\phi(u)$ is a unit, with $\phi(u)^{-1} = \phi(u^{-1})$. </paragraphs>
               </col_li>
             </col_ol>
-            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
-            <keywords slide="4" environ="slide" chapter="9" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="8acfa4b3621e90fd03a3d7262013296a" course="Math 2070" chapter="9" slide="4" item="9.2">
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The map $\phi : \mathbb{Z}\rightarrow \mathbb{Q}$ defined by:
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="4" environ="slide" chapter="9" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="8acfa4b3621e90fd03a3d7262013296a" course="Math 2078" chapter="9" slide="4" item="9.2">
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The map $\phi : \mathbb{Z}\rightarrow \mathbb{Q}$ defined by:
 \[
 \phi(n) = \frac{n}{1}, \quad n \in \mathbb{Z},
 \]
 is a homomorphism, since: </paragraphs>
-              <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1) = \frac{1}{1} = 1_{\mathbb{Q}}$, </paragraphs>
+              <col_ol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1) = \frac{1}{1} = 1_{\mathbb{Q}}$, </paragraphs>
                 </col_li>
-                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(n +_\mathbb{Z} m)  = \frac{n + m}{1}
+                <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(n +_\mathbb{Z} m)  = \frac{n + m}{1}
 = \frac{n}{1} +_{\mathbb{Q}} \frac{m}{1}
 = \phi(n) +_{\mathbb{Q}} \phi(m)$. </paragraphs>
                 </col_li>
-                <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(n \cdot_\mathbb{Z} m)
+                <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(n \cdot_\mathbb{Z} m)
 = \frac{nm}{1} = \frac{n}{1} \cdot_{\mathbb{Q}} \frac{m}{1}
 = \phi(n)\cdot_{\mathbb{Q}} \phi(m).
 $ </paragraphs>
                 </col_li>
               </col_ol>
             </statement>
-            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
-            <keywords slide="5" environ="slide" chapter="9" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="c15b39900366612818ec82f4feca6081" course="Math 2070" chapter="9" slide="5" item="9.3">
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Fix an integer $m$ which is larger than $1$.  For $n \in \mathbb{Z}$, let $\ol{n}$ denote the remainder of the division
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="5" environ="slide" chapter="9" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="c15b39900366612818ec82f4feca6081" course="Math 2078" chapter="9" slide="5" item="9.3">
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Fix an integer $m$ which is larger than $1$.  For $n \in \mathbb{Z}$, let $\ol{n}$ denote the remainder of the division
 of $n$ by $m$.  That is:
 \[
 n = mq + \bar{n}, \quad 0 \leq \bar{n} &lt; m
@@ -133,144 +133,144 @@ s\times_m t = \ol{s\cdot t},
 \]
 for all $s, t \in \mathbb{Z}_m$.  Here, $+$ and $\cdot$ are the usual
 addition and multiplication for integers.</paragraphs>
-              <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
-              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : \mathbb{Z} \rightarrow \mathbb{Z}_m $ as follows:
+              <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <newcol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : \mathbb{Z} \rightarrow \mathbb{Z}_m $ as follows:
 \[
 \phi(n) = \ol{n}, \quad \forall n \in \mathbb{Z}.
 \] </paragraphs>
-                <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Then, $\phi$ is a homomorphism. </paragraphs>
+                <collapse course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Then, $\phi$ is a homomorphism. </paragraphs>
                 </collapse>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="43ab386bf5c750dfd327f1bb0e415205" course="Math 2070" chapter="9" slide="5" of="c15b39900366612818ec82f4feca6081" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="5" of-type="Example" of-item="9.3" of-src-filename="week9.xml" ofmd5="c15b39900366612818ec82f4feca6081" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="43ab386bf5c750dfd327f1bb0e415205" course="Math 2078" chapter="9" slide="5" of="c15b39900366612818ec82f4feca6081" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="125" of-type="Example" of-item="9.3" of-src-filename="weeks1-13.xml" ofmd5="c15b39900366612818ec82f4feca6081" of-serial="">
               <of-title hidden="true">Example 9.3</of-title>
-              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <col_ol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1) = \ol{1} = 1$, </paragraphs>
+              <newcol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <col_ol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(1) = \ol{1} = 1$, </paragraphs>
                   </col_li>
-                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(s + t) = \ol{s + t} = \ol{\ol{s} + \ol{t}} = \ol{s} +_m \ol{t} = \phi(s) +_m \phi(t)$. </paragraphs>
+                  <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(s + t) = \ol{s + t} = \ol{\ol{s} + \ol{t}} = \ol{s} +_m \ol{t} = \phi(s) +_m \phi(t)$. </paragraphs>
                   </col_li>
-                  <col_li course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(s \cdot t) = \ol{s\cdot t} = \ol{\ol{s}\cdot\ol{t}} = \ol{s}\times_m\ol{t} = \phi(s)\times_m\phi(t)$. </paragraphs>
+                  <col_li course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\phi(s \cdot t) = \ol{s\cdot t} = \ol{\ol{s}\cdot\ol{t}} = \ol{s}\times_m\ol{t} = \phi(s)\times_m\phi(t)$. </paragraphs>
                   </col_li>
                 </col_ol>
-                <qed course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <qed course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
               </newcol>
             </substatement>
-            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
-            <keywords slide="6" environ="slide" chapter="9" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="2152ce3be89ef2f21ec407344bdeffeb" course="Math 2070" chapter="9" slide="6" item="9.4">
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any ring $R$, define a map $\phi : \mathbb{Z} \rightarrow R$ as follows:
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="6" environ="slide" chapter="9" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="2152ce3be89ef2f21ec407344bdeffeb" course="Math 2078" chapter="9" slide="6" item="9.4">
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any ring $R$, define a map $\phi : \mathbb{Z} \rightarrow R$ as follows:
 \[
 \phi(0) = 0;
 \] </paragraphs>
-              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $n \in \mathbb{N}$,
+              <newcol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $n \in \mathbb{N}$,
 \[
 \phi(n) =  n\cdot 1_R := \underbrace{1_R + 1_R + \cdots + 1_R}_{n\text{ times }};
 \] </paragraphs>
-                <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+                <collapse course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 \phi(-n) =  -n\cdot 1_R := n\cdot(-1_R) =  \underbrace{(-1_R) + (-1_R) + \cdots + (-1_R)}_{n\text{ times}}.
 \] </paragraphs>
-                  <collapse course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The map $\phi$ is a homomorphism. </paragraphs>
+                  <collapse course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The map $\phi$ is a homomorphism. </paragraphs>
                   </collapse>
                 </collapse>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2070" chapter="9" slide="6" of="2152ce3be89ef2f21ec407344bdeffeb" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="6" of-type="Example" of-item="9.4" of-src-filename="week9.xml" ofmd5="2152ce3be89ef2f21ec407344bdeffeb" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="9" slide="6" of="2152ce3be89ef2f21ec407344bdeffeb" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="126" of-type="Example" of-item="9.4" of-src-filename="weeks1-13.xml" ofmd5="2152ce3be89ef2f21ec407344bdeffeb" of-serial="">
               <of-title hidden="true">Example 9.4</of-title>
-              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
+              <newcol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <inline_keyword course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
               </newcol>
             </substatement>
-            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
-            <keywords slide="7" environ="slide" chapter="9" course="Math 2070">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="7" environ="slide" chapter="9" course="Math 2078">
               <keyword chapter="9" slide="7">evaluation homomorphism</keyword>
             </keywords>
-            <hc_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">evaluation homomorphism</hc_keyword>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="3bca8a74c04e7763a3607fb2fcaadc80" course="Math 2070" chapter="9" slide="7" item="9.5">
+            <hc_keyword course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">evaluation homomorphism</hc_keyword>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="3bca8a74c04e7763a3607fb2fcaadc80" course="Math 2078" chapter="9" slide="7" item="9.5">
               <label wbtag="label" name="eg:evalhomom" type="Example"/>
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.  For each element $r \in R$,
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.  For each element $r \in R$,
 we may define the </paragraphs>
               <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">evaluation map</paragraphs>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">evaluation map</paragraphs>
               </strong>
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\phi_r : R[x] \rightarrow R$ as follows:
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\phi_r : R[x] \rightarrow R$ as follows:
 \[
 \phi_r\left(\sum_{k = 0}^n a_k x^k\right) = \sum_{k = 0}^n a_k r^k
 \]
 The map $\phi_r$ is a ring homomorphism. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2070" chapter="9" slide="7" of="3bca8a74c04e7763a3607fb2fcaadc80" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="7" of-type="Example" of-item="9.5" of-src-filename="week9.xml" ofmd5="3bca8a74c04e7763a3607fb2fcaadc80" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2078" chapter="9" slide="7" of="3bca8a74c04e7763a3607fb2fcaadc80" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="127" of-type="Example" of-item="9.5" of-src-filename="weeks1-13.xml" ofmd5="3bca8a74c04e7763a3607fb2fcaadc80" of-serial="">
               <of-title hidden="true">Example 9.5</of-title>
               <em xmlns="http://www.w3.org/1999/xhtml" environment="substatement">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">Discussed in class.</paragraphs>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">Discussed in class.</paragraphs>
               </em>
             </substatement>
-            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
-            <keywords slide="8" environ="slide" chapter="9" course="Math 2070">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="8" environ="slide" chapter="9" course="Math 2078">
               <keyword chapter="9" slide="8">isomorphism</keyword>
               <keyword chapter="9" slide="8">isomorphic</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="6" md5="e0a2cd2e0446a5405cecb97b9facee7c" course="Math 2070" chapter="9" slide="8" item="9.6">
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If a ring homomorphism $\phi: A \rightarrow B$ is a bijective map, we say that $\phi$ is an </paragraphs>
-              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">isomorphism</inline_keyword>
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">,
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="6" md5="e0a2cd2e0446a5405cecb97b9facee7c" course="Math 2078" chapter="9" slide="8" item="9.6">
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If a ring homomorphism $\phi: A \rightarrow B$ is a bijective map, we say that $\phi$ is an </paragraphs>
+              <inline_keyword course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">isomorphism</inline_keyword>
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">,
 and that $A$ and $B$ are </paragraphs>
-              <inline_keyword course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">isomorphic</inline_keyword>
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> as rings. </paragraphs>
+              <inline_keyword course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">isomorphic</inline_keyword>
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> as rings. </paragraphs>
             </statement>
-            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Notation</paragraphs>
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Notation</paragraphs>
             </strong>
-            <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $A$ and $B$ are isomorphic, we write $A \cong B$. </paragraphs>
+            <newcol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $A$ and $B$ are isomorphic, we write $A \cong B$. </paragraphs>
             </newcol>
-            <newline course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2070" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
-            <keywords slide="9" environ="slide" chapter="9" course="Math 2070"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="7" md5="c805c14632eb7e0540de3e7f1f0f3a32" course="Math 2070" chapter="9" slide="9" item="9.7">
-              <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $\phi:A \rightarrow B$ is an isomorphism, then $\phi^{-1} : B \rightarrow A$ is an isomorphism. </paragraphs>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Homomorphisms">
+            <keywords slide="9" environ="slide" chapter="9" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="7" md5="c805c14632eb7e0540de3e7f1f0f3a32" course="Math 2078" chapter="9" slide="9" item="9.7">
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $\phi:A \rightarrow B$ is an isomorphism, then $\phi^{-1} : B \rightarrow A$ is an isomorphism. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="21627d6d8f7cdde680f210a24da5438e" course="Math 2070" chapter="9" slide="9" of="c805c14632eb7e0540de3e7f1f0f3a32" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="9" of-type="Claim" of-item="9.7" of-src-filename="week9.xml" ofmd5="c805c14632eb7e0540de3e7f1f0f3a32" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="21627d6d8f7cdde680f210a24da5438e" course="Math 2078" chapter="9" slide="9" of="c805c14632eb7e0540de3e7f1f0f3a32" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="129" of-type="Claim" of-item="9.7" of-src-filename="weeks1-13.xml" ofmd5="c805c14632eb7e0540de3e7f1f0f3a32" of-serial="">
               <of-title hidden="true">Claim 9.7</of-title>
-              <newcol course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\phi$ is bijective, $\phi^{-1}$ is clearly bijective.  It remains to show that $\phi^{-1}$ is a homomorphism: </paragraphs>
+              <newcol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\phi$ is bijective, $\phi^{-1}$ is clearly bijective.  It remains to show that $\phi^{-1}$ is a homomorphism: </paragraphs>
                 <ol xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <li environment="newcol">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\phi(1_A) = 1_B$, we have $\phi^{-1}(1_B) = \phi^{-1}(\phi(1_A)) = 1_A$. </paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\phi(1_A) = 1_B$, we have $\phi^{-1}(1_B) = \phi^{-1}(\phi(1_A)) = 1_A$. </paragraphs>
                   </li>
                   <li environment="newcol">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $b_1, b_2 \in B$, we have
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $b_1, b_2 \in B$, we have
 \begin{multline*}
 \phi^{-1}(b_1 + b_2) = \phi^{-1}(\phi(\phi^{-1}(b_1)) + \phi(\phi^{-1}(b_2)))
 \\= \phi^{-1}(\phi(\phi^{-1}(b_1) + \phi^{-1}(b_2))) = \phi^{-1}(b_1) + \phi^{-1}(b_2)
 \end{multline*} </paragraphs>
                   </li>
                   <li environment="newcol">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $b_1, b_2 \in B$, we have
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $b_1, b_2 \in B$, we have
 \begin{multline*}
 \phi^{-1}(b_1 \cdot b_2) = \phi^{-1}(\phi(\phi^{-1}(b_1)) \cdot \phi(\phi^{-1}(b_2)))
 \\= \phi^{-1}(\phi(\phi^{-1}(b_1) \cdot \phi^{-1}(b_2))) = \phi^{-1}(b_1) \cdot \phi^{-1}(b_2)
 \end{multline*} </paragraphs>
                   </li>
                 </ol>
-                <paragraphs course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This shows that $\phi^{-1}$ is a bijective homomorphism. </paragraphs>
-                <qed course="Math 2070" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This shows that $\phi^{-1}$ is a bijective homomorphism. </paragraphs>
+                <qed course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
               </newcol>
             </substatement>
           </slide>

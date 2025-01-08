@@ -187,10 +187,72 @@ The group ${\rm GL}(2, \mathbb{R})$ is called a @keyword{General Linear Group}.
 @end
 @ex
 @newcol
+More generally, for any $n \in \mathbb{N}$,
+\[
+\GL(n, \mathbb{R})
+:=
+\left\{
+A \in M_{n\times n}(\mathbb{R}) : \det A \neq 0
+\right\}.
+\]
+It is a group under matrix multiplication.
+
+Note that the set $M_{n \times n}(\mathbb{R})$ of $n \times n$ real matrices is <i>not
+a group under matrix multiplication</i>, but it is a group under matrix addition.
+@endcol
+@end
+@ex
+@newcol
 The set ${\rm SL}(2, \mathbb{R})$
 of real $2 \times 2$ matrices with determinant $1$ is a group under matrix multiplication.
 
 It is called a @keyword{Special Linear Group}.
+@endcol
+@end
+@slide
+More examples:
+@itemize
+@item
+__Orthogonal Group__:
+
+@col
+\[
+\mathrm{O}(n, \mathbb{R}) := \left\{
+A \in \GL(n, \mathbb{R}) : A A^{\top} = I
+\right\}
+\]
+Group operation: Matrix multiplication.
+@endcol
+@item
+__Special Orthogonal Group__:
+
+@col
+\[
+\mathrm{SO}(n, \mathbb{R}) := \left\{
+A \in \mathrm{O}(n, \mathbb{R}) : \det A = 1
+\right\}
+\]
+@endcol
+Group operation: Matrix multiplication.
+@item
+__Quaternion Group__
+
+@col
+\[
+\mathrm{Q}_8 := 
+\{
+1, i, j, k, -1, -i, -j, -k
+\}
+\]
+Group operation:
+\[
+i^2 = j^2 = k^2 = -1, 
+\]
+\[
+ij = k,\quad jk = i,\quad ki = j.
+\]
+@col
+Note: These rules imply, in particular, that $ji = -k$. Why?
 @endcol
 @end
 @subsection{Basic Properties}

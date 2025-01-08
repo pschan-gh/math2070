@@ -232,8 +232,8 @@ __Special Orthogonal Group__:
 A \in \mathrm{O}(n, \mathbb{R}) : \det A = 1
 \right\}
 \]
-@endcol
 Group operation: Matrix multiplication.
+@endcol
 @item
 __Quaternion Group__
 
@@ -326,5 +326,10 @@ then $g$ has finite order, and $\ord g$ divides $n$.
 @proof
 @newcol
 Shown in class.
+@endcol
+@end
+@ex
+@newcol
+If $G$ has finite order, then every element of $G$ has finite order.
 @endcol
 @end

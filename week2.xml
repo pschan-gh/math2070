@@ -1,9 +1,6 @@
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2078">
     <keywords slide="all" environ="course" chapter="" course="Math 2078">
-      <keyword chapter="" slide="all">order</keyword>
-      <keyword chapter="" slide="all">order</keyword>
-      <keyword chapter="" slide="all">infinite order</keyword>
       <keyword chapter="" slide="all">cyclic</keyword>
       <keyword chapter="" slide="all">generator</keyword>
       <keyword chapter="" slide="all">permutation</keyword>
@@ -22,9 +19,6 @@
     </slides>
     <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="2" title="" topic="Groups" course="Math 2078" serial="2">
       <keywords slide="all" environ="chapter" chapter="2" course="Math 2078">
-        <keyword chapter="2" slide="all">order</keyword>
-        <keyword chapter="2" slide="all">order</keyword>
-        <keyword chapter="2" slide="all">infinite order</keyword>
         <keyword chapter="2" slide="all">cyclic</keyword>
         <keyword chapter="2" slide="all">generator</keyword>
         <keyword chapter="2" slide="all">permutation</keyword>
@@ -44,58 +38,10 @@
         </slide>
         <slide environment="" chapter_type="Week" wbtag="slide" canon_num="3" id="s3" slide="3" course="Math 2078" chapter="2" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <keywords slide="3" environ="slide" chapter="2" course="Math 2078">
-            <keyword chapter="2" slide="3">order</keyword>
-            <keyword chapter="2" slide="3">order</keyword>
-            <keyword chapter="2" slide="3">infinite order</keyword>
+            <keyword chapter="2" slide="3">cyclic</keyword>
+            <keyword chapter="2" slide="3">generator</keyword>
           </keywords>
-          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="01838c350283198a9a47e82d7a337b70" course="Math 2078" chapter="2" slide="3" item="2.1">
-            <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G$ be a group, with identity element $e$.</paragraphs>
-            <newline course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
-            <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">The </paragraphs>
-            <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement">order</inline_keyword>
-            <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $G$ is the number of elements in $G$.</paragraphs>
-            <newline course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
-            <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">The </paragraphs>
-            <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement">order</inline_keyword>
-            <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\ord g$ of an </paragraphs>
-            <i xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> element</paragraphs>
-            </i>
-            <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $g \in G$
-is the smallest $n \in \mathbb{N}$ such that $g^n = e$.
-If no such $n$ exists, we say that $g$ has </paragraphs>
-            <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement">infinite order</inline_keyword>
-            <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">. </paragraphs>
-          </statement>
-          <newline course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-          <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
-          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" md5="682fc761ecf19d9c07d8b7b1a587af06" course="Math 2078" chapter="2" slide="3" item="2.2">
-            <label wbtag="label" name="thm:orderdividesn" type="Theorem"/>
-            <newcol course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $G$ be a group with identity element $e$.
-Let $g$ be an element of $G$.  If $g^n = e$ for some $n \in \mathbb{N}$,
-then $\ord g$ is finite, and moreover $\ord g$ divides $n$. </paragraphs>
-            </newcol>
-          </statement>
-          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="723807213862930cca60acb6037d74ca" course="Math 2078" chapter="2" slide="3" of="682fc761ecf19d9c07d8b7b1a587af06" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="14" of-type="Theorem" of-item="2.2" of-src-filename="weeks1-13.xml" ofmd5="682fc761ecf19d9c07d8b7b1a587af06" of-serial="">
-            <of-title hidden="true">Theorem 2.2</of-title>
-            <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Shown in class. </paragraphs>
-          </substatement>
-          <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
-          <newline course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="7f335260865edba17debc220ef37b93d" course="Math 2078" chapter="2" slide="3" item="2.3">
-            <newcol course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $G$ has finite order, then every element of $G$ has finite order. </paragraphs>
-            </newcol>
-          </statement>
-          <newline course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2078" chapter="2" section="" subsection="" subsubsection="" chapter_title="" section_title="">
-          <keywords slide="4" environ="slide" chapter="2" course="Math 2078">
-            <keyword chapter="2" slide="4">cyclic</keyword>
-            <keyword chapter="2" slide="4">generator</keyword>
-          </keywords>
-          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="4" md5="81ee385eb9d7fc5f03e06028f10fac58" course="Math 2078" chapter="2" slide="4" item="2.4">
+          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="81ee385eb9d7fc5f03e06028f10fac58" course="Math 2078" chapter="2" slide="3" item="2.1">
             <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A group $G$ is </paragraphs>
             <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement">cyclic</inline_keyword>
             <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if there exists $g \in G$ such that every element of $G$ is equal to $g^n$
@@ -108,18 +54,18 @@ In which case, we write: $G = \langle g \rangle$, and say that $g$ is a </paragr
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Note: The generator of of a cyclic group might not be unique. </paragraphs>
             </newcol>
           </statement>
-          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="017f6531a1e2c99e5d46a67e99a9dc05" course="Math 2078" chapter="2" slide="4" item="2.5">
+          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="017f6531a1e2c99e5d46a67e99a9dc05" course="Math 2078" chapter="2" slide="3" item="2.2">
             <newcol course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $(U_m, \cdot)$ is cyclic. </paragraphs>
             </newcol>
           </statement>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="6" md5="12b03f3119341f000182eeea2f370ca3" course="Math 2078" chapter="2" slide="4" item="2.6">
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="12b03f3119341f000182eeea2f370ca3" course="Math 2078" chapter="2" slide="3" item="2.3">
             <newcol course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A finite cyclic group $G$ has order (i.e. size) $n$
 if and only if each of its generators has order $n$. </paragraphs>
             </newcol>
           </statement>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="7" md5="310302137df5a62dc62619ddae49df2c" course="Math 2078" chapter="2" slide="4" item="2.7">
+          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" md5="310302137df5a62dc62619ddae49df2c" course="Math 2078" chapter="2" slide="3" item="2.4">
             <newcol course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $(\mathbb{Q}, +)$ is not cyclic. </paragraphs>
             </newcol>
@@ -131,25 +77,25 @@ if and only if each of its generators has order $n$. </paragraphs>
           <paragraphs course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Permutations</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="5" scope="section" id="s5" slide="5" course="Math 2078" chapter="2" section="1" subsection="" subsubsection="" chapter_title="" section_title="Permutations">
-            <keywords slide="5" environ="slide" chapter="2" course="Math 2078">
-              <keyword chapter="2" slide="5">permutation</keyword>
+          <slide environment="" chapter_type="Week" canon_num="4" scope="section" id="s4" slide="4" course="Math 2078" chapter="2" section="1" subsection="" subsubsection="" chapter_title="" section_title="Permutations">
+            <keywords slide="4" environ="slide" chapter="2" course="Math 2078">
+              <keyword chapter="2" slide="4">permutation</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="2" section="1" subsection="" subsubsection="" serial="" slide="5">
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="2" section="1" subsection="" subsubsection="" serial="" slide="4">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Permutations</paragraphs>
             </title>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="8" md5="18a5d5fe255e3cb1b8428cf83be92ef7" course="Math 2078" chapter="2" slide="5" item="2.8">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="5" md5="18a5d5fe255e3cb1b8428cf83be92ef7" course="Math 2078" chapter="2" slide="4" item="2.5">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $X$ be a set.  A </paragraphs>
               <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">permutation</inline_keyword>
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $X$ is a bijective map $\sigma : X \ra X$. </paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="54d773425d11b8372809b46bbde83958" course="Math 2078" chapter="2" slide="5" item="2.9">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="6" md5="54d773425d11b8372809b46bbde83958" course="Math 2078" chapter="2" slide="4" item="2.6">
               <newcol course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The set $S_X$ of permutations of a set $X$
 is a group with respect to $\circ$, the composition of maps. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7058aeaa7d824b232f696a1071898e49" course="Math 2078" chapter="2" slide="5" of="54d773425d11b8372809b46bbde83958" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="16" of-type="Claim" of-item="2.9" of-src-filename="weeks1-13.xml" ofmd5="54d773425d11b8372809b46bbde83958" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7058aeaa7d824b232f696a1071898e49" course="Math 2078" chapter="2" slide="4" of="54d773425d11b8372809b46bbde83958" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="16" of-type="Claim" of-item="2.9" of-src-filename="weeks1-13.xml" ofmd5="54d773425d11b8372809b46bbde83958" of-serial="">
               <of-title hidden="true">Claim 2.9</of-title>
               <newcol course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ul course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
@@ -185,9 +131,9 @@ is an inverse of $\sigma$ with respect to the operation $\circ$. </paragraphs>
             </substatement>
             <newline course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="2" section="1" subsection="" subsubsection="" chapter_title="" section_title="Permutations">
-            <keywords slide="6" environ="slide" chapter="2" course="Math 2078">
-              <keyword chapter="2" slide="6">Symmetric Group</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2078" chapter="2" section="1" subsection="" subsubsection="" chapter_title="" section_title="Permutations">
+            <keywords slide="5" environ="slide" chapter="2" course="Math 2078">
+              <keyword chapter="2" slide="5">Symmetric Group</keyword>
             </keywords>
             <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Terminology:</paragraphs>
@@ -216,9 +162,9 @@ We often describe $\sigma$ using the following notation:
 \right)
 \] </paragraphs>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2078" chapter="2" section="1" subsection="" subsubsection="" chapter_title="" section_title="Permutations">
-            <keywords slide="7" environ="slide" chapter="2" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="c63c475905a86dc94e187be58927b6c7" course="Math 2078" chapter="2" slide="7" item="2.10">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="2" section="1" subsection="" subsubsection="" chapter_title="" section_title="Permutations">
+            <keywords slide="6" environ="slide" chapter="2" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="c63c475905a86dc94e187be58927b6c7" course="Math 2078" chapter="2" slide="6" item="2.7">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> In $S_3$,
 \[
 \sigma = \left(
@@ -352,12 +298,12 @@ and:</paragraphs>
           <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Dihedral Group</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 2078" chapter="2" section="2" subsection="" subsubsection="" chapter_title="" section_title="Dihedral Group">
-            <keywords slide="8" environ="slide" chapter="2" course="Math 2078">
-              <keyword chapter="2" slide="8">symmetric</keyword>
-              <keyword chapter="2" slide="8">dihedral group</keyword>
+          <slide environment="" chapter_type="Week" canon_num="7" scope="section" id="s7" slide="7" course="Math 2078" chapter="2" section="2" subsection="" subsubsection="" chapter_title="" section_title="Dihedral Group">
+            <keywords slide="7" environ="slide" chapter="2" course="Math 2078">
+              <keyword chapter="2" slide="7">symmetric</keyword>
+              <keyword chapter="2" slide="7">dihedral group</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="2" section="2" subsection="" subsubsection="" serial="" slide="8">
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="2" section="2" subsection="" subsubsection="" serial="" slide="7">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Dihedral Group</paragraphs>
             </title>
             <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Consider the subset $\mathcal{T}$ of transformations of $\mathbb{R}^2$,
@@ -370,36 +316,17 @@ of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say tha
               <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">symmetric</inline_keyword>
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> with respect to $\tau$.</paragraphs>
               <newline course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
-              <collapse course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
-and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$. </paragraphs>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
-                <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
-                  <a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg" environment="newcol">
-                    <img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png" environment="newcol" />
-                  </a>
-                  <center environment="newcol">
-                    <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                      <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By </paragraphs>
-                      <a xmlns="http://www.w3.org/1999/xhtml" href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&amp;action=edit&amp;redlink=1" class="new" title="User:Jim.belk (page does not exist)" environment="newcol">
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Jim.belk</paragraphs>
-                      </a>
-                      <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> - </paragraphs>
-                      <span xmlns="http://www.w3.org/1999/xhtml" class="int-own-work" lang="en" xml:lang="en" environment="newcol">
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Own work</paragraphs>
-                      </span>
-                      <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , Public Domain, </paragraphs>
-                      <a xmlns="http://www.w3.org/1999/xhtml" href="https://commons.wikimedia.org/w/index.php?curid=2803388" environment="newcol">
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Link</paragraphs>
-                      </a>
-                    </newcol>
-                  </center>
-                </div>
-                <newline course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
-              </collapse>
+              <comment course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">@col
+Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
+and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$. &lt;br/&gt;&lt;br/&gt;&lt;div class="image" style="width: 450px;"&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg"&gt;&lt;img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png"/&gt;&lt;/a&gt;&lt;center&gt;
+
+@newcol
+By &lt;a href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&amp;action=edit&amp;redlink=1" class="new" title="User:Jim.belk (page does not exist)"&gt;Jim.belk&lt;/a&gt;
+- &lt;span class="int-own-work" lang="en" xml:lang="en"&gt;Own work&lt;/span&gt;
+, Public Domain, &lt;a href="https://commons.wikimedia.org/w/index.php?curid=2803388"&gt;Link&lt;/a&gt;@endcol&lt;/center&gt;&lt;/div&gt;</comment>
+              <newline course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
             </newcol>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" md5="681abf11d01196ddcda588bf68cb77af" course="Math 2078" chapter="2" slide="8" item="2.11">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" md5="681abf11d01196ddcda588bf68cb77af" course="Math 2078" chapter="2" slide="7" item="2.8">
               <newcol course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The set $D_n := \{r_0, r_1,\ldots, r_{n - 1}, s_1, s_2,\ldots, s_n\}$ is a group,
 with respect to the group operation defined by $\tau*\gamma = \tau\circ\gamma$
@@ -412,7 +339,17 @@ with respect to the group operation defined by $\tau*\gamma = \tau\circ\gamma$
               <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">dihedral group</inline_keyword>
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
             </newcol>
-            <newline course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="69fbab4e7a7118bbcf52fb046a24a0a4" course="Math 2078" chapter="2" slide="7" item="2.9">
+              <image course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" data-src="d3.jpg" wbtag="image"/>
+              <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> In $D_3 = \{r_0, r_1, r_2, s_1, s_2, s_3\}$, where
+$r_k$ is counterclockwise rotation by $2\pi k/3$, and $s_k$ is the reflection depicted in the diagram above, 
+\[
+s_1 r_1 = ?
+\]
+\[
+s_2 s_3 = ?
+\] </paragraphs>
+            </statement>
           </slide>
         </slides>
       </section>
@@ -421,11 +358,11 @@ with respect to the group operation defined by $\tau*\gamma = \tau\circ\gamma$
           <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">More on $S_n$</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="9" scope="section" id="s9" slide="9" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
-            <keywords slide="9" environ="slide" chapter="2" course="Math 2078">
-              <keyword chapter="2" slide="9">$k$-cycle</keyword>
+          <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
+            <keywords slide="8" environ="slide" chapter="2" course="Math 2078">
+              <keyword chapter="2" slide="8">$k$-cycle</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" serial="" slide="9">
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" serial="" slide="8">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">More on $S_n$</paragraphs>
             </title>
             <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Consider the following element in $S_6$:
@@ -446,7 +383,7 @@ using the notation:
               <collapse course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> where $(n_1 n_2\cdots n_k)$ represents the permutation:
 \[
-n_1 \mapsto n_2 \dots n_i \mapsto n_{i + 1} \dots \mapsto n_k \mapsto n_1
+n_1 \mapsto n_2 \cdots n_i \mapsto n_{i + 1} \dots \mapsto n_k \mapsto n_1
 \] </paragraphs>
                 <collapse course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Viewing permutations as bijective maps,
@@ -464,41 +401,40 @@ This corresponds to the fact that $3$ is fixed by $\sigma$.</paragraphs>
               </collapse>
             </newcol>
             <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="12" md5="4f6f69556b597342a9df4cb5338603d0" course="Math 2078" chapter="2" slide="9" item="2.12">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="10" md5="4f6f69556b597342a9df4cb5338603d0" course="Math 2078" chapter="2" slide="8" item="2.10">
               <newcol course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In $S_n$, for any positive integer $k \leq n$, every $k$-cycle has order $k$. </paragraphs>
               </newcol>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
-            <keywords slide="10" environ="slide" chapter="2" course="Math 2078"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
+            <keywords slide="9" environ="slide" chapter="2" course="Math 2078"/>
             <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="13" md5="1da90d1dbd812239a2410e7989ed12a5" course="Math 2078" chapter="2" slide="10" item="2.13">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="1da90d1dbd812239a2410e7989ed12a5" course="Math 2078" chapter="2" slide="9" item="2.11">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Every non-identity permutation in $S_n$ is either a cycle or a product of disjoint cycles. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2078" chapter="2" slide="10" of="1da90d1dbd812239a2410e7989ed12a5" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="21" of-type="Claim" of-item="2.13" of-src-filename="weeks1-13.xml" ofmd5="1da90d1dbd812239a2410e7989ed12a5" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2078" chapter="2" slide="9" of="1da90d1dbd812239a2410e7989ed12a5" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="21" of-type="Claim" of-item="2.13" of-src-filename="weeks1-13.xml" ofmd5="1da90d1dbd812239a2410e7989ed12a5" of-serial="">
               <of-title hidden="true">Claim 2.13</of-title>
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Discussed in class. </paragraphs>
             </substatement>
             <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
             <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="14" md5="1a70f04ee63e1f779de5b660b360d2a0" course="Math 2078" chapter="2" slide="10" item="2.14">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="12" md5="1a70f04ee63e1f779de5b660b360d2a0" course="Math 2078" chapter="2" slide="9" item="2.12">
               <newcol course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Disjoint cycles commute with each other. </paragraphs>
               </newcol>
             </statement>
-            <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
-            <keywords slide="11" environ="slide" chapter="2" course="Math 2078">
-              <keyword chapter="2" slide="11">transposition</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
+            <keywords slide="10" environ="slide" chapter="2" course="Math 2078">
+              <keyword chapter="2" slide="10">transposition</keyword>
             </keywords>
             <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> A 2-cycle is often called a </paragraphs>
             <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="">transposition</inline_keyword>
             <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">,
 for it switches two elements with each other.</paragraphs>
             <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="15" md5="6b6032749a5703501062a9b5268fed8e" course="Math 2078" chapter="2" slide="11" item="2.15">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="13" md5="6b6032749a5703501062a9b5268fed8e" course="Math 2078" chapter="2" slide="10" item="2.13">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Each element of $S_n$ is a product of (not necessarily disjoint) transpositions. </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
@@ -511,7 +447,7 @@ and that each cycle is a product of transpositions:
 (a_1a_2\ldots a_k) = (a_1 a_k) (a_1 a_{k - 1})\cdots(a_1 a_3)(a_1 a_2)
 \] </paragraphs>
             </newcol>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="16" md5="8494fc429cbadc28ad78617ded773654" course="Math 2078" chapter="2" slide="11" item="2.16">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="8494fc429cbadc28ad78617ded773654" course="Math 2078" chapter="2" slide="10" item="2.14">
               <newcol course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <steps course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
 \[
@@ -534,17 +470,17 @@ and that each cycle is a product of transpositions:
             </statement>
             <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
-            <keywords slide="12" environ="slide" chapter="2" course="Math 2078"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="More on Sn">
+            <keywords slide="11" environ="slide" chapter="2" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Note that a given element $\sigma$ of $S_n$
 may be expressed as a product of transpositions in different ways,
 but: </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="17" md5="b588e52201e19b7a3f9e3a3b4a3e10b8" course="Math 2078" chapter="2" slide="12" item="2.17">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="15" md5="b588e52201e19b7a3f9e3a3b4a3e10b8" course="Math 2078" chapter="2" slide="11" item="2.15">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> In every factorization of $\sigma$ as a product of transpositions,
 the number of factors is either always even or always odd. </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="db834fd80ecc7026ff95266e76be3a86" course="Math 2078" chapter="2" slide="12" of="b588e52201e19b7a3f9e3a3b4a3e10b8" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="23" of-type="Claim" of-item="2.17" of-src-filename="weeks1-13.xml" ofmd5="b588e52201e19b7a3f9e3a3b4a3e10b8" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="db834fd80ecc7026ff95266e76be3a86" course="Math 2078" chapter="2" slide="11" of="b588e52201e19b7a3f9e3a3b4a3e10b8" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="23" of-type="Claim" of-item="2.17" of-src-filename="weeks1-13.xml" ofmd5="b588e52201e19b7a3f9e3a3b4a3e10b8" of-serial="">
               <of-title hidden="true">Claim 2.17</of-title>
               <newcol course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
@@ -562,9 +498,9 @@ and that the determinant function of matrices is multiplicative. </paragraphs>
           <paragraphs course="Math 2078" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="13" scope="section" id="s13" slide="13" course="Math 2078" chapter="2" section="4" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
-            <keywords slide="13" environ="slide" chapter="2" course="Math 2078"/>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="2" section="4" subsection="" subsubsection="" serial="" slide="13">
+          <slide environment="" chapter_type="Week" canon_num="12" scope="section" id="s12" slide="12" course="Math 2078" chapter="2" section="4" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
+            <keywords slide="12" environ="slide" chapter="2" course="Math 2078"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="2" section="4" subsection="" subsubsection="" serial="" slide="12">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
             </title>
             <enumerate course="Math 2078" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">

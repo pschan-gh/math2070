@@ -316,15 +316,17 @@ of $\mathbb{R}^2$.  If $\tau(P) = P$ for some $\tau \in \mathcal{T}$, we say tha
               <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">symmetric</inline_keyword>
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> with respect to $\tau$.</paragraphs>
               <newline course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
-              <comment course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">@col
-Intuitively, it is clear that $P$ is symmetric with respect to $n$ rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
-and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$. &lt;br/&gt;&lt;br/&gt;&lt;div class="image" style="width: 450px;"&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg"&gt;&lt;img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png"/&gt;&lt;/a&gt;&lt;center&gt;
-
-@newcol
+              <collapse course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <paragraphs course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Intuitively, $P$ is symmetric with respect to $n$
+rotations $\{r_0, r_1,\ldots, r_{n - 1}\}$,
+and $n$ reflections $\{s_1, s_2,\ldots, s_n\}$ in $\mathcal{T}$.</paragraphs>
+                <newline course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <comment course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol">&lt;div class="image" style="width: 450px;"&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Labeled_Triangle_Reflections.svg#/media/File:Labeled_Triangle_Reflections.svg"&gt;&lt;img alt="Labeled Triangle Reflections.svg" class="lazy" style="background: none;" rendered="0" width="450" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Labeled_Triangle_Reflections.svg/1200px-Labeled_Triangle_Reflections.svg.png"/&gt;&lt;/a&gt;&lt;center&gt;@newcol
 By &lt;a href="//commons.wikimedia.org/w/index.php?title=User:Jim.belk&amp;action=edit&amp;redlink=1" class="new" title="User:Jim.belk (page does not exist)"&gt;Jim.belk&lt;/a&gt;
 - &lt;span class="int-own-work" lang="en" xml:lang="en"&gt;Own work&lt;/span&gt;
 , Public Domain, &lt;a href="https://commons.wikimedia.org/w/index.php?curid=2803388"&gt;Link&lt;/a&gt;@endcol&lt;/center&gt;&lt;/div&gt;</comment>
-              <newline course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <newline course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+              </collapse>
             </newcol>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" md5="681abf11d01196ddcda588bf68cb77af" course="Math 2078" chapter="2" slide="7" item="2.8">
               <newcol course="Math 2078" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">

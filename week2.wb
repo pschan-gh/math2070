@@ -359,6 +359,38 @@ Then, use the fact that the determinant of the matrix corresponding to a transpo
 and that the determinant function of matrices is multiplicative.
 @endcol
 @end
+@claim
+@col
+For $n \geq 3$, every even permutation in $S_n$ is a product of $3$-cycles.
+@end
+@proof
+Let $\sigma$ be any even permutation in $S_n$.
+By definition, there exist an even number of transpositions
+$\tau_1, \tau_2, \ldots \tau_m$ such that:
+\[
+\sigma = \tau_1\tau_2\cdots \tau_m.
+\]
+@col
+Moverover, each $\tau_i = (ab)$ may be rewritten as $(ab) = (1a)(1b)(1a)$.
+
+@col
+Hence, $\sigma$ may be rewritten in the form:
+\[
+\sigma = (1a_1)(1a_2)\cdots(1a_l),
+\]
+where $l = 3m$, which is even since $m$ is even.
+
+@col
+For each pair of adjacent $(1a_i)$ and $(1a_{i+1})$ where $i$ is odd, we have:
+\[
+(1a_i)(1a_{i + 1}) = (1a_{i+1}a_i),
+\]
+which is a $3$-cycle.
+
+@col
+Hence, $\sigma$ may be written as a product of $3$-cycles.
+@endproof
+@end
 @section{WeBWorK}
 @enumerate
 @item

@@ -492,6 +492,44 @@ Then, use the fact that the determinant of the matrix corresponding to a transpo
 and that the determinant function of matrices is multiplicative. </paragraphs>
               </newcol>
             </substatement>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="16" md5="673973d68f7e204c4b7b2d2a4c27e651" course="Math 2078" chapter="2" slide="11" item="2.16">
+              <newcol course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $n \geq 3$, every even permutation in $S_n$ is a product of $3$-cycles. </paragraphs>
+              </newcol>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b73f49bca3bb5ac292937c767eea3de6" course="Math 2078" chapter="2" slide="11" of="673973d68f7e204c4b7b2d2a4c27e651" of-src-course="Math 2078" of-src-chapter="2" of-src-slide="11" of-type="Claim" of-item="2.16" of-src-filename="week2.xml" ofmd5="673973d68f7e204c4b7b2d2a4c27e651" of-serial="">
+              <of-title hidden="true">Claim 2.16</of-title>
+              <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Let $\sigma$ be any even permutation in $S_n$.
+By definition, there exist an even number of transpositions
+$\tau_1, \tau_2, \ldots \tau_m$ such that:
+\[
+\sigma = \tau_1\tau_2\cdots \tau_m.
+\] </paragraphs>
+              <newcol course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Moverover, each $\tau_i = (ab)$ may be rewritten as $(ab) = (1a)(1b)(1a)$.</paragraphs>
+                <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\sigma$ may be rewritten in the form:
+\[
+\sigma = (1a_1)(1a_2)\cdots(1a_l),
+\]
+where $l = 3m$, which is even since $m$ is even.</paragraphs>
+                  <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For each pair of adjacent $(1a_i)$ and $(1a_{i+1})$ where $i$ is odd, we have:
+\[
+(1a_i)(1a_{i + 1}) = (1a_{i+1}a_i),
+\]
+which is a $3$-cycle.</paragraphs>
+                    <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, $\sigma$ may be written as a product of $3$-cycles. </paragraphs>
+                      <qed course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
           </slide>
         </slides>
       </section>

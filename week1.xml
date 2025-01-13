@@ -688,15 +688,17 @@ Group operation: Matrix multiplication. </paragraphs>
 1, i, j, k, -1, -i, -j, -k
 \}
 \]
-Group operation:
-\[
-i^2 = j^2 = k^2 = -1, 
-\]
-\[
-ij = k,\quad jk = i,\quad ki = j.
-\] </paragraphs>
+The group operation is written multiplicatively.</paragraphs>
+                    <newline course="Math 2078" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 2078" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">The symbol $1$ denotes the identity element,
+and $-i, -j, -k$ denotes $(-1)i$, $(-1)j$, $(-1)k$, respectively.</paragraphs>
+                    <newline course="Math 2078" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 2078" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">Moreover, by definition $-1$ commutes with every element of the group
+(for instance, $ (-1)i = i(-1) = -i$),
+and the symbols $i, j, k$ satisfy the following relations:
+$$(-1)^2 = 1,\quad i^2 = j^2 = k^2 = ijk = -1.$$ </paragraphs>
                     <collapse course="Math 2078" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2078" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Note: These rules imply, in particular, that $ji = -k$. Why? </paragraphs>
+                      <paragraphs course="Math 2078" chapter="1" chapter_type="" section="2" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Note: These rules imply, in particular, that $ij = k$ and $ji = -k$. Why? </paragraphs>
                     </collapse>
                   </newcol>
                 </item>

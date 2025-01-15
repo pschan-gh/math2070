@@ -3,6 +3,9 @@
     <keywords slide="all" environ="course" chapter="" course="Math 2078">
       <keyword chapter="" slide="all">generated</keyword>
       <keyword chapter="" slide="all">finitely generated</keyword>
+      <keyword chapter="" slide="all">normal subgroup</keyword>
+      <keyword chapter="" slide="all">quotient group</keyword>
+      <keyword chapter="" slide="all">mod</keyword>
       <keyword chapter="" slide="all">group homomorphism</keyword>
       <keyword chapter="" slide="all">image</keyword>
       <keyword chapter="" slide="all">kernel</keyword>
@@ -22,6 +25,9 @@
       <keywords slide="all" environ="chapter" chapter="4" course="Math 2078">
         <keyword chapter="4" slide="all">generated</keyword>
         <keyword chapter="4" slide="all">finitely generated</keyword>
+        <keyword chapter="4" slide="all">normal subgroup</keyword>
+        <keyword chapter="4" slide="all">quotient group</keyword>
+        <keyword chapter="4" slide="all">mod</keyword>
         <keyword chapter="4" slide="all">group homomorphism</keyword>
         <keyword chapter="4" slide="all">image</keyword>
         <keyword chapter="4" slide="all">kernel</keyword>
@@ -289,20 +295,112 @@ where $s$ is any reflection in $D_3$. </paragraphs>
             </statement>
           </slide>
         </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Normal Subgroups" course="Math 2078" chapter="4" section="2" num="1" serial="4.2.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="4" section="2" subsection="" subsubsection="" serial="4.2.1" slide="">
+            <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Normal Subgroups</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="10" scope="subsection" id="s10" slide="10" course="Math 2078" chapter="4" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Generators">
+              <keywords slide="10" environ="slide" chapter="4" course="Math 2078">
+                <keyword chapter="4" slide="10">normal subgroup</keyword>
+              </keywords>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="4" section="2" subsection="1" subsubsection="" serial="" slide="10">
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Normal Subgroups</paragraphs>
+              </title>
+              <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="9" md5="2f9e174065ea039afc8e1d3951f528e3" course="Math 2078" chapter="4" slide="10" item="4.9">
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> A subset $H$ of a group $G$ is said to be a </paragraphs>
+                <inline_keyword course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement">normal subgroup</inline_keyword>
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> of $G$ if: </paragraphs>
+                <itemize course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="itemize" wbtag="itemize">
+                  <item course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="itemize" wbtag="item">
+                    <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs"> $H$ is a subgroup of $G$. </paragraphs>
+                  </item>
+                  <item course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="itemize" wbtag="item">
+                    <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs"> For all $h \in H$ and $g \in G$, we have:
+\[
+ghg^{-1} \in H.
+\]
+(In other words, $H$ is </paragraphs>
+                    <strong xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">invariant</paragraphs>
+                    </strong>
+                    <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs"> under </paragraphs>
+                    <strong xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">conjugation</paragraphs>
+                    </strong>
+                    <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">.) </paragraphs>
+                  </item>
+                </itemize>
+              </statement>
+              <substatement environment="substatement" chapter_type="Week" type="Notation" wbtag="notation" md5="064f1cc46941fa154eb4b7dbfe3360db" course="Math 2078" chapter="4" slide="10">
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs"> If $H$ is a normal subgroup of $G$, we write:
+\[
+H \triangleleft G.
+\] </paragraphs>
+              </substatement>
+              <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="863f1f0c072a47273dc777293acccac5" course="Math 2078" chapter="4" slide="10" item="4.10">
+                <newcol course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider $G = D_3 = \{r_0, r_1, r_2, s_1, s_2, s_3\}$.</paragraphs>
+                  <newline course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">If $H = \{r_0, r_1, r_2\} \leq G$, then since
+$g r_i g^{-1}$ is a rotation for any $g \in G$,
+the group $H$ is a normal subgroup of $G$.</paragraphs>
+                  <newline course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> On the other hand,
+suppose $S = \{r_0, s_1\} \leq G$.</paragraphs>
+                    <newline course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">Then,
+\[
+r_1 s_1 r_1^{-1} = s_3 \notin S.
+\]
+Hence, $S$ is not a normal subgroup of $G$. </paragraphs>
+                  </collapse>
+                </newcol>
+              </statement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="4" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Generators">
+              <keywords slide="11" environ="slide" chapter="4" course="Math 2078">
+                <keyword chapter="4" slide="11">quotient group</keyword>
+                <keyword chapter="4" slide="11">mod</keyword>
+              </keywords>
+              <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> Intuitively,
+a subgroup $H$ of $G$ being normal means that it commutes with elements of $G$:
+\[
+Ha = aH,\quad a \in G.
+\]
+With this condition, we may impose a group structure on the </paragraphs>
+              <b xmlns="http://www.w3.org/1999/xhtml" environment="">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">set of cosets</paragraphs>
+              </b>
+              <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> 
+$\{a_1 H, a_2H, \ldots a_n H\}$ of $H$ as follows:
+\[
+(aH)(bH) = (ab)H.
+\]
+This group, denoted by $G/H$, is called the </paragraphs>
+              <inline_keyword course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="">quotient group</inline_keyword>
+              <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> "$G$ </paragraphs>
+              <inline_keyword course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="">mod</inline_keyword>
+              <paragraphs course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> $H$".</paragraphs>
+              <newline course="Math 2078" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
+            </slide>
+          </slides>
+        </subsection>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Group Homomorphisms" course="Math 2078" chapter="4" num="3" serial="4.3">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Group Homomorphisms</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="10" scope="section" id="s10" slide="10" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
-            <keywords slide="10" environ="slide" chapter="4" course="Math 2078">
-              <keyword chapter="4" slide="10">group homomorphism</keyword>
+          <slide environment="" chapter_type="Week" canon_num="12" scope="section" id="s12" slide="12" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="12" environ="slide" chapter="4" course="Math 2078">
+              <keyword chapter="4" slide="12">group homomorphism</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" serial="" slide="10">
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" serial="" slide="12">
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Group Homomorphisms</paragraphs>
             </title>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="9" md5="cff90ff1a2512def119e61248f4fada3" course="Math 2078" chapter="4" slide="10" item="4.9">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="11" md5="cff90ff1a2512def119e61248f4fada3" course="Math 2078" chapter="4" slide="12" item="4.11">
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G = (G, *)$, $G' = (G', *')$ be groups.
 A </paragraphs>
               <inline_keyword course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">group homomorphism</inline_keyword>
@@ -311,7 +409,7 @@ is a map $\phi: G \ra G'$ which satisfies:
 \[\phi(a * b) = \phi(a)*'\phi(b),\]
 for all $a, b \in G$. </paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="10" md5="132d1d672939a84e269a3570d8985795" course="Math 2078" chapter="4" slide="10" item="4.10">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="12" md5="132d1d672939a84e269a3570d8985795" course="Math 2078" chapter="4" slide="12" item="4.12">
               <newcol course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\phi: G \ra G'$ is a group homomorphism, then: </paragraphs>
                 <ol xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
@@ -327,7 +425,7 @@ for all $a, b \in G$. </paragraphs>
                 </ol>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="27acefeae6aa3cb3ac33e77d8d72c404" course="Math 2078" chapter="4" slide="10" of="132d1d672939a84e269a3570d8985795" of-src-course="Math 2070" of-src-chapter="4" of-src-slide="45" of-type="Claim" of-item="4.10" of-src-filename="weeks1-13.xml" ofmd5="132d1d672939a84e269a3570d8985795" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="27acefeae6aa3cb3ac33e77d8d72c404" course="Math 2078" chapter="4" slide="12" of="132d1d672939a84e269a3570d8985795" of-src-course="Math 2070" of-src-chapter="4" of-src-slide="45" of-type="Claim" of-item="4.10" of-src-filename="weeks1-13.xml" ofmd5="132d1d672939a84e269a3570d8985795" of-serial="">
               <of-title hidden="true">Claim 4.10</of-title>
               <newcol course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove the first claim, and leave the rest as an exercise.
@@ -342,10 +440,10 @@ the right-hand side is equal to $\phi(e_G)$. </paragraphs>
               </newcol>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
-            <keywords slide="11" environ="slide" chapter="4" course="Math 2078">
-              <keyword chapter="4" slide="11">image</keyword>
-              <keyword chapter="4" slide="11">kernel</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="13" environ="slide" chapter="4" course="Math 2078">
+              <keyword chapter="4" slide="13">image</keyword>
+              <keyword chapter="4" slide="13">kernel</keyword>
             </keywords>
             <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $\phi: G \ra G'$ be a homomorphism of groups.
 The </paragraphs>
@@ -356,25 +454,25 @@ The </paragraphs>
             <inline_keyword course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="">kernel</inline_keyword>
             <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $\phi$ is defined as:
 \[\ker \phi = \{g \in G: \phi(g) = e_{G'}\} \subseteq G.\] </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="261d6c7b5c29f78ee16355024908c653" course="Math 2078" chapter="4" slide="11" item="4.11">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="13" md5="261d6c7b5c29f78ee16355024908c653" course="Math 2078" chapter="4" slide="13" item="4.13">
               <newcol course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The image of $\phi$ is a subgroup of $G'$.
 The kernel of $\phi$ is a subgroup of $G$. </paragraphs>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="12" md5="771de3ce3367fc51fb77081bfb8ad6c0" course="Math 2078" chapter="4" slide="11" item="4.12">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="14" md5="771de3ce3367fc51fb77081bfb8ad6c0" course="Math 2078" chapter="4" slide="13" item="4.14">
               <newcol course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A group homomorphism $\phi: G \ra G'$ is one-to-one if and only if $\ker \phi = \{e_G\}$. </paragraphs>
                 <comment course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"> @ref{pf:kernelonetoone} </comment>
               </newcol>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
-            <keywords slide="12" environ="slide" chapter="4" course="Math 2078">
-              <keyword chapter="4" slide="12">Examples of Group Homomorphisms</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="14" environ="slide" chapter="4" course="Math 2078">
+              <keyword chapter="4" slide="14">Examples of Group Homomorphisms</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" title="Examples of Group Homomorphisms" md5="095147f33a3e1fe7ff089b5ce1c3288c" course="Math 2078" chapter="4" slide="12" item="4.13">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" serial="" slide="12">Examples of Group Homomorphisms</title>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" title="Examples of Group Homomorphisms" md5="095147f33a3e1fe7ff089b5ce1c3288c" course="Math 2078" chapter="4" slide="14" item="4.15">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" serial="" slide="14">Examples of Group Homomorphisms</title>
               <label wbtag="label" name="eg:grouphomomorphisms" type="Example"/>
               <col_ul course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
                 <col_li course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
@@ -405,12 +503,12 @@ The kernel of $\phi$ is a subgroup of $G$. </paragraphs>
               </col_ul>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
-            <keywords slide="13" environ="slide" chapter="4" course="Math 2078">
-              <keyword chapter="4" slide="13">isomorphism</keyword>
-              <keyword chapter="4" slide="13">isomorphic</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="15" environ="slide" chapter="4" course="Math 2078">
+              <keyword chapter="4" slide="15">isomorphism</keyword>
+              <keyword chapter="4" slide="15">isomorphic</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="14" md5="81e17b1bf373a88a12ed40858acec5a7" course="Math 2078" chapter="4" slide="13" item="4.14">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="16" md5="81e17b1bf373a88a12ed40858acec5a7" course="Math 2078" chapter="4" slide="15" item="4.16">
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $G$, $G'$ be groups. A map $\phi: G \ra G'$ is a group </paragraphs>
               <inline_keyword course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">isomorphism</inline_keyword>
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if it is a bijective
@@ -425,16 +523,16 @@ we say that the groups $G$ and $G'$ are </paragraphs>
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
             </newcol>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
-            <keywords slide="14" environ="slide" chapter="4" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="ad58fb7dd7baadc4df44a7450c55af00" course="Math 2078" chapter="4" slide="14" item="4.15">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2078" chapter="4" section="3" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="16" environ="slide" chapter="4" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="17" md5="ad58fb7dd7baadc4df44a7450c55af00" course="Math 2078" chapter="4" slide="16" item="4.17">
               <label wbtag="label" name="eg:cycliczn" type="Example"/>
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Recall </paragraphs>
-              <ref environment="statement" chapter_type="" label="def:cycliczn" wbtag="ref" course="Math 2078" chapter="4" slide="14" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" src-course="Math 2070" src-chapter="3" src-slide="26" type="Definition" item="3.1" src-filename="weeks1-13.xml" md5="e13b4e54d682feb07aa9b2173056116a" class="lcref" serial="">
+              <ref environment="statement" chapter_type="" label="def:cycliczn" wbtag="ref" course="Math 2078" chapter="4" slide="16" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" src-course="Math 2070" src-chapter="3" src-slide="26" type="Definition" item="3.1" src-filename="weeks1-13.xml" md5="e13b4e54d682feb07aa9b2173056116a" class="lcref" serial="">
                 <title>Definition 3.1</title>
               </ref>
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> and </paragraphs>
-              <ref environment="statement" chapter_type="" label="ex:cycliczn" wbtag="ref" course="Math 2078" chapter="4" slide="14" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" src-course="Math 2070" src-chapter="3" src-slide="26" type="Exercise" item="3.2" src-filename="weeks1-13.xml" md5="ca1d769c6cebb731348d21e923321c84" class="lcref" serial="">
+              <ref environment="statement" chapter_type="" label="ex:cycliczn" wbtag="ref" course="Math 2078" chapter="4" slide="16" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" src-course="Math 2070" src-chapter="3" src-slide="26" type="Exercise" item="3.2" src-filename="weeks1-13.xml" md5="ca1d769c6cebb731348d21e923321c84" class="lcref" serial="">
                 <title>Exercise 3.2</title>
               </ref>
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">.</paragraphs>
@@ -446,7 +544,7 @@ where $r_1$ denotes the anticlockwise rotation by the angle $2\pi/n$,
 and $r_k = r_1^k$.
 Then, $H$ is isomorphic to $\mathbb{Z}_n = (\mathbb{Z}_n, +_{\mathbb{Z}_n})$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4f482b84b61a1c354842df7121c45a5b" course="Math 2078" chapter="4" slide="14" of="ad58fb7dd7baadc4df44a7450c55af00" of-src-course="Math 2070" of-src-chapter="4" of-src-slide="49" of-type="Example" of-item="4.15" of-src-filename="weeks1-13.xml" ofmd5="ad58fb7dd7baadc4df44a7450c55af00" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4f482b84b61a1c354842df7121c45a5b" course="Math 2078" chapter="4" slide="16" of="ad58fb7dd7baadc4df44a7450c55af00" of-src-course="Math 2070" of-src-chapter="4" of-src-slide="49" of-type="Example" of-item="4.15" of-src-filename="weeks1-13.xml" ofmd5="ad58fb7dd7baadc4df44a7450c55af00" of-serial="">
               <of-title hidden="true">Example 4.15</of-title>
               <newcol course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define $\phi: H \ra \mathbb{Z}_n$ as follows:

@@ -365,8 +365,7 @@ Hence, $S$ is not a normal subgroup of $G$. </paragraphs>
               <keyword chapter="4" slide="11">quotient group</keyword>
               <keyword chapter="4" slide="11">mod</keyword>
             </keywords>
-            <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Intuitively,
-a subgroup $H$ of $G$ being normal means that it commutes with elements of $G$:
+            <paragraphs course="Math 2078" chapter="4" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> A subgroup $H$ of $G$ being normal essentially means that it commutes with elements of $G$:
 \[
 Ha = aH,\quad a \in G.
 \]

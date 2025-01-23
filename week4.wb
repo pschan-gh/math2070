@@ -202,8 +202,7 @@ r_1 s_1 r_1^{-1} = s_3 \notin S.
 Hence, $S$ is not a normal subgroup of $G$.
 @end
 @slide
-Intuitively,
-a subgroup $H$ of $G$ being normal means that it commutes with elements of $G$:
+A subgroup $H$ of $G$ being normal essentially means that it commutes with elements of $G$:
 \[
 Ha = aH,\quad a \in G.
 \]

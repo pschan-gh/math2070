@@ -2,6 +2,7 @@
 @week{5}
 @topic{Group Homomorphisms}
 @topic{Rings}
+@topic{Elementary Number Theory}
 @section{Product Group}
 <b style="display:none">Product Group</b>
 
@@ -250,6 +251,30 @@ Then, show that it is a bijective group homomorphism.
 @item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms2.pg}
 @item @webwork{Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms8.pg}
 @endenumerate
+@slide
+@claim
+For any group homomorphism $\phi : G \longrightarrow G'$, the kernel $\ker \phi$ is a normal subgroup of $G$.
+@end
+@proof
+Exercise.
+@end
+@ex
+@col
+If $\phi : G \longrightarrow G'$ is a group homomorphis, is $\im \phi$ necessarily normal?
+@end
+@slide
+@thm
+Let $\phi : G \longrightarrow G'$ be a surjective group homomorphism, then:
+\[
+G' \cong G / \ker \phi
+\]
+@end
+@cor
+For any group homomorphism $\phi : G \longrightarrow G'$, we have:
+\[
+\im \phi \cong G / \ker \phi
+\]
+@end
 @section{Rings}
 @subsection{Basic Results in Elementary Number Theory}
 @thm
@@ -353,6 +378,7 @@ This establishes the existence of the remainder $r$.
 The existence of $q$ in the theorem is now also clear.  We leave the proof of the uniqueness of $r$ and $q$ as an exercise.
 @endcol
 @end
+<!--
 @slide
 @keyword*{cyclic}
 @thm
@@ -408,5 +434,110 @@ Every subgroup of $\mathbb{Z}_n$ is cyclic.
 @cor
 @newcol
 Every subgroup of a cyclic group is cyclic.
+@endcol
+@end
+-->
+@section{Further Results in Elementary Number Theory}
+@defn
+The @keyword{Greatest Common Divisor} $gcd(a, b)$ of $a, b \in \mathbb{Z}$ is the largest positive integer
+$d$ which divides both $a$ and $b$ (Notation: $d | a$ and $d | b$).
+@end
+
+<strong>Note.</strong>
+@newcol
+If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
+$gcd(0, 0)$ is undefined.
+@endcol
+
+@subsection{Euclidean Algorithm}
+@label{sec:euclidalg}
+@lemma
+@newcol
+If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
+$gcd(b, a) = gcd (a, r)$.
+@endcol
+@end
+@proof
+@newcol
+If $d | a$ and $d | b$, then $d | r = b - aq$.
+Conversely, if $d | a$ and $d | r$, then $d|a$ and $d|b = qa+r$.
+So, the set of common divisors of $a, b$ is the same as the set of the common divisors of $a, r$.
+If two finite sets of integers are the same, then their largest elements are clearly the same.
+In other words:
+\[
+gcd(b, a) = gcd(a, r).
+\]
+@qed
+@endcol
+@end
+@slide
+Suppose $\abs{b} \geq \abs{a}$.  Let $b_0 = b$, $a_0 = a$.
+Write $b_0 = a_0q_0 + r_0$, where $0 \leq r_0 < \abs{a_0}$.
+
+@newcol
+For $n > 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
+$r_n$ is the remainder of the division of $b_n$ by $a_n$.  That is,
+\[
+b_n = a_nq_n + r_n, \quad  0 \leq r_n < \abs{a_n}.
+\]
+@col
+If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
+Now, suppose $r_0 > 0$.
+Since $r_n$ is a non-negative integer and  $0 \leq r_n < r_{n - 1}$,
+eventually, $r_n = 0$ for some $n \in \mathbb{N}$.
+@endcol
+
+@claim
+@newcol
+$gcd(b, a) = \abs{a_n}$.
+@endcol
+@end
+@proof
+@newcol
+By the previous lemma,
+@steps
+\[
+\begin{split}
+gcd(b, a) &= gcd(b_0, a_0)\\
+&
+@nstep{= gcd(a_0, r_0) = gcd(b_1, a_1)}
+\\
+&
+@nstep{= gcd(a_1, r_1) = gcd(b_2, a_2)}
+\\
+&
+@nstep{= \ldots}
+\\
+&
+@nstep{= gcd(a_{n}, r_{n}) = gcd(a_n, 0) = \abs{a_n}.}
+\end{split}
+\]
+@endsteps
+
+@endcol
+@end
+
+@slide
+@eg
+Find $gcd(285,255)$.
+
+@newcol
+@steps
+\[
+\begin{split}
+\underbrace{285}_{b_0} &= \underbrace{255}_{a_0} \underbrace{1}_{q_0} + \underbrace{30}_{r_0}
+\\
+@nstep{\underbrace{255}_{b_1 = a_0}}
+&
+@nstep{=\underbrace{30}_{a_1 = r_0} \underbrace{8}_{q_1} + \underbrace{15}_{r_1}}
+\\
+@nstep{\underbrace{30}_{b_2}}
+&
+@nstep{=\underbrace{15}_{a_2} \underbrace{2}_{q_2} + \underbrace{0}_{r_2}}
+\end{split}
+\]
+@endsteps
+@col
+So, $gcd(285, 255) = r_1 = 15$.
 @endcol
 @end

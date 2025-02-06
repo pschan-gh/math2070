@@ -651,21 +651,6 @@ Show that $\phi$ is a group isomorphism.</paragraphs>
               </newcol>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2078" chapter="4" section="4" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
-            <keywords slide="18" environ="slide" chapter="4" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="22" md5="260306b8e5b3695efd64ca27ddac6754" course="Math 2078" chapter="4" slide="18" item="4.22">
-              <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any group homomorphism $\phi : G \longrightarrow G'$, the kernel $\ker \phi$ is a normal subgroup of $G$. </paragraphs>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="4" slide="18" of="260306b8e5b3695efd64ca27ddac6754" of-src-course="Math 2078" of-src-chapter="4" of-src-slide="18" of-type="Claim" of-item="4.22" of-src-filename="week4.xml" ofmd5="260306b8e5b3695efd64ca27ddac6754" of-serial="">
-              <of-title hidden="true">Claim 4.22</of-title>
-              <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Exercise. </paragraphs>
-            </substatement>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="23" md5="e370725ec56dbd915fd2fbe5366b8b8a" course="Math 2078" chapter="4" slide="18" item="4.23">
-              <newcol course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\phi : G \longrightarrow G'$ is a group homomorphis, is $\im \phi$ necessarily normal? </paragraphs>
-              </newcol>
-            </statement>
-          </slide>
         </slides>
       </section>
     </chapter>

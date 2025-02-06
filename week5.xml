@@ -3,7 +3,7 @@
     <keywords slide="all" environ="course" chapter="" course="Math 2078">
       <keyword chapter="" slide="all">isomorphic</keyword>
       <keyword chapter="" slide="all">remainder</keyword>
-      <keyword chapter="" slide="all">cyclic</keyword>
+      <keyword chapter="" slide="all">Greatest Common Divisor</keyword>
       <keyword chapter="" slide="all">Division Theorem</keyword>
     </keywords>
     <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2078" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2078</title>
@@ -13,21 +13,23 @@
         <keywords slide="1" environ="slide" chapter="" course="Math 2078"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="5" title="" topic="Group Homomorphisms, Rings" course="Math 2078" serial="5">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="5" title="" topic="Group Homomorphisms, Rings, Elementary Number Theory" course="Math 2078" serial="5">
       <keywords slide="all" environ="chapter" chapter="5" course="Math 2078">
         <keyword chapter="5" slide="all">isomorphic</keyword>
         <keyword chapter="5" slide="all">remainder</keyword>
-        <keyword chapter="5" slide="all">cyclic</keyword>
+        <keyword chapter="5" slide="all">Greatest Common Divisor</keyword>
         <keyword chapter="5" slide="all">Division Theorem</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2078" chapter="5" section="" subsection="" subsubsection="" serial="" slide=""/>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="5" section="" subsection="" subsubsection="" serial="" slide="">Group Homomorphisms</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="5" section="" subsection="" subsubsection="" serial="" slide="">Rings</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="5" section="" subsection="" subsubsection="" serial="" slide="">Elementary Number Theory</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2078" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Group Homomorphisms</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Rings</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Elementary Number Theory</topic>
           <keywords slide="2" environ="slide" chapter="5" course="Math 2078"/>
         </slide>
       </slides>
@@ -356,6 +358,36 @@ Then, show that it is a bijective group homomorphism. </paragraphs>
                 </item>
               </enumerate>
             </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2078" chapter="5" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Product Group">
+              <keywords slide="9" environ="slide" chapter="5" course="Math 2078"/>
+              <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="7" md5="260306b8e5b3695efd64ca27ddac6754" course="Math 2078" chapter="5" slide="9" item="5.7">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> For any group homomorphism $\phi : G \longrightarrow G'$, the kernel $\ker \phi$ is a normal subgroup of $G$. </paragraphs>
+              </statement>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="5" slide="9" of="260306b8e5b3695efd64ca27ddac6754" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="9" of-type="Claim" of-item="5.7" of-src-filename="week5.xml" ofmd5="260306b8e5b3695efd64ca27ddac6754" of-serial="">
+                <of-title hidden="true">Claim 5.7</of-title>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs"> Exercise. </paragraphs>
+              </substatement>
+              <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="8" md5="e370725ec56dbd915fd2fbe5366b8b8a" course="Math 2078" chapter="5" slide="9" item="5.8">
+                <newcol course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\phi : G \longrightarrow G'$ is a group homomorphis, is $\im \phi$ necessarily normal? </paragraphs>
+                </newcol>
+              </statement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="5" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Product Group">
+              <keywords slide="10" environ="slide" chapter="5" course="Math 2078"/>
+              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="63a3e1c60f455d806d86bcb9683c27bc" course="Math 2078" chapter="5" slide="10" item="5.9">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Let $\phi : G \longrightarrow G'$ be a surjective group homomorphism, then:
+\[
+G' \cong G / \ker \phi
+\] </paragraphs>
+              </statement>
+              <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="10" md5="dad5ebea2179573aeafcdefd9b493172" course="Math 2078" chapter="5" slide="10" item="5.10">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> For any group homomorphism $\phi : G \longrightarrow G'$, we have:
+\[
+\im \phi \cong G / \ker \phi
+\] </paragraphs>
+              </statement>
+            </slide>
           </slides>
         </subsection>
       </section>
@@ -364,9 +396,9 @@ Then, show that it is a bijective group homomorphism. </paragraphs>
           <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rings</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="9" scope="section" id="s9" slide="9" course="Math 2078" chapter="5" section="2" subsection="" subsubsection="" chapter_title="" section_title="Rings">
-            <keywords slide="9" environ="slide" chapter="5" course="Math 2078"/>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="2" subsection="" subsubsection="" serial="" slide="9">
+          <slide environment="" chapter_type="Week" canon_num="11" scope="section" id="s11" slide="11" course="Math 2078" chapter="5" section="2" subsection="" subsubsection="" chapter_title="" section_title="Rings">
+            <keywords slide="11" environ="slide" chapter="5" course="Math 2078"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="2" subsection="" subsubsection="" serial="" slide="11">
               <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rings</paragraphs>
             </title>
           </slide>
@@ -376,16 +408,16 @@ Then, show that it is a bijective group homomorphism. </paragraphs>
             <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Basic Results in Elementary Number Theory</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="10" scope="subsection" id="s10" slide="10" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
-              <keywords slide="10" environ="slide" chapter="5" course="Math 2078">
-                <keyword chapter="5" slide="10">remainder</keyword>
-                <keyword chapter="5" slide="10">Division Theorem</keyword>
+            <slide environment="" chapter_type="Week" canon_num="12" scope="subsection" id="s12" slide="12" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
+              <keywords slide="12" environ="slide" chapter="5" course="Math 2078">
+                <keyword chapter="5" slide="12">remainder</keyword>
+                <keyword chapter="5" slide="12">Division Theorem</keyword>
               </keywords>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="10">
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="12">
                 <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Basic Results in Elementary Number Theory</paragraphs>
               </title>
-              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" title="Division Theorem" md5="e5d1712cf6968618cdae2a8007d5ffb6" course="Math 2078" chapter="5" slide="10" item="5.7">
-                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="10">Division Theorem</title>
+              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Division Theorem" md5="e5d1712cf6968618cdae2a8007d5ffb6" course="Math 2078" chapter="5" slide="12" item="5.11">
+                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="12">Division Theorem</title>
                 <label wbtag="label" name="thm:divalg" type="Theorem"/>
                 <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">  Let $a, b \in \mathbb{Z}$, $a \neq 0$,
 then there exist unique $q$ (called the quotient), and $r$ (</paragraphs>
@@ -393,7 +425,7 @@ then there exist unique $q$ (called the quotient), and $r$ (</paragraphs>
                 <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">) in $\mathbb{Z}$, satisfying
 $0 \leq r &lt; \abs{a}$, such that $b = aq + r$. </paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c55019134a6b77f2e6b756b4cd95e17" course="Math 2078" chapter="5" slide="10" of="e5d1712cf6968618cdae2a8007d5ffb6" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="59" of-type="Theorem" of-item="5.11" of-src-filename="weeks1-13.xml" ofmd5="e5d1712cf6968618cdae2a8007d5ffb6" of-serial="">
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c55019134a6b77f2e6b756b4cd95e17" course="Math 2078" chapter="5" slide="12" of="e5d1712cf6968618cdae2a8007d5ffb6" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="59" of-type="Theorem" of-item="5.11" of-src-filename="weeks1-13.xml" ofmd5="e5d1712cf6968618cdae2a8007d5ffb6" of-serial="">
                 <of-title hidden="true">Division Theorem</of-title>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  We will prove the case $a &gt; 0$, $b \geq 0$.  The other cases are left as exercises.</paragraphs>
@@ -471,12 +503,12 @@ We have therefore established the uniqueness of $q$ and $r$.</paragraphs>
               <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
               <h5 xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">Another Proof of the </paragraphs>
-                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" label="thm:divalg" wbtag="ref" course="Math 2078" chapter="5" slide="10" src-course="Math 2070" src-chapter="5" src-slide="59" type="Theorem" item="5.11" src-filename="weeks1-13.xml" md5="e5d1712cf6968618cdae2a8007d5ffb6" class="lcref" serial="">
+                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" label="thm:divalg" wbtag="ref" course="Math 2078" chapter="5" slide="12" src-course="Math 2070" src-chapter="5" src-slide="59" type="Theorem" item="5.11" src-filename="weeks1-13.xml" md5="e5d1712cf6968618cdae2a8007d5ffb6" class="lcref" serial="">
                   <title custom="true">Division Theorem</title>
                 </ref>
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">.</paragraphs>
               </h5>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" of="thm:divalg" md5="a1b6d9dac7b5465af27bb92534938056" course="Math 2078" chapter="5" slide="10" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="59" of-type="Theorem" of-item="5.11" of-src-filename="weeks1-13.xml" ofmd5="e5d1712cf6968618cdae2a8007d5ffb6" of-serial="">
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" of="thm:divalg" md5="a1b6d9dac7b5465af27bb92534938056" course="Math 2078" chapter="5" slide="12" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="59" of-type="Theorem" of-item="5.11" of-src-filename="weeks1-13.xml" ofmd5="e5d1712cf6968618cdae2a8007d5ffb6" of-serial="">
                 <of-title hidden="false">Division Theorem</of-title>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We consider here the special case $b \geq 0$.
@@ -511,36 +543,27 @@ This establishes the existence of the remainder $r$.</paragraphs>
                   </collapse>
                 </newcol>
               </substatement>
-            </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
-              <keywords slide="11" environ="slide" chapter="5" course="Math 2078">
-                <keyword chapter="5" slide="11">cyclic</keyword>
-              </keywords>
-              <hc_keyword course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">cyclic</hc_keyword>
-              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" md5="3fc92e570f8a20bea99cbdc36d3c5bb8" course="Math 2078" chapter="5" slide="11" item="5.8">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Every subgroup of $\mathbb{Z}$ is cyclic. </paragraphs>
-              </statement>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="90afc19c6980d7d52536841192056305" course="Math 2078" chapter="5" slide="11" of="3fc92e570f8a20bea99cbdc36d3c5bb8" of-src-course="Math 2070" of-src-chapter="3" of-src-slide="32" of-type="Theorem" of-item="3.7" of-src-filename="weeks1-13.xml" ofmd5="3fc92e570f8a20bea99cbdc36d3c5bb8" of-serial="">
-                <of-title hidden="true">Theorem 3.7</of-title>
-                <newcol course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we note that the group operation $\ast$ on $\mathbb{Z}$
+              <comment course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="">@slide@keyword*{cyclic}@thm
+Every subgroup of $\mathbb{Z}$ is cyclic.
+@end@proof@newcol
+First, we note that the group operation $\ast$ on $\mathbb{Z}$
 is integer addition, with $e_{\mathbb{Z}} = 0$,
-and $z^{\ast -1} = -z$ for any $z \in \mathbb{Z}$.</paragraphs>
-                  <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $H$ be a nontrivial (i.e. contains more than one element)
+and $z^{\ast -1} = -z$ for any $z \in \mathbb{Z}$.
+
+@col
+Let $H$ be a nontrivial (i.e. contains more than one element)
 subgroup of $\mathbb{Z}$.
 Since for any $h \in H$ we also have $-h \in H$,
-$H$ contains at least one positive element.</paragraphs>
-                    <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $d$ be the least positive integer in $H$.
-It exists because of the Least Integer Axiom.</paragraphs>
-                      <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
-                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">We claim that $H = \langle d \rangle$:</paragraphs>
-                      <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
-                      <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> For any $h \in H$,
+$H$ contains at least one positive element.
+
+@col
+Let $d$ be the least positive integer in $H$.
+It exists because of the Least Integer Axiom.
+
+We claim that $H = \langle d \rangle$:
+
+@col
+For any $h \in H$,
 by the Division Theorem for Integers we have $h = dq + r$
 for some $r, q \in \mathbb{Z}$, such that $0 \leq r &lt; d$.  Then,
 \[
@@ -550,31 +573,164 @@ if $q \geq 0$, or
 \[
 r = h - dq = h - (\underbrace{(-d) + (-d) + \ldots + (-d)}_{q \text{ times}})
 \]
-if $q &lt; 0$.</paragraphs>
-                        <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
-                        <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> In either case, since $H$ is a subgroup we have $r \in H$.  If $r &gt; 0$, then we have
+if $q &lt; 0$.
+
+@col
+In either case, since $H$ is a subgroup we have $r \in H$.  If $r &gt; 0$, then we have
 a positive element in $H$ which is strictly less than $d$, which contradicts
 the minimality of $d$.  Hence, $r = 0$, from which it follows that any $h \in H$
 is equal to $dq = d^{\ast q}$ for some $q \in \mathbb{Z}$.
-This shows that $H = \langle d \rangle$. </paragraphs>
-                        </collapse>
-                      </collapse>
-                    </collapse>
-                  </collapse>
-                </newcol>
-              </substatement>
-              <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="9" md5="a0a8c8bc7f02df4b0dfeb2744e20a198" course="Math 2078" chapter="5" slide="11" item="5.9">
-                <newcol course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $n$ be a positive integer.
-Every subgroup of $\mathbb{Z}_n$ is cyclic. </paragraphs>
+This shows that $H = \langle d \rangle$.
+@endcol@end
+
+@ex@newcol
+Let $n$ be a positive integer.
+Every subgroup of $\mathbb{Z}_n$ is cyclic.
+@endcol@end
+
+@cor@newcol
+Every subgroup of a cyclic group is cyclic.
+@endcol@end</comment>
+            </slide>
+          </slides>
+        </subsection>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Further Results in Elementary Number Theory" course="Math 2078" chapter="5" num="3" serial="5.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="3" subsection="" subsubsection="" serial="" slide="">
+          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Further Results in Elementary Number Theory</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="13" scope="section" id="s13" slide="13" course="Math 2078" chapter="5" section="3" subsection="" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+            <keywords slide="13" environ="slide" chapter="5" course="Math 2078">
+              <keyword chapter="5" slide="13">Greatest Common Divisor</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="3" subsection="" subsubsection="" serial="" slide="13">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Further Results in Elementary Number Theory</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="12" md5="87cca6808c169218e4e5678f4dc19ea2" course="Math 2078" chapter="5" slide="13" item="5.12">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The </paragraphs>
+              <inline_keyword course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">Greatest Common Divisor</inline_keyword>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $gcd(a, b)$ of $a, b \in \mathbb{Z}$ is the largest positive integer
+$d$ which divides both $a$ and $b$ (Notation: $d | a$ and $d | b$). </paragraphs>
+            </statement>
+            <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note.</paragraphs>
+            </strong>
+            <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
+$gcd(0, 0)$ is undefined. </paragraphs>
+            </newcol>
+            <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Euclidean Algorithm" course="Math 2078" chapter="5" section="3" num="1" serial="5.3.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="3" subsection="" subsubsection="" serial="5.3.1" slide="">
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
+          </title>
+          <label wbtag="label" name="sec:euclidalg" type="Section"/>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="14" scope="subsection" id="s14" slide="14" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="14" environ="slide" chapter="5" course="Math 2078"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" serial="" slide="14">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
+              </title>
+              <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="13" md5="887e4de79f26f195c5f15feb518dbea2" course="Math 2078" chapter="5" slide="14" item="5.13">
+                <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
+$gcd(b, a) = gcd (a, r)$. </paragraphs>
                 </newcol>
               </statement>
-              <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="10" md5="bae6cbdabbc658ffccad4c0fd780453c" course="Math 2078" chapter="5" slide="11" item="5.10">
-                <newcol course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Every subgroup of a cyclic group is cyclic. </paragraphs>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="63475b8aa52063e05bea96092ef61a13" course="Math 2078" chapter="5" slide="14" of="887e4de79f26f195c5f15feb518dbea2" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="63" of-type="Lemma" of-item="6.2" of-src-filename="weeks1-13.xml" ofmd5="887e4de79f26f195c5f15feb518dbea2" of-serial="">
+                <of-title hidden="true">Lemma 6.2</of-title>
+                <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $d | a$ and $d | b$, then $d | r = b - aq$.
+Conversely, if $d | a$ and $d | r$, then $d|a$ and $d|b = qa+r$.
+So, the set of common divisors of $a, b$ is the same as the set of the common divisors of $a, r$.
+If two finite sets of integers are the same, then their largest elements are clearly the same.
+In other words:
+\[
+gcd(b, a) = gcd(a, r).
+\] </paragraphs>
+                  <qed course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol"/>
+                </newcol>
+              </substatement>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="15" environ="slide" chapter="5" course="Math 2078"/>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> Suppose $\abs{b} \geq \abs{a}$.  Let $b_0 = b$, $a_0 = a$.
+Write $b_0 = a_0q_0 + r_0$, where $0 \leq r_0 &lt; \abs{a_0}$.</paragraphs>
+              <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment=""/>
+              <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> For $n &gt; 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
+$r_n$ is the remainder of the division of $b_n$ by $a_n$.  That is,
+\[
+b_n = a_nq_n + r_n, \quad  0 \leq r_n &lt; \abs{a_n}.
+\] </paragraphs>
+                <collapse course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
+Now, suppose $r_0 &gt; 0$.
+Since $r_n$ is a non-negative integer and  $0 \leq r_n &lt; r_{n - 1}$,
+eventually, $r_n = 0$ for some $n \in \mathbb{N}$. </paragraphs>
+                </collapse>
+              </newcol>
+              <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment=""/>
+              <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="14" md5="96bd55f3415684903f8186b9daa9d61f" course="Math 2078" chapter="5" slide="15" item="5.14">
+                <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> $gcd(b, a) = \abs{a_n}$. </paragraphs>
+                </newcol>
+              </statement>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="05f68b7f8885b17bcd4531483757564a" course="Math 2078" chapter="5" slide="15" of="96bd55f3415684903f8186b9daa9d61f" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="64" of-type="Claim" of-item="6.3" of-src-filename="weeks1-13.xml" ofmd5="96bd55f3415684903f8186b9daa9d61f" of-serial="">
+                <of-title hidden="true">Claim 6.3</of-title>
+                <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> By the previous lemma, </paragraphs>
+                  <steps course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+\[
+\begin{split}
+gcd(b, a) &amp;= gcd(b_0, a_0)\\
+&amp;
+\class{steps}{\cssId{step0}{= gcd(a_0, r_0) = gcd(b_1, a_1)}}
+\\
+&amp;
+\class{steps}{\cssId{step1}{= gcd(a_1, r_1) = gcd(b_2, a_2)}}
+\\
+&amp;
+\class{steps}{\cssId{step2}{= \ldots}}
+\\
+&amp;
+\class{steps}{\cssId{step3}{= gcd(a_{n}, r_{n}) = gcd(a_n, 0) = \abs{a_n}.}}
+\end{split}
+\]
+</steps>
+                  <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol"/>
+                </newcol>
+              </substatement>
+              <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment=""/>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+              <keywords slide="16" environ="slide" chapter="5" course="Math 2078"/>
+              <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="94c8703b764dcd10a22565a41554a300" course="Math 2078" chapter="5" slide="16" item="5.15">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Find $gcd(285,255)$.</paragraphs>
+                <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement"/>
+                <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                  <steps course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
+\[
+\begin{split}
+\underbrace{285}_{b_0} &amp;= \underbrace{255}_{a_0} \underbrace{1}_{q_0} + \underbrace{30}_{r_0}
+\\
+\class{steps}{\cssId{step0}{\underbrace{255}_{b_1 = a_0}}}
+&amp;
+\class{steps}{\cssId{step1}{=\underbrace{30}_{a_1 = r_0} \underbrace{8}_{q_1} + \underbrace{15}_{r_1}}}
+\\
+\class{steps}{\cssId{step2}{\underbrace{30}_{b_2}}}
+&amp;
+\class{steps}{\cssId{step3}{=\underbrace{15}_{a_2} \underbrace{2}_{q_2} + \underbrace{0}_{r_2}}}
+\end{split}
+\]
+</steps>
+                  <collapse course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $gcd(285, 255) = r_1 = 15$. </paragraphs>
+                  </collapse>
                 </newcol>
               </statement>
             </slide>

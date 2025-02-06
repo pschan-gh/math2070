@@ -402,14 +402,3 @@ Show that $\phi$ is a group isomorphism.
  Let $G$ be a cyclic group, then any group which is isomorphic to $G$ is also cyclic.
 @endcol
 @end
-@slide
-@claim
-For any group homomorphism $\phi : G \longrightarrow G'$, the kernel $\ker \phi$ is a normal subgroup of $G$.
-@end
-@proof
-Exercise.
-@end
-@ex
-@col
-If $\phi : G \longrightarrow G'$ is a group homomorphis, is $\im \phi$ necessarily normal?
-@end

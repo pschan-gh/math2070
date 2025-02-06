@@ -11,6 +11,7 @@
       <keyword chapter="" slide="all">kernel</keyword>
       <keyword chapter="" slide="all">isomorphism</keyword>
       <keyword chapter="" slide="all">isomorphic</keyword>
+      <keyword chapter="" slide="all">isomorphic</keyword>
       <keyword chapter="" slide="all">Lagrange's Theorem</keyword>
       <keyword chapter="" slide="all">Examples of Group Homomorphisms</keyword>
     </keywords>
@@ -32,6 +33,7 @@
         <keyword chapter="4" slide="all">image</keyword>
         <keyword chapter="4" slide="all">kernel</keyword>
         <keyword chapter="4" slide="all">isomorphism</keyword>
+        <keyword chapter="4" slide="all">isomorphic</keyword>
         <keyword chapter="4" slide="all">isomorphic</keyword>
         <keyword chapter="4" slide="all">Lagrange's Theorem</keyword>
         <keyword chapter="4" slide="all">Examples of Group Homomorphisms</keyword>
@@ -600,6 +602,69 @@ Hence, $\phi$ is a bijective homomorphism, i.e. an isomorphism. </paragraphs>
                 </collapse>
               </newcol>
             </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2078" chapter="4" section="4" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="17" environ="slide" chapter="4" course="Math 2078">
+              <keyword chapter="4" slide="17">isomorphic</keyword>
+            </keywords>
+            <hc_keyword course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">isomorphic</hc_keyword>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="18" md5="224ec41686eb81f448eb4424cb858088" course="Math 2078" chapter="4" slide="17" item="4.18">
+              <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Any cyclic group of finite order $n$ is isomorphic to $\mathbb{Z}_n$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b66bbc073b4e4558602118e7b809a786" course="Math 2078" chapter="4" slide="17" of="224ec41686eb81f448eb4424cb858088" of-src-course="Math 2070" of-src-chapter="5" of-src-slide="51" of-type="Claim" of-item="5.1" of-src-filename="weeks1-13.xml" ofmd5="224ec41686eb81f448eb4424cb858088" of-serial="">
+              <of-title hidden="true">Claim 5.1</of-title>
+              <newcol course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Sketch of Proof:</paragraphs>
+                <newline course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">By definition, a cyclic group $G$ is equal to $\langle g\rangle$ for some $g \in G$.
+Moreover, $\ord g = \ord G$.</paragraphs>
+                <newline course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Define a map $ \phi : \mathbb{Z}_n \longrightarrow G $ as follows:
+\[
+\phi(k) = g^k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
+\]
+Show that $\phi$ is a group isomorphism.</paragraphs>
+                <newline course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">(For reference, see the discussion of </paragraphs>
+                <ref environment="newcol" chapter_type="" label="eg:cycliczn" wbtag="ref" course="Math 2078" chapter="4" slide="17" referrer-type="Proof" referrer-md5="b66bbc073b4e4558602118e7b809a786" src-course="Math 2070" src-chapter="4" src-slide="49" type="Example" item="4.15" src-filename="weeks1-13.xml" md5="ad58fb7dd7baadc4df44a7450c55af00" class="lcref" serial="">
+                  <title>Example 4.15</title>
+                </ref>
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.) </paragraphs>
+              </newcol>
+            </substatement>
+            <newline course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="19" md5="ff3ef66891040a4056d5746b5624786d" course="Math 2078" chapter="4" slide="17" item="4.19">
+              <newcol course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  If $G$ and $G'$ are two finite cyclic groups of the same order, then $G$ is isomorphic to $G'$. </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="20" md5="76673133d25458f8733b416471fbd3d5" course="Math 2078" chapter="4" slide="17" item="4.20">
+              <newcol course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  An infinite cyclic group is isomorphic to $(\mathbb{Z}, +)$. </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="21" md5="c958591f35ad613fa483cd322ceffd18" course="Math 2078" chapter="4" slide="17" item="4.21">
+              <newcol course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Let $G$ be a cyclic group, then any group which is isomorphic to $G$ is also cyclic. </paragraphs>
+              </newcol>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2078" chapter="4" section="4" subsection="" subsubsection="" chapter_title="" section_title="Group Homomorphisms">
+            <keywords slide="18" environ="slide" chapter="4" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="22" md5="260306b8e5b3695efd64ca27ddac6754" course="Math 2078" chapter="4" slide="18" item="4.22">
+              <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For any group homomorphism $\phi : G \longrightarrow G'$, the kernel $\ker \phi$ is a normal subgroup of $G$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="4" slide="18" of="260306b8e5b3695efd64ca27ddac6754" of-src-course="Math 2078" of-src-chapter="4" of-src-slide="18" of-type="Claim" of-item="4.22" of-src-filename="week4.xml" ofmd5="260306b8e5b3695efd64ca27ddac6754" of-serial="">
+              <of-title hidden="true">Claim 4.22</of-title>
+              <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Exercise. </paragraphs>
+            </substatement>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="23" md5="e370725ec56dbd915fd2fbe5366b8b8a" course="Math 2078" chapter="4" slide="18" item="4.23">
+              <newcol course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\phi : G \longrightarrow G'$ is a group homomorphis, is $\im \phi$ necessarily normal? </paragraphs>
+              </newcol>
+            </statement>
           </slide>
         </slides>
       </section>

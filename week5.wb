@@ -2,46 +2,6 @@
 @week{5}
 @topic{Group Homomorphisms}
 @topic{Rings}
-@slide
-@keyword*{isomorphic}
-@claim
- Any cyclic group of finite order $n$ is isomorphic to $\mathbb{Z}_n$.
-@end
-@proof
-@newcol
- Sketch of Proof:
-
-By definition, a cyclic group $G$ is equal to $\langle g\rangle$ for some $g \in G$.
-Moreover, $\ord g = \ord G$.
-
-Define a map $ \phi : \mathbb{Z}_n \longrightarrow G $ as follows:
-\[
-\phi(k) = g^k, \quad k \in \{0, 1, 2, \ldots, n - 1\}.
-\]
-Show that $\phi$ is a group isomorphism.
-
-(For reference, see the discussion of @ref{eg:cycliczn}.)
-@endcol
-@end
-
-@cor
-@newcol
- If $G$ and $G'$ are two finite cyclic groups of the same order, then $G$ is isomorphic to $G'$.
-@endcol
-@end
-
-@ex
-@newcol
- An infinite cyclic group is isomorphic to $(\mathbb{Z}, +)$.
-@endcol
-@end
-
-@ex
-@newcol
- Let $G$ be a cyclic group, then any group which is isomorphic to $G$ is also cyclic.
-@endcol
-@end
-
 @section{Product Group}
 <b style="display:none">Product Group</b>
 

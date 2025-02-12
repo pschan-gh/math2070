@@ -144,7 +144,7 @@ It follows that $ab | c$.
 @claim
 For all $m, n \in \mathbb{Z}$, not both zero, the integers:
 \[
-\frac{m}{\gcd(m, n)}, \quad n
+\frac{m}{\gcd(m, n)}, \quad \frac{n}{\gcd(m, n)}
 \]
 are relatively prime.
 @end

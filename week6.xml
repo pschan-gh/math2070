@@ -280,7 +280,7 @@ if and only if:
               <keyword chapter="6" slide="8">Unique Factorization</keyword>
               <keyword chapter="6" slide="8">The Fundamental Theorem of Arithmetic</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" title="The Fundamental Theorem of Arithmetic" md5="d82a6d14efc507a18d8496d0b9cfe404" course="Math 2078" chapter="6" slide="8" item="6.12">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" title="The Fundamental Theorem of Arithmetic" md5="20925de2d121a5944f47383054e6c6d0" course="Math 2078" chapter="6" slide="8" item="6.12">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="6" section="1" subsection="" subsubsection="" serial="" slide="8">The Fundamental Theorem of Arithmetic</title>
               <label wbtag="label" name="thm:fta" type="Theorem"/>
               <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $a$ be a positive integer $\geq 2$. Then, </paragraphs>
@@ -290,7 +290,7 @@ if and only if:
                 </col_li>
                 <col_li course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                   <inline_keyword course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol">Unique Factorization</inline_keyword>
-                  <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The integer $a$ may be written uniquely as
+                  <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The integer $a$ may be written uniquely (up to reordering) as
 \[
 a = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l},
 \]
@@ -298,7 +298,7 @@ where $p_1, p_2, \cdots, p_l$ are distinct prime numbers, and $n_1, n_2, \ldots,
                 </col_li>
               </col_ol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48a591e4ec028d946ba9bc9f4ee6dd8e" course="Math 2078" chapter="6" slide="8" of="d82a6d14efc507a18d8496d0b9cfe404" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="70" of-type="Theorem" of-item="6.14" of-src-filename="weeks1-13.xml" ofmd5="d82a6d14efc507a18d8496d0b9cfe404" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48a591e4ec028d946ba9bc9f4ee6dd8e" course="Math 2078" chapter="6" slide="8" of="20925de2d121a5944f47383054e6c6d0" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="8" of-type="Theorem" of-item="6.12" of-src-filename="week6.xml" ofmd5="20925de2d121a5944f47383054e6c6d0" of-serial="">
               <of-title hidden="true">The Fundamental Theorem of Arithmetic</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove Part 1 of the theorem by contradiction.</paragraphs>

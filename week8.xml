@@ -93,7 +93,7 @@ where the addition and multiplication on the right are the usual addition and mu
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" md5="819ae89e5a5c75d0f88a5cbffbeb4735" course="Math 2078" chapter="8" slide="5" item="8.4">
               <paragraphs course="Math 2078" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> With addition and multiplication thus defined, $\mathbb{Z}_m$ is a commutative ring. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3836b8945ad743702d04f76f86ebfcb3" course="Math 2078" chapter="8" slide="5" of="819ae89e5a5c75d0f88a5cbffbeb4735" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="101" of-type="Claim" of-item="8.4" of-src-filename="weeks1-13.xml" ofmd5="819ae89e5a5c75d0f88a5cbffbeb4735" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3836b8945ad743702d04f76f86ebfcb3" course="Math 2078" chapter="8" slide="5" of="819ae89e5a5c75d0f88a5cbffbeb4735" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="5" of-type="Claim" of-item="8.4" of-src-filename="week8.xml" ofmd5="819ae89e5a5c75d0f88a5cbffbeb4735" of-serial="">
               <of-title hidden="true">Claim 8.4</of-title>
               <newcol course="Math 2078" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2078" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
@@ -104,12 +104,12 @@ since addition for integers is commutative.  So, $+_m$ is commutative. </paragra
                   <col_li course="Math 2078" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2078" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For any $r_1, r_2 \in \mathbb{Z}$,
 by </paragraphs>
-                    <ref environment="col_ol" chapter_type="" label="claim:congremainder" wbtag="ref" course="Math 2078" chapter="8" slide="5" referrer-type="Proof" referrer-md5="3836b8945ad743702d04f76f86ebfcb3" src-course="Math 2070" src-chapter="6" src-slide="73" type="Claim" item="6.17" src-filename="weeks1-13.xml" md5="d884acf7c8ea7ec4fb60499df8725ef2" class="lcref" serial="">
-                      <title>Claim 6.17</title>
+                    <ref environment="col_ol" chapter_type="" label="claim:congremainder" wbtag="ref" course="Math 2078" chapter="8" slide="5" referrer-type="Proof" referrer-md5="3836b8945ad743702d04f76f86ebfcb3" src-course="Math 2078" src-chapter="6" src-slide="11" type="Claim" item="6.15" src-filename="week6.xml" md5="d884acf7c8ea7ec4fb60499df8725ef2" class="lcref" serial="">
+                      <title>Claim 6.15</title>
                     </ref>
                     <paragraphs course="Math 2078" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> and </paragraphs>
-                    <ref environment="col_ol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2078" chapter="8" slide="5" referrer-type="Proof" referrer-md5="3836b8945ad743702d04f76f86ebfcb3" src-course="Math 2070" src-chapter="6" src-slide="74" type="Theorem" item="6.19" src-filename="weeks1-13.xml" md5="14a4a87fe292c8015bdeac65486af4b4" class="lcref" serial="">
-                      <title>Theorem 6.19</title>
+                    <ref environment="col_ol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2078" chapter="8" slide="5" referrer-type="Proof" referrer-md5="3836b8945ad743702d04f76f86ebfcb3" src-course="Math 2078" src-chapter="6" src-slide="12" type="Theorem" item="6.17" src-filename="week6.xml" md5="14a4a87fe292c8015bdeac65486af4b4" class="lcref" serial="">
+                      <title>Theorem 6.17</title>
                     </ref>
                     <paragraphs course="Math 2078" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> ,
 we have
@@ -129,7 +129,7 @@ a +_m (b +_m c) &amp;= a +_m \overline{b + c}
 \\&amp;
 \class{steps}{\cssId{step0}{= \overline{a + \overline{b + c}}}}
 \\&amp;
-\class{steps}{\cssId{step1}{= \overline{\overline{a} + \overline{b + c}}}}
+\class{steps}{\cssId{step1}{= \overline{\overline{a}} + \overline{b + c}}}
 \\&amp;
 \class{steps}{\cssId{step2}{= \overline{a + (b + c)}}}
 \end{split}
@@ -143,7 +143,7 @@ is equal to: </paragraphs>
 \begin{split}
 \overline{(a + b) + c} &amp;= \overline{\overline{(a + b)} + \overline{c}}
 \\&amp;
-\class{steps}{\cssId{step0}{= \overline{\overline{a + b} + {c}}}}
+\class{steps}{\cssId{step0}{= \overline{\overline{a + b}} + {c}}}
 \\&amp;
 \class{steps}{\cssId{step1}{= \overline{(a +_m b) + c}}}
 \\&amp;
@@ -207,7 +207,7 @@ a \times_m (b +_m c) &amp;= \ol{\ol{a} \cdot \ol{b + c}}
 \\&amp;
 \class{steps}{\cssId{step1}{= \ol{ab + ac}}}
 \\&amp;
-\class{steps}{\cssId{step2}{= \ol{\ol{ab} + \ol{ac}}}}
+\class{steps}{\cssId{step2}{= \ol{\ol{ab}} + \ol{ac}}}
 \\&amp;
 \class{steps}{\cssId{step3}{= a\times_m b +_m a\times_m c.}}
 \end{split}
@@ -287,7 +287,7 @@ the </paragraphs>
               <paragraphs course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> holds for multiplication.  That is:
 Whenever $ca = cb$ and $c\neq 0$, we have $a = b$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="76baeaa9b9841a22bffe170005089be3" course="Math 2078" chapter="8" slide="7" of="cd5d13765e4cbae70f4b39fc2e55ff0e" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="103" of-type="Claim" of-item="8.8" of-src-filename="weeks1-13.xml" ofmd5="cd5d13765e4cbae70f4b39fc2e55ff0e" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="76baeaa9b9841a22bffe170005089be3" course="Math 2078" chapter="8" slide="7" of="cd5d13765e4cbae70f4b39fc2e55ff0e" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="7" of-type="Claim" of-item="8.8" of-src-filename="week8.xml" ofmd5="cd5d13765e4cbae70f4b39fc2e55ff0e" of-serial="">
               <of-title hidden="true">Claim 8.8</of-title>
               <newcol course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $R$ is an integral domain.</paragraphs>
@@ -421,7 +421,7 @@ a contradiction.  So, $10$ is not a unit in $\mathbb{Z}_{25}$. </paragraphs>
               <paragraphs course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $m \in \mathbb{N}$ be greater than one.  Then, $r \in \mathbb{Z}_m$ is a unit
 if and only if $r$ and $m$ are relatively prime; i.e. $gcd(r, m) = 1$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0d43976f409bcbbdadc972ae9819ec1b" course="Math 2078" chapter="8" slide="11" of="0e0111cd0ed7b5ce2130f804227cafe1" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="107" of-type="Claim" of-item="8.15" of-src-filename="weeks1-13.xml" ofmd5="0e0111cd0ed7b5ce2130f804227cafe1" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0d43976f409bcbbdadc972ae9819ec1b" course="Math 2078" chapter="8" slide="11" of="0e0111cd0ed7b5ce2130f804227cafe1" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="11" of-type="Claim" of-item="8.15" of-src-filename="week8.xml" ofmd5="0e0111cd0ed7b5ce2130f804227cafe1" of-serial="">
               <of-title hidden="true">Claim 8.15</of-title>
               <newcol course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $r \in \{0, 1, 2,\ldots, m - 1\}$ is a unit in $\mathbb{Z}_m$, then
@@ -478,7 +478,7 @@ then $f \in R$ is a unit if and only if it is either strictly positive or strict
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="19" md5="6d231a348d60a74ccb5a6a7bd787da4c" course="Math 2078" chapter="8" slide="13" item="8.19">
               <paragraphs course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The only units of $\mathbb{Q}[x]$ are nonzero constants. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="599600c3a054ab08194724000efa8433" course="Math 2078" chapter="8" slide="13" of="6d231a348d60a74ccb5a6a7bd787da4c" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="109" of-type="Claim" of-item="8.19" of-src-filename="weeks1-13.xml" ofmd5="6d231a348d60a74ccb5a6a7bd787da4c" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="599600c3a054ab08194724000efa8433" course="Math 2078" chapter="8" slide="13" of="6d231a348d60a74ccb5a6a7bd787da4c" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="13" of-type="Claim" of-item="8.19" of-src-filename="week8.xml" ofmd5="6d231a348d60a74ccb5a6a7bd787da4c" of-serial="">
               <of-title hidden="true">Claim 8.19</of-title>
               <newcol course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given any $f \in \mathbb{Q}[x]$ such that $\deg f &gt; 0$, for all nonzero $g \in \mathbb{Q}[x]$ we have
@@ -590,7 +590,7 @@ it follows from a previous result that $\mathbb{Z}_m$ is a field if and only if 
               <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Equipped with the usual operations of addition and multiplications for real numbers,
 $F = \mathbb{Q}[\sqrt{2}] := \{a + b\sqrt{2}|a, b \in \mathbb{Q}\}$ is a field. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f0a53667913977f5ca6664749872a2bd" course="Math 2078" chapter="8" slide="17" of="cc936e1ed3ca39c8479a3b2338105bdf" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="113" of-type="Claim" of-item="8.22" of-src-filename="weeks1-13.xml" ofmd5="cc936e1ed3ca39c8479a3b2338105bdf" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f0a53667913977f5ca6664749872a2bd" course="Math 2078" chapter="8" slide="17" of="cc936e1ed3ca39c8479a3b2338105bdf" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="17" of-type="Claim" of-item="8.22" of-src-filename="week8.xml" ofmd5="cc936e1ed3ca39c8479a3b2338105bdf" of-serial="">
               <of-title hidden="true">Claim 8.22</of-title>
               <newcol course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that:
@@ -652,7 +652,7 @@ which lies in $F$. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="23" md5="6a657d0bc28f21508fd741fb2382fa18" course="Math 2078" chapter="8" slide="18" item="8.23">
               <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> All finite integral domains are fields. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="22771a1dd20e60a22b777380bdf5d002" course="Math 2078" chapter="8" slide="18" of="6a657d0bc28f21508fd741fb2382fa18" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="114" of-type="Claim" of-item="8.23" of-src-filename="weeks1-13.xml" ofmd5="6a657d0bc28f21508fd741fb2382fa18" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="22771a1dd20e60a22b777380bdf5d002" course="Math 2078" chapter="8" slide="18" of="6a657d0bc28f21508fd741fb2382fa18" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="18" of-type="Claim" of-item="8.23" of-src-filename="week8.xml" ofmd5="6a657d0bc28f21508fd741fb2382fa18" of-serial="">
               <of-title hidden="true">Claim 8.23</of-title>
               <newcol course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $R$ be an integral domain with $n$ elements, where $n$ is finite.
@@ -755,7 +755,7 @@ then $(a, b) \equiv (e, f)$. </paragraphs>
                     </collapse>
                   </newcol>
                 </statement>
-                <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="8" slide="20" of="45777aaa95215986561c973de5594246" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="116" of-type="Lemma" of-item="8.24" of-src-filename="weeks1-13.xml" ofmd5="45777aaa95215986561c973de5594246" of-serial="">
+                <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="8" slide="20" of="45777aaa95215986561c973de5594246" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="20" of-type="Lemma" of-item="8.24" of-src-filename="week8.xml" ofmd5="45777aaa95215986561c973de5594246" of-serial="">
                   <of-title hidden="true">Lemma 8.24</of-title>
                   <newcol course="Math 2078" chapter="8" chapter_type="" section="3" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
@@ -816,7 +816,7 @@ We define addition $+$ and multiplication $\cdot$ on $R\times R_{\neq 0}$ as fol
                     </col_li>
                   </col_ol>
                 </statement>
-                <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="64f53bff3b177c0d76791a084bdd4530" course="Math 2078" chapter="8" slide="22" of="a1ba9f7a1b4e17cfb72946389adb743c" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="118" of-type="Claim" of-item="8.26" of-src-filename="weeks1-13.xml" ofmd5="a1ba9f7a1b4e17cfb72946389adb743c" of-serial="">
+                <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="64f53bff3b177c0d76791a084bdd4530" course="Math 2078" chapter="8" slide="22" of="a1ba9f7a1b4e17cfb72946389adb743c" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="22" of-type="Claim" of-item="8.26" of-src-filename="week8.xml" ofmd5="a1ba9f7a1b4e17cfb72946389adb743c" of-serial="">
                   <of-title hidden="true">Claim 8.26</of-title>
                   <newcol course="Math 2078" chapter="8" chapter_type="" section="3" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="1" subsubsection="1" environment="newcol" wbtag="paragraphs"> By definition, $(a, b) + (c, d) = (ad + bc, bd)$,
@@ -880,7 +880,7 @@ The multiplicative inverse of a nonzero element
 $[(a, b)] \in \mathrm{Frac}(R)$ is $[(b, a)]$. </paragraphs>
                   </newcol>
                 </statement>
-                <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="8" slide="23" of="01abcef5efc49dc54237d2ef63d6bd0b" of-src-course="Math 2070" of-src-chapter="8" of-src-slide="119" of-type="Claim" of-item="8.28" of-src-filename="weeks1-13.xml" ofmd5="01abcef5efc49dc54237d2ef63d6bd0b" of-serial="">
+                <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="8" slide="23" of="01abcef5efc49dc54237d2ef63d6bd0b" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="23" of-type="Claim" of-item="8.28" of-src-filename="week8.xml" ofmd5="01abcef5efc49dc54237d2ef63d6bd0b" of-serial="">
                   <of-title hidden="true">Claim 8.28</of-title>
                   <newcol course="Math 2078" chapter="8" chapter_type="" section="3" subsection="1" subsubsection="1" environment="newcol" wbtag="newcol">
                     <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">

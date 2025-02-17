@@ -164,8 +164,8 @@ The other direction is left as an </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="ac32bfc2c42601b4b2fe91a735b592b8" course="Math 2078" chapter="4" slide="6" item="4.6">
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $n$ be an integer greater than $1$. The group $A_n$ of even permutations
 on a set of $n$ elements (see </paragraphs>
-              <ref environment="statement" chapter_type="" label="eg:subgroups" wbtag="ref" course="Math 2078" chapter="4" slide="6" referrer-type="Example" referrer-md5="ac32bfc2c42601b4b2fe91a735b592b8" undefined="true">
-                <title>UNDEFINED</title>
+              <ref environment="statement" chapter_type="" label="eg:subgroups" wbtag="ref" course="Math 2078" chapter="4" slide="6" referrer-type="Example" referrer-md5="ac32bfc2c42601b4b2fe91a735b592b8" src-course="Math 2078" src-chapter="3" src-slide="6" type="Example" item="3.4" src-filename="week3.xml" md5="3a8632057ec5b902b8a4bb5c67ae0717" class="lcref" serial="">
+                <title>Example 3.4</title>
               </ref>
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">) has order $\displaystyle \frac{n!}{2}$. </paragraphs>
             </statement>
@@ -529,12 +529,12 @@ we say that the groups $G$ and $G'$ are </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="17" md5="ad58fb7dd7baadc4df44a7450c55af00" course="Math 2078" chapter="4" slide="16" item="4.17">
               <label wbtag="label" name="eg:cycliczn" type="Example"/>
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Recall </paragraphs>
-              <ref environment="statement" chapter_type="" label="def:cycliczn" wbtag="ref" course="Math 2078" chapter="4" slide="16" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" undefined="true">
-                <title>UNDEFINED</title>
+              <ref environment="statement" chapter_type="" label="def:cycliczn" wbtag="ref" course="Math 2078" chapter="4" slide="16" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" src-course="Math 2078" src-chapter="3" src-slide="3" type="Definition" item="3.1" src-filename="week3.xml" md5="e13b4e54d682feb07aa9b2173056116a" class="lcref" serial="">
+                <title>Definition 3.1</title>
               </ref>
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> and </paragraphs>
-              <ref environment="statement" chapter_type="" label="ex:cycliczn" wbtag="ref" course="Math 2078" chapter="4" slide="16" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" undefined="true">
-                <title>UNDEFINED</title>
+              <ref environment="statement" chapter_type="" label="ex:cycliczn" wbtag="ref" course="Math 2078" chapter="4" slide="16" referrer-type="Example" referrer-md5="ad58fb7dd7baadc4df44a7450c55af00" src-course="Math 2078" src-chapter="3" src-slide="3" type="Exercise" item="3.2" src-filename="week3.xml" md5="ca1d769c6cebb731348d21e923321c84" class="lcref" serial="">
+                <title>Exercise 3.2</title>
               </ref>
               <paragraphs course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">.</paragraphs>
               <newline course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="statement"/>

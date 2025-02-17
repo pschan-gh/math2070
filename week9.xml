@@ -144,7 +144,7 @@ addition and multiplication for integers.</paragraphs>
                 </collapse>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="43ab386bf5c750dfd327f1bb0e415205" course="Math 2078" chapter="9" slide="5" of="c15b39900366612818ec82f4feca6081" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="125" of-type="Example" of-item="9.3" of-src-filename="weeks1-13.xml" ofmd5="c15b39900366612818ec82f4feca6081" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="43ab386bf5c750dfd327f1bb0e415205" course="Math 2078" chapter="9" slide="5" of="c15b39900366612818ec82f4feca6081" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="5" of-type="Example" of-item="9.3" of-src-filename="week9.xml" ofmd5="c15b39900366612818ec82f4feca6081" of-serial="">
               <of-title hidden="true">Example 9.3</of-title>
               <newcol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
@@ -185,7 +185,7 @@ addition and multiplication for integers.</paragraphs>
                 </collapse>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="9" slide="6" of="2152ce3be89ef2f21ec407344bdeffeb" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="126" of-type="Example" of-item="9.4" of-src-filename="weeks1-13.xml" ofmd5="2152ce3be89ef2f21ec407344bdeffeb" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="9" slide="6" of="2152ce3be89ef2f21ec407344bdeffeb" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="6" of-type="Example" of-item="9.4" of-src-filename="week9.xml" ofmd5="2152ce3be89ef2f21ec407344bdeffeb" of-serial="">
               <of-title hidden="true">Example 9.4</of-title>
               <newcol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <inline_keyword course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
@@ -211,7 +211,7 @@ we may define the </paragraphs>
 \]
 The map $\phi_r$ is a ring homomorphism. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2078" chapter="9" slide="7" of="3bca8a74c04e7763a3607fb2fcaadc80" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="127" of-type="Example" of-item="9.5" of-src-filename="weeks1-13.xml" ofmd5="3bca8a74c04e7763a3607fb2fcaadc80" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2078" chapter="9" slide="7" of="3bca8a74c04e7763a3607fb2fcaadc80" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="7" of-type="Example" of-item="9.5" of-src-filename="week9.xml" ofmd5="3bca8a74c04e7763a3607fb2fcaadc80" of-serial="">
               <of-title hidden="true">Example 9.5</of-title>
               <em xmlns="http://www.w3.org/1999/xhtml" environment="substatement">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">Discussed in class.</paragraphs>
@@ -246,7 +246,7 @@ and that $A$ and $B$ are </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="7" md5="c805c14632eb7e0540de3e7f1f0f3a32" course="Math 2078" chapter="9" slide="9" item="9.7">
               <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $\phi:A \rightarrow B$ is an isomorphism, then $\phi^{-1} : B \rightarrow A$ is an isomorphism. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="21627d6d8f7cdde680f210a24da5438e" course="Math 2078" chapter="9" slide="9" of="c805c14632eb7e0540de3e7f1f0f3a32" of-src-course="Math 2070" of-src-chapter="9" of-src-slide="129" of-type="Claim" of-item="9.7" of-src-filename="weeks1-13.xml" ofmd5="c805c14632eb7e0540de3e7f1f0f3a32" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="21627d6d8f7cdde680f210a24da5438e" course="Math 2078" chapter="9" slide="9" of="c805c14632eb7e0540de3e7f1f0f3a32" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="9" of-type="Claim" of-item="9.7" of-src-filename="week9.xml" ofmd5="c805c14632eb7e0540de3e7f1f0f3a32" of-serial="">
               <of-title hidden="true">Claim 9.7</of-title>
               <newcol course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $\phi$ is bijective, $\phi^{-1}$ is clearly bijective.  It remains to show that $\phi^{-1}$ is a homomorphism: </paragraphs>

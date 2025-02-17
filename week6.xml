@@ -73,7 +73,7 @@
               <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $a, b$ be nonzero integers.
 There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="73702ed2c86843ffd54481b11a5a6d7b" course="Math 2078" chapter="6" slide="3" of="78dcabe2aa157a7972614bccf4d63cc0" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="66" of-type="Claim" of-item="6.5" of-src-filename="weeks1-13.xml" ofmd5="78dcabe2aa157a7972614bccf4d63cc0" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="73702ed2c86843ffd54481b11a5a6d7b" course="Math 2078" chapter="6" slide="3" of="78dcabe2aa157a7972614bccf4d63cc0" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="3" of-type="Claim" of-item="6.1" of-src-filename="week6.xml" ofmd5="78dcabe2aa157a7972614bccf4d63cc0" of-serial="">
               <of-title hidden="true">Bézout's Lemma</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
@@ -85,8 +85,10 @@ There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
                 </strong>
                 <newcol course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Recall the notation used in </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2078" chapter="6" slide="3" referrer-type="Proof" referrer-md5="73702ed2c86843ffd54481b11a5a6d7b" undefined="true">
-                    <title>UNDEFINED</title>
+                  <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2078" chapter="6" slide="3" referrer-type="Proof" referrer-md5="73702ed2c86843ffd54481b11a5a6d7b" src-course="Math 2078" src-chapter="5" src-slide="" type="Section" src-filename="week5.xml" md5="" class="lcref" serial="5.3.1">
+                    <title custom="true">
+            Euclidean Algorithm
+          </title>
                   </ref>
                   <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .
 We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$. </paragraphs>
@@ -162,12 +164,12 @@ such that $ax + by = 1$. </paragraphs>
               </newcol>
             </statement>
             <hc_keyword course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">Bézout's Lemma</hc_keyword>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5957330802d1e74f36567f3f2017c8d6" course="Math 2078" chapter="6" slide="4" of="22c7d97218ccb225ee4ecae2e9b78916" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="67" of-type="Claim" of-item="6.9" of-src-filename="weeks1-13.xml" ofmd5="22c7d97218ccb225ee4ecae2e9b78916" of-serial="">
-              <of-title hidden="true">Claim 6.9</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5957330802d1e74f36567f3f2017c8d6" course="Math 2078" chapter="6" slide="4" of="22c7d97218ccb225ee4ecae2e9b78916" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="4" of-type="Claim" of-item="6.5" of-src-filename="week6.xml" ofmd5="22c7d97218ccb225ee4ecae2e9b78916" of-serial="">
+              <of-title hidden="true">Claim 6.5</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a, b$ are relatively prime, then by definition $gcd(a, b) = 1$.
 So, by </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2078" chapter="6" slide="4" referrer-type="Proof" referrer-md5="5957330802d1e74f36567f3f2017c8d6" src-course="Math 2070" src-chapter="6" src-slide="66" type="Claim" item="6.5" src-filename="weeks1-13.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2078" chapter="6" slide="4" referrer-type="Proof" referrer-md5="5957330802d1e74f36567f3f2017c8d6" src-course="Math 2078" src-chapter="6" src-slide="3" type="Claim" item="6.1" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
                   <title custom="true">Bézout's Lemma</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
@@ -197,7 +199,7 @@ are $\pm 1$. </paragraphs>
 If $p$ is prime and $p | ab$, then $p$ divides at least one of $a$ and $b$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ae21dc754e9cd69bc4382b2f249027c1" course="Math 2078" chapter="6" slide="5" of="fce9d6acc542327fa0763877a4905bf2" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="68" of-type="Lemma" of-item="6.11" of-src-filename="weeks1-13.xml" ofmd5="fce9d6acc542327fa0763877a4905bf2" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ae21dc754e9cd69bc4382b2f249027c1" course="Math 2078" chapter="6" slide="5" of="fce9d6acc542327fa0763877a4905bf2" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="5" of-type="Lemma" of-item="6.7" of-src-filename="week6.xml" ofmd5="fce9d6acc542327fa0763877a4905bf2" of-serial="">
               <of-title hidden="true">Euclid's Lemma</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ does not divide $b$ (Notation: $p\nmid b$), then $gcd(p, b) = 1$,
@@ -214,8 +216,8 @@ Since $p | apx$ and $p | aby$, we have $p | a = a\underbrace{(px + by)}_{= 1}$. 
               <label wbtag="label" name="euclidslemmageneral" type="Claim"/>
               <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $a, b$ are relatively prime and $a | bc$, then $a | c$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="6" slide="6" of="8d6c961f7fb13580b65c45ba76b8bead" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="69" of-type="Claim" of-item="6.12" of-src-filename="weeks1-13.xml" ofmd5="8d6c961f7fb13580b65c45ba76b8bead" of-serial="">
-              <of-title hidden="true">Claim 6.12</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="6" slide="6" of="8d6c961f7fb13580b65c45ba76b8bead" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="6" of-type="Claim" of-item="6.8" of-src-filename="week6.xml" ofmd5="8d6c961f7fb13580b65c45ba76b8bead" of-serial="">
+              <of-title hidden="true">Claim 6.8</of-title>
               <inline_keyword course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement">Exercise.</inline_keyword>
             </substatement>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="acca1ea580cafe26b6aacc8623f1e2b3" course="Math 2078" chapter="6" slide="6" item="6.9">
@@ -230,8 +232,8 @@ ab | c.
 \] </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="07b1348317362d9a46adb7ea3b85956c" course="Math 2078" chapter="6" slide="6" of="acca1ea580cafe26b6aacc8623f1e2b3" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="69" of-type="Claim" of-item="6.13" of-src-filename="weeks1-13.xml" ofmd5="acca1ea580cafe26b6aacc8623f1e2b3" of-serial="">
-              <of-title hidden="true">Claim 6.13</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="07b1348317362d9a46adb7ea3b85956c" course="Math 2078" chapter="6" slide="6" of="acca1ea580cafe26b6aacc8623f1e2b3" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="6" of-type="Claim" of-item="6.9" of-src-filename="week6.xml" ofmd5="acca1ea580cafe26b6aacc8623f1e2b3" of-serial="">
+              <of-title hidden="true">Claim 6.9</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By assumption, there are $s, t \in \mathbb{Z}$ such that:
 \[
@@ -240,8 +242,8 @@ c = as = bt.
                 <collapse course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $a | as = bt$,
 which by </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="euclidslemmageneral" wbtag="ref" course="Math 2078" chapter="6" slide="6" referrer-type="Proof" referrer-md5="07b1348317362d9a46adb7ea3b85956c" src-course="Math 2070" src-chapter="6" src-slide="69" type="Claim" item="6.12" src-filename="weeks1-13.xml" md5="8d6c961f7fb13580b65c45ba76b8bead" class="lcref" serial="">
-                    <title>Claim 6.12</title>
+                  <ref environment="newcol" chapter_type="" label="euclidslemmageneral" wbtag="ref" course="Math 2078" chapter="6" slide="6" referrer-type="Proof" referrer-md5="07b1348317362d9a46adb7ea3b85956c" src-course="Math 2078" src-chapter="6" src-slide="6" type="Claim" item="6.8" src-filename="week6.xml" md5="8d6c961f7fb13580b65c45ba76b8bead" class="lcref" serial="">
+                    <title>Claim 6.8</title>
                   </ref>
                   <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> implies that $a | t$, since $gcd(a, b) = 1$.</paragraphs>
                   <newline course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
@@ -298,7 +300,11 @@ where $p_1, p_2, \cdots, p_l$ are distinct prime numbers, and $n_1, n_2, \ldots,
                 </col_li>
               </col_ol>
             </statement>
+<<<<<<< HEAD
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48a591e4ec028d946ba9bc9f4ee6dd8e" course="Math 2078" chapter="6" slide="8" of="20925de2d121a5944f47383054e6c6d0" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="8" of-type="Theorem" of-item="6.12" of-src-filename="week6.xml" ofmd5="20925de2d121a5944f47383054e6c6d0" of-serial="">
+=======
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48a591e4ec028d946ba9bc9f4ee6dd8e" course="Math 2078" chapter="6" slide="8" of="d82a6d14efc507a18d8496d0b9cfe404" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="8" of-type="Theorem" of-item="6.12" of-src-filename="week6.xml" ofmd5="d82a6d14efc507a18d8496d0b9cfe404" of-serial="">
+>>>>>>> bf7c292237fed4c27c8cd11aa2b380627140a460
               <of-title hidden="true">The Fundamental Theorem of Arithmetic</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove Part 1 of the theorem by contradiction.</paragraphs>
@@ -495,8 +501,8 @@ is: </paragraphs>
                 </ul>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b88872435df380a017f3e4208cd30a69" course="Math 2078" chapter="6" slide="10" of="e3714b182d4c54f790d0423c2fe7ba31" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="72" of-type="Claim" of-item="6.16" of-src-filename="weeks1-13.xml" ofmd5="e3714b182d4c54f790d0423c2fe7ba31" of-serial="">
-              <of-title hidden="true">Claim 6.16</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b88872435df380a017f3e4208cd30a69" course="Math 2078" chapter="6" slide="10" of="e3714b182d4c54f790d0423c2fe7ba31" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="10" of-type="Claim" of-item="6.14" of-src-filename="week6.xml" ofmd5="e3714b182d4c54f790d0423c2fe7ba31" of-serial="">
+              <of-title hidden="true">Claim 6.14</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <li environment="newcol">
@@ -556,8 +562,8 @@ that $a \equiv c \mod m$. </paragraphs>
                 </li>
               </ol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="6" slide="11" of="d884acf7c8ea7ec4fb60499df8725ef2" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="73" of-type="Claim" of-item="6.17" of-src-filename="weeks1-13.xml" ofmd5="d884acf7c8ea7ec4fb60499df8725ef2" of-serial="">
-              <of-title hidden="true">Claim 6.17</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="6" slide="11" of="d884acf7c8ea7ec4fb60499df8725ef2" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="11" of-type="Claim" of-item="6.15" of-src-filename="week6.xml" ofmd5="d884acf7c8ea7ec4fb60499df8725ef2" of-serial="">
+              <of-title hidden="true">Claim 6.15</of-title>
               <inline_keyword course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement">Exercise.</inline_keyword>
             </substatement>
             <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="16" md5="a360e8a2dbb188f3a0742bcbe26bb2cf" course="Math 2078" chapter="6" slide="11" item="6.16">
@@ -567,8 +573,8 @@ that $a \equiv c \mod m$. </paragraphs>
 to exactly one of $\{0, 1, 2, \ldots, m - 1\}$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="aa7d32024fa015686f4306db8074b492" course="Math 2078" chapter="6" slide="11" of="a360e8a2dbb188f3a0742bcbe26bb2cf" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="73" of-type="Corollary" of-item="6.18" of-src-filename="weeks1-13.xml" ofmd5="a360e8a2dbb188f3a0742bcbe26bb2cf" of-serial="">
-              <of-title hidden="true">Corollary 6.18</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="aa7d32024fa015686f4306db8074b492" course="Math 2078" chapter="6" slide="11" of="a360e8a2dbb188f3a0742bcbe26bb2cf" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="11" of-type="Corollary" of-item="6.16" of-src-filename="week6.xml" ofmd5="a360e8a2dbb188f3a0742bcbe26bb2cf" of-serial="">
+              <of-title hidden="true">Corollary 6.16</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By Part 1 of the claim, $a$ is congruent mod $m$ to the remainder $r$
 of the division of $a$ by $m$. </paragraphs>
@@ -615,8 +621,8 @@ $ab \equiv a'b' \mod m$. </paragraphs>
                 </li>
               </ul>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1d0330a28ef17b30f9e588191ac57fb9" course="Math 2078" chapter="6" slide="12" of="14a4a87fe292c8015bdeac65486af4b4" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="74" of-type="Theorem" of-item="6.19" of-src-filename="weeks1-13.xml" ofmd5="14a4a87fe292c8015bdeac65486af4b4" of-serial="">
-              <of-title hidden="true">Theorem 6.19</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1d0330a28ef17b30f9e588191ac57fb9" course="Math 2078" chapter="6" slide="12" of="14a4a87fe292c8015bdeac65486af4b4" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="12" of-type="Theorem" of-item="6.17" of-src-filename="week6.xml" ofmd5="14a4a87fe292c8015bdeac65486af4b4" of-serial="">
+              <of-title hidden="true">Theorem 6.17</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <li environment="newcol">
@@ -657,19 +663,19 @@ So, $ab \equiv a'b' \mod m$. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="18" md5="cf808375735a9ca3dd49918a6d0fdbe6" course="Math 2078" chapter="6" slide="13" item="6.18">
               <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For $a \in \mathbb{Z}$, $a^2 \equiv 0, 1$, or $4 \mod 8$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="cf60c58ff0203947c6445a0f92edc8ec" course="Math 2078" chapter="6" slide="13" of="cf808375735a9ca3dd49918a6d0fdbe6" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="75" of-type="Example" of-item="6.20" of-src-filename="weeks1-13.xml" ofmd5="cf808375735a9ca3dd49918a6d0fdbe6" of-serial="">
-              <of-title hidden="true">Example 6.20</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="cf60c58ff0203947c6445a0f92edc8ec" course="Math 2078" chapter="6" slide="13" of="cf808375735a9ca3dd49918a6d0fdbe6" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="13" of-type="Example" of-item="6.18" of-src-filename="week6.xml" ofmd5="cf808375735a9ca3dd49918a6d0fdbe6" of-serial="">
+              <of-title hidden="true">Example 6.18</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By </paragraphs>
-                <ref environment="newcol" chapter_type="" label="congremainder" wbtag="ref" course="Math 2078" chapter="6" slide="13" referrer-type="Proof" referrer-md5="cf60c58ff0203947c6445a0f92edc8ec" src-course="Math 2070" src-chapter="6" src-slide="73" type="Corollary" item="6.18" src-filename="weeks1-13.xml" md5="a360e8a2dbb188f3a0742bcbe26bb2cf" class="lcref" serial="">
-                  <title>Corollary 6.18</title>
+                <ref environment="newcol" chapter_type="" label="congremainder" wbtag="ref" course="Math 2078" chapter="6" slide="13" referrer-type="Proof" referrer-md5="cf60c58ff0203947c6445a0f92edc8ec" src-course="Math 2078" src-chapter="6" src-slide="11" type="Corollary" item="6.16" src-filename="week6.xml" md5="a360e8a2dbb188f3a0742bcbe26bb2cf" class="lcref" serial="">
+                  <title>Corollary 6.16</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
 any $a \in \mathbb{Z}$ is congruent modulo $8$ to exactly one
 element in $\{0, 1, 2, \ldots, 7\}$.
 So, by </paragraphs>
-                <ref environment="newcol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2078" chapter="6" slide="13" referrer-type="Proof" referrer-md5="cf60c58ff0203947c6445a0f92edc8ec" src-course="Math 2070" src-chapter="6" src-slide="74" type="Theorem" item="6.19" src-filename="weeks1-13.xml" md5="14a4a87fe292c8015bdeac65486af4b4" class="lcref" serial="">
-                  <title>Theorem 6.19</title>
+                <ref environment="newcol" chapter_type="" label="congcompat" wbtag="ref" course="Math 2078" chapter="6" slide="13" referrer-type="Proof" referrer-md5="cf60c58ff0203947c6445a0f92edc8ec" src-course="Math 2078" src-chapter="6" src-slide="12" type="Theorem" item="6.17" src-filename="week6.xml" md5="14a4a87fe292c8015bdeac65486af4b4" class="lcref" serial="">
+                  <title>Theorem 6.17</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ,
 $a^2$ is congruent modulo 8 to one of:
@@ -688,11 +694,11 @@ The numbers above a congruent modulo 8 to 0, 1, or 4. The claim follows. </parag
               <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $a$ and $m$ are relatively prime, then there exists $x \in \mathbb{Z}$ such that
 $ax \equiv 1 \mod m$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="93ca9773dff8fb92d40e14a34deebd58" course="Math 2078" chapter="6" slide="14" of="22345bc82e7768bc01872dcfa453331a" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="76" of-type="Theorem" of-item="6.21" of-src-filename="weeks1-13.xml" ofmd5="22345bc82e7768bc01872dcfa453331a" of-serial="">
-              <of-title hidden="true">Theorem 6.21</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="93ca9773dff8fb92d40e14a34deebd58" course="Math 2078" chapter="6" slide="14" of="22345bc82e7768bc01872dcfa453331a" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="14" of-type="Theorem" of-item="6.19" of-src-filename="week6.xml" ofmd5="22345bc82e7768bc01872dcfa453331a" of-serial="">
+              <of-title hidden="true">Theorem 6.19</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $a$ and $m$ are relatively prime, by </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2078" chapter="6" slide="14" referrer-type="Proof" referrer-md5="93ca9773dff8fb92d40e14a34deebd58" src-course="Math 2070" src-chapter="6" src-slide="66" type="Claim" item="6.5" src-filename="weeks1-13.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="bezoutslemma" wbtag="ref" course="Math 2078" chapter="6" slide="14" referrer-type="Proof" referrer-md5="93ca9773dff8fb92d40e14a34deebd58" src-course="Math 2078" src-chapter="6" src-slide="3" type="Claim" item="6.1" src-filename="week6.xml" md5="78dcabe2aa157a7972614bccf4d63cc0" class="lcref" serial="">
                   <title custom="true">Bézout's Lemma</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist $x, y \in \mathbb{Z}$ such that:
@@ -748,12 +754,12 @@ for some $r \in \mathbb{Z}$. </paragraphs>
                 </collapse>
               </newcol>
             </substatement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4e477375d817abad208ca5b40199a0f5" course="Math 2078" chapter="6" slide="15" of="43bd36ddac0bd25723eed1c3291d6256" of-src-course="Math 2070" of-src-chapter="6" of-src-slide="77" of-type="Theorem" of-item="6.22" of-src-filename="weeks1-13.xml" ofmd5="43bd36ddac0bd25723eed1c3291d6256" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4e477375d817abad208ca5b40199a0f5" course="Math 2078" chapter="6" slide="15" of="43bd36ddac0bd25723eed1c3291d6256" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="15" of-type="Theorem" of-item="6.20" of-src-filename="week6.xml" ofmd5="43bd36ddac0bd25723eed1c3291d6256" of-serial="">
               <of-title hidden="true">Chinese Remainder Theorem</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $m_1$ and $m_2$ are relatively prime, by </paragraphs>
-                <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2078" chapter="6" slide="15" referrer-type="Proof" referrer-md5="4e477375d817abad208ca5b40199a0f5" src-course="Math 2070" src-chapter="6" src-slide="76" type="Theorem" item="6.21" src-filename="weeks1-13.xml" md5="22345bc82e7768bc01872dcfa453331a" class="lcref" serial="">
-                  <title>Theorem 6.21</title>
+                <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2078" chapter="6" slide="15" referrer-type="Proof" referrer-md5="4e477375d817abad208ca5b40199a0f5" src-course="Math 2078" src-chapter="6" src-slide="14" type="Theorem" item="6.19" src-filename="week6.xml" md5="22345bc82e7768bc01872dcfa453331a" class="lcref" serial="">
+                  <title>Theorem 6.19</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exists $n \in \mathbb{Z}$ such that $m_1n \equiv 1 \mod m_2$.
 Let $x = m_1n(r_2 - r_1) + r_1$. </paragraphs>
@@ -867,8 +873,8 @@ or equivalently:
 \end{equation} </paragraphs>
                   <collapse course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $gcd(34, 27) = 1$, by </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2078" chapter="6" slide="17" referrer-type="Example" referrer-md5="d0f53922aad30029e904b3286a4a4711" src-course="Math 2070" src-chapter="6" src-slide="76" type="Theorem" item="6.21" src-filename="weeks1-13.xml" md5="22345bc82e7768bc01872dcfa453331a" class="lcref" serial="">
-                      <title>Theorem 6.21</title>
+                    <ref environment="newcol" chapter_type="" label="thm:inversemodm" wbtag="ref" course="Math 2078" chapter="6" slide="17" referrer-type="Example" referrer-md5="d0f53922aad30029e904b3286a4a4711" src-course="Math 2078" src-chapter="6" src-slide="14" type="Theorem" item="6.19" src-filename="week6.xml" md5="22345bc82e7768bc01872dcfa453331a" class="lcref" serial="">
+                      <title>Theorem 6.19</title>
                     </ref>
                     <paragraphs course="Math 2078" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exists $a \in \mathbb{Z}$ such that $a\cdot 34 \equiv 1 \mod 27$.
 To find $a$, we perform the Euclidean Algorithm on $34$ and $27$:

@@ -95,8 +95,8 @@ if and only if each of its generators has order $n$. </paragraphs>
 is a group with respect to $\circ$, the composition of maps. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7058aeaa7d824b232f696a1071898e49" course="Math 2078" chapter="2" slide="4" of="54d773425d11b8372809b46bbde83958" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="16" of-type="Claim" of-item="2.9" of-src-filename="weeks1-13.xml" ofmd5="54d773425d11b8372809b46bbde83958" of-serial="">
-              <of-title hidden="true">Claim 2.9</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7058aeaa7d824b232f696a1071898e49" course="Math 2078" chapter="2" slide="4" of="54d773425d11b8372809b46bbde83958" of-src-course="Math 2078" of-src-chapter="2" of-src-slide="4" of-type="Claim" of-item="2.6" of-src-filename="week2.xml" ofmd5="54d773425d11b8372809b46bbde83958" of-serial="">
+              <of-title hidden="true">Claim 2.6</of-title>
               <newcol course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ul course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
                   <col_li course="Math 2078" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
@@ -415,8 +415,8 @@ This corresponds to the fact that $3$ is fixed by $\sigma$.</paragraphs>
             <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="1da90d1dbd812239a2410e7989ed12a5" course="Math 2078" chapter="2" slide="9" item="2.11">
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Every non-identity permutation in $S_n$ is either a cycle or a product of disjoint cycles. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2078" chapter="2" slide="9" of="1da90d1dbd812239a2410e7989ed12a5" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="21" of-type="Claim" of-item="2.13" of-src-filename="weeks1-13.xml" ofmd5="1da90d1dbd812239a2410e7989ed12a5" of-serial="">
-              <of-title hidden="true">Claim 2.13</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7931256defb71d36ad7123edaa465bf1" course="Math 2078" chapter="2" slide="9" of="1da90d1dbd812239a2410e7989ed12a5" of-src-course="Math 2078" of-src-chapter="2" of-src-slide="9" of-type="Claim" of-item="2.11" of-src-filename="week2.xml" ofmd5="1da90d1dbd812239a2410e7989ed12a5" of-serial="">
+              <of-title hidden="true">Claim 2.11</of-title>
               <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> Discussed in class. </paragraphs>
             </substatement>
             <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
@@ -482,8 +482,8 @@ but: </paragraphs>
 the number of factors is either always even or always odd. </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="db834fd80ecc7026ff95266e76be3a86" course="Math 2078" chapter="2" slide="11" of="b588e52201e19b7a3f9e3a3b4a3e10b8" of-src-course="Math 2070" of-src-chapter="2" of-src-slide="23" of-type="Claim" of-item="2.17" of-src-filename="weeks1-13.xml" ofmd5="b588e52201e19b7a3f9e3a3b4a3e10b8" of-serial="">
-              <of-title hidden="true">Claim 2.17</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="db834fd80ecc7026ff95266e76be3a86" course="Math 2078" chapter="2" slide="11" of="b588e52201e19b7a3f9e3a3b4a3e10b8" of-src-course="Math 2078" of-src-chapter="2" of-src-slide="11" of-type="Claim" of-item="2.15" of-src-filename="week2.xml" ofmd5="b588e52201e19b7a3f9e3a3b4a3e10b8" of-serial="">
+              <of-title hidden="true">Claim 2.15</of-title>
               <newcol course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <inline_keyword course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
                 <paragraphs course="Math 2078" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> One approach: Show that there is a unique $n \times n$ matrix, with either $0$ or $1$ as its coefficients,

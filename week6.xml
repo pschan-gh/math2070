@@ -85,10 +85,8 @@ There exist $x, y \in \mathbb{Z}$ such that $gcd(a, b) = ax + by$. </paragraphs>
                 </strong>
                 <newcol course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Recall the notation used in </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2078" chapter="6" slide="3" referrer-type="Proof" referrer-md5="73702ed2c86843ffd54481b11a5a6d7b" src-course="Math 2078" src-chapter="5" src-slide="" type="Section" src-filename="week5.xml" md5="" class="lcref" serial="5.3.1">
-                    <title custom="true">
-            Euclidean Algorithm
-          </title>
+                  <ref environment="newcol" chapter_type="" label="sec:euclidalg" wbtag="ref" course="Math 2078" chapter="6" slide="3" referrer-type="Proof" referrer-md5="73702ed2c86843ffd54481b11a5a6d7b" undefined="true">
+                    <title>UNDEFINED</title>
                   </ref>
                   <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .
 We saw that if $r_n = 0$, then $gcd(a, b) = r_{n - 1}$. </paragraphs>
@@ -300,11 +298,7 @@ where $p_1, p_2, \cdots, p_l$ are distinct prime numbers, and $n_1, n_2, \ldots,
                 </col_li>
               </col_ol>
             </statement>
-<<<<<<< HEAD
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48a591e4ec028d946ba9bc9f4ee6dd8e" course="Math 2078" chapter="6" slide="8" of="20925de2d121a5944f47383054e6c6d0" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="8" of-type="Theorem" of-item="6.12" of-src-filename="week6.xml" ofmd5="20925de2d121a5944f47383054e6c6d0" of-serial="">
-=======
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48a591e4ec028d946ba9bc9f4ee6dd8e" course="Math 2078" chapter="6" slide="8" of="d82a6d14efc507a18d8496d0b9cfe404" of-src-course="Math 2078" of-src-chapter="6" of-src-slide="8" of-type="Theorem" of-item="6.12" of-src-filename="week6.xml" ofmd5="d82a6d14efc507a18d8496d0b9cfe404" of-serial="">
->>>>>>> bf7c292237fed4c27c8cd11aa2b380627140a460
               <of-title hidden="true">The Fundamental Theorem of Arithmetic</of-title>
               <newcol course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We prove Part 1 of the theorem by contradiction.</paragraphs>

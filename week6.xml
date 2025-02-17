@@ -1192,13 +1192,13 @@ then $\dfrac{1}{c} r_{n-1}$ is the GCD of $f$ and $g$. </paragraphs>
                     <steps course="Math 2078" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
 \begin{align*}
 x^{5} + 1 &amp;
-\class{steps}{\cssId{step0}{=\left(x^{3}} + 1\right)\left(x^{2}\right) + \left(-x^{2} + 1\right)}
+\class{steps}{\cssId{step0}{=\left(x^{3} + 1\right)\left(x^{2}\right) + \left(-x^{2} + 1\right)}}
 \\
-\class{steps}{\cssId{step1}{x^{3}} + 1}
+\class{steps}{\cssId{step1}{x^{3} + 1}}
 &amp;
-\class{steps}{\cssId{step2}{= \left(-x^{2}} + 1\right)\left(-x\right) + \left(x + 1\right)}
+\class{steps}{\cssId{step2}{= \left(-x^{2} + 1\right)\left(-x\right) + \left(x + 1\right)}}
 \\
-\class{steps}{\cssId{step3}{-x^{2}} + 1}
+\class{steps}{\cssId{step3}{-x^{2} + 1}}
 &amp;
 \class{steps}{\cssId{step4}{= \left(x + 1\right)\left(-x + 1\right) + \left(0\right)}}
 \end{align*}
@@ -1216,15 +1216,15 @@ x^{5} + 1 &amp;
 \begin{align*}
 x^{3} - x^{2} - x + 1
 &amp;
-\class{steps}{\cssId{step0}{= \left(x^{3}} + 4 x^{2} + x - 6\right)\left(1\right) + \left(-5 x^{2} - 2 x + 7\right)}
+\class{steps}{\cssId{step0}{= \left(x^{3} + 4 x^{2} + x - 6\right)\left(1\right) + \left(-5 x^{2} - 2 x + 7\right)}}
 \\
-\class{steps}{\cssId{step1}{x^{3}} + 4 x^{2} + x - 6}
+\class{steps}{\cssId{step1}{x^{3} + 4 x^{2} + x - 6}}
 &amp;
-\class{steps}{\cssId{step2}{= \left(-5 x^{2}} - 2 x + 7\right)\left(-\frac{1}{5} x - \frac{18}{25}\right) + \left(\frac{24}{25} x - \frac{24}{25}\right)}
+\class{steps}{\cssId{step2}{= \left(-5 x^{2} - 2 x + 7\right)\left(-\frac{1}{5} x - \frac{18}{25}\right) + \left(\frac{24}{25} x - \frac{24}{25}\right)}}
 \\
-\class{steps}{\cssId{step3}{-5 x^{2}} - 2 x + 7}
+\class{steps}{\cssId{step3}{-5 x^{2} - 2 x + 7}}
 &amp;
-\class{steps}{\cssId{step4}{= \left(\frac{24}}{25} x - \frac{24}{25}\right)\left(-\frac{125}{24} x - \frac{175}{24}\right) + \left(0\right)}
+\class{steps}{\cssId{step4}{= \left(\frac{24}{25} x - \frac{24}{25}\right)\left(-\frac{125}{24} x - \frac{175}{24}\right) + \left(0\right)}}
 \end{align*}
 </steps>
                     <collapse course="Math 2078" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
@@ -1261,9 +1261,9 @@ d = fu + gv.
 \begin{align*}
 (x + 1) &amp;= \left(x^3 + 1\right) - \left(-x^{2} + 1\right)\left(-x\right)
 \\&amp;
-\class{steps}{\cssId{step0}{= \left(x^3 + 1\right) - \left(\left(x^{5}} + 1\right) - \left(x^{3} + 1\right)\left(x^{2}\right)\right)\left(-x\right)}
+\class{steps}{\cssId{step0}{= \left(x^3 + 1\right) - \left(\left(x^{5} + 1\right) - \left(x^{3} + 1\right)\left(x^{2}\right)\right)\left(-x\right)}}
 \\&amp;
-\class{steps}{\cssId{step1}{= \bigg(x\bigg)\bigg(x^{5}} + 1\bigg) + \bigg(-x^{3} + 1\bigg)\bigg(x^{3} + 1\bigg)}
+\class{steps}{\cssId{step1}{= \bigg(x\bigg)\bigg(x^{5} + 1\bigg) + \bigg(-x^{3} + 1\bigg)\bigg(x^{3} + 1\bigg)}}
 \end{align*}
 </steps>
               </newcol>

@@ -129,7 +129,7 @@ a +_m (b +_m c) &amp;= a +_m \overline{b + c}
 \\&amp;
 \class{steps}{\cssId{step0}{= \overline{a + \overline{b + c}}}}
 \\&amp;
-\class{steps}{\cssId{step1}{= \overline{\overline{a}} + \overline{b + c}}}
+\class{steps}{\cssId{step1}{= \overline{\overline{a} + \overline{b + c}}}}
 \\&amp;
 \class{steps}{\cssId{step2}{= \overline{a + (b + c)}}}
 \end{split}
@@ -143,7 +143,7 @@ is equal to: </paragraphs>
 \begin{split}
 \overline{(a + b) + c} &amp;= \overline{\overline{(a + b)} + \overline{c}}
 \\&amp;
-\class{steps}{\cssId{step0}{= \overline{\overline{a + b}} + {c}}}
+\class{steps}{\cssId{step0}{= \overline{\overline{a + b} + {c}}}}
 \\&amp;
 \class{steps}{\cssId{step1}{= \overline{(a +_m b) + c}}}
 \\&amp;
@@ -207,7 +207,7 @@ a \times_m (b +_m c) &amp;= \ol{\ol{a} \cdot \ol{b + c}}
 \\&amp;
 \class{steps}{\cssId{step1}{= \ol{ab + ac}}}
 \\&amp;
-\class{steps}{\cssId{step2}{= \ol{\ol{ab}} + \ol{ac}}}
+\class{steps}{\cssId{step2}{= \ol{\ol{ab} + \ol{ac}}}}
 \\&amp;
 \class{steps}{\cssId{step3}{= a\times_m b +_m a\times_m c.}}
 \end{split}

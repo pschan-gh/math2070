@@ -802,6 +802,7 @@ If no such $n$ exists, we say that $g$ has </paragraphs>
                 <paragraphs course="Math 2078" chapter="1" chapter_type="" section="2" subsection="4" subsubsection="" environment="statement" wbtag="paragraphs">. </paragraphs>
               </statement>
               <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="ef5e062af00e1814dd0b8386e5bb87ab" course="Math 2078" chapter="1" slide="13" item="1.12">
+                <label wbtag="label" name="thm:orderdividesn" type="Theorem"/>
                 <newcol course="Math 2078" chapter="1" chapter_type="" section="2" subsection="4" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 2078" chapter="1" chapter_type="" section="2" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $G$ be a group with identity element $e$.
 Let $g$ be an element of $G$. If $g^n = e$ for some $n \in \mathbb{N}$,

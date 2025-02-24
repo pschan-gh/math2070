@@ -285,6 +285,45 @@
     <entry keyword="divisiontheorem">
       <branch chapter="5" slide="12" filename="week5.xml" file_md5="70cefe0d1a6626d850c4e9c593988164" keyword="divisiontheorem">Division Theorem</branch>
     </entry>
+    <entry keyword="congruentmoduloi">
+      <branch chapter="9" slide="3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="congruentmoduloi">congruent modulo $I$</branch>
+    </entry>
+    <entry keyword="reflexivity">
+      <branch chapter="9" slide="3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="reflexivity">Reflexivity</branch>
+    </entry>
+    <entry keyword="symmetry">
+      <branch chapter="9" slide="3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="symmetry">Symmetry</branch>
+    </entry>
+    <entry keyword="transitivity">
+      <branch chapter="9" slide="3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="transitivity">Transitivity</branch>
+    </entry>
+    <entry keyword="residue">
+      <branch chapter="9" slide="4" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="residue">residue</branch>
+    </entry>
+    <entry keyword="firstisomorphismtheorem">
+      <branch chapter="9" slide="8" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="firstisomorphismtheorem">First Isomorphism Theorem</branch>
+    </entry>
+    <entry keyword="gaussianintegers">
+      <branch chapter="9" slide="11" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="gaussianintegers">Gaussian Integers</branch>
+    </entry>
+    <entry keyword="rationalroottheorem">
+      <branch chapter="12" slide="3" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="rationalroottheorem">Rational Root Theorem</branch>
+    </entry>
+    <entry keyword="primitive">
+      <branch chapter="12" slide="4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="primitive">primitive</branch>
+    </entry>
+    <entry keyword="gaussslemma">
+      <branch chapter="12" slide="5" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="gaussslemma">Gauss's Lemma</branch>
+    </entry>
+    <entry keyword="content">
+      <branch chapter="12" slide="6" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="content">content</branch>
+    </entry>
+    <entry keyword="gaussstheorem">
+      <branch chapter="12" slide="9" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="gaussstheorem">Gauss's Theorem</branch>
+    </entry>
+    <entry keyword="eisensteinscriterion">
+      <branch chapter="12" slide="12" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="eisensteinscriterion">Eisenstein's Criterion</branch>
+    </entry>
     <entry keyword="ringhomomorphism">
       <branch chapter="8" slide="3" filename="week8.xml" file_md5="f91bf129f491aed8cc4ffd7efd808eca" keyword="ringhomomorphism">ring homomorphism</branch>
     </entry>
@@ -309,27 +348,6 @@
     <entry keyword="divisiontheoremforpolynomialswithunitleadingcoefficients">
       <branch chapter="8" slide="25" filename="week8.xml" file_md5="f91bf129f491aed8cc4ffd7efd808eca" keyword="divisiontheoremforpolynomialswithunitleadingcoefficients">Division Theorem for Polynomials with Unit Leading Coefficients</branch>
     </entry>
-    <entry keyword="congruentmoduloi">
-      <branch chapter="9" slide="3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="congruentmoduloi">congruent modulo $I$</branch>
-    </entry>
-    <entry keyword="reflexivity">
-      <branch chapter="9" slide="3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="reflexivity">Reflexivity</branch>
-    </entry>
-    <entry keyword="symmetry">
-      <branch chapter="9" slide="3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="symmetry">Symmetry</branch>
-    </entry>
-    <entry keyword="transitivity">
-      <branch chapter="9" slide="3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="transitivity">Transitivity</branch>
-    </entry>
-    <entry keyword="residue">
-      <branch chapter="9" slide="4" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="residue">residue</branch>
-    </entry>
-    <entry keyword="firstisomorphismtheorem">
-      <branch chapter="9" slide="8" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="firstisomorphismtheorem">First Isomorphism Theorem</branch>
-    </entry>
-    <entry keyword="gaussianintegers">
-      <branch chapter="9" slide="11" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4" keyword="gaussianintegers">Gaussian Integers</branch>
-    </entry>
     <entry keyword="root">
       <branch chapter="11" slide="3" filename="week11.xml" file_md5="46aa66e1797a0af55cd445ae7c17fb42" keyword="root">root</branch>
     </entry>
@@ -339,24 +357,6 @@
     <entry keyword="monicpolynomial">
       <branch chapter="11" slide="8" filename="week11.xml" file_md5="46aa66e1797a0af55cd445ae7c17fb42" keyword="monicpolynomial">monic polynomial</branch>
     </entry>
-    <entry keyword="rationalroottheorem">
-      <branch chapter="12" slide="3" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="rationalroottheorem">Rational Root Theorem</branch>
-    </entry>
-    <entry keyword="primitive">
-      <branch chapter="12" slide="4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="primitive">primitive</branch>
-    </entry>
-    <entry keyword="gaussslemma">
-      <branch chapter="12" slide="5" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="gaussslemma">Gauss's Lemma</branch>
-    </entry>
-    <entry keyword="content">
-      <branch chapter="12" slide="6" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="content">content</branch>
-    </entry>
-    <entry keyword="gaussstheorem">
-      <branch chapter="12" slide="9" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="gaussstheorem">Gauss's Theorem</branch>
-    </entry>
-    <entry keyword="eisensteinscriterion">
-      <branch chapter="12" slide="12" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130" keyword="eisensteinscriterion">Eisenstein's Criterion</branch>
-    </entry>
     <entry md5="ef8fb97d271d5d2e855498ac9a9b41b7" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="1" slide="12" of="413dfe67c18ba505d3b2256c719f3a8d" of-src-course="Math 2078" of-src-chapter="1" of-src-slide="12" of-type="Claim" of-item="1.10" of-src-filename="week1.xml" ofmd5="413dfe67c18ba505d3b2256c719f3a8d" of-serial="" filename="week1.xml" file_md5="f6d6b8d455531e925e33f4c38a263390">
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="1" slide="12" of="413dfe67c18ba505d3b2256c719f3a8d" of-src-course="Math 2078" of-src-chapter="1" of-src-slide="12" of-type="Claim" of-item="1.10" of-src-filename="week1.xml" ofmd5="413dfe67c18ba505d3b2256c719f3a8d" of-serial="" filename="week1.xml" file_md5="f6d6b8d455531e925e33f4c38a263390"/>
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="3" slide="8" of="57b80347e2d3ec6941833fd034627a81" of-src-course="Math 2078" of-src-chapter="3" of-src-slide="8" of-type="Claim" of-item="3.6" of-src-filename="week3.xml" ofmd5="57b80347e2d3ec6941833fd034627a81" of-serial="" filename="week3.xml" file_md5="374032da2ba5292e6779dfeb3b0b6391"/>
@@ -365,9 +365,9 @@
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="7" slide="27" of="45777aaa95215986561c973de5594246" of-src-course="Math 2078" of-src-chapter="7" of-src-slide="27" of-type="Lemma" of-item="7.32" of-src-filename="week7.xml" ofmd5="45777aaa95215986561c973de5594246" of-serial="" filename="week7.xml" file_md5="d74d697e76f9241f039dd84ef6a03ce4"/>
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="7" slide="30" of="01abcef5efc49dc54237d2ef63d6bd0b" of-src-course="Math 2078" of-src-chapter="7" of-src-slide="30" of-type="Claim" of-item="7.36" of-src-filename="week7.xml" ofmd5="01abcef5efc49dc54237d2ef63d6bd0b" of-serial="" filename="week7.xml" file_md5="d74d697e76f9241f039dd84ef6a03ce4"/>
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="5" slide="9" of="260306b8e5b3695efd64ca27ddac6754" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="9" of-type="Claim" of-item="5.7" of-src-filename="week5.xml" ofmd5="260306b8e5b3695efd64ca27ddac6754" of-serial="" filename="week5.xml" file_md5="70cefe0d1a6626d850c4e9c593988164"/>
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="8" slide="6" of="2152ce3be89ef2f21ec407344bdeffeb" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="6" of-type="Example" of-item="8.4" of-src-filename="week8.xml" ofmd5="2152ce3be89ef2f21ec407344bdeffeb" of-serial="" filename="week8.xml" file_md5="f91bf129f491aed8cc4ffd7efd808eca"/>
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="9" slide="5" of="e8b7ffa34c4842301996d7a0e5a08f33" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="5" of-type="Claim" of-item="9.3" of-src-filename="week9.xml" ofmd5="e8b7ffa34c4842301996d7a0e5a08f33" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="9" slide="7" of="993c7ad44dad2b06493e1b9ba465adbb" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="7" of-type="Claim" of-item="9.5" of-src-filename="week9.xml" ofmd5="993c7ad44dad2b06493e1b9ba465adbb" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="8" slide="6" of="2152ce3be89ef2f21ec407344bdeffeb" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="6" of-type="Example" of-item="8.4" of-src-filename="week8.xml" ofmd5="2152ce3be89ef2f21ec407344bdeffeb" of-serial="" filename="week8.xml" file_md5="f91bf129f491aed8cc4ffd7efd808eca"/>
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="11" slide="11" of="df7a0ba35ef0d043bf31e1068cad258d" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="11" of-type="Lemma" of-item="11.10" of-src-filename="week11.xml" ofmd5="df7a0ba35ef0d043bf31e1068cad258d" of-serial="" filename="week11.xml" file_md5="46aa66e1797a0af55cd445ae7c17fb42"/>
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="11" slide="13" of="26cc8b08e04b09ad63af6569d7afc3ef" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="13" of-type="Claim" of-item="11.13" of-src-filename="week11.xml" ofmd5="26cc8b08e04b09ad63af6569d7afc3ef" of-serial="" filename="week11.xml" file_md5="46aa66e1797a0af55cd445ae7c17fb42"/>
     </entry>
@@ -1061,6 +1061,132 @@
       <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="94c8703b764dcd10a22565a41554a300" course="Math 2078" chapter="5" slide="16" item="5.15" filename="week5.xml" file_md5="70cefe0d1a6626d850c4e9c593988164"/>
       <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="94c8703b764dcd10a22565a41554a300" course="Math 2078" chapter="5" slide="16" item="5.15" filename="week5.xml" file_md5="70cefe0d1a6626d850c4e9c593988164"/>
     </entry>
+    <entry md5="963e2cc1e3a2e478611a672d21ac6c47" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="1" course="Math 2078" chapter="9" slide="3" item="9.1" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="1" md5="963e2cc1e3a2e478611a672d21ac6c47" course="Math 2078" chapter="9" slide="3" item="9.1" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="0771d5f86bf61c0125b5841ae455cab9" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="3" of="963e2cc1e3a2e478611a672d21ac6c47" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="3" of-type="Claim" of-item="9.1" of-src-filename="week9.xml" ofmd5="963e2cc1e3a2e478611a672d21ac6c47" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0771d5f86bf61c0125b5841ae455cab9" course="Math 2078" chapter="9" slide="3" of="963e2cc1e3a2e478611a672d21ac6c47" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="3" of-type="Claim" of-item="9.1" of-src-filename="week9.xml" ofmd5="963e2cc1e3a2e478611a672d21ac6c47" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="acf88bc4556b717fbb31ace5cebe6fc5" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="2" course="Math 2078" chapter="9" slide="5" item="9.2" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="2" md5="acf88bc4556b717fbb31ace5cebe6fc5" course="Math 2078" chapter="9" slide="5" item="9.2" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="6b4ebc05e8cb268a358520e6283a75e3" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="5" of="acf88bc4556b717fbb31ace5cebe6fc5" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="5" of-type="Claim" of-item="9.2" of-src-filename="week9.xml" ofmd5="acf88bc4556b717fbb31ace5cebe6fc5" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6b4ebc05e8cb268a358520e6283a75e3" course="Math 2078" chapter="9" slide="5" of="acf88bc4556b717fbb31ace5cebe6fc5" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="5" of-type="Claim" of-item="9.2" of-src-filename="week9.xml" ofmd5="acf88bc4556b717fbb31ace5cebe6fc5" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="e8b7ffa34c4842301996d7a0e5a08f33" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" course="Math 2078" chapter="9" slide="5" item="9.3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" md5="e8b7ffa34c4842301996d7a0e5a08f33" course="Math 2078" chapter="9" slide="5" item="9.3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" course="Math 2078" chapter="9" slide="6" item="9.4" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" course="Math 2078" chapter="9" slide="6" item="9.4" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="73dd8b75e9c74bead432dbb5a0f2704b" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="6" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="6" of-type="Claim" of-item="9.4" of-src-filename="week9.xml" ofmd5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="73dd8b75e9c74bead432dbb5a0f2704b" course="Math 2078" chapter="9" slide="6" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="6" of-type="Claim" of-item="9.4" of-src-filename="week9.xml" ofmd5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="993c7ad44dad2b06493e1b9ba465adbb" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" course="Math 2078" chapter="9" slide="7" item="9.5" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="993c7ad44dad2b06493e1b9ba465adbb" course="Math 2078" chapter="9" slide="7" item="9.5" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="1486f5b52a8fff9f86fe19ee7f4439ad" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="6" title="First Isomorphism Theorem" course="Math 2078" chapter="9" slide="8" item="9.6" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="6" title="First Isomorphism Theorem" md5="1486f5b52a8fff9f86fe19ee7f4439ad" course="Math 2078" chapter="9" slide="8" item="9.6" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="8">First Isomorphism Theorem</title>
+      </branch>
+    </entry>
+    <entry md5="6bece8d10a388a622fd14a7c2f2dde17" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="8" of="1486f5b52a8fff9f86fe19ee7f4439ad" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="8" of-type="Theorem" of-item="9.6" of-src-filename="week9.xml" ofmd5="1486f5b52a8fff9f86fe19ee7f4439ad" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6bece8d10a388a622fd14a7c2f2dde17" course="Math 2078" chapter="9" slide="8" of="1486f5b52a8fff9f86fe19ee7f4439ad" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="8" of-type="Theorem" of-item="9.6" of-src-filename="week9.xml" ofmd5="1486f5b52a8fff9f86fe19ee7f4439ad" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="921b526634907f81c0eaafc434d6b91e" environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" course="Math 2078" chapter="9" slide="9" item="9.7" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" md5="921b526634907f81c0eaafc434d6b91e" course="Math 2078" chapter="9" slide="9" item="9.7" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="4f706ef40c63abeca5dda6b8259a25fa" environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" course="Math 2078" chapter="9" slide="10" item="9.8" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="4f706ef40c63abeca5dda6b8259a25fa" course="Math 2078" chapter="9" slide="10" item="9.8" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="6508d08d4c532fd4090349222529c9bc" environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="9" title="Gaussian Integers" course="Math 2078" chapter="9" slide="11" item="9.9" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="9" title="Gaussian Integers" md5="6508d08d4c532fd4090349222529c9bc" course="Math 2078" chapter="9" slide="11" item="9.9" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="11">Gaussian Integers</title>
+      </branch>
+    </entry>
+    <entry md5="934d5ab0532d22f000cda91b29e6c63e" environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="10" course="Math 2078" chapter="9" slide="11" item="9.10" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="10" md5="934d5ab0532d22f000cda91b29e6c63e" course="Math 2078" chapter="9" slide="11" item="9.10" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="a780d473975decbb35a820a29e106575" environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" course="Math 2078" chapter="9" slide="12" item="9.11" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="a780d473975decbb35a820a29e106575" course="Math 2078" chapter="9" slide="12" item="9.11" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="064e5b43d04f32f770220d6b3d3c85dd" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="12" of="a780d473975decbb35a820a29e106575" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="12" of-type="Example" of-item="9.11" of-src-filename="week9.xml" ofmd5="a780d473975decbb35a820a29e106575" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="064e5b43d04f32f770220d6b3d3c85dd" course="Math 2078" chapter="9" slide="12" of="a780d473975decbb35a820a29e106575" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="12" of-type="Example" of-item="9.11" of-src-filename="week9.xml" ofmd5="a780d473975decbb35a820a29e106575" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
+    </entry>
+    <entry md5="3c0464ad4416b97d36141ffd6ad5e3fd" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Rational Root Theorem" course="Math 2078" chapter="12" slide="3" item="12.1" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Rational Root Theorem" md5="3c0464ad4416b97d36141ffd6ad5e3fd" course="Math 2078" chapter="12" slide="3" item="12.1" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="3">Rational Root Theorem</title>
+      </branch>
+    </entry>
+    <entry md5="69afa5c1500692c9cdfffd7b31823c7c" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="3" of="3c0464ad4416b97d36141ffd6ad5e3fd" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="3" of-type="Theorem" of-item="12.1" of-src-filename="week12.xml" ofmd5="3c0464ad4416b97d36141ffd6ad5e3fd" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="69afa5c1500692c9cdfffd7b31823c7c" course="Math 2078" chapter="12" slide="3" of="3c0464ad4416b97d36141ffd6ad5e3fd" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="3" of-type="Theorem" of-item="12.1" of-src-filename="week12.xml" ofmd5="3c0464ad4416b97d36141ffd6ad5e3fd" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="fa31aede4c64516d6e3883385ff7a9d6" environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" course="Math 2078" chapter="12" slide="4" item="12.2" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="fa31aede4c64516d6e3883385ff7a9d6" course="Math 2078" chapter="12" slide="4" item="12.2" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="a963bda95da173c53ad5bcfabad308dd" environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" course="Math 2078" chapter="12" slide="4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="a963bda95da173c53ad5bcfabad308dd" course="Math 2078" chapter="12" slide="4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="af808fc5ae8233666af7e81712828d29" environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="3" title="Gauss's Lemma" course="Math 2078" chapter="12" slide="5" item="12.3" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="3" title="Gauss's Lemma" md5="af808fc5ae8233666af7e81712828d29" course="Math 2078" chapter="12" slide="5" item="12.3" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="5">Gauss's Lemma</title>
+      </branch>
+    </entry>
+    <entry md5="d5f8571d4c718bdbab64370dd5708211" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="5" of="af808fc5ae8233666af7e81712828d29" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="5" of-type="Lemma" of-item="12.3" of-src-filename="week12.xml" ofmd5="af808fc5ae8233666af7e81712828d29" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d5f8571d4c718bdbab64370dd5708211" course="Math 2078" chapter="12" slide="5" of="af808fc5ae8233666af7e81712828d29" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="5" of-type="Lemma" of-item="12.3" of-src-filename="week12.xml" ofmd5="af808fc5ae8233666af7e81712828d29" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="4254f85499306c0d0e9620befefd2e33" environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="4" course="Math 2078" chapter="12" slide="6" item="12.4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="4" md5="4254f85499306c0d0e9620befefd2e33" course="Math 2078" chapter="12" slide="6" item="12.4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="659d6ecb092d39d82f9c5db4d89cd7d7" environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="5" course="Math 2078" chapter="12" slide="6" item="12.5" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="5" md5="659d6ecb092d39d82f9c5db4d89cd7d7" course="Math 2078" chapter="12" slide="6" item="12.5" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="92b6096f2562a831af54897eb7f05aca" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="6" of="659d6ecb092d39d82f9c5db4d89cd7d7" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="6" of-type="Definition" of-item="12.5" of-src-filename="week12.xml" ofmd5="659d6ecb092d39d82f9c5db4d89cd7d7" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="92b6096f2562a831af54897eb7f05aca" course="Math 2078" chapter="12" slide="6" of="659d6ecb092d39d82f9c5db4d89cd7d7" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="6" of-type="Definition" of-item="12.5" of-src-filename="week12.xml" ofmd5="659d6ecb092d39d82f9c5db4d89cd7d7" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="acfea83363e1d036576467fd3f6d15be" environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" course="Math 2078" chapter="12" slide="7" item="12.6" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" md5="acfea83363e1d036576467fd3f6d15be" course="Math 2078" chapter="12" slide="7" item="12.6" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="4009b1c4ad404437e3586bad1d374665" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="7" of="acfea83363e1d036576467fd3f6d15be" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="7" of-type="Corollary" of-item="12.6" of-src-filename="week12.xml" ofmd5="acfea83363e1d036576467fd3f6d15be" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4009b1c4ad404437e3586bad1d374665" course="Math 2078" chapter="12" slide="7" of="acfea83363e1d036576467fd3f6d15be" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="7" of-type="Corollary" of-item="12.6" of-src-filename="week12.xml" ofmd5="acfea83363e1d036576467fd3f6d15be" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="b6714075a8500245e9a1da8997c1755b" environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" course="Math 2078" chapter="12" slide="8" item="12.7" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" md5="b6714075a8500245e9a1da8997c1755b" course="Math 2078" chapter="12" slide="8" item="12.7" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="973b16b6cd3dce7653231aebbb4564b5" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="8" of="b6714075a8500245e9a1da8997c1755b" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="8" of-type="Corollary" of-item="12.7" of-src-filename="week12.xml" ofmd5="b6714075a8500245e9a1da8997c1755b" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="973b16b6cd3dce7653231aebbb4564b5" course="Math 2078" chapter="12" slide="8" of="b6714075a8500245e9a1da8997c1755b" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="8" of-type="Corollary" of-item="12.7" of-src-filename="week12.xml" ofmd5="b6714075a8500245e9a1da8997c1755b" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="f569f469324025f59c31b4330b6a3d77" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="Gauss's Theorem" course="Math 2078" chapter="12" slide="9" item="12.8" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="Gauss's Theorem" md5="f569f469324025f59c31b4330b6a3d77" course="Math 2078" chapter="12" slide="9" item="12.8" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="9">Gauss's Theorem</title>
+      </branch>
+    </entry>
+    <entry md5="3c4756254d9dc0fb74981ccd467aee9a" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="9" of="f569f469324025f59c31b4330b6a3d77" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="9" of-type="Theorem" of-item="12.8" of-src-filename="week12.xml" ofmd5="f569f469324025f59c31b4330b6a3d77" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c4756254d9dc0fb74981ccd467aee9a" course="Math 2078" chapter="12" slide="9" of="f569f469324025f59c31b4330b6a3d77" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="9" of-type="Theorem" of-item="12.8" of-src-filename="week12.xml" ofmd5="f569f469324025f59c31b4330b6a3d77" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="b3315c7bc4fe2358ae8c9651cd40bd00" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" course="Math 2078" chapter="12" slide="10" item="12.9" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="b3315c7bc4fe2358ae8c9651cd40bd00" course="Math 2078" chapter="12" slide="10" item="12.9" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="d9ad97b972ed759d61631d562ff171c3" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="10" of="b3315c7bc4fe2358ae8c9651cd40bd00" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="10" of-type="Theorem" of-item="12.9" of-src-filename="week12.xml" ofmd5="b3315c7bc4fe2358ae8c9651cd40bd00" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d9ad97b972ed759d61631d562ff171c3" course="Math 2078" chapter="12" slide="10" of="b3315c7bc4fe2358ae8c9651cd40bd00" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="10" of-type="Theorem" of-item="12.9" of-src-filename="week12.xml" ofmd5="b3315c7bc4fe2358ae8c9651cd40bd00" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="affb2f9b427acb080edfcb267de8f12c" environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" course="Math 2078" chapter="12" slide="11" item="12.10" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="affb2f9b427acb080edfcb267de8f12c" course="Math 2078" chapter="12" slide="11" item="12.10" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="c2727f1dbeca94d1412c44da38fc7a9f" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="11" of="affb2f9b427acb080edfcb267de8f12c" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="11" of-type="Example" of-item="12.10" of-src-filename="week12.xml" ofmd5="affb2f9b427acb080edfcb267de8f12c" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="c2727f1dbeca94d1412c44da38fc7a9f" course="Math 2078" chapter="12" slide="11" of="affb2f9b427acb080edfcb267de8f12c" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="11" of-type="Example" of-item="12.10" of-src-filename="week12.xml" ofmd5="affb2f9b427acb080edfcb267de8f12c" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="c70386bd8f4f800e68f019faaa5f28d3" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Eisenstein's Criterion" course="Math 2078" chapter="12" slide="12" item="12.11" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Eisenstein's Criterion" md5="c70386bd8f4f800e68f019faaa5f28d3" course="Math 2078" chapter="12" slide="12" item="12.11" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="12">Eisenstein's Criterion</title>
+      </branch>
+    </entry>
+    <entry md5="b699c0aca3f7581de8cf068ff0145f35" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="12" of="c70386bd8f4f800e68f019faaa5f28d3" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="12" of-type="Theorem" of-item="12.11" of-src-filename="week12.xml" ofmd5="c70386bd8f4f800e68f019faaa5f28d3" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b699c0aca3f7581de8cf068ff0145f35" course="Math 2078" chapter="12" slide="12" of="c70386bd8f4f800e68f019faaa5f28d3" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="12" of-type="Theorem" of-item="12.11" of-src-filename="week12.xml" ofmd5="c70386bd8f4f800e68f019faaa5f28d3" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
+    <entry md5="ea2fb75a17d88905f82f74c7e5a3a4d3" environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" course="Math 2078" chapter="12" slide="13" item="12.12" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
+      <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="ea2fb75a17d88905f82f74c7e5a3a4d3" course="Math 2078" chapter="12" slide="13" item="12.12" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
+    </entry>
     <entry md5="704fa25a13e0cdbd6887e64eb2063e6e" environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" course="Math 2078" chapter="8" slide="3" item="8.1" filename="week8.xml" file_md5="f91bf129f491aed8cc4ffd7efd808eca">
       <branch environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="704fa25a13e0cdbd6887e64eb2063e6e" course="Math 2078" chapter="8" slide="3" item="8.1" filename="week8.xml" file_md5="f91bf129f491aed8cc4ffd7efd808eca"/>
     </entry>
@@ -1189,58 +1315,6 @@
     <entry md5="19c29c16368d2f0619952c1519b4a600" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="8" slide="26" of="cb147fcfae2b64a2477e6cd9c7fb2126" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="26" of-type="Theorem" of-item="8.25" of-src-filename="week8.xml" ofmd5="cb147fcfae2b64a2477e6cd9c7fb2126" of-serial="" filename="week8.xml" file_md5="f91bf129f491aed8cc4ffd7efd808eca">
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="19c29c16368d2f0619952c1519b4a600" course="Math 2078" chapter="8" slide="26" of="cb147fcfae2b64a2477e6cd9c7fb2126" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="26" of-type="Theorem" of-item="8.25" of-src-filename="week8.xml" ofmd5="cb147fcfae2b64a2477e6cd9c7fb2126" of-serial="" filename="week8.xml" file_md5="f91bf129f491aed8cc4ffd7efd808eca"/>
     </entry>
-    <entry md5="963e2cc1e3a2e478611a672d21ac6c47" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="1" course="Math 2078" chapter="9" slide="3" item="9.1" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="1" md5="963e2cc1e3a2e478611a672d21ac6c47" course="Math 2078" chapter="9" slide="3" item="9.1" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="0771d5f86bf61c0125b5841ae455cab9" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="3" of="963e2cc1e3a2e478611a672d21ac6c47" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="3" of-type="Claim" of-item="9.1" of-src-filename="week9.xml" ofmd5="963e2cc1e3a2e478611a672d21ac6c47" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0771d5f86bf61c0125b5841ae455cab9" course="Math 2078" chapter="9" slide="3" of="963e2cc1e3a2e478611a672d21ac6c47" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="3" of-type="Claim" of-item="9.1" of-src-filename="week9.xml" ofmd5="963e2cc1e3a2e478611a672d21ac6c47" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="acf88bc4556b717fbb31ace5cebe6fc5" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="2" course="Math 2078" chapter="9" slide="5" item="9.2" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="2" md5="acf88bc4556b717fbb31ace5cebe6fc5" course="Math 2078" chapter="9" slide="5" item="9.2" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="6b4ebc05e8cb268a358520e6283a75e3" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="5" of="acf88bc4556b717fbb31ace5cebe6fc5" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="5" of-type="Claim" of-item="9.2" of-src-filename="week9.xml" ofmd5="acf88bc4556b717fbb31ace5cebe6fc5" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6b4ebc05e8cb268a358520e6283a75e3" course="Math 2078" chapter="9" slide="5" of="acf88bc4556b717fbb31ace5cebe6fc5" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="5" of-type="Claim" of-item="9.2" of-src-filename="week9.xml" ofmd5="acf88bc4556b717fbb31ace5cebe6fc5" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="e8b7ffa34c4842301996d7a0e5a08f33" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" course="Math 2078" chapter="9" slide="5" item="9.3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" md5="e8b7ffa34c4842301996d7a0e5a08f33" course="Math 2078" chapter="9" slide="5" item="9.3" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" course="Math 2078" chapter="9" slide="6" item="9.4" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" md5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" course="Math 2078" chapter="9" slide="6" item="9.4" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="73dd8b75e9c74bead432dbb5a0f2704b" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="6" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="6" of-type="Claim" of-item="9.4" of-src-filename="week9.xml" ofmd5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="73dd8b75e9c74bead432dbb5a0f2704b" course="Math 2078" chapter="9" slide="6" of="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="6" of-type="Claim" of-item="9.4" of-src-filename="week9.xml" ofmd5="6d9ce9127a830cd0b5fcfcfa1e90e7a4" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="993c7ad44dad2b06493e1b9ba465adbb" environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" course="Math 2078" chapter="9" slide="7" item="9.5" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="993c7ad44dad2b06493e1b9ba465adbb" course="Math 2078" chapter="9" slide="7" item="9.5" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="1486f5b52a8fff9f86fe19ee7f4439ad" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="6" title="First Isomorphism Theorem" course="Math 2078" chapter="9" slide="8" item="9.6" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="6" title="First Isomorphism Theorem" md5="1486f5b52a8fff9f86fe19ee7f4439ad" course="Math 2078" chapter="9" slide="8" item="9.6" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="8">First Isomorphism Theorem</title>
-      </branch>
-    </entry>
-    <entry md5="6bece8d10a388a622fd14a7c2f2dde17" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="8" of="1486f5b52a8fff9f86fe19ee7f4439ad" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="8" of-type="Theorem" of-item="9.6" of-src-filename="week9.xml" ofmd5="1486f5b52a8fff9f86fe19ee7f4439ad" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6bece8d10a388a622fd14a7c2f2dde17" course="Math 2078" chapter="9" slide="8" of="1486f5b52a8fff9f86fe19ee7f4439ad" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="8" of-type="Theorem" of-item="9.6" of-src-filename="week9.xml" ofmd5="1486f5b52a8fff9f86fe19ee7f4439ad" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="921b526634907f81c0eaafc434d6b91e" environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" course="Math 2078" chapter="9" slide="9" item="9.7" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" md5="921b526634907f81c0eaafc434d6b91e" course="Math 2078" chapter="9" slide="9" item="9.7" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="4f706ef40c63abeca5dda6b8259a25fa" environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" course="Math 2078" chapter="9" slide="10" item="9.8" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="4f706ef40c63abeca5dda6b8259a25fa" course="Math 2078" chapter="9" slide="10" item="9.8" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="6508d08d4c532fd4090349222529c9bc" environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="9" title="Gaussian Integers" course="Math 2078" chapter="9" slide="11" item="9.9" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="9" title="Gaussian Integers" md5="6508d08d4c532fd4090349222529c9bc" course="Math 2078" chapter="9" slide="11" item="9.9" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="11">Gaussian Integers</title>
-      </branch>
-    </entry>
-    <entry md5="934d5ab0532d22f000cda91b29e6c63e" environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="10" course="Math 2078" chapter="9" slide="11" item="9.10" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="10" md5="934d5ab0532d22f000cda91b29e6c63e" course="Math 2078" chapter="9" slide="11" item="9.10" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="a780d473975decbb35a820a29e106575" environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" course="Math 2078" chapter="9" slide="12" item="9.11" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="a780d473975decbb35a820a29e106575" course="Math 2078" chapter="9" slide="12" item="9.11" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
-    <entry md5="064e5b43d04f32f770220d6b3d3c85dd" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="9" slide="12" of="a780d473975decbb35a820a29e106575" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="12" of-type="Example" of-item="9.11" of-src-filename="week9.xml" ofmd5="a780d473975decbb35a820a29e106575" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="064e5b43d04f32f770220d6b3d3c85dd" course="Math 2078" chapter="9" slide="12" of="a780d473975decbb35a820a29e106575" of-src-course="Math 2078" of-src-chapter="9" of-src-slide="12" of-type="Example" of-item="9.11" of-src-filename="week9.xml" ofmd5="a780d473975decbb35a820a29e106575" of-serial="" filename="week9.xml" file_md5="989a9d0d68ffe22b4c93929e6dea03b4"/>
-    </entry>
     <entry md5="66c81ec28bd2b6aec46624dff4b88876" environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" course="Math 2078" chapter="11" slide="3" item="11.1" filename="week11.xml" file_md5="46aa66e1797a0af55cd445ae7c17fb42">
       <branch environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="66c81ec28bd2b6aec46624dff4b88876" course="Math 2078" chapter="11" slide="3" item="11.1" filename="week11.xml" file_md5="46aa66e1797a0af55cd445ae7c17fb42"/>
     </entry>
@@ -1334,80 +1408,6 @@
     </entry>
     <entry md5="48cfd83638f33cdb0094b47704997990" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="11" slide="17" of="754a27a416ad77ccfae692cc66444325" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="17" of-type="Example" of-item="11.17" of-src-filename="week11.xml" ofmd5="754a27a416ad77ccfae692cc66444325" of-serial="" filename="week11.xml" file_md5="46aa66e1797a0af55cd445ae7c17fb42">
       <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48cfd83638f33cdb0094b47704997990" course="Math 2078" chapter="11" slide="17" of="754a27a416ad77ccfae692cc66444325" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="17" of-type="Example" of-item="11.17" of-src-filename="week11.xml" ofmd5="754a27a416ad77ccfae692cc66444325" of-serial="" filename="week11.xml" file_md5="46aa66e1797a0af55cd445ae7c17fb42"/>
-    </entry>
-    <entry md5="3c0464ad4416b97d36141ffd6ad5e3fd" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Rational Root Theorem" course="Math 2078" chapter="12" slide="3" item="12.1" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Rational Root Theorem" md5="3c0464ad4416b97d36141ffd6ad5e3fd" course="Math 2078" chapter="12" slide="3" item="12.1" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="3">Rational Root Theorem</title>
-      </branch>
-    </entry>
-    <entry md5="69afa5c1500692c9cdfffd7b31823c7c" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="3" of="3c0464ad4416b97d36141ffd6ad5e3fd" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="3" of-type="Theorem" of-item="12.1" of-src-filename="week12.xml" ofmd5="3c0464ad4416b97d36141ffd6ad5e3fd" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="69afa5c1500692c9cdfffd7b31823c7c" course="Math 2078" chapter="12" slide="3" of="3c0464ad4416b97d36141ffd6ad5e3fd" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="3" of-type="Theorem" of-item="12.1" of-src-filename="week12.xml" ofmd5="3c0464ad4416b97d36141ffd6ad5e3fd" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="fa31aede4c64516d6e3883385ff7a9d6" environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" course="Math 2078" chapter="12" slide="4" item="12.2" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="fa31aede4c64516d6e3883385ff7a9d6" course="Math 2078" chapter="12" slide="4" item="12.2" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="a963bda95da173c53ad5bcfabad308dd" environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" course="Math 2078" chapter="12" slide="4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="a963bda95da173c53ad5bcfabad308dd" course="Math 2078" chapter="12" slide="4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="af808fc5ae8233666af7e81712828d29" environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="3" title="Gauss's Lemma" course="Math 2078" chapter="12" slide="5" item="12.3" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="3" title="Gauss's Lemma" md5="af808fc5ae8233666af7e81712828d29" course="Math 2078" chapter="12" slide="5" item="12.3" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="5">Gauss's Lemma</title>
-      </branch>
-    </entry>
-    <entry md5="d5f8571d4c718bdbab64370dd5708211" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="5" of="af808fc5ae8233666af7e81712828d29" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="5" of-type="Lemma" of-item="12.3" of-src-filename="week12.xml" ofmd5="af808fc5ae8233666af7e81712828d29" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d5f8571d4c718bdbab64370dd5708211" course="Math 2078" chapter="12" slide="5" of="af808fc5ae8233666af7e81712828d29" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="5" of-type="Lemma" of-item="12.3" of-src-filename="week12.xml" ofmd5="af808fc5ae8233666af7e81712828d29" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="4254f85499306c0d0e9620befefd2e33" environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="4" course="Math 2078" chapter="12" slide="6" item="12.4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="4" md5="4254f85499306c0d0e9620befefd2e33" course="Math 2078" chapter="12" slide="6" item="12.4" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="659d6ecb092d39d82f9c5db4d89cd7d7" environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="5" course="Math 2078" chapter="12" slide="6" item="12.5" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="5" md5="659d6ecb092d39d82f9c5db4d89cd7d7" course="Math 2078" chapter="12" slide="6" item="12.5" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="92b6096f2562a831af54897eb7f05aca" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="6" of="659d6ecb092d39d82f9c5db4d89cd7d7" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="6" of-type="Definition" of-item="12.5" of-src-filename="week12.xml" ofmd5="659d6ecb092d39d82f9c5db4d89cd7d7" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="92b6096f2562a831af54897eb7f05aca" course="Math 2078" chapter="12" slide="6" of="659d6ecb092d39d82f9c5db4d89cd7d7" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="6" of-type="Definition" of-item="12.5" of-src-filename="week12.xml" ofmd5="659d6ecb092d39d82f9c5db4d89cd7d7" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="acfea83363e1d036576467fd3f6d15be" environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" course="Math 2078" chapter="12" slide="7" item="12.6" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" md5="acfea83363e1d036576467fd3f6d15be" course="Math 2078" chapter="12" slide="7" item="12.6" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="4009b1c4ad404437e3586bad1d374665" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="7" of="acfea83363e1d036576467fd3f6d15be" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="7" of-type="Corollary" of-item="12.6" of-src-filename="week12.xml" ofmd5="acfea83363e1d036576467fd3f6d15be" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4009b1c4ad404437e3586bad1d374665" course="Math 2078" chapter="12" slide="7" of="acfea83363e1d036576467fd3f6d15be" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="7" of-type="Corollary" of-item="12.6" of-src-filename="week12.xml" ofmd5="acfea83363e1d036576467fd3f6d15be" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="b6714075a8500245e9a1da8997c1755b" environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" course="Math 2078" chapter="12" slide="8" item="12.7" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" md5="b6714075a8500245e9a1da8997c1755b" course="Math 2078" chapter="12" slide="8" item="12.7" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="973b16b6cd3dce7653231aebbb4564b5" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="8" of="b6714075a8500245e9a1da8997c1755b" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="8" of-type="Corollary" of-item="12.7" of-src-filename="week12.xml" ofmd5="b6714075a8500245e9a1da8997c1755b" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="973b16b6cd3dce7653231aebbb4564b5" course="Math 2078" chapter="12" slide="8" of="b6714075a8500245e9a1da8997c1755b" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="8" of-type="Corollary" of-item="12.7" of-src-filename="week12.xml" ofmd5="b6714075a8500245e9a1da8997c1755b" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="f569f469324025f59c31b4330b6a3d77" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="Gauss's Theorem" course="Math 2078" chapter="12" slide="9" item="12.8" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="Gauss's Theorem" md5="f569f469324025f59c31b4330b6a3d77" course="Math 2078" chapter="12" slide="9" item="12.8" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="9">Gauss's Theorem</title>
-      </branch>
-    </entry>
-    <entry md5="3c4756254d9dc0fb74981ccd467aee9a" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="9" of="f569f469324025f59c31b4330b6a3d77" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="9" of-type="Theorem" of-item="12.8" of-src-filename="week12.xml" ofmd5="f569f469324025f59c31b4330b6a3d77" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c4756254d9dc0fb74981ccd467aee9a" course="Math 2078" chapter="12" slide="9" of="f569f469324025f59c31b4330b6a3d77" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="9" of-type="Theorem" of-item="12.8" of-src-filename="week12.xml" ofmd5="f569f469324025f59c31b4330b6a3d77" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="b3315c7bc4fe2358ae8c9651cd40bd00" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" course="Math 2078" chapter="12" slide="10" item="12.9" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="b3315c7bc4fe2358ae8c9651cd40bd00" course="Math 2078" chapter="12" slide="10" item="12.9" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="d9ad97b972ed759d61631d562ff171c3" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="10" of="b3315c7bc4fe2358ae8c9651cd40bd00" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="10" of-type="Theorem" of-item="12.9" of-src-filename="week12.xml" ofmd5="b3315c7bc4fe2358ae8c9651cd40bd00" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d9ad97b972ed759d61631d562ff171c3" course="Math 2078" chapter="12" slide="10" of="b3315c7bc4fe2358ae8c9651cd40bd00" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="10" of-type="Theorem" of-item="12.9" of-src-filename="week12.xml" ofmd5="b3315c7bc4fe2358ae8c9651cd40bd00" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="affb2f9b427acb080edfcb267de8f12c" environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" course="Math 2078" chapter="12" slide="11" item="12.10" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="affb2f9b427acb080edfcb267de8f12c" course="Math 2078" chapter="12" slide="11" item="12.10" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="c2727f1dbeca94d1412c44da38fc7a9f" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="11" of="affb2f9b427acb080edfcb267de8f12c" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="11" of-type="Example" of-item="12.10" of-src-filename="week12.xml" ofmd5="affb2f9b427acb080edfcb267de8f12c" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="c2727f1dbeca94d1412c44da38fc7a9f" course="Math 2078" chapter="12" slide="11" of="affb2f9b427acb080edfcb267de8f12c" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="11" of-type="Example" of-item="12.10" of-src-filename="week12.xml" ofmd5="affb2f9b427acb080edfcb267de8f12c" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="c70386bd8f4f800e68f019faaa5f28d3" environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Eisenstein's Criterion" course="Math 2078" chapter="12" slide="12" item="12.11" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Eisenstein's Criterion" md5="c70386bd8f4f800e68f019faaa5f28d3" course="Math 2078" chapter="12" slide="12" item="12.11" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="12">Eisenstein's Criterion</title>
-      </branch>
-    </entry>
-    <entry md5="b699c0aca3f7581de8cf068ff0145f35" environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" course="Math 2078" chapter="12" slide="12" of="c70386bd8f4f800e68f019faaa5f28d3" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="12" of-type="Theorem" of-item="12.11" of-src-filename="week12.xml" ofmd5="c70386bd8f4f800e68f019faaa5f28d3" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="b699c0aca3f7581de8cf068ff0145f35" course="Math 2078" chapter="12" slide="12" of="c70386bd8f4f800e68f019faaa5f28d3" of-src-course="Math 2078" of-src-chapter="12" of-src-slide="12" of-type="Theorem" of-item="12.11" of-src-filename="week12.xml" ofmd5="c70386bd8f4f800e68f019faaa5f28d3" of-serial="" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
-    </entry>
-    <entry md5="ea2fb75a17d88905f82f74c7e5a3a4d3" environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" course="Math 2078" chapter="12" slide="13" item="12.12" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130">
-      <branch environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="ea2fb75a17d88905f82f74c7e5a3a4d3" course="Math 2078" chapter="12" slide="13" item="12.12" filename="week12.xml" file_md5="30652cb8d4951f6f09e5edb9f6b1f130"/>
     </entry>
     <ref environment="statement" chapter_type="" label="eg:subgroups" wbtag="ref" course="Math 2078" chapter="4" slide="6" referrer-type="Example" referrer-md5="ac32bfc2c42601b4b2fe91a735b592b8" src-course="Math 2078" src-chapter="3" src-slide="6" type="Example" item="3.4" src-filename="week3.xml" md5="3a8632057ec5b902b8a4bb5c67ae0717" class="lcref" serial="" filename="week4.xml" file_md5="7b42bc86f4125a27a8fd86154935d685"/>
     <ref environment="newcol" chapter_type="" label="lagrangethm" wbtag="ref" course="Math 2078" chapter="4" slide="6" referrer-type="Proof" referrer-md5="8b893f6f3c25abf839f5f371de1a2cda" src-course="Math 2078" src-chapter="4" src-slide="3" type="Theorem" item="4.1" src-filename="week4.xml" md5="73d51b0af4e4da963c2c84cd31fb0993" class="lcref" serial="" filename="week4.xml" file_md5="7b42bc86f4125a27a8fd86154935d685"/>

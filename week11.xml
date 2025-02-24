@@ -95,7 +95,7 @@ f = q(x - a) + f(a)
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d4fefef67ca36c1b73f8486737314f52" course="Math 2078" chapter="11" slide="4" of="1ef11bc2089db36061346b99b0a9d3bb" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="4" of-type="Lemma" of-item="11.2" of-src-filename="week11.xml" ofmd5="1ef11bc2089db36061346b99b0a9d3bb" of-serial="">
               <of-title hidden="true">Lemma 11.2</of-title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> By the </paragraphs>
-              <ref environment="substatement" chapter_type="" label="thm:divalgpoly" wbtag="ref" course="Math 2078" chapter="11" slide="4" referrer-type="Proof" referrer-md5="d4fefef67ca36c1b73f8486737314f52" src-course="Math 2078" src-chapter="9" src-slide="18" type="Theorem" item="9.17" src-filename="week9.xml" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" class="lcref" serial="">
+              <ref environment="substatement" chapter_type="" label="thm:divalgpoly" wbtag="ref" course="Math 2078" chapter="11" slide="4" referrer-type="Proof" referrer-md5="d4fefef67ca36c1b73f8486737314f52" src-course="Math 2078" src-chapter="8" src-slide="25" type="Theorem" item="8.24" src-filename="week8.xml" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" class="lcref" serial="">
                 <title custom="true">Division Theorem for Polynomials with Unit Leading Coefficients</title>
               </ref>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">,
@@ -354,8 +354,8 @@ is called the </paragraphs>
                 <col_ol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> By </paragraphs>
-                    <ref environment="col_ol" chapter_type="" label="thm:pidpoly" wbtag="ref" course="Math 2078" chapter="11" slide="9" referrer-type="Proof" referrer-md5="004062c7e7c889f00bd520c9fb77cc14" src-course="Math 2078" src-chapter="9" src-slide="19" type="Theorem" item="9.18" src-filename="week9.xml" md5="cb147fcfae2b64a2477e6cd9c7fb2126" class="lcref" serial="">
-                      <title>Theorem 9.18</title>
+                    <ref environment="col_ol" chapter_type="" label="thm:pidpoly" wbtag="ref" course="Math 2078" chapter="11" slide="9" referrer-type="Proof" referrer-md5="004062c7e7c889f00bd520c9fb77cc14" src-course="Math 2078" src-chapter="8" src-slide="26" type="Theorem" item="8.25" src-filename="week8.xml" md5="cb147fcfae2b64a2477e6cd9c7fb2126" class="lcref" serial="">
+                      <title>Theorem 8.25</title>
                     </ref>
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> , there exists $d = \sum_{i = 0}^n a_i x^i \in k[x]$ such that
 $(d) = (f, g)$.  Replacing $d$ by $a_n^{-1} d$ if necessary, we may assume that $d$ is a monic polynomial.
@@ -656,8 +656,8 @@ Hence, $\phi$ is surjective.</paragraphs>
                   <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We now find $\ker \phi$.
 Since $\mathbb{R}[x]$ is a PID (see </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2078" chapter="11" slide="17" referrer-type="Proof" referrer-md5="48cfd83638f33cdb0094b47704997990" src-course="Math 2078" src-chapter="9" src-slide="17" type="Definition" item="9.15" src-filename="week9.xml" md5="4ac60ad0846141cae22cdee387ec081b" class="lcref" serial="">
-                      <title>Definition 9.15</title>
+                    <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2078" chapter="11" slide="17" referrer-type="Proof" referrer-md5="48cfd83638f33cdb0094b47704997990" src-course="Math 2078" src-chapter="8" src-slide="24" type="Definition" item="8.22" src-filename="week8.xml" md5="4ac60ad0846141cae22cdee387ec081b" class="lcref" serial="">
+                      <title>Definition 8.22</title>
                     </ref>
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">).  There exists $p \in \mathbb{R}[x]$
 such that $\ker \phi = (p)$.</paragraphs>

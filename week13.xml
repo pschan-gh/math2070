@@ -237,8 +237,8 @@ Hence, $p | f$ in $k[x]$.</paragraphs>
 which is isomorphic to $k[x]/(p)$.  In particular, $\im \psi$ is an integral domain
 because $K$ has no zero divisors.
 Hence, by </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="thm:pirredfield" wbtag="ref" course="Math 2078" chapter="13" slide="6" referrer-type="Proof" referrer-md5="e85e9a24a97018cc8b9bd03cffec0900" src-course="Math 2078" src-chapter="11" src-slide="19" type="Theorem" item="11.20" src-filename="week11.xml" md5="b03e893af14e9abfb5b10e2dab6cac75" class="lcref" serial="">
-                        <title>Theorem 11.20</title>
+                      <ref environment="newcol" chapter_type="" label="thm:pirredfield" wbtag="ref" course="Math 2078" chapter="13" slide="6" referrer-type="Proof" referrer-md5="e85e9a24a97018cc8b9bd03cffec0900" src-course="Math 2078" src-chapter="11" src-slide="16" type="Theorem" item="11.16" src-filename="week11.xml" md5="b03e893af14e9abfb5b10e2dab6cac75" class="lcref" serial="">
+                        <title>Theorem 11.16</title>
                       </ref>
                       <paragraphs course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , the polynomial $p$ is an irreducible in $k[x]$.</paragraphs>
                       <newline course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>

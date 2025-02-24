@@ -22,7 +22,7 @@
         <keywords slide="1" environ="slide" chapter="" course="Math 2078"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="3" title="" topic="$\mathbb{Z}_n$, Subgroups, Left Cosets, Index" course="Math 2078" serial="3">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="3" title="" topic="$\mathbb{Z, Subgroups, Left Cosets, Index" course="Math 2078" serial="3">
       <keywords slide="all" environ="chapter" chapter="3" course="Math 2078">
         <keyword chapter="3" slide="all">cyclic</keyword>
         <keyword chapter="3" slide="all">subgroup</keyword>
@@ -39,18 +39,19 @@
         <keyword chapter="3" slide="all">index</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2078" chapter="3" section="" subsection="" subsubsection="" serial="" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="3" section="" subsection="" subsubsection="" serial="" slide="">$\mathbb{Z}_n$</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="3" section="" subsection="" subsubsection="" serial="" slide="">$\mathbb{Z</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="3" section="" subsection="" subsubsection="" serial="" slide="">Subgroups</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="3" section="" subsection="" subsubsection="" serial="" slide="">Left Cosets</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="3" section="" subsection="" subsubsection="" serial="" slide="">Index</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2078" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
-          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">$\mathbb{Z}_n$</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">$\mathbb{Z</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Subgroups</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Left Cosets</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Index</topic>
           <keywords slide="2" environ="slide" chapter="3" course="Math 2078"/>
+          <paragraphs course="Math 2078" chapter="3" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">_n$} </paragraphs>
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="The Cyclic Group mathbbZn" course="Math 2078" chapter="3" num="1" serial="3.1">

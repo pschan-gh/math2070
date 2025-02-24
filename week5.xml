@@ -208,22 +208,22 @@ by </paragraphs>
 &amp;
 \\
 &amp;
-\class{steps}{\cssId{step0}{= a^i b^jb^{-j'} a^{-i'}}}
+\class{steps}{\cssId{step0}{= a^i b^jb^{-j'}} a^{-i'}}
 &amp;
 \\
 &amp;
-\class{steps}{\cssId{step1}{= a^i b^{j - j'} a^{-i'}}}
+\class{steps}{\cssId{step1}{= a^i b^{j - j'}} a^{-i'}}
 &amp;
 \\
 &amp;
 \class{steps}{\cssId{step2}{= a^{i - i'}}}
 &amp;
-\class{steps}{\cssId{step3}{\text{ since } \ord b = 2.}}
+\class{steps}{\cssId{step3}{\text{ since}} \ord b = 2.}
 \\
 &amp;
 \class{steps}{\cssId{step4}{= e}}
 &amp;
-\class{steps}{\cssId{step5}{\text{ since } \ord a = 3.}}
+\class{steps}{\cssId{step5}{\text{ since}} \ord a = 3.}
 \end{align*}
 
 </steps>
@@ -698,7 +698,7 @@ gcd(b, a) &amp;= gcd(b_0, a_0)\\
 \class{steps}{\cssId{step2}{= \ldots}}
 \\
 &amp;
-\class{steps}{\cssId{step3}{= gcd(a_{n}, r_{n}) = gcd(a_n, 0) = \abs{a_n}.}}
+\class{steps}{\cssId{step3}{= gcd(a_{n}}, r_{n}) = gcd(a_n, 0) = \abs{a_n}.}
 \end{split}
 \]
 </steps>
@@ -718,13 +718,13 @@ gcd(b, a) &amp;= gcd(b_0, a_0)\\
 \begin{split}
 \underbrace{285}_{b_0} &amp;= \underbrace{255}_{a_0} \underbrace{1}_{q_0} + \underbrace{30}_{r_0}
 \\
-\class{steps}{\cssId{step0}{\underbrace{255}_{b_1 = a_0}}}
+\class{steps}{\cssId{step0}{\underbrace{255}}_{b_1 = a_0}}
 &amp;
-\class{steps}{\cssId{step1}{=\underbrace{30}_{a_1 = r_0} \underbrace{8}_{q_1} + \underbrace{15}_{r_1}}}
+\class{steps}{\cssId{step1}{=\underbrace{30}}_{a_1 = r_0} \underbrace{8}_{q_1} + \underbrace{15}_{r_1}}
 \\
-\class{steps}{\cssId{step2}{\underbrace{30}_{b_2}}}
+\class{steps}{\cssId{step2}{\underbrace{30}}_{b_2}}
 &amp;
-\class{steps}{\cssId{step3}{=\underbrace{15}_{a_2} \underbrace{2}_{q_2} + \underbrace{0}_{r_2}}}
+\class{steps}{\cssId{step3}{=\underbrace{15}}_{a_2} \underbrace{2}_{q_2} + \underbrace{0}_{r_2}}
 \end{split}
 \]
 </steps>

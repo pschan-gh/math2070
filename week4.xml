@@ -573,7 +573,7 @@ r_i r_j &amp;= r_1^i r_1^j = r_1^{i + j}
 \class{steps}{\cssId{step1}{= \left(r_1^n\right)^q r_1^{\ol{i + j}}}}
 \\
 &amp;
-\class{steps}{\cssId{step2}{= r_{\ol{i + j}}.}}
+\class{steps}{\cssId{step2}{= r_{\ol{i + j}}}.}
 \end{split}\]
 </steps>
                     <newline course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol"/>
@@ -585,9 +585,9 @@ r_i r_j &amp;= r_1^i r_1^j = r_1^{i + j}
 \\&amp;
 \class{steps}{\cssId{step0}{= \ol{i + j}}}
 \\&amp;
-\class{steps}{\cssId{step1}{= i +_{\mathbb{Z}_n} j}}
+\class{steps}{\cssId{step1}{= i +_{\mathbb{Z}}_n} j}
 \\&amp;
-\class{steps}{\cssId{step2}{=\phi(r_i) +_{\mathbb{Z}_n} \phi(r_j).}}
+\class{steps}{\cssId{step2}{=\phi(r_i) +_{\mathbb{Z}}_n} \phi(r_j).}
 \end{split}\]
 </steps>
                       <collapse course="Math 2078" chapter="4" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="collapse">

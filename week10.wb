@@ -1,2 +1,98 @@
 @course{Math 2078}
 @week{10}
+@slide
+@thm
+@title{Correspondence Theorem for Rings}
+Let $R$ be commutative ring, and $I$
+a proper ideal of $R$.
+Then, the natural map $\pi : R \longrightarrow R/I$ induces a bijection $\pi'$ of between the set of ideals of $R/I$ and the set of all ideals of $R$ which contains $I$.
+
+More precisely, for each ideal $J$ of $R$ which contains $I$:
+\[
+\pi' : J \mapsto J/I := \{a + I : a \in J\}
+\]
+This bijection is ``inclusion-perserving", in the sense that if we have the following chain of inclusion of ideals $I \subseteq J' \subseteq J$ in $R$,
+then:
+\[
+\pi'(J') \subseteq \pi'(J).
+\]
+@slide
+@def
+An ideal $I$ in a commutative ring $R$ is said to be a __prime ideal__ if it is proper ($I\subsetneq R$) and $ab \in I$ implies that at least one of $a, b$ lies in $I$.
+@end
+@prop
+@col
+If $k$ is a field, then a nonzero polynomial $p \in k[x]$ is irreducible if and only if $(p)$ is a prime ideal.
+@end
+@prop
+@col
+A proper ideal $I$ in a commutative ring $R$ is a prime ideal if and only if the quotient ring $R/I$ is an integral domain.
+@end
+@slide
+@def
+An ideal $I$ in a commutative ring $R$ is said to be a __maximal ideal__ if $I \subsetneq R$ and there is no proper ideal $J$ of $R$ which properly includes $I$:
+\[
+I \subsetneq J \subsetneq R
+\]
+@end
+@lemma
+The zero ideal $\{0\}$ of a commutative ring $R$ is a maximal ideal if and only if $R$ is a field.
+@end
+@slide
+@prop
+A proper ideal $I$ in a commutative ring $R$ is a maixmal ideal if and only if the quotient ring $R/I$ is a field.
+@end
+@cor
+Evey maximal ideal of a commutative ring is a prime ideal.
+@end
+@eg
+@col
+There are prime ideals which are not maximal ideals.
+
+Take $I = (x)$ in $\mathbb{Z}[x]$.
+Then, $I$ is a prime ideal, but $\mathbb{Z}[x]/(x)$ is a not a field. So, $I$ is not a maximal ideal in $\mathbb{Z}$.
+@end
+@eg
+@col
+Let $p$ be a prime.
+Define an ideal $J \subsetneq I$ as follows:
+\[
+J 
+= (x, p)
+= \{f \in \mathbb{Z}[x] : p \text{ divides constant term of } f \}.
+\]
+Then, $\mathbb{Z}[x] / J \cong \mathbb{Z}/p\mathbb{Z}$, which is a field.
+Hence, $J$ is a maximal ideal.
+@end
+@slide
+@prop
+Let $n$ be any positive integer.
+Let $k$ be a field. Then, for any $a_1, a_2, \ldots, a_n$, the ideal:
+\[
+(x_1 - a_1, \ldots, x_n - a_n)
+\]
+is a maximal ideal of $k[x_1, x_2, \ldots, x_n]$.
+@end
+@slide
+@thm
+If $R$ is a PID, then every nonzero prime ideal $I$ is a maximal ideal.
+@end
+@cor
+If $k$ is a field and $p \in k[x]$ is irreducile, then the quotient ring $k[x]/(p)$
+is a field.
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

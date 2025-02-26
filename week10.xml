@@ -1,6 +1,10 @@
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 2078">
-    <keywords slide="all" environ="course" chapter="" course="Math 2078"/>
+    <keywords slide="all" environ="course" chapter="" course="Math 2078">
+      <keyword chapter="" slide="all">prime ideal</keyword>
+      <keyword chapter="" slide="all">maximal ideal</keyword>
+      <keyword chapter="" slide="all">Correspondence Theorem for Rings</keyword>
+    </keywords>
     <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2078" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2078</title>
     <slides environment="" chapter_type="">
       <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2078" title="Math 2078" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
@@ -9,12 +13,125 @@
       </slide>
     </slides>
     <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="10" title="" course="Math 2078" serial="10">
-      <keywords slide="all" environ="chapter" chapter="10" course="Math 2078"/>
+      <keywords slide="all" environ="chapter" chapter="10" course="Math 2078">
+        <keyword chapter="10" slide="all">prime ideal</keyword>
+        <keyword chapter="10" slide="all">maximal ideal</keyword>
+        <keyword chapter="10" slide="all">Correspondence Theorem for Rings</keyword>
+      </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" serial="" slide=""/>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
           <keywords slide="2" environ="slide" chapter="10" course="Math 2078"/>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="3" id="s3" slide="3" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="3" environ="slide" chapter="10" course="Math 2078">
+            <keyword chapter="10" slide="3">Correspondence Theorem for Rings</keyword>
+          </keywords>
+          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Correspondence Theorem for Rings" md5="3cfc0eb978226b73959b6f63ee85f57b" course="Math 2078" chapter="10" slide="3" item="10.1">
+            <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" serial="" slide="3">Correspondence Theorem for Rings</title>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be commutative ring, and $I$
+a proper ideal of $R$.
+Then, the natural map $\pi : R \longrightarrow R/I$ induces a bijection $\pi'$ of between the set of ideals of $R/I$ and the set of all ideals of $R$ which contains $I$.</paragraphs>
+            <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">More precisely, for each ideal $J$ of $R$ which contains $I$:
+\[
+\pi' : J \mapsto J/I := \{a + I : a \in J\}
+\]
+This bijection is ``inclusion-perserving", in the sense that if we have the following chain of inclusion of ideals $I \subseteq J' \subseteq J$ in $R$,
+then:
+\[
+\pi'(J') \subseteq \pi'(J).
+\] </paragraphs>
+          </statement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="4" environ="slide" chapter="10" course="Math 2078">
+            <keyword chapter="10" slide="4">prime ideal</keyword>
+          </keywords>
+          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="6d77c91ee3c77dd20d3fa0c738f74f9c" course="Math 2078" chapter="10" slide="4" item="10.2">
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> An ideal $I$ in a commutative ring $R$ is said to be a </paragraphs>
+            <inline_keyword course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement">prime ideal</inline_keyword>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if it is proper ($I\subsetneq R$) and $ab \in I$ implies that at least one of $a, b$ lies in $I$. </paragraphs>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="3" md5="30d91089aaa6a0c440a150a22e80b13e" course="Math 2078" chapter="10" slide="4" item="10.3">
+            <newcol course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $k$ is a field, then a nonzero polynomial $p \in k[x]$ is irreducible if and only if $(p)$ is a prime ideal. </paragraphs>
+            </newcol>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="4" md5="82d33a07cb5a0d89a3fc7982f64577de" course="Math 2078" chapter="10" slide="4" item="10.4">
+            <newcol course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> A proper ideal $I$ in a commutative ring $R$ is a prime ideal if and only if the quotient ring $R/I$ is an integral domain. </paragraphs>
+            </newcol>
+          </statement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="5" environ="slide" chapter="10" course="Math 2078">
+            <keyword chapter="10" slide="5">maximal ideal</keyword>
+          </keywords>
+          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="5" md5="ecc37ef42773ecb01fea20154ac81dac" course="Math 2078" chapter="10" slide="5" item="10.5">
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> An ideal $I$ in a commutative ring $R$ is said to be a </paragraphs>
+            <inline_keyword course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement">maximal ideal</inline_keyword>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if $I \subsetneq R$ and there is no proper ideal $J$ of $R$ which properly includes $I$:
+\[
+I \subsetneq J \subsetneq R
+\] </paragraphs>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="6" md5="b8359629b1bd6ffc107a27641bb4ed4a" course="Math 2078" chapter="10" slide="5" item="10.6">
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The zero ideal $\{0\}$ of a commutative ring $R$ is a maximal ideal if and only if $R$ is a field. </paragraphs>
+          </statement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="6" environ="slide" chapter="10" course="Math 2078"/>
+          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="7" md5="4fc4f8b17e97f8030a9f30aa88248d21" course="Math 2078" chapter="10" slide="6" item="10.7">
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A proper ideal $I$ in a commutative ring $R$ is a maixmal ideal if and only if the quotient ring $R/I$ is a field. </paragraphs>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="8" md5="8fece5960732404dc58c86db7bcdcac4" course="Math 2078" chapter="10" slide="6" item="10.8">
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Evey maximal ideal of a commutative ring is a prime ideal. </paragraphs>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="c5f0151b273da2715234da046dc8bbf4" course="Math 2078" chapter="10" slide="6" item="10.9">
+            <newcol course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> There are prime ideals which are not maximal ideals.</paragraphs>
+              <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Take $I = (x)$ in $\mathbb{Z}[x]$.
+Then, $I$ is a prime ideal, but $\mathbb{Z}[x]/(x)$ is a not a field. So, $I$ is not a maximal ideal in $\mathbb{Z}$. </paragraphs>
+            </newcol>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="028274d26eb51e03a4224e4f95d45c6b" course="Math 2078" chapter="10" slide="6" item="10.10">
+            <newcol course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $p$ be a prime.
+Define an ideal $J \subsetneq I$ as follows:
+\[
+J 
+= (x, p)
+= \{f \in \mathbb{Z}[x] : p \text{ divides constant term of } f \}.
+\]
+Then, $\mathbb{Z}[x] / J \cong \mathbb{Z}/p\mathbb{Z}$, which is a field.
+Hence, $J$ is a maximal ideal. </paragraphs>
+            </newcol>
+          </statement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="7" environ="slide" chapter="10" course="Math 2078"/>
+          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="11" md5="07a65a1441650936e733591bb63b9e22" course="Math 2078" chapter="10" slide="7" item="10.11">
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $n$ be any positive integer.
+Let $k$ be a field. Then, for any $a_1, a_2, \ldots, a_n$, the ideal:
+\[
+(x_1 - a_1, \ldots, x_n - a_n)
+\]
+is a maximal ideal of $k[x_1, x_2, \ldots, x_n]$. </paragraphs>
+          </statement>
+        </slide>
+        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <keywords slide="8" environ="slide" chapter="10" course="Math 2078"/>
+          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="e243f0d7d5aaf906a4fb1d71fccdaaf8" course="Math 2078" chapter="10" slide="8" item="10.12">
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $R$ is a PID, then every nonzero prime ideal $I$ is a maximal ideal. </paragraphs>
+          </statement>
+          <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="13" md5="d7be628fcd3e7aa842f9c2ccf9f3cbe5" course="Math 2078" chapter="10" slide="8" item="10.13">
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $k$ is a field and $p \in k[x]$ is irreducile, then the quotient ring $k[x]/(p)$
+is a field. </paragraphs>
+          </statement>
+          <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
         </slide>
       </slides>
     </chapter>

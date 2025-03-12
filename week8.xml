@@ -15,7 +15,6 @@
       <keyword chapter="" slide="all">principal ideal</keyword>
       <keyword chapter="" slide="all">Principal Ideal Domain</keyword>
       <keyword chapter="" slide="all">PID</keyword>
-      <keyword chapter="" slide="all">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
     </keywords>
     <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2078" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2078</title>
     <slides environment="" chapter_type="">
@@ -40,7 +39,6 @@
         <keyword chapter="8" slide="all">principal ideal</keyword>
         <keyword chapter="8" slide="all">Principal Ideal Domain</keyword>
         <keyword chapter="8" slide="all">PID</keyword>
-        <keyword chapter="8" slide="all">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2078" chapter="8" section="" subsection="" subsubsection="" serial="" slide=""/>
       <slides environment="" chapter_type="">
@@ -895,120 +893,6 @@ for all $r \in \mathbb{Z}$, which implies that $(d) \subseteq I$.</paragraphs>
                             <qed course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                           </collapse>
                         </collapse>
-                      </collapse>
-                    </collapse>
-                  </collapse>
-                </collapse>
-              </newcol>
-            </substatement>
-            <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="25" id="s25" slide="25" course="Math 2078" chapter="8" section="3" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideals">
-            <keywords slide="25" environ="slide" chapter="8" course="Math 2078">
-              <keyword chapter="8" slide="25">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
-            </keywords>
-            <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We claim that for any field $k$, the ring of polynomials
-$k[x]$ is also a PID.</paragraphs>
-            <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">To prove this we first establish the following theorem:</paragraphs>
-            <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="24" title="Division Theorem for Polynomials with Unit Leading Coefficients" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" course="Math 2078" chapter="8" slide="25" item="8.24">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="8" section="3" subsection="" subsubsection="" serial="" slide="25">Division Theorem for Polynomials with Unit Leading Coefficients</title>
-              <label wbtag="label" name="thm:divalgpoly" type="Theorem"/>
-              <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.  For all $d, f \in R[x]$, such that the leading coefficient of $d$ is a unit in $R$,
-there exist $q , r \in R[x]$ such that:
-\[
-f = qd + r,
-\]
-with $\deg r &lt; \deg d$. </paragraphs>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="46cba4fb237d16241d49988aed460464" course="Math 2078" chapter="8" slide="25" of="4b69f068400a3bb3ab9ad76ed3d6a6e0" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="25" of-type="Theorem" of-item="8.24" of-src-filename="week8.xml" ofmd5="4b69f068400a3bb3ab9ad76ed3d6a6e0" of-serial="">
-              <of-title hidden="true">Division Theorem for Polynomials with Unit Leading Coefficients</of-title>
-              <newcol course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The proof is essentially the same as that of the division theorem for $\mathbb{Q}[x]$.  We prove by induction:</paragraphs>
-                <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The base case corresponds to the case where $\deg f &lt; \deg d$; and the inductive step
-corresponds to showing that, for any fixed $d$, the claim holds for $f$ if it holds for all
-$f'$ with $\deg f' &lt; \deg f$.</paragraphs>
-                  <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Base case: If $\deg f &lt; \deg d$, we take $r = f$.  Then, indeed $f = 0\cdot d + r$, with $\deg r &lt; \deg d$.</paragraphs>
-                    <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Inductive step:
-Let $d =\sum_{i = 0}^n a_i x^i\in R[x]$ be fixed, where $a_n$ is a unit in $R$.
-For any given $f = \sum_{i = 0}^m b_ix^i \in R[x]$, $m \geq n$,
-suppose the claim holds for all $f'$ with $\deg f' &lt; \deg f$.</paragraphs>
-                      <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                      <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let:
-\[
-f' = f - a_n^{-1}b_m x^{m - n} d.
-\] </paragraphs>
-                        <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Then, $\deg f' &lt; \deg f$, hence by hypothesis there exist $q', r' \in R[x]$, with $\deg r' &lt; \deg d$,
-such that:
-\[
-f - a_n^{-1}b_m x^{m - n} d = f' = q' d + r',
-\] </paragraphs>
-                          <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                            <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that:
-\[
-f = (q' + a_n^{-1}b_m x^{m - n}) d + r'.
-\] </paragraphs>
-                            <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                              <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $f = qd + r'$, where $q = q' + a_n^{-1}b_m x^{m - n} \in R[x]$, and $\deg r' &lt; \deg d$. </paragraphs>
-                              <qed course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                            </collapse>
-                          </collapse>
-                        </collapse>
-                      </collapse>
-                    </collapse>
-                  </collapse>
-                </collapse>
-              </newcol>
-            </substatement>
-            <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="26" id="s26" slide="26" course="Math 2078" chapter="8" section="3" subsection="" subsubsection="" chapter_title="" section_title="Principal Ideals">
-            <keywords slide="26" environ="slide" chapter="8" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="25" md5="cb147fcfae2b64a2477e6cd9c7fb2126" course="Math 2078" chapter="8" slide="26" item="8.25">
-              <label wbtag="label" name="thm:pidpoly" type="Theorem"/>
-              <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Then, $k[x]$ is a PID. </paragraphs>
-            </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="19c29c16368d2f0619952c1519b4a600" course="Math 2078" chapter="8" slide="26" of="cb147fcfae2b64a2477e6cd9c7fb2126" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="26" of-type="Theorem" of-item="8.25" of-src-filename="week8.xml" ofmd5="cb147fcfae2b64a2477e6cd9c7fb2126" of-serial="">
-              <of-title hidden="true">Theorem 8.25</of-title>
-              <newcol course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $k$ is a field, the previous claim holds for all $d, f \in k[x]$ such that $d \neq 0$.</paragraphs>
-                <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $I$ be an ideal of $k[x]$.</paragraphs>
-                  <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                  <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">If $I = \{0\}$ then, it is principal, since $\{0\} = (0)$.</paragraphs>
-                  <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                  <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Suppose $I$ is nonzero.
-Let $d$ be the polynomial in $I$ with the least degree among all nonzero polynomials
-in $I$.
-Since the degree of any nonzero polynomial is a nonnegative integer,
-such an element $d$ exists by the Least Integer Axiom.
-It is clear that $(d) \subseteq I$.  It remains to show that $I \subseteq (d)$.</paragraphs>
-                  <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $f \in I$, by the previous claim we have:
-\[
-f = qd + r,
-\]
-for some $q, r \in k[x]$ such that $\deg r &lt; \deg d$.</paragraphs>
-                    <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that $r = f - qd = f + (-1)qd$ lies in $I$.
-Since $d$ is a nonzero element of $I$ with the least degree, the element $r$ must necessarily be zero.</paragraphs>
-                      <newline course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                      <collapse course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In order words $f = qd$, which implies that $f \in (d)$.
-Hence, $I \subseteq (d)$, and we may now conclude that $I = (d)$. </paragraphs>
-                        <qed course="Math 2078" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                       </collapse>
                     </collapse>
                   </collapse>

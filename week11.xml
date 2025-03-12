@@ -8,6 +8,7 @@
       <keyword chapter="" slide="all">GCD</keyword>
       <keyword chapter="" slide="all">relatively prime</keyword>
       <keyword chapter="" slide="all">irreducible</keyword>
+      <keyword chapter="" slide="all">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
       <keyword chapter="" slide="all">Root Theorem</keyword>
       <keyword chapter="" slide="all">Euclid's Lemma</keyword>
       <keyword chapter="" slide="all">Unique Factorization</keyword>
@@ -28,11 +29,13 @@
         <keyword chapter="11" slide="all">GCD</keyword>
         <keyword chapter="11" slide="all">relatively prime</keyword>
         <keyword chapter="11" slide="all">irreducible</keyword>
+        <keyword chapter="11" slide="all">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
         <keyword chapter="11" slide="all">Root Theorem</keyword>
         <keyword chapter="11" slide="all">Euclid's Lemma</keyword>
         <keyword chapter="11" slide="all">Unique Factorization</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2078" chapter="11" section="" subsection="" subsubsection="" serial="" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="11" section="" subsection="" subsubsection="" serial="" slide="">Polynomial Rings</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2078" chapter="11" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
@@ -40,7 +43,6 @@
           <keywords slide="2" environ="slide" chapter="11" course="Math 2078"/>
         </slide>
       </slides>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="11" section="" subsection="" subsubsection="" serial="" slide="">Polynomial Rings</topic>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Polynomials over a Field" course="Math 2078" chapter="11" num="1" serial="11.1">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="">
           <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Polynomials over a Field</paragraphs>
@@ -48,12 +50,125 @@
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
             <keywords slide="3" environ="slide" chapter="11" course="Math 2078">
-              <keyword chapter="11" slide="3">evaluation homomorphism</keyword>
-              <keyword chapter="11" slide="3">root</keyword>
+              <keyword chapter="11" slide="3">Division Theorem for Polynomials with Unit Leading Coefficients</keyword>
             </keywords>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="3">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Polynomials over a Field</paragraphs>
             </title>
+            <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We claim that for any field $k$, the ring of polynomials
+$k[x]$ is a PID.</paragraphs>
+            <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">To prove this we first establish the following theorem:</paragraphs>
+            <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Division Theorem for Polynomials with Unit Leading Coefficients" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" course="Math 2078" chapter="11" slide="3" item="11.1">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="3">Division Theorem for Polynomials with Unit Leading Coefficients</title>
+              <label wbtag="label" name="thm:divalgpoly" type="Theorem"/>
+              <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.  For all $d, f \in R[x]$, such that the leading coefficient of $d$ is a unit in $R$,
+there exist $q , r \in R[x]$ such that:
+\[
+f = qd + r,
+\]
+with $\deg r &lt; \deg d$. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="46cba4fb237d16241d49988aed460464" course="Math 2078" chapter="11" slide="3" of="4b69f068400a3bb3ab9ad76ed3d6a6e0" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="3" of-type="Theorem" of-item="11.1" of-src-filename="week11.xml" ofmd5="4b69f068400a3bb3ab9ad76ed3d6a6e0" of-serial="">
+              <of-title hidden="true">Division Theorem for Polynomials with Unit Leading Coefficients</of-title>
+              <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The proof is essentially the same as that of the division theorem for $\mathbb{Q}[x]$.  We prove by induction:</paragraphs>
+                <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The base case corresponds to the case where $\deg f &lt; \deg d$; and the inductive step
+corresponds to showing that, for any fixed $d$, the claim holds for $f$ if it holds for all
+$f'$ with $\deg f' &lt; \deg f$.</paragraphs>
+                  <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Base case: If $\deg f &lt; \deg d$, we take $r = f$.  Then, indeed $f = 0\cdot d + r$, with $\deg r &lt; \deg d$.</paragraphs>
+                    <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Inductive step:
+Let $d =\sum_{i = 0}^n a_i x^i\in R[x]$ be fixed, where $a_n$ is a unit in $R$.
+For any given $f = \sum_{i = 0}^m b_ix^i \in R[x]$, $m \geq n$,
+suppose the claim holds for all $f'$ with $\deg f' &lt; \deg f$.</paragraphs>
+                      <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let:
+\[
+f' = f - a_n^{-1}b_m x^{m - n} d.
+\] </paragraphs>
+                        <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Then, $\deg f' &lt; \deg f$, hence by hypothesis there exist $q', r' \in R[x]$, with $\deg r' &lt; \deg d$,
+such that:
+\[
+f - a_n^{-1}b_m x^{m - n} d = f' = q' d + r',
+\] </paragraphs>
+                          <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that:
+\[
+f = (q' + a_n^{-1}b_m x^{m - n}) d + r'.
+\] </paragraphs>
+                            <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $f = qd + r'$, where $q = q' + a_n^{-1}b_m x^{m - n} \in R[x]$, and $\deg r' &lt; \deg d$. </paragraphs>
+                              <qed course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                            </collapse>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+            <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="4" environ="slide" chapter="11" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" md5="cb147fcfae2b64a2477e6cd9c7fb2126" course="Math 2078" chapter="11" slide="4" item="11.2">
+              <label wbtag="label" name="thm:pidpoly" type="Theorem"/>
+              <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Then, $k[x]$ is a PID. </paragraphs>
+            </statement>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="19c29c16368d2f0619952c1519b4a600" course="Math 2078" chapter="11" slide="4" of="cb147fcfae2b64a2477e6cd9c7fb2126" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="4" of-type="Theorem" of-item="11.2" of-src-filename="week11.xml" ofmd5="cb147fcfae2b64a2477e6cd9c7fb2126" of-serial="">
+              <of-title hidden="true">Theorem 11.2</of-title>
+              <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $k$ is a field, the previous claim holds for all $d, f \in k[x]$ such that $d \neq 0$.</paragraphs>
+                <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $I$ be an ideal of $k[x]$.</paragraphs>
+                  <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">If $I = \{0\}$ then, it is principal, since $\{0\} = (0)$.</paragraphs>
+                  <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Suppose $I$ is nonzero.
+Let $d$ be the polynomial in $I$ with the least degree among all nonzero polynomials
+in $I$.
+Since the degree of any nonzero polynomial is a nonnegative integer,
+such an element $d$ exists by the Least Integer Axiom.
+It is clear that $(d) \subseteq I$.  It remains to show that $I \subseteq (d)$.</paragraphs>
+                  <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $f \in I$, by the previous claim we have:
+\[
+f = qd + r,
+\]
+for some $q, r \in k[x]$ such that $\deg r &lt; \deg d$.</paragraphs>
+                    <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that $r = f - qd = f + (-1)qd$ lies in $I$.
+Since $d$ is a nonzero element of $I$ with the least degree, the element $r$ must necessarily be zero.</paragraphs>
+                      <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In order words $f = qd$, which implies that $f \in (d)$.
+Hence, $I \subseteq (d)$, and we may now conclude that $I = (d)$. </paragraphs>
+                        <qed course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="5" environ="slide" chapter="11" course="Math 2078">
+              <keyword chapter="11" slide="5">evaluation homomorphism</keyword>
+              <keyword chapter="11" slide="5">root</keyword>
+            </keywords>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $k$ be a field.
 For $f \in k[x]$ and $a \in k$, let:
 \[
@@ -62,7 +177,7 @@ f(a) = \phi_a(f),
 where $\phi_a$ is the </paragraphs>
             <inline_keyword course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="">evaluation homomorphism</inline_keyword>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> defined in </paragraphs>
-            <ref environment="" chapter_type="" label="eg:evalhomom" wbtag="ref" course="Math 2078" chapter="11" slide="3" src-course="Math 2078" src-chapter="8" src-slide="7" type="Example" item="8.5" src-filename="week8.xml" md5="3bca8a74c04e7763a3607fb2fcaadc80" class="lcref" serial="">
+            <ref environment="" chapter_type="" label="eg:evalhomom" wbtag="ref" course="Math 2078" chapter="11" slide="5" src-course="Math 2078" src-chapter="8" src-slide="7" type="Example" item="8.5" src-filename="week8.xml" md5="3bca8a74c04e7763a3607fb2fcaadc80" class="lcref" serial="">
               <title>Example 8.5</title>
             </ref>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">.
@@ -71,7 +186,7 @@ That is:
 \phi_a\left(\sum_{i = 0}^nc_ix^i \right) = \sum_{i = 0}^nc_ia^i .
 \]</paragraphs>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="66c81ec28bd2b6aec46624dff4b88876" course="Math 2078" chapter="11" slide="3" item="11.1">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="3" md5="66c81ec28bd2b6aec46624dff4b88876" course="Math 2078" chapter="11" slide="5" item="11.3">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f = \sum_{i = 0}^nc_ix^i$ be a polynomial in $k[x]$.
 An element $a \in k$ is a </paragraphs>
               <inline_keyword course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">root</inline_keyword>
@@ -81,21 +196,21 @@ f(a) = 0
 \]
 in $k$. </paragraphs>
             </statement>
-            <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="4" environ="slide" chapter="11" course="Math 2078"/>
-            <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="2" md5="1ef11bc2089db36061346b99b0a9d3bb" course="Math 2078" chapter="11" slide="4" item="11.2">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="6" environ="slide" chapter="11" course="Math 2078">
+              <keyword chapter="11" slide="6">Root Theorem</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="4" md5="1ef11bc2089db36061346b99b0a9d3bb" course="Math 2078" chapter="11" slide="6" item="11.4">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For all $f \in k[x]$, $a \in k$, there exists $q \in k[x]$ such that:
 \[
 f = q(x - a) + f(a)
 \] </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d4fefef67ca36c1b73f8486737314f52" course="Math 2078" chapter="11" slide="4" of="1ef11bc2089db36061346b99b0a9d3bb" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="4" of-type="Lemma" of-item="11.2" of-src-filename="week11.xml" ofmd5="1ef11bc2089db36061346b99b0a9d3bb" of-serial="">
-              <of-title hidden="true">Lemma 11.2</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d4fefef67ca36c1b73f8486737314f52" course="Math 2078" chapter="11" slide="6" of="1ef11bc2089db36061346b99b0a9d3bb" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="6" of-type="Lemma" of-item="11.4" of-src-filename="week11.xml" ofmd5="1ef11bc2089db36061346b99b0a9d3bb" of-serial="">
+              <of-title hidden="true">Lemma 11.4</of-title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> By the </paragraphs>
-              <ref environment="substatement" chapter_type="" label="thm:divalgpoly" wbtag="ref" course="Math 2078" chapter="11" slide="4" referrer-type="Proof" referrer-md5="d4fefef67ca36c1b73f8486737314f52" src-course="Math 2078" src-chapter="8" src-slide="25" type="Theorem" item="8.24" src-filename="week8.xml" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" class="lcref" serial="">
+              <ref environment="substatement" chapter_type="" label="thm:divalgpoly" wbtag="ref" course="Math 2078" chapter="11" slide="6" referrer-type="Proof" referrer-md5="d4fefef67ca36c1b73f8486737314f52" src-course="Math 2078" src-chapter="11" src-slide="3" type="Theorem" item="11.1" src-filename="week11.xml" md5="4b69f068400a3bb3ab9ad76ed3d6a6e0" class="lcref" serial="">
                 <title custom="true">Division Theorem for Polynomials with Unit Leading Coefficients</title>
               </ref>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">,
@@ -123,18 +238,13 @@ f(a) &amp;= \phi_a(q(x - a) + r)
 </steps>
               </newcol>
             </substatement>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="5" environ="slide" chapter="11" course="Math 2078">
-              <keyword chapter="11" slide="5">Root Theorem</keyword>
-            </keywords>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="3" title="Root Theorem" md5="fdf08d122e7c9eda7dbc19a6f9f37275" course="Math 2078" chapter="11" slide="5" item="11.3">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="5">Root Theorem</title>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" title="Root Theorem" md5="fdf08d122e7c9eda7dbc19a6f9f37275" course="Math 2078" chapter="11" slide="6" item="11.5">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="6">Root Theorem</title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, $f$ a polynomial in $k[x]$.  Then, $a \in k$
 is a root of $f$ if and only if $(x - a)$ divides $f$ in $k[x]$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="41aab7991acc83fe5a359af00a081453" course="Math 2078" chapter="11" slide="5" of="fdf08d122e7c9eda7dbc19a6f9f37275" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="5" of-type="Claim" of-item="11.3" of-src-filename="week11.xml" ofmd5="fdf08d122e7c9eda7dbc19a6f9f37275" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="41aab7991acc83fe5a359af00a081453" course="Math 2078" chapter="11" slide="6" of="fdf08d122e7c9eda7dbc19a6f9f37275" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="6" of-type="Claim" of-item="11.5" of-src-filename="week11.xml" ofmd5="fdf08d122e7c9eda7dbc19a6f9f37275" of-serial="">
               <of-title hidden="true">Root Theorem</of-title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> If $a \in k$ is a root of $f$, then by the previous lemma there exists $q \in k[x]$
 such that:
@@ -150,9 +260,9 @@ Hence, $a$ is a root of $f$. </paragraphs>
             </substatement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="6" environ="slide" chapter="11" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="4" md5="e23028af93c01e05926ac441bbd1d3c0" course="Math 2078" chapter="11" slide="6" item="11.4">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="7" environ="slide" chapter="11" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="6" md5="e23028af93c01e05926ac441bbd1d3c0" course="Math 2078" chapter="11" slide="7" item="11.6">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field, $f$ a nonzero polynomial in $k[x]$. </paragraphs>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
@@ -168,8 +278,8 @@ for some $c \in k$. </paragraphs>
                 </li>
               </ol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="91354d7bad7202aa43076fd43a5722eb" course="Math 2078" chapter="11" slide="6" of="e23028af93c01e05926ac441bbd1d3c0" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="6" of-type="Theorem" of-item="11.4" of-src-filename="week11.xml" ofmd5="e23028af93c01e05926ac441bbd1d3c0" of-serial="">
-              <of-title hidden="true">Theorem 11.4</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="91354d7bad7202aa43076fd43a5722eb" course="Math 2078" chapter="11" slide="7" of="e23028af93c01e05926ac441bbd1d3c0" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="7" of-type="Theorem" of-item="11.6" of-src-filename="week11.xml" ofmd5="e23028af93c01e05926ac441bbd1d3c0" of-serial="">
+              <of-title hidden="true">Theorem 11.6</of-title>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <ol xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                   <li environment="newcol">
@@ -255,15 +365,15 @@ Hence, $f = q(x - a_n) = c(x - a_1)(x - a_2)\cdots(x - a_{n - 1})(x - a_n)$. </p
               <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement"/>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="7" environ="slide" chapter="11" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="5" md5="fc0feeb467c57eba5f0ef92387037542" course="Math 2078" chapter="11" slide="7" item="11.5">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="8" environ="slide" chapter="11" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" md5="fc0feeb467c57eba5f0ef92387037542" course="Math 2078" chapter="11" slide="8" item="11.7">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.
 Let $n = {\rm max}\{\deg f, \deg g\}$.
 If $f(a) = g(a)$ for $n + 1$ distinct $a \in k$.  Then, $f = g$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5fc701a328ed32889bcee40859e2fef4" course="Math 2078" chapter="11" slide="7" of="fc0feeb467c57eba5f0ef92387037542" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="7" of-type="Corollary" of-item="11.5" of-src-filename="week11.xml" ofmd5="fc0feeb467c57eba5f0ef92387037542" of-serial="">
-              <of-title hidden="true">Corollary 11.5</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5fc701a328ed32889bcee40859e2fef4" course="Math 2078" chapter="11" slide="8" of="fc0feeb467c57eba5f0ef92387037542" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="8" of-type="Corollary" of-item="11.7" of-src-filename="week11.xml" ofmd5="fc0feeb467c57eba5f0ef92387037542" of-serial="">
+              <of-title hidden="true">Corollary 11.7</of-title>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $h = f - g$, then $\deg h \leq n$.  By hypothesis, there are $n + 1$ distinct elements $a \in k$
 such that $h(a) = f(a) - g(a) = 0$.  If $h \neq 0$,
@@ -275,26 +385,25 @@ Hence, $h$ must necessarily be the zero polynomial, which implies that $f = g$. 
             </substatement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="8" environ="slide" chapter="11" course="Math 2078">
-              <keyword chapter="11" slide="8">monic polynomial</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="9" environ="slide" chapter="11" course="Math 2078">
+              <keyword chapter="11" slide="9">monic polynomial</keyword>
             </keywords>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="6" md5="26ca35322b8375da145d52b1bdbeb373" course="Math 2078" chapter="11" slide="8" item="11.6">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="8" md5="26ca35322b8375da145d52b1bdbeb373" course="Math 2078" chapter="11" slide="9" item="11.8">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial in $k[x]$ is called a </paragraphs>
               <inline_keyword course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">monic polynomial</inline_keyword>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if its leading coefficient is $1$. </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="9" environ="slide" chapter="11" course="Math 2078">
-              <keyword chapter="11" slide="9">Greatest Common Divisor</keyword>
-              <keyword chapter="11" slide="9">GCD</keyword>
-              <keyword chapter="11" slide="9">relatively prime</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="10" environ="slide" chapter="11" course="Math 2078">
+              <keyword chapter="11" slide="10">Greatest Common Divisor</keyword>
+              <keyword chapter="11" slide="10">GCD</keyword>
+              <keyword chapter="11" slide="10">relatively prime</keyword>
             </keywords>
-            <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" md5="954c0637ea39d29081b585eb905c1ed0" course="Math 2078" chapter="11" slide="9" item="11.7">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="9" md5="954c0637ea39d29081b585eb905c1ed0" course="Math 2078" chapter="11" slide="10" item="11.9">
               <label wbtag="label" name="bezoutsforpolynomials" type="Corollary"/>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.  There exists a unique monic polynomial
 $d \in k[x]$ with the following property: </paragraphs>
@@ -348,14 +457,14 @@ is called the </paragraphs>
             </newcol>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="004062c7e7c889f00bd520c9fb77cc14" course="Math 2078" chapter="11" slide="9" of="954c0637ea39d29081b585eb905c1ed0" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="9" of-type="Corollary" of-item="11.7" of-src-filename="week11.xml" ofmd5="954c0637ea39d29081b585eb905c1ed0" of-serial="">
-              <of-title hidden="true">Corollary 11.7</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="004062c7e7c889f00bd520c9fb77cc14" course="Math 2078" chapter="11" slide="10" of="954c0637ea39d29081b585eb905c1ed0" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="10" of-type="Corollary" of-item="11.9" of-src-filename="week11.xml" ofmd5="954c0637ea39d29081b585eb905c1ed0" of-serial="">
+              <of-title hidden="true">Corollary 11.9</of-title>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> By </paragraphs>
-                    <ref environment="col_ol" chapter_type="" label="thm:pidpoly" wbtag="ref" course="Math 2078" chapter="11" slide="9" referrer-type="Proof" referrer-md5="004062c7e7c889f00bd520c9fb77cc14" src-course="Math 2078" src-chapter="8" src-slide="26" type="Theorem" item="8.25" src-filename="week8.xml" md5="cb147fcfae2b64a2477e6cd9c7fb2126" class="lcref" serial="">
-                      <title>Theorem 8.25</title>
+                    <ref environment="col_ol" chapter_type="" label="thm:pidpoly" wbtag="ref" course="Math 2078" chapter="11" slide="10" referrer-type="Proof" referrer-md5="004062c7e7c889f00bd520c9fb77cc14" src-course="Math 2078" src-chapter="11" src-slide="4" type="Theorem" item="11.2" src-filename="week11.xml" md5="cb147fcfae2b64a2477e6cd9c7fb2126" class="lcref" serial="">
+                      <title>Theorem 11.2</title>
                     </ref>
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> , there exists $d = \sum_{i = 0}^n a_i x^i \in k[x]$ such that
 $(d) = (f, g)$.  Replacing $d$ by $a_n^{-1} d$ if necessary, we may assume that $d$ is a monic polynomial.
@@ -402,48 +511,46 @@ It is then clear that if $h$ divides both $f$ and $g$, then $h$ must divide $d$.
             </substatement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="10" environ="slide" chapter="11" course="Math 2078">
-              <keyword chapter="11" slide="10">irreducible</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="11" environ="slide" chapter="11" course="Math 2078">
+              <keyword chapter="11" slide="11">irreducible</keyword>
             </keywords>
-            <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="8" md5="cbc97b55e3eb1db7609e0ab02ba83049" course="Math 2078" chapter="11" slide="10" item="11.8">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="10" md5="cbc97b55e3eb1db7609e0ab02ba83049" course="Math 2078" chapter="11" slide="11" item="11.10">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be a commutative ring.
 A nonzero element $p \in R$ which is not a unit is said to be </paragraphs>
               <inline_keyword course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">irreducible</inline_keyword>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if $p = ab$ implies that either $a$ or $b$ is a unit. </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="6a7ac7ae4dce7f64fcb7e2c2b5830b8d" course="Math 2078" chapter="11" slide="10" item="11.9">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="6a7ac7ae4dce7f64fcb7e2c2b5830b8d" course="Math 2078" chapter="11" slide="11" item="11.11">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$. </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="11" environ="slide" chapter="11" course="Math 2078"/>
-            <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Let $k$ be a field. </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="10" md5="df7a0ba35ef0d043bf31e1068cad258d" course="Math 2078" chapter="11" slide="11" item="11.10">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="12" environ="slide" chapter="11" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $k$ be a field. </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="12" md5="df7a0ba35ef0d043bf31e1068cad258d" course="Math 2078" chapter="11" slide="12" item="11.12">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A polynomial $f \in k[x]$ is a unit if and only if it is a
 nonzero constant polynomial. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="11" slide="11" of="df7a0ba35ef0d043bf31e1068cad258d" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="11" of-type="Lemma" of-item="11.10" of-src-filename="week11.xml" ofmd5="df7a0ba35ef0d043bf31e1068cad258d" of-serial="">
-              <of-title hidden="true">Lemma 11.10</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="11" slide="12" of="df7a0ba35ef0d043bf31e1068cad258d" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="12" of-type="Lemma" of-item="11.12" of-src-filename="week11.xml" ofmd5="df7a0ba35ef0d043bf31e1068cad258d" of-serial="">
+              <of-title hidden="true">Lemma 11.12</of-title>
               <strong xmlns="http://www.w3.org/1999/xhtml" environment="substatement">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">Exercise.</paragraphs>
               </strong>
             </substatement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="12" environ="slide" chapter="11" course="Math 2078"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="13" environ="slide" chapter="11" course="Math 2078"/>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="11" md5="8fb5602ba1db0cf60e376b4e99d0b3d6" course="Math 2078" chapter="11" slide="12" item="11.11">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="13" md5="8fb5602ba1db0cf60e376b4e99d0b3d6" course="Math 2078" chapter="11" slide="13" item="11.13">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A nonzero nonconstant polynomial $p \in k[x]$ is irreducible if and only if there is no $f, g \in k[x]$,
 with $\deg f, \deg g &lt; \deg p$, such that $fg = p$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="95b3d8b404f7193bae35a27fcfde7c03" course="Math 2078" chapter="11" slide="12" of="8fb5602ba1db0cf60e376b4e99d0b3d6" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="12" of-type="Claim" of-item="11.11" of-src-filename="week11.xml" ofmd5="8fb5602ba1db0cf60e376b4e99d0b3d6" of-serial="">
-              <of-title hidden="true">Claim 11.11</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="95b3d8b404f7193bae35a27fcfde7c03" course="Math 2078" chapter="11" slide="13" of="8fb5602ba1db0cf60e376b4e99d0b3d6" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="13" of-type="Claim" of-item="11.13" of-src-filename="week11.xml" ofmd5="8fb5602ba1db0cf60e376b4e99d0b3d6" of-serial="">
+              <of-title hidden="true">Claim 11.13</of-title>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p$ is irreducible, and $p = fg$ for some $f, g \in k[x]$ such that $\deg f, \deg g &lt; \deg p$.  Then $p = fg$ implies that $\deg f$ and $\deg g$ are both positive.
 By the previous lemma, both $f$ and $g$ are non-units, which is a contradiction,
@@ -461,18 +568,18 @@ Hence, $p$ is irreducible. </paragraphs>
               </newcol>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="13" environ="slide" chapter="11" course="Math 2078">
-              <keyword chapter="11" slide="13">Euclid's Lemma</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="14" environ="slide" chapter="11" course="Math 2078">
+              <keyword chapter="11" slide="14">Euclid's Lemma</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="12" title="Euclid's Lemma" md5="c3195296714abca0dd5f5b4bf0cf5302" course="Math 2078" chapter="11" slide="13" item="11.12">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="13">Euclid's Lemma</title>
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="14" title="Euclid's Lemma" md5="c3195296714abca0dd5f5b4bf0cf5302" course="Math 2078" chapter="11" slide="14" item="11.14">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="14">Euclid's Lemma</title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.
 Let $f, g$ be polynomials in $k[x]$.
 Let $p$ be an irreducible polynomial in $k[x]$.
 If $p | fg$ in $k[x]$, then $p | f$ or $p | g$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="900f766dd9b015696a4db8b743fc4f40" course="Math 2078" chapter="11" slide="13" of="c3195296714abca0dd5f5b4bf0cf5302" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="13" of-type="Lemma" of-item="11.12" of-src-filename="week11.xml" ofmd5="c3195296714abca0dd5f5b4bf0cf5302" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="900f766dd9b015696a4db8b743fc4f40" course="Math 2078" chapter="11" slide="14" of="c3195296714abca0dd5f5b4bf0cf5302" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="14" of-type="Lemma" of-item="11.14" of-src-filename="week11.xml" ofmd5="c3195296714abca0dd5f5b4bf0cf5302" of-serial="">
               <of-title hidden="true">Euclid's Lemma</of-title>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose $p \nmid f$.
@@ -480,8 +587,8 @@ Then, any common divisor of $p$ and $f$ must have degree strictly less than $\de
 Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
 Hence, the GCD of $p$ and $f$ is $1$.
 By </paragraphs>
-                <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2078" chapter="11" slide="13" referrer-type="Proof" referrer-md5="900f766dd9b015696a4db8b743fc4f40" src-course="Math 2078" src-chapter="11" src-slide="9" type="Corollary" item="11.7" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
-                  <title>Corollary 11.7</title>
+                <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2078" chapter="11" slide="14" referrer-type="Proof" referrer-md5="900f766dd9b015696a4db8b743fc4f40" src-course="Math 2078" src-chapter="11" src-slide="10" type="Corollary" item="11.9" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
+                  <title>Corollary 11.9</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , there exist $a, b \in k[x]$ such that:
 \[
@@ -498,25 +605,25 @@ also divide the right-hand side, which is the polynomial $g$. </paragraphs>
                 </collapse>
               </newcol>
             </substatement>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="13" md5="26cc8b08e04b09ad63af6569d7afc3ef" course="Math 2078" chapter="11" slide="13" item="11.13">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="15" md5="26cc8b08e04b09ad63af6569d7afc3ef" course="Math 2078" chapter="11" slide="14" item="11.15">
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f, g \in k[x]$ are relatively prime, and both divide $h \in k[x]$,
 then $fg | h$. </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="11" slide="13" of="26cc8b08e04b09ad63af6569d7afc3ef" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="13" of-type="Claim" of-item="11.13" of-src-filename="week11.xml" ofmd5="26cc8b08e04b09ad63af6569d7afc3ef" of-serial="">
-              <of-title hidden="true">Claim 11.13</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="11" slide="14" of="26cc8b08e04b09ad63af6569d7afc3ef" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="14" of-type="Claim" of-item="11.15" of-src-filename="week11.xml" ofmd5="26cc8b08e04b09ad63af6569d7afc3ef" of-serial="">
+              <of-title hidden="true">Claim 11.15</of-title>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <inline_keyword course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
               </newcol>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="14" environ="slide" chapter="11" course="Math 2078">
-              <keyword chapter="11" slide="14">Unique Factorization</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="15" environ="slide" chapter="11" course="Math 2078">
+              <keyword chapter="11" slide="15">Unique Factorization</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="14" title="Unique Factorization" md5="92042a9ad2deddf130c4271892172ded" course="Math 2078" chapter="11" slide="14" item="11.14">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="14">Unique Factorization</title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="16" title="Unique Factorization" md5="92042a9ad2deddf130c4271892172ded" course="Math 2078" chapter="11" slide="15" item="11.16">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="15">Unique Factorization</title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.
 Every nonconstant polynomial $f \in k[x]$ may be written as:
 \[
@@ -526,13 +633,13 @@ where $c$ is a nonzero constant,
 and each $p_i$ is a monic irreducible polynomial in $k[x]$.
 The factorization is unique up to the ordering of the factors. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1567ec707ddf57907aff40da3ffd9ad8" course="Math 2078" chapter="11" slide="14" of="92042a9ad2deddf130c4271892172ded" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="14" of-type="Theorem" of-item="11.14" of-src-filename="week11.xml" ofmd5="92042a9ad2deddf130c4271892172ded" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1567ec707ddf57907aff40da3ffd9ad8" course="Math 2078" chapter="11" slide="15" of="92042a9ad2deddf130c4271892172ded" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="15" of-type="Theorem" of-item="11.16" of-src-filename="week11.xml" ofmd5="92042a9ad2deddf130c4271892172ded" of-serial="">
               <of-title hidden="true">Unique Factorization</of-title>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <inline_keyword course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">Exercise.</inline_keyword>
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> One possible approach is very similar to the proof of unique factorization
 for $\mathbb{Z}$. See: </paragraphs>
-                <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2078" chapter="11" slide="14" referrer-type="Proof" referrer-md5="1567ec707ddf57907aff40da3ffd9ad8" src-course="Math 2078" src-chapter="6" src-slide="8" type="Theorem" item="6.12" src-filename="week6.xml" md5="20925de2d121a5944f47383054e6c6d0" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2078" chapter="11" slide="15" referrer-type="Proof" referrer-md5="1567ec707ddf57907aff40da3ffd9ad8" src-course="Math 2078" src-chapter="6" src-slide="8" type="Theorem" item="6.12" src-filename="week6.xml" md5="20925de2d121a5944f47383054e6c6d0" class="lcref" serial="">
                   <title custom="true">The Fundamental Theorem of Arithmetic</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
@@ -540,9 +647,9 @@ for $\mathbb{Z}$. See: </paragraphs>
             </substatement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="15" environ="slide" chapter="11" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="15" md5="9a0522c320c4e21963148beb07fd15e6" course="Math 2078" chapter="11" slide="15" item="11.15">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="16" environ="slide" chapter="11" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="17" md5="c66c904a6e545b8436c7da7bb286b0ba" course="Math 2078" chapter="11" slide="16" item="11.17">
               <enumerate course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
                 <item course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                   <webwork course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials3.pg"/>
@@ -551,9 +658,9 @@ for $\mathbb{Z}$. See: </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="16" environ="slide" chapter="11" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="16" md5="b03e893af14e9abfb5b10e2dab6cac75" course="Math 2078" chapter="11" slide="16" item="11.16">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="17" environ="slide" chapter="11" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="18" md5="b03e893af14e9abfb5b10e2dab6cac75" course="Math 2078" chapter="11" slide="17" item="11.18">
               <label wbtag="label" name="thm:pirredfield" type="Theorem"/>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
 The following statements are equivalent: </paragraphs>
@@ -569,21 +676,21 @@ The following statements are equivalent: </paragraphs>
                 </col_li>
               </col_ol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="f6d115a9f5b7589c33941b5fe44d18d9" course="Math 2078" chapter="11" slide="16">
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="f6d115a9f5b7589c33941b5fe44d18d9" course="Math 2078" chapter="11" slide="17">
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Compare this result with </paragraphs>
-                <ref environment="newcol" chapter_type="" label="ex:zmintdom" wbtag="ref" course="Math 2078" chapter="11" slide="16" referrer-type="Remark" referrer-md5="f6d115a9f5b7589c33941b5fe44d18d9" src-course="Math 2078" src-chapter="7" src-slide="15" type="Exercise" item="7.19" src-filename="week7.xml" md5="4f62ea99a34581084495ad126b1d7ed0" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="ex:zmintdom" wbtag="ref" course="Math 2078" chapter="11" slide="17" referrer-type="Remark" referrer-md5="f6d115a9f5b7589c33941b5fe44d18d9" src-course="Math 2078" src-chapter="7" src-slide="15" type="Exercise" item="7.19" src-filename="week7.xml" md5="4f62ea99a34581084495ad126b1d7ed0" class="lcref" serial="">
                   <title>Exercise 7.19</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and </paragraphs>
-                <ref environment="newcol" chapter_type="" label="cor:zpfield" wbtag="ref" course="Math 2078" chapter="11" slide="16" referrer-type="Remark" referrer-md5="f6d115a9f5b7589c33941b5fe44d18d9" src-course="Math 2078" src-chapter="7" src-slide="18" type="Corollary" item="7.24" src-filename="week7.xml" md5="faff551b28a29dea037337edd00bb258" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="cor:zpfield" wbtag="ref" course="Math 2078" chapter="11" slide="17" referrer-type="Remark" referrer-md5="f6d115a9f5b7589c33941b5fe44d18d9" src-course="Math 2078" src-chapter="7" src-slide="18" type="Corollary" item="7.24" src-filename="week7.xml" md5="faff551b28a29dea037337edd00bb258" class="lcref" serial="">
                   <title>Corollary 7.24</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
               </newcol>
             </substatement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e7663c827574c1016924669d6bba4cf4" course="Math 2078" chapter="11" slide="16" of="b03e893af14e9abfb5b10e2dab6cac75" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="16" of-type="Theorem" of-item="11.16" of-src-filename="week11.xml" ofmd5="b03e893af14e9abfb5b10e2dab6cac75" of-serial="">
-              <of-title hidden="true">Theorem 11.16</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="e7663c827574c1016924669d6bba4cf4" course="Math 2078" chapter="11" slide="17" of="b03e893af14e9abfb5b10e2dab6cac75" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="17" of-type="Theorem" of-item="11.18" of-src-filename="week11.xml" ofmd5="b03e893af14e9abfb5b10e2dab6cac75" of-serial="">
+              <of-title hidden="true">Theorem 11.18</of-title>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
@@ -615,8 +722,8 @@ we want to find its multiplicative inverse $\ol{f}^{-1}$.
 If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
 that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
 $GCD(p, f) = 1$.  By </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2078" chapter="11" slide="16" referrer-type="Proof" referrer-md5="e7663c827574c1016924669d6bba4cf4" src-course="Math 2078" src-chapter="11" src-slide="9" type="Corollary" item="11.7" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
-                        <title>Corollary 11.7</title>
+                      <ref environment="newcol" chapter_type="" label="bezoutsforpolynomials" wbtag="ref" course="Math 2078" chapter="11" slide="17" referrer-type="Proof" referrer-md5="e7663c827574c1016924669d6bba4cf4" src-course="Math 2078" src-chapter="11" src-slide="10" type="Corollary" item="11.9" src-filename="week11.xml" md5="954c0637ea39d29081b585eb905c1ed0" class="lcref" serial="">
+                        <title>Corollary 11.9</title>
                       </ref>
                       <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> there exist
 $g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,
@@ -630,13 +737,13 @@ which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$. 
             </substatement>
             <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
-            <keywords slide="17" environ="slide" chapter="11" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="17" md5="754a27a416ad77ccfae692cc66444325" course="Math 2078" chapter="11" slide="17" item="11.17">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Polynomials over a Field">
+            <keywords slide="18" environ="slide" chapter="11" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="19" md5="754a27a416ad77ccfae692cc66444325" course="Math 2078" chapter="11" slide="18" item="11.19">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The rings $\mathbb{R}[x]/(x^2 + 1)$ and $\mathbb{C}$ are isomorphic. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48cfd83638f33cdb0094b47704997990" course="Math 2078" chapter="11" slide="17" of="754a27a416ad77ccfae692cc66444325" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="17" of-type="Example" of-item="11.17" of-src-filename="week11.xml" ofmd5="754a27a416ad77ccfae692cc66444325" of-serial="">
-              <of-title hidden="true">Example 11.17</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="48cfd83638f33cdb0094b47704997990" course="Math 2078" chapter="11" slide="18" of="754a27a416ad77ccfae692cc66444325" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="18" of-type="Example" of-item="11.19" of-src-filename="week11.xml" ofmd5="754a27a416ad77ccfae692cc66444325" of-serial="">
+              <of-title hidden="true">Example 11.19</of-title>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Define a map $\phi : \mathbb{R}[x] \ra \mathbb{C}$ as follows:
 \[
@@ -656,7 +763,7 @@ Hence, $\phi$ is surjective.</paragraphs>
                   <collapse course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We now find $\ker \phi$.
 Since $\mathbb{R}[x]$ is a PID (see </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2078" chapter="11" slide="17" referrer-type="Proof" referrer-md5="48cfd83638f33cdb0094b47704997990" src-course="Math 2078" src-chapter="8" src-slide="24" type="Definition" item="8.22" src-filename="week8.xml" md5="4ac60ad0846141cae22cdee387ec081b" class="lcref" serial="">
+                    <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2078" chapter="11" slide="18" referrer-type="Proof" referrer-md5="48cfd83638f33cdb0094b47704997990" src-course="Math 2078" src-chapter="8" src-slide="24" type="Definition" item="8.22" src-filename="week8.xml" md5="4ac60ad0846141cae22cdee387ec081b" class="lcref" serial="">
                       <title>Definition 8.22</title>
                     </ref>
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">).  There exists $p \in \mathbb{R}[x]$

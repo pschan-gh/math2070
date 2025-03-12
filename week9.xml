@@ -9,6 +9,7 @@
       <keyword chapter="" slide="all">residue</keyword>
       <keyword chapter="" slide="all">First Isomorphism Theorem</keyword>
       <keyword chapter="" slide="all">Gaussian Integers</keyword>
+      <keyword chapter="" slide="all">Correspondence Theorem for Rings</keyword>
     </keywords>
     <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 2078" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 2078</title>
     <slides environment="" chapter_type="">
@@ -27,6 +28,7 @@
         <keyword chapter="9" slide="all">residue</keyword>
         <keyword chapter="9" slide="all">First Isomorphism Theorem</keyword>
         <keyword chapter="9" slide="all">Gaussian Integers</keyword>
+        <keyword chapter="9" slide="all">Correspondence Theorem for Rings</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 2078" chapter="9" section="" subsection="" subsubsection="" serial="" slide=""/>
       <slides environment="" chapter_type="">
@@ -515,6 +517,27 @@ in $\ZZ[i]/(1 + 3i)$.</paragraphs>
                 </collapse>
               </newcol>
             </substatement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Quotient Rings">
+            <keywords slide="13" environ="slide" chapter="9" course="Math 2078">
+              <keyword chapter="9" slide="13">Correspondence Theorem for Rings</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" title="Correspondence Theorem for Rings" md5="3cfc0eb978226b73959b6f63ee85f57b" course="Math 2078" chapter="9" slide="13" item="9.12">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="13">Correspondence Theorem for Rings</title>
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $R$ be commutative ring, and $I$
+a proper ideal of $R$.
+Then, the natural map $\pi : R \longrightarrow R/I$ induces a bijection $\pi'$ of between the set of ideals of $R/I$ and the set of all ideals of $R$ which contains $I$.</paragraphs>
+              <newline course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
+              <paragraphs course="Math 2078" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">More precisely, for each ideal $J$ of $R$ which contains $I$:
+\[
+\pi' : J \mapsto J/I := \{a + I : a \in J\}
+\]
+This bijection is ``inclusion-perserving", in the sense that if we have the following chain of inclusion of ideals $I \subseteq J' \subseteq J$ in $R$,
+then:
+\[
+\pi'(J') \subseteq \pi'(J).
+\]</paragraphs>
+            </statement>
           </slide>
         </slides>
       </section>

@@ -1,22 +1,6 @@
 @course{Math 2078}
 @week{10}
 @slide
-@thm
-@title{Correspondence Theorem for Rings}
-Let $R$ be commutative ring, and $I$
-a proper ideal of $R$.
-Then, the natural map $\pi : R \longrightarrow R/I$ induces a bijection $\pi'$ of between the set of ideals of $R/I$ and the set of all ideals of $R$ which contains $I$.
-
-More precisely, for each ideal $J$ of $R$ which contains $I$:
-\[
-\pi' : J \mapsto J/I := \{a + I : a \in J\}
-\]
-This bijection is ``inclusion-perserving", in the sense that if we have the following chain of inclusion of ideals $I \subseteq J' \subseteq J$ in $R$,
-then:
-\[
-\pi'(J') \subseteq \pi'(J).
-\]
-@slide
 @def
 An ideal $I$ in a commutative ring $R$ is said to be a __prime ideal__ if it is proper ($I\subsetneq R$) and $ab \in I$ implies that at least one of $a, b$ lies in $I$.
 @end

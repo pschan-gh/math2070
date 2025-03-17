@@ -616,7 +616,7 @@ is clearly $0$, so $\phi(mn) = 0$, which implies that $m \mathbb{Z}\subseteq \ke
               <paragraphs course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $A$ be a commutative ring.
 If $\phi : A \rightarrow B$ is a ring homomorphism, then $\ker \phi$ is an ideal of $A$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6a55595991263502c93cc2256df67d87" course="Math 2078" chapter="8" slide="18" of="f6d45000345868000b92827305467cab" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="18" of-type="Claim" of-item="8.16" of-src-filename="week8.xml" ofmd5="f6d45000345868000b92827305467cab" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="693cb1de1a929cac5ea405959bce082f" course="Math 2078" chapter="8" slide="18" of="f6d45000345868000b92827305467cab" of-src-course="Math 2078" of-src-chapter="8" of-src-slide="18" of-type="Claim" of-item="8.16" of-src-filename="week8.xml" ofmd5="f6d45000345868000b92827305467cab" of-serial="">
               <of-title hidden="true">Claim 8.16</of-title>
               <newcol course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <col_ol course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
@@ -629,9 +629,9 @@ Hence, $0 \in \ker \phi$. </paragraphs>
 Hence, $a + b \in \ker \phi$. </paragraphs>
                   </col_li>
                   <col_li course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Given any $a \in \ker \phi$, for all $r \in R$
+                    <paragraphs course="Math 2078" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Given any $a \in \ker \phi$, for all $r \in A$
 we have $\phi(ar) = \phi(a)\phi(r) = 0\cdot \phi(r) = 0$.
-Hence, $ar \in \ker \phi$ for all $r \in R$. </paragraphs>
+Hence, $ar \in \ker \phi$ for all $r \in A$. </paragraphs>
                   </col_li>
                 </col_ol>
               </newcol>

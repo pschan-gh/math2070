@@ -421,9 +421,9 @@ Hence, $0 \in \ker \phi$.
 If $a, b \in \ker \phi$, then $\phi(a + b) = \phi(a) + \phi(b) = 0 + 0 = 0$.
 Hence, $a + b \in \ker \phi$.
 @li
-Given any $a \in \ker \phi$, for all $r \in R$
+Given any $a \in \ker \phi$, for all $r \in A$
 we have $\phi(ar) = \phi(a)\phi(r) = 0\cdot \phi(r) = 0$.
-Hence, $ar \in \ker \phi$ for all $r \in R$.
+Hence, $ar \in \ker \phi$ for all $r \in A$.
 @endol
 @endcol
 @end

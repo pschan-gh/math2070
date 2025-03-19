@@ -4,10 +4,12 @@
 @def
 An ideal $I$ in a commutative ring $R$ is said to be a __prime ideal__ if it is proper ($I\subsetneq R$) and $ab \in I$ implies that at least one of $a, b$ lies in $I$.
 @end
+<!--
 @prop
 @col
 If $k$ is a field, then a nonzero polynomial $p \in k[x]$ is irreducible if and only if $(p)$ is a prime ideal.
 @end
+-->
 @prop
 @col
 A proper ideal $I$ in a commutative ring $R$ is a prime ideal if and only if the quotient ring $R/I$ is an integral domain.

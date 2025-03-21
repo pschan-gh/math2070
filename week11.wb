@@ -56,7 +56,10 @@ So, $f = qd + r'$, where $q = q' + a_n^{-1}b_m x^{m - n} \in R[x]$, and $\deg r'
 @qed
 @endcol
 @end
-
+@remark
+@col
+In particular, the division theorem holds for any any polynomial ring $k[x]$ over a field $k$. 
+@end
 @slide
 @thm
 @label{thm:pidpoly}
@@ -95,6 +98,259 @@ Hence, $I \subseteq (d)$, and we may now conclude that $I = (d)$.
 @qed
 @endcol
 @end
+@slide
+@defn
+A polynomial in $k[x]$ is called a @keyword{monic polynomial} if its leading coefficient is $1$.
+@end
+
+@cor
+@label{bezoutsforpolynomials}
+Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.  There exists a unique monic polynomial
+$d \in k[x]$ with the following property: <ol>
+<li> $(f, g) = (d)$ <br/> Moreover, this $d$ also satisfies the following properties: </li>
+<li>
+@newcol
+$d$ divides both $f$ and $g$, i.e., there exists $a, b \in k[x]$ such that $f = ad$, $g = bd$.
+@endcol</li>
+<li>
+@newcol
+There are polynomials $p, q \in k[x]$ such that $d = pf + qg$.
+@endcol</li>
+<li>
+@newcol
+If $h \in k[x]$ is a divisor of $f$ and $g$, then $h$ divides $d$.
+@endcol</li></ol>
+@end
+
+<strong>Terminology.</strong>
+@newcol
+<ul>
+<li> The unique monic $d \in k[x]$ which satisfies property 1
+is called the @keyword{Greatest Common Divisor} (<i>abbrev.</i> @keyword{GCD}) of $f$ and $g$. </li>
+<li> We say that $f$ and $g$ are @keyword{relatively prime} if their GCD is $1$. </li></ul>
+@endcol
+
+<br/>
+@proof
+@newcol
+@ol
+@li
+By @ref{thm:pidpoly} , there exists $d = \sum_{i = 0}^n a_i x^i \in k[x]$ such that
+$(d) = (f, g)$.  Replacing $d$ by $a_n^{-1} d$ if necessary, we may assume that $d$ is a monic polynomial.
+It remains to show that $d$ is unique.
+
+@newcol
+Suppose $(d) = (d')$, where both $d$ and $d'$ are monic polynomials.
+Then, there exist nonzero $p, q \in k[x]$
+such that:
+\[
+d' = pd,\quad d= qd'.
+\]
+@col
+Examining the degrees of the polynomials, we have:
+\[
+\deg d' = \deg d + \deg p,
+\]
+and:
+\[
+\deg d = \deg q + \deg d' = \deg p + \deg q + \deg d.
+\]
+@col
+This implies that $\deg p + \deg q = 0$.  Hence, $p$ and $q$ must both have degree $0$; in other words, they are
+constant polynomials.  Moreover, we have $\deg d = \deg d'$.
+Comparing the leading coefficients of $d'$ and $pd$, we have $p = 1$.
+Hence, $d = d'$.
+@endcol
+@li
+Clear.
+@li
+Clear.
+@li
+By Part 3 of the corollary, there are $p, q \in k[x]$ such that $d = pf + qg$.
+It is then clear that if $h$ divides both $f$ and $g$, then $h$ must divide $d$.
+@qed
+@endol
+@endcol
+@end
+@slide
+Let $k$ be a field.
+@lemma
+A polynomial $f \in k[x]$ is a unit if and only if it is a
+nonzero constant polynomial.
+@end
+@proof
+<strong>Exercise.</strong>
+@end
+
+@claim
+A nonzero nonconstant polynomial $p \in k[x]$ is irreducible if and only if there is no $f, g \in k[x]$,
+with $\deg f, \deg g < \deg p$, such that $fg = p$.
+@end
+@proof
+@newcol
+Suppose $p$ is irreducible, and $p = fg$ for some $f, g \in k[x]$ such that $\deg f, \deg g < \deg p$.  Then $p = fg$ implies that $\deg f$ and $\deg g$ are both positive.
+By the previous lemma, both $f$ and $g$ are non-units, which is a contradiction,
+since the irreducibility of $p$ implies that either $f$ or $g$ must be a unit.
+
+@col
+Conversely, suppose $p$ is a nonzero non-unit in $k[x]$,
+which is not equal to $fg$ for any $f, g \in k[x]$ with $\deg f, \deg g < \deg p$.
+Then, $p = ab$, $a$, $b \in k[x]$,
+implies that either $a$ or $b$ must have the same degree as $p$,
+and the other factor must be a nonzero constant, in other words a unit in $k[x]$.
+Hence, $p$ is irreducible.
+@qed
+@endcol
+@end
+
+@slide
+@thm
+@label{thm:pirredfield}
+Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
+The following statements are equivalent:
+@ol
+@li
+$k[x]/(p)$ is a field.
+@li
+$k[x]/(p)$ is an integral domain.
+@li
+$p$ is irreducible in $k[x]$.
+@endol
+@end
+@remark
+@newcol
+Compare this result with @ref{ex:zmintdom} and @ref{cor:zpfield} .
+@endcol
+@end
+@proof
+This follows directly from the facts that $k[x]$ is a PID.
+
+Recall that in a PID, $(p)$ is maximal if and only if $(p)$ is prime,
+which in turn holds if and only if $p$ is irreducible.
+<!--
+@newcol
+@ol
+@li
+$1 \Rightarrow 2$: Clear, since every field is an integral domain.
+@li
+$2 \Rightarrow 3$: If $p$ is not irreducible, there exist $f, g \in k[x]$,
+with degrees strictly less than that of $p$, such that $p = fg$.
+Since $\deg f, \deg g < \deg p$, the polynomial $p$ does not divide $f$ or $g$
+in $k[x]$.  Consequently, the congruence classes $\ol{f}$ and $\ol{g}$
+of $f$ and $g$, respectively, modulo $(p)$ is not equal to zero in $k[x]/(p)$.
+On the other hand, $\ol{f}\cdot \ol{g} = \ol{fg} = \ol{p} = 0$ in $k[x]/(p)$.
+This implies that $k[x]/(p)$ is not an integral domain, a contradiction.
+Hence, $p$ is irreducible if $k[x]/(p)$ is an integral domain.
+@li
+$3 \Rightarrow 1$:
+By definition, the multiplicative identity element $1$ of a field is different from the
+additive identity element $0$.  So we need to check that the congruence class of $1 \in k[x]$
+in $k[x]/(p)$ is not $0$.  Since $p$ is irreducible, by definition we have $\deg p > 0$.
+Hence, $1 \notin (p)$, for a polynomial of degree $> 0$ cannot divide a polynomial of degree $0$
+in $k[x]$.  We conclude that $1 + (p)\neq 0 + (p)$ in $k[x]/(p)$.
+
+@newcol
+Next, we need to prove the existence of the multiplicative inverse of any nonzero element in
+$k[x]/(p)$.
+Given any $f \in k[x]$ whose congruence class $\ol{f}$ modulo $(p)$ is nonzero in $k[x]/(p)$,
+we want to find its multiplicative inverse $\ol{f}^{-1}$.
+If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
+that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
+$GCD(p, f) = 1$.  By @ref{bezoutsforpolynomials} there exist
+$g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,
+since $fg - 1 = -hp$ implies that $fg - 1 \in (p)$,
+which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$.
+@endcol
+@qed
+@endol
+@endcol
+@end
+-->
+
+@slide
+@lemma
+@title{Euclid's Lemma}
+Let $k$ be a field.
+Let $f, g$ be polynomials in $k[x]$.
+Let $p$ be an irreducible polynomial in $k[x]$.
+If $p | fg$ in $k[x]$, $p$ must divide at least on of $f$ and $g$ in $k[x]$.
+@end
+@proof
+@newcol
+The condition $p | fg$ implies that $fg \in (p)$.
+
+@col
+By hypothesis, $p$ is irreducible, so $(p)$ is a prime ideal.
+This implies that at least one of $f$ and $g$ must lie in $(p)$,
+which is equivalent to saying that 
+$p$ divides at least on of $f$ and $g$ in $k[x]$.
+@endcol
+<!--
+@newcol
+Suppose $p \nmid f$.
+Then, any common divisor of $p$ and $f$ must have degree strictly less than $\deg p$.
+Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
+Hence, the GCD of $p$ and $f$ is $1$.
+By @ref{bezoutsforpolynomials} , there exist $a, b \in k[x]$ such that:
+\[
+ap + bf = 1.
+\]
+@col
+Multiplying both sides of the above equation by $g$, we have:
+\[
+apg + bfg = g.
+\]
+Since $p$ divides the left-hand side of the above equation, it must
+also divide the right-hand side, which is the polynomial $g$.
+@qed
+@endcol
+-->
+@end
+@claim
+@newcol
+If $f, g \in k[x]$ are relatively prime, and both divide $h \in k[x]$,
+then $fg | h$.
+@endcol
+@end
+@proof
+@newcol
+@keyword{Exercise.}
+@endcol
+@end
+@slide
+By @ref{thm:pidpoly} and @ref{prop:pidirred}, we now know that:
+@cor
+Any $f \in k[x]$ is either irreducible or a product
+of irreducible polynomials.
+@end
+
+@thm
+@title{Unique Factorization}
+Let $k$ be a field.
+Every nonconstant polynomial $f \in k[x]$ may be written as:
+\[
+f = c p_1\cdots p_n,
+\]
+where $c$ is a nonzero constant,
+and each $p_i$ is a monic irreducible polynomial in $k[x]$.
+The factorization is unique up to the ordering of the factors.
+@end
+@proof
+@newcol
+@keyword{Exercise.} One possible approach is very similar to the proof of unique factorization
+for $\mathbb{Z}.$ See: @ref{thm:fta} .
+@endcol
+@end
+
+@slide
+@ex
+@enumerate
+@item
+@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials3.pg}
+@endenumerate
+@end
+
+
 @slide
 Let $k$ be a field.
 For $f \in k[x]$ and $a \in k$, let:
@@ -266,249 +522,6 @@ then it is a nonzero polynomial with degree $\leq n$ which has $n + 1$ distinct 
 which contradicts the previous theorem.
 Hence, $h$ must necessarily be the zero polynomial, which implies that $f = g$.
 @qed
-@endcol
-@end
-
-@slide
-
-@defn
-A polynomial in $k[x]$ is called a @keyword{monic polynomial} if its leading coefficient is $1$.
-@end
-
-@slide
-@cor
-@label{bezoutsforpolynomials}
-Let $k$ be a field.  Let $f, g$ be nonzero polynomials in $k[x]$.  There exists a unique monic polynomial
-$d \in k[x]$ with the following property: <ol>
-<li> $(f, g) = (d)$ <br/> Moreover, this $d$ also satisfies the following properties: </li>
-<li>
-@newcol
-$d$ divides both $f$ and $g$, i.e., there exists $a, b \in k[x]$ such that $f = ad$, $g = bd$.
-@endcol</li>
-<li>
-@newcol
-There are polynomials $p, q \in k[x]$ such that $d = pf + qg$.
-@endcol</li>
-<li>
-@newcol
-If $h \in k[x]$ is a divisor of $f$ and $g$, then $h$ divides $d$.
-@endcol</li></ol>
-@end
-
-<strong>Terminology.</strong>
-@newcol
-<ul>
-<li> The unique monic $d \in k[x]$ which satisfies property 1
-is called the @keyword{Greatest Common Divisor} (<i>abbrev.</i> @keyword{GCD}) of $f$ and $g$. </li>
-<li> We say that $f$ and $g$ are @keyword{relatively prime} if their GCD is $1$. </li></ul>
-@endcol
-
-<br/>
-@proof
-@newcol
-@ol
-@li
-By @ref{thm:pidpoly} , there exists $d = \sum_{i = 0}^n a_i x^i \in k[x]$ such that
-$(d) = (f, g)$.  Replacing $d$ by $a_n^{-1} d$ if necessary, we may assume that $d$ is a monic polynomial.
-It remains to show that $d$ is unique.
-
-@newcol
-Suppose $(d) = (d')$, where both $d$ and $d'$ are monic polynomials.
-Then, there exist nonzero $p, q \in k[x]$
-such that:
-\[
-d' = pd,\quad d= qd'.
-\]
-@col
-Examining the degrees of the polynomials, we have:
-\[
-\deg d' = \deg d + \deg p,
-\]
-and:
-\[
-\deg d = \deg q + \deg d' = \deg p + \deg q + \deg d.
-\]
-@col
-This implies that $\deg p + \deg q = 0$.  Hence, $p$ and $q$ must both have degree $0$; in other words, they are
-constant polynomials.  Moreover, we have $\deg d = \deg d'$.
-Comparing the leading coefficients of $d'$ and $pd$, we have $p = 1$.
-Hence, $d = d'$.
-@endcol
-@li
-Clear.
-@li
-Clear.
-@li
-By Part 3 of the corollary, there are $p, q \in k[x]$ such that $d = pf + qg$.
-It is then clear that if $h$ divides both $f$ and $g$, then $h$ must divide $d$.
-@qed
-@endol
-@endcol
-@end
-
-@slide
-@defn
-Let $R$ be a commutative ring.
-A nonzero element $p \in R$ which is not a unit is said to be @keyword{irreducible} if $p = ab$ implies that either $a$ or $b$ is a unit.
-@end
-
-@eg
-The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
-@end
-
-@slide
-Let $k$ be a field.
-@lemma
-A polynomial $f \in k[x]$ is a unit if and only if it is a
-nonzero constant polynomial.
-@end
-@proof
-<strong>Exercise.</strong>
-@end
-
-@slide
-
-@claim
-A nonzero nonconstant polynomial $p \in k[x]$ is irreducible if and only if there is no $f, g \in k[x]$,
-with $\deg f, \deg g < \deg p$, such that $fg = p$.
-@end
-@proof
-@newcol
-Suppose $p$ is irreducible, and $p = fg$ for some $f, g \in k[x]$ such that $\deg f, \deg g < \deg p$.  Then $p = fg$ implies that $\deg f$ and $\deg g$ are both positive.
-By the previous lemma, both $f$ and $g$ are non-units, which is a contradiction,
-since the irreducibility of $p$ implies that either $f$ or $g$ must be a unit.
-
-@col
-Conversely, suppose $p$ is a nonzero non-unit in $k[x]$,
-which is not equal to $fg$ for any $f, g \in k[x]$ with $\deg f, \deg g < \deg p$.
-Then, $p = ab$, $a$, $b \in k[x]$,
-implies that either $a$ or $b$ must have the same degree as $p$,
-and the other factor must be a nonzero constant, in other words a unit in $k[x]$.
-Hence, $p$ is irreducible.
-@qed
-@endcol
-@end
-@slide
-@lemma
-@title{Euclid's Lemma}
-Let $k$ be a field.
-Let $f, g$ be polynomials in $k[x]$.
-Let $p$ be an irreducible polynomial in $k[x]$.
-If $p | fg$ in $k[x]$, then $p | f$ or $p | g$.
-@end
-@proof
-@newcol
-Suppose $p \nmid f$.
-Then, any common divisor of $p$ and $f$ must have degree strictly less than $\deg p$.
-Since $p$ is irreducible, this implies that any common divisor of $p$ and $f$ is a nonzero constant.
-Hence, the GCD of $p$ and $f$ is $1$.
-By @ref{bezoutsforpolynomials} , there exist $a, b \in k[x]$ such that:
-\[
-ap + bf = 1.
-\]
-@col
-Multiplying both sides of the above equation by $g$, we have:
-\[
-apg + bfg = g.
-\]
-Since $p$ divides the left-hand side of the above equation, it must
-also divide the right-hand side, which is the polynomial $g$.
-@qed
-@endcol
-@end
-@claim
-@newcol
-If $f, g \in k[x]$ are relatively prime, and both divide $h \in k[x]$,
-then $fg | h$.
-@endcol
-@end
-@proof
-@newcol
-@keyword{Exercise.}
-@endcol
-@end
-@slide
-@thm
-@title{Unique Factorization}
-Let $k$ be a field.
-Every nonconstant polynomial $f \in k[x]$ may be written as:
-\[
-f = c p_1\cdots p_n,
-\]
-where $c$ is a nonzero constant,
-and each $p_i$ is a monic irreducible polynomial in $k[x]$.
-The factorization is unique up to the ordering of the factors.
-@end
-@proof
-@newcol
-@keyword{Exercise.} One possible approach is very similar to the proof of unique factorization
-for $\mathbb{Z}$. See: @ref{thm:fta} .
-@endcol
-@end
-
-@slide
-@ex
-@enumerate
-@item
-@webwork{Library/UMass-Amherst/Abstract-Algebra/PS-RingsQuotientsPolynomials/RingsQuotientsPolynomials3.pg}
-@endenumerate
-@end
-
-@slide
-@thm
-@label{thm:pirredfield}
-Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
-The following statements are equivalent:
-@ol
-@li
-$k[x]/(p)$ is a field.
-@li
-$k[x]/(p)$ is an integral domain.
-@li
-$p$ is irreducible in $k[x]$.
-@endol
-@end
-@remark
-@newcol
-Compare this result with @ref{ex:zmintdom} and @ref{cor:zpfield} .
-@endcol
-@end
-@proof
-@newcol
-@ol
-@li
-$1 \Rightarrow 2$: Clear, since every field is an integral domain.
-@li
-$2 \Rightarrow 3$: If $p$ is not irreducible, there exist $f, g \in k[x]$,
-with degrees strictly less than that of $p$, such that $p = fg$.
-Since $\deg f, \deg g < \deg p$, the polynomial $p$ does not divide $f$ or $g$
-in $k[x]$.  Consequently, the congruence classes $\ol{f}$ and $\ol{g}$
-of $f$ and $g$, respectively, modulo $(p)$ is not equal to zero in $k[x]/(p)$.
-On the other hand, $\ol{f}\cdot \ol{g} = \ol{fg} = \ol{p} = 0$ in $k[x]/(p)$.
-This implies that $k[x]/(p)$ is not an integral domain, a contradiction.
-Hence, $p$ is irreducible if $k[x]/(p)$ is an integral domain.
-@li
-$3 \Rightarrow 1$:
-By definition, the multiplicative identity element $1$ of a field is different from the
-additive identity element $0$.  So we need to check that the congruence class of $1 \in k[x]$
-in $k[x]/(p)$ is not $0$.  Since $p$ is irreducible, by definition we have $\deg p > 0$.
-Hence, $1 \notin (p)$, for a polynomial of degree $> 0$ cannot divide a polynomial of degree $0$
-in $k[x]$.  We conclude that $1 + (p)\neq 0 + (p)$ in $k[x]/(p)$.
-
-@newcol
-Next, we need to prove the existence of the multiplicative inverse of any nonzero element in
-$k[x]/(p)$.
-Given any $f \in k[x]$ whose congruence class $\ol{f}$ modulo $(p)$ is nonzero in $k[x]/(p)$,
-we want to find its multiplicative inverse $\ol{f}^{-1}$.
-If $\ol{f} \neq 0$ in $k[x]/(p)$, then by definition $f - 0 \notin (p)$, which means
-that $p$ does not divide $f$.  Since $p$ is irreducible, this implies that
-$GCD(p, f) = 1$.  By @ref{bezoutsforpolynomials} there exist
-$g, h \in k[x]$ such that $fg + hp = 1$.  It is then clear that $\ol{g} = \ol{f}^{-1}$,
-since $fg - 1 = -hp$ implies that $fg - 1 \in (p)$,
-which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$.
-@endcol
-@qed
-@endol
 @endcol
 @end
 

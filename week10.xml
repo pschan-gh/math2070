@@ -28,104 +28,119 @@
           <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
         </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="3" id="s3" slide="3" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="10" section_title="">
-          <keywords slide="3" environ="slide" chapter="10" course="Math 2078">
-            <keyword chapter="10" slide="3">prime ideal</keyword>
-          </keywords>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="More on Ideals" course="Math 2078" chapter="10" num="1" serial="10.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="10" section="1" subsection="" subsubsection="" serial="" slide="">
+          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+More on Ideals
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="3kyU9ZMBMvtN6B5vxHH2S8" course="Math 2078" chapter="10" slide="3" item="10.1">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2078" chapter="10" section="1" subsection="" subsubsection="" chapter_title="10" section_title="More on Ideals">
+            <keywords slide="3" environ="slide" chapter="10" course="Math 2078">
+              <keyword chapter="10" slide="3">prime ideal</keyword>
+            </keywords>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="10" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+More on Ideals
+</paragraphs>
+            </title>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="3kyU9ZMBMvtN6B5vxHH2S8" course="Math 2078" chapter="10" slide="3" item="10.1">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 An ideal $I$ in a commutative ring $R$ is said to be a </paragraphs>
-            <inline_keyword course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="keyword">prime ideal</inline_keyword>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if it is proper ($I\subsetneq R$) and $ab \in I$ implies that at least one of $a, b$ lies in $I$.
+              <inline_keyword course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="keyword">prime ideal</inline_keyword>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if it is proper ($I\subsetneq R$) and $ab \in I$ implies that at least one of $a, b$ lies in $I$.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <comment course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="">
+            <comment course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="">
 @prop
 @col
 If $k$ is a field, then a nonzero polynomial $p \in k[x]$ is irreducible if and only if $(p)$ is a prime ideal.
 @end
 </comment>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="2" md5="3YRx4hmcfDpU5NRJy7y2B0" course="Math 2078" chapter="10" slide="3" item="10.2">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="2" md5="3YRx4hmcfDpU5NRJy7y2B0" course="Math 2078" chapter="10" slide="3" item="10.2">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
-            <newcol course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+              <newcol course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 A proper ideal $I$ in a commutative ring $R$ is a prime ideal if and only if the quotient ring $R/I$ is an integral domain.
 </paragraphs>
-            </newcol>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+              </newcol>
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="10" section_title="">
-          <keywords slide="4" environ="slide" chapter="10" course="Math 2078">
-            <keyword chapter="10" slide="4">maximal ideal</keyword>
-          </keywords>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2078" chapter="10" section="1" subsection="" subsubsection="" chapter_title="10" section_title="More on Ideals">
+            <keywords slide="4" environ="slide" chapter="10" course="Math 2078">
+              <keyword chapter="10" slide="4">maximal ideal</keyword>
+            </keywords>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="3" md5="7cLwVmh29NO0xPYJVYUIfW" course="Math 2078" chapter="10" slide="4" item="10.3">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="3" md5="7cLwVmh29NO0xPYJVYUIfW" course="Math 2078" chapter="10" slide="4" item="10.3">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 An ideal $I$ in a commutative ring $R$ is said to be a </paragraphs>
-            <inline_keyword course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="keyword">maximal ideal</inline_keyword>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if $I \subsetneq R$ and there is no proper ideal $J$ of $R$ which properly includes $I$:
+              <inline_keyword course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="keyword">maximal ideal</inline_keyword>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if $I \subsetneq R$ and there is no proper ideal $J$ of $R$ which properly includes $I$:
 \[
 I \subsetneq J \subsetneq R
 \]
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="4" md5="5BB4N8jOR1Ymrqg6hJTiDo" course="Math 2078" chapter="10" slide="4" item="10.4">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="4" md5="5BB4N8jOR1Ymrqg6hJTiDo" course="Math 2078" chapter="10" slide="4" item="10.4">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 The zero ideal $\{0\}$ of a commutative ring $R$ is a maximal ideal if and only if $R$ is a field.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="10" section_title="">
-          <keywords slide="5" environ="slide" chapter="10" course="Math 2078"/>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2078" chapter="10" section="1" subsection="" subsubsection="" chapter_title="10" section_title="More on Ideals">
+            <keywords slide="5" environ="slide" chapter="10" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="5" md5="2qwpqc0RC0HC7js8gPbAUF" course="Math 2078" chapter="10" slide="5" item="10.5">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="5" md5="2qwpqc0RC0HC7js8gPbAUF" course="Math 2078" chapter="10" slide="5" item="10.5">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 A proper ideal $I$ in a commutative ring $R$ is a maixmal ideal if and only if the quotient ring $R/I$ is a field.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" md5="4nAadUlAd4QVrkN8hzuiMY" course="Math 2078" chapter="10" slide="5" item="10.6">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" md5="4nAadUlAd4QVrkN8hzuiMY" course="Math 2078" chapter="10" slide="5" item="10.6">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Evey maximal ideal of a commutative ring is a prime ideal.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="61vcNp3t3S8YOPraH0YHDm" course="Math 2078" chapter="10" slide="5" item="10.7">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="61vcNp3t3S8YOPraH0YHDm" course="Math 2078" chapter="10" slide="5" item="10.7">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
-            <newcol course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+              <newcol course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 There are prime ideals which are not maximal ideals.</paragraphs>
-              <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Take $I = (x)$ in $\mathbb{Z}[x]$.
+                <newline course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Take $I = (x)$ in $\mathbb{Z}[x]$.
 Then, $I$ is a prime ideal, but $\mathbb{Z}[x]/(x)$ is a not a field. So, $I$ is not a maximal ideal in $\mathbb{Z}$.
 </paragraphs>
-            </newcol>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+              </newcol>
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="04JBpl2G46xGCCwrXDHMOn" course="Math 2078" chapter="10" slide="5" item="10.8">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="04JBpl2G46xGCCwrXDHMOn" course="Math 2078" chapter="10" slide="5" item="10.8">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
-            <newcol course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+              <newcol course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 Let $p$ be a prime.
 Define an ideal $J \subsetneq I$ as follows:
 \[
@@ -136,17 +151,17 @@ J
 Then, $\mathbb{Z}[x] / J \cong \mathbb{Z}/p\mathbb{Z}$, which is a field.
 Hence, $J$ is a maximal ideal.
 </paragraphs>
-            </newcol>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+              </newcol>
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="10" section_title="">
-          <keywords slide="6" environ="slide" chapter="10" course="Math 2078"/>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="10" section="1" subsection="" subsubsection="" chapter_title="10" section_title="More on Ideals">
+            <keywords slide="6" environ="slide" chapter="10" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="9" md5="0eqY60Vqct2N08YCSA39cK" course="Math 2078" chapter="10" slide="6" item="10.9">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="9" md5="0eqY60Vqct2N08YCSA39cK" course="Math 2078" chapter="10" slide="6" item="10.9">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $n$ be any positive integer.
 Let $k$ be a field. Then, for any $a_1, a_2, \ldots, a_n$, the ideal:
 \[
@@ -154,33 +169,12 @@ Let $k$ be a field. Then, for any $a_1, a_2, \ldots, a_n$, the ideal:
 \]
 is a maximal ideal of $k[x_1, x_2, \ldots, x_n]$.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="10" section_title="">
-          <keywords slide="7" environ="slide" chapter="10" course="Math 2078"/>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="10" md5="6SXjwAeYaq6hNowBe5UAqc" course="Math 2078" chapter="10" slide="7" item="10.10">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-If $R$ is a PID, then every nonzero prime ideal $I$ is a maximal ideal.
-</paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="11" md5="6z6m6mm8sIWfzRU8tvr9Cl" course="Math 2078" chapter="10" slide="7" item="10.11">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-If $k$ is a field and $p \in k[x]$ is irreducile, then the quotient ring $k[x]/(p)$
-is a field.
-</paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="10" section_title="">
-          <keywords slide="8" environ="slide" chapter="10" course="Math 2078"/>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <newline course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2078" chapter="10" section="1" subsection="" subsubsection="" chapter_title="10" section_title="More on Ideals">
+            <keywords slide="7" environ="slide" chapter="10" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 The product of two ideals $A, B$ of a commutative ring $R$
 is defined as follows:
 \[
@@ -191,104 +185,158 @@ a_i \in A, b_i \in B, n \in \mathbb{N}
 \right\}
 \]
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="12" md5="4CDAvg3ezIpy6u1sz0fgKk" course="Math 2078" chapter="10" slide="8" item="10.12">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="10" md5="4CDAvg3ezIpy6u1sz0fgKk" course="Math 2078" chapter="10" slide="7" item="10.10">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 $AB$ is an ideal of $R$.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="13" md5="2clEQWkrTYgPrBXId15uNh" course="Math 2078" chapter="10" slide="8" item="10.13">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="11" md5="2clEQWkrTYgPrBXId15uNh" course="Math 2078" chapter="10" slide="7" item="10.11">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $P$ be a prime ideal in a commutative ring $R$.
 If $A$ and $B$ are ideals with $AB \subseteq P$,
 then $A \subseteq P$ or $B \subseteq P$.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="1s1XcPa1JJrQVr21Fo5K4t" course="Math 2078" chapter="10" slide="8">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="1s1XcPa1JJrQVr21Fo5K4t" course="Math 2078" chapter="10" slide="7">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
-            <newcol course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+              <newcol course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 This is essentially Euclid's Lemma in in the context of a commutative ring.
 </paragraphs>
-            </newcol>
-          </substatement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+              </newcol>
+            </substatement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="10" section_title="">
-          <keywords slide="9" environ="slide" chapter="10" course="Math 2078">
-            <keyword chapter="10" slide="9">irreducible</keyword>
-          </keywords>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 2078" chapter="10" section="1" subsection="" subsubsection="" chapter_title="10" section_title="More on Ideals">
+            <keywords slide="8" environ="slide" chapter="10" course="Math 2078">
+              <keyword chapter="10" slide="8">irreducible</keyword>
+            </keywords>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="14" md5="7wHbURncUTG8BGmRvJ5HF3" course="Math 2078" chapter="10" slide="9" item="10.14">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="12" md5="7wHbURncUTG8BGmRvJ5HF3" course="Math 2078" chapter="10" slide="8" item="10.12">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Two elements $a, b$ in a commutative ring are said to be associates, if there exists a unit $u \in R$ such that:
 \[
 a = bu.
 \]
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="15" md5="20duk3lwZCid1nk5YMZtsl" course="Math 2078" chapter="10" slide="9" item="10.15">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="13" md5="20duk3lwZCid1nk5YMZtsl" course="Math 2078" chapter="10" slide="8" item="10.13">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 An element $r$ is a commutative ring $R$ is said to be </paragraphs>
-            <inline_keyword course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="keyword">irreducible</inline_keyword>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if:
+              <inline_keyword course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="keyword">irreducible</inline_keyword>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if:
 </paragraphs>
-            <itemize course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="itemize" wbtag="itemize">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
+              <itemize course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="itemize">
+                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
 $r \neq 0$
 </paragraphs>
-              <item course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="itemize" wbtag="item">
-                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
+                <item course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
+                  <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
 $r$ is not a unit.
 </paragraphs>
-                <item course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="itemize" wbtag="item">
-                  <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
+                  <item course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
+                    <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
 $r = ab$ implies that one of $a$ of $b$ is an associate of $r$. 
 </paragraphs>
+                  </item>
                 </item>
-              </item>
-            </itemize>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+              </itemize>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <newline course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Principal Ideal Domains" course="Math 2078" chapter="10" num="2" serial="10.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" serial="" slide="">
+          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Principal Ideal Domains
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="16" md5="41Pd2cDJMjQbC7Nv6GeR7D" course="Math 2078" chapter="10" slide="9" item="10.16">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="9" scope="section" id="s9" slide="9" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" chapter_title="10" section_title="Principal Ideal Domains">
+            <keywords slide="9" environ="slide" chapter="10" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" serial="" slide="9">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Principal Ideal Domains
+</paragraphs>
+            </title>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="3eViqJU0LPGGVPyh6iG1Kl" course="Math 2078" chapter="10" slide="9" item="10.14">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
+</paragraphs>
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="15" md5="41Pd2cDJMjQbC7Nv6GeR7D" course="Math 2078" chapter="10" slide="9" item="10.15">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 If $r$ is a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="17" md5="20pZ4OpwvXcelDWPrL18LY" course="Math 2078" chapter="10" slide="9" item="10.17">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="16" md5="20pZ4OpwvXcelDWPrL18LY" course="Math 2078" chapter="10" slide="9" item="10.16">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime ideal.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="6qY4gsVQv6W6xP8QZj22q7" course="Math 2078" chapter="10" slide="9" item="10.18">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="17" md5="6qY4gsVQv6W6xP8QZj22q7" course="Math 2078" chapter="10" slide="9" item="10.17">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $R$ be a PID. If $(r)$ is a maximal ideal, then $r$ is irreducible.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="10" section_title="">
-          <keywords slide="10" environ="slide" chapter="10" course="Math 2078"/>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" chapter_title="10" section_title="Principal Ideal Domains">
+            <keywords slide="10" environ="slide" chapter="10" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="19" md5="2YrtJgiWECJ0MkAkjpYnJ8" course="Math 2078" chapter="10" slide="10" item="10.19">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="18" md5="5GDMIy1rSdQnqucemJbaGO" course="Math 2078" chapter="10" slide="10" item="10.18">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+If $R$ is a PID, then every nonzero prime ideal is a maximal ideal.
+</paragraphs>
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="19" md5="5fHp0mGLAPdHhi52btr92r" course="Math 2078" chapter="10" slide="10" item="10.19">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+If $R$ is a PID, $(r)$ is maximal if and only if $r$ is irreducible.
+</paragraphs>
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <comment course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="">
+@cor
+If $k$ is a field and $p \in k[x]$ is irreducile, then the quotient ring $k[x]/(p)$
+is a field.
+@end
+</comment>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" chapter_title="10" section_title="Principal Ideal Domains">
+            <keywords slide="11" environ="slide" chapter="10" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="20" md5="2YrtJgiWECJ0MkAkjpYnJ8" course="Math 2078" chapter="10" slide="11" item="10.20">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 If $R$ is a commutative ring and:
 \[
 I_1 \subseteq I_2 \subseteq \cdots \subseteq I_n
@@ -298,14 +346,14 @@ is an ascending chain of ideals in $R$,
 then
 $J = \sum_{n \geq 1} I_n$ is an ideal in $R$.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="20" md5="6DZ89IsxWFDGyZO5IicrwC" course="Math 2078" chapter="10" slide="10" item="10.20">
-            <label wbtag="label" name="prop:pidchain" type="Proposition"/>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="21" md5="6DZ89IsxWFDGyZO5IicrwC" course="Math 2078" chapter="10" slide="11" item="10.21">
+              <label wbtag="label" name="prop:pidchain" type="Proposition"/>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 If $R$ is a PID, then for any infinitely ascending chain of ideals:
 \[
 I_1 \subseteq I_2 \subseteq \cdots \subseteq I_n
@@ -317,88 +365,92 @@ I_M = I_{M + 1} = I_{M + 2} = \cdots
 \]
 In other words, there can be no infinite ``strictly ascending'' chain of ideals.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-        </slide>
-        <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="10" section="" subsection="" subsubsection="" chapter_title="10" section_title="">
-          <keywords slide="11" environ="slide" chapter="10" course="Math 2078"/>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" chapter_title="10" section_title="Principal Ideal Domains">
+            <keywords slide="12" environ="slide" chapter="10" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="21" md5="1Wjnp6lTO1UrSslHo3Pyey" course="Math 2078" chapter="10" slide="11" item="10.21">
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="22" md5="1Wjnp6lTO1UrSslHo3Pyey" course="Math 2078" chapter="10" slide="12" item="10.22">
+              <label wbtag="label" name="prop:pidirred" type="Proposition"/>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $R$ be a PID. For any nonzero $r \in R$ which is not a unit, $r$ is irreducible or a product of irreducible elements.
 </paragraphs>
-          </statement>
-          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5rxPLy5Vz4GA0HoJVNcCM3" course="Math 2078" chapter="10" slide="11" of="1Wjnp6lTO1UrSslHo3Pyey" of-src-course="Math 2078" of-src-chapter="10" of-src-slide="11" of-type="Proposition" of-item="10.21" of-src-filename="week10.xml" ofmd5="1Wjnp6lTO1UrSslHo3Pyey" of-serial="">
-            <of-title hidden="true">Proposition 10.21</of-title>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5rxPLy5Vz4GA0HoJVNcCM3" course="Math 2078" chapter="10" slide="12" of="1Wjnp6lTO1UrSslHo3Pyey" of-src-course="Math 2078" of-src-chapter="10" of-src-slide="12" of-type="Proposition" of-item="10.22" of-src-filename="week10.xml" ofmd5="1Wjnp6lTO1UrSslHo3Pyey" of-serial="">
+              <of-title hidden="true">Proposition 10.22</of-title>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
-            <newcol course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+              <newcol course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 Let $\mathcal{S}$ be the set of ideals of $R$ generated by nonzero non-unit elements which are neither irreducible nor a product of irreducibles.</paragraphs>
-              <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-              <collapse course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+                <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 Suppose $\mathcal{S}$ is nonempty. By </paragraphs>
-                <ref environment="newcol" chapter_type="" label="prop:pidchain" wbtag="ref" course="Math 2078" chapter="10" slide="11" referrer-type="Proof" referrer-md5="5rxPLy5Vz4GA0HoJVNcCM3" src-course="Math 2078" src-chapter="10" src-slide="10" type="Proposition" item="10.20" src-filename="week10.xml" md5="6DZ89IsxWFDGyZO5IicrwC" class="lcref" serial="">
-                  <title>Proposition 10.20</title>
-                </ref>
-                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, there exists at least one ``maximal" element $I = (r) \in \mathcal{S}$, in the following sense:</paragraphs>
-                <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">If $I$ is properly contained in another ideal $I = (r')$ (generated by some $r' \in R$), then $I' \notin \mathcal{S}$.</paragraphs>
-                <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+                  <ref environment="newcol" chapter_type="" label="prop:pidchain" wbtag="ref" course="Math 2078" chapter="10" slide="12" referrer-type="Proof" referrer-md5="5rxPLy5Vz4GA0HoJVNcCM3" src-course="Math 2078" src-chapter="10" src-slide="11" type="Proposition" item="10.21" src-filename="week10.xml" md5="6DZ89IsxWFDGyZO5IicrwC" class="lcref" serial="">
+                    <title>Proposition 10.21</title>
+                  </ref>
+                  <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, there exists at least one ``maximal" element $I = (r) \in \mathcal{S}$, in the following sense:</paragraphs>
+                  <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">If $I$ is properly contained in another ideal $I = (r')$ (generated by some $r' \in R$), then $I' \notin \mathcal{S}$.</paragraphs>
+                  <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 If $(r)$ is a maximal ideal, then $r$ is irreducible, contradiction.</paragraphs>
-                  <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+                    <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 If $(r)$ is not maximal, then there exists $a \in R$ such that:
 \[
 (r) \subsetneq (a) \subsetneq R
 \]
 </paragraphs>
-                    <collapse course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+                      <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 This implies that $a$ is a nonzero non-unit element which is either irreducible or a product of irreducibles. Moreover, there exists $b \in R$
 such that:
 \[
 r = ab
 \]
 This $b$ is not a unit, for otherwise $(r) = (a)$, a contradiction.</paragraphs>
-                      <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                      <collapse course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+                        <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                        <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 Hence, $(r) \subseteq (b) \subsetneq R$. If $(r) = (b)$, then $a$ is a unit, a contradiction.</paragraphs>
-                        <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                        <collapse course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+                          <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                          <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 So, $(r) \subsetneq (b)$, which implies that $b$ is irreducible or product of irreducibles. It follows that $r$ is a product of irreducibles, a contradition.</paragraphs>
-                          <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol"/>
-                          <collapse course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+                            <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+                            <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 Hence, $\mathcal{S}$ is empty. We conclude that every nonzero non-unit element is either irreducible or a product of irreducibles.
 </paragraphs>
-                            <qed course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="qed"/>
-                            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+                              <qed course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="qed"/>
+                              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 </paragraphs>
+                            </collapse>
                           </collapse>
                         </collapse>
                       </collapse>
                     </collapse>
                   </collapse>
                 </collapse>
-              </collapse>
-            </newcol>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+              </newcol>
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
-          </substatement>
-          <newline course="Math 2078" chapter="10" chapter_type="" section="" subsection="" subsubsection="" environment=""/>
-        </slide>
-      </slides>
+            </substatement>
+            <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+      </section>
     </chapter>
   </course>
 </document>

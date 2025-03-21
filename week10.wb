@@ -1,6 +1,6 @@
 @course{Math 2078}
 @week{10}
-@slide
+@section{More on Ideals}
 @def
 An ideal $I$ in a commutative ring $R$ is said to be a __prime ideal__ if it is proper ($I\subsetneq R$) and $ab \in I$ implies that at least one of $a, b$ lies in $I$.
 @end
@@ -59,14 +59,7 @@ Let $k$ be a field. Then, for any $a_1, a_2, \ldots, a_n$, the ideal:
 \]
 is a maximal ideal of $k[x_1, x_2, \ldots, x_n]$.
 @end
-@slide
-@thm
-If $R$ is a PID, then every nonzero prime ideal $I$ is a maximal ideal.
-@end
-@cor
-If $k$ is a field and $p \in k[x]$ is irreducile, then the quotient ring $k[x]/(p)$
-is a field.
-@end
+
 @slide
 The product of two ideals $A, B$ of a commutative ring $R$
 is defined as follows:
@@ -106,6 +99,11 @@ $r$ is not a unit.
 $r = ab$ implies that one of $a$ of $b$ is an associate of $r$. 
 @enditemize
 @end
+
+@section{Principal Ideal Domains}
+@eg
+The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
+@end
 @ex
 If $r$ is a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
 @end
@@ -115,6 +113,19 @@ If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime i
 @cor
 Let $R$ be a PID. If $(r)$ is a maximal ideal, then $r$ is irreducible.
 @end
+@slide
+@thm
+If $R$ is a PID, then every nonzero prime ideal is a maximal ideal.
+@end
+@cor
+If $R$ is a PID, $(r)$ is maximal if and only if $r$ is irreducible.
+@end
+<!--
+@cor
+If $k$ is a field and $p \in k[x]$ is irreducile, then the quotient ring $k[x]/(p)$
+is a field.
+@end
+-->
 @slide
 @ex
 If $R$ is a commutative ring and:
@@ -141,6 +152,7 @@ In other words, there can be no infinite ``strictly ascending'' chain of ideals.
 @end
 @slide
 @prop
+@label{prop:pidirred}
 Let $R$ be a PID. For any nonzero $r \in R$ which is not a unit, $r$ is irreducible or a product of irreducible elements.
 @end
 @proof

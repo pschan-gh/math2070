@@ -178,21 +178,13 @@ $r$ is not a unit.
 $r = ab$ implies that one of $a$ or $b$ is an associate of $r$. 
 @enditemize
 @end
-
-@section{Principal Ideal Domains}
 @eg
 The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
 @end
 @ex
 If $r$ is a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
 @end
-@prop
-If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime ideal.
-@end
-@cor
-Let $R$ be a PID. If $(r)$ is a maximal ideal, then $r$ is irreducible.
-@end
-@slide
+@section{Principal Ideal Domains}
 @thm
 If $R$ is a PID, then every nonzero prime ideal is a maximal ideal.
 @end
@@ -205,6 +197,9 @@ If $k$ is a field and $p \in k[x]$ is irreducile, then the quotient ring $k[x]/(
 is a field.
 @end
 -->
+@cor
+If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime ideal.
+@end
 @slide
 @ex
 If $R$ is a commutative ring and:

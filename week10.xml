@@ -355,7 +355,22 @@ $r = ab$ implies that one of $a$ or $b$ is an associate of $r$.
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
             </statement>
-            <newline course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="3eViqJU0LPGGVPyh6iG1Kl" course="Math 2078" chapter="10" slide="8" item="10.14">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
+</paragraphs>
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="15" md5="41Pd2cDJMjQbC7Nv6GeR7D" course="Math 2078" chapter="10" slide="8" item="10.15">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+If $r$ is a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
+</paragraphs>
+            </statement>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
           </slide>
         </slides>
       </section>
@@ -377,47 +392,14 @@ Principal Ideal Domains
             </title>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="3eViqJU0LPGGVPyh6iG1Kl" course="Math 2078" chapter="10" slide="9" item="10.14">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
-</paragraphs>
-            </statement>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="15" md5="41Pd2cDJMjQbC7Nv6GeR7D" course="Math 2078" chapter="10" slide="9" item="10.15">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-If $r$ is a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
-</paragraphs>
-            </statement>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="16" md5="20pZ4OpwvXcelDWPrL18LY" course="Math 2078" chapter="10" slide="9" item="10.16">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime ideal.
-</paragraphs>
-            </statement>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="17" md5="6qY4gsVQv6W6xP8QZj22q7" course="Math 2078" chapter="10" slide="9" item="10.17">
-              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-Let $R$ be a PID. If $(r)$ is a maximal ideal, then $r$ is irreducible.
-</paragraphs>
-            </statement>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" chapter_title="10" section_title="Principal Ideal Domains">
-            <keywords slide="10" environ="slide" chapter="10" course="Math 2078"/>
-            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="18" md5="5GDMIy1rSdQnqucemJbaGO" course="Math 2078" chapter="10" slide="10" item="10.18">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="16" md5="5GDMIy1rSdQnqucemJbaGO" course="Math 2078" chapter="10" slide="9" item="10.16">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 If $R$ is a PID, then every nonzero prime ideal is a maximal ideal.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="19" md5="5fHp0mGLAPdHhi52btr92r" course="Math 2078" chapter="10" slide="10" item="10.19">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="17" md5="5fHp0mGLAPdHhi52btr92r" course="Math 2078" chapter="10" slide="9" item="10.17">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 If $R$ is a PID, $(r)$ is maximal if and only if $r$ is irreducible.
 </paragraphs>
@@ -432,12 +414,19 @@ is a field.
 </comment>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" chapter_title="10" section_title="Principal Ideal Domains">
-            <keywords slide="11" environ="slide" chapter="10" course="Math 2078"/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="20pZ4OpwvXcelDWPrL18LY" course="Math 2078" chapter="10" slide="9" item="10.18">
+              <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime ideal.
+</paragraphs>
+            </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="20" md5="2YrtJgiWECJ0MkAkjpYnJ8" course="Math 2078" chapter="10" slide="11" item="10.20">
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" chapter_title="10" section_title="Principal Ideal Domains">
+            <keywords slide="10" environ="slide" chapter="10" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="19" md5="2YrtJgiWECJ0MkAkjpYnJ8" course="Math 2078" chapter="10" slide="10" item="10.19">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 If $R$ is a commutative ring and:
 \[
@@ -451,7 +440,7 @@ $J = \sum_{n \geq 1} I_n$ is an ideal in $R$.
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="21" md5="6DZ89IsxWFDGyZO5IicrwC" course="Math 2078" chapter="10" slide="11" item="10.21">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="20" md5="6DZ89IsxWFDGyZO5IicrwC" course="Math 2078" chapter="10" slide="10" item="10.20">
               <label wbtag="label" name="prop:pidchain" type="Proposition"/>
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
@@ -471,11 +460,11 @@ In other words, there can be no infinite ``strictly ascending'' chain of ideals.
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" chapter_title="10" section_title="Principal Ideal Domains">
-            <keywords slide="12" environ="slide" chapter="10" course="Math 2078"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 2078" chapter="10" section="2" subsection="" subsubsection="" chapter_title="10" section_title="Principal Ideal Domains">
+            <keywords slide="11" environ="slide" chapter="10" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="22" md5="1Wjnp6lTO1UrSslHo3Pyey" course="Math 2078" chapter="10" slide="12" item="10.22">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="21" md5="1Wjnp6lTO1UrSslHo3Pyey" course="Math 2078" chapter="10" slide="11" item="10.21">
               <label wbtag="label" name="prop:pidirred" type="Proposition"/>
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
@@ -485,8 +474,8 @@ Let $R$ be a PID. For any nonzero $r \in R$ which is not a unit, $r$ is irreduci
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5rxPLy5Vz4GA0HoJVNcCM3" course="Math 2078" chapter="10" slide="12" of="1Wjnp6lTO1UrSslHo3Pyey" of-src-course="Math 2078" of-src-chapter="10" of-src-slide="12" of-type="Proposition" of-item="10.22" of-src-filename="week10.xml" ofmd5="1Wjnp6lTO1UrSslHo3Pyey" of-serial="">
-              <of-title hidden="true">Proposition 10.22</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5rxPLy5Vz4GA0HoJVNcCM3" course="Math 2078" chapter="10" slide="11" of="1Wjnp6lTO1UrSslHo3Pyey" of-src-course="Math 2078" of-src-chapter="10" of-src-slide="11" of-type="Proposition" of-item="10.21" of-src-filename="week10.xml" ofmd5="1Wjnp6lTO1UrSslHo3Pyey" of-serial="">
+              <of-title hidden="true">Proposition 10.21</of-title>
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -496,8 +485,8 @@ Let $\mathcal{S}$ be the set of ideals of $R$ generated by nonzero non-unit elem
                 <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 Suppose $\mathcal{S}$ is nonempty. By </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="prop:pidchain" wbtag="ref" course="Math 2078" chapter="10" slide="12" referrer-type="Proof" referrer-md5="5rxPLy5Vz4GA0HoJVNcCM3" src-course="Math 2078" src-chapter="10" src-slide="11" type="Proposition" item="10.21" src-filename="week10.xml" md5="6DZ89IsxWFDGyZO5IicrwC" class="lcref" serial="">
-                    <title>Proposition 10.21</title>
+                  <ref environment="newcol" chapter_type="" label="prop:pidchain" wbtag="ref" course="Math 2078" chapter="10" slide="11" referrer-type="Proof" referrer-md5="5rxPLy5Vz4GA0HoJVNcCM3" src-course="Math 2078" src-chapter="10" src-slide="10" type="Proposition" item="10.20" src-filename="week10.xml" md5="6DZ89IsxWFDGyZO5IicrwC" class="lcref" serial="">
+                    <title>Proposition 10.20</title>
                   </ref>
                   <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, there exists at least one ``maximal" element $I = (r) \in \mathcal{S}$, in the following sense:</paragraphs>
                   <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>

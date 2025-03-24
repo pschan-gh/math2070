@@ -97,7 +97,7 @@ If $f(0, 0, \ldots, 0) = 0$, then:
 So, either $a_0 = 0$ or $F_0(0, \ldots, 0) = 0$.
 
 @col
-If $a_0 = 0$, then $f \in (x_1) \subseteq (x_1, x_2, \ldots, x_n)$. 
+If $a_0 = 0$, then $f \in (x_n) \subseteq (x_1, x_2, \ldots, x_n)$. 
 
 Otherwise, $F_0(0, 0, \ldots, 0) = 0$.
 By the induction hypothesis, this implies that $F_0 \in (x_1, \ldots, x_{n - 1})$.

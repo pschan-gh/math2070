@@ -172,7 +172,7 @@ is a maximal ideal of $k[x_1, x_2, \ldots, x_n]$.
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5rBRwaWVrOIf51GlqIkqDj" course="Math 2078" chapter="10" slide="6" of="0eqY60Vqct2N08YCSA39cK" of-src-course="Math 2078" of-src-chapter="10" of-src-slide="6" of-type="Proposition" of-item="10.9" of-src-filename="week10.xml" ofmd5="0eqY60Vqct2N08YCSA39cK" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0gfTY3p0shSll9HlebONtJ" course="Math 2078" chapter="10" slide="6" of="0eqY60Vqct2N08YCSA39cK" of-src-course="Math 2078" of-src-chapter="10" of-src-slide="6" of-type="Proposition" of-item="10.9" of-src-filename="week10.xml" ofmd5="0eqY60Vqct2N08YCSA39cK" of-serial="">
               <of-title hidden="true">Proposition 10.9</of-title>
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 We will sketch the proof for the special case where $a_1 = a_2 = \cdots = a_n = 0$.
@@ -215,7 +215,7 @@ So, either $a_0 = 0$ or $F_0(0, \ldots, 0) = 0$.</paragraphs>
                     <newline course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                     <collapse course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
-If $a_0 = 0$, then $f \in (x_1) \subseteq (x_1, x_2, \ldots, x_n)$. </paragraphs>
+If $a_0 = 0$, then $f \in (x_n) \subseteq (x_1, x_2, \ldots, x_n)$. </paragraphs>
                       <newline course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                       <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Otherwise, $F_0(0, 0, \ldots, 0) = 0$.
 By the induction hypothesis, this implies that $F_0 \in (x_1, \ldots, x_{n - 1})$.

@@ -59,6 +59,85 @@ Let $k$ be a field. Then, for any $a_1, a_2, \ldots, a_n$, the ideal:
 \]
 is a maximal ideal of $k[x_1, x_2, \ldots, x_n]$.
 @end
+@proof
+We will sketch the proof for the special case where $a_1 = a_2 = \cdots = a_n = 0$.
+The general case is left as an exercise.
+
+
+@col
+We claim that $f(0, 0, \ldots, 0) = 0$ if and only if $f \in (x_1, x_2, \ldots, x_n)$.
+
+One direction is clear: If $f \in (x_1, x_2, \ldots, x_n)$,
+then $f(0, 0, \ldots, 0) = 0$.
+
+For the other direction, we prove by induction on the number of variables.
+The case $n = 1$ is equivalent to showing that $f \in k[x]$ has a root at $x = 0$ only if $f \in (x)$. This is true (we will prove this in a later section).
+
+@col
+Induction Step:
+
+Suppose it is known that $f(0, 0, \ldots, 0)$ only if $f \in (x_1, x_2, \ldots, x_{n - 1})$ in $k[x_1, \ldots, x_{n - 1}]$.
+
+For any $f(x_1, x_2, \ldots, x_n) = \sum c_{k_1, k_2, \ldots, k_n} x_1^{k_1}x_2^{k_2}\cdots x_n^{k_n}
+\in k[x_1, x_2, \ldots, x_n]$, it may be rewritten as:
+\begin{align*}
+f(x_1, x_2, \ldots, x_n) 
+&= \sum a_k x_n^k F_k(x_1, x_2, \ldots, x_{n - 1})
+\\
+&= a_0 F_0(x_1, x_2, \ldots, x_{n - 1}) 
++ \sum_{k > 0}a_k x_n^k F_k(x_1, x_2, \ldots, x_{n - 1}),
+\end{align*}
+where $F_k \in k[x_1, \ldots, x_{n - 1}]$.
+
+@col
+If $f(0, 0, \ldots, 0) = 0$, then:
+\[
+0 = a_0 F_0(0, 0, \ldots, 0)
+\]
+So, either $a_0 = 0$ or $F_0(0, \ldots, 0) = 0$.
+
+@col
+If $a_0 = 0$, then $f \in (x_1) \subseteq (x_1, x_2, \ldots, x_n)$. 
+
+Otherwise, $F_0(0, 0, \ldots, 0) = 0$.
+By the induction hypothesis, this implies that $F_0 \in (x_1, \ldots, x_{n - 1})$.
+Hence,
+\begin{align*}
+f(x_1, x_2, \ldots, x_n) 
+&= \underbrace{a_0 F_0(x_1, x_2, \ldots, x_{n - 1})}_{\in (x_1, x_2, \ldots, x_{n - 1})}
++ 
+\underbrace{\sum_{k > 0}a_k x_n^k F_k(x_1, x_2, \ldots, x_{n - 1})}_{ \in (x_n)}
+\\
+&
+\in (x_1, x_2 \ldots, x_n)
+\end{align*}
+
+@col
+We conclude that:
+$f(0, 0, \ldots, 0) = 0$ if and only if $f \in (x_1, x_2, \ldots, x_n)$.
+
+@col
+Define a map:
+\[
+\phi : k[x_1, \ldots, x_n] \longrightarrow k
+\]
+as follows:
+\[
+\phi: f \mapsto f(0, 0, \ldots, 0).
+\]
+@col
+Show that $\phi$ is a surjective ring homomorphism.
+
+@col
+Show that $\ker \phi = (x_1, x_2, \ldots, x_n)$.
+
+@col
+It now follows from the First Isomorphism Theorem that:
+\[
+k[x_1, \ldots, x_n]/(x_1, \ldots, x_n) \cong k.
+\]
+Since $k$ is a field, it now follows that $(x_1, x_2, \ldots, x_n)$ is a maximal ideal.
+@end
 
 @slide
 The product of two ideals $A, B$ of a commutative ring $R$
@@ -96,7 +175,7 @@ $r \neq 0$
 @item
 $r$ is not a unit.
 @item
-$r = ab$ implies that one of $a$ of $b$ is an associate of $r$. 
+$r = ab$ implies that one of $a$ or $b$ is an associate of $r$. 
 @enditemize
 @end
 

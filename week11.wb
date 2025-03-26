@@ -206,7 +206,7 @@ Hence, $p$ is irreducible.
 @slide
 @thm
 @label{thm:pirredfield}
-Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
+Let $k$ be a field.  Let $p$ be a nonzero polynomial in $k[x]$.
 The following statements are equivalent:
 @ol
 @li

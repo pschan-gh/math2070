@@ -476,12 +476,12 @@ Hence, $p$ is irreducible.
             <keywords slide="7" environ="slide" chapter="11" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="5mzeaLrfeapgsUrpV3uz09" course="Math 2078" chapter="11" slide="7" item="11.7">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="1GueFpgANiYh80UTIUKnRA" course="Math 2078" chapter="11" slide="7" item="11.7">
               <label wbtag="label" name="thm:pirredfield" type="Theorem"/>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
+Let $k$ be a field.  Let $p$ be a nonzero polynomial in $k[x]$.
 The following statements are equivalent:
 </paragraphs>
               <col_ol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
@@ -527,7 +527,7 @@ Compare this result with </paragraphs>
             </substatement>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4GTibpf0RmtHoS3NwQ6XrP" course="Math 2078" chapter="11" slide="7" of="5mzeaLrfeapgsUrpV3uz09" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="7" of-type="Theorem" of-item="11.7" of-src-filename="week11.xml" ofmd5="5mzeaLrfeapgsUrpV3uz09" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4GTibpf0RmtHoS3NwQ6XrP" course="Math 2078" chapter="11" slide="7" of="1GueFpgANiYh80UTIUKnRA" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="7" of-type="Theorem" of-item="11.7" of-src-filename="week11.xml" ofmd5="1GueFpgANiYh80UTIUKnRA" of-serial="">
               <of-title hidden="true">Theorem 11.7</of-title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 This follows directly from the facts that $k[x]$ is a PID.</paragraphs>
@@ -679,8 +679,8 @@ By </paragraphs>
               <title>Theorem 11.2</title>
             </ref>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> and </paragraphs>
-            <ref environment="" chapter_type="" label="prop:pidirred" wbtag="ref" course="Math 2078" chapter="11" slide="9" src-course="Math 2078" src-chapter="10" src-slide="12" type="Proposition" item="10.22" src-filename="week10.xml" md5="1Wjnp6lTO1UrSslHo3Pyey" class="lcref" serial="">
-              <title>Proposition 10.22</title>
+            <ref environment="" chapter_type="" label="prop:pidirred" wbtag="ref" course="Math 2078" chapter="11" slide="9" src-course="Math 2078" src-chapter="10" src-slide="11" type="Proposition" item="10.21" src-filename="week10.xml" md5="1Wjnp6lTO1UrSslHo3Pyey" class="lcref" serial="">
+              <title>Proposition 10.21</title>
             </ref>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">, we now know that:
 </paragraphs>

@@ -339,16 +339,20 @@ An element $r$ is a commutative ring $R$ is said to be </paragraphs>
 </paragraphs>
               <itemize course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="itemize">
                 <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
-$r \neq 0$
 </paragraphs>
                 <item course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
                   <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
-$r$ is not a unit.
+$r \neq 0$.
 </paragraphs>
                   <item course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
                     <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
+$r$ is not a unit.
+</paragraphs>
+                    <item course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
+                      <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
 $r = ab$ implies that one of $a$ or $b$ is an associate of $r$. 
 </paragraphs>
+                    </item>
                   </item>
                 </item>
               </itemize>
@@ -357,9 +361,9 @@ $r = ab$ implies that one of $a$ or $b$ is an associate of $r$.
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="7r23ALnRPp9hPer7UdHqrM" course="Math 2078" chapter="10" slide="8" item="10.14">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="3eViqJU0LPGGVPyh6iG1Kl" course="Math 2078" chapter="10" slide="8" item="10.14">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-The set of nonzero irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
+The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
@@ -399,9 +403,9 @@ If $R$ is a PID, then every nonzero prime ideal is a maximal ideal.
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="17" md5="5dnM9tJ4JtL1siOen5weP5" course="Math 2078" chapter="10" slide="9" item="10.17">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="17" md5="2Ca5Y8ZRXwMwClM4gEm08x" course="Math 2078" chapter="10" slide="9" item="10.17">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-If $R$ is a PID, and $r \in R$ is nonzero, then $(r)$ is maximal if and only if $r$ is irreducible.
+If $R$ is a PID, then $(r)$ is maximal if and only if $r$ is irreducible.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
@@ -414,9 +418,9 @@ is a field.
 </comment>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="20pZ4OpwvXcelDWPrL18LY" course="Math 2078" chapter="10" slide="9" item="10.18">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="1uIoR0oXuCQLiIZYL8hccb" course="Math 2078" chapter="10" slide="9" item="10.18">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime ideal.
+If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a nonzero prime ideal.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">

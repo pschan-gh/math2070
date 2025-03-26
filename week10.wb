@@ -171,7 +171,8 @@ a = bu.
 @def
 An element $r$ is a commutative ring $R$ is said to be __irreducible__ if:
 @itemize
-$r \neq 0$
+@item
+$r \neq 0$.
 @item
 $r$ is not a unit.
 @item
@@ -179,7 +180,7 @@ $r = ab$ implies that one of $a$ or $b$ is an associate of $r$.
 @enditemize
 @end
 @eg
-The set of nonzero irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
+The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
 @end
 @ex
 If $r$ in a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
@@ -188,8 +189,8 @@ If $r$ in a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s
 @thm
 If $R$ is a PID, then every nonzero prime ideal is a maximal ideal.
 @end
-@cor
-If $R$ is a PID, and $r \in R$ is nonzero, then $(r)$ is maximal if and only if $r$ is irreducible.
+@thm
+If $R$ is a PID, then $(r)$ is maximal if and only if $r$ is irreducible.
 @end
 <!--
 @cor
@@ -198,7 +199,7 @@ is a field.
 @end
 -->
 @cor
-If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime ideal.
+If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a nonzero prime ideal.
 @end
 @slide
 @ex

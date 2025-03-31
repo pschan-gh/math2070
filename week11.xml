@@ -581,7 +581,7 @@ which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$.
             </keywords>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="8" title="Euclid's Lemma" md5="1y6zDOEdLp0sJ9ylQmSUMA" course="Math 2078" chapter="11" slide="8" item="11.8">
+            <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="8" title="Euclid's Lemma" md5="6gpUA6n0l9PWSCfpBqY5HN" course="Math 2078" chapter="11" slide="8" item="11.8">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="8">Euclid's Lemma</title>
@@ -589,12 +589,12 @@ which by definition means that $\ol{f}\cdot\ol{g} = \ol{fg} = 1$ in $k[x]/(p)$.
 Let $k$ be a field.
 Let $f, g$ be polynomials in $k[x]$.
 Let $p$ be an irreducible polynomial in $k[x]$.
-If $p | fg$ in $k[x]$, $p$ must divide at least on of $f$ and $g$ in $k[x]$.
+If $p | fg$ in $k[x]$, $p$ must divide at least one of $f$ and $g$ in $k[x]$.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4f0TCFSTdTmU9v62G5z5zi" course="Math 2078" chapter="11" slide="8" of="1y6zDOEdLp0sJ9ylQmSUMA" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="8" of-type="Lemma" of-item="11.8" of-src-filename="week11.xml" ofmd5="1y6zDOEdLp0sJ9ylQmSUMA" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6h9aGnCaWih6pEaE8U0wqZ" course="Math 2078" chapter="11" slide="8" of="6gpUA6n0l9PWSCfpBqY5HN" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="8" of-type="Lemma" of-item="11.8" of-src-filename="week11.xml" ofmd5="6gpUA6n0l9PWSCfpBqY5HN" of-serial="">
               <of-title hidden="true">Euclid's Lemma</of-title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
@@ -607,7 +607,7 @@ The condition $p | fg$ implies that $fg \in (p)$.</paragraphs>
 By hypothesis, $p$ is irreducible, so $(p)$ is a prime ideal.
 This implies that at least one of $f$ and $g$ must lie in $(p)$,
 which is equivalent to saying that 
-$p$ divides at least on of $f$ and $g$ in $k[x]$.
+$p$ divides at least one of $f$ and $g$ in $k[x]$.
 </paragraphs>
                 </collapse>
               </newcol>
@@ -638,13 +638,30 @@ also divide the right-hand side, which is the polynomial $g$.
             </substatement>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="1bdbsHmkPQuaGrFTjYbB8z" course="Math 2078" chapter="11" slide="8" item="11.9">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="9" md5="0qRMkCny2PxdKqPsb3E8S3" course="Math 2078" chapter="11" slide="8" item="11.9">
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
+                <itemize course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="itemize">
+                  <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
+</paragraphs>
+                  <item course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
+                    <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
+If $f, g \in k[x]$ are relatively prime, and $gh \in (f)$ for some $h \in k[x]$, then $h \in (f)$.</paragraphs>
+                    <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize"/>
+                    <item course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
+                      <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
 If $f, g \in k[x]$ are relatively prime, and both divide $h \in k[x]$,
-then $fg | h$.
+then $fg | h$.</paragraphs>
+                      <newline course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize"/>
+                      <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">In other words, if $(f, g) = k[x]$, then $(f) \cap (g) = (fg)$.
+</paragraphs>
+                    </item>
+                  </item>
+                </itemize>
+                <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 </paragraphs>
               </newcol>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
@@ -652,7 +669,7 @@ then $fg | h$.
             </statement>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7i2QBtMnbibLBVdYralYDZ" course="Math 2078" chapter="11" slide="8" of="1bdbsHmkPQuaGrFTjYbB8z" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="8" of-type="Claim" of-item="11.9" of-src-filename="week11.xml" ofmd5="1bdbsHmkPQuaGrFTjYbB8z" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7i2QBtMnbibLBVdYralYDZ" course="Math 2078" chapter="11" slide="8" of="0qRMkCny2PxdKqPsb3E8S3" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="8" of-type="Claim" of-item="11.9" of-src-filename="week11.xml" ofmd5="0qRMkCny2PxdKqPsb3E8S3" of-serial="">
               <of-title hidden="true">Claim 11.9</of-title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
@@ -679,8 +696,8 @@ By </paragraphs>
               <title>Theorem 11.2</title>
             </ref>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> and </paragraphs>
-            <ref environment="" chapter_type="" label="prop:pidirred" wbtag="ref" course="Math 2078" chapter="11" slide="9" src-course="Math 2078" src-chapter="10" src-slide="12" type="Proposition" item="10.22" src-filename="week10.xml" md5="1Wjnp6lTO1UrSslHo3Pyey" class="lcref" serial="">
-              <title>Proposition 10.22</title>
+            <ref environment="" chapter_type="" label="prop:pidirred" wbtag="ref" course="Math 2078" chapter="11" slide="9" src-course="Math 2078" src-chapter="10" src-slide="11" type="Proposition" item="10.21" src-filename="week10.xml" md5="1Wjnp6lTO1UrSslHo3Pyey" class="lcref" serial="">
+              <title>Proposition 10.21</title>
             </ref>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">, we now know that:
 </paragraphs>

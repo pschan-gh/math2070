@@ -339,16 +339,20 @@ An element $r$ is a commutative ring $R$ is said to be </paragraphs>
 </paragraphs>
               <itemize course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="itemize">
                 <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
-$r \neq 0$
 </paragraphs>
                 <item course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
                   <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
-$r$ is not a unit.
+$r \neq 0$.
 </paragraphs>
                   <item course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
                     <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
+$r$ is not a unit.
+</paragraphs>
+                    <item course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="item">
+                      <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="itemize" wbtag="paragraphs">
 $r = ab$ implies that one of $a$ or $b$ is an associate of $r$. 
 </paragraphs>
+                    </item>
                   </item>
                 </item>
               </itemize>
@@ -364,9 +368,9 @@ The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ 
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="15" md5="41Pd2cDJMjQbC7Nv6GeR7D" course="Math 2078" chapter="10" slide="8" item="10.15">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="15" md5="5KSyaXknNOjqMh7d95Zh57" course="Math 2078" chapter="10" slide="8" item="10.15">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-If $r$ is a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
+If $r$ in a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
@@ -399,9 +403,9 @@ If $R$ is a PID, then every nonzero prime ideal is a maximal ideal.
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="17" md5="5fHp0mGLAPdHhi52btr92r" course="Math 2078" chapter="10" slide="9" item="10.17">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="17" md5="2Ca5Y8ZRXwMwClM4gEm08x" course="Math 2078" chapter="10" slide="9" item="10.17">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-If $R$ is a PID, $(r)$ is maximal if and only if $r$ is irreducible.
+If $R$ is a PID, then $(r)$ is maximal if and only if $r$ is irreducible.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
@@ -414,9 +418,9 @@ is a field.
 </comment>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="20pZ4OpwvXcelDWPrL18LY" course="Math 2078" chapter="10" slide="9" item="10.18">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="1uIoR0oXuCQLiIZYL8hccb" course="Math 2078" chapter="10" slide="9" item="10.18">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime ideal.
+If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a nonzero prime ideal.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
@@ -426,7 +430,7 @@ If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime i
             <keywords slide="10" environ="slide" chapter="10" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="19" md5="2YrtJgiWECJ0MkAkjpYnJ8" course="Math 2078" chapter="10" slide="10" item="10.19">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="19" md5="3d6YEqyHDPNcwpym0sctPE" course="Math 2078" chapter="10" slide="10" item="10.19">
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 If $R$ is a commutative ring and:
 \[
@@ -435,12 +439,12 @@ I_1 \subseteq I_2 \subseteq \cdots \subseteq I_n
 \]
 is an ascending chain of ideals in $R$, 
 then
-$J = \sum_{n \geq 1} I_n$ is an ideal in $R$.
+$J = \bigcup_{n \geq 1} I_n$ is an ideal in $R$.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="20" md5="6DZ89IsxWFDGyZO5IicrwC" course="Math 2078" chapter="10" slide="10" item="10.20">
+            <statement environment="statement" chapter_type="Week" type="Proposition" wbtag="prop" num="20" md5="2kCR4LyMnwQLLRQiGqErz7" course="Math 2078" chapter="10" slide="10" item="10.20">
               <label wbtag="label" name="prop:pidchain" type="Proposition"/>
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
@@ -450,7 +454,7 @@ If $R$ is a PID, then for any infinitely ascending chain of ideals:
 I_1 \subseteq I_2 \subseteq \cdots \subseteq I_n
 \subseteq I_{n + 1} \subseteq \cdots
 \]
-there exists $M \in \mathbb{N}$ such that $I_n = I_M$ for all $n &gt; m$:
+there exists $M \in \mathbb{N}$ such that $I_n = I_M$ for all $n &gt; M$:
 \[
 I_M = I_{M + 1} = I_{M + 2} = \cdots
 \]
@@ -474,7 +478,7 @@ Let $R$ be a PID. For any nonzero $r \in R$ which is not a unit, $r$ is irreduci
             </statement>
             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="5rxPLy5Vz4GA0HoJVNcCM3" course="Math 2078" chapter="10" slide="11" of="1Wjnp6lTO1UrSslHo3Pyey" of-src-course="Math 2078" of-src-chapter="10" of-src-slide="11" of-type="Proposition" of-item="10.21" of-src-filename="week10.xml" ofmd5="1Wjnp6lTO1UrSslHo3Pyey" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4oU3eHUlqoCKSVW45Ogwco" course="Math 2078" chapter="10" slide="11" of="1Wjnp6lTO1UrSslHo3Pyey" of-src-course="Math 2078" of-src-chapter="10" of-src-slide="11" of-type="Proposition" of-item="10.21" of-src-filename="week10.xml" ofmd5="1Wjnp6lTO1UrSslHo3Pyey" of-serial="">
               <of-title hidden="true">Proposition 10.21</of-title>
               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
@@ -485,7 +489,7 @@ Let $\mathcal{S}$ be the set of ideals of $R$ generated by nonzero non-unit elem
                 <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 Suppose $\mathcal{S}$ is nonempty. By </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="prop:pidchain" wbtag="ref" course="Math 2078" chapter="10" slide="11" referrer-type="Proof" referrer-md5="5rxPLy5Vz4GA0HoJVNcCM3" src-course="Math 2078" src-chapter="10" src-slide="10" type="Proposition" item="10.20" src-filename="week10.xml" md5="6DZ89IsxWFDGyZO5IicrwC" class="lcref" serial="">
+                  <ref environment="newcol" chapter_type="" label="prop:pidchain" wbtag="ref" course="Math 2078" chapter="10" slide="11" referrer-type="Proof" referrer-md5="4oU3eHUlqoCKSVW45Ogwco" src-course="Math 2078" src-chapter="10" src-slide="10" type="Proposition" item="10.20" src-filename="week10.xml" md5="2kCR4LyMnwQLLRQiGqErz7" class="lcref" serial="">
                     <title>Proposition 10.20</title>
                   </ref>
                   <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, there exists at least one ``maximal" element $I = (r) \in \mathcal{S}$, in the following sense:</paragraphs>
@@ -518,7 +522,7 @@ Hence, $(r) \subseteq (b) \subsetneq R$. If $(r) = (b)$, then $a$ is a unit, a c
                           <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                           <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                             <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
-So, $(r) \subsetneq (b)$, which implies that $b$ is irreducible or product of irreducibles. It follows that $r$ is a product of irreducibles, a contradition.</paragraphs>
+So, $(r) \subsetneq (b)$, which implies that $b$ is irreducible or product of irreducibles. It follows that $r$ is a product of irreducibles, a contradiction.</paragraphs>
                             <newline course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                             <collapse course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                               <paragraphs course="Math 2078" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">

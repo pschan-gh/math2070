@@ -171,7 +171,8 @@ a = bu.
 @def
 An element $r$ is a commutative ring $R$ is said to be __irreducible__ if:
 @itemize
-$r \neq 0$
+@item
+$r \neq 0$.
 @item
 $r$ is not a unit.
 @item
@@ -182,14 +183,14 @@ $r = ab$ implies that one of $a$ or $b$ is an associate of $r$.
 The set of irreducible elements in the ring $\mathbb{Z}$ is $\{\pm p : p \text{ a prime number}\}$.
 @end
 @ex
-If $r$ is a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
+If $r$ in a commutative ring $R$ is irreducible, then so is $rs$ for any unit $s \in R$.
 @end
 @section{Principal Ideal Domains}
 @thm
 If $R$ is a PID, then every nonzero prime ideal is a maximal ideal.
 @end
-@cor
-If $R$ is a PID, $(r)$ is maximal if and only if $r$ is irreducible.
+@thm
+If $R$ is a PID, then $(r)$ is maximal if and only if $r$ is irreducible.
 @end
 <!--
 @cor
@@ -198,7 +199,7 @@ is a field.
 @end
 -->
 @cor
-If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a prime ideal.
+If $R$ is a PID, then $p \in R$ is irreducible if and only if $(p)$ is a nonzero prime ideal.
 @end
 @slide
 @ex
@@ -209,7 +210,7 @@ I_1 \subseteq I_2 \subseteq \cdots \subseteq I_n
 \]
 is an ascending chain of ideals in $R$, 
 then
-$J = \sum_{n \geq 1} I_n$ is an ideal in $R$.
+$J = \bigcup_{n \geq 1} I_n$ is an ideal in $R$.
 @end
 @prop
 @label{prop:pidchain}
@@ -218,7 +219,7 @@ If $R$ is a PID, then for any infinitely ascending chain of ideals:
 I_1 \subseteq I_2 \subseteq \cdots \subseteq I_n
 \subseteq I_{n + 1} \subseteq \cdots
 \]
-there exists $M \in \mathbb{N}$ such that $I_n = I_M$ for all $n > m$:
+there exists $M \in \mathbb{N}$ such that $I_n = I_M$ for all $n > M$:
 \[
 I_M = I_{M + 1} = I_{M + 2} = \cdots
 \]
@@ -258,7 +259,7 @@ This $b$ is not a unit, for otherwise $(r) = (a)$, a contradiction.
 Hence, $(r) \subseteq (b) \subsetneq R$. If $(r) = (b)$, then $a$ is a unit, a contradiction.
 
 @col
-So, $(r) \subsetneq (b)$, which implies that $b$ is irreducible or product of irreducibles. It follows that $r$ is a product of irreducibles, a contradition.
+So, $(r) \subsetneq (b)$, which implies that $b$ is irreducible or product of irreducibles. It follows that $r$ is a product of irreducibles, a contradiction.
 
 @col
 Hence, $\mathcal{S}$ is empty. We conclude that every nonzero non-unit element is either irreducible or a product of irreducibles.

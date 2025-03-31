@@ -476,12 +476,12 @@ Hence, $p$ is irreducible.
             <keywords slide="7" environ="slide" chapter="11" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="5mzeaLrfeapgsUrpV3uz09" course="Math 2078" chapter="11" slide="7" item="11.7">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="1GueFpgANiYh80UTIUKnRA" course="Math 2078" chapter="11" slide="7" item="11.7">
               <label wbtag="label" name="thm:pirredfield" type="Theorem"/>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-Let $k$ be a field.  Let $p$ be a polynomial in $k[x]$.
+Let $k$ be a field.  Let $p$ be a nonzero polynomial in $k[x]$.
 The following statements are equivalent:
 </paragraphs>
               <col_ol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
@@ -512,11 +512,11 @@ $p$ is irreducible in $k[x]$.
               <newcol course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 Compare this result with </paragraphs>
-                <ref environment="newcol" chapter_type="" label="ex:zmintdom" wbtag="ref" course="Math 2078" chapter="11" slide="7" referrer-type="Remark" referrer-md5="7vJFbSaS6uYx5yJfDTK9T3" src-course="Math 2078" src-chapter="7" src-slide="15" type="Exercise" item="7.19" src-filename="week7.xml" md5="4f62ea99a34581084495ad126b1d7ed0" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="ex:zmintdom" wbtag="ref" course="Math 2078" chapter="11" slide="7" referrer-type="Remark" referrer-md5="7vJFbSaS6uYx5yJfDTK9T3" src-course="Math 2078" src-chapter="7" src-slide="15" type="Exercise" item="7.19" src-filename="week7.xml" md5="2pNB7CmXWR4QsNVNpnK5xu" class="lcref" serial="">
                   <title>Exercise 7.19</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and </paragraphs>
-                <ref environment="newcol" chapter_type="" label="cor:zpfield" wbtag="ref" course="Math 2078" chapter="11" slide="7" referrer-type="Remark" referrer-md5="7vJFbSaS6uYx5yJfDTK9T3" src-course="Math 2078" src-chapter="7" src-slide="18" type="Corollary" item="7.24" src-filename="week7.xml" md5="faff551b28a29dea037337edd00bb258" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="cor:zpfield" wbtag="ref" course="Math 2078" chapter="11" slide="7" referrer-type="Remark" referrer-md5="7vJFbSaS6uYx5yJfDTK9T3" src-course="Math 2078" src-chapter="7" src-slide="18" type="Corollary" item="7.24" src-filename="week7.xml" md5="7DCLG2litbaHenl4Tl7M3C" class="lcref" serial="">
                   <title>Corollary 7.24</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .
@@ -527,7 +527,7 @@ Compare this result with </paragraphs>
             </substatement>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4GTibpf0RmtHoS3NwQ6XrP" course="Math 2078" chapter="11" slide="7" of="5mzeaLrfeapgsUrpV3uz09" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="7" of-type="Theorem" of-item="11.7" of-src-filename="week11.xml" ofmd5="5mzeaLrfeapgsUrpV3uz09" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="4GTibpf0RmtHoS3NwQ6XrP" course="Math 2078" chapter="11" slide="7" of="1GueFpgANiYh80UTIUKnRA" of-src-course="Math 2078" of-src-chapter="11" of-src-slide="7" of-type="Theorem" of-item="11.7" of-src-filename="week11.xml" ofmd5="1GueFpgANiYh80UTIUKnRA" of-serial="">
               <of-title hidden="true">Theorem 11.7</of-title>
               <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 This follows directly from the facts that $k[x]$ is a PID.</paragraphs>
@@ -735,7 +735,7 @@ The factorization is unique up to the ordering of the factors.
                 <inline_keyword course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="keyword">Exercise.</inline_keyword>
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> One possible approach is very similar to the proof of unique factorization
 for $\mathbb{Z}.$ See: </paragraphs>
-                <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2078" chapter="11" slide="9" referrer-type="Proof" referrer-md5="0EokAw92B1l9RJOdqxc38I" src-course="Math 2078" src-chapter="6" src-slide="8" type="Theorem" item="6.12" src-filename="week6.xml" md5="20925de2d121a5944f47383054e6c6d0" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="thm:fta" wbtag="ref" course="Math 2078" chapter="11" slide="9" referrer-type="Proof" referrer-md5="0EokAw92B1l9RJOdqxc38I" src-course="Math 2078" src-chapter="6" src-slide="8" type="Theorem" item="6.12" src-filename="week6.xml" md5="0ZsDWvdLXtzB23kQN81wsM" class="lcref" serial="">
                   <title custom="true">The Fundamental Theorem of Arithmetic</title>
                 </ref>
                 <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .
@@ -783,7 +783,7 @@ f(a) = \phi_a(f),
 where $\phi_a$ is the </paragraphs>
             <inline_keyword course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="keyword">evaluation homomorphism</inline_keyword>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> defined in </paragraphs>
-            <ref environment="" chapter_type="" label="eg:evalhomom" wbtag="ref" course="Math 2078" chapter="11" slide="11" src-course="Math 2078" src-chapter="8" src-slide="7" type="Example" item="8.5" src-filename="week8.xml" md5="3bca8a74c04e7763a3607fb2fcaadc80" class="lcref" serial="">
+            <ref environment="" chapter_type="" label="eg:evalhomom" wbtag="ref" course="Math 2078" chapter="11" slide="11" src-course="Math 2078" src-chapter="8" src-slide="7" type="Example" item="8.5" src-filename="week8.xml" md5="1OP6JUdgdSBfUYXOtzOvRK" class="lcref" serial="">
               <title>Example 8.5</title>
             </ref>
             <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">.
@@ -1110,7 +1110,7 @@ Hence, $\phi$ is surjective.</paragraphs>
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
 We now find $\ker \phi$.
 Since $\mathbb{R}[x]$ is a PID (see </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2078" chapter="11" slide="15" referrer-type="Proof" referrer-md5="2doqPBGfA3aRG4zFDsnO3C" src-course="Math 2078" src-chapter="8" src-slide="24" type="Definition" item="8.22" src-filename="week8.xml" md5="4ac60ad0846141cae22cdee387ec081b" class="lcref" serial="">
+                    <ref environment="newcol" chapter_type="" label="def:pid" wbtag="ref" course="Math 2078" chapter="11" slide="15" referrer-type="Proof" referrer-md5="2doqPBGfA3aRG4zFDsnO3C" src-course="Math 2078" src-chapter="8" src-slide="24" type="Definition" item="8.22" src-filename="week8.xml" md5="2h5W8Jpwv1gdlIaC2hhjRN" class="lcref" serial="">
                       <title>Definition 8.22</title>
                     </ref>
                     <paragraphs course="Math 2078" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">).  There exists $p \in \mathbb{R}[x]$

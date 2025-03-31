@@ -11,9 +11,11 @@
       <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 2078" title="Math 2078" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
         <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 2078</title>
         <keywords slide="1" environ="slide" chapter="" course="Math 2078"/>
+        <paragraphs course="Math 2078" chapter="" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="5" title="" topic="Group Homomorphisms, Rings, Elementary Number Theory" course="Math 2078" serial="5">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="5" title="5" topic="Group Homomorphisms, Rings, Elementary Number Theory" course="Math 2078" serial="5">
       <keywords slide="all" environ="chapter" chapter="5" course="Math 2078">
         <keyword chapter="5" slide="all">isomorphic</keyword>
         <keyword chapter="5" slide="all">remainder</keyword>
@@ -25,25 +27,41 @@
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="5" section="" subsection="" subsubsection="" serial="" slide="">Rings</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 2078" chapter="5" section="" subsection="" subsubsection="" serial="" slide="">Elementary Number Theory</topic>
       <slides environment="" chapter_type="">
-        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2078" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 2078" chapter="5" section="" subsection="" subsubsection="" chapter_title="5" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Group Homomorphisms</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Rings</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Elementary Number Theory</topic>
           <keywords slide="2" environ="slide" chapter="5" course="Math 2078"/>
+          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
         </slide>
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Product Group" course="Math 2078" chapter="5" num="1" serial="5.1">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" serial="" slide="">
-          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Product Group</paragraphs>
+          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Product Group
+</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="5" section_title="Product Group">
             <keywords slide="3" environ="slide" chapter="5" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" serial="" slide="3">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Product Group</paragraphs>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Product Group
+</paragraphs>
             </title>
-            <b xmlns="http://www.w3.org/1999/xhtml" style="display:none" environment="">
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <b xmlns="http://www.w3.org/1999/xhtml" environment="" chapter_type="" style="display:none">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Product Group</paragraphs>
             </b>
             <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
@@ -55,18 +73,22 @@ has a natural group structure
 where the group operation $\ast$ is defined as follows:
 \[
 (a, b)\ast(a', b') = (a\ast_A a', b\ast_B b'), \quad (a, b), (a', b') \in A\times B.
-\] </paragraphs>
+\]
+</paragraphs>
             <newcol course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The identity element of $A \times B$ is $e = (e_A, e_B)$, where $e_A, e_B$
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ The identity element of $A \times B$ is $e = (e_A, e_B)$, where $e_A, e_B$
 are the identity elements of $A$ and $B$, respectively.</paragraphs>
               <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
               <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  For any $(a, b) \in A \times B$, we have $(a, b)^{-1} = (a^{-1}, b^{-1})$,
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ For any $(a, b) \in A \times B$, we have $(a, b)^{-1} = (a^{-1}, b^{-1})$,
 where $a^{-1}$, $b^{-1}$ are the inverses of $a$, $b$ in the groups $A$, $B$,
 respectively.</paragraphs>
                 <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                 <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  For any collection of groups $A_1, A_2, \ldots, A_n$,
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ For any collection of groups $A_1, A_2, \ldots, A_n$,
 we may similarly define a group operation $\ast$ on:
 \[
 A_1 \times A_2 \times \cdots \times A_n
@@ -86,69 +108,126 @@ For any $(a_1, a_2, \ldots, a_n) \in A_1 \times A_2 \times \cdots \times A_n$,
 its inverse is:
 \[
 (a_1, a_2, \ldots, a_n)^{-1} = (a_1^{-1}, a_2^{-1}, \ldots, a_n^{-1}).
-\] </paragraphs>
+\]
+</paragraphs>
                 </collapse>
               </collapse>
             </newcol>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="5" section_title="Product Group">
             <keywords slide="4" environ="slide" chapter="5" course="Math 2078">
               <keyword chapter="5" slide="4">isomorphic</keyword>
             </keywords>
             <hc_keyword course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">isomorphic</hc_keyword>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="1" md5="28b7caeaa658281f2213fca1d9e8dd59" course="Math 2078" chapter="5" slide="4" item="5.1">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  $\mathbb{Z}_6$ is isomorphic to $\mathbb{Z}_2\times\mathbb{Z}_3$. </paragraphs>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="1" md5="1ePGz6zWwzBxmUTbK6QEyZ" course="Math 2078" chapter="5" slide="4" item="5.1">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+ $\mathbb{Z}_6$ is isomorphic to $\mathbb{Z}_2\times\mathbb{Z}_3$.
+</paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="34cb6e03c272f66e6adec049748a1d59" course="Math 2078" chapter="5" slide="4" of="28b7caeaa658281f2213fca1d9e8dd59" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="4" of-type="Exercise" of-item="5.1" of-src-filename="week5.xml" ofmd5="28b7caeaa658281f2213fca1d9e8dd59" of-serial="">
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1BCzfUMfwMaif7CBjnUB4Z" course="Math 2078" chapter="5" slide="4" of="1ePGz6zWwzBxmUTbK6QEyZ" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="4" of-type="Exercise" of-item="5.1" of-src-filename="week5.xml" ofmd5="1ePGz6zWwzBxmUTbK6QEyZ" of-serial="">
               <of-title hidden="true">Exercise 5.1</of-title>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
               <newcol course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
+                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol" chapter_type="">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Hint:</paragraphs>
                 </strong>
                 <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Show that $\mathbb{Z}_2\times\mathbb{Z}_3$ is a cyclic group generated by $(1, 1)$. </paragraphs>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Show that $\mathbb{Z}_2\times\mathbb{Z}_3$ is a cyclic group generated by $(1, 1)$.
+</paragraphs>
               </newcol>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
             </substatement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="098c417f4cb5297f8ea505fb51cfb1de" course="Math 2078" chapter="5" slide="4" item="5.2">
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="0i11JNSxIDZkdoLOhwQ4PQ" course="Math 2078" chapter="5" slide="4" item="5.2">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
               <newcol course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The cyclic group $\mathbb{Z}_4$ is not isomorphic to $\mathbb{Z}_2 \times \mathbb{Z}_2$. </paragraphs>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ The cyclic group $\mathbb{Z}_4$ is not isomorphic to $\mathbb{Z}_2 \times \mathbb{Z}_2$.
+</paragraphs>
               </newcol>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="57b96aa2ec328868339bffa1f4b9aa60" course="Math 2078" chapter="5" slide="4" of="098c417f4cb5297f8ea505fb51cfb1de" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="4" of-type="Example" of-item="5.2" of-src-filename="week5.xml" ofmd5="098c417f4cb5297f8ea505fb51cfb1de" of-serial="">
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="2Fx4dzAjrr5MonFsCv9Ttm" course="Math 2078" chapter="5" slide="4" of="0i11JNSxIDZkdoLOhwQ4PQ" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="4" of-type="Example" of-item="5.2" of-src-filename="week5.xml" ofmd5="0i11JNSxIDZkdoLOhwQ4PQ" of-serial="">
               <of-title hidden="true">Example 5.2</of-title>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
               <newcol course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Each element of $G = \mathbb{Z}_2\times\mathbb{Z}_2$ is of order at most $2$.
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Each element of $G = \mathbb{Z}_2\times\mathbb{Z}_2$ is of order at most $2$.
 Since $\abs{G} = 4$, $G$ cannot be generated by a single element.
 Hence, $G$ is not cyclic,
-so it cannot be isomorphic to the cyclic group $\mathbb{Z}_4$. </paragraphs>
-                <qed course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+so it cannot be isomorphic to the cyclic group $\mathbb{Z}_4$.
+</paragraphs>
+                <qed course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="qed"/>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
               </newcol>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
             </substatement>
             <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="5" section_title="Product Group">
             <keywords slide="5" environ="slide" chapter="5" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="8bc50a21b96cf105cd6ea4c5aa9c06c0" course="Math 2078" chapter="5" slide="5" item="5.3">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  Let $G$ be an abelian group, then any group which is isomorphic to $G$ is abelian. </paragraphs>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="4fJYO9C0W1ld2cxGRTH5lu" course="Math 2078" chapter="5" slide="5" item="5.3">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+ Let $G$ be an abelian group, then any group which is isomorphic to $G$ is abelian.
+</paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="5e221127a6ce6e70c99a2a01d78050e2" course="Math 2078" chapter="5" slide="5" item="5.4">
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="2RCQxqcpbcLiKnVl5ZCqrM" course="Math 2078" chapter="5" slide="5" item="5.4">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
               <newcol course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The group $D_6$ has $12$ elements.  We have seen that $D_6 = \langle r_1, s\rangle$, where $r_1$ is a rotation of order $6$,
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ The group $D_6$ has $12$ elements.  We have seen that $D_6 = \langle r_1, s\rangle$, where $r_1$ is a rotation of order $6$,
 and $s$ is a reflection, which has order $2$.  So, it is reasonable to ask if $D_6$ is isomorphic to $\mathbb{Z}_6 \times \mathbb{Z}_2$.  The answer is no.
-For $\mathbb{Z}_6 \times \mathbb{Z}_2$ is abelian, but $D_6$ is not. </paragraphs>
+For $\mathbb{Z}_6 \times \mathbb{Z}_2$ is abelian, but $D_6$ is not.
+</paragraphs>
               </newcol>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
             </statement>
             <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="5" section_title="Product Group">
             <keywords slide="6" environ="slide" chapter="5" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="5fea1767dbc70eac51394f4d00e15c74" course="Math 2078" chapter="5" slide="6" item="5.5">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  The dihedral group $D_3$ is isomorphic to the symmetric group $S_3$. </paragraphs>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="2UZfzp1elrfqNDYNqLF3bm" course="Math 2078" chapter="5" slide="6" item="5.5">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+ The dihedral group $D_3$ is isomorphic to the symmetric group $S_3$.
+</paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3be728b9f89cfc148597e21a557c4d7e" course="Math 2078" chapter="5" slide="6" of="5fea1767dbc70eac51394f4d00e15c74" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="6" of-type="Claim" of-item="5.5" of-src-filename="week5.xml" ofmd5="5fea1767dbc70eac51394f4d00e15c74" of-serial="">
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1P2bBWA3GRnRmZNmBFmX9A" course="Math 2078" chapter="5" slide="6" of="2UZfzp1elrfqNDYNqLF3bm" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="6" of-type="Claim" of-item="5.5" of-src-filename="week5.xml" ofmd5="2UZfzp1elrfqNDYNqLF3bm" of-serial="">
               <of-title hidden="true">Claim 5.5</of-title>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
               <newcol course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We have seen that $D_3 = \langle r, s\rangle$, where $r = r_1$ and
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ We have seen that $D_3 = \langle r, s\rangle$, where $r = r_1$ and
 $s$ is any fixed reflection,
 with:
 \[
@@ -158,7 +237,8 @@ In particular , any element in $D_3$ may be expressed as $r^is^j$,
 with $i \in \{0, 1, 2\}$, $j \in \{0, 1\}$.</paragraphs>
                 <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                 <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We have also seen that $S_3 = \langle a, b \rangle$,
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ We have also seen that $S_3 = \langle a, b \rangle$,
 where:
 \[
 a = (123),\quad b = (12),\quad \ord a = 3,\quad \ord b = 2, \quad bab = a^{-1}.
@@ -167,41 +247,50 @@ Hence, any element in $S_3$ may be expressed as $a^ib^j$,
 with $i \in \{0, 1, 2\}$, $j \in \{0, 1\}$.</paragraphs>
                   <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Define map $\phi: D_3 \longrightarrow S_3$ as follows:
+                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Define map $\phi: D_3 \longrightarrow S_3$ as follows:
 \[
 \phi(r^is^j) = a^ib^j, \quad i, j \in \mathbb{Z}
 \]</paragraphs>
                     <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                     <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We first show that $\phi$ is well-defined:
+                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ We first show that $\phi$ is well-defined:
 That is, whenever $r^i s^j = r^{i'}s^{j'}$,
 we want to show that:
 \[
 \phi(r^i s^j) = \phi(r^{i'}s^{j'}).
-\] </paragraphs>
+\]
+</paragraphs>
                       <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  The condition $r^i s^j = r^{i'}s^{j'}$ implies that:
+                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ The condition $r^i s^j = r^{i'}s^{j'}$ implies that:
 \[
 r^{i - i'} = s^{j' - j}
-\] </paragraphs>
+\]
+</paragraphs>
                         <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  This holds only if  $r^{i - i'} = s^{j' - j} = e$,
+                          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ This holds only if  $r^{i - i'} = s^{j' - j} = e$,
 since no rotation is a reflection.</paragraphs>
                           <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                           <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Since $\ord r = 3$ and $\ord s = 2$, we have:
+                            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Since $\ord r = 3$ and $\ord s = 2$, we have:
 \[
 3 | (i - i'), \quad 2 | (j' - j),
 \]
 by </paragraphs>
-                            <ref environment="newcol" chapter_type="" label="thm:orderdividesn" wbtag="ref" course="Math 2078" chapter="5" slide="6" referrer-type="Proof" referrer-md5="3be728b9f89cfc148597e21a557c4d7e" src-course="Math 2078" src-chapter="1" src-slide="13" type="Theorem" item="1.12" src-filename="week1.xml" md5="ef5e062af00e1814dd0b8386e5bb87ab" class="lcref" serial="">
+                            <ref environment="newcol" chapter_type="" label="thm:orderdividesn" wbtag="ref" course="Math 2078" chapter="5" slide="6" referrer-type="Proof" referrer-md5="1P2bBWA3GRnRmZNmBFmX9A" src-course="Math 2078" src-chapter="1" src-slide="13" type="Theorem" item="1.12" src-filename="week1.xml" md5="7hG8o14DorkcbjM99gRaBl" class="lcref" serial="">
                               <title>Theorem 1.12</title>
                             </ref>
                             <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.</paragraphs>
                             <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                             <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Hence, </paragraphs>
-                              <steps course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+                              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Hence,
+</paragraphs>
+                              <steps course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="steps" wbtag="steps" stepsid="steps1">
 \begin{align*}
 \phi(r^is^j) \phi(r^{i'}s^{j'})^{-1}
 &amp;= (a^ib^j)(a^{i'}b^{j'})^{-1}
@@ -224,46 +313,55 @@ by </paragraphs>
 \class{steps}{\cssId{step4}{= e}}
 &amp;
 \class{steps}{\cssId{step5}{\text{ since } \ord a = 3.}}
-\end{align*}
-
-</steps>
-                              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  This implies that
+\end{align*}<newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="steps"/></steps>
+                              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ This implies that
 $\phi(r^is^j) = \phi(r^{i'}s^{j'})$.
 We conclude that $\phi$ is well-defined.</paragraphs>
                               <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                               <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  We now show that $\phi$ is a group homomorphism:</paragraphs>
+                                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ We now show that $\phi$ is a group homomorphism:</paragraphs>
                                 <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                                 <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Given $\mu, \mu' \in \{0, 1, 2\}$, $\nu, \nu' \in \{0, 1\}$, we have:
+                                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Given $\mu, \mu' \in \{0, 1, 2\}$, $\nu, \nu' \in \{0, 1\}$, we have:
 \[
 \phi(r^\mu s^\nu \cdot r^{\mu'}s^{\nu'}) =
 \begin{cases}
 \phi(r^{\mu + \mu'}s^{\nu'}),&amp;\text{if } \nu = 0;\\
 \phi(r^{\mu - \mu'}s^{\nu + \nu'}),&amp;\text{if } \nu = 1.
 \end{cases}
-\] </paragraphs>
+\]
+</paragraphs>
                                   <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  \[
+                                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ \[
 =
 \begin{cases}
 a^{\mu + \mu'}b^{\nu'},&amp;\text{if } \nu = 0;\\
 a^{\mu - \mu'}b^{\nu + \nu'} = a^{\mu}b^{\nu}a^{\mu'}b^{\nu'},&amp;\text{if } \nu = 1.
 \end{cases}
-\] </paragraphs>
+\]
+</paragraphs>
                                     <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  \[
+                                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ \[
 =\phi(r^\mu s^\nu)\phi(r^{\mu'}s^{\nu'}).
 \]
 This shows that $\phi$ is a group homomorphism.</paragraphs>
                                       <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                                       <collapse course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  To show that $\phi$ is a group isomorphism,
+                                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ To show that $\phi$ is a group isomorphism,
 it remains to show that it is surjective and one-to-one.</paragraphs>
                                         <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                                         <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">It is clear that $\phi$ is surjective.  We leave it as an exercise
-to show that $\phi$ is one-to-one. </paragraphs>
-                                        <qed course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+to show that $\phi$ is one-to-one.
+</paragraphs>
+                                        <qed course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="qed"/>
+                                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
                                       </collapse>
                                     </collapse>
                                   </collapse>
@@ -277,13 +375,18 @@ to show that $\phi$ is one-to-one. </paragraphs>
                   </collapse>
                 </collapse>
               </newcol>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
             </substatement>
             <newline course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Product Group">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" chapter_title="5" section_title="Product Group">
             <keywords slide="7" environ="slide" chapter="5" course="Math 2078"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="88897c4e46dbb05c5c9e87d8678deeb6" course="Math 2078" chapter="5" slide="7" item="5.6">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">  The group:
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="49DMPlsqRLMPtAEILiOH1s" course="Math 2078" chapter="5" slide="7" item="5.6">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+ The group:
 \[
 G = \left\{g \in \mathrm{GL}(2, \mathbb{R}) \,\left|\,
 g = \left(
@@ -299,10 +402,12 @@ is isomorphic to
 \[
 G' = \{z \in \mathbb{C} : \abs{z} = 1\}.
 \]
-Here, the group operation on $G$ is matrix multiplication, and the group operation on $G'$ is the multiplication of complex numbers. </paragraphs>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
+Here, the group operation on $G$ is matrix multiplication, and the group operation on $G'$ is the multiplication of complex numbers.
+</paragraphs>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" chapter_type="" />
               <newcol course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  Each element in $G'$ is equal to $e^{i\theta}$ for some $\theta \in \mathbb{R}$.
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Each element in $G'$ is equal to $e^{i\theta}$ for some $\theta \in \mathbb{R}$.
 Define a map $\phi : G \ra G'$ as follows:
 \[
 \phi\left(\left(
@@ -311,183 +416,283 @@ Define a map $\phi : G \ra G'$ as follows:
 \sin \theta &amp; \cos \theta
 \end{matrix}
 \right)\right) = e^{i\theta}.
-\] </paragraphs>
-                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+\]
+</paragraphs>
+                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol" chapter_type="">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise:</paragraphs>
                 </strong>
                 <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that $\phi$ is a well-defined map.
-Then, show that it is a bijective group homomorphism. </paragraphs>
+Then, show that it is a bijective group homomorphism.
+</paragraphs>
               </newcol>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
             </statement>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
           </slide>
         </slides>
         <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 2078" chapter="5" section="1" num="1" serial="5.1.1">
           <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="1" subsection="" subsubsection="" serial="5.1.1" slide="">
-            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+WeBWorK
+</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="8" scope="subsection" id="s8" slide="8" course="Math 2078" chapter="5" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Product Group">
+            <slide environment="" chapter_type="Week" canon_num="8" scope="subsection" id="s8" slide="8" course="Math 2078" chapter="5" section="1" subsection="1" subsubsection="" chapter_title="5" section_title="Product Group">
               <keywords slide="8" environ="slide" chapter="5" course="Math 2078"/>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
               <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="1" subsection="1" subsubsection="" serial="" slide="8">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">
+WeBWorK
+</paragraphs>
               </title>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
               <enumerate course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs">
+</paragraphs>
                 <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
                   <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                  <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms1.pg"/>
-                </item>
-                <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                  <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms4.pg"/>
-                </item>
-                <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                  <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms3.pg"/>
-                </item>
-                <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                  <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms6.pg"/>
-                </item>
-                <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                  <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms2.pg"/>
-                </item>
-                <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                  <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms8.pg"/>
+                  <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms1.pg" wbtag="webwork"/>
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs">
+</paragraphs>
+                  <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                    <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms4.pg" wbtag="webwork"/>
+                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs">
+</paragraphs>
+                    <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                      <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms3.pg" wbtag="webwork"/>
+                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs">
+</paragraphs>
+                      <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                        <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms6.pg" wbtag="webwork"/>
+                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs">
+</paragraphs>
+                        <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                          <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms2.pg" wbtag="webwork"/>
+                          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs">
+</paragraphs>
+                          <item course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
+                            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
+                            <webwork course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" pg_file="Library/UMass-Amherst/Abstract-Algebra/PS-GroupHomomorphisms/Homomorphisms8.pg" wbtag="webwork"/>
+                            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="paragraphs">
+</paragraphs>
+                          </item>
+                        </item>
+                      </item>
+                    </item>
+                  </item>
                 </item>
               </enumerate>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2078" chapter="5" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Product Group">
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 2078" chapter="5" section="1" subsection="1" subsubsection="" chapter_title="5" section_title="Product Group">
               <keywords slide="9" environ="slide" chapter="5" course="Math 2078"/>
-              <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="7" md5="260306b8e5b3695efd64ca27ddac6754" course="Math 2078" chapter="5" slide="9" item="5.7">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> For any group homomorphism $\phi : G \longrightarrow G'$, the kernel $\ker \phi$ is a normal subgroup of $G$. </paragraphs>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="7" md5="19J5FseZPCSk5zhxS6phek" course="Math 2078" chapter="5" slide="9" item="5.7">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+For any group homomorphism $\phi : G \longrightarrow G'$, the kernel $\ker \phi$ is a normal subgroup of $G$.
+</paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="ef8fb97d271d5d2e855498ac9a9b41b7" course="Math 2078" chapter="5" slide="9" of="260306b8e5b3695efd64ca27ddac6754" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="9" of-type="Claim" of-item="5.7" of-src-filename="week5.xml" ofmd5="260306b8e5b3695efd64ca27ddac6754" of-serial="">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7i2QBtMnbibLBVdYralYDZ" course="Math 2078" chapter="5" slide="9" of="19J5FseZPCSk5zhxS6phek" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="9" of-type="Claim" of-item="5.7" of-src-filename="week5.xml" ofmd5="19J5FseZPCSk5zhxS6phek" of-serial="">
                 <of-title hidden="true">Claim 5.7</of-title>
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs"> Exercise. </paragraphs>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+Exercise.
+</paragraphs>
               </substatement>
-              <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="8" md5="e370725ec56dbd915fd2fbe5366b8b8a" course="Math 2078" chapter="5" slide="9" item="5.8">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="8" md5="6VaE5iaQoEsdxnZs8GTgka" course="Math 2078" chapter="5" slide="9" item="5.8">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\phi : G \longrightarrow G'$ is a group homomorphis, is $\im \phi$ necessarily normal? </paragraphs>
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+If $\phi : G \longrightarrow G'$ is a group homomorphis, is $\im \phi$ necessarily normal?
+</paragraphs>
                 </newcol>
               </statement>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="5" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Product Group">
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 2078" chapter="5" section="1" subsection="1" subsubsection="" chapter_title="5" section_title="Product Group">
               <keywords slide="10" environ="slide" chapter="5" course="Math 2078"/>
-              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="63a3e1c60f455d806d86bcb9683c27bc" course="Math 2078" chapter="5" slide="10" item="5.9">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Let $\phi : G \longrightarrow G'$ be a surjective group homomorphism, then:
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="3218lug6EcdHLDjr1oaRYg" course="Math 2078" chapter="5" slide="10" item="5.9">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+Let $\phi : G \longrightarrow G'$ be a surjective group homomorphism, then:
 \[
 G' \cong G / \ker \phi
-\] </paragraphs>
+\]
+</paragraphs>
               </statement>
-              <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="10" md5="dad5ebea2179573aeafcdefd9b493172" course="Math 2078" chapter="5" slide="10" item="5.10">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> For any group homomorphism $\phi : G \longrightarrow G'$, we have:
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="10" md5="6EW5yObOOE0CCBktr6JRAe" course="Math 2078" chapter="5" slide="10" item="5.10">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+For any group homomorphism $\phi : G \longrightarrow G'$, we have:
 \[
 \im \phi \cong G / \ker \phi
-\] </paragraphs>
+\]
+</paragraphs>
               </statement>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
             </slide>
           </slides>
         </subsection>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Rings" course="Math 2078" chapter="5" num="2" serial="5.2">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="2" subsection="" subsubsection="" serial="" slide="">
-          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rings</paragraphs>
+          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Rings
+</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="11" scope="section" id="s11" slide="11" course="Math 2078" chapter="5" section="2" subsection="" subsubsection="" chapter_title="" section_title="Rings">
+          <slide environment="" chapter_type="Week" canon_num="11" scope="section" id="s11" slide="11" course="Math 2078" chapter="5" section="2" subsection="" subsubsection="" chapter_title="5" section_title="Rings">
             <keywords slide="11" environ="slide" chapter="5" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="2" subsection="" subsubsection="" serial="" slide="11">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rings</paragraphs>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Rings
+</paragraphs>
             </title>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
           </slide>
         </slides>
         <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Basic Results in Elementary Number Theory" course="Math 2078" chapter="5" section="2" num="1" serial="5.2.1">
           <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="2" subsection="" subsubsection="" serial="5.2.1" slide="">
-            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Basic Results in Elementary Number Theory</paragraphs>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Basic Results in Elementary Number Theory
+</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="12" scope="subsection" id="s12" slide="12" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Rings">
+            <slide environment="" chapter_type="Week" canon_num="12" scope="subsection" id="s12" slide="12" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" chapter_title="5" section_title="Rings">
               <keywords slide="12" environ="slide" chapter="5" course="Math 2078">
                 <keyword chapter="5" slide="12">remainder</keyword>
                 <keyword chapter="5" slide="12">Division Theorem</keyword>
               </keywords>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
               <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="12">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Basic Results in Elementary Number Theory</paragraphs>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">
+Basic Results in Elementary Number Theory
+</paragraphs>
               </title>
-              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Division Theorem" md5="e5d1712cf6968618cdae2a8007d5ffb6" course="Math 2078" chapter="5" slide="12" item="5.11">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Division Theorem" md5="6ZEXpfZKLAq7mRJWHMqItM" course="Math 2078" chapter="5" slide="12" item="5.11">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
                 <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="5" section="2" subsection="1" subsubsection="" serial="" slide="12">Division Theorem</title>
                 <label wbtag="label" name="thm:divalg" type="Theorem"/>
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">  Let $a, b \in \mathbb{Z}$, $a \neq 0$,
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+ Let $a, b \in \mathbb{Z}$, $a \neq 0$,
 then there exist unique $q$ (called the quotient), and $r$ (</paragraphs>
-                <inline_keyword course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement">remainder</inline_keyword>
+                <inline_keyword course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="keyword">remainder</inline_keyword>
                 <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">) in $\mathbb{Z}$, satisfying
-$0 \leq r &lt; \abs{a}$, such that $b = aq + r$. </paragraphs>
+$0 \leq r &lt; \abs{a}$, such that $b = aq + r$.
+</paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3c55019134a6b77f2e6b756b4cd95e17" course="Math 2078" chapter="5" slide="12" of="e5d1712cf6968618cdae2a8007d5ffb6" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="12" of-type="Theorem" of-item="5.11" of-src-filename="week5.xml" ofmd5="e5d1712cf6968618cdae2a8007d5ffb6" of-serial="">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1PQo1EaSnUdM0Yvd2oowm3" course="Math 2078" chapter="5" slide="12" of="6ZEXpfZKLAq7mRJWHMqItM" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="12" of-type="Theorem" of-item="5.11" of-src-filename="week5.xml" ofmd5="6ZEXpfZKLAq7mRJWHMqItM" of-serial="">
                 <of-title hidden="true">Division Theorem</of-title>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  We will prove the case $a &gt; 0$, $b \geq 0$.  The other cases are left as exercises.</paragraphs>
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ We will prove the case $a &gt; 0$, $b \geq 0$.  The other cases are left as exercises.</paragraphs>
                   <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                   <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  Fix $a &gt; 0$.
+                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Fix $a &gt; 0$.
 First, we prove the existence of the quotient $q$ and remainder $r$ for any $b \geq 0$,
 using mathematical induction.</paragraphs>
                     <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                     <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                      <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
+                      <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol" chapter_type="">
                         <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">The base step</paragraphs>
                       </strong>
-                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  corresponds to the case $0 \leq b &lt; a$.
+                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ corresponds to the case $0 \leq b &lt; a$.
 In this case, if we let $q = 0$ and $r = b$, then indeed $b = qa + r$,
 where $0 \leq r  = b &lt; a$.  Hence, $q$ and $r$ exist.</paragraphs>
                       <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                       <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                        <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
+                        <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol" chapter_type="">
                           <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">The inductive step</paragraphs>
                         </strong>
-                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  of the proof of the existence of $q$ and $r$ is as follows:
+                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ of the proof of the existence of $q$ and $r$ is as follows:
 Suppose the existence of the quotient and remainder holds for all non-negative $b' &lt; b$,
 we want to show that it must also hold for $b$.</paragraphs>
                         <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                         <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  First, we may assume that
+                          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ First, we may assume that
 $b \geq a$, since the case $b &lt; a$ has already been proved.  Let $b' = b - a$.
 Then, $0 \leq b' &lt; b$,
 so by the inductive hypothesis we have $b' = q'a + r'$
 for some $q', r' \in \mathbb{Z}$ such that $0 \leq r' &lt; a$.</paragraphs>
                           <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                           <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  This implies that $b = b' + a = (q' + 1)a + r'$.</paragraphs>
+                            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ This implies that $b = b' + a = (q' + 1)a + r'$.</paragraphs>
                             <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                             <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  So, if we let $q = q'+ 1$
+                              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ So, if we let $q = q'+ 1$
 and $r = r'$, then $b = qa + r$, where $0 \leq r &lt; a$.
 This establishes the existence of $q, r$ for $b$.
 Hence, by mathematical induction, the existence of $q, r$ holds for all $b \geq 0$.</paragraphs>
                               <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                               <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  Now we prove the uniqueness of $q$ and $r$.
+                                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Now we prove the uniqueness of $q$ and $r$.
 Suppose $b = qa + r = q'a + r'$, where $q, q', r, r' \in \mathbb{Z}$,
 with $0 \leq r, r' &lt; a$.</paragraphs>
                                 <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                                 <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  Then, $qa+ r = q'a+r'$ implies that $r - r' = (q' - q)a$.
+                                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Then, $qa+ r = q'a+r'$ implies that $r - r' = (q' - q)a$.
 Since $0 \leq r, r' &lt; a$, we have:</paragraphs>
                                   <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                                   <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  \[
+                                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ \[
 a &gt; \abs{r - r'} = \abs{q' - q} a.
 \]</paragraphs>
                                     <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                                     <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">  Since $q' - q$ is an integer, the above inequality implies that $q'  - q = 0$,
+                                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+ Since $q' - q$ is an integer, the above inequality implies that $q'  - q = 0$,
 i.e. $q' = q$, which then also implies that $r' = r$.
 We have therefore established the uniqueness of $q$ and $r$.</paragraphs>
                                       <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
-                                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">The proof of the theorem, for the case $a &gt; 0, b \geq 0$, is now complete. </paragraphs>
-                                      <qed course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
+                                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">The proof of the theorem, for the case $a &gt; 0, b \geq 0$, is now complete.
+</paragraphs>
+                                      <qed course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="qed"/>
+                                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
                                     </collapse>
                                   </collapse>
                                 </collapse>
@@ -499,19 +704,28 @@ We have therefore established the uniqueness of $q$ and $r$.</paragraphs>
                     </collapse>
                   </collapse>
                 </newcol>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
               </substatement>
               <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment=""/>
-              <h5 xmlns="http://www.w3.org/1999/xhtml" class="notkw" environment="">
+              <h5 xmlns="http://www.w3.org/1999/xhtml" environment="" chapter_type="" class="notkw">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">Another Proof of the </paragraphs>
-                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" label="thm:divalg" wbtag="ref" course="Math 2078" chapter="5" slide="12" src-course="Math 2078" src-chapter="5" src-slide="12" type="Theorem" item="5.11" src-filename="week5.xml" md5="e5d1712cf6968618cdae2a8007d5ffb6" class="lcref" serial="">
+                <ref xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" label="thm:divalg" wbtag="ref" course="Math 2078" chapter="5" slide="12" src-course="Math 2078" src-chapter="5" src-slide="12" type="Theorem" item="5.11" src-filename="week5.xml" md5="6ZEXpfZKLAq7mRJWHMqItM" class="lcref" serial="">
                   <title custom="true">Division Theorem</title>
                 </ref>
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">.</paragraphs>
               </h5>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" of="thm:divalg" md5="a1b6d9dac7b5465af27bb92534938056" course="Math 2078" chapter="5" slide="12" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="12" of-type="Theorem" of-item="5.11" of-src-filename="week5.xml" ofmd5="e5d1712cf6968618cdae2a8007d5ffb6" of-serial="">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" of="thm:divalg" md5="4V9kjZQEvA1IyixuLQg2Pk" course="Math 2078" chapter="5" slide="12" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="12" of-type="Theorem" of-item="5.11" of-src-filename="week5.xml" ofmd5="6ZEXpfZKLAq7mRJWHMqItM" of-serial="">
                 <of-title hidden="false">Division Theorem</of-title>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> We consider here the special case $b \geq 0$.
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+We consider here the special case $b \geq 0$.
 Consider the set:
 \[
 S = \{s \in \mathbb{Z}_{\geq 0 }\;:\; s = b - aq \text{ for some } q \in \mathbb{Z}.\}
@@ -522,12 +736,14 @@ By the Least Integer Axiom, there exists a minimum element $r \in S$.
 We claim that $r &lt; \abs{a}$:</paragraphs>
                   <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                   <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Suppose not, that is, $r \geq \abs{a}$.  By assumption:
+                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+Suppose not, that is, $r \geq \abs{a}$.  By assumption:
 $r = b - aq$
 for some $q \in \mathbb{Z}$.</paragraphs>
                     <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                     <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider the element $r' = r - \abs{a}$.  Then, $0 \leq r'$ and moreover:
+                      <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+Consider the element $r' = r - \abs{a}$.  Then, $0 \leq r'$ and moreover:
 \[
 r' = (b - aq) - \abs{a} = b - (q \pm 1)a,
 \]
@@ -537,32 +753,35 @@ which contradicts the minimality of $r$.  We conclude that $r &lt; \abs{a}$.
 This establishes the existence of the remainder $r$.</paragraphs>
                       <newline course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol"/>
                       <collapse course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> The existence of $q$ in the theorem is now also clear.  We leave the proof of the uniqueness of $r$ and $q$ as an exercise. </paragraphs>
+                        <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+The existence of $q$ in the theorem is now also clear.  We leave the proof of the uniqueness of $r$ and $q$ as an exercise.
+</paragraphs>
                       </collapse>
                     </collapse>
                   </collapse>
                 </newcol>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
               </substatement>
-              <comment course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="">@slide@keyword*{cyclic}@thm
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <comment course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="">
+@slide
+@keyword*{cyclic}
+@thm
 Every subgroup of $\mathbb{Z}$ is cyclic.
-@end@proof@newcol
+@end
+@proof
+@newcol
 First, we note that the group operation $\ast$ on $\mathbb{Z}$
 is integer addition, with $e_{\mathbb{Z}} = 0$,
-and $z^{\ast -1} = -z$ for any $z \in \mathbb{Z}$.
-
-@col
+and $z^{\ast -1} = -z$ for any $z \in \mathbb{Z}$.@newline@col
 Let $H$ be a nontrivial (i.e. contains more than one element)
 subgroup of $\mathbb{Z}$.
 Since for any $h \in H$ we also have $-h \in H$,
-$H$ contains at least one positive element.
-
-@col
+$H$ contains at least one positive element.@newline@col
 Let $d$ be the least positive integer in $H$.
-It exists because of the Least Integer Axiom.
-
-We claim that $H = \langle d \rangle$:
-
-@col
+It exists because of the Least Integer Axiom.@newlineWe claim that $H = \langle d \rangle$:@newline@col
 For any $h \in H$,
 by the Division Theorem for Integers we have $h = dq + r$
 for some $r, q \in \mathbb{Z}$, such that $0 \leq r &lt; d$.  Then,
@@ -573,118 +792,179 @@ if $q \geq 0$, or
 \[
 r = h - dq = h - (\underbrace{(-d) + (-d) + \ldots + (-d)}_{q \text{ times}})
 \]
-if $q &lt; 0$.
-
-@col
+if $q &lt; 0$.@newline@col
 In either case, since $H$ is a subgroup we have $r \in H$.  If $r &gt; 0$, then we have
 a positive element in $H$ which is strictly less than $d$, which contradicts
 the minimality of $d$.  Hence, $r = 0$, from which it follows that any $h \in H$
 is equal to $dq = d^{\ast q}$ for some $q \in \mathbb{Z}$.
 This shows that $H = \langle d \rangle$.
-@endcol@end
-
-@ex@newcol
+@endcol
+@end@newline@ex
+@newcol
 Let $n$ be a positive integer.
 Every subgroup of $\mathbb{Z}_n$ is cyclic.
-@endcol@end
-
-@cor@newcol
+@endcol
+@end@newline@cor
+@newcol
 Every subgroup of a cyclic group is cyclic.
-@endcol@end</comment>
+@endcol
+@end
+</comment>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="2" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
             </slide>
           </slides>
         </subsection>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Further Results in Elementary Number Theory" course="Math 2078" chapter="5" num="3" serial="5.3">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="3" subsection="" subsubsection="" serial="" slide="">
-          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Further Results in Elementary Number Theory</paragraphs>
+          <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Further Results in Elementary Number Theory
+</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="13" scope="section" id="s13" slide="13" course="Math 2078" chapter="5" section="3" subsection="" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+          <slide environment="" chapter_type="Week" canon_num="13" scope="section" id="s13" slide="13" course="Math 2078" chapter="5" section="3" subsection="" subsubsection="" chapter_title="5" section_title="Further Results in Elementary Number Theory">
             <keywords slide="13" environ="slide" chapter="5" course="Math 2078">
               <keyword chapter="5" slide="13">Greatest Common Divisor</keyword>
             </keywords>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 2078" chapter="5" section="3" subsection="" subsubsection="" serial="" slide="13">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Further Results in Elementary Number Theory</paragraphs>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Further Results in Elementary Number Theory
+</paragraphs>
             </title>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="12" md5="87cca6808c169218e4e5678f4dc19ea2" course="Math 2078" chapter="5" slide="13" item="5.12">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The </paragraphs>
-              <inline_keyword course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">Greatest Common Divisor</inline_keyword>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="12" md5="48fumabNA6BY9YtHLJYl8e" course="Math 2078" chapter="5" slide="13" item="5.12">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+The </paragraphs>
+              <inline_keyword course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="keyword">Greatest Common Divisor</inline_keyword>
               <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $gcd(a, b)$ of $a, b \in \mathbb{Z}$ is the largest positive integer
-$d$ which divides both $a$ and $b$ (Notation: $d | a$ and $d | b$). </paragraphs>
+$d$ which divides both $a$ and $b$ (Notation: $d | a$ and $d | b$).
+</paragraphs>
             </statement>
             <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="" chapter_type="">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">Note.</paragraphs>
             </strong>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
             <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
-$gcd(0, 0)$ is undefined. </paragraphs>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+If $a \neq 0$, then $gcd(a, 0) = \abs{a}$.
+$gcd(0, 0)$ is undefined.
+</paragraphs>
             </newcol>
             <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
           </slide>
         </slides>
         <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Euclidean Algorithm" course="Math 2078" chapter="5" section="3" num="1" serial="5.3.1">
           <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="3" subsection="" subsubsection="" serial="5.3.1" slide="">
-            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
+            <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">
+Euclidean Algorithm
+</paragraphs>
           </title>
           <label wbtag="label" name="sec:euclidalg" type="Section"/>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="14" scope="subsection" id="s14" slide="14" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+            <slide environment="" chapter_type="Week" canon_num="14" scope="subsection" id="s14" slide="14" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" chapter_title="5" section_title="Further Results in Elementary Number Theory">
               <keywords slide="14" environ="slide" chapter="5" course="Math 2078"/>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
               <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" serial="" slide="14">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Euclidean Algorithm</paragraphs>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">
+Euclidean Algorithm
+</paragraphs>
               </title>
-              <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="13" md5="887e4de79f26f195c5f15feb518dbea2" course="Math 2078" chapter="5" slide="14" item="5.13">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <statement environment="statement" chapter_type="Week" type="Lemma" wbtag="lemma" num="13" md5="49yG15LF6AahfyowocyAL0" course="Math 2078" chapter="5" slide="14" item="5.13">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
-$gcd(b, a) = gcd (a, r)$. </paragraphs>
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+If $b = aq + r$ $(a, b, q, r \in \mathbb{Z})$, then
+$gcd(b, a) = gcd (a, r)$.
+</paragraphs>
                 </newcol>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="63475b8aa52063e05bea96092ef61a13" course="Math 2078" chapter="5" slide="14" of="887e4de79f26f195c5f15feb518dbea2" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="14" of-type="Lemma" of-item="5.13" of-src-filename="week5.xml" ofmd5="887e4de79f26f195c5f15feb518dbea2" of-serial="">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="31kQKMfOD6KBIoIjlPRuJd" course="Math 2078" chapter="5" slide="14" of="49yG15LF6AahfyowocyAL0" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="14" of-type="Lemma" of-item="5.13" of-src-filename="week5.xml" ofmd5="49yG15LF6AahfyowocyAL0" of-serial="">
                 <of-title hidden="true">Lemma 5.13</of-title>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $d | a$ and $d | b$, then $d | r = b - aq$.
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+If $d | a$ and $d | b$, then $d | r = b - aq$.
 Conversely, if $d | a$ and $d | r$, then $d|a$ and $d|b = qa+r$.
 So, the set of common divisors of $a, b$ is the same as the set of the common divisors of $a, r$.
 If two finite sets of integers are the same, then their largest elements are clearly the same.
 In other words:
 \[
 gcd(b, a) = gcd(a, r).
-\] </paragraphs>
-                  <qed course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol"/>
+\]
+</paragraphs>
+                  <qed course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="qed"/>
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
                 </newcol>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
               </substatement>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" chapter_title="5" section_title="Further Results in Elementary Number Theory">
               <keywords slide="15" environ="slide" chapter="5" course="Math 2078"/>
-              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> Suppose $\abs{b} \geq \abs{a}$.  Let $b_0 = b$, $a_0 = a$.
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+Suppose $\abs{b} \geq \abs{a}$.  Let $b_0 = b$, $a_0 = a$.
 Write $b_0 = a_0q_0 + r_0$, where $0 \leq r_0 &lt; \abs{a_0}$.</paragraphs>
               <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment=""/>
               <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> For $n &gt; 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+For $n &gt; 0$, let $b_n = a_{n - 1}$ and $a_n = r_{n - 1}$, where
 $r_n$ is the remainder of the division of $b_n$ by $a_n$.  That is,
 \[
 b_n = a_nq_n + r_n, \quad  0 \leq r_n &lt; \abs{a_n}.
-\] </paragraphs>
+\]
+</paragraphs>
                 <collapse course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+If $r_0 = 0$, then that means that $a | b$, and $gcd(a, b) = \abs{a}$.
 Now, suppose $r_0 &gt; 0$.
 Since $r_n$ is a non-negative integer and  $0 \leq r_n &lt; r_{n - 1}$,
-eventually, $r_n = 0$ for some $n \in \mathbb{N}$. </paragraphs>
+eventually, $r_n = 0$ for some $n \in \mathbb{N}$.
+</paragraphs>
                 </collapse>
               </newcol>
               <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="14" md5="96bd55f3415684903f8186b9daa9d61f" course="Math 2078" chapter="5" slide="15" item="5.14">
+              <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="14" md5="4ArnihE0JLZ6iewDdltx4r" course="Math 2078" chapter="5" slide="15" item="5.14">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> $gcd(b, a) = \abs{a_n}$. </paragraphs>
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+$gcd(b, a) = \abs{a_n}$.
+</paragraphs>
                 </newcol>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
               </statement>
-              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="05f68b7f8885b17bcd4531483757564a" course="Math 2078" chapter="5" slide="15" of="96bd55f3415684903f8186b9daa9d61f" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="15" of-type="Claim" of-item="5.14" of-src-filename="week5.xml" ofmd5="96bd55f3415684903f8186b9daa9d61f" of-serial="">
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="0bfDf9SmzuiSGdVZGTIDxw" course="Math 2078" chapter="5" slide="15" of="4ArnihE0JLZ6iewDdltx4r" of-src-course="Math 2078" of-src-chapter="5" of-src-slide="15" of-type="Claim" of-item="5.14" of-src-filename="week5.xml" ofmd5="4ArnihE0JLZ6iewDdltx4r" of-serial="">
                 <of-title hidden="true">Claim 5.14</of-title>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> By the previous lemma, </paragraphs>
-                  <steps course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+By the previous lemma,
+</paragraphs>
+                  <steps course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="steps" wbtag="steps" stepsid="steps2">
 \[
 \begin{split}
 gcd(b, a) &amp;= gcd(b_0, a_0)\\
@@ -704,16 +984,23 @@ gcd(b, a) &amp;= gcd(b_0, a_0)\\
 </steps>
                   <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol"/>
                 </newcol>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
               </substatement>
               <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment=""/>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" chapter_title="" section_title="Further Results in Elementary Number Theory">
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 2078" chapter="5" section="3" subsection="1" subsubsection="" chapter_title="5" section_title="Further Results in Elementary Number Theory">
               <keywords slide="16" environ="slide" chapter="5" course="Math 2078"/>
-              <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="94c8703b764dcd10a22565a41554a300" course="Math 2078" chapter="5" slide="16" item="5.15">
-                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Find $gcd(285,255)$.</paragraphs>
+              <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+              <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="15" md5="4wKsPt2BUgL7ZKLfw1hmVi" course="Math 2078" chapter="5" slide="16" item="5.15">
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+Find $gcd(285,255)$.</paragraphs>
                 <newline course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement"/>
                 <newcol course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                  <steps course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
+                  <steps course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="steps" wbtag="steps" stepsid="steps3">
 \[
 \begin{split}
 \underbrace{285}_{b_0} &amp;= \underbrace{255}_{a_0} \underbrace{1}_{q_0} + \underbrace{30}_{r_0}
@@ -728,10 +1015,16 @@ gcd(b, a) &amp;= gcd(b_0, a_0)\\
 \end{split}
 \]
 </steps>
+                  <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
                   <collapse course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> So, $gcd(285, 255) = r_1 = 15$. </paragraphs>
+                    <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs">
+So, $gcd(285, 255) = r_1 = 15$.
+</paragraphs>
                   </collapse>
                 </newcol>
+                <paragraphs course="Math 2078" chapter="5" chapter_type="" section="3" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
               </statement>
             </slide>
           </slides>

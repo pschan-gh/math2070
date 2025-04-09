@@ -557,14 +557,21 @@ Find the minimal polynomial of $2 - \sqrt[3]{6} \in \mathbb{R}$ over $\mathbb{Q}
             <keywords slide="8" environ="slide" chapter="13" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="8" md5="0Ds4sWQMzgbnQB3TW2yu0C" course="Math 2078" chapter="13" slide="8" item="13.8">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="8" md5="2HWusftjnJpObcy9KYxoOc" course="Math 2078" chapter="13" slide="8" item="13.8">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-Find the minimal polynomial of $\sqrt{3} + \sqrt{2}$ over $\mathbb{Q}$.
+Find the minimal polynomial of $\sqrt{2} + \sqrt{3}$ over $\mathbb{Q}$.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="9" md5="4j5AZUJ9rnyuxezbFmNFW7" course="Math 2078" chapter="13" slide="8" item="13.9">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="9" md5="03UvAeRWAQO7MVdXPy4TAk" course="Math 2078" chapter="13" slide="8" item="13.9">
+              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+Show that $\mathbb{Q}(\sqrt{2}, \sqrt{3}) = \mathbb{Q}(\sqrt{2})(\sqrt{3}) = \mathbb{Q}(\sqrt{2} + \sqrt{3})$.
+</paragraphs>
+            </statement>
+            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="10" md5="4j5AZUJ9rnyuxezbFmNFW7" course="Math 2078" chapter="13" slide="8" item="13.10">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -658,7 +665,7 @@ Splitting Field
             </title>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="5XwFHwANWcgGHp3XnFfewG" course="Math 2078" chapter="13" slide="10" item="13.10">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="5XwFHwANWcgGHp3XnFfewG" course="Math 2078" chapter="13" slide="10" item="13.11">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Since $\sqrt[3]{2} \in \mathbb{Q}(\sqrt[3]{2})$ is a root of $x^3 - 2$,
 the polynomial $p = x^3 - 2$ has a linear factor in
@@ -688,7 +695,7 @@ That is the main idea behind the following theorem:
             </newcol>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" md5="2l92VMA7iounrRA5qMgQ4n" course="Math 2078" chapter="13" slide="10" item="13.11">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="2l92VMA7iounrRA5qMgQ4n" course="Math 2078" chapter="13" slide="10" item="13.12">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -712,8 +719,8 @@ for some $c, \alpha_i \in K$.
             </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="57JBD3uqTVwg48GslCpdk9" course="Math 2078" chapter="13" slide="10" of="2l92VMA7iounrRA5qMgQ4n" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="10" of-type="Theorem" of-item="13.11" of-src-filename="week13.xml" ofmd5="2l92VMA7iounrRA5qMgQ4n" of-serial="">
-              <of-title hidden="true">Theorem 13.11</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="57JBD3uqTVwg48GslCpdk9" course="Math 2078" chapter="13" slide="10" of="2l92VMA7iounrRA5qMgQ4n" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="10" of-type="Theorem" of-item="13.12" of-src-filename="week13.xml" ofmd5="2l92VMA7iounrRA5qMgQ4n" of-serial="">
+              <of-title hidden="true">Theorem 13.12</of-title>
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -816,7 +823,7 @@ Finite Fields
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 Recall:
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="12" md5="7xsp7pomYabOkwuLQ5HTxF" course="Math 2078" chapter="13" slide="11" item="13.12">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="13" md5="7xsp7pomYabOkwuLQ5HTxF" course="Math 2078" chapter="13" slide="11" item="13.13">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $R$ be a ring with additive and multiplicative identity elements $0$, $1$,
 respectively.
@@ -838,7 +845,7 @@ If such an integer does not exist, we say that the ring has </paragraphs>
             <keywords slide="12" environ="slide" chapter="13" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="0t23bzhFtUIFmax8qtcDx5" course="Math 2078" chapter="13" slide="12" item="13.13">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="0t23bzhFtUIFmax8qtcDx5" course="Math 2078" chapter="13" slide="12" item="13.14">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <itemize course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="itemize" wbtag="itemize">
@@ -859,7 +866,7 @@ ${\rm char}\, \mathbb{Z}_6 = 6$.
 </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="14" md5="4j2lhFhEfY64VIYfr5SUhU" course="Math 2078" chapter="13" slide="12" item="13.14">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="15" md5="4j2lhFhEfY64VIYfr5SUhU" course="Math 2078" chapter="13" slide="12" item="13.15">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -871,7 +878,7 @@ If a ring $R$ as finitely many elements, then it has positive (i.e. nonzero) cha
 </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="15" md5="5qOYevg3qEUu1UZxm1V9Eh" course="Math 2078" chapter="13" slide="12" item="13.15">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="16" md5="5qOYevg3qEUu1UZxm1V9Eh" course="Math 2078" chapter="13" slide="12" item="13.16">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -884,7 +891,7 @@ then ${\rm char}\, F$ is a prime number.
 </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="16" md5="5HFRBUE5xtBf0CiPOlfzSw" course="Math 2078" chapter="13" slide="12" item="13.16">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="17" md5="5HFRBUE5xtBf0CiPOlfzSw" course="Math 2078" chapter="13" slide="12" item="13.17">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -917,7 +924,7 @@ e.g. the polynomial ring $\mathbb{F}_5[x]$.
             <keywords slide="13" environ="slide" chapter="13" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="17" md5="181NJPREnksNgZ5LNSoQPh" course="Math 2078" chapter="13" slide="13" item="13.17">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="18" md5="181NJPREnksNgZ5LNSoQPh" course="Math 2078" chapter="13" slide="13" item="13.18">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
 for some prime $p$ and $n \in \mathbb{N}$.
@@ -925,8 +932,8 @@ for some prime $p$ and $n \in \mathbb{N}$.
             </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1Gs2uWFiIfMlKetpKsghTI" course="Math 2078" chapter="13" slide="13" of="181NJPREnksNgZ5LNSoQPh" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="13" of-type="Claim" of-item="13.17" of-src-filename="week13.xml" ofmd5="181NJPREnksNgZ5LNSoQPh" of-serial="">
-              <of-title hidden="true">Claim 13.17</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1Gs2uWFiIfMlKetpKsghTI" course="Math 2078" chapter="13" slide="13" of="181NJPREnksNgZ5LNSoQPh" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="13" of-type="Claim" of-item="13.18" of-src-filename="week13.xml" ofmd5="181NJPREnksNgZ5LNSoQPh" of-serial="">
+              <of-title hidden="true">Claim 13.18</of-title>
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -980,7 +987,7 @@ it follows that $F$ has $p^n$ elements.
             <keywords slide="14" environ="slide" chapter="13" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="18" md5="1fk0rSqVozDTbINZvJ6DKC" course="Math 2078" chapter="13" slide="14" item="13.18">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="19" md5="1fk0rSqVozDTbINZvJ6DKC" course="Math 2078" chapter="13" slide="14" item="13.19">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
 then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
@@ -988,8 +995,8 @@ then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
             </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3XgNnq0b1kyWgvmLehNNVn" course="Math 2078" chapter="13" slide="14" of="1fk0rSqVozDTbINZvJ6DKC" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="14" of-type="Claim" of-item="13.18" of-src-filename="week13.xml" ofmd5="1fk0rSqVozDTbINZvJ6DKC" of-serial="">
-              <of-title hidden="true">Claim 13.18</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3XgNnq0b1kyWgvmLehNNVn" course="Math 2078" chapter="13" slide="14" of="1fk0rSqVozDTbINZvJ6DKC" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="14" of-type="Claim" of-item="13.19" of-src-filename="week13.xml" ofmd5="1fk0rSqVozDTbINZvJ6DKC" of-serial="">
+              <of-title hidden="true">Claim 13.19</of-title>
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -1024,7 +1031,7 @@ we conclude that $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
 </paragraphs>
             </substatement>
             <newline course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="19" md5="7hQWHnsSKFmTYsEl4ivb0x" course="Math 2078" chapter="13" slide="14" item="13.19">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="20" md5="7hQWHnsSKFmTYsEl4ivb0x" course="Math 2078" chapter="13" slide="14" item="13.20">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -1044,7 +1051,7 @@ then the field $k[x]/(f)$ has $\abs{k}^n$ elements.
             <keywords slide="15" environ="slide" chapter="13" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="20" md5="6nizuV9zqKHoBlRf00j5Wd" course="Math 2078" chapter="13" slide="15" item="13.20">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="21" md5="6nizuV9zqKHoBlRf00j5Wd" course="Math 2078" chapter="13" slide="15" item="13.21">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $p = 2$, $n = 2$.  To construct a finite field with $p^n = 4$ elements.
 We first start with the finite field $\mathbb{F}_2$,
@@ -1077,7 +1084,7 @@ is a field with $4$ elements.
             </keywords>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="21" title="Galois" md5="1ngtPIKjex2dCmwrAm3HHO" course="Math 2078" chapter="13" slide="16" item="13.21">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="22" title="Galois" md5="1ngtPIKjex2dCmwrAm3HHO" course="Math 2078" chapter="13" slide="16" item="13.22">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="13" section="4" subsection="" subsubsection="" serial="" slide="16">Galois</title>
@@ -1088,7 +1095,7 @@ there exists a finite field $F$ with $p^n$ elements.
             </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="2YPMovSp2lI3beCIv9yM7J" course="Math 2078" chapter="13" slide="16" of="1ngtPIKjex2dCmwrAm3HHO" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="16" of-type="Theorem" of-item="13.21" of-src-filename="week13.xml" ofmd5="1ngtPIKjex2dCmwrAm3HHO" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="2YPMovSp2lI3beCIv9yM7J" course="Math 2078" chapter="13" slide="16" of="1ngtPIKjex2dCmwrAm3HHO" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="16" of-type="Theorem" of-item="13.22" of-src-filename="week13.xml" ofmd5="1ngtPIKjex2dCmwrAm3HHO" of-serial="">
               <of-title hidden="true">Galois</of-title>
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 (Not within the scope of the course.)</paragraphs>
@@ -1106,7 +1113,7 @@ Let:
 F = \{\alpha \in K : f(\alpha) = 0\}.
 \]</paragraphs>
                 <newline course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol"/>
-                <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="22" md5="3EaccWkyKn2EAqtWQSUYMr" course="Math 2078" chapter="13" slide="16" item="13.22">
+                <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="23" md5="3EaccWkyKn2EAqtWQSUYMr" course="Math 2078" chapter="13" slide="16" item="13.23">
                   <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $g = (x - a_1)(x - a_2)\cdots(x - a_n)$ be a polynomial in $k[x]$,
 where $k$ is a field.  Show that the roots $a_1, a_2, \ldots, a_n$ are distinct
@@ -1192,7 +1199,7 @@ Finite Fields
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 Recall:
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="23" md5="7xsp7pomYabOkwuLQ5HTxF" course="Math 2078" chapter="13" slide="17" item="13.23">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="24" md5="7xsp7pomYabOkwuLQ5HTxF" course="Math 2078" chapter="13" slide="17" item="13.24">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $R$ be a ring with additive and multiplicative identity elements $0$, $1$,
 respectively.
@@ -1213,7 +1220,7 @@ If such an integer does not exist, we say that the ring has </paragraphs>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="18" id="s18" slide="18" course="Math 2078" chapter="13" section="5" subsection="" subsubsection="" chapter_title="13" section_title="Finite Fields">
             <keywords slide="18" environ="slide" chapter="13" course="Math 2078"/>
             <newline course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="24" md5="0t23bzhFtUIFmax8qtcDx5" course="Math 2078" chapter="13" slide="18" item="13.24">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="25" md5="0t23bzhFtUIFmax8qtcDx5" course="Math 2078" chapter="13" slide="18" item="13.25">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement" chapter_type="">
@@ -1230,7 +1237,7 @@ If such an integer does not exist, we say that the ring has </paragraphs>
 </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="25" md5="4j2lhFhEfY64VIYfr5SUhU" course="Math 2078" chapter="13" slide="18" item="13.25">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="26" md5="4j2lhFhEfY64VIYfr5SUhU" course="Math 2078" chapter="13" slide="18" item="13.26">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -1242,7 +1249,7 @@ If a ring $R$ as finitely many elements, then it has positive (i.e. nonzero) cha
 </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="26" md5="5qOYevg3qEUu1UZxm1V9Eh" course="Math 2078" chapter="13" slide="18" item="13.26">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="27" md5="5qOYevg3qEUu1UZxm1V9Eh" course="Math 2078" chapter="13" slide="18" item="13.27">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -1255,7 +1262,7 @@ then ${\rm char}\, F$ is a prime number.
 </paragraphs>
             </statement>
             <newline course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="27" md5="5HFRBUE5xtBf0CiPOlfzSw" course="Math 2078" chapter="13" slide="18" item="13.27">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="28" md5="5HFRBUE5xtBf0CiPOlfzSw" course="Math 2078" chapter="13" slide="18" item="13.28">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -1286,7 +1293,7 @@ e.g. the polynomial ring $\mathbb{F}_5[x]$.
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="19" id="s19" slide="19" course="Math 2078" chapter="13" section="5" subsection="" subsubsection="" chapter_title="13" section_title="Finite Fields">
             <keywords slide="19" environ="slide" chapter="13" course="Math 2078"/>
             <newline course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="28" md5="181NJPREnksNgZ5LNSoQPh" course="Math 2078" chapter="13" slide="19" item="13.28">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="29" md5="181NJPREnksNgZ5LNSoQPh" course="Math 2078" chapter="13" slide="19" item="13.29">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
 for some prime $p$ and $n \in \mathbb{N}$.
@@ -1294,8 +1301,8 @@ for some prime $p$ and $n \in \mathbb{N}$.
             </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1Gs2uWFiIfMlKetpKsghTI" course="Math 2078" chapter="13" slide="19" of="181NJPREnksNgZ5LNSoQPh" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="13" of-type="Claim" of-item="13.17" of-src-filename="week13.xml" ofmd5="181NJPREnksNgZ5LNSoQPh" of-serial="">
-              <of-title hidden="true">Claim 13.17</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1Gs2uWFiIfMlKetpKsghTI" course="Math 2078" chapter="13" slide="19" of="181NJPREnksNgZ5LNSoQPh" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="13" of-type="Claim" of-item="13.18" of-src-filename="week13.xml" ofmd5="181NJPREnksNgZ5LNSoQPh" of-serial="">
+              <of-title hidden="true">Claim 13.18</of-title>
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -1347,7 +1354,7 @@ it follows that $F$ has $p^n$ elements.
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="20" id="s20" slide="20" course="Math 2078" chapter="13" section="5" subsection="" subsubsection="" chapter_title="13" section_title="Finite Fields">
             <keywords slide="20" environ="slide" chapter="13" course="Math 2078"/>
             <newline course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="29" md5="1fk0rSqVozDTbINZvJ6DKC" course="Math 2078" chapter="13" slide="20" item="13.29">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="30" md5="1fk0rSqVozDTbINZvJ6DKC" course="Math 2078" chapter="13" slide="20" item="13.30">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
 then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
@@ -1355,8 +1362,8 @@ then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
             </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3XgNnq0b1kyWgvmLehNNVn" course="Math 2078" chapter="13" slide="20" of="1fk0rSqVozDTbINZvJ6DKC" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="14" of-type="Claim" of-item="13.18" of-src-filename="week13.xml" ofmd5="1fk0rSqVozDTbINZvJ6DKC" of-serial="">
-              <of-title hidden="true">Claim 13.18</of-title>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3XgNnq0b1kyWgvmLehNNVn" course="Math 2078" chapter="13" slide="20" of="1fk0rSqVozDTbINZvJ6DKC" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="14" of-type="Claim" of-item="13.19" of-src-filename="week13.xml" ofmd5="1fk0rSqVozDTbINZvJ6DKC" of-serial="">
+              <of-title hidden="true">Claim 13.19</of-title>
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -1391,7 +1398,7 @@ we conclude that $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
 </paragraphs>
             </substatement>
             <newline course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="30" md5="7hQWHnsSKFmTYsEl4ivb0x" course="Math 2078" chapter="13" slide="20" item="13.30">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="31" md5="7hQWHnsSKFmTYsEl4ivb0x" course="Math 2078" chapter="13" slide="20" item="13.31">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -1410,7 +1417,7 @@ then the field $k[x]/(f)$ has $\abs{k}^n$ elements.
             <keywords slide="21" environ="slide" chapter="13" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="31" md5="6nizuV9zqKHoBlRf00j5Wd" course="Math 2078" chapter="13" slide="21" item="13.31">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="32" md5="6nizuV9zqKHoBlRf00j5Wd" course="Math 2078" chapter="13" slide="21" item="13.32">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 Let $p = 2$, $n = 2$.  To construct a finite field with $p^n = 4$ elements.
 We first start with the finite field $\mathbb{F}_2$,
@@ -1443,7 +1450,7 @@ is a field with $4$ elements.
             </keywords>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="32" title="Galois" md5="1ngtPIKjex2dCmwrAm3HHO" course="Math 2078" chapter="13" slide="22" item="13.32">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="33" title="Galois" md5="1ngtPIKjex2dCmwrAm3HHO" course="Math 2078" chapter="13" slide="22" item="13.33">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
 </paragraphs>
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 2078" chapter="13" section="5" subsection="" subsubsection="" serial="" slide="22">Galois</title>
@@ -1454,7 +1461,7 @@ there exists a finite field $F$ with $p^n$ elements.
             </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="19d1FdLTjzwavaIUKXkCsT" course="Math 2078" chapter="13" slide="22" of="1ngtPIKjex2dCmwrAm3HHO" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="16" of-type="Theorem" of-item="13.21" of-src-filename="week13.xml" ofmd5="1ngtPIKjex2dCmwrAm3HHO" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="19d1FdLTjzwavaIUKXkCsT" course="Math 2078" chapter="13" slide="22" of="1ngtPIKjex2dCmwrAm3HHO" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="16" of-type="Theorem" of-item="13.22" of-src-filename="week13.xml" ofmd5="1ngtPIKjex2dCmwrAm3HHO" of-serial="">
               <of-title hidden="true">Galois</of-title>
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="5" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 (Not within the scope of the course.)</paragraphs>

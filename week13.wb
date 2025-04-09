@@ -258,7 +258,10 @@ Find the minimal polynomial of $2 - \sqrt[3]{6} \in \mathbb{R}$ over $\mathbb{Q}
 
 @slide
 @ex
-Find the minimal polynomial of $\sqrt{3} + \sqrt{2}$ over $\mathbb{Q}$.
+Find the minimal polynomial of $\sqrt{2} + \sqrt{3}$ over $\mathbb{Q}$.
+@end
+@ex
+Show that $\mathbb{Q}(\sqrt{2}, \sqrt{3}) = \mathbb{Q}(\sqrt{2})(\sqrt{3}) = \mathbb{Q}(\sqrt{2} + \sqrt{3})$.
 @end
 @ex
 @newcol

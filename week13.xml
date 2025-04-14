@@ -501,7 +501,7 @@ is unique.
 </paragraphs>
               <li environment="" chapter_type="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $\alpha$ be an element in a field extension $K$ of a field $k$.
-If there exists a polynomial $p \in k[x]$ of which $\alpha$
+If there exists a nonzero polynomial $p \in k[x]$ of which $\alpha$
 is a root, then $\alpha$ is said to be </paragraphs>
                 <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="keyword">algebraic</inline_keyword>
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> </paragraphs>

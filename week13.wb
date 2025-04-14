@@ -241,7 +241,7 @@ is unique.
 <h5>Terminology:</h5><ul>
 <li> If $k$ is a subfield of $K$, we say that $K$ is a @keyword{field extension} of $k$. </li>
 <li> Let $\alpha$ be an element in a field extension $K$ of a field $k$.
-If there exists a polynomial $p \in k[x]$ of which $\alpha$
+If there exists a nonzero polynomial $p \in k[x]$ of which $\alpha$
 is a root, then $\alpha$ is said to be @keyword{algebraic} <b class="notkw">over $k$</b>. </li>
 <li> If $\alpha \in K$ is algebraic over $k$, then there exists a unique <em>monic irreducible</em> polynomial $p \in k[x]$ of which $\alpha$ is a root (@keyword{Exercise}).
 This polynomial $p$ is called the @keyword{minimal polynomial} of $\alpha$ over $k$. </li></ul>

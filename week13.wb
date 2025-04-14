@@ -360,7 +360,7 @@ we conclude that $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
 @endcol
 @end
 
-@cor
+@claim
 @newcol
 If $k$ is a finite field with $\abs{k}$ elements,
 and $f$ is an irreducible polynomial of degree $n$ in $k[x]$,

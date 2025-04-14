@@ -336,40 +336,6 @@ e.g. the polynomial ring $\mathbb{F}_5[x]$.
 @end
 @slide
 @claim
-Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
-for some prime $p$ and $n \in \mathbb{N}$.
-@end
-@proof
-@newcol
-Since $F$ is finite, it has finite characteristic.  Since it is a field,
-$\mathrm{char}\, F$ is a prime $p$.
-
-@col
-@keyword{Exercise:} $\mathbb{F}_p$ is isomorphic to a subfield of $F$.
-
-@col
-Viewing $\mathbb{F}_p$ as a subfield of $F$,
-we see that $F$ is a vector space over $\mathbb{F}_p$.
-Since the cardinality of $F$ is finite, the dimension $n$ of $F$ over $\mathbb{F}_p$
-must necessarily be finite.
-
-@col
-Hence, there exist $n$ basis elements
-$\alpha_1, \alpha_2,\ldots, \alpha_{n }$ in $F$,
-such that each element of $F$ may be expressed uniquely as:
-\[
-c_1\alpha_1  + c_2\alpha_2 + \cdots + c_{n}\alpha_{n},
-\]
-where $c_i \in \mathbb{F}_p$.
-
-@col
-Since $\mathbb{F}_p$ has $p$ elements,
-it follows that $F$ has $p^n$ elements.
-@qed
-@endcol
-@end
-@slide
-@claim
 Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
 then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
 @end
@@ -399,6 +365,41 @@ we conclude that $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
 If $k$ is a finite field with $\abs{k}$ elements,
 and $f$ is an irreducible polynomial of degree $n$ in $k[x]$,
 then the field $k[x]/(f)$ has $\abs{k}^n$ elements.
+@endcol
+@end
+@corollary
+@col
+Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
+for some prime $p$ and $n \in \mathbb{N}$.
+@end
+@slide
+@proof
+@newcol
+Since $F$ is finite, it has finite characteristic.  Since it is a field,
+$\mathrm{char}\, F$ is a prime $p$.
+
+@col
+@keyword{Exercise:} $\mathbb{F}_p$ is isomorphic to a subfield of $F$.
+
+@col
+Viewing $\mathbb{F}_p$ as a subfield of $F$,
+we see that $F$ is a vector space over $\mathbb{F}_p$.
+Since the cardinality of $F$ is finite, the dimension $n$ of $F$ over $\mathbb{F}_p$
+must necessarily be finite.
+
+@col
+Hence, there exist $n$ basis elements
+$\alpha_1, \alpha_2,\ldots, \alpha_{n }$ in $F$,
+such that each element of $F$ may be expressed uniquely as:
+\[
+c_1\alpha_1  + c_2\alpha_2 + \cdots + c_{n}\alpha_{n},
+\]
+where $c_i \in \mathbb{F}_p$.
+
+@col
+Since $\mathbb{F}_p$ has $p$ elements,
+it follows that $F$ has $p^n$ elements.
+@qed
 @endcol
 @end
 @slide

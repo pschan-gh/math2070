@@ -764,16 +764,84 @@ e.g. the polynomial ring $\mathbb{F}_5[x]$.
             <keywords slide="12" environ="slide" chapter="13" course="Math 2078"/>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="16" md5="181NJPREnksNgZ5LNSoQPh" course="Math 2078" chapter="13" slide="12" item="13.16">
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="16" md5="1fk0rSqVozDTbINZvJ6DKC" course="Math 2078" chapter="13" slide="12" item="13.16">
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
-for some prime $p$ and $n \in \mathbb{N}$.
+Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
+then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
 </paragraphs>
             </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1Gs2uWFiIfMlKetpKsghTI" course="Math 2078" chapter="13" slide="12" of="181NJPREnksNgZ5LNSoQPh" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="12" of-type="Claim" of-item="13.16" of-src-filename="week13.xml" ofmd5="181NJPREnksNgZ5LNSoQPh" of-serial="">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3XgNnq0b1kyWgvmLehNNVn" course="Math 2078" chapter="13" slide="12" of="1fk0rSqVozDTbINZvJ6DKC" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="12" of-type="Claim" of-item="13.16" of-src-filename="week13.xml" ofmd5="1fk0rSqVozDTbINZvJ6DKC" of-serial="">
               <of-title hidden="true">Claim 13.16</of-title>
+              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
+              <newcol course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+Let $K = k[t]/(f(t))$,
+then $K$ is a field extension of $k$ which contains a root $\alpha$ of $f$,
+namely, $\alpha = t + (f(t))$.</paragraphs>
+                <newline course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+It is clear that $K = k(\alpha)$, since any element in $K = k[t]/(f(t))$ has the form $\sum b_i\alpha^i$, where $b_i \in k$.</paragraphs>
+                  <newline course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">On the other hand, by </paragraphs>
+                  <ref environment="newcol" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2078" chapter="13" slide="12" referrer-type="Proof" referrer-md5="3XgNnq0b1kyWgvmLehNNVn" src-course="Math 2078" src-chapter="13" src-slide="4" type="Theorem" item="13.4" src-filename="week13.xml" md5="2rJV0d3jrMvQA82nbk1f17" class="lcref" serial="">
+                    <title>Theorem 13.4</title>
+                  </ref>
+                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, every element in $k(\alpha)$ may be expressed uniquely in the form:
+\[
+c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f,
+\]
+which shows that $K = k(\alpha)$ is a vector space of dimension $\deg f$ over $k$.</paragraphs>
+                  <newline course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Since $K$ is simply $k[x]/(f)$ with the variable $x$ replaced with $t$,
+we conclude that $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
+</paragraphs>
+                  <qed course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="qed"/>
+                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+</paragraphs>
+                </collapse>
+              </newcol>
+              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+</paragraphs>
+            </substatement>
+            <newline course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="17" md5="7hQWHnsSKFmTYsEl4ivb0x" course="Math 2078" chapter="13" slide="12" item="13.17">
+              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
+              <newcol course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+If $k$ is a finite field with $\abs{k}$ elements,
+and $f$ is an irreducible polynomial of degree $n$ in $k[x]$,
+then the field $k[x]/(f)$ has $\abs{k}^n$ elements.
+</paragraphs>
+              </newcol>
+              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
+            </statement>
+            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="181NJPREnksNgZ5LNSoQPh" course="Math 2078" chapter="13" slide="12" item="13.18">
+              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+</paragraphs>
+              <newcol course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
+Let $F$ be a finite field.  Then, the number of elements of $F$ is equal to $p^n$
+for some prime $p$ and $n \in \mathbb{N}$.
+</paragraphs>
+              </newcol>
+            </statement>
+            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2078" chapter="13" section="3" subsection="" subsubsection="" chapter_title="13" section_title="Finite Fields">
+            <keywords slide="13" environ="slide" chapter="13" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1Gs2uWFiIfMlKetpKsghTI" course="Math 2078" chapter="13" slide="13" of="181NJPREnksNgZ5LNSoQPh" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="12" of-type="Corollary" of-item="13.18" of-src-filename="week13.xml" ofmd5="181NJPREnksNgZ5LNSoQPh" of-serial="">
+              <of-title hidden="true">Corollary 13.18</of-title>
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
               <newcol course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -820,70 +888,6 @@ it follows that $F$ has $p^n$ elements.
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
             </substatement>
-            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 2078" chapter="13" section="3" subsection="" subsubsection="" chapter_title="13" section_title="Finite Fields">
-            <keywords slide="13" environ="slide" chapter="13" course="Math 2078"/>
-            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="17" md5="1fk0rSqVozDTbINZvJ6DKC" course="Math 2078" chapter="13" slide="13" item="13.17">
-              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-Let $k$ be a field, $f$ a nonzero irreducible polynomial in $k[x]$,
-then $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
-</paragraphs>
-            </statement>
-            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
-</paragraphs>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="3XgNnq0b1kyWgvmLehNNVn" course="Math 2078" chapter="13" slide="13" of="1fk0rSqVozDTbINZvJ6DKC" of-src-course="Math 2078" of-src-chapter="13" of-src-slide="13" of-type="Claim" of-item="13.17" of-src-filename="week13.xml" ofmd5="1fk0rSqVozDTbINZvJ6DKC" of-serial="">
-              <of-title hidden="true">Claim 13.17</of-title>
-              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
-</paragraphs>
-              <newcol course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
-Let $K = k[t]/(f(t))$,
-then $K$ is a field extension of $k$ which contains a root $\alpha$ of $f$,
-namely, $\alpha = t + (f(t))$.</paragraphs>
-                <newline course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                <collapse course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
-It is clear that $K = k(\alpha)$, since any element in $K = k[t]/(f(t))$ has the form $\sum b_i\alpha^i$, where $b_i \in k$.</paragraphs>
-                  <newline course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">On the other hand, by </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="thm:simpleextthm" wbtag="ref" course="Math 2078" chapter="13" slide="13" referrer-type="Proof" referrer-md5="3XgNnq0b1kyWgvmLehNNVn" src-course="Math 2078" src-chapter="13" src-slide="4" type="Theorem" item="13.4" src-filename="week13.xml" md5="2rJV0d3jrMvQA82nbk1f17" class="lcref" serial="">
-                    <title>Theorem 13.4</title>
-                  </ref>
-                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, every element in $k(\alpha)$ may be expressed uniquely in the form:
-\[
-c_0 + c_1 \alpha + c_2\alpha^2 + \cdots + c_{n - 1}\alpha^{n - 1},\quad c_i \in k,\; n = \deg f,
-\]
-which shows that $K = k(\alpha)$ is a vector space of dimension $\deg f$ over $k$.</paragraphs>
-                  <newline course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Since $K$ is simply $k[x]/(f)$ with the variable $x$ replaced with $t$,
-we conclude that $k[x]/(f)$ is a vector space of dimension $\deg f$ over $k$.
-</paragraphs>
-                  <qed course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="qed"/>
-                  <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
-</paragraphs>
-                </collapse>
-              </newcol>
-              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
-</paragraphs>
-            </substatement>
-            <newline course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="18" md5="7hQWHnsSKFmTYsEl4ivb0x" course="Math 2078" chapter="13" slide="13" item="13.18">
-              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-</paragraphs>
-              <newcol course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">
-If $k$ is a finite field with $\abs{k}$ elements,
-and $f$ is an irreducible polynomial of degree $n$ in $k[x]$,
-then the field $k[x]/(f)$ has $\abs{k}^n$ elements.
-</paragraphs>
-              </newcol>
-              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
-</paragraphs>
-            </statement>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">
 </paragraphs>
           </slide>

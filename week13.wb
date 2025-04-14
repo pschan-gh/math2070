@@ -580,3 +580,7 @@ So, $a^{q -2}$ is a multiplicative inverse of $a$ in $F$.
 @qed
 @endcol
 @end
+@slide
+**Question:**
+
+If two subfields $E$ and $F$ of $\mathbb{R}$ are isomorphic to each other, must they be equal each other?

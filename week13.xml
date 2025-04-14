@@ -1194,6 +1194,18 @@ So, $a^{q -2}$ is a multiplicative inverse of $a$ in $F$.
               <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
 </paragraphs>
             </substatement>
+            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="17" id="s17" slide="17" course="Math 2078" chapter="13" section="4" subsection="" subsubsection="" chapter_title="13" section_title="Splitting Field">
+            <keywords slide="17" environ="slide" chapter="13" course="Math 2078"/>
+            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">
+</paragraphs>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="" chapter_type="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">Question:</paragraphs>
+            </strong>
+            <newline course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">If two subfields $E$ and $F$ of $\mathbb{R}$ are isomorphic to each other, must they be equal each other?</paragraphs>
           </slide>
         </slides>
       </section>

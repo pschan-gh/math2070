@@ -1206,6 +1206,19 @@ So, $a^{q -2}$ is a multiplicative inverse of $a$ in $F$.
             </strong>
             <newline course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
             <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">If two subfields $E$ and $F$ of $\mathbb{R}$ are isomorphic to each other, must they be equal each other?</paragraphs>
+            <newline course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="23" md5="3GTcl4fRI9hS4uh6amQTpT" course="Math 2078" chapter="13" slide="17" item="13.23">
+              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">
+$\displaystyle
+\mathbb{Q}(\pi) \cong \mathbb{Q}(e)
+$
+</paragraphs>
+            </statement>
+            <newline course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="7aeDfjzwm92sWECPKrNxhK" course="Math 2078" chapter="13" slide="17">
+              <paragraphs course="Math 2078" chapter="13" chapter_type="" section="4" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs">
+It is apparently an open problem whether $\mathbb{Q}(\pi) = \mathbb{Q}(e)$ as subfields of $\mathbb{R}$.</paragraphs>
+            </substatement>
           </slide>
         </slides>
       </section>

@@ -584,3 +584,12 @@ So, $a^{q -2}$ is a multiplicative inverse of $a$ in $F$.
 **Question:**
 
 If two subfields $E$ and $F$ of $\mathbb{R}$ are isomorphic to each other, must they be equal each other?
+
+@claim
+$\displaystyle
+\mathbb{Q}(\pi) \cong \mathbb{Q}(e)
+$
+@end
+
+@remark
+It is apparently an open problem whether $\mathbb{Q}(\pi) = \mathbb{Q}(e)$ as subfields of $\mathbb{R}$.
